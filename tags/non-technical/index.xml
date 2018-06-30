@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Non Technical on Greg Herlein</title>
+    <link>https://www.example.com/tags/non-technical/</link>
+    <description>Recent content in Non Technical on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 29 Jun 2018 14:39:29 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.example.com/tags/non-technical/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://www.example.com/post/hello-world/</link>
+      <pubDate>Fri, 29 Jun 2018 14:39:29 -0700</pubDate>
+      
+      <guid>https://www.example.com/post/hello-world/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been procrastinating setting up a real blog for&amp;hellip; well, years.  Now it&amp;rsquo;s here.  Read on for the why and the how.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
