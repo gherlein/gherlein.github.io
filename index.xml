@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greg Herlein</title>
-    <link>https://herlein.com/</link>
+    <link>https://gherlein.github.io/</link>
     <description>Recent content on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Fri, 29 Jun 2018 14:39:29 -0700</lastBuildDate>
     
-	<atom:link href="https://herlein.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gherlein.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello World</title>
-      <link>https://herlein.com/post/hello-world/</link>
+      <link>https://gherlein.github.io/post/hello-world/</link>
       <pubDate>Fri, 29 Jun 2018 14:39:29 -0700</pubDate>
       
-      <guid>https://herlein.com/post/hello-world/</guid>
+      <guid>https://gherlein.github.io/post/hello-world/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been procrastinating setting up a real blog for&amp;hellip; well, years.  Now it&amp;rsquo;s here.  Read on for the why and the how.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>About</title>
-      <link>https://herlein.com/about/</link>
+      <link>https://gherlein.github.io/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://herlein.com/about/</guid>
+      <guid>https://gherlein.github.io/about/</guid>
       <description>What is This? I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but it also sheds some light on me personally.
 About Me My name is Greg Herlein. I am an Engineering Leader and Maker based in San Francisco California.
 I am active on LinkedIn and sometimes on Twitter. I keep my open source work on Github.</description>
@@ -36,10 +36,10 @@ I am active on LinkedIn and sometimes on Twitter. I keep my open source work on 
     
     <item>
       <title>About</title>
-      <link>https://herlein.com/projects/</link>
+      <link>https://gherlein.github.io/projects/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://herlein.com/projects/</guid>
+      <guid>https://gherlein.github.io/projects/</guid>
       <description>Projects This is a short list of projects I am currently working on (or have built and am actively using):
  GoNetMon - Network use visualization writting in GoLang, using Prometheus and Kibana
  ouilookup - CLI tool written in go to look up the vendor for a given MAC address
