@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Greg Herlein</title>
-    <link>https://www.example.com/tags/</link>
+    <link>https://gherlein.github.io/tags/</link>
     <description>Recent content in Tags on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
     <lastBuildDate>Fri, 29 Jun 2018 14:39:29 -0700</lastBuildDate>
     
-	<atom:link href="https://www.example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>General</title>
-      <link>https://www.example.com/tags/general/</link>
+      <link>https://gherlein.github.io/tags/general/</link>
       <pubDate>Fri, 29 Jun 2018 14:39:29 -0700</pubDate>
       
-      <guid>https://www.example.com/tags/general/</guid>
+      <guid>https://gherlein.github.io/tags/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Non Technical</title>
-      <link>https://www.example.com/tags/non-technical/</link>
+      <link>https://gherlein.github.io/tags/non-technical/</link>
       <pubDate>Fri, 29 Jun 2018 14:39:29 -0700</pubDate>
       
-      <guid>https://www.example.com/tags/non-technical/</guid>
+      <guid>https://gherlein.github.io/tags/non-technical/</guid>
       <description></description>
     </item>
     
