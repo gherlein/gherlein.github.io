@@ -35,6 +35,18 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/tags/hardware/</loc>
+    <lastmod>2018-07-14T19:32:04-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/i2c/</loc>
+    <lastmod>2018-07-14T19:32:04-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/non-technical/</loc>
     <lastmod>2018-06-30T09:30:29-07:00</lastmod>
     <priority>0</priority>
@@ -49,6 +61,12 @@
   <url>
     <loc>https://gherlein.github.io/tags/</loc>
     <lastmod>2018-06-30T09:30:29-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/technical/</loc>
+    <lastmod>2018-07-14T19:32:04-07:00</lastmod>
     <priority>0</priority>
   </url>
   
