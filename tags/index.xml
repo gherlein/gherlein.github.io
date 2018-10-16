@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 30 Jun 2018 09:30:29 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 Oct 2018 21:30:29 -0700</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>General</title>
       <link>https://gherlein.github.io/tags/general/</link>
-      <pubDate>Sat, 30 Jun 2018 09:30:29 -0700</pubDate>
+      <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
       
       <guid>https://gherlein.github.io/tags/general/</guid>
       <description></description>
@@ -40,11 +40,29 @@
     </item>
     
     <item>
+      <title>Leadership</title>
+      <link>https://gherlein.github.io/tags/leadership/</link>
+      <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Non Technical</title>
       <link>https://gherlein.github.io/tags/non-technical/</link>
-      <pubDate>Sat, 30 Jun 2018 09:30:29 -0700</pubDate>
+      <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
       
       <guid>https://gherlein.github.io/tags/non-technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Team Building</title>
+      <link>https://gherlein.github.io/tags/team-building/</link>
+      <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/team-building/</guid>
       <description></description>
     </item>
     

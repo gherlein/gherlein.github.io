@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gherlein.github.io/post/eng-leadership-321/</loc>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/post/i2c-for-robot/</loc>
     <lastmod>2018-09-29T08:44:43-07:00</lastmod>
   </url>
@@ -29,13 +34,13 @@
   
   <url>
     <loc>https://gherlein.github.io/tags/general/</loc>
-    <lastmod>2018-06-30T09:30:29-07:00</lastmod>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/</loc>
-    <lastmod>2018-09-29T08:44:43-07:00</lastmod>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -52,20 +57,32 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/tags/leadership/</loc>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/non-technical/</loc>
-    <lastmod>2018-06-30T09:30:29-07:00</lastmod>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2018-09-29T08:44:43-07:00</lastmod>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/tags/</loc>
-    <lastmod>2018-06-30T09:30:29-07:00</lastmod>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/team-building/</loc>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
     <priority>0</priority>
   </url>
   
