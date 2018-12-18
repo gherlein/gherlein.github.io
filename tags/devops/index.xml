@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on Greg Herlein</title>
+    <link>https://gherlein.github.io/tags/devops/</link>
+    <description>Recent content in Devops on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 12 Apr 2016 16:29:39 -0700</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How To Do Devops?</title>
+      <link>https://gherlein.github.io/post/how-to-do-devops/</link>
+      <pubDate>Tue, 12 Apr 2016 16:29:39 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/post/how-to-do-devops/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

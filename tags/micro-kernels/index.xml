@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Micro Kernels on Greg Herlein</title>
+    <link>https://gherlein.github.io/tags/micro-kernels/</link>
+    <description>Recent content in Micro Kernels on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 29 Jan 2018 16:29:39 -0700</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/micro-kernels/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Golang Enabling Unikernels?</title>
+      <link>https://gherlein.github.io/post/golang-enabled-microkernels/</link>
+      <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/post/golang-enabled-microkernels/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;Golang Enabling Unikernels?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
