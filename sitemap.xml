@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gherlein.github.io/post/thoughts-on-reinvent/</loc>
+    <lastmod>2018-12-18T20:50:01-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/post/eng-leadership-321/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
   </url>
@@ -54,8 +59,14 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/tags/aws/</loc>
+    <lastmod>2018-12-18T20:50:01-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/cloud/</loc>
-    <lastmod>2018-01-29T16:29:39-07:00</lastmod>
+    <lastmod>2018-12-18T20:50:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,7 +96,7 @@
   
   <url>
     <loc>https://gherlein.github.io/</loc>
-    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
+    <lastmod>2018-12-18T20:50:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -127,7 +138,7 @@
   
   <url>
     <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
+    <lastmod>2018-12-18T20:50:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -145,7 +156,7 @@
   
   <url>
     <loc>https://gherlein.github.io/tags/technical/</loc>
-    <lastmod>2018-09-29T08:44:43-07:00</lastmod>
+    <lastmod>2018-12-18T20:50:01-08:00</lastmod>
     <priority>0</priority>
   </url>
   
