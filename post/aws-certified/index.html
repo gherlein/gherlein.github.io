@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.42.2" />
+
+  <title>AWS Certified &middot; Greg Herlein</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" target="_blank"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" target="_blank"><i class="fa fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>AWS Certified</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2018, 23:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>On Becoming an AWS Certified Solutions Architect (Associate)</p>
+
+<p></p>
+
+<p>I was able to attend the AWS re:Invent conference and was <a href="http://herlein.com/post/avalanche-reinvent/">extremely blown away</a> by the avalanche of technology they are providing.  One of the things that I did while there was sit for the AWS Solutions Architect exam.</p>
+
+<h2 id="why">Why?</h2>
+
+<p>I&rsquo;ve worked with AWS for about six years, and attended re:Invent for the first time in 2013.  At the time I was at a strtup that used AWS heavily ($1.5M/year).  I got pretty familiar with EC2, VPC, RDS, ELB, S3, and Redshift. We even dabbled in Kinesis.  Today I&rsquo;m the Principal Architect for a group at Cisco CX and we&rsquo;re moving a lot of our footprint to AWS so I am still in the thick of things.  I lead a team of Architects and supervise the work of a larger distributed team and it&rsquo;s become clear that having a way to measure cloud skills would be useful.  So I figured what the heck?  Why not see if the test is worth it first-hand?  That has the added value of me not asking my team to do something I&rsquo;m not willing to do.</p>
+
+<h2 id="solutions-architect">Solutions Architect</h2>
+
+<p>The <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/">AWS Certified Solutions Architect - Associate</a> exam is  is intended for individuals who perform a solutions architect role. This exam validates an examinee&rsquo;s ability to effectively demonstrate knowledge of how to architect and deploy secure and robust applications on AWS technologies.</p>
+
+<p>It validates an examinee&rsquo;s ability to:</p>
+
+<ul>
+<li>Define a solution using architectural design principles based on customer requirements.</li>
+<li>Provide implementation guidance based on best practices to the organization throughout the life cycle of the project.</li>
+</ul>
+
+<p>That sounds exactly like about 50% of what I ask my architects to do.</p>
+
+<h2 id="preparation">Preparation</h2>
+
+<p>I was rusty, and certainly not current since AWS has moved the chains since I was hands-on daily.  So I did prepare a bit.  Most of my job is teaching cloud-native ideas and I&rsquo;ve built a LOT of cloud systems so the concepts were not something I needed to review.  I was really looking for a review of AWS details.  My starting point was to buy a few books.</p>
+
+<p><img src="https://gherlein.github.io/images/book1.png" alt="" /></p>
+
+<p><a href="https://www.amazon.com/gp/product/B07BJGXPXK/ref=oh_aui_d_detailpage_o09_?ie=UTF8&amp;psc=1">AWS Certified Solutions Architect 2018 Practice Questions</a></p>
+
+<p>Great book!  Definitely was worth the review and filled in a few blanks.  I highly recommend this book.</p>
+
+<p><img src="https://gherlein.github.io/images/book2.png" alt="" /></p>
+
+<p><a href="https://www.amazon.com/gp/product/B07GL9N75H/ref=oh_aui_d_detailpage_o08_?ie=UTF8&amp;psc=1">AWS Certified Solutions Architect Associate All-in-One Exam Guide</a></p>
+
+<p>Don&rsquo;t waste your time or money.  This book seemed dated and was poorly written, and I don&rsquo;t think it helps at all.</p>
+
+<p><a href="https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS_Certified_Solutions_Architect_Associate_Feb_2018_%20Exam_Guide_v1.5.2.pdf">AWS Exam Guide</a></p>
+
+<p>Use the source, Luke.  Read this. It sets the stage.</p>
+
+<h2 id="practical-preparation">Practical Preparation</h2>
+
+<p>You really need to have had practical experiece if you want to do well on this test.  I know there are folks who can just study for the test and pass it.  But many of the questions are difficult to really understand what they are REALLY asking.  If you have at least the recommended year of experience you will understand most of it.</p>
+
+<p>But you can never be prepared enough.  I also played around on my AWS account, did some terraform, reviewed my Route53 DNS configurations for my personal networks, and read up on blogs (AWS and otherwise).  Spinning up and down a few servers both from the command line with terraform and from the console just brought a lot back.  Writing a terraform script that properly set up a VPC was a good idea, since it forced me to review those details too.</p>
+
+<h2 id="practice-tests">Practice Tests</h2>
+
+<p>I took the <a href="https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS_Certified_Solutions%20Architect_Associate_Feb_2018_Sample%20Questions_v1.0.pdf">free practice test that AWS offers</a> and got a 90%.  I took the paid practice test and passed.  So I thought I&rsquo;d take the real thing.</p>
+
+<p>I know some folks that swear by the <a href="https://www.udemy.com/aws-certified-solutions-architect-associate-amazon-practice-exams">Udemy Practice Tests</a> but I did not use those.  I would have, had I known about them then.</p>
+
+<h2 id="and">And?</h2>
+
+<p>I passed with an 87.5% grade.  Normally I&rsquo;d be aiming for an ace, but in this case I was evaluating the process as much as wanting to accomplish a certification.</p>
+
+<p><img src="https://gherlein.github.io/images/certified.png" alt="" /></p>
+
+<p>I definitely think this is worth it.  Passing this test definitely demonstrates that you have a certain level of understanding, with an AWS-centric twist.  The questions are basically &ldquo;what approach would you use to solve this customer ask?&rdquo; and the answers are AWS specific of course.  But you cannot get them right unless you really understand the WHY that underlies it.  WHY does a VPC protect you?  HOW does an ALB help you scale?  That kind of thing.  If you just read the books without having the real experience you may well fail.</p>
+
+<p>For passing the test at re:Invent I even got some cool swag.  The coolest was a T-Shirt with binary on it.  Some of the octets glow in the dark.</p>
+
+<p><img src="https://gherlein.github.io/images/binary.png" alt="" /></p>
+
+<p>It&rsquo;s an exercise for the reader to figure out what it says.</p>
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/avalanche-reinvent/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/avalanche-reinvent/">Avalanche! re:Invent 2018</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+
+
+
+
+
+
+</body>
+</html>
+
