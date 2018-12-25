@@ -146,5 +146,18 @@ I am active on LinkedIn and sometimes on Twitter. I keep my open source work on 
  goxb_mqtt - native go code that reads from an XBox&amp;trade; controller (using libusb) and sends events over MQTT</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://gherlein.github.io/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gherlein.github.io/resume/</guid>
+      <description>#Greg Herlein# San Francisco, CA
+gherlein  herlein.com
+@gherlein
+github.com/gherlein
+Summary of Qualifications  10+ years Senior Engineering leadership experience - full stack, SaaS, operations and DevOps Reputation for building &amp;ldquo;teams that don&amp;rsquo;t break&amp;rdquo; - extremely strong recruiting and building out teams Diverse technical background - web, databases, networking, embedded systems, cloud, automation Cloud Expert - current AWS Certified Solutions Architect Significant Startup Experience - co-founder, VC backed, being acquired, acquiring Big company experience - Director at Cisco, VP at Technicolor Selected as Technicolor Fellow - invitation only group of company&amp;rsquo;s top technologists Inventor - over 30 patent applications filed, 6 granted patents - experience with patent litigation Excellent communicator - able to translate company goals into compelling visions Engineers understand Still hands-on - current projects in golang and C - robotics, edge and cloud computing  Work History ###Cisco - Principal Architect, CX Platforms (12&amp;frasl;2014 to Present)</description>
+    </item>
+    
   </channel>
 </rss>
