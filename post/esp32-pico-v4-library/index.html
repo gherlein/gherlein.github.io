@@ -309,10 +309,16 @@ line pin 1 and 20 up to the top.</p>
 
 <p>The <a href="https://docs.espressif.com/projects/esp-idf/en/latest/get-started/get-started-pico-kit.html#power-supply-options">Reference Material</a>
 cautions against powering the board simultaneously from the USB port and an external 3V3 source.  However, there&rsquo;s
-likely insufficient headroom 3V3 current from the onboard AMS1117 regulator to power any offboard devices.<br />
-My solution is to add a solid state normally-closed relay driven from the EXT_5V line.  The relay connects the motherboards 3V3 to
+likely insufficient headroom 3V3 current from the onboard AMS1117 regulator to power any offboard devices.</p>
+
+<p>My solution is to add a solid state normally-closed relay driven from the EXT_5V line.  The relay connects the motherboards 3V3 to
 the PICO-V4&rsquo;s VDD33 input. That line will only be powered from the USB, so when it&rsquo;s plugged in it will drive the relay open, isolating
 the PICO-V4. The relay I&rsquo;m using currently is the <a href="https://www.digikey.com/products/en?keywords=255-6088-1-ND">Panasonic AQY412SX</a>.</p>
+
+<h2 id="use-at-your-own-risk">USE AT YOUR OWN RISK</h2>
+
+<p>I&rsquo;ve not had a board made using this yet, so use it at your own risk.  I am not liable for anything if you use this for any purpose,
+etc. etc. etc.</p>
 
 <h2 id="license">License</h2>
 
