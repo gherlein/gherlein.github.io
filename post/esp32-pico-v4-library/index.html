@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.42.2" />
 
-  <title>Uber Driver Teaches me Data Analytics &middot; Greg Herlein</title>
+  <title>ESP32-PICO-KIT-V4 Eagle Library &middot; Greg Herlein</title>
 
   
   
@@ -224,7 +224,7 @@
 
 
 <div class="header">
-  <h1>Uber Driver Teaches me Data Analytics</h1>
+  <h1>ESP32-PICO-KIT-V4 Eagle Library</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -233,7 +233,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>24 Dec 2018, 11:33</time>
+    <time>30 Dec 2018, 10:33</time>
   </div>
 
   
@@ -246,9 +246,11 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/data-analytics">data analytics</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/electronics">electronics</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/scrappy">scrappy</a>
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/eagle">eagle</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/design">design</a>
     
   </div>
   
@@ -256,53 +258,82 @@
 
 </div>
 
-  <p>An Uber Driver this past week schooled me that data analytics does not require coding.</p>
+  <p>An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.</p>
 
 <p></p>
 
-<h2 id="a-random-uber-ride">A Random Uber Ride</h2>
+<h2 id="background">Background</h2>
 
-<p>I needed to run downtown this past week and Uber&rsquo;s time to a ride was 10 minutes faster than Flywheel.  I do try to give the
-cabs my business if I can, but it&rsquo;s a supply and demand thing.  If I can wait, fine.  That day I was in a rush.  As usual,
-I chat with the driver.  &ldquo;How&rsquo;s business?&rdquo; I always ask.  I tell you, if cabbies (and Uber drivers) are busy then folks
-are parting with their cash to run around.  If they are quiet, our economy is quiet.  That&rsquo;s my theory anyway.  So this guy
-was pretty smart, we&rsquo;re talking about San Francisco and he comments that he&rsquo;ll drop me downtown and loop back to the Marina.
-He said &ldquo;this time of day there&rsquo;s no pickups downtown, but the Marina and Cow Hollow will have lots.&rdquo;  He picked me up in
-Cow Hollow.  I asked him how he knew that.</p>
+<p>I&rsquo;m working on a &ldquo;device hub&rdquo; for robotics and remote sensing.  The goal is to provide a hub for I2C devices
+(motors, actuators and sensors) that&rsquo;s accessible over WiFi.  The board will be low-cost, powered from 12VDC (nominal)
+power supply or battery, and expose a range of devices over the network via a clean, simple abstraction API.  I&rsquo;m
+calling this project RBOT.</p>
 
-<h2 id="what-he-told-me-schooled-me-big-time">What He Told Me Schooled Me - Big Time</h2>
+<h2 id="autodesk-eagle">Autodesk Eagle</h2>
 
-<p>He said he&rsquo;d been driving Uber for about six months.  At first he struggled, always seeming to be in the wrong place. But then
-he started doing screen shots of the app.  A lot.  He said like every few minutes.  The drivers app shows where the callers are.
-Graphically.</p>
+<p>I&rsquo;m using the fantastic <a href="https://www.autodesk.com/products/eagle/overview">Eagle software</a> from Autodesk.
+It&rsquo;s free for small board development and pretty cheap for professional development.  There&rsquo;s LOTS of parts
+already available for this software, including many for the ESP32.  But for what I want to do I could not find
+a suitable part library.</p>
 
-<p>He took those screenshots and imported them in time order into the video editoring software he uses (he told me he&rsquo;s an amateur
-videographer).  He then played those videos to see where the concentrations of calls were across the city, across the day. He
-kept doing this across both weekdays and weekends and observed where the clusters of calls were.  And he started making money,
-staying as busy as he wanted to be.</p>
+<h2 id="esp-board-as-a-daughter-board">ESP Board as a Daughter Board</h2>
 
-<p>I laughed.  A data driven Uber driver!  And he didn&rsquo;t write a single damn line of code.</p>
+<p>The <a href="https://docs.espressif.com/projects/esp-idf/en/latest/get-started/get-started-pico-kit.html">ESP32-Pico-V4 Board</a> is
+about <a href="https://www.digikey.com/product-detail/en/espressif-systems/ESP32-PICO-KIT/1904-1030-ND/9381703">$8 at DigiKey</a>
+making it a fabulous, cheap, easy to use compute daughterboard for projects.</p>
 
-<p>It&rsquo;s a data driven world folks.  It&rsquo;s easy for techies like me to automatically assume the software approach.  But even
-if you can&rsquo;t code you can do it, if you have the right mindset.  It&rsquo;s about HOW TO SOLVE THE PROBLEM.</p>
+<p>It&rsquo;s far cheaper to buy one of these and drop it into a socket on a custom board than to try to source all the parts and
+have the ESP32 compute parts right on your board.  Besides, the BOM cost to add those components would DEFINITELY add
+up to more than $8!</p>
 
-<p>A lesson worth thinking about as I head into a New Year.</p>
+<h2 id="why-not-the-esp32-thing-from-sparkfun">Why Not the ESP32 Thing from SparkFun?</h2>
 
-<h2 id="holiday-wishes">Holiday Wishes</h2>
+<p>I have one of <a href="https://www.sparkfun.com/products/13907">these</a> boards too, but they are $21 not $8.  Also, as a
+daughterboard you probably don&rsquo;t need the battery charging circuit, and they use a 26MHz main crystal frequency, not 40MHz
+like the PICO-V4.</p>
 
-<p>Merry Christmas, Happy Holidays, and Happy New Year everyone.  May 2019 bring us all health and happiness!</p>
+<h2 id="the-actual-library">The Actual Library</h2>
+
+<p>You can install it yourself by &ldquo;git clone&rdquo; into your $EAGLE/library folder from the <a href="https://github.com/gherlein/esp32-boards">gitub repo</a>.
+You will need to add the library as usual, then make sure you &ldquo;use&rdquo; it as well.</p>
+
+<h2 id="actual-physical-parts">Actual Physical Parts</h2>
+
+<p>The board mounts on a 2x20 header pair 0.7in apart.  The &ldquo;bottom&rdquo; 3 pins on each side are not populated (bottom is where
+the antenna is, top is where the USB Connection is).  I had a hard time finding 1x20 headers but finally found some from
+(Pheonix Enterprises)[<a href="https://www.peconnectors.com/female-headers-pcb-1x-row-.100/hws15775/">https://www.peconnectors.com/female-headers-pcb-1x-row-.100/hws15775/</a>] for $0.68 (x1).  I definitely would not be able
+to find 17 pin headers (although you could cut your own).  So be careful when you insert the actual board into the socket to
+line pin 1 and 20 up to the top.</p>
+
+<h2 id="power-supply-considerations">Power Supply Considerations</h2>
+
+<p>The <a href="https://docs.espressif.com/projects/esp-idf/en/latest/get-started/get-started-pico-kit.html#power-supply-options">Reference Material</a>
+cautions against powering the board simultaneously from the USB port and an external 3V3 source.  However, there&rsquo;s
+likely insufficient headroom 3V3 current from the onboard AMS1117 regulator to power any offboard devices.<br />
+My solution is to add a solid state normally-closed relay driven from the EXT_5V line.  The relay connects the motherboards 3V3 to
+the PICO-V4&rsquo;s VDD33 input. That line will only be powered from the USB, so when it&rsquo;s plugged in it will drive the relay open, isolating
+the PICO-V4. The relay I&rsquo;m using currently is the <a href="https://www.digikey.com/products/en?keywords=255-6088-1-ND">Panasonic AQY412SX</a>.</p>
+
+<h2 id="license">License</h2>
+
+<p>This part may be freely used under the terms of the <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons License</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Half of this exercise was to learn how to make a custom part in Eagle, but I also plan to use these boards a lot - so having this
+part in my library is a good thing.  Since I had seen others seeking something similar, I thought I&rsquo;d open source it.</p>
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://gherlein.github.io/post/aws-certified/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://gherlein.github.io/post/uber-driver-data/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://gherlein.github.io/post/aws-certified/">AWS Certified</a>
+      <a href="https://gherlein.github.io/post/uber-driver-data/">Uber Driver Teaches me Data Analytics</a>
     </nav>
     
   </div>
@@ -311,14 +342,8 @@ if you can&rsquo;t code you can do it, if you have the right mindset.  It&rsquo;
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://gherlein.github.io/post/esp32-pico-v4-library/">ESP32-PICO-KIT-V4 Eagle Library</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://gherlein.github.io/post/esp32-pico-v4-library/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
