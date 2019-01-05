@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 30 Dec 2018 10:33:02 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jan 2019 08:40:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu Again!</title>
+      <link>https://gherlein.github.io/post/ubuntu-18.04/</link>
+      <pubDate>Sat, 05 Jan 2019 08:40:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/ubuntu-18.04/</guid>
+      <description>&lt;p&gt;From 1997 to 2010 I believe it was only a matter of time before Linux on the desktop
+became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!
+Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s
+the easiest and happiest linux ever for me.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>ESP32-PICO-KIT-V4 Eagle Library</title>
@@ -131,17 +145,6 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu Again!</title>
-      <link>https://gherlein.github.io/post/ubuntu-18.04/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gherlein.github.io/post/ubuntu-18.04/</guid>
-      <description>From 1997 to 2010 I believe it was only a matter of time before Linux on the desktop became a reality. I gave up in 2010 and went to OSX. But we may finally be close! Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000. It&amp;rsquo;s the easiest and happiest linux ever for me.
-
-Background I have a Dell Inspiron 15 7000 that I use for Linux development work.</description>
     </item>
     
   </channel>
