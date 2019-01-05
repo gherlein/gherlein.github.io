@@ -163,6 +163,11 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/tags/linux/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/management/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
     <priority>0</priority>
@@ -213,6 +218,15 @@
   <url>
     <loc>https://gherlein.github.io/topics/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/ubuntu/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/ubuntu-18.04/</loc>
   </url>
   
 </urlset>

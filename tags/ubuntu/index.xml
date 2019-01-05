@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Greg Herlein</title>
+    <link>https://gherlein.github.io/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    
+	<atom:link href="https://gherlein.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ubuntu Again!</title>
+      <link>https://gherlein.github.io/post/ubuntu-18.04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gherlein.github.io/post/ubuntu-18.04/</guid>
+      <description>From 1997 to 2010 I believe it was only a matter of time before Linux on the desktop became a reality. I gave up in 2010 and went to OSX. But we may finally be close! Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000. It&amp;rsquo;s the easiest and happiest linux ever for me.
+
+Background I have a Dell Inspiron 15 7000 that I use for Linux development work.</description>
+    </item>
+    
+  </channel>
+</rss>
