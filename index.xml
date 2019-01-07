@@ -38,20 +38,6 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Greg Herlein</title>
-      <link>https://gherlein.github.io/resume/</link>
-      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://gherlein.github.io/resume/</guid>
-      <description>San Francisco, CA
-gherlein  herlein.com
-@gherlein 
-GitHub
-LinkedIn Profile
-Summary of Qualifications  10+ years Senior Engineering leadership experience - full stack, SaaS, operations and DevOps Reputation for building &amp;ldquo;teams that don&amp;rsquo;t break&amp;rdquo; - extremely strong recruiting and building out teams Diverse technical background - web, databases, networking, embedded systems, cloud, automation Cloud Expert - current AWS Certified Solutions Architect Significant Startup Experience - co-founder, VC backed, being acquired, acquiring Big company experience - Director at Cisco, VP at Technicolor Selected as Technicolor Fellow - invitation only group of company&amp;rsquo;s top technologists Inventor - over 30 patent applications filed, 6 granted patents - experience with patent litigation Excellent communicator - able to translate company goals into compelling visions Engineers understand Still hands-on - current projects in golang and C - robotics, edge and cloud computing  Work History Cisco - Principal Architect, CX Platforms (12&amp;frasl;2014 to Present)  Principal Architect for Cisco Customer Experience Platforms (CXP) group of over 1000 Engineers Mission is to migrate from traditional Enterprise software to cloud-native approach Drove organization to develop all new software in AWS and Cisco&amp;rsquo;s OpenStack cloud Set standard templates for cloud-native tech stack - terraform, ansible, helm, docker, k8s, prometheus Drove automation of development, test and deployment - identical patterns into AWS and OpenStack Identified successful &amp;ldquo;solution patterns&amp;rdquo; and called out anti-patterns to change behaviors Earned the trust of the Cisco Distinguished Engineer community - converting them into cloud advocates Managed an extended team of Architects across multiple business and technical domains Previous Cisco experience in SPVSS leading large (150+) globally distributed development teams Previous Cisco experience leading small, specialized development teams for new product development  Cognitive Networks - Vice President, Engineering (9&amp;frasl;2013 - 11&amp;frasl;2014)  Rebuilt proof-of-concept TV content recognition system into an AWS-based reliable and scalable product System compared &amp;ldquo;video fingerprints&amp;rdquo; in real-time to detect what each TV was &amp;ldquo;watching&amp;rdquo; Scaled from 200K to 4M+ devices - collected and processed petabytes of data monthly Replaced MySQL and custom python code with RDS, Redshift and Kinesis yielding massive scale Shifted from AWS classic to multi-AZ VPCs for improved security and availability Rearchitected core code from python to C yeilding a 40x cloud cost cost reduction Improved uptime from low 90% to better than 99.</description>
-    </item>
-    
-    <item>
       <title>Uber Driver Teaches me Data Analytics</title>
       <link>https://gherlein.github.io/post/uber-driver-data/</link>
       <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
@@ -183,6 +169,18 @@ I am active on LinkedIn and sometimes on Twitter. I keep my open source work on 
  ouilookup - CLI tool written in go to look up the vendor for a given MAC address
  PiBlaster-MQTT - port of PiBlaster to use MQTT instead of a local charachter device
  goxb_mqtt - native go code that reads from an XBox&amp;trade; controller (using libusb) and sends events over MQTT</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://gherlein.github.io/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gherlein.github.io/resume/</guid>
+      <description>##Greg Herlein# San Francisco, CA
+gherlein &amp;ldquo;at&amp;rdquo; herlein.com
+@gherlein github.com/gherlein
+Summary of Qualifications  10+ years Senior Engineering leadership experience - full stack, SaaS, operations and DevOps Reputation for building &amp;ldquo;teams that don&amp;rsquo;t break&amp;rdquo; - extremely strong recruiting and building out teams Diverse technical background - web, databases, networking, embedded systems, cloud, mobile Cloud Expert - current AWS Certified Solutions Architect Significant Startup Experience - co-founder, VC backed, being acquired, acquiring Big company experience - Director at Cisco, VP at Technicolor Selected as Technicolor Fellow - invitation only group of company&amp;rsquo;s top technologists Inventor - over 30 patent applications filed, 6 granted patents - experience with patent litigation Excellent communicator - able to translate company goals into compelling visions Engineers understand Still hands-on - current projects in golang and C - robotics, edge and cloud computing  Work History ###Cisco - Principal Architect, CX Platforms (12&amp;frasl;2014 to Present)</description>
     </item>
     
   </channel>
