@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/post/rbot-value-prop/</loc>
+    <lastmod>2019-01-06T07:43:30-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/post/ubuntu-18.04/</loc>
     <lastmod>2019-01-05T08:40:43-08:00</lastmod>
   </url>
@@ -155,7 +160,7 @@
   
   <url>
     <loc>https://gherlein.github.io/tags/hardware/</loc>
-    <lastmod>2018-09-29T08:44:43-07:00</lastmod>
+    <lastmod>2019-01-06T07:43:30-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -198,6 +203,18 @@
   <url>
     <loc>https://gherlein.github.io/post/</loc>
     <lastmod>2019-01-21T10:50:08-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/product/</loc>
+    <lastmod>2019-01-06T07:43:30-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/robotics/</loc>
+    <lastmod>2019-01-06T07:43:30-08:00</lastmod>
     <priority>0</priority>
   </url>
   

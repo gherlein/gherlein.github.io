@@ -24,6 +24,17 @@
     </item>
     
     <item>
+      <title>RBOT Robotics Sensor/Acuator Board - Value Proposition</title>
+      <link>https://gherlein.github.io/post/rbot-value-prop/</link>
+      <pubDate>Sun, 06 Jan 2019 07:43:30 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/rbot-value-prop/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m building a board for robotics, but it&amp;rsquo;s also useful for IoT and home automation.  What&amp;rsquo;s it do?  What problem does it solve?  It&amp;rsquo;s basically a WiFi interface to a variety of I2C-driven devices (motors or sensors).  The I2C side is Engineered to be highly robust and reliable.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Ubuntu Again!</title>
       <link>https://gherlein.github.io/post/ubuntu-18.04/</link>
       <pubDate>Sat, 05 Jan 2019 08:40:43 -0800</pubDate>
