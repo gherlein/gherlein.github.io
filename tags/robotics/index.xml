@@ -7,7 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 06 Jan 2019 07:43:30 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,12 +14,12 @@
     <item>
       <title>RBOT Robotics Sensor/Acuator Board - Value Proposition</title>
       <link>https://gherlein.github.io/post/rbot-value-prop/</link>
-      <pubDate>Sun, 06 Jan 2019 07:43:30 -0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://gherlein.github.io/post/rbot-value-prop/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m building a board for robotics, but it&amp;rsquo;s also useful for IoT and home automation.  What&amp;rsquo;s it do?  What problem does it solve?  It&amp;rsquo;s basically a WiFi interface to a variety of I2C-driven devices (motors or sensors).  The I2C side is Engineered to be highly robust and reliable.&lt;/p&gt;
+      <description>I&amp;rsquo;m building a board for robotics, but it&amp;rsquo;s also useful for IoT and home automation. What&amp;rsquo;s it do? What problem does it solve? It&amp;rsquo;s basically a WiFi interface to a variety of I2C-driven devices (motors or sensors). The I2C side is Engineered to be highly robust and reliable.
 
-&lt;p&gt;&lt;/p&gt;</description>
+RBOT The RBOT platform is aimed at folks doing robotics - but it&amp;rsquo;s also easily used for IoT and home automation.</description>
     </item>
     
   </channel>
