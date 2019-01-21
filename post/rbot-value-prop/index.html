@@ -316,6 +316,7 @@
 <li><p><strong><em>Why do I need RBOT?</em></strong></p>
 
 <ul>
+<li>If you want to learn robotics with a SOFTWARE FIRST mentality!<br /></li>
 <li>If you want to use multiple I2C sensors and actuators and not be bound by a specific micro-controller or platform choice (e.g. Arduino) this device abstracts away all the I2C problems.<br />
 <br /></li>
 </ul></li>
@@ -327,7 +328,7 @@
 <br /></li>
 </ul></li>
 
-<li><p><strong><em>What devices interoperate with RBOT?</em></strong></p>
+<li><p><strong><em>What network devices inter-operate with RBOT?</em></strong></p>
 
 <ul>
 <li>Any device that works on a WiFi network, or on an Ethernet network that can connect to a WiFi network that the RBOT is connected to.
@@ -349,11 +350,10 @@
 <li><p><strong><em>Why would I need many sensors and actuators?</em></strong></p>
 
 <ul>
-<li>An example simple robot would need two motors, maybe two shaft encoders, maybe one or more ultrasonic transducers, a 9-axis IMU, and a color sensor for line following, as an example.  That&rsquo;s at least 6 sensors.  If the robot was 2 foot square wiring those to the &ldquo;brain&rdquo; means a lot of
-individual wires and some potential problems because of that.  One is from I2C/SMB address collision, and the other is from wiring capacitance.<br /></li>
+<li>An example simple robot would need two motors, maybe two shaft encoders, maybe one or more ultrasonic transducers, a 9-axis IMU, and a color sensor for line following, as an example.  That&rsquo;s at least 6 sensors.  If the robot was 2 foot square wiring those to the &ldquo;brain&rdquo; means a lot of individual wires and some potential problems because of that.  One is from I2C/SMB address collision, and the other is from wiring capacitance.<br /></li>
 </ul></li>
 
-<li><p><strong><em>What&rsquo;s address collition?</em></strong></p>
+<li><p><strong><em>What&rsquo;s address collision?</em></strong></p>
 
 <ul>
 <li>Today an I2C bus is that - a bus.  Every device on a single bus needs it&rsquo;s own unique address.  Some I2C devices let you change their address, but keeping track of that is confusing and limited - and you might want to use more devices than the chip allows unique addresses.</li>
@@ -362,8 +362,7 @@ individual wires and some potential problems because of that.  One is from I2C/S
 <li><p><strong><em>What&rsquo;s wiring capacitance?</em></strong></p>
 
 <ul>
-<li>Wiring a bus of I2C devices adds significant capacitance for each device in parallel and leads to &ldquo;rounding&rdquo; of the data pulses and failed communication.  This is very hard to troubleshoot even with an I2C sniffer.  You need an oscilloscope, which is not a tool many of our target
-users will have available to them.</li>
+<li>Wiring a bus of I2C devices adds significant capacitance for each device in parallel and leads to &ldquo;rounding&rdquo; of the data pulses and failed communication.  This is very hard to troubleshoot even with an I2C sniffer.  You need an oscilloscope, which is not a tool many of our target users will have available to them.</li>
 </ul></li>
 
 <li><p><strong><em>But can I have many of the same device?</em></strong></p>
@@ -387,7 +386,7 @@ users will have available to them.</li>
 <li><p><strong><em>Actuators need more than 3 volts,  Does this solve that?</em></strong></p>
 
 <ul>
-<li>Yes.  The RBOT sensor port pinout supplies board VCC at up to 600mA on each port, wired on the same pins used for Power over Ethernet<br /></li>
+<li>Yes.  The RBOT sensor port pinout supplies board VCC at up to 600mA on each port, wired on the same pins used for Power over Ethernet.  Board VCC can be any voltage between 6-15VDC supplied by a standard power plug just like on an Arduino.<br /></li>
 </ul></li>
 
 <li><p><strong><em>Do sensors need to use board VCC?</em></strong></p>
@@ -416,7 +415,7 @@ users will have available to them.</li>
 <ul>
 <li><p>RBOT will support a few options at launch with more over time - but the system is open source and openly expandable with sensor code, schematics and boards published.  We aim to support at least a basic smart motor, ultrasonic transducer, color sensor, and 9-DOF IMU.</p></li>
 
-<li><p><strong><em>Can I design my own sensors or actuatoros?</em></strong></p>
+<li><p><strong><em>Can I design my own sensors or actuators?</em></strong></p>
 
 <ul>
 <li>Yes, off course, that&rsquo;s the point.  You can add sensors and then plug in code to expose that sensor into the open source RBOT switch code.  We will have simple breakout boards for that use case, but you can just use perf board if you want since a sensor has very few wires and components.
