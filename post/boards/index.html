@@ -282,9 +282,7 @@
 
 <p>I think I blew up the DTR input circuit on the first one I connected. Uploading a simple &ldquo;blink&rdquo; sketch from the Arduiono IDE didn&rsquo;t work unless I pressed the reset button.  Pulling out my scope probles I proved to myself that DTR was always low when it should have been high.  Initially I thought it was my tty port (new Linux install) but some &ldquo;stty&rdquo; probing proved me wrong.  Trying two other USB programmer units gave the same result.  So now I had two different FTDI units and a CP2102 unit both with the same symptoms.  Trying a second of the three Pro Mini boards was normal. DTR should have been high and go low but it stayed low all the time. Maybe the input capacitor on DTR shorted to ground?  The schematic I have shows no way that could happen, but who knows if my schematic actually matches this Gikfun clone.</p>
 
-<p>Anyway, problem solved and now instead of soldering surface mount things today I&rsquo;ll instead be writing some Arduinio I2C client side code.</p>
-
-<p>Because now I have to wait for parts.  Instant gratification must wait.</p>
+<p>Anyway, problem solved and now instead of soldering surface mount things today I&rsquo;ll instead be writing some Arduinio I2C client side code with <a href="http://dsscircuits.com/articles/arduino-i2c-slave-guide">this</a> as a starting point.  Because now I have to wait for parts.  Instant gratification must wait.</p>
 
 <hr />
 
