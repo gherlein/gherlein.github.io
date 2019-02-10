@@ -270,6 +270,9 @@
 
 <p><a href="https://www.autoware.ai/">Autoware</a> is the world&rsquo;s first &ldquo;All-in-One&rdquo; open-source software for autonomous driving technology. It is based on ROS 1 and available under the <a href="https://github.com/CPFL/Autoware/wiki">Apache 2.0 license on github.</a>  It <a href="https://github.com/CPFL/Autoware#recommended-system-specifications">requires</a> 8 cores and 32GB of RAM so it&rsquo;s not going to run on a Raspberry Pi.  It supports camera, LIDAR, IMU and GPS inputs.  Those compute and sensor requirements are going to be a lot more than the DeepRacer, but I&rsquo;m guessing you could build something for under $1000 that worked.  The important thing is that there&rsquo;s a starting point for the platform.</p>
 
+<p><img src="https://gherlein.github.io/images/deepracer.jpg" width="320" height="240" />
+<img src="https://gherlein.github.io/images/autoware.png" width="320" height="240" /></p>
+
 <h2 id="summary">Summary</h2>
 
 <p>Here in San Francisco we see self-driving enabled cars on the road a lot. Many of them are annoying as hell since they make driving decisions much more slowly.  It&rsquo;s easy to think that you need the cash of a VC-backed startup to really start playing with that tech.  Not so.  It&rsquo;s still pricey:  $400 for the DeepRacer and likely $1000-1500 for a proper Autoware robot.  But the tooling is there if you have a bit of money, at least some background in coding, and the time and energy to learn.</p>
@@ -280,7 +283,7 @@
 
 <p>I have a DeepRacer and have another on order.  I bought one within minutes of it being announced at AWS re:Invent <a href="http://herlein.com/post/avalanche-reinvent/">(I blogged about that at the time).</a>  I have one sitting here in my home office and only lack the time to play with it.  I got lucky enough to be invited by AWS to a four-hour solo-focus-session where an AWS CX person watched me unbox and learn to set it up.  It was a bit strange to be under the microscope, but I think I gave them some good feedback and I got to keep the DeepRacer that I unboxed.  Win-win!</p>
 
-<p><img src="https://gherlein.github.io/images/deepracer.jpg" width="640" height="480" /></p>
+<p><img src="https://gherlein.github.io/images/amazon-aws-deepracer-interior.jpg" width="640" height="480" /></p>
 
 <p>One thing that I am extremely excited about is the fact that the DeepRacer tool is based on Robot Operating System - ROS.  And it&rsquo;s not all locked out either.  AWS is not hiding the guts.  It&rsquo;s an Ubuntu board with and Atom CPU and 4GB of RAM <a href="https://imgur.com/a/m4ymiYH">(specs here)</a>.  You can <a href="https://www.reddit.com/r/DeepRacer/comments/a47ka2/its_pretty_easy_by_design_to_get_into_ubuntu_on/?utm_source=reddit-android">develop right on the car main node</a>.  The main code seems to be in python interfacing with ROS.  So this seems extremely hackable.  <a href="https://hackaday.com/tag/deepracer/">Hackaday</a> is postulating alternative hardware even, so this ecosystem is about to explode.</p>
 
