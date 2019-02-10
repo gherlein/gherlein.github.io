@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 18 Dec 2018 23:50:38 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 Feb 2019 09:30:29 -0700</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Self Driving Revolution</title>
+      <link>https://gherlein.github.io/post/self-driving-revolution/</link>
+      <pubDate>Sun, 10 Feb 2019 09:30:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/post/self-driving-revolution/</guid>
+      <description>&lt;p&gt;Think self-driving technology requires deep pockets to play with?  Think again.  &lt;a href=&#34;https://aws.amazon.com/deepracer/&#34;&gt;AWS DeepRacer&lt;/a&gt; and &lt;a href=&#34;https://github.com/CPFL/Autoware/wiki&#34;&gt;Autoware&lt;/a&gt; are the leading edges of self-driving automation for the maker.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>AWS Certified</title>
