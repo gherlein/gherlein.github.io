@@ -298,9 +298,9 @@
 
 <p>That&rsquo;s worth saying again.  Cloud 2.0 is DIFFERENT.  There are two reasons underlying this but they have far reaching implications on your processes.</p>
 
-<p><img src="https://gherlein.github.io/images/cloud-images/infra-as-code.png" width="320" height="240" /></p>
-
 <p>The obvious first change is &ldquo;infrastructure as code.&rdquo;  This can really be any tool you want, really, if it translates to the creation of some combination of networking, compute, and storage that is created from running code.  This can be terraform, ansible, chef, salt, puppet, python using bodo, or whatever.</p>
+
+<p><img src="https://gherlein.github.io/images/cloud-images/infra-as-code.png" width="320" height="240" /></p>
 
 <p>Now there&rsquo;s a hidden secret here.  The ASSUMPTION is that if you have &ldquo;infra as code&rdquo; that you also have deployment automation.  That may include the same tools, or not.  For really simple things you may bake the whole application onto VM images.  I don&rsquo;t recommend that for anything non-trivial because it quickly becomes hell to manage those images (build, test, store, update, delete).  So if you deploy all your infra automatically and you deploy your software and it&rsquo;s configuration automatically then you can run some code and in a little while you have an instance of your whole software application running.  The benefits are many, but they include:</p>
 
