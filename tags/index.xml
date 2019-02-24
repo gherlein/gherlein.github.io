@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 21 Dec 2016 16:29:39 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 24 Feb 2019 08:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Architecture</title>
+      <link>https://gherlein.github.io/tags/architecture/</link>
+      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/architecture/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automation</title>
@@ -33,7 +42,7 @@
     <item>
       <title>Cloud</title>
       <link>https://gherlein.github.io/tags/cloud/</link>
-      <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
+      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/cloud/</guid>
       <description></description>
@@ -63,6 +72,15 @@
       <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://gherlein.github.io/tags/development/</link>
+      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/development/</guid>
       <description></description>
     </item>
     
@@ -166,6 +184,15 @@
     </item>
     
     <item>
+      <title>Micro Services</title>
+      <link>https://gherlein.github.io/tags/micro-services/</link>
+      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/micro-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ml</title>
       <link>https://gherlein.github.io/tags/ml/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
@@ -225,6 +252,15 @@
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/smd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://gherlein.github.io/tags/software/</link>
+      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/software/</guid>
       <description></description>
     </item>
     
