@@ -4,19 +4,30 @@
   
   <url>
     <loc>https://gherlein.github.io/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
+    <lastmod>2019-07-19T11:40:43-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
+    <lastmod>2019-07-19T11:40:43-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/tags/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
+    <lastmod>2019-07-19T11:40:43-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/update-july/</loc>
+    <lastmod>2019-07-19T11:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/personal/</loc>
+    <lastmod>2019-07-19T11:40:43-08:00</lastmod>
     <priority>0</priority>
   </url>
   
