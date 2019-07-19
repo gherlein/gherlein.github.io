@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 24 Feb 2019 08:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2019 18:40:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu Lid Control</title>
+      <link>https://gherlein.github.io/post/ubuntu-lid/</link>
+      <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/ubuntu-lid/</guid>
+      <description>&lt;p&gt;The default behavior of Ubuntu 18.04 is not friendly for a notebook that swaps back and forth from desk to mobile.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Review:  Blowing up the Monolith</title>
@@ -18,9 +27,7 @@
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/blowing-up-monolith/</guid>
-      <description>&lt;p&gt;Book review - free &lt;a href=&#34;https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf&#34;&gt;&amp;ldquo;Blowing up the Monolith&amp;rdquo;&lt;/a&gt; book from Kong.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Book review - free &lt;a href=&#34;https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf&#34;&gt;&amp;ldquo;Blowing up the Monolith&amp;rdquo;&lt;/a&gt; book from Kong.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,9 +36,7 @@
       <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/cloud-basics/</guid>
-      <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,9 +45,7 @@
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/self-driving-revolution/</guid>
-      <description>&lt;p&gt;Think self-driving technology requires deep pockets to play with?  Think again.  &lt;a href=&#34;https://aws.amazon.com/deepracer/&#34;&gt;AWS DeepRacer&lt;/a&gt; and &lt;a href=&#34;https://github.com/CPFL/Autoware/wiki&#34;&gt;Autoware&lt;/a&gt; are the leading edges of self-driving automation for the maker.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Think self-driving technology requires deep pockets to play with?  Think again.  &lt;a href=&#34;https://aws.amazon.com/deepracer/&#34;&gt;AWS DeepRacer&lt;/a&gt; and &lt;a href=&#34;https://github.com/CPFL/Autoware/wiki&#34;&gt;Autoware&lt;/a&gt; are the leading edges of self-driving automation for the maker.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -51,9 +54,7 @@
       <pubDate>Wed, 30 Jan 2019 09:30:29 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/management-readme/</guid>
-      <description>&lt;p&gt;I updated my &lt;a href=&#34;http://herlein.com/about/&#34;&gt;&amp;ldquo;Management README&amp;rdquo;&lt;/a&gt;. Give it a read if you&amp;rsquo;d like.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I updated my &lt;a href=&#34;http://herlein.com/about/&#34;&gt;&amp;ldquo;Management README&amp;rdquo;&lt;/a&gt;. Give it a read if you&amp;rsquo;d like.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,9 +63,7 @@
       <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/rbot-value-prop/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m building a board for robotics, but it&amp;rsquo;s also useful for IoT and home automation.  What&amp;rsquo;s it do?  What problem does it solve?  It&amp;rsquo;s basically a WiFi interface to a variety of I2C-driven devices (motors or sensors).  The I2C side is Engineered to be highly robust and reliable.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m building a board for robotics, but it&amp;rsquo;s also useful for IoT and home automation.  What&amp;rsquo;s it do?  What problem does it solve?  It&amp;rsquo;s basically a WiFi interface to a variety of I2C-driven devices (motors or sensors).  The I2C side is Engineered to be highly robust and reliable.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -73,9 +72,7 @@
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/boards/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -87,9 +84,7 @@
       <description>&lt;p&gt;From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop
 became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!
 Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s
-the easiest and happiest linux ever for me.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+the easiest and happiest linux ever for me.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -98,9 +93,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/esp32-pico-v4-library/</guid>
-      <description>&lt;p&gt;An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -109,9 +102,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/uber-driver-data/</guid>
-      <description>&lt;p&gt;An Uber Driver this past week schooled me that data analytics does not require coding.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;An Uber Driver this past week schooled me that data analytics does not require coding.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -120,9 +111,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       <pubDate>Tue, 18 Dec 2018 23:50:38 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/aws-certified/</guid>
-      <description>&lt;p&gt;On Becoming an AWS Certified Solutions Architect (Associate)&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;On Becoming an AWS Certified Solutions Architect (Associate)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -131,9 +120,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       <pubDate>Tue, 18 Dec 2018 10:50:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/avalanche-reinvent/</guid>
-      <description>&lt;p&gt;Thoughts on AWS re:Invent 2018&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Thoughts on AWS re:Invent 2018&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -143,9 +130,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       
       <guid>https://gherlein.github.io/post/eng-leadership-321/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve come to firmly believe that Engineering Leadership has a 3-2-1 principle to create Engineer happiness,
-which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -154,9 +139,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
       <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/i2c-for-robot/</guid>
-      <description>&lt;p&gt;I2C Tools I am Using for the RBOT Project&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I2C Tools I am Using for the RBOT Project&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -165,9 +148,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
       <pubDate>Sat, 14 Jul 2018 19:32:04 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/pcal6416a-getting-started/</guid>
-      <description>&lt;p&gt;I2C Port Expander for Robotics Use - Getting Started with the NXP PCAL6416A&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I2C Port Expander for Robotics Use - Getting Started with the NXP PCAL6416A&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -176,9 +157,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
       <pubDate>Sat, 30 Jun 2018 09:30:29 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/hello-world/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been procrastinating setting up a real blog for&amp;hellip; well, years.  Now it&amp;rsquo;s here.  Read on for the why and the how.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been procrastinating setting up a real blog for&amp;hellip; well, years.  Now it&amp;rsquo;s here.  Read on for the why and the how.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -187,9 +166,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
       <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/golang-enabled-microkernels/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;Golang Enabling Unikernels?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;Golang Enabling Unikernels?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -198,8 +175,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/technology-rolls-on/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/&#34;&gt;Technology Rolls On, Better Roll With It&lt;/a&gt;
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/&#34;&gt;Technology Rolls On, Better Roll With It&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -208,9 +184,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
       <pubDate>Tue, 12 Apr 2016 16:29:39 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/how-to-do-devops/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

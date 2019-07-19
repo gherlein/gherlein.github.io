@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Non Technical on Greg Herlein</title>
+    <title>non-technical on Greg Herlein</title>
     <link>https://gherlein.github.io/tags/non-technical/</link>
-    <description>Recent content in Non Technical on Greg Herlein</description>
+    <description>Recent content in non-technical on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
@@ -18,9 +18,7 @@
       <pubDate>Wed, 30 Jan 2019 09:30:29 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/management-readme/</guid>
-      <description>&lt;p&gt;I updated my &lt;a href=&#34;http://herlein.com/about/&#34;&gt;&amp;ldquo;Management README&amp;rdquo;&lt;/a&gt;. Give it a read if you&amp;rsquo;d like.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I updated my &lt;a href=&#34;http://herlein.com/about/&#34;&gt;&amp;ldquo;Management README&amp;rdquo;&lt;/a&gt;. Give it a read if you&amp;rsquo;d like.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -30,9 +28,7 @@
       
       <guid>https://gherlein.github.io/post/eng-leadership-321/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve come to firmly believe that Engineering Leadership has a 3-2-1 principle to create Engineer happiness,
-which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,9 +37,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
       <pubDate>Sat, 30 Jun 2018 09:30:29 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/hello-world/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been procrastinating setting up a real blog for&amp;hellip; well, years.  Now it&amp;rsquo;s here.  Read on for the why and the how.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been procrastinating setting up a real blog for&amp;hellip; well, years.  Now it&amp;rsquo;s here.  Read on for the why and the how.&lt;/p&gt;</description>
     </item>
     
   </channel>

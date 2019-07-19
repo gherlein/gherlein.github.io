@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Smd on Greg Herlein</title>
+    <title>smd on Greg Herlein</title>
     <link>https://gherlein.github.io/tags/smd/</link>
-    <description>Recent content in Smd on Greg Herlein</description>
+    <description>Recent content in smd on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
@@ -18,9 +18,7 @@
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/boards/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;</description>
     </item>
     
   </channel>

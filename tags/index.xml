@@ -7,13 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 24 Feb 2019 08:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2019 18:40:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Architecture</title>
+      <title>linux</title>
+      <link>https://gherlein.github.io/tags/linux/</link>
+      <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://gherlein.github.io/tags/ubuntu/</link>
+      <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>architecture</title>
       <link>https://gherlein.github.io/tags/architecture/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
@@ -22,25 +49,7 @@
     </item>
     
     <item>
-      <title>Automation</title>
-      <link>https://gherlein.github.io/tags/automation/</link>
-      <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/automation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aws</title>
-      <link>https://gherlein.github.io/tags/aws/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
+      <title>cloud</title>
       <link>https://gherlein.github.io/tags/cloud/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
@@ -49,34 +58,7 @@
     </item>
     
     <item>
-      <title>Data Analytics</title>
-      <link>https://gherlein.github.io/tags/data-analytics/</link>
-      <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/data-analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Centers</title>
-      <link>https://gherlein.github.io/tags/data-centers/</link>
-      <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/data-centers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design</title>
-      <link>https://gherlein.github.io/tags/design/</link>
-      <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
+      <title>development</title>
       <link>https://gherlein.github.io/tags/development/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
@@ -85,106 +67,7 @@
     </item>
     
     <item>
-      <title>Devops</title>
-      <link>https://gherlein.github.io/tags/devops/</link>
-      <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eagle</title>
-      <link>https://gherlein.github.io/tags/eagle/</link>
-      <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/eagle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Electronics</title>
-      <link>https://gherlein.github.io/tags/electronics/</link>
-      <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/electronics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General</title>
-      <link>https://gherlein.github.io/tags/general/</link>
-      <pubDate>Wed, 30 Jan 2019 09:30:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Golang</title>
-      <link>https://gherlein.github.io/tags/golang/</link>
-      <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hardware</title>
-      <link>https://gherlein.github.io/tags/hardware/</link>
-      <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>I2c</title>
-      <link>https://gherlein.github.io/tags/i2c/</link>
-      <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/i2c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leadership</title>
-      <link>https://gherlein.github.io/tags/leadership/</link>
-      <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/leadership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://gherlein.github.io/tags/linux/</link>
-      <pubDate>Sat, 05 Jan 2019 08:40:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Management</title>
-      <link>https://gherlein.github.io/tags/management/</link>
-      <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Micro Kernels</title>
-      <link>https://gherlein.github.io/tags/micro-kernels/</link>
-      <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/micro-kernels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Micro Services</title>
+      <title>micro-services</title>
       <link>https://gherlein.github.io/tags/micro-services/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
@@ -193,70 +76,7 @@
     </item>
     
     <item>
-      <title>Ml</title>
-      <link>https://gherlein.github.io/tags/ml/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Non Technical</title>
-      <link>https://gherlein.github.io/tags/non-technical/</link>
-      <pubDate>Wed, 30 Jan 2019 09:30:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/non-technical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Product</title>
-      <link>https://gherlein.github.io/tags/product/</link>
-      <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/product/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robotics</title>
-      <link>https://gherlein.github.io/tags/robotics/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/robotics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ros</title>
-      <link>https://gherlein.github.io/tags/ros/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/ros/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scrappy</title>
-      <link>https://gherlein.github.io/tags/scrappy/</link>
-      <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/scrappy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Smd</title>
-      <link>https://gherlein.github.io/tags/smd/</link>
-      <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/smd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software</title>
+      <title>software</title>
       <link>https://gherlein.github.io/tags/software/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
@@ -265,7 +85,160 @@
     </item>
     
     <item>
-      <title>Team Building</title>
+      <title>devops</title>
+      <link>https://gherlein.github.io/tags/devops/</link>
+      <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://gherlein.github.io/tags/aws/</link>
+      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>https://gherlein.github.io/tags/ml/</link>
+      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://gherlein.github.io/tags/ros/</link>
+      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/ros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robotics</title>
+      <link>https://gherlein.github.io/tags/robotics/</link>
+      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://gherlein.github.io/tags/general/</link>
+      <pubDate>Wed, 30 Jan 2019 09:30:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non-technical</title>
+      <link>https://gherlein.github.io/tags/non-technical/</link>
+      <pubDate>Wed, 30 Jan 2019 09:30:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/non-technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electronics</title>
+      <link>https://gherlein.github.io/tags/electronics/</link>
+      <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>https://gherlein.github.io/tags/hardware/</link>
+      <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>product</title>
+      <link>https://gherlein.github.io/tags/product/</link>
+      <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/product/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eagle</title>
+      <link>https://gherlein.github.io/tags/eagle/</link>
+      <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/eagle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smd</title>
+      <link>https://gherlein.github.io/tags/smd/</link>
+      <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/smd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://gherlein.github.io/tags/design/</link>
+      <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data analytics</title>
+      <link>https://gherlein.github.io/tags/data-analytics/</link>
+      <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/data-analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrappy</title>
+      <link>https://gherlein.github.io/tags/scrappy/</link>
+      <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/scrappy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>leadership</title>
+      <link>https://gherlein.github.io/tags/leadership/</link>
+      <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management</title>
+      <link>https://gherlein.github.io/tags/management/</link>
+      <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>team building</title>
       <link>https://gherlein.github.io/tags/team-building/</link>
       <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
       
@@ -274,20 +247,47 @@
     </item>
     
     <item>
-      <title>Technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
+      <title>i2c</title>
+      <link>https://gherlein.github.io/tags/i2c/</link>
+      <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <guid>https://gherlein.github.io/tags/i2c/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Ubuntu</title>
-      <link>https://gherlein.github.io/tags/ubuntu/</link>
-      <pubDate>Sat, 05 Jan 2019 08:40:43 -0800</pubDate>
+      <title>golang</title>
+      <link>https://gherlein.github.io/tags/golang/</link>
+      <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/ubuntu/</guid>
+      <guid>https://gherlein.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>micro-kernels</title>
+      <link>https://gherlein.github.io/tags/micro-kernels/</link>
+      <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/micro-kernels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation</title>
+      <link>https://gherlein.github.io/tags/automation/</link>
+      <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data-centers</title>
+      <link>https://gherlein.github.io/tags/data-centers/</link>
+      <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/data-centers/</guid>
       <description></description>
     </item>
     
