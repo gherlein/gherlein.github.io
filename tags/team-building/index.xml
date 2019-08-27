@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Team Building on Greg Herlein</title>
+    <title>team building on Greg Herlein</title>
     <link>https://gherlein.github.io/tags/team-building/</link>
-    <description>Recent content in Team Building on Greg Herlein</description>
+    <description>Recent content in team building on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
@@ -19,9 +19,7 @@
       
       <guid>https://gherlein.github.io/post/eng-leadership-321/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve come to firmly believe that Engineering Leadership has a 3-2-1 principle to create Engineer happiness,
-which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</description>
     </item>
     
   </channel>

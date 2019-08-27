@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Technical on Greg Herlein</title>
+    <title>technical on Greg Herlein</title>
     <link>https://gherlein.github.io/tags/technical/</link>
-    <description>Recent content in Technical on Greg Herlein</description>
+    <description>Recent content in technical on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 10 Feb 2019 14:50:08 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jul 2019 18:40:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu Lid Control</title>
+      <link>https://gherlein.github.io/post/ubuntu-lid/</link>
+      <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/ubuntu-lid/</guid>
+      <description>&lt;p&gt;The default behavior of Ubuntu 18.04 is not friendly for a notebook that swaps back and forth from desk to mobile.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Cloudy DevOps - Part 1</title>
@@ -18,9 +27,7 @@
       <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/cloud-basics/</guid>
-      <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,9 +36,7 @@
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/boards/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,9 +48,7 @@
       <description>&lt;p&gt;From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop
 became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!
 Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s
-the easiest and happiest linux ever for me.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+the easiest and happiest linux ever for me.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,9 +57,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       <pubDate>Tue, 18 Dec 2018 23:50:38 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/aws-certified/</guid>
-      <description>&lt;p&gt;On Becoming an AWS Certified Solutions Architect (Associate)&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;On Becoming an AWS Certified Solutions Architect (Associate)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,9 +66,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       <pubDate>Tue, 18 Dec 2018 10:50:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/avalanche-reinvent/</guid>
-      <description>&lt;p&gt;Thoughts on AWS re:Invent 2018&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Thoughts on AWS re:Invent 2018&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -76,9 +75,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/i2c-for-robot/</guid>
-      <description>&lt;p&gt;I2C Tools I am Using for the RBOT Project&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I2C Tools I am Using for the RBOT Project&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -87,9 +84,7 @@ the easiest and happiest linux ever for me.&lt;/p&gt;
       <pubDate>Sat, 14 Jul 2018 19:32:04 -0700</pubDate>
       
       <guid>https://gherlein.github.io/post/pcal6416a-getting-started/</guid>
-      <description>&lt;p&gt;I2C Port Expander for Robotics Use - Getting Started with the NXP PCAL6416A&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;I2C Port Expander for Robotics Use - Getting Started with the NXP PCAL6416A&lt;/p&gt;</description>
     </item>
     
   </channel>

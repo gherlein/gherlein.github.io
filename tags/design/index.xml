@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design on Greg Herlein</title>
+    <title>design on Greg Herlein</title>
     <link>https://gherlein.github.io/tags/design/</link>
-    <description>Recent content in Design on Greg Herlein</description>
+    <description>Recent content in design on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
@@ -18,9 +18,7 @@
       <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/esp32-pico-v4-library/</guid>
-      <description>&lt;p&gt;An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.&lt;/p&gt;</description>
     </item>
     
   </channel>
