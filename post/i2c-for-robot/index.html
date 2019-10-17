@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  <title>I2c Tools for Project RBOT &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>I2c Tools for Project RBOT</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>29 Sep 2018, 08:44</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/hardware">hardware</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/i2c">i2c</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>I2C Tools I am Using for the RBOT Project</p>
+
+<h2 id="what-i-am-working-on">What I am Working On</h2>
+
+<p>I am building out a robotics system that I&rsquo;ve named RBOT.  It&rsquo;s eventually going to be a product, but first
+I have to get it&rsquo;s core built out.  And that&rsquo;s all based on <a href="http://i2c.info/">I2C</a>.</p>
+
+<h2 id="oscilloscope">Oscilloscope</h2>
+
+<p>If you are going to write code for electronics that deals in bits changing, especially with bits changing
+relative to other bits changing then you definitely need a scope.  You can spend a LOT of money on
+an amazing scope but you can get a really decent scope for under $400.  I like the
+<a href="https://www.amazon.com/Rigol-DS1054Z-Digital-Oscilloscopes-Bandwidth/dp/B012938E76">Rigol DS1054Z</a>.<br />
+Search the web a bit and there&rsquo;s some upgrades you can hack yourself, if you want to double it&rsquo;s bandwidth
+from 50MHz to 100MHz.  I rarely need more than 2 channels, but when you need it you really need it.  I commonly
+use two channels.  Looking at an I2C waveform on the scope looks like this:</p>
+
+<p><img src="https://gherlein.github.io/images/rigol-i2c.png" alt="Rigol I2C Waveform" /></p>
+
+<h2 id="sniffer">Sniffer</h2>
+
+<p>Another key tool is an I2C sniffer to passively read the digits from the wire.  Luckily I had one in a drawer
+that was going to get tossed from a company I worked at years ago.  I hoard that kind of thing so as I got
+serious about I2C I pulled it out.  Lucky for me after a firmware update it still works!  Some tools are just
+timeless I guess.  It&rsquo;s a <a href="https://www.totalphase.com/products/beagle-i2cspi/">Total Phase Beagle</a> and it uses
+their &ldquo;Data Center&rdquo; software.  It basically does for I2C what wireshark does for networks.</p>
+
+<p><img src="https://gherlein.github.io/images/i2c-sniffer.png" alt="Beagle Capture Screenshot" /></p>
+
+<h2 id="my-bench">My Bench</h2>
+
+<p>Clearly you need to wire things up.  You can use a breadboard but I&rsquo;ve found that the capacitance of the
+breadboard could affect things, so I made a rig that has male pins wired in common busses for the clock (SCK)
+and data (SDA) busses, along with rails for ground and 3V3 - and 4.7kOhm resistors as pull ups on both
+the lines.  I added a 2x5 pin male header wired to match the Beagle and it makes for an extremely easy
+way to plug it all together and still monitor what&rsquo;s going on.  Here&rsquo;s what it looks like:</p>
+
+<p><img src="https://gherlein.github.io/images/bench.png" alt="My I2C Bench" /></p>
+
+<h2 id="simavr">SimAvr</h2>
+
+<p>Since one of the parts I am working with is the <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf">ATTiny85</a> that I plan to use an I2C client,
+I&rsquo;m really in the dark about what the code on that little AVR processor is doing.  There&rsquo;s no JTAG and only
+a few spare GPIO pins to blink an LED or something to let me know what&rsquo;s up.  Luckily I just found a
+nifty looking tool:  <a href="https://github.com/buserror/simavr">SimAVR</a>.  This tool claims to let me run
+code compiled for the AVR inside it and simulate being in a real chip.  I just installed it (and sent a
+<a href="https://github.com/buserror/simavr/pull/305">pull request</a> and will be diving into how to use it next.</p>
+
+<h2 id="goals">Goals</h2>
+
+<p>My aim is not only to be able to hang I2C sensors off the bus, but to create my own sensors and actuators
+using the ATTiny chips.  The AVR will sit on the I2C bus and &ldquo;talk&rdquo; and it&rsquo;s other 4 lines can generate
+PWM, read voltages, drive relays, whatever.  These parts are under $2 in qty 1 so they are very affordable.
+When I&rsquo;m done I&rsquo;ll have a whole robotics system that works on I2C, and a set of Golang code to drive all of
+it over MQTT.  I already have a version of this that natively works on the Raspberry Pi called
+<a href="https://github.com/gherlein/pi-blaster-mqtt">pi-blaster-mqtt</a> but I don&rsquo;t want to be bound to the
+RPi so tightly.  I have a manual control proof of concept using an XBox Controller too.  See
+<a href="https://github.com/gherlein/goxb_mqtt">goxb_mqtt</a>.  Eventually, MQTT will be the network bus and I2C
+will be the robot bus.  Lots of work between here and there to make that real!</p>
+  
+  <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fi2c-for-robot%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fi2c-for-robot%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fi2c-for-robot%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fi2c-for-robot%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fi2c-for-robot%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fi2c-for-robot%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/pcal6416a-getting-started/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/pcal6416a-getting-started/">Pcal6416a Getting Started</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://gherlein.github.io/post/eng-leadership-321/">Engineering Leadership 321</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://gherlein.github.io/post/eng-leadership-321/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+<script src="https://gherlein.github.io/js/math-code.js"></script>
+  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+

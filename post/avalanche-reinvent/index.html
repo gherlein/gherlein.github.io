@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.55.6" />
+
+  <title>Avalanche! re:Invent 2018 &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Avalanche! re:Invent 2018</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2018, 10:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Thoughts on AWS re:Invent 2018</p>
+
+<h1 id="avalanche-re-invent-2018">Avalanche! re:Invent 2018</h1>
+
+<p>I last attended AWS&rsquo;s re:Invent five years ago, in 2013.  Back then it was a big deal.  It filled a huge
+venue, had over 200 sessions, and plentiful vendors.  I had some excellent chats with AWS
+staff about how spot instances and their market really worked.  It was, and still is, one of the best tech
+conferences I have ever been to.</p>
+
+<h2 id="five-years">Five Years</h2>
+
+<p>I attended this year&rsquo;s re:Invent.  What a difference 5 years makes! Seven huge venues, all along the strip.  Bus service between them all.  Thousands of sessions. Yes, thousands.  I&rsquo;d say countless but somewhere there is a database of them all that someone could do a count on.  Mere humans reading the catalog?  No.  Too many.  If you didn&rsquo;t pre-register for most
+sessions then you had to settle for overflow seating.  Which worked, maybe better than being there.  You sat in an
+area with rows of chairs.  Each area had color coded headphones keyed to a certain session.  You just sat
+and listened.  And met folks that also attended after, and chatted.  The regular sessions just had a human you can see.  I highly recommend viewing the <a href="https://www.youtube.com/user/AmazonWebServices">recordings</a>.
+There was some excellent material covered.</p>
+
+<h2 id="but-the-overwhelming-part-was">But the Overwhelming Part Was&hellip;</h2>
+
+<p>Product announcements.  By my count AWS made 81 (yes, <strong>EIGHTY-ONE</strong>) <a href="https://aws.amazon.com/new/reinvent/">major new or improved product announcements</a>.  That&rsquo;s basically 16 announcements PER DAY across a five day conference.</p>
+
+<p>Think about that for a minute.  How many products did your company launch or dramatically improve this year?</p>
+
+<p>Thought so.  I work for a major company.  Fortune 50.  We&rsquo;re split into a lot of business units, so it&rsquo;s hard to keep
+track, but if we did 20 significant launches this year I&rsquo;d be pretty surprised.</p>
+
+<p>The sheer number of announcements just made me dizzy.  The energy in room was crackling.  I don&rsquo;t think I was the only one feeling like a kid on Christmas morning.</p>
+
+<h2 id="meaning-what-exactly">Meaning What Exactly?</h2>
+
+<p>So AWS is big. They released a lot.  So what?</p>
+
+<p>AWS is exploding with new innovation, solidifying foundations, and closing off
+markets where competition could find some traction.  I&rsquo;ll go into details later.  But the sheer volume is staggering.
+Earlier this year it was reported that <a href="https://www.cnbc.com/2018/02/03/aws-is-the-fifth-biggest-business-software-company-in-the-world.html">AWS is the fifth largest software company in the world</a>.  So you expect a lot, right?</p>
+
+<p>Microsoft is the biggest, of course, and certainly doing great with Azure.  IBM is next, and just bought Red Hat - which
+certainly makes sense in the light of this comparison. Oracle is after that - but we know where most of their
+revenue comes from.  Aside:  two interesting things about Oracle.  One is that AWS officially announced that on
+November 5th they turned off the last Oracle instance at Amazon.  Boom.  The other is how hard Oracle is trying
+to get into the cloud game.  They are even hiring a team to build out a <a href="https://www.glassdoor.com/job-listing/sr-director-software-development-manager-bare-metal-cloud-team-oracle-JV_IC1139994_KO0,62_KE63,69.htm?jl=3053536712">bare metal cloud</a> which should amuse those of you who know me.  I led a crack team that built a working bare metal cloud over two
+years ago at Cisco.  Ask me over a beer sometime what happened.  Anyway, next is SAP who are also definitely getting
+into the cloud game based on hiring patterns.  And then the upstart AWS.  Not Amazon, just the AWS part of Amazon.  And they are reinvesting heavily back into their own business.</p>
+
+<p>But what matters, in my opinion, is that 100% of AWS is cloud-native.  By definition.  And mutually reinforcing.  The
+entire thing is all a set of interlocking PaaS components ready for companies to build on top of.  They eat their own dog food and leverage their own cloud to build more PaaS components which leads to faster deployment which leads to more components and features&hellip; and suddenly you have an avalanche accelerating down the mountain.</p>
+
+<p>Think about that.  And think about what it will look like in five more years.  Avalanche.  Sheer Technology Avalanche.</p>
+
+<p><img src="https://gherlein.github.io/images/avalanche.png" alt="" /></p>
+
+<h2 id="closing-off-markets">Closing Off Markets</h2>
+
+<p>In my opinion, Microsoft is the real deal.  They have embraced Linux, leveraged their massive Enterprise footprint and
+penetration, and built out a credible cloud.  Azure is a public cloud but can be deployed on-premise as a local cloud.
+And since they are solid with the Fortune 500 already, it&rsquo;s not that hard to argue &ldquo;don&rsquo;t move to AWS, just run
+Azure on premise and burst into our cloud.&rdquo;  Smart.  And it&rsquo;s been working.  Look at their cloud revenue.</p>
+
+<p>But then AWS announced <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-outposts/">Outposts</a>.  This is basically the same hardware and software that AWS deploys, only you deploy it in your own data center.  Data ownership concerns?  Not.  Oh, and AWS will install and operate it too.  This basically gives it the same &ldquo;shift CapEx to OpEx&rdquo; benefit as cloud only it&rsquo;s
+right on your own premise.  I can&rsquo;t wait to understand the pricing model.  This is the game change of all game
+changes if AWS can do this right.  Now there&rsquo;s at least something to sell against Azure on-prem.  And if it
+includes all the new whizbang stuff then Microsoft will have a VERY hard time keeping up.  How many cloud-native PaaS product announcements did they do this year?  Right.</p>
+
+<p>This does not have to even be all that successful financially to be vastly successful.  This is the Azure antidote.</p>
+
+<h2 id="solidifying-foundations">Solidifying Foundations</h2>
+
+<p>Many of the releases were &ldquo;just&rdquo; upgrades to existing services.  But do any of the other cloud providers even have
+81 services to start with?  Set that aside.  These were significant improvements to major services.  What struck me was the concrete improvements to compute, database, storage and machine learning  offerings in particular.  Compute saw new <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-ec2-a1-instances/">ARM-based A1 instances</a> that are dirt cheap, integration of <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/alb-can-now-invoke-lambda-functions-to-serve-https-requests/">ALB directly into Lambda</a> which I&rsquo;m still reeling about, and a new massive <a href="https://aws.amazon.com/ec2/instance-types/p3/#Amazon_EC2_P3dn.24xlarge_Instances">P3dn instance type</a> that honestly is a scary level of compute.</p>
+
+<p>Databases saw support for <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-dynamodb-support-for-transactions/">transactions in Dynamo DB</a>, <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-aurora-global-database/">multi-region Aurora</a>, and <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-dynamodb-on-demand/">DynamoDB on demand</a>.  These take already incredibly compelling database offers to outer space levels.</p>
+
+<p>Storage offers added <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/coming-soon-amazon-efs-infrequent-access-storage-class/">EFS Infrequent Access</a>, <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/s3-glacier-deep-archive/">S3 Glacier Deep Archive</a>, and <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/s3-glacier-api-simplification/">Four new S3 features</a>.  These all offer huge cost savings that will make any CFO dance (yes, some of them will dance if costs drop low
+enough).</p>
+
+<p>Their already ground-breaking Machine Learning offerings got even better.  I&rsquo;m planning on a lot of time in the coming
+quarter to really dive into these.  Right off the top I can say that <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-sagemaker-groundtruth/">SageMaker Ground Truth</a> will change the game, forever.  When we look back on
+2018 we will think that re:Invent was the week that ML became really available for the masses.</p>
+
+<h2 id="enough-with-the-business-stuff-new-innovation">Enough with the Business Stuff - New Innovation!</h2>
+
+<p>I cannot even begin to cover all the new stuff they released.  I&rsquo;ve not even really looked at all the IoT
+stuff yet, but I know I&rsquo;m going to go nuts over the new FreeRTOS things.  More on that later and how it plays into my <a href="http://herlein.com/post/i2c-for-robot/">RBOT</a> project.  For now, what really got my attention are three things:  <a href="https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-ground-station-preview">GroundStation</a>, <a href="http://aws.amazon.com/about-aws/whats-new/2018/11/announcing-aws-robomaker-a-new-cloud-robotics-service">RoboMaker</a>, and <a href="https://aws.amazon.com/deepracer/">DeepRacer</a>.</p>
+
+<h3 id="groundstation">GroundStation</h3>
+
+<p>I&rsquo;ve only read the <a href="https://aws.amazon.com/ground-station/">description page</a>.  I&rsquo;ve not actually tried to do anything with it yet.  But dang, this sure looks like the other side of the puzzle to do some space science.  I coach high school robotics (<a href="https://github.com/SHC-Robotics-Team-8255">SHCP Vex Team 8255</a>) and one of the &ldquo;after-season&rdquo; projects we are looking at doing is to build a CubeSat for <a href="https://www.nasa.gov/content/about-cubesat-launch-initiative">NASA&rsquo;s CubeSat Launch Initiative</a>.  Suddenly this looks really, really possible.</p>
+
+<p>What kinds of innovation are right around the corner with this?</p>
+
+<h3 id="robomaker">RoboMaker</h3>
+
+<p>This is sort of like what AWS did with <a href="https://aws.amazon.com/freertos/">FreeRTOS</a> only with <a href="http://wiki.ros.org/ROS/Concepts">Robot Operating System - ROS</a> - only with a fully functional simulation environment.  Yes, you can construct a robot in a simulation, upload your code to it, and run simulatons on how it behaves.  Yes Virginia, there is a Santa Claus!  I cannot wait for the time off these holidays to actually start to play with it.</p>
+
+<h3 id="deepracer">DeepRacer</h3>
+
+<p>This is a <a href="https://aws.amazon.com/deepracer/">robotic self-driving car at <sup>1</sup>&frasl;<sub>18</sub> scale</a>.  Yes, it&rsquo;s like a toy remote control car, only it&rsquo;s autonomous.  And you can use the AWS ML tools to do &ldquo;reinforcement learning&rdquo; to &ldquo;teach&rdquo; it to drive itself.  Folks, this is taking the sci-fi startup technology into your living room.  The cars don&rsquo;t ship until March 6 (what a birthday present for me!).  You can <a href="https://www.amazon.com/gp/product/B07JMHRKQG/ref=oh_aui_detailpage_o04_s00?ie=UTF8&amp;psc=1">pre-order</a> now for only $249 before they go up to $399.  No idea how yet, but I&rsquo;m betting the hacking opportunities with this thing will be incredible.  By the way, I bought my car within minutes of Werner Vogels announcing it.  I bought one for my high school robotics team too.</p>
+
+<h2 id="leaving-las-vegas">Leaving Las Vegas</h2>
+
+<p><img src="https://gherlein.github.io/images/leaving-las-vegas.png" alt="" /></p>
+
+<p>Well, leaving re:Invent&hellip; was bittersweet.  It&rsquo;s not my favorite place and I&rsquo;ve done way more than my share of tradeshowsthere (attending and working).  CES, NAB, and InfoComm can still make me tired just thinking about them.  But I didn&rsquo;t want the excitement to end. On the other hand, getting home meant some time to play with all this stuff.  Any
+self-respecting geek would be chomping at the bit to get their hands on all this technology.  I cannot imagine
+anyone not wanting to just dive in.</p>
+
+<p>Hands down this year&rsquo;s re:Invent is now the best tech conference I have ever been to.</p>
+  
+  <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2favalanche-reinvent%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2favalanche-reinvent%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2favalanche-reinvent%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2favalanche-reinvent%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2favalanche-reinvent%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2favalanche-reinvent%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/eng-leadership-321/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/eng-leadership-321/">Engineering Leadership 321</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://gherlein.github.io/post/aws-certified/">AWS Certified</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://gherlein.github.io/post/aws-certified/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+<script src="https://gherlein.github.io/js/math-code.js"></script>
+  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+
