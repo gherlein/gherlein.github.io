@@ -7,49 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 18 Jul 2019 18:40:43 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Dec 2018 23:50:38 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Ubuntu Lid Control</title>
-      <link>https://gherlein.github.io/post/ubuntu-lid/</link>
-      <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/ubuntu-lid/</guid>
-      <description>&lt;p&gt;The default behavior of Ubuntu 18.04 is not friendly for a notebook that swaps back and forth from desk to mobile.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Cloudy DevOps - Part 1</title>
-      <link>https://gherlein.github.io/post/cloud-basics/</link>
-      <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/cloud-basics/</guid>
-      <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Boards!</title>
-      <link>https://gherlein.github.io/post/boards/</link>
-      <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/boards/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu Again!</title>
-      <link>https://gherlein.github.io/post/ubuntu-18.04/</link>
-      <pubDate>Sat, 05 Jan 2019 08:40:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/ubuntu-18.04/</guid>
-      <description>&lt;p&gt;From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop
-became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!
-Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s
-the easiest and happiest linux ever for me.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>AWS Certified</title>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 30 Dec 2018 10:33:02 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Dec 2018 11:33:02 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>ESP32-PICO-KIT-V4 Eagle Library</title>
       <link>https://gherlein.github.io/post/esp32-pico-v4-library/</link>
-      <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
+      <pubDate>Sun, 30 Dec 2018 11:33:02 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/esp32-pico-v4-library/</guid>
       <description>&lt;p&gt;An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.&lt;/p&gt;</description>

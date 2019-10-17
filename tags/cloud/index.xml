@@ -7,28 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 24 Feb 2019 08:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Dec 2018 23:50:38 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Review:  Blowing up the Monolith</title>
-      <link>https://gherlein.github.io/post/blowing-up-monolith/</link>
-      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/blowing-up-monolith/</guid>
-      <description>&lt;p&gt;Book review - free &lt;a href=&#34;https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf&#34;&gt;&amp;ldquo;Blowing up the Monolith&amp;rdquo;&lt;/a&gt; book from Kong.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Cloudy DevOps - Part 1</title>
-      <link>https://gherlein.github.io/post/cloud-basics/</link>
-      <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/cloud-basics/</guid>
-      <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>AWS Certified</title>

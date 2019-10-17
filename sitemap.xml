@@ -3,220 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gherlein.github.io/post/esp32-pico-v4-library/</loc>
+    <lastmod>2018-12-30T11:33:02-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/</loc>
-    <lastmod>2019-07-19T07:00:00-08:00</lastmod>
+    <lastmod>2018-12-30T11:33:02-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/college/</loc>
-    <lastmod>2019-07-19T07:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2019-07-19T07:00:00-08:00</lastmod>
+    <lastmod>2018-12-30T11:33:02-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/tags/</loc>
-    <lastmod>2019-07-19T07:00:00-08:00</lastmod>
+    <lastmod>2018-12-30T11:33:02-08:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/education/</loc>
-    <lastmod>2019-07-19T07:00:00-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/opinionl/</loc>
-    <lastmod>2019-07-19T07:00:00-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/ubuntu-lid/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/linux/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/technical/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/ubuntu/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/update-july/</loc>
-    <lastmod>2019-07-18T11:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/personal/</loc>
-    <lastmod>2019-07-18T11:40:43-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/blowing-up-monolith/</loc>
-    <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/architecture/</loc>
-    <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/cloud/</loc>
-    <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/development/</loc>
-    <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/micro-services/</loc>
-    <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/software/</loc>
-    <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/cloud-basics/</loc>
-    <lastmod>2019-02-10T14:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/devops/</loc>
-    <lastmod>2019-02-10T14:50:08-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/aws/</loc>
-    <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/ml/</loc>
-    <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/ros/</loc>
-    <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/self-driving-revolution/</loc>
-    <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/robotics/</loc>
-    <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/management-readme/</loc>
-    <lastmod>2019-01-30T09:30:29-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/general/</loc>
-    <lastmod>2019-01-30T09:30:29-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/non-technical/</loc>
-    <lastmod>2019-01-30T09:30:29-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/rbot-value-prop/</loc>
-    <lastmod>2019-01-21T13:40:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/electronics/</loc>
-    <lastmod>2019-01-21T13:40:08-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/hardware/</loc>
-    <lastmod>2019-01-21T13:40:08-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/product/</loc>
-    <lastmod>2019-01-21T13:40:08-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/boards/</loc>
-    <lastmod>2019-01-21T10:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/eagle/</loc>
-    <lastmod>2019-01-21T10:50:08-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/smd/</loc>
-    <lastmod>2019-01-21T10:50:08-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/ubuntu-18.04/</loc>
-    <lastmod>2019-01-05T08:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/esp32-pico-v4-library/</loc>
-    <lastmod>2018-12-30T10:33:02-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/tags/design/</loc>
-    <lastmod>2018-12-30T10:33:02-08:00</lastmod>
+    <lastmod>2018-12-30T11:33:02-08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/eagle/</loc>
+    <lastmod>2018-12-30T11:33:02-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/electronics/</loc>
+    <lastmod>2018-12-30T11:33:02-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/resume/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -237,8 +66,26 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/tags/aws/</loc>
+    <lastmod>2018-12-18T23:50:38-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/post/aws-certified/</loc>
     <lastmod>2018-12-18T23:50:38-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/cloud/</loc>
+    <lastmod>2018-12-18T23:50:38-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/technical/</loc>
+    <lastmod>2018-12-18T23:50:38-08:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -249,6 +96,12 @@
   <url>
     <loc>https://gherlein.github.io/post/eng-leadership-321/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/general/</loc>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -264,6 +117,12 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/tags/non-technical/</loc>
+    <lastmod>2018-10-15T21:30:29-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/team-building/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
     <priority>0</priority>
@@ -272,6 +131,12 @@
   <url>
     <loc>https://gherlein.github.io/post/i2c-for-robot/</loc>
     <lastmod>2018-09-29T08:44:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/hardware/</loc>
+    <lastmod>2018-09-29T08:44:43-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -330,6 +195,12 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/tags/devops/</loc>
+    <lastmod>2016-04-12T16:29:39-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
@@ -337,11 +208,6 @@
   <url>
     <loc>https://gherlein.github.io/projects/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/resume/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

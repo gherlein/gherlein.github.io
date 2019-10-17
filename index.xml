@@ -7,111 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 07:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Dec 2018 11:33:02 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Not Everyone Needs to Go To College</title>
-      <link>https://gherlein.github.io/post/college/</link>
-      <pubDate>Fri, 19 Jul 2019 07:00:00 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/college/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s wrong, and possibly dangerous, to just make college free for anyone who wants it.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu Lid Control</title>
-      <link>https://gherlein.github.io/post/ubuntu-lid/</link>
-      <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/ubuntu-lid/</guid>
-      <description>&lt;p&gt;The default behavior of Ubuntu 18.04 is not friendly for a notebook that swaps back and forth from desk to mobile.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Where Have I Been?</title>
-      <link>https://gherlein.github.io/post/update-july/</link>
-      <pubDate>Thu, 18 Jul 2019 11:40:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/update-july/</guid>
-      <description>&lt;p&gt;Dang, no blog posts for almost six months?  What&amp;rsquo;s kept me so busy?  Japan!&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Review:  Blowing up the Monolith</title>
-      <link>https://gherlein.github.io/post/blowing-up-monolith/</link>
-      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/blowing-up-monolith/</guid>
-      <description>&lt;p&gt;Book review - free &lt;a href=&#34;https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf&#34;&gt;&amp;ldquo;Blowing up the Monolith&amp;rdquo;&lt;/a&gt; book from Kong.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Cloudy DevOps - Part 1</title>
-      <link>https://gherlein.github.io/post/cloud-basics/</link>
-      <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/cloud-basics/</guid>
-      <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Self Driving Revolution</title>
-      <link>https://gherlein.github.io/post/self-driving-revolution/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/post/self-driving-revolution/</guid>
-      <description>&lt;p&gt;Think self-driving technology requires deep pockets to play with?  Think again.  &lt;a href=&#34;https://aws.amazon.com/deepracer/&#34;&gt;AWS DeepRacer&lt;/a&gt; and &lt;a href=&#34;https://github.com/CPFL/Autoware/wiki&#34;&gt;Autoware&lt;/a&gt; are the leading edges of self-driving automation for the maker.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Updated Management README</title>
-      <link>https://gherlein.github.io/post/management-readme/</link>
-      <pubDate>Wed, 30 Jan 2019 09:30:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/post/management-readme/</guid>
-      <description>&lt;p&gt;I updated my &lt;a href=&#34;http://herlein.com/about/&#34;&gt;&amp;ldquo;Management README&amp;rdquo;&lt;/a&gt;. Give it a read if you&amp;rsquo;d like.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>RBOT Robotics Sensor/Acuator Board - Value Proposition</title>
-      <link>https://gherlein.github.io/post/rbot-value-prop/</link>
-      <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/rbot-value-prop/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m building a board for robotics, but it&amp;rsquo;s also useful for IoT and home automation.  What&amp;rsquo;s it do?  What problem does it solve?  It&amp;rsquo;s basically a WiFi interface to a variety of I2C-driven devices (motors or sensors).  The I2C side is Engineered to be highly robust and reliable.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Boards!</title>
-      <link>https://gherlein.github.io/post/boards/</link>
-      <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/boards/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu Again!</title>
-      <link>https://gherlein.github.io/post/ubuntu-18.04/</link>
-      <pubDate>Sat, 05 Jan 2019 08:40:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/ubuntu-18.04/</guid>
-      <description>&lt;p&gt;From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop
-became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!
-Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s
-the easiest and happiest linux ever for me.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>ESP32-PICO-KIT-V4 Eagle Library</title>
       <link>https://gherlein.github.io/post/esp32-pico-v4-library/</link>
-      <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
+      <pubDate>Sun, 30 Dec 2018 11:33:02 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/esp32-pico-v4-library/</guid>
       <description>&lt;p&gt;An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Greg Herlein</title>
+      <link>https://gherlein.github.io/resume/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gherlein.github.io/resume/</guid>
+      <description>San Francisco, CA
+gherlein  herlein.com
+@gherlein 
+GitHub
+LinkedIn Profile
+Summary of Qualifications  10+ years Senior Engineering leadership experience - full stack, SaaS, operations and DevOps Reputation for building &amp;ldquo;teams that don&amp;rsquo;t break&amp;rdquo; - extremely strong recruiting and building out teams Diverse technical background - web, databases, networking, embedded systems, cloud, automation Cloud Expert - current AWS Certified Solutions Architect Significant Startup Experience - co-founder, VC backed, being acquired, acquiring Big company experience - Director at Cisco, VP at Technicolor Selected as Technicolor Fellow - invitation only group of company&amp;rsquo;s top technologists Inventor - over 30 patent applications filed, 6 granted patents - experience with patent litigation Excellent communicator - able to translate company goals into compelling visions Engineers understand Still hands-on - current projects in golang and C - robotics, edge and cloud computing  Work History Cisco - Principal Architect, CX Platforms (12&amp;frasl;2014 to Present)  Principal Architect for Cisco Customer Experience Platforms (CXP) group of over 1000 Engineers Mission is to migrate from traditional Enterprise software to cloud-native approach Drove organization to develop all new software in AWS and Cisco&amp;rsquo;s OpenStack cloud Set standard templates for cloud-native tech stack - terraform, ansible, helm, docker, k8s, prometheus Drove automation of development, test and deployment - identical patterns into AWS and OpenStack Identified successful &amp;ldquo;solution patterns&amp;rdquo; and called out anti-patterns to change behaviors Earned the trust of the Cisco Distinguished Engineer community - converting them into cloud advocates Managed an extended team of Architects across multiple business and technical domains Previous Cisco experience in SPVSS leading large (150+) globally distributed development teams Previous Cisco experience leading small, specialized development teams for new product development  Cognitive Networks - Vice President, Engineering (9&amp;frasl;2013 - 11&amp;frasl;2014)  Rebuilt proof-of-concept TV content recognition system into an AWS-based reliable and scalable product System compared &amp;ldquo;video fingerprints&amp;rdquo; in real-time to detect what each TV was &amp;ldquo;watching&amp;rdquo; Scaled from 200K to 4M+ devices - collected and processed petabytes of data monthly Replaced MySQL and custom python code with RDS, Redshift and Kinesis yielding massive scale Shifted from AWS classic to multi-AZ VPCs for improved security and availability Rearchitected core code from python to C yeilding a 40x cloud cost cost reduction Improved uptime from low 90% to better than 99.</description>
     </item>
     
     <item>
@@ -211,8 +132,9 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</d
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://gherlein.github.io/about/</guid>
-      <description>What is This? I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me.
-Summary My name is Greg Herlein. I am an Engineering Leader and Maker based in San Francisco California. I am active on LinkedIn and sometimes on Twitter. I keep my open source work on Github.</description>
+      <description>What is This? I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but it also sheds some light on me personally.
+About Me My name is Greg Herlein. I am an Engineering Leader and Maker based in San Francisco California.
+I am active on LinkedIn and sometimes on Twitter. I keep my open source work on Github.</description>
     </item>
     
     <item>
@@ -226,20 +148,6 @@ Summary My name is Greg Herlein. I am an Engineering Leader and Maker based in S
  ouilookup - CLI tool written in go to look up the vendor for a given MAC address
  PiBlaster-MQTT - port of PiBlaster to use MQTT instead of a local charachter device
  goxb_mqtt - native go code that reads from an XBox&amp;trade; controller (using libusb) and sends events over MQTT</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://gherlein.github.io/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gherlein.github.io/resume/</guid>
-      <description>Greg Herlein San Francisco, CA
-gherlein &amp;lt;at&amp;gt; herlein.com
-@gherlein
-github.com/gherlein
-http://blog.herlein.com
-Summary of Qualifications  10+ years Senior Engineering leadership experience - full stack, SaaS, hardware, operations and DevOps Reputation for building &amp;ldquo;teams that don&amp;rsquo;t break&amp;rdquo; - extremely strong recruiting and building out teams Diverse technical background - web, databases, networking, embedded systems, cloud, automation Cloud Expert - current AWS Certified Solutions Architect, OpenStack, Kubernetes Significant Startup Experience - co-founder, VC backed, being acquired, acquiring Big company experience - Director at Cisco, VP at Technicolor Selected as Technicolor Fellow - invitation only group of company&amp;rsquo;s top technologists Inventor - over 30 patent applications filed, 6 granted patents - experience with patent litigation Excellent communicator - able to translate company goals into compelling visions Engineers understand Still hands-on - current projects in golang and C - robotics, edge and cloud computing  Work History Cisco - Director, Site Reliability Engineering (12&amp;frasl;2014 to Present)  Current role is leading a new Site Reliability Engineering (SRE) services for Service Providers (SP) Driving adoption of cloud-scale technologies and approaches into traditional enterprise and SP space Setting standard templates for cloud-native tech stack - terraform, ansible, helm, docker, k8s, prometheus Leading software teams building out &amp;ldquo;observability&amp;rdquo; improvements in logging, alerting, telemetry Identifying successful &amp;ldquo;solution patterns&amp;rdquo; and called out anti-patterns to change behaviors Earned the trust of the Cisco Distinguished Engineer community - converting them into cloud advocates Previous Cisco role as Principal Architect, Customer Experience Previous Cisco role as Engineering Director leading development teams for new product development Previous Cisco role as Engineering Director leading large (150+) globally distributed development teams  Cognitive Networks - Vice President, Engineering (9&amp;frasl;2013 - 11&amp;frasl;2014)  Rebuilt proof-of-concept TV content recognition system into an AWS-based reliable and scalable product System compared &amp;ldquo;video fingerprints&amp;rdquo; in real-time to detect what each TV was &amp;ldquo;watching&amp;rdquo; Scaled from 200K to 4M+ devices - collected and processed petabytes of data monthly Replaced MySQL and custom python code with RDS, Redshift and Kinesis yielding massive scale Shifted from AWS classic to multi-AZ VPCs for improved security and availability Rearchitected core code from python to C yeilding a 40x cloud cost cost reduction Improved uptime from low 90% to better than 99.</description>
     </item>
     
   </channel>
