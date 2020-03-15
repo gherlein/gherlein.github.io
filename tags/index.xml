@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Greg Herlein</title>
@@ -139,20 +139,20 @@
     </item>
     
     <item>
-      <title>ROS</title>
-      <link>https://gherlein.github.io/tags/ros/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/ros/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>robotics</title>
       <link>https://gherlein.github.io/tags/robotics/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
       
       <guid>https://gherlein.github.io/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://gherlein.github.io/tags/ros/</link>
+      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/ros/</guid>
       <description></description>
     </item>
     
