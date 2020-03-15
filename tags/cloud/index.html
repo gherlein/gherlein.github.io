@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.67.0" />
+
+  <title>cloud &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
+    href='https://gherlein.github.io/tags/cloud/index.xml' />
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href='https://gherlein.github.io/tags/cloud/index.xml'><i
+          class="fas fa-rss"></i>RSS</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>cloud</h1>
+</div>
+
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/blowing-up-monolith/">Review:  Blowing up the Monolith</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>24 Feb 2019, 08:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/micro-services">micro-services</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/architecture">architecture</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/software">software</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/development">development</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Book review - free <a href="https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf">&ldquo;Blowing up the Monolith&rdquo;</a> book from Kong.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://gherlein.github.io/post/blowing-up-monolith/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/cloud-basics/">Cloudy DevOps - Part 1</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Feb 2019, 14:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&rsquo;s some of what I&rsquo;ve learned across a half-dozen teams who&rsquo;ve done it.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://gherlein.github.io/post/cloud-basics/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/aws-certified/">AWS Certified</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2018, 23:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>On Becoming an AWS Certified Solutions Architect (Associate)</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://gherlein.github.io/post/aws-certified/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/avalanche-reinvent/">Avalanche! re:Invent 2018</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2018, 10:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Thoughts on AWS re:Invent 2018</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://gherlein.github.io/post/avalanche-reinvent/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/golang-enabled-microkernels/">Golang Enabling Unikernels?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>29 Jan 2018, 16:29</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/general">general</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/golang">golang</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/micro-kernels">micro-kernels</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p><a href="https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/">Golang Enabling Unikernels?</a></p>
+  </p>
+
+  
+  <footer>
+    <a href="https://gherlein.github.io/post/golang-enabled-microkernels/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/technology-rolls-on/">Technology Rolls On, Better Roll With It</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>21 Dec 2016, 16:29</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/general">general</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/data-centers">data-centers</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/automation">automation</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p><a href="https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/">Technology Rolls On, Better Roll With It</a></p>
+  </p>
+
+  
+  <footer>
+    <a href="https://gherlein.github.io/post/technology-rolls-on/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/how-to-do-devops/">How To Do Devops?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>12 Apr 2016, 16:29</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/general">general</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/automation">automation</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p><a href="https://www.linkedin.com/pulse/how-do-devops-greg-herlein/">How To Do Devops?</a></p>
+  </p>
+
+  
+  <footer>
+    <a href="https://gherlein.github.io/post/how-to-do-devops/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
