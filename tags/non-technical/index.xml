@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 30 Jan 2019 09:30:29 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2020 13:21:00 -0700</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/non-technical/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>COVID-19</title>
+      <link>https://gherlein.github.io/post/covid-19/</link>
+      <pubDate>Sun, 15 Mar 2020 13:21:00 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/post/covid-19/</guid>
+      <description>&lt;p&gt;The impacts of COVID-19 are really not upon us yet.  But some of them are hitting, and I thought I&amp;rsquo;d jot some notes about how it&amp;rsquo;s hitting us here in SF.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Updated Management README</title>
