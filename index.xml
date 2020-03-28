@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Greg Herlein</title>
@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Mar 2020 13:21:00 -0700</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -231,10 +231,10 @@ Summary My name is Greg Herlein. I am an Engineering Leader and Maker based in S
       
       <guid>https://gherlein.github.io/projects/</guid>
       <description>Projects This is a short list of projects I am currently working on (or have built and am actively using):
-  GoNetMon - Network use visualization writting in GoLang, using Prometheus and Kibana
-  ouilookup - CLI tool written in go to look up the vendor for a given MAC address
-  PiBlaster-MQTT - port of PiBlaster to use MQTT instead of a local charachter device
-  goxb_mqtt - native go code that reads from an XBox(tm) controller (using libusb) and sends events over MQTT</description>
+ GoNetMon - Network use visualization writting in GoLang, using Prometheus and Kibana
+ ouilookup - CLI tool written in go to look up the vendor for a given MAC address
+ PiBlaster-MQTT - port of PiBlaster to use MQTT instead of a local charachter device
+ goxb_mqtt - native go code that reads from an XBox&amp;trade; controller (using libusb) and sends events over MQTT</description>
     </item>
     
     <item>
@@ -247,7 +247,7 @@ Summary My name is Greg Herlein. I am an Engineering Leader and Maker based in S
 gherlein &amp;ldquo;at&amp;rdquo; herlein.com
 @gherlein
 github.com/gherlein
-Summary of Qualifications  10+ years Senior Engineering leadership experience - full stack, SaaS, operations and DevOps Reputation for building &amp;ldquo;teams that don&amp;rsquo;t break&amp;rdquo; - extremely strong recruiting and building out teams Diverse technical background - web, databases, networking, embedded systems, cloud, mobile Cloud Expert - current AWS Certified Solutions Architect Agile and SRE/DevOps methodology expert - proven experience increasing reliability and scalability Significant Startup Experience - co-founder, VC backed, being acquired, acquiring Big company experience - Director at Cisco, VP at Technicolor Selected as Technicolor Fellow - invitation only group of company&amp;rsquo;s top technologists Inventor - over 30 patent applications filed, 6 granted patents - experience with patent litigation Excellent communicator - able to translate company goals into compelling visions Engineers understand Operations-first mentality - with a goal of driving to &amp;ldquo;No Ops&amp;rdquo; fully automated systems  Work History Cisco - Director Software Engineering, CX Cloud - Customer Experience (12/2014 to Present)  Director, Software Engineering, CX Cloud – Customer Experience  Leading multiple teams moving legacy code to the cloud and writing new code to enable new features Previously was delivering SRE for Rakuten&amp;rsquo;s fully virtual cloud-based deployment of a new 5G ready mobile network Deployed large-scale logging/monitoring/observability framework to support fully autonomous operations Tech stack: AWS/Azure/Kubernetes/Docker/Prometheus/ElasticSearch/Logstash/python/golang   Principal Architect for Cisco Customer Experience Platforms (CXP) group of over 600 Engineers  Mission was to migrate from traditional Enterprise software to cloud-native approach Drove organization to develop all new software in AWS and Cisco&amp;rsquo;s OpenStack cloud Set standard templates for cloud-native tech stack - terraform, ansible, helm, docker, k8s, prometheus Drove automation of development, test and deployment - identical patterns into AWS and OpenStack Identified successful &amp;ldquo;solution patterns&amp;rdquo; and called out anti-patterns to change behaviors Earned the trust of the Cisco Distinguished Engineer community - converting them into cloud advocates Managed an extended team of Architects across multiple business and technical domains Tech stack: AWS/Azure/Kubernetes/Docker/Prometheus/Kafka/Cassandra/Oracle/Java/python/golang   Led a 150+ Engineer globally distributed Engineering team that delivered a new IP Video product Led several small innovation teams building new cloud products (kolla/kubernetes, bare metal cloud)  Cognitive Networks - Vice President, Engineering (9/2013 - 11/2014)  Rebuilt proof-of-concept TV content recognition system into an AWS-based reliable and scalable product  System compared &amp;ldquo;video fingerprints&amp;rdquo; in real-time to detect what each TV was &amp;ldquo;watching&amp;rdquo; Scaled from 200K to 4M+ devices - collected and processed petabytes of data monthly Replaced MySQL and custom python code with RDS, Redshift and Kinesis yielding massive scale Shifted from AWS classic to multi-AZ VPCs for improved security and availability Rearchitected core code from python to C yielding a 40x cloud cost cost reduction Improved up-time from low 90% to better than 99.</description>
+Summary of Qualifications  10+ years Senior Engineering leadership experience - full stack, SaaS, operations and DevOps Reputation for building &amp;ldquo;teams that don&amp;rsquo;t break&amp;rdquo; - extremely strong recruiting and building out teams Diverse technical background - web, databases, networking, embedded systems, cloud, mobile Cloud Expert - current AWS Certified Solutions Architect Agile and SRE/DevOps methodology expert - proven experience increasing reliability and scalability Significant Startup Experience - co-founder, VC backed, being acquired, acquiring Big company experience - Director at Cisco, VP at Technicolor Selected as Technicolor Fellow - invitation only group of company&amp;rsquo;s top technologists Inventor - over 30 patent applications filed, 6 granted patents - experience with patent litigation Excellent communicator - able to translate company goals into compelling visions Engineers understand Operations-first mentality - with a goal of driving to &amp;ldquo;No Ops&amp;rdquo; fully automated systems  Work History Cisco - Director Software Engineering, CX Cloud - Customer Experience (12&amp;frasl;2014 to Present)  Director, Software Engineering, CX Cloud – Customer Experience</description>
     </item>
     
   </channel>
