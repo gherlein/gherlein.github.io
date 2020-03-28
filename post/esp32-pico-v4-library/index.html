@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.57.2" />
+
+  <title>ESP32-PICO-KIT-V4 Eagle Library &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>ESP32-PICO-KIT-V4 Eagle Library</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>30 Dec 2018, 10:33</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/electronics">electronics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/eagle">eagle</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/design">design</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.</p>
+
+<h2 id="background">Background</h2>
+
+<p>I&rsquo;m working on a &ldquo;device hub&rdquo; for robotics and remote sensing.  The goal is to provide a hub for I2C devices
+(motors, actuators and sensors) that&rsquo;s accessible over WiFi.  The board will be low-cost, powered from 12VDC (nominal)
+power supply or battery, and expose a range of devices over the network via a clean, simple abstraction API.  I&rsquo;m
+calling this project RBOT.</p>
+
+<h2 id="autodesk-eagle">Autodesk Eagle</h2>
+
+<p>I&rsquo;m using the fantastic <a href="https://www.autodesk.com/products/eagle/overview">Eagle software</a> from Autodesk.
+It&rsquo;s free for small board development and pretty cheap for professional development.  There&rsquo;s LOTS of parts
+already available for this software, including many for the ESP32.  But for what I want to do I could not find
+a suitable part library.</p>
+
+<h2 id="esp-board-as-a-daughter-board">ESP Board as a Daughter Board</h2>
+
+<p>The <a href="https://docs.espressif.com/projects/esp-idf/en/latest/get-started/get-started-pico-kit.html">ESP32-Pico-V4 Board</a> is
+about <a href="https://www.digikey.com/product-detail/en/espressif-systems/ESP32-PICO-KIT/1904-1030-ND/9381703">$8 at DigiKey</a>
+making it a fabulous, cheap, easy to use compute daughterboard for projects.</p>
+
+<p>It&rsquo;s far cheaper to buy one of these and drop it into a socket on a custom board than to try to source all the parts and
+have the ESP32 compute parts right on your board.  Besides, the BOM cost to add those components would DEFINITELY add
+up to more than $8!</p>
+
+<h2 id="why-not-the-esp32-thing-from-sparkfun">Why Not the ESP32 Thing from SparkFun?</h2>
+
+<p>I have one of <a href="https://www.sparkfun.com/products/13907">these</a> boards too, but they are $21 not $8.  Also, as a
+daughterboard you probably don&rsquo;t need the battery charging circuit, and they use a 26MHz main crystal frequency, not 40MHz
+like the PICO-V4.</p>
+
+<h2 id="the-actual-library">The Actual Library</h2>
+
+<p>You can install it yourself by &ldquo;git clone&rdquo; into your $EAGLE/library folder from the <a href="https://github.com/gherlein/esp32-boards">gitub repo</a>.
+You will need to add the library as usual, then make sure you &ldquo;use&rdquo; it as well.</p>
+
+<h2 id="actual-physical-parts">Actual Physical Parts</h2>
+
+<p>The board mounts on a 2x20 header pair 0.7in apart.  The &ldquo;bottom&rdquo; 3 pins on each side are not populated (bottom is where
+the antenna is, top is where the USB Connection is).  I had a hard time finding 1x20 headers but finally found some from
+<a href="https://www.peconnectors.com/female-headers-pcb-1x-row-.100/hws15775/">Pheonix Enterprises</a> for $0.68 (x1).  I definitely would not be able
+to find 17 pin headers (although you could cut your own).  So be careful when you insert the actual board into the socket to
+line pin 1 and 20 up to the top.</p>
+
+<h2 id="power-supply-considerations">Power Supply Considerations</h2>
+
+<p>The <a href="https://docs.espressif.com/projects/esp-idf/en/latest/get-started/get-started-pico-kit.html#power-supply-options">Reference Material</a>
+cautions against powering the board simultaneously from the USB port and an external 3V3 source.  However, there&rsquo;s
+likely insufficient headroom 3V3 current from the onboard AMS1117 regulator to power any offboard devices.</p>
+
+<p>My solution is to add a solid state normally-closed relay driven from the EXT_5V line.  The relay connects the motherboards 3V3 to
+the PICO-V4&rsquo;s VDD33 input. That line will only be powered from the USB, so when it&rsquo;s plugged in it will drive the relay open, isolating
+the PICO-V4. The relay I&rsquo;m using currently is the <a href="https://www.digikey.com/products/en?keywords=255-6088-1-ND">Panasonic AQY412SX</a>.</p>
+
+<h2 id="use-at-your-own-risk">USE AT YOUR OWN RISK</h2>
+
+<p>I&rsquo;ve not had a board made using this yet, so use it at your own risk.  I am not liable for anything if you use this for any purpose,
+etc. etc. etc.</p>
+
+<h2 id="license">License</h2>
+
+<p>This part may be freely used under the terms of the <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">Creative Commons License</a>.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Half of this exercise was to learn how to make a custom part in Eagle, but I also plan to use these boards a lot - so having this
+part in my library is a good thing.  Since I had seen others seeking something similar, I thought I&rsquo;d open source it.</p>
+  
+  <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32-pico-v4-library%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32-pico-v4-library%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32-pico-v4-library%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32-pico-v4-library%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32-pico-v4-library%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32-pico-v4-library%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/uber-driver-data/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/uber-driver-data/">Uber Driver Teaches me Data Analytics</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://gherlein.github.io/post/ubuntu-18.04/">Ubuntu Again!</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://gherlein.github.io/post/ubuntu-18.04/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+<script src="https://gherlein.github.io/js/math-code.js"></script>
+  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+
