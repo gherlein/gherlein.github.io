@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 15 Mar 2020 13:21:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2020 08:21:00 -0700</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/non-technical/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Baking Sourdough Bread</title>
+      <link>https://gherlein.github.io/post/bread/</link>
+      <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/post/bread/</guid>
+      <description>&lt;p&gt;My first attempt baking sourdough bread led to tasty, but flat loaves.  Here&amp;rsquo;s why.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>COVID-19</title>

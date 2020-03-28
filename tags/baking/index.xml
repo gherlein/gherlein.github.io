@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>baking on Greg Herlein</title>
+    <link>https://gherlein.github.io/tags/baking/</link>
+    <description>Recent content in baking on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 28 Mar 2020 08:21:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/baking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Baking Sourdough Bread</title>
+      <link>https://gherlein.github.io/post/bread/</link>
+      <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/post/bread/</guid>
+      <description>&lt;p&gt;My first attempt baking sourdough bread led to tasty, but flat loaves.  Here&amp;rsquo;s why.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
