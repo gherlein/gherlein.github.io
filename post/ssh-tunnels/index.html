@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.57.2" />
 
-  <title>linux &middot; Greg Herlein</title>
+  <title>SSH Tunnels &middot; Greg Herlein</title>
 
     
 
@@ -41,9 +41,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
-    href='https://gherlein.github.io/tags/linux/index.xml' />
   
 
   
@@ -114,11 +111,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href='https://gherlein.github.io/tags/linux/index.xml'><i
-          class="fas fa-rss"></i>RSS</a>
-    </li>
     
 
     
@@ -234,16 +226,12 @@
 
 
 <div class="header">
-  <h1>linux</h1>
+  <h1>SSH Tunnels</h1>
+  <h2></h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://gherlein.github.io/post/ssh-tunnels/">SSH Tunnels</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -274,117 +262,96 @@
 
 </div>
 
-  </header>
-
-  <p>
   <p>SSH tunnels are basically indistinguishable from magic.</p>
-  </p>
+
+<p>So I have a remote network that I want to access.  Most of my gear is <a href="https://www.ui.com/">Unifi Networking</a> equipment (that&rsquo;s another post about why) so one simple thing would be to do a site-to-site VPN.  Alas, the remote network does not expose a publicly routable IP address.  It&rsquo;s deep into my ISP&rsquo;s private network space (10.etc.).  Setting site to site VPN is thus pretty much off the table.</p>
+
+<p>Most of the time I just need to ssh to a server on that remote network.  So a vanilla SSH tunnel is perfect.  It&rsquo;s pointless for me to document here how to do that - there&rsquo;s really great pages on it all over the net.  So many, in fact, you will get confused.  <a href="https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/">Here&rsquo;s a page</a> that I found not only accurate, but has all the details you will need to make the tunnel &ldquo;operational.&rdquo;</p>
+
+<p>By operational I mean that it &ldquo;just works.&rdquo;  Even if you lose power and everything reboots.  That article goes over how to configure systemd to make that happen.  It&rsquo;s not that hard, and there are not that many steps.  You will need a VM in the cloud somewhere or a linux box on a public IP.  I have a linode host for these kinds of things.</p>
+
+<p>Anyway, all that is vanilla.  The problem I was having was that I needed to access a web page on an appliance on the remote network.  The vendor didn&rsquo;t make a means to upgrade teh firmware from a CLI - I needed web access.  I fiddled and farted and I tried this and I tried that and nothing was working all that well.  So I called my good friend David Wang and talked him through it all.  I was re-assured that he thought it was complicated too.  It was him that had the epiphany that this was not a two hop problem.  I did not need to make a proxy on my network that jumped to the linode VM that jumped to the remote network. It was a one hop:</p>
+
+<pre><code>ssh  -N -D &lt;local port, like 8080&gt; &lt;public host&gt; -p &lt;ssh tunnel port&gt;
+</code></pre>
+
+<p>Tell Firefox to use a &ldquo;Manual Proxy Configuration&rdquo; set to localhost on local port (like 8080) and make sure you select SOCKS v5.  Point your browser at the remote host on the remote network and&hellip;.</p>
+
+<p>It worked.  Just worked.  Like magic.</p>
+
+<p>Arthur C Clark said any sufficiently advanced technology is indistinguishable from magic.  SSH tunnels fit that bill.</p>
+
+<p>Maybe they will help you someday.</p>
+  
+  <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fssh-tunnels%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fssh-tunnels%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fssh-tunnels%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fssh-tunnels%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fssh-tunnels%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fssh-tunnels%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
 
   
-  <footer>
-    <a href="https://gherlein.github.io/post/ssh-tunnels/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://gherlein.github.io/post/ubuntu-lid/">Ubuntu Lid Control</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>18 Jul 2019, 18:40</time>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/bread/"><i class="fa fa-chevron-left"></i></a>
+    
   </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <div class="pure-u-10-24">
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/linux">linux</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/ubuntu">ubuntu</a>
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/bread/">Baking Sourdough Bread</a>
+    </nav>
     
   </div>
-  
-  
-
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  <p>The default behavior of Ubuntu 18.04 is not friendly for a notebook that swaps back and forth from desk to mobile.</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://gherlein.github.io/post/ubuntu-lid/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://gherlein.github.io/post/ubuntu-18.04/">Ubuntu Again!</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>05 Jan 2019, 08:40</time>
-  </div>
 
   
 
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/linux">linux</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/ubuntu">ubuntu</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  <p>From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop
-became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!
-Here&rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&rsquo;s
-the easiest and happiest linux ever for me.</p>
-  </p>
-
-  
-  <footer>
-    <a href="https://gherlein.github.io/post/ubuntu-18.04/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
 </div>
 
 </div>
@@ -401,3 +368,4 @@ the easiest and happiest linux ever for me.</p>
 
 </body>
 </html>
+

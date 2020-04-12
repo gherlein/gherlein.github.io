@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gherlein.github.io/</loc>
+    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/linux/</loc>
+    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/networking/</loc>
+    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/</loc>
+    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/ssh/</loc>
+    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/ssh-tunnels/</loc>
+    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/</loc>
+    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/technical/</loc>
+    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/baking/</loc>
     <lastmod>2020-03-28T08:21:00-07:00</lastmod>
   </url>
@@ -18,22 +58,7 @@
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/</loc>
-    <lastmod>2020-03-28T08:21:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gherlein.github.io/tags/non-technical/</loc>
-    <lastmod>2020-03-28T08:21:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2020-03-28T08:21:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/</loc>
     <lastmod>2020-03-28T08:21:00-07:00</lastmod>
   </url>
   
@@ -55,16 +80,6 @@
   <url>
     <loc>https://gherlein.github.io/tags/opinionl/</loc>
     <lastmod>2019-07-19T07:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/linux/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/technical/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
   </url>
   
   <url>
