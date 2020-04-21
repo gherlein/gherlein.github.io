@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 21 Apr 2020 03:10:43 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 05:16:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>[Catchup Post] Speaking at SphereIT in Krakow, October 2019</title>
+      <link>https://gherlein.github.io/post/sphereit/</link>
+      <pubDate>Tue, 21 Apr 2020 05:16:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/sphereit/</guid>
+      <description>&lt;p&gt;Link to posted video &amp;ldquo;CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein &amp;amp; David Wang&amp;rdquo;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Make RDP work from OSX</title>
@@ -19,15 +28,6 @@
       
       <guid>https://gherlein.github.io/post/rdp/</guid>
       <description>&lt;p&gt;Quick reminder how to enable RDP sessions from OSX to an Ubuntu box.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Catchup Post] Speaking at SphereIT in Krakow, October 2019</title>
-      <link>https://gherlein.github.io/post/sphereit/</link>
-      <pubDate>Tue, 21 Apr 2020 02:16:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/sphereit/</guid>
-      <description>&lt;p&gt;Link to posted video &amp;ldquo;CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein &amp;amp; David Wang&amp;rdquo;&lt;/p&gt;</description>
     </item>
     
     <item>
