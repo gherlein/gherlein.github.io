@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 12 Apr 2020 06:40:43 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 06:10:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,36 @@
     <item>
       <title>linux</title>
       <link>https://gherlein.github.io/tags/linux/</link>
-      <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
+      <pubDate>Tue, 21 Apr 2020 06:10:43 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>osx</title>
+      <link>https://gherlein.github.io/tags/osx/</link>
+      <pubDate>Tue, 21 Apr 2020 06:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/osx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rdp</title>
+      <link>https://gherlein.github.io/tags/rdp/</link>
+      <pubDate>Tue, 21 Apr 2020 06:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/rdp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Tue, 21 Apr 2020 06:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -36,15 +63,6 @@
       <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>
     </item>
     

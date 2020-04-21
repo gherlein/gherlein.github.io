@@ -4,21 +4,46 @@
   
   <url>
     <loc>https://gherlein.github.io/</loc>
-    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+    <lastmod>2020-04-21T06:10:43-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/tags/linux/</loc>
-    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+    <lastmod>2020-04-21T06:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/networking/</loc>
-    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
+    <loc>https://gherlein.github.io/post/rdp/</loc>
+    <lastmod>2020-04-21T06:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/osx/</loc>
+    <lastmod>2020-04-21T06:10:43-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/post/</loc>
+    <lastmod>2020-04-21T06:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/rdp/</loc>
+    <lastmod>2020-04-21T06:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/</loc>
+    <lastmod>2020-04-21T06:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/technical/</loc>
+    <lastmod>2020-04-21T06:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/networking/</loc>
     <lastmod>2020-04-12T06:40:43-08:00</lastmod>
   </url>
   
@@ -29,16 +54,6 @@
   
   <url>
     <loc>https://gherlein.github.io/post/ssh-tunnels/</loc>
-    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/</loc>
-    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/technical/</loc>
     <lastmod>2020-04-12T06:40:43-08:00</lastmod>
   </url>
   
