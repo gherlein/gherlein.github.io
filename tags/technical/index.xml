@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 21 Apr 2020 06:10:43 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 03:10:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Make RDP work from OSX</title>
       <link>https://gherlein.github.io/post/rdp/</link>
-      <pubDate>Tue, 21 Apr 2020 06:10:43 -0800</pubDate>
+      <pubDate>Tue, 21 Apr 2020 03:10:43 -0800</pubDate>
       
       <guid>https://gherlein.github.io/post/rdp/</guid>
       <description>&lt;p&gt;Quick reminder how to enable RDP sessions from OSX to an Ubuntu box.&lt;/p&gt;</description>
