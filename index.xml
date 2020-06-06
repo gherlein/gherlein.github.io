@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 21 Apr 2020 07:16:43 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Black Lives Matter</title>
+      <link>https://gherlein.github.io/post/blm/</link>
+      <pubDate>Sat, 06 Jun 2020 00:00:00 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/blm/</guid>
+      <description>&lt;p&gt;We all protest and effect change in our own ways.  I choose mentorship, education, and work - because that&amp;rsquo;s what I can do best to make a difference.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>[Catchup Post] Speaking at SphereIT in Krakow, October 2019</title>
