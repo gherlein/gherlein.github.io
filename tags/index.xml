@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2020 07:21:00 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AWS</title>
+      <link>https://gherlein.github.io/tags/aws/</link>
+      <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://gherlein.github.io/tags/cloud/</link>
+      <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://gherlein.github.io/tags/devops/</link>
+      <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terraform</title>
+      <link>https://gherlein.github.io/tags/terraform/</link>
+      <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/terraform/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>opinion</title>
@@ -54,15 +99,6 @@
       <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/snmp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -166,15 +202,6 @@
     </item>
     
     <item>
-      <title>cloud</title>
-      <link>https://gherlein.github.io/tags/cloud/</link>
-      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>development</title>
       <link>https://gherlein.github.io/tags/development/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
@@ -198,24 +225,6 @@
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>devops</title>
-      <link>https://gherlein.github.io/tags/devops/</link>
-      <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AWS</title>
-      <link>https://gherlein.github.io/tags/aws/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/aws/</guid>
       <description></description>
     </item>
     
