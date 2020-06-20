@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gherlein.github.io/tags/code/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/docs/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/docs-as-code/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/git/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/linux/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/technical/</loc>
+    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/aws/</loc>
     <lastmod>2020-06-06T07:21:00-08:00</lastmod>
   </url>
@@ -14,26 +59,6 @@
   
   <url>
     <loc>https://gherlein.github.io/tags/devops/</loc>
-    <lastmod>2020-06-06T07:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/</loc>
-    <lastmod>2020-06-06T07:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2020-06-06T07:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/</loc>
-    <lastmod>2020-06-06T07:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/technical/</loc>
     <lastmod>2020-06-06T07:21:00-08:00</lastmod>
   </url>
   
@@ -59,11 +84,6 @@
   
   <url>
     <loc>https://gherlein.github.io/post/sphereit/</loc>
-    <lastmod>2020-04-21T07:16:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/linux/</loc>
     <lastmod>2020-04-21T07:16:43-08:00</lastmod>
   </url>
   

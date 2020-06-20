@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 06 Jun 2020 07:21:00 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2020 03:10:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docs as Code</title>
+      <link>https://gherlein.github.io/post/docs-as-code/</link>
+      <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/docs-as-code/</guid>
+      <description>&lt;p&gt;One of the core principles of modern &amp;ldquo;DevOps&amp;rdquo; development is to treat your documentation as code, just like code.  My team at Cisco open sourced how we do that.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</title>
