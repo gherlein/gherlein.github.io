@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 20 Jun 2020 03:10:43 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2020 03:10:43 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>driver</title>
+      <link>https://gherlein.github.io/tags/driver/</link>
+      <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/driver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kernel</title>
+      <link>https://gherlein.github.io/tags/kernel/</link>
+      <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://gherlein.github.io/tags/linux/</link>
+      <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>telephony</title>
+      <link>https://gherlein.github.io/tags/telephony/</link>
+      <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/telephony/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>code</title>
@@ -36,24 +81,6 @@
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://gherlein.github.io/tags/linux/</link>
-      <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>
     </item>
     
