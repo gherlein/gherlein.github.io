@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gherlein.github.io/post/debian-again/</loc>
+    <lastmod>2020-08-07T03:10:43-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/post/lti/</loc>
     <lastmod>2020-06-27T03:10:43-08:00</lastmod>
   </url>
@@ -219,6 +224,12 @@
   </url>
   
   <url>
+    <loc>https://gherlein.github.io/tags/debian/</loc>
+    <lastmod>2020-08-07T03:10:43-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/design/</loc>
     <lastmod>2018-12-30T10:33:02-08:00</lastmod>
     <priority>0</priority>
@@ -286,7 +297,7 @@
   
   <url>
     <loc>https://gherlein.github.io/</loc>
-    <lastmod>2020-06-27T03:10:43-08:00</lastmod>
+    <lastmod>2020-08-07T03:10:43-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -316,7 +327,7 @@
   
   <url>
     <loc>https://gherlein.github.io/tags/linux/</loc>
-    <lastmod>2020-06-27T03:10:43-08:00</lastmod>
+    <lastmod>2020-08-07T03:10:43-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -382,7 +393,7 @@
   
   <url>
     <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2020-06-27T03:10:43-08:00</lastmod>
+    <lastmod>2020-08-07T03:10:43-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -460,7 +471,7 @@
   
   <url>
     <loc>https://gherlein.github.io/tags/technical/</loc>
-    <lastmod>2020-06-27T03:10:43-08:00</lastmod>
+    <lastmod>2020-08-07T03:10:43-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -483,7 +494,7 @@
   
   <url>
     <loc>https://gherlein.github.io/tags/ubuntu/</loc>
-    <lastmod>2019-07-18T18:40:43-08:00</lastmod>
+    <lastmod>2020-08-07T03:10:43-08:00</lastmod>
     <priority>0</priority>
   </url>
   
