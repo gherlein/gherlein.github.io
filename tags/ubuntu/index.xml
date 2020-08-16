@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ubuntu on Greg Herlein</title>
+    <title>ubuntu on Greg Herlein</title>
     <link>https://gherlein.github.io/tags/ubuntu/</link>
-    <description>Recent content in Ubuntu on Greg Herlein</description>
+    <description>Recent content in ubuntu on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
