@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <title>Self Driving Revolution &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2020. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Self Driving Revolution</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Feb 2019, 09:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/robotics">robotics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/ros">ROS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/ml">ML</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Think self-driving technology requires deep pockets to play with?  Think again.  <a href="https://aws.amazon.com/deepracer/">AWS DeepRacer</a> and <a href="https://github.com/CPFL/Autoware/wiki">Autoware</a> are the leading edges of self-driving automation for the maker.</p>
+<h2 id="tldr">TL;DR</h2>
+<p><a href="https://aws.amazon.com/deepracer/">AWS DeepRacer</a> is a low-cost, <a href="http://www.ros.org/">ROS-based</a> robotic card that uses machine learning (reinforcement learning) and it&rsquo;s camera-input to drive courses it&rsquo;s been &ldquo;trained&rdquo; to drive.  With the online simulator, this tool can get you started developing self-driving cars <a href="https://www.amazon.com/AWS-DeepRacer-Fully-autonomous-developers/dp/B07JMHRKQG/ref=sr_1_3?ie=UTF8&amp;qid=1549816067&amp;sr=8-3&amp;keywords=deep+racer">for under $400.</a></p>
+<p><a href="https://www.autoware.ai/">Autoware</a> is the world&rsquo;s first &ldquo;All-in-One&rdquo; open-source software for autonomous driving technology. It is based on ROS 1 and available under the <a href="https://github.com/CPFL/Autoware/wiki">Apache 2.0 license on github.</a>  It <a href="https://github.com/CPFL/Autoware#recommended-system-specifications">requires</a> 8 cores and 32GB of RAM so it&rsquo;s not going to run on a Raspberry Pi.  It supports camera, LIDAR, IMU and GPS inputs.  Those compute and sensor requirements are going to be a lot more than the DeepRacer, but I&rsquo;m guessing you could build something in the $1000 range that works.</p>
+<p>The important thing is that there&rsquo;s a starting point for the platform.</p>
+<p><!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<h2 id="summary">Summary</h2>
+<p>Here in San Francisco we see self-driving enabled cars on the road a lot. Many of them are annoying as hell since they make driving decisions much more slowly than humans do.  Geeks among us think &ldquo;damn, how hard is really to decide the cross-walk is empty!&rdquo;  It&rsquo;s easy to think that you need the cash of a VC-backed startup to really start playing with that tech.  Not so.  It&rsquo;s still pricey:  $400 for the DeepRacer and likely $1000-1500 for a proper Autoware robot.  But the tooling is there if you have a bit of money, at least some background in coding, and the time and energy to learn.</p>
+<p>It&rsquo;s ripe for Innovation!!!</p>
+<h2 id="imagination">Imagination</h2>
+<p>I have a DeepRacer and have another on order.  I bought one within minutes of it being announced at AWS re:Invent <a href="http://herlein.com/post/avalanche-reinvent/">(I blogged about that at the time).</a>  I have one sitting here in my home office and only lack the time to play with it.  I got lucky enough to be invited by AWS to a four-hour solo-focus-session where an AWS CX person watched me unbox and learn to set it up.  It was a bit strange to be under the microscope, but I think I gave them some good feedback and I got to keep the DeepRacer that I unboxed.  Win-win!</p>
+<p><!-- raw HTML omitted --></p>
+<p>One thing that I am extremely excited about is the fact that the DeepRacer tool is based on Robot Operating System - ROS.  And it&rsquo;s not all locked out either.  AWS is not hiding the guts.  It&rsquo;s an Ubuntu board with and Atom CPU and 4GB of RAM <a href="https://imgur.com/a/m4ymiYH">(specs here)</a>.  You can <a href="https://www.reddit.com/r/DeepRacer/comments/a47ka2/its_pretty_easy_by_design_to_get_into_ubuntu_on/?utm_source=reddit-android">develop right on the car main node</a>.  The main code seems to be in python interfacing with ROS.  So this seems extremely hackable.  <a href="https://hackaday.com/tag/deepracer/">Hackaday</a> is postulating alternative hardware even, so this ecosystem is about to explode.</p>
+<p>In the last few days I came across Autoware.  It&rsquo;s non-trivial and is being used as the basis for commercial offerings already, so it&rsquo;s real.  It looks reasonably modularized.  Being based on ROS is almost certainly all written in C++ so it&rsquo;s probably reasonably performant.</p>
+<p><!-- raw HTML omitted --></p>
+<p>Given the hardware requirements this is probably a bit harder to set up and the bug-a-boo will be I/O bandwidth I am sure.  USB webcams are the obvious choice for cameras but can you do multiple cameras at once?  May need USB3, which means you are not even going to use an Intel Nuc for this.  The GPS is easy over USB, and you could make a USB adapter for a 9DoF IMU pretty easily.  I was reading about a module that a guy built that did the sensor fusion on the board and had one-degree heading accuracy for under $75 if I recall.  I&rsquo;ll try to look that up and revise this post later with a link.  You would think it would be the LIDAR that was the harder sensor to deal with, but there&rsquo;s a lot of options for that.   <a href="https://www.adafruit.com/product/4010?gclid=Cj0KCQiAtP_iBRDGARIsAEWJA8hC-BFONYtcV8nD-f9n0T2MXtqcXlw579h3ISa98NP3p48gKUUz_X0aAuuXEALw_wcB">Adafruit sells an intersting scanning LIDAR for $114.</a>  Sparkfun has a <a href="https://learn.sparkfun.com/tutorials/lidar-lite-v3-hookup-guide/all">non-rotating unit.</a> as well as a <a href="https://www.sparkfun.com/products/14756">rotating one</a>, granted more expensive at $320.  My point is that there are many options out there.  You might have to tweak some of the Autoware code - or more likely, the underlying ROS libraries - to make it work but the products are there to be integrated.</p>
+<p><!-- raw HTML omitted --></p>
+<p>The building blocks are there.  Damn, I wish I had more time!</p>
+  
+  <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fself-driving-revolution%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fself-driving-revolution%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fself-driving-revolution%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fself-driving-revolution%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fself-driving-revolution%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fself-driving-revolution%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/management-readme/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/management-readme/">Updated Management README</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://gherlein.github.io/post/cloud-basics/">Cloudy DevOps - Part 1</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://gherlein.github.io/post/cloud-basics/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+<script src="https://gherlein.github.io/js/math-code.js"></script>
+  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+
