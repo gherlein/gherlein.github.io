@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:05 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://gherlein.github.io/about/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:05 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/about/</guid>
+      <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me.
+Summary My name is Greg Herlein. I am an Engineering Leader and Maker based in San Francisco California. I am active on LinkedIn and sometimes on Twitter. I keep my open source work on Github.</description>
+    </item>
     
     <item>
       <title>Fixing Hugo Social Media Icons in Blackburn</title>
@@ -329,16 +339,6 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</d
       
       <guid>https://gherlein.github.io/post/how-to-do-devops/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://gherlein.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://gherlein.github.io/about/</guid>
-      <description>What is This? I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me.
-Summary My name is Greg Herlein. I am an Engineering Leader and Maker based in San Francisco California. I am active on LinkedIn and sometimes on Twitter. I keep my open source work on Github.</description>
     </item>
     
     <item>
