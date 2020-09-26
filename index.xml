@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Fixing Hugo Images</title>
+      <link>https://gherlein.github.io/post/hugo-images/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/hugo-images/</guid>
+      <description>&lt;p&gt;Hugo made a change that broke image embedding using &lt;img&gt; tags.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Hello Ubuntu - Kinda</title>
       <link>https://gherlein.github.io/post/hello-ubuntu-kinda/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>

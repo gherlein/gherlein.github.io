@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.68.3" />
 
-  <title>Hello Ubuntu - Kinda &middot; Greg Herlein</title>
+  <title>Fixing Hugo Images &middot; Greg Herlein</title>
 
     
 
@@ -226,7 +226,7 @@
 
 
 <div class="header">
-  <h1>Hello Ubuntu - Kinda</h1>
+  <h1>Fixing Hugo Images</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -252,9 +252,9 @@
     
       <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/linux">linux</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/ubuntu">ubuntu</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/hugo">hugo</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/debian">debian</a>
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/blogging">blogging</a>
     
   </div>
   
@@ -262,47 +262,35 @@
 
 </div>
 
-  <p>Debian not good for me on the desktop - back to Ubuntu, lost the snaps.</p>
+  <p>Hugo made a change that broke image embedding using <img> tags.  Here&rsquo;s how to fix it.</p>
 
-<h2 id="history">History</h2>
+<p>Lost some more time this morning.  Finally wrote some more blog posts and saw that an embedded image did not post.  Then found that ALL my images were gone.</p>
 
-<p>My <a href="http://blog.herlein.com/post/debian-again/">last post </a> I&rsquo;d gone back to Debian and had some issues with HDMI.  I finally gave up on those - and a slew of other small usability problems that just made Debian a non-answer for me.  Wasted time.</p>
+<p>Chased this around a bit, updated Hugo from source, fiddled more&hellip;</p>
 
-<h2 id="time">Time</h2>
+<p>And then finally found the <a href="https://jdhao.github.io/2019/12/29/hugo_html_not_shown/">answer</a>.</p>
 
-<p>And those of you who know me know my favorite saying:  you can always get more money, you can never get back time.  Frustrating.</p>
+<h2 id="tl-dr">TL;DR</h2>
 
-<h2 id="ok-back-to-the-story">Ok, back to the story</h2>
-
-<p>Anyway, back to Ubuntu, but with a vengence.  I wrote about how angry the whole snaps thing made me.  I found a <a href="https://www.kevin-custer.com/blog/disabling-snaps-in-ubuntu-20-04/">solution to remove them</a>.  This may be an ephemeral thing, if Cannonical goes all proprietary and starts requiring them for something that you just cannot live without.  But for now, it&rsquo;s a solution to the pain point.  The simplified steps themselves are in a <a href="https://github.com/gherlein/snap-removal">shell script here</a>.</p>
-
-<h2 id="pains">Pains</h2>
-
-<p>Now, I still worrry.  And Ubuntu is still not perfect.  I really don&rsquo;t like that I have to spend hours tweaking a new Ubuntu Desktop install.  Which I had to do, several times, trying to get a second monitor working.  I had bought a <a href="https://www.amazon.com/gp/product/B00K85XURC/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&amp;psc=1">Diamond USB3 HDMI Adapter</a> which then required some Diamond Diamond software to be installed and&hellip;  well, it didn&rsquo;t work all that well.  It could be made to work, but it got really wierd if you switched inputs.  It also did not have any DDC plumbed through it so I could not use software commands instead of a real KVM.  I cannot find a dual monitor 4K KVM, and apparently neither can others so I tried to <a href="https://github.com/haimgel/display-switch">do this</a>.  More lost time.  Frustrating.  That&rsquo;s where I learned that monitors don&rsquo;t listen to DDC commands from anything other than the active input. Which makes sense, but trashed my software design.</p>
-
-<p>Anyway, back to Ubuntu.  The real kiss of death on the Diamond adapter was the block around the cursor that would not update in real time so there was this 1990s shitty experience of an ugly screen - and then not being able to see the letters you typed at a cursor insertion point when you clicked into a doc.</p>
-
-<p>So, that got returned.  Not a solution</p>
-
-<h2 id="so-where-am-i-with-ubuntu">So where am I with Ubuntu?</h2>
-
-<p>I have it installed on my notebook.  It&rsquo;s not as painful to install <a href="http://blog.herlein.com/post/ubuntu-18.04/">as before </a> - stuff just works, including the <a href="http://blog.herlein.com/post/ubuntu-lid/">lid controls</a>.</p>
-
-<p>But I&rsquo;m frustrated.  I wish it would just work.  I have other projects I really want to do and I&rsquo;m spending precious hours setting up Ubuntu again.</p>
+<p>Hugo changed rendering engines for markdown.  Edit your config.toml file and add this:</p>
+<pre><code>[markup]
+  defaultMarkdownHandler = &#34;blackfriday&#34;
+  </code></pre>
+<p>Rebuild.  Worked for me.</p>
   
   <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fhello-ubuntu-kinda%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fhello-ubuntu-kinda%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhello-ubuntu-kinda%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fhello-ubuntu-kinda%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhello-ubuntu-kinda%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhello-ubuntu-kinda%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
 	</li>
 </ul>
 
@@ -334,13 +322,13 @@
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://gherlein.github.io/post/rpi-zero-w/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://gherlein.github.io/post/hello-ubuntu-kinda/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://gherlein.github.io/post/rpi-zero-w/">Raspberry Pi Zero W Fun</a>
+      <a href="https://gherlein.github.io/post/hello-ubuntu-kinda/">Hello Ubuntu - Kinda</a>
     </nav>
     
   </div>
@@ -349,14 +337,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://gherlein.github.io/post/hugo-images/">Fixing Hugo Images</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://gherlein.github.io/post/hugo-images/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

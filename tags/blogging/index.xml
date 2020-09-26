@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogging on Greg Herlein</title>
+    <link>https://gherlein.github.io/tags/blogging/</link>
+    <description>Recent content in blogging on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:03 -0800</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fixing Hugo Images</title>
+      <link>https://gherlein.github.io/post/hugo-images/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/hugo-images/</guid>
+      <description>&lt;p&gt;Hugo made a change that broke image embedding using &lt;img&gt; tags.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
