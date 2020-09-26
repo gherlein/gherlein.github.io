@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 07 Aug 2020 03:10:43 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello Ubuntu - Kinda</title>
+      <link>https://gherlein.github.io/post/hello-ubuntu-kinda/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/hello-ubuntu-kinda/</guid>
+      <description>&lt;p&gt;Debian not good for me on the desktop - back to Ubuntu, lost the snaps.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Goodbye Ubuntu, Hello Debian my old friend</title>
