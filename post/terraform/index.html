@@ -332,19 +332,19 @@ output &#34;image_id&#34; {
 
 <p>Of course, this is just a toy.  In a production setting I would want to create a VPC, set security groups, etc.  I spent some time yesterday with this.  Terraform is technically the <a href="https://www.terraform.io/docs/configuration/index.html">Hashicorp Configuration Language</a> which isn&rsquo;t hard to learn for basics but non-trivial for large deployments.  I think it&rsquo;s time to revisit the state of all this stuff for infra-as-code.  I&rsquo;m torn.  I&rsquo;m all in for infra-as-code, don&rsquo;t get me wrong.  But terraform is a programming language all of it&rsquo;s own now, and the more you invest in that the farther you get from regular team software Engineers doing the infra deployments.  This tends to push the &ldquo;DevOps&rdquo; team towards a separate group (which is happening in my day job) which is the wrong direction in my opinion.  If your regualr team that codes in golang (one hopes) or java (run away) or node or ruby or whatever&hellip; if that team has to learn a complex new language to deploy their cloud then it adds a LOT to the cognitive load.  They are already writing helm charts, probably, so yet another language might be tipping the boat over.  This is a good reason to wonder again if <a href="https://www.pulumi.com/docs/intro/vs/terraform/">Pulumi</a> might be worth another look.  Or go back to pure python with the <a href="https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html">boto3</a> libraries, or <a href="https://docs.aws.amazon.com/sdk-for-go/api/">golang with the AWS API</a>.  Not cloud-agnostic, but with the deep hooks the cloud vendors have into all of us is there any such thing as multi-cloud?  Really?  Even terraform is so cloud-specific it&rsquo;s another code base - one per cloud.  This is something for further study.</p>
   
-  <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Share on Facebook"><i class="fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Share on Google+"><i class="fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Post to Tumblr"><i class="fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Pin it"><i class="fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Submit to Reddit"><i class="fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fterraform%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
 	</li>
 </ul>
 
