@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Sep 2020 00:00:03 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:04 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>blackburn</title>
+      <link>https://gherlein.github.io/tags/blackburn/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/blackburn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>blogging</title>
       <link>https://gherlein.github.io/tags/blogging/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
+      <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/blogging/</guid>
       <description></description>
@@ -24,7 +33,7 @@
     <item>
       <title>hugo</title>
       <link>https://gherlein.github.io/tags/hugo/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
+      <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/hugo/</guid>
       <description></description>
@@ -33,7 +42,7 @@
     <item>
       <title>linux</title>
       <link>https://gherlein.github.io/tags/linux/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
+      <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/linux/</guid>
       <description></description>
@@ -42,7 +51,7 @@
     <item>
       <title>technical</title>
       <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
+      <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>

@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.68.3" />
 
-  <title>Fixing Hugo Images &middot; Greg Herlein</title>
+  <title>blackburn &middot; Greg Herlein</title>
 
     
 
@@ -41,6 +41,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
+  
+  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
+    href='https://gherlein.github.io/tags/blackburn/index.xml' />
   
 
   
@@ -111,6 +114,11 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href='https://gherlein.github.io/tags/blackburn/index.xml'><i
+          class="fas fa-rss"></i>RSS</a>
+    </li>
     
 
     
@@ -226,12 +234,16 @@
 
 
 <div class="header">
-  <h1>Fixing Hugo Images</h1>
-  <h2></h2>
+  <h1>blackburn</h1>
 </div>
-<div class="content">
 
-  <div class="post-meta">
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/hugo-social-media-icons/">Fixing Hugo Social Media Icons in Blackburn</a></h2>
+
+    <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -254,7 +266,9 @@
     
       <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/hugo">hugo</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/blogging">blogging</a>
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/blogging">blogging</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/blackburn">blackburn</a>
     
   </div>
   
@@ -262,97 +276,20 @@
 
 </div>
 
-  <p>Hugo made a change that broke image embedding using <img> tags.  Here&rsquo;s how to fix it.</p>
+  </header>
 
-<p>Lost some more time this morning.  Finally wrote some more blog posts and saw that an embedded image did not post.  Then found that ALL my images were gone.</p>
-
-<p>Chased this around a bit, updated Hugo from source, fiddled more&hellip;</p>
-
-<p>And then finally found the <a href="https://jdhao.github.io/2019/12/29/hugo_html_not_shown/">answer</a>.</p>
-
-<h2 id="tl-dr">TL;DR</h2>
-
-<p>Hugo changed rendering engines for markdown.  Edit your config.toml file and add this:</p>
-<pre><code>[markup]
-  defaultMarkdownHandler = &#34;blackfriday&#34;
-  </code></pre>
-<p>Rebuild.  Worked for me.</p>
-  
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fhugo-images%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
-
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  <p>
+  <p>The Blackburn theme for Hugo has a bug in how it shows social media icons.  Here&rsquo;s how to fix it.</p>
+  </p>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="https://gherlein.github.io/post/hello-ubuntu-kinda/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://gherlein.github.io/post/hello-ubuntu-kinda/">Hello Ubuntu - Kinda</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="https://gherlein.github.io/post/hugo-social-media-icons/">Fixing Hugo Social Media Icons in Blackburn</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://gherlein.github.io/post/hugo-social-media-icons/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
-
-
+  <footer>
+    <a href="https://gherlein.github.io/post/hugo-social-media-icons/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
 
   
-
 </div>
 
 </div>
@@ -369,4 +306,3 @@
 
 </body>
 </html>
-
