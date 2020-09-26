@@ -272,8 +272,8 @@
 
 <p>The important thing is that there&rsquo;s a starting point for the platform.</p>
 
-<p><img src="https://gherlein.github.io/images/deepracer.jpg" width="320" height="240" />
-<img src="https://gherlein.github.io/images/autoware.png" width="320" height="240" /></p>
+<p><img src="https://gherlein.github.io/images/deepracer.jpg" width="100%" />
+<img src="https://gherlein.github.io/images/autoware.png" width="100%" /></p>
 
 <h2 id="summary">Summary</h2>
 
@@ -291,11 +291,11 @@
 
 <p>In the last few days I came across Autoware.  It&rsquo;s non-trivial and is being used as the basis for commercial offerings already, so it&rsquo;s real.  It looks reasonably modularized.  Being based on ROS is almost certainly all written in C++ so it&rsquo;s probably reasonably performant.</p>
 
-<p><img src="https://gherlein.github.io/images/autoware_overview.png" width="640" height="480" /></p>
+<p><img src="https://gherlein.github.io/images/autoware_overview.png" width="100%" /></p>
 
 <p>Given the hardware requirements this is probably a bit harder to set up and the bug-a-boo will be I/O bandwidth I am sure.  USB webcams are the obvious choice for cameras but can you do multiple cameras at once?  May need USB3, which means you are not even going to use an Intel Nuc for this.  The GPS is easy over USB, and you could make a USB adapter for a 9DoF IMU pretty easily.  I was reading about a module that a guy built that did the sensor fusion on the board and had one-degree heading accuracy for under $75 if I recall.  I&rsquo;ll try to look that up and revise this post later with a link.  You would think it would be the LIDAR that was the harder sensor to deal with, but there&rsquo;s a lot of options for that.   <a href="https://www.adafruit.com/product/4010?gclid=Cj0KCQiAtP_iBRDGARIsAEWJA8hC-BFONYtcV8nD-f9n0T2MXtqcXlw579h3ISa98NP3p48gKUUz_X0aAuuXEALw_wcB">Adafruit sells an intersting scanning LIDAR for $114.</a>  Sparkfun has a <a href="https://learn.sparkfun.com/tutorials/lidar-lite-v3-hookup-guide/all">non-rotating unit.</a> as well as a <a href="https://www.sparkfun.com/products/14756">rotating one</a>, granted more expensive at $320.  My point is that there are many options out there.  You might have to tweak some of the Autoware code - or more likely, the underlying ROS libraries - to make it work but the products are there to be integrated.</p>
 
-<p><img src="https://gherlein.github.io/images/autoware_demo.png" width="640" height="480" /></p>
+<p><img src="https://gherlein.github.io/images/autoware_demo.png" width="100%" /></p>
 
 <p>The building blocks are there.  Damn, I wish I had more time!</p>
   
