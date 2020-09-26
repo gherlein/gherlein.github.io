@@ -263,21 +263,36 @@
 </div>
 
   <p>The Raspberry Pi Zero W is likely the basis of my next few projects.</p>
+
 <p>So I have a few things I want to build, and they are sort of coming together a bit.  I want to have a way to plug a small sensor board board (1x2 inches or so) into a <a href="https://www.amazon.com/gp/product/B07T82D4YF/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;psc=1">USB wall wart power supply with vertical power sockets</a> and have it measure temperature, humidity, and motion and connect over wifi.  And, I want to pick up my ideas for a robotics development platform that is good for both teaching and actual small robots.</p>
+
 <h2 id="sensor-board">Sensor Board</h2>
+
 <p>The sensor board is just a way to remotely measure the conditions in a room far far away.  Temperature and humidy are metrics - best stored as a time series, probably in Prometheus.  I&rsquo;m a big fan of <a href="https://prometheus.io/">Prometheus</a>, both at work and for home projects.  I have a nice <a href="https://github.com/gherlein/gonetmon">home network traffic analysis system built around it</a>.  Still pondering about the motion sensor parts - but likely would just use those as direct entries into AlertManager.  This is all thinking based around work we did on the <a href="http://blog.herlein.com/post/sphereit/">Observability Framework</a> in 2019.</p>
+
 <p>Earlier testing had me quite fond of these <a href="https://www.amazon.com/WHDTS-RCWL-0516-Microwave-Induction-Detection/dp/B0732VQ4Q2/ref=sr_1_5">radar boards for motion detection</a>.  The cheap IR sensors work, kinda, but they are big and bulky and I found them to be pain to adjust to the sensitivity I wanted.  I figured these radar boards could be a daughter board of sorts.  If this thing plugs onto the power plug then it could be almost as wide, and that gives me an inch of depth so I could do three boards stacked if I wanted and still have room for a 3D printed case around it.</p>
+
 <p>This project is in the very early stages of thinking and then, along came robotics again.</p>
+
 <h2 id="robotics">Robotics</h2>
+
 <p>Over the last ten years or so I&rsquo;ve coached a lot of educational robotics (FLL and VEX).  I keep meaning to write more about what I find WRONG with them, but I never seem to do it.  The core idea of my disatisfaction is that the existing programs de-emphasize coding, and de-emphasize creativity, all in favor of adopting a specific program, product, and framework.  Which is fine, unless you want to break out of that.</p>
+
 <p>I just learned of <a href="https://piwars.org/2021-vpw/">a new competition called Pi Wars at Home</a>.  I am really encouraging folks to check it out.  This has rekindled my thinking around robotics, especially how to make it more approachable.</p>
+
 <h2 id="rbot">RBOT</h2>
+
 <p>I had huge grand plans in early 2019 to build an <a href="http://blog.herlein.com/post/rbot-value-prop/">actuator board I called RBOT</a>.  The problem is that it was vastly more work than one person could do.  Even if I completely ignored my wife and kids - not something I want to do - there just was not enough time to build and debug the board AND then build and debug the sensors.  And, in hindsight, the choice of the ESP32 really would have caused a HUGE time investment that probably would have ended up being counter to some of my core principles.  I really want this platform to be open to MORE people learning to code (especially teenagers) not less.  The learning curve of ESP32 and FreeRTOS is almost certainly too steep for most of them.  It would not have been an approachable tool.</p>
+
 <p>My plans for RBOT were to use a ESP32-PICO-KIT-V4 as the compute daughterboard.  It costs $8 at Digikey or <a href="https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z/ref=sr_1_1_sspa">$11 at Amazon</a>.  I actually designed a specific way to support that as a daughterboard.  I developed an <a href="http://blog.herlein.com/post/esp32-pico-v4-library/">Eagle part for it</a>.  Now <a href="https://www.autodesk.com/products/eagle/overview?plc=F360&amp;term=1-YEAR&amp;support=ADVANCED&amp;quantity=1">Eagle</a> is stupidly bundled with Fushion 360 - that I don&rsquo;t need - so it&rsquo;s not even worth playing with the limited free version.  It&rsquo;s time to spend some time learning <a href="https://kicad-pcb.org/">KiCad</a>.  Damn.  More wasted time.</p>
+
 <p>So, my plan had been to use the ESP32 board.  But wait&hellip; the Raspberry Pi Zero Wireless is $10. Cheaper. And it&rsquo;s a real linux machine.  Sure, it&rsquo;s single core and it&rsquo;s a lot slower than a Raspberry Pi 3 or 4, but it&rsquo;s likely much faster than the ESP32.  And developing the code will be MUCH easier.  And much more approachable for teenagers and makers in general.</p>
+
 <h2 id="raspberry-pi-zero-w">Raspberry Pi Zero W</h2>
+
 <p>So I bought one. Here it is with a sensor breakout board connected.</p>
-<!-- raw HTML omitted -->
+
+<p><img src="https://gherlein.github.io/images/rpizw.jpg" width="100%"/></p>
 <pre><code>gherlein@raspberrypi:~ $ sudo i2cdetect -y 1
 [sudo] password for gherlein: 
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
@@ -288,26 +303,30 @@
 40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-70: -- -- -- -- -- -- -- 77 
-</code></pre><p>The sensor is detected, at least.</p>
+70: -- -- -- -- -- -- -- 77 </code></pre>
+<p>The sensor is detected, at least.</p>
+
 <h3 id="setup">Setup</h3>
+
 <p>Some notes, for posterity.  You really want to treat these boards as headless.  That means you reall want to network enable them right away.  [Here](<a href="https://desertbot.io/blog/setup-pi-zero-w-headless-wifi_">https://desertbot.io/blog/setup-pi-zero-w-headless-wifi_</a> is a post with details on that, but the key things are:</p>
 <pre><code># mount the SD card and cd into the /boot folder
 touch /Volumes/boot/ssh
-touch /Volumes/boot/wpa_supplicant.conf
-</code></pre><p>Then edit wpa_supplicant.conf to include your details</p>
+touch /Volumes/boot/wpa_supplicant.conf</code></pre>
+<p>Then edit wpa_supplicant.conf to include your details</p>
 <pre><code>country=US
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
 network={
-    ssid=&quot;NETWORK-NAME&quot;
-    psk=&quot;NETWORK-PASSWORD&quot;
-}
-</code></pre><p>The pi will use zeroconf so that you can directly ssh it without setting up any DNS foo.</p>
-<pre><code>ssh pi@raspberrypi.local
-</code></pre><p>Then set it up like usual.</p>
+    ssid=&#34;NETWORK-NAME&#34;
+    psk=&#34;NETWORK-PASSWORD&#34;
+}</code></pre>
+<p>The pi will use zeroconf so that you can directly ssh it without setting up any DNS foo.</p>
+<pre><code>ssh pi@raspberrypi.local</code></pre>
+<p>Then set it up like usual.</p>
+
 <h3 id="software">Software</h3>
+
 <p>I&rsquo;m just starting on planning the software.  Stay tuned.  Still pondering if I should leverage the <a href="https://www.kernel.org/doc/Documentation/i2c/dev-interface">linux sysfs interface</a>, <a href="https://www.kernel.org/doc/html/latest/i2c/writing-clients.html">write my own i2c drivers</a>, or just stay in user space and <a href="http://www.airspayce.com/mikem/bcm2835/">go direct to the devices</a>.  Design time!</p>
   
   <h4><i class="fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>

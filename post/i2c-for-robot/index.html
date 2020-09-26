@@ -261,40 +261,55 @@
 </div>
 
   <p>I2C Tools I am Using for the RBOT Project</p>
+
 <h2 id="what-i-am-working-on">What I am Working On</h2>
+
 <p>I am building out a robotics system that I&rsquo;ve named RBOT.  It&rsquo;s eventually going to be a product, but first
 I have to get it&rsquo;s core built out.  And that&rsquo;s all based on <a href="http://i2c.info/">I2C</a>.</p>
+
 <h2 id="oscilloscope">Oscilloscope</h2>
+
 <p>If you are going to write code for electronics that deals in bits changing, especially with bits changing
 relative to other bits changing then you definitely need a scope.  You can spend a LOT of money on
 an amazing scope but you can get a really decent scope for under $400.  I like the
-<a href="https://www.amazon.com/Rigol-DS1054Z-Digital-Oscilloscopes-Bandwidth/dp/B012938E76">Rigol DS1054Z</a>.<br>
+<a href="https://www.amazon.com/Rigol-DS1054Z-Digital-Oscilloscopes-Bandwidth/dp/B012938E76">Rigol DS1054Z</a>.<br />
 Search the web a bit and there&rsquo;s some upgrades you can hack yourself, if you want to double it&rsquo;s bandwidth
 from 50MHz to 100MHz.  I rarely need more than 2 channels, but when you need it you really need it.  I commonly
 use two channels.  Looking at an I2C waveform on the scope looks like this:</p>
-<p><img src="https://gherlein.github.io/images/rigol-i2c.png" alt="Rigol I2C Waveform"></p>
+
+<p><img src="https://gherlein.github.io/images/rigol-i2c.png" alt="Rigol I2C Waveform" /></p>
+
 <h2 id="sniffer">Sniffer</h2>
+
 <p>Another key tool is an I2C sniffer to passively read the digits from the wire.  Luckily I had one in a drawer
 that was going to get tossed from a company I worked at years ago.  I hoard that kind of thing so as I got
 serious about I2C I pulled it out.  Lucky for me after a firmware update it still works!  Some tools are just
 timeless I guess.  It&rsquo;s a <a href="https://www.totalphase.com/products/beagle-i2cspi/">Total Phase Beagle</a> and it uses
 their &ldquo;Data Center&rdquo; software.  It basically does for I2C what wireshark does for networks.</p>
-<p><img src="https://gherlein.github.io/images/i2c-sniffer.png" alt="Beagle Capture Screenshot"></p>
+
+<p><img src="https://gherlein.github.io/images/i2c-sniffer.png" alt="Beagle Capture Screenshot" /></p>
+
 <h2 id="my-bench">My Bench</h2>
+
 <p>Clearly you need to wire things up.  You can use a breadboard but I&rsquo;ve found that the capacitance of the
 breadboard could affect things, so I made a rig that has male pins wired in common busses for the clock (SCK)
 and data (SDA) busses, along with rails for ground and 3V3 - and 4.7kOhm resistors as pull ups on both
 the lines.  I added a 2x5 pin male header wired to match the Beagle and it makes for an extremely easy
 way to plug it all together and still monitor what&rsquo;s going on.  Here&rsquo;s what it looks like:</p>
-<p><img src="https://gherlein.github.io/images/bench.png" alt="My I2C Bench"></p>
+
+<p><img src="https://gherlein.github.io/images/bench.png" alt="My I2C Bench" /></p>
+
 <h2 id="simavr">SimAvr</h2>
+
 <p>Since one of the parts I am working with is the <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf">ATTiny85</a> that I plan to use an I2C client,
 I&rsquo;m really in the dark about what the code on that little AVR processor is doing.  There&rsquo;s no JTAG and only
 a few spare GPIO pins to blink an LED or something to let me know what&rsquo;s up.  Luckily I just found a
 nifty looking tool:  <a href="https://github.com/buserror/simavr">SimAVR</a>.  This tool claims to let me run
 code compiled for the AVR inside it and simulate being in a real chip.  I just installed it (and sent a
 <a href="https://github.com/buserror/simavr/pull/305">pull request</a> and will be diving into how to use it next.</p>
+
 <h2 id="goals">Goals</h2>
+
 <p>My aim is not only to be able to hang I2C sensors off the bus, but to create my own sensors and actuators
 using the ATTiny chips.  The AVR will sit on the I2C bus and &ldquo;talk&rdquo; and it&rsquo;s other 4 lines can generate
 PWM, read voltages, drive relays, whatever.  These parts are under $2 in qty 1 so they are very affordable.
