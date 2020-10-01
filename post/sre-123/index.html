@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <title>SRE 123 &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2020. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>SRE 123</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>30 Sep 2020, 14:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/sre">sre</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Everyone is all on fire about SRE.  But what is it really?  It&rsquo;s as easy as 1-2-3 if you boil it down to the basics.</p>
+
+<p><img src="https://gherlein.github.io/images/sre-book.jpg" width="100%" /></p>
+
+<p>You have <a href="https://smile.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X/ref=sr_1_1?dchild=1&amp;keywords=sre+book&amp;qid=1601526038&amp;sr=8-1">read the book</a> right?  If not, go read it.  I&rsquo;ll wait.</p>
+
+<p>Site Reliabillity Engineering (SRE) means a lot of things to a lot of people.  You may have read my post about <a href="https://www.linkedin.com/pulse/how-do-devops-greg-herlein/">How To Do DevOps</a>.  You also may have read my thoughts on <a href="http://blog.herlein.com/post/cloud-basics/">Cloudy DevOps</a>.  SRE is not all that different.   It&rsquo;s DevOps through a different lens.</p>
+
+<p><img src="https://gherlein.github.io/images/lens.jpg" width="100%" /></p>
+
+<p>But, it&rsquo;s a lens that distinctly SOFTWARE ENGINEERING.  Yes, I did just yell that.  I&rsquo;ve talked to so many folks in the last 18 months who want to ride the buzzword wave and say they are doing SRE.  Everything from dashboards to CI/CD to monitoring tools to alerting systems.  It&rsquo;s funny, in a way. And it&rsquo;s fine to call it SRE, I guess.  It&rsquo;s still a free country.  But I don&rsquo;t think it really is SRE unless it&rsquo;s intrinsically about building software.</p>
+
+<p>That&rsquo;s why my team - that often spend most of their time really doing Site Reliability Engineering - get angry if you call them SRE.  They will tell you &ldquo;NO!  We are Software Engineers.&rdquo;  And they are right.  In my opinion, if you are not writing software you are not doing SRE work.  You might be an architect, and improving a system&rsquo;s reliability, uptime, operability, sustainability, performance, whatever&hellip; but the Engineering practice of SRE is about writing software.</p>
+
+<p>Fundamentally SRE is the practice of applying Software Engineering to Operations problems.  That&rsquo;s why it&rsquo;s DevOps.  My rules of DevOps anyway (see my <a href="https://www.linkedin.com/pulse/how-do-devops-greg-herlein/">post referred above</a>).  Is writing terraform scripts SRE?  Maybe.  If it&rsquo;s just automating deployment it&rsquo;s in the grey zone.  If it&rsquo;s part of automating the entire development process then hell yes.</p>
+
+<p>This is STILL the part I keep seeing that gets missed, and STILL the part that is the hardest.  Automating your cloud deployment only for deploying production is Cloud 1.0 thinking.  That&rsquo;s table stakes today.  If you think you want to do SRE then you need to be automating the deployment of ALL your software even in dev and test.  You need to be deploying your whole system to run tests and then kill the whole thing.</p>
+
+<p><a href="https://kubernetes.io/">Kubernetes</a> is a direct child of real SRE.  It&rsquo;s what happens when Software Engineers decided that they didn&rsquo;t want to manage live systems when software could do it better.</p>
+
+<p><a href="https://prometheus.io/">Prometheus</a> is a direct child of real SRE because it provides a real way to collect, track, and alert on metrics.</p>
+
+<p><a href="https://opentelemetry.io/">OpenTelemetry</a> is a direct child of real SRE because it provides a real way to measure, track and alert on latencies and traces.</p>
+
+<p>The people working on those products are doing SRE.  Are they &ldquo;an SRE?&rdquo;  No.  If your company is calling you an SRE you are probably doing Ops and trying to automate it.  Which is a good thing.  You are doing DevOps for sure.  But to me, that&rsquo;s not really SRE.</p>
+
+<p>SRE is Software Engineering.  It&rsquo;s writing code.  You might be building tooling like k8s, Prometheus, or OpenTelemetry, or it may be writing something that supports automatic database replication to a second (or third) cloud region, or building circuit breaker proxies to limit blast radius of a cascading failure, or refactoring connection code libraries to support failover connections&hellip; or whatever.  All of those are SRE.</p>
+
+<p>And what makes SRE different than just being a good Software Engineer is the fact that one eye is always on Operations.  So it&rsquo;s still DevOps.</p>
+
+<p><img src="https://gherlein.github.io/images/glasses.png" width="100%" /></p>
+
+<p>It&rsquo;s just a more comprehensive lens. It&rsquo;s thinking every moment of every day about how the software will run, how it will fail, how it will recover, how it will self-heal, how it will degrade gracefully if it can&rsquo;t heal, how it can be better without waking up a human.  In many ways, it&rsquo;s the highest calling for people who really care about the craft of writing software.</p>
+
+<p>At least, it is for me.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fsre-123%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fsre-123%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fsre-123%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fsre-123%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fsre-123%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fsre-123%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/hugo-social-media-icons/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/hugo-social-media-icons/">Fixing Hugo Social Media Icons in Blackburn</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
