@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gherlein.github.io/tags/copy-paste/</loc>
+    <lastmod>2020-10-05T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/iterm2/</loc>
+    <lastmod>2020-10-05T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/iterm2-paste/</loc>
+    <lastmod>2020-10-05T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/osx/</loc>
+    <lastmod>2020-10-05T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/</loc>
+    <lastmod>2020-10-05T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/</loc>
+    <lastmod>2020-10-05T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/technical/</loc>
+    <lastmod>2020-10-05T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/cloud/</loc>
     <lastmod>2020-09-30T14:50:08-08:00</lastmod>
   </url>
@@ -13,27 +48,12 @@
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2020-09-30T14:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gherlein.github.io/tags/sre/</loc>
     <lastmod>2020-09-30T14:50:08-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gherlein.github.io/post/sre-123/</loc>
-    <lastmod>2020-09-30T14:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/</loc>
-    <lastmod>2020-09-30T14:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/technical/</loc>
     <lastmod>2020-09-30T14:50:08-08:00</lastmod>
   </url>
   
@@ -199,11 +219,6 @@
   
   <url>
     <loc>https://gherlein.github.io/post/rdp/</loc>
-    <lastmod>2020-04-21T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/osx/</loc>
     <lastmod>2020-04-21T03:10:43-08:00</lastmod>
   </url>
   

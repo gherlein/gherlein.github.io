@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 30 Sep 2020 14:50:08 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>copy-paste</title>
+      <link>https://gherlein.github.io/tags/copy-paste/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/copy-paste/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iterm2</title>
+      <link>https://gherlein.github.io/tags/iterm2/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/iterm2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>osx</title>
+      <link>https://gherlein.github.io/tags/osx/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/osx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>cloud</title>
@@ -36,15 +72,6 @@
       <pubDate>Wed, 30 Sep 2020 14:50:08 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/sre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Wed, 30 Sep 2020 14:50:08 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -225,15 +252,6 @@
       <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/snmp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>osx</title>
-      <link>https://gherlein.github.io/tags/osx/</link>
-      <pubDate>Tue, 21 Apr 2020 03:10:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/osx/</guid>
       <description></description>
     </item>
     
