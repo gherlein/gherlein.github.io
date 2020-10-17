@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>efficiency</title>
+      <link>https://gherlein.github.io/tags/efficiency/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hotkeys</title>
+      <link>https://gherlein.github.io/tags/hotkeys/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/hotkeys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://gherlein.github.io/tags/macos/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcuts</title>
+      <link>https://gherlein.github.io/tags/shortcuts/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/shortcuts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>copy-paste</title>
@@ -36,15 +81,6 @@
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/osx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>
     </item>
     

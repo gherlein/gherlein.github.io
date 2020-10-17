@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>efficiency on Greg Herlein</title>
+    <link>https://gherlein.github.io/tags/efficiency/</link>
+    <description>Recent content in efficiency on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:01 -0800</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac and Chrome HotKeys</title>
+      <link>https://gherlein.github.io/post/hotkeys/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/hotkeys/</guid>
+      <description>&lt;p&gt;A simple hotkey extension in Chrome that makes my life easier.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
