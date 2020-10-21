@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.68.3" />
+
+  <title>Solution Architure - A Software Approach &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2020. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Solution Architure - A Software Approach</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>20 Oct 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/architecture">architecture</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/management">management</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>What actually is Solution Architecture?  How do you build and manage an Architecture team?  Can you take a software approach to that?</p>
+
+<h1 id="solution-architecture">Solution Architecture</h1>
+
+<p>Much of what I have done these past five years is a mix of Software Engineering and Solution Architecture (SA).  But what exactly is SA?</p>
+
+<p>Today&rsquo;s cloud software is based on the concepts of distributed systems: smaller, atomic units that communicate with each other over the network.  They either accept data as an input and return some answer, or accept a request for data that returns some answer.  What happens in the middle is either some process on the data input, or some process on stored data to return the right part of the data.  That&rsquo;s a vast oversimplification, of course.  But it&rsquo;s generically accurate.</p>
+
+<p>We often call the software modules &ldquo;micro-services&rdquo; and a working solution to a problem is a collection of such services. You can be a pure Software Engineer and only work on one small service, but if you are more senior you are almost certainly designing how a set of services interact.  One of the goals of micro-services architecture is to decompose a large problem into a smaller problems each solved with a service.  The Engineers that do that work are doing the job of a Solutions Architect. Now, that can be at both the platform/infrastructure level and/or the application level.  You might be creating scripts to build out your whole infra-environment, or writing system code to process data, or GUI code that actually runs in a users browser.  But it&rsquo;s all basically nodes in a system that &ldquo;talk&rdquo; to other nodes to do stuff.  All of it requires software development.  And I have <a href="http://blog.herlein.com/post/sre-123/">strong opinions on that</a>.  But it&rsquo;s also System Architecture.  The difference between a system that is highly reliable, secure, and operable and one that is breaking, getting hacked, and makes some on your Ops team quit after each outage is whether you have good System Architecture.</p>
+
+<p>Now, I could opine that topic but I won&rsquo;t.  AWS has written the book on that:  the <a href="https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/">AWS Well Architected Framework</a>.  Go read it.  Seriously.  If you are building software in the cloud you NEED to know this stuff.</p>
+
+<p>Solution Architects not only need to know it, they need to be able to explain it.  This means becoming good at presentations, teaching, explaining, and even showing others how to do it.  There&rsquo;s a people-facing part to the job that is a whole new dimension to the computer-facing part of the job that most Enginers are already comfortable with.</p>
+
+<p>In a nutshell, Solution Architecture is the intersection of Systems and Software Engineering.  A given SA may be skewed more towards SA (perhaps more customer-engaged) or more towards software (more of a coder) but the role lives in the common area of that venn diagram.</p>
+
+<p><img src="https://gherlein.github.io/images/sa-venn-diagram.png" width="100%" /></p>
+
+<h1 id="climbing-up-5000-feet">Climbing Up 5000 Feet</h1>
+
+<p>But this post is not about Solutions Architecture, per se.  It&rsquo;s about building TEAMS of SA.  One can recruit and hire such a team, at limited scale.  If you are staying true to the &ldquo;two-pizza team&rdquo; notion then you probably are looking at 7-9 folks.  Given money, reputation and access to the right people-networks you can hire that many SA and seed a fantastic team.  But over time attrition (good and bad) will leak folks away.  More on that later.  And what if you don&rsquo;t have the money to woo the top talent to your team?  What if you need more than one team?  What if you are scaling your systems so fast that you know you are going to need to scale more teams over time?  There&rsquo;s no &ldquo;rice-a-roni&rdquo; or &ldquo;hamburger helper&rdquo; for that meal.  You need a real solution.</p>
+
+<p>It&rsquo;s about the practice of creating a FUNCTION in your organization that performs the ROLE of Solutions Architecture.  Not just performs - but continuously improves until it is world-class.  You want to create something more like a factory.</p>
+
+<p><img src="https://gherlein.github.io/images/factory_floor.jpg" width="100%" /></p>
+
+<p>This calls for a process - something repeatable.  Measurable.  Replicable.  Something that does not &ldquo;rely on the heroics of individuals&rdquo; but instead can be manufactured.  Someone once told me that the role of management is to get things to a place where you can run the company with only mediocre staff.  I don&rsquo;t agree.  I still think you should hire and develop the best talent you can find.  But the idea behind that statement is solid.  Don&rsquo;t base your success on whether you are lucky enough to hire all 10x Engineers.</p>
+
+<p>We could argue whether there is such a thing as a 10x Engineer.  I can certainly argue that there is absolutely such a thing as a 0.1x Engineer.  And processes that can take a team of strong Engineers and turn their output into some small percentage of what it should be.  Some of that is about Engineering Management. <a href="http://blog.herlein.com/post/eng-leadership-321/">I have written about that too</a>.  Some of that is about having solid software Development practices (like code reviews, automated testing, <a href="http://blog.herlein.com/post/cloud-basics/">Cloudy DevOps</a>, etc).  Yes, you need all that.  But what you need to find is motivated, fundamentally strong Engineers with the right attitude.  And then you just need a process to mold them, over time, into what you need.</p>
+
+<p>Just like building a <a href="https://www.amazon.com/dp/B004BA5776/ref=dp-kindle-redirect?_encoding=UTF8&amp;btkr=1">Leadership Pipeline</a> for your management teams, you need to think about building a Solution Architect Pipeline.</p>
+
+<p><img src="https://gherlein.github.io/images/leader-pipeline-book.jpg" width="100%" /></p>
+
+<h1 id="taking-a-software-approach">Taking a Software Approach</h1>
+
+<p>Data pipelines are a standard solution pattern for some kinds of problems.  Our need for SA talent maps to this pattern pretty well, if you think about it in software terms.</p>
+
+<p>If you read my posts you know that I&rsquo;m generally in favor of taking a software approach to solving problems - the so-called <a href="http://blog.herlein.com/post/sre-123/">SRE solution</a>.  This means THINKING like a Software Engineer, and maybe or maybe not actually writing code.  If we could write code to automate the instantiation of Solution Archtects that would be great!  Wait&hellip;  to some extent that is already happening, with things like the <a href="https://aws.amazon.com/well-architected-tool/?whats-new-cards.sort-by=item.additionalFields.postDateTime&amp;whats-new-cards.sort-order=desc">AWS Well Architected Tool</a>.  ML/AI is going to have a huge impact on Solution Architecture, even sooner than you think.  But in the meantime, we need to build teams of Solution Architects and a pipeline approach seems to be appropriate.  Here&rsquo;s how I would lay out the pipeline:</p>
+
+<p><img src="https://gherlein.github.io/images/pipeline.png" width="100%" /></p>
+
+<p>I think about this as if each team were a kanban board with those four columns, and each team member is a row.  In this model, the &ldquo;work items&rdquo; are actually the SA Engineers themselves.  The columns are defined in reverse order:</p>
+
+<h2 id="promote">Promote</h2>
+
+<p>This term is the one I still struggle with.  I&rsquo;m not sure &ldquo;promote&rdquo; is the right word for this, but I cannot think of a better one yet.  These Engineers have been &ldquo;in the trenches&rdquo; on the team &ldquo;maturing&rdquo; in their abilities.  They have direct, hands-on experience and are seen as the technical leaders.  Other SA seek them out.  They probably are conducting training, both internally and externally.  They are inventing solutions to problems, developing advanced new software, perhaps even getting patents.  In the guild days these would be the Masters.  They are the rock-stars that can be parachuted into a mystery problem and they solve it quickly.  They are the dragon-slayers.  Teams should aspire to have one or two, but not count on them.  Their next step is to move on to a larger challenge.  Often these kind of folks form the nucleus of a new product team or move into some other role where they can keep learning and growing.  You must assume that they will rotate away at some point (even as you selfishly hope they never do).  They need to, for their own growth.</p>
+
+<h2 id="mature">Mature</h2>
+
+<p>This is where most of a team will be if it&rsquo;s firing on all cylinders.  Not all the team will be at the same level of maturity, but perhaps 60% of your team should be maturing.  These folks are well trained, know their jobs, and execute. In the guild days they would be the journeymen/women.  SA may stay in this zone for quite some time, depending.  This is the wheelhouse.  The folks in this zone are delivering value.</p>
+
+<h2 id="train">Train</h2>
+
+<p>My observation is that a newly hired Engineer - no matter how strong - takes a few months on average before they are actually delivering value.  I call this the &ldquo;training zone&rdquo; for lack of a better term.  This may be training on processes, on low-level details of the code base, on the tech-stack in use, the cloud provider details, or whatever.  Every situation has it&rsquo;s particulars.  Sometimes you totally luck out and it takes a lot less time, but if you plan on it taking some time you are going to be a lot more predictable about how much value your team can deliver.</p>
+
+<p>When writing software, if you sit down and code without thinking about the problem you can LOOK productive and be totally wasting your time.  Being in the training zone is a lot like that.  Unless you plan and structure your training process you will get ad hoc results.  Setting up training for your SA Engineers is worth a whole post on it&rsquo;s own, but it needs to include a structured review of your architecture, the structure of the code, how to build and test as a developer, how your CI and CD works, and a review of your automated testing.  This includes getting access to all the tools, and ensure that everyone understands how to use the tools (and why).</p>
+
+<h2 id="recruit">Recruit</h2>
+
+<p>This is controversial. Some teams only recruit when they actually get an open poistion approved, but that makes you totally flat footed when you start recruiting.  In my experience, it takes two to four months on average from listing a postion to someone&rsquo;s first day (&ldquo;but in seat, as I say&rdquo;).  This can be longer if you are seeking a more specialized skill set or competition for that talent is high.  This is also assuming that you can be competetive for talent in some way (great pay, benefits, work from home, reputation, etc.).</p>
+
+<p>I prefer the &ldquo;always be recruiting&rdquo; model.  This means that I am constantly looking, and I&rsquo;m honest with everyone about my ability to make an offer.  I&rsquo;d rather go to my VP and beg for a req because I have someone amazing ready to change jobs than not even know that person was ever looking because I&rsquo;m not paying attention.</p>
+
+<h1 id="using-kanban-thinking">Using Kanban Thinking</h1>
+
+<p>A simple kanban board with these columns - which could be a spreadsheet, actually - lets you see where you are at with a glance.</p>
+
+<p><img src="https://gherlein.github.io/images/even-team.png" width="100%" /></p>
+
+<p>But if you inherited a team, or are forming a new team by seeding it with a few strong, mature Engineers then it might look like this:</p>
+
+<p><img src="https://gherlein.github.io/images/likely-team.png" width="100%" /></p>
+
+<h1 id="but-what-about-multiple-teams-how-to-scale">But What About Multiple Teams?  How to Scale?</h1>
+
+<p>Anyone can manage one team.  How do you do multiple teams?  How do you even know where you are?  You still use kanban.  Consider this:</p>
+
+<p><img src="https://gherlein.github.io/images/many-teams.png" width="100%" /></p>
+
+<p>The Orange team has a minor problem: they have four SA training and only three to carry the workload.  This team could be risking burnout or potentially underdelivering to the customer.  There&rsquo;s hope on the horizon though, since there&rsquo;s four SA training.  The Green team might be the highest performing team of the bunch with two SA in the Promote region.  That&rsquo;s a heavy hitting team.  But there&rsquo;s a potential risk lurking.  There&rsquo;s no one training yet.  Good news is that there&rsquo;s a pipeline of eight Engineers being recruited, so there&rsquo;s a path to healthy. The easiest risk to miss the Yellow.  They look fine, at a glance, but there&rsquo;s no one in the recruiting pipeline.</p>
+
+<h1 id="conclusion-for-now">Conclusion (For Now)</h1>
+
+<p>Each of the zones deserves it&rsquo;s own deep dive.  I&rsquo;ll do those in follow-on posts.  But thinking of the problem in software terms - specifically using kanban (which is not just for software, I know) can really help you structure your thinking about this problem.</p>
+
+<p>The astute reader might point out that this approach could work for general software development teams too.  In fact, if you add a Z-axis for skill set mapping you&rsquo;ve basically got my approach to staffing.  That&rsquo;s fodder for a whole series of additional posts!</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fsa-team-software-approach%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fsa-team-software-approach%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fsa-team-software-approach%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fsa-team-software-approach%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fsa-team-software-approach%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fsa-team-software-approach%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/hotkeys/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/hotkeys/">Mac and Chrome HotKeys</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
+
