@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gherlein.github.io/tags/cloud/</loc>
+    <lastmod>2020-10-22T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/general/</loc>
+    <lastmod>2020-10-22T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/golang/</loc>
+    <lastmod>2020-10-22T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/golang-enabled-microkernel-reality/</loc>
+    <lastmod>2020-10-22T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/micro-kernels/</loc>
+    <lastmod>2020-10-22T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/post/</loc>
+    <lastmod>2020-10-22T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gherlein.github.io/tags/</loc>
+    <lastmod>2020-10-22T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gherlein.github.io/tags/architecture/</loc>
     <lastmod>2020-10-20T00:00:01-08:00</lastmod>
   </url>
@@ -13,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/cloud/</loc>
-    <lastmod>2020-10-20T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gherlein.github.io/tags/management/</loc>
-    <lastmod>2020-10-20T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/post/</loc>
-    <lastmod>2020-10-20T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/</loc>
     <lastmod>2020-10-20T00:00:01-08:00</lastmod>
   </url>
   
@@ -293,11 +313,6 @@
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/general/</loc>
-    <lastmod>2020-03-28T08:21:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gherlein.github.io/tags/non-technical/</loc>
     <lastmod>2020-03-28T08:21:00-07:00</lastmod>
   </url>
@@ -493,17 +508,7 @@
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/golang/</loc>
-    <lastmod>2018-01-29T16:29:39-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gherlein.github.io/post/golang-enabled-microkernels/</loc>
-    <lastmod>2018-01-29T16:29:39-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gherlein.github.io/tags/micro-kernels/</loc>
     <lastmod>2018-01-29T16:29:39-07:00</lastmod>
   </url>
   

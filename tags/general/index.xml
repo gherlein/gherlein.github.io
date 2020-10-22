@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 28 Mar 2020 08:21:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:01 -0700</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/general/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Golang Enabling Unikernel Is Reality!</title>
+      <link>https://gherlein.github.io/post/golang-enabled-microkernel-reality/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/post/golang-enabled-microkernel-reality/</guid>
+      <description>&lt;p&gt;Back in early 2018 I asked if golang would enable easier development of unikerenels.  Well, they are here!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Baking Sourdough Bread</title>

@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 20 Oct 2020 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:01 -0700</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cloud</title>
+      <link>https://gherlein.github.io/tags/cloud/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>https://gherlein.github.io/tags/general/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://gherlein.github.io/tags/golang/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>micro-kernels</title>
+      <link>https://gherlein.github.io/tags/micro-kernels/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/micro-kernels/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>architecture</title>
@@ -18,15 +54,6 @@
       <pubDate>Tue, 20 Oct 2020 00:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/architecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cloud</title>
-      <link>https://gherlein.github.io/tags/cloud/</link>
-      <pubDate>Tue, 20 Oct 2020 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/cloud/</guid>
       <description></description>
     </item>
     
@@ -346,15 +373,6 @@
     </item>
     
     <item>
-      <title>general</title>
-      <link>https://gherlein.github.io/tags/general/</link>
-      <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>non-technical</title>
       <link>https://gherlein.github.io/tags/non-technical/</link>
       <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
@@ -531,24 +549,6 @@
       <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
       
       <guid>https://gherlein.github.io/tags/i2c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://gherlein.github.io/tags/golang/</link>
-      <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>micro-kernels</title>
-      <link>https://gherlein.github.io/tags/micro-kernels/</link>
-      <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/micro-kernels/</guid>
       <description></description>
     </item>
     
