@@ -270,11 +270,11 @@
 
 <p>We often call the software modules &ldquo;micro-services&rdquo; and a working solution to a problem is a collection of such services. You can be a pure Software Engineer and only work on one small service, but if you are more senior you are almost certainly designing how a set of services interact.  One of the goals of micro-services architecture is to decompose a large problem into a smaller problems each solved with a service.  The Engineers that do that work are doing the job of a Solutions Architect. Now, that can be at both the platform/infrastructure level and/or the application level.  You might be creating scripts to build out your whole infra-environment, or writing system code to process data, or GUI code that actually runs in a users browser.  But it&rsquo;s all basically nodes in a system that &ldquo;talk&rdquo; to other nodes to do stuff.  All of it requires software development.  And I have <a href="http://blog.herlein.com/post/sre-123/">strong opinions on that</a>.  But it also requires System Design.</p>
 
-<p>In a nutshell, Solution Architecture is the intersection of Systems and Software Engineering.  A given SA may be skewed more towards SA (perhaps more customer-engaged) or more towards software (more of a coder) but the role lives in the common area of that venn diagram.  It&rsquo;s well worth pointing out that good Solutions Architecture is good Software Design.  Think <a href="https://en.wikipedia.org/wiki/SOLID">SOLID</a> in everything you do.</p>
+<p>In a nutshell, Solution Architecture is the intersection of Systems and Software Engineering.  A given SA may be skewed more towards Systems Engineering (perhaps more customer-engaged) or more towards Software Engineering (more of a coder) but the role of Solution Architecture lives in the common area of that venn diagram.</p>
 
 <p><img src="https://gherlein.github.io/images/sa-venn-diagram.png" width="100%" /></p>
 
-<p>The difference between a system that is highly reliable, secure, and operable and one that is breaking, getting hacked, and makes some on your Ops team quit after each outage is whether you have good System Architecture.</p>
+<p>It&rsquo;s well worth pointing out that good Solutions Architecture is good Software Design.  Think <a href="https://en.wikipedia.org/wiki/SOLID">SOLID</a> in everything you do. The difference between a system that is highly reliable, secure, and operable and one that is breaking, getting hacked, and makes some on your Ops team quit after each outage is whether you have good architecture.  And in today&rsquo;s world, it&rsquo;s all software.</p>
 
 <p>Now, I could opine that topic but I won&rsquo;t.  AWS has written the book on that:  the <a href="https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/">AWS Well Architected Framework</a>.  Go read it.  Seriously.  If you are building software in the cloud you NEED to know this stuff.</p>
 
@@ -369,6 +369,8 @@
 <p>Each of the zones deserves it&rsquo;s own deep dive.  I&rsquo;ll do those in follow-on posts.  But thinking of the problem in software terms - specifically using kanban (which is not just for software, I know) can really help you structure your thinking about this problem.</p>
 
 <p>The astute reader might point out that this approach could work for general software development teams too.  In fact, if you add a Z-axis for skill set mapping you&rsquo;ve basically got my approach to staffing.  That&rsquo;s fodder for a whole series of additional posts!</p>
+
+<p>Finally, this post assumes a little bit that your problem space can be solved by adding Solution Architects.  At some point of scaling that does not hold true.  Better approached are needed, which will include automation.  And maybe some of that ML/AI that I alluded to in my introduction.  The future will be full of innovation and advancement.  It&rsquo;s not going to get boring any time soon.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
