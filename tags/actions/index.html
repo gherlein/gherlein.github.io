@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.68.3" />
 
-  <title>Golang Unikernel Is Reality! &middot; Greg Herlein</title>
+  <title>actions &middot; Greg Herlein</title>
 
     
 
@@ -41,6 +41,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
+  
+  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
+    href='https://gherlein.github.io/tags/actions/index.xml' />
   
 
   
@@ -111,6 +114,11 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href='https://gherlein.github.io/tags/actions/index.xml'><i
+          class="fas fa-rss"></i>RSS</a>
+    </li>
     
 
     
@@ -226,16 +234,20 @@
 
 
 <div class="header">
-  <h1>Golang Unikernel Is Reality!</h1>
-  <h2></h2>
+  <h1>actions</h1>
 </div>
-<div class="content">
 
-  <div class="post-meta">
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/github-to-s3/">GitHub Actions - Copy to S3 on Commit to Master</a></h2>
+
+    <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>22 Oct 2020, 00:00</time>
+    <time>23 Oct 2020, 00:00</time>
   </div>
 
   
@@ -248,13 +260,13 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/general">general</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/github">github</a>&nbsp;&#47;
     
       <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/cloud">cloud</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/golang">golang</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/actions">actions</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/micro-kernels">micro-kernels</a>
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/s3">s3</a>
     
   </div>
   
@@ -262,87 +274,20 @@
 
 </div>
 
-  <p>Back in January of 2018 I <a href="https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/">blogged on LinkedIn</a> asking the question if golang would enable development of micro-kernels.</p>
+  </header>
 
-<p>Today I saw that someone has posted exactly that: <a href="https://github.com/icexin/eggos">EggOS</a>.  I am excited to play with it, and especially if you can couple that to <a href="https://firecracker-microvm.github.io/">AWS Firecracker</a>. Firecracker is a service that allows you to &ldquo;launch lightweight micro-virtual machines (microVMs) in non-virtualized environments in a fraction of a second.&rdquo;  It&rsquo;s open source, developed by AWS.</p>
-
-<p>This can potentially RADICALLY change how micro-services-on-demand can be delivered.  More to come!</p>
-  
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fgolang-enabled-microkernel-reality%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fgolang-enabled-microkernel-reality%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fgolang-enabled-microkernel-reality%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fgolang-enabled-microkernel-reality%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fgolang-enabled-microkernel-reality%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fgolang-enabled-microkernel-reality%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
-
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  <p>
+  <p>GitHub Actions can be for more than CI/CD.  You can also use them to just simply publish to S3.</p>
+  </p>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="https://gherlein.github.io/post/sa-team-software-approach/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://gherlein.github.io/post/sa-team-software-approach/">Building Solution Architecture Teams - A Software Approach</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="https://gherlein.github.io/post/github-to-s3/">GitHub Actions - Copy to S3 on Commit to Master</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://gherlein.github.io/post/github-to-s3/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
-
-
+  <footer>
+    <a href="https://gherlein.github.io/post/github-to-s3/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
 
   
-
 </div>
 
 </div>
@@ -359,4 +304,3 @@
 
 </body>
 </html>
-

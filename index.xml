@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>GitHub Actions - Copy to S3 on Commit to Master</title>
+      <link>https://gherlein.github.io/post/github-to-s3/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/github-to-s3/</guid>
+      <description>&lt;p&gt;GitHub Actions can be for more than CI/CD.  You can also use them to just simply publish to S3.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Golang Unikernel Is Reality!</title>
       <link>https://gherlein.github.io/post/golang-enabled-microkernel-reality/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>

@@ -7,17 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:01 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>actions</title>
+      <link>https://gherlein.github.io/tags/actions/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/actions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>cloud</title>
       <link>https://gherlein.github.io/tags/cloud/</link>
-      <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
+      <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://gherlein.github.io/tags/git/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://gherlein.github.io/tags/github/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>s3</title>
+      <link>https://gherlein.github.io/tags/s3/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/s3/</guid>
       <description></description>
     </item>
     
@@ -270,15 +306,6 @@
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/docs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://gherlein.github.io/tags/git/</link>
-      <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/git/</guid>
       <description></description>
     </item>
     
