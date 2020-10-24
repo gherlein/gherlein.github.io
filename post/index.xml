@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Disposability - the Missing ility</title>
+      <link>https://gherlein.github.io/post/disposability/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/disposability/</guid>
+      <description>&lt;p&gt;You will get the most bang for the buck from cloud by destroying it.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>GitHub Actions - Copy to S3 on Commit to Master</title>
