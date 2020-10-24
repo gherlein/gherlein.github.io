@@ -266,11 +266,11 @@
 
 <h2 id="what-is-disposability">What is Disposability?</h2>
 
-<p>Simply put:  the ability to easily completely destroy a set of cloud resources you have deployed - and then automatically recreate them again.  We focus so much on the automation of the CREATION but disposability is all about being able to easily destroy it again.  In AWS you can do this with <a href="https://aws.amazon.com/cloudformation/">CloudFormation</a> using Stacks and StackSets.  <a href="https://www.terraform.io/">Terraform</a> is another too - my preferred solution.  But regardless of the tool you use, the automation of the creation and descruction is a core cloud best practice.</p>
+<p>Simply put:  the ability to easily completely destroy a set of cloud resources you have deployed - and then automatically recreate them again.  We focus so much on the automation of the CREATION but disposability is all about being able to easily destroy it again.  In AWS you can do this with <a href="https://aws.amazon.com/cloudformation/">CloudFormation</a> using Stacks and StackSets.  <a href="https://www.terraform.io/">Terraform</a> is a similar tool and is my preferred solution.  But regardless of the tool you use, the automation of the creation and descruction is a core cloud best practice.</p>
 
 <p>It&rsquo;s funny, actually, to talk about &ldquo;serverless&rdquo; since it&rsquo;s the epitomy of disposability.  Consider AWS <a href="https://aws.amazon.com/lambda/">Lambda</a> for example.  You literally set certain code to execute on a certain event and the compute resources are created, run your code, and disposed of when done.  Serverless embodies disposabililty.</p>
 
-<h2 id="benefit-to-velocity-decouple-the-processes">Benefit to Velocity - Decouple the Processes!</h2>
+<h2 id="benefit-to-velocity-decouple">Benefit to Velocity - Decouple!</h2>
 
 <p>It&rsquo;s easy to understand that cost control is a huge benefit.  Teams can spin up cloud resources and when they are done with them, perhaps for the day, they can dispose of them.  You don&rsquo;t get charged for resources that no longer exist.</p>
 
@@ -282,7 +282,7 @@
 
 <p>If your teams can do this, you don&rsquo;t need to maintain a &ldquo;staging&rdquo; environment.  You can create one on demand.  You don&rsquo;t need to have teams bottle-necked waiting for a certain database load to be restored by the Ops team for testing, or for a newer version of another micro-service to be deployed so you can test your implementation of their new API version.</p>
 
-<p>This is literally decoupling the development process the way that micro-services decouple system design.  Just like monolithic software can bog down from one poorly implemented part, so can development processes.  We decouple our code to solve that.  We should also decouple our development process.  This is a concrete example of &ldquo;thinking like a Software Engineer&rdquo; - only applied to your processes.</p>
+<p>This is literally decoupling the development process the way that micro-services decouple system design.  Monolithic software systems can bog down from one poorly implemented part.  We decouple our code to solve that.  We should also decouple our development processes, and Disposability is the key way to enable that.  This is a concrete example of &ldquo;thinking like a Software Engineer&rdquo; - only applied to your overall workflows not just to your code.</p>
 
 <h2 id="accidental-gravity-wells">Accidental Gravity Wells</h2>
 
