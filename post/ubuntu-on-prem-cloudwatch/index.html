@@ -276,7 +276,7 @@
 
 <h2 id="cloudwatch-agent">CloudWatch Agent</h2>
 
-<p>You would think this is an easy slam dunk.  AWS has a [document describing how to do this])<a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-on-premise.html)">https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-on-premise.html)</a>.  But while it says you can download it using SystemManager or an S3 link, the docs don&rsquo;t actually include a link.  And it&rsquo;s very much written from the perspective that you will use SystemManager.</p>
+<p>You would think this is an easy slam dunk.  AWS has a <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-on-premise.html">document describing how to do this</a>.  But while it says you can download it using SystemManager or an S3 link, the docs don&rsquo;t actually include a link.  And it&rsquo;s very much written from the perspective that you will use SystemManager.</p>
 
 <p>But I&rsquo;m not.  All I want to do is install the Agent locally, configure it, and have it send it&rsquo;s logs and metrics off to CloudWatch.  Turns out that was fraught with difficulty.</p>
 
@@ -314,7 +314,11 @@ chmod -R cwagent.cwagent /home/cwagent</code></pre>
 <p>Moving forward requires two things:  you need to <a href="https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html">install the AWS CLI</a> on your Ubuntu server, and you need to create an IAM user &ldquo;cwagent.&rdquo;  The <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-iam-roles-for-cloudwatch-agent.html">AWS docs for the latter</a> are quite clear and easy to follow.  When you have the AWS credentials for the new user, you need to add those to the new user on your ubuntu server:</p>
 <pre><code># get your own IAM creds for an IAM user and edit the file
 nano /home/cwagent/.aws/credentials</code></pre>
-<p>Replace nano with your favorite editor, as desired.  You then need to fix the permissions for all the files you just made, since you have been working as root.</p>
+<p>Replace nano with your favorite editor, as desired.</p>
+
+<p>Oh, set the region you want as well.  The example uses us-east-1 but choose the right region for you.</p>
+
+<p>Note that you also need to chown the files, since you did all this editing as root.</p>
 <pre><code># set ownership
 chmod -R cwagent.cwagent /home/cwagent</code></pre>
 <p>Now, this next step is important.  If you don&rsquo;t have collectd installed and you configure to collect metrics (see below) then the agent will just hang and not do anything.  Not even send syslogs.  I need to test this to ensure I can reproduce it, but it seems like a bug.  The logs should at least say something about it but they don&rsquo;t.  More on the agent logs later.</p>
