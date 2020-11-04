@@ -289,10 +289,10 @@
 <p>The <a href="https://s3.amazonaws.com/amazoncloudwatch-agent
 /debian/amd64/latest/amazon-cloudwatch-agent.deb">agent debian package </a> is installed the usual way.  I&rsquo;ve <a href="https://github.com/gherlein/cloudwatch-install/blob/master/install.sh">created a script to do most of it for you</a> but here&rsquo;s the steps.  You need to be root.</p>
 <pre><code># run this as root
-#download it
+# download it
 curl -o /root/amazon-cloudwatch-agent.deb https://s3.amazonaws.com/amazoncloudwatch-agent\
 /debian/amd64/latest/amazon-cloudwatch-agent.deb
-#install it
+# install it
 dpkg -i -E /root/amazon-cloudwatch-agent.deb</code></pre>
 <p>This will create a user &ldquo;cwagent&rdquo; but does nothing to configure anything.  You next do this:</p>
 <pre><code># add the cwagent user to the adm group so it can read logs
