@@ -274,6 +274,8 @@
 
 <p>But running these servers costs me money, in electrical costs.  I decided to see if could get comparable or better functionality using CloudWatch, and then compare the costs too.  This post will be just about the first steps of setting things up.  Later I&rsquo;ll blog about more details on the service, and evaluate the costs.  At this point even if it&rsquo;s more money I&rsquo;m going through this exercise, since I really want to understand how this would work.</p>
 
+<p>Of course, to really evaluate the two options I&rsquo;ll apply the <a href="https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/">5 pillars of the Well Architected Framework</a> - CORPS in short (Cost, Operational Excellence, Reliability, Performance, Security).  But that&rsquo;s another blog post.  Today is just getting the agent set up!</p>
+
 <h2 id="cloudwatch-agent">CloudWatch Agent</h2>
 
 <p>You would think this is an easy slam dunk.  AWS has a <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-on-premise.html">document describing how to do this</a>.  But while it says you can download it using SystemManager or an S3 link, the docs don&rsquo;t actually include a link.  And it&rsquo;s very much written from the perspective that you will use SystemManager.</p>
