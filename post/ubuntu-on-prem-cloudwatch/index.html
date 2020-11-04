@@ -288,67 +288,67 @@
 
 <p>The <a href="https://s3.amazonaws.com/amazoncloudwatch-agent
 /debian/amd64/latest/amazon-cloudwatch-agent.deb">agent debian package </a> is installed the usual way.  I&rsquo;ve <a href="https://github.com/gherlein/cloudwatch-install/blob/master/install.sh">created a script to do most of it for you</a> but here&rsquo;s the steps.  You need to be root.</p>
-<pre><code># run this as root
-# download it
-curl -o /root/amazon-cloudwatch-agent.deb https://s3.amazonaws.com/amazoncloudwatch-agent\
-/debian/amd64/latest/amazon-cloudwatch-agent.deb
-# install it
-dpkg -i -E /root/amazon-cloudwatch-agent.deb</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># run this as root</span>
+<span style="color:#75715e"># download it</span>
+curl -o /root/amazon-cloudwatch-agent.deb https://s3.amazonaws.com/amazoncloudwatch-agent<span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>/debian/amd64/latest/amazon-cloudwatch-agent.deb
+<span style="color:#75715e"># install it</span>
+dpkg -i -E /root/amazon-cloudwatch-agent.deb</code></pre></div>
 <p>This will create a user &ldquo;cwagent&rdquo; but does nothing to configure anything.  You next do this:</p>
-<pre><code># add the cwagent user to the adm group so it can read logs
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># add the cwagent user to the adm group so it can read logs</span>
 usermod -aG adm cwagent
-# configure the user credentials
-cat &lt;&lt;EOF &gt; /home/cwagent/.aws/credentials
-[AmazonCloudWatchAgent]
-aws_access_key_id = aaaaaaaa
-aws_secret_access_key = bbbbbbbb
-EOF
-# configure the user region
-cat &lt;&lt;EOF &gt; /home/cwagent/.aws/config
-[AmazonCloudWatchAgent]
-output = text
-region = us-east-1
-EOF
-# get your own IAM creds for an IAM user and edit the file
+<span style="color:#75715e"># configure the user credentials</span>
+cat <span style="color:#e6db74">&lt;&lt;EOF &gt; /home/cwagent/.aws/credentials
+</span><span style="color:#e6db74">[AmazonCloudWatchAgent]
+</span><span style="color:#e6db74">aws_access_key_id = aaaaaaaa
+</span><span style="color:#e6db74">aws_secret_access_key = bbbbbbbb
+</span><span style="color:#e6db74">EOF</span>
+<span style="color:#75715e"># configure the user region</span>
+cat <span style="color:#e6db74">&lt;&lt;EOF &gt; /home/cwagent/.aws/config
+</span><span style="color:#e6db74">[AmazonCloudWatchAgent]
+</span><span style="color:#e6db74">output = text
+</span><span style="color:#e6db74">region = us-east-1
+</span><span style="color:#e6db74">EOF</span>
+<span style="color:#75715e"># get your own IAM creds for an IAM user and edit the file</span>
 nano /home/cwagent/.aws/credentials
-# set ownership
-chmod -R cwagent.cwagent /home/cwagent</code></pre>
+<span style="color:#75715e"># set ownership</span>
+chmod -R cwagent.cwagent /home/cwagent</code></pre></div>
 <p>Moving forward requires two things:  you need to <a href="https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html">install the AWS CLI</a> on your Ubuntu server, and you need to create an IAM user &ldquo;cwagent.&rdquo;  The <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-iam-roles-for-cloudwatch-agent.html">AWS docs for the latter</a> are quite clear and easy to follow.  When you have the AWS credentials for the new user, you need to add those to the new user on your ubuntu server:</p>
-<pre><code># get your own IAM creds for an IAM user and edit the file
-nano /home/cwagent/.aws/credentials</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># get your own IAM creds for an IAM user and edit the file</span>
+nano /home/cwagent/.aws/credentials</code></pre></div>
 <p>Replace nano with your favorite editor, as desired.</p>
 
 <p>Oh, set the region you want as well.  The example uses us-east-1 but choose the right region for you.</p>
 
 <p>Note that you also need to chown the files, since you did all this editing as root.</p>
-<pre><code># set ownership
-chmod -R cwagent.cwagent /home/cwagent</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># set ownership</span>
+chmod -R cwagent.cwagent /home/cwagent</code></pre></div>
 <p>Now, this next step is important.  If you don&rsquo;t have collectd installed and you configure to collect metrics (see below) then the agent will just hang and not do anything.  Not even send syslogs.  I need to test this to ensure I can reproduce it, but it seems like a bug.  The logs should at least say something about it but they don&rsquo;t.  More on the agent logs later.</p>
 
 <h2 id="configuration">Configuration</h2>
 
 <p>This is where I had a lot of head scratching.  The <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-cloudwatch-agent-configuration-file-wizard.html">documentation from AWS</a> is flat oout WRONG.  I have submitted feedback to the page on what I found.  Here&rsquo;s the scoop:</p>
-<pre><code># run the wizard
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># run the wizard</span>
 /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
-# move the configuration file to the right place and name it properly
-mv /opt/aws/amazon-cloudwatch-agent/bin/config.json \ /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json</code></pre>
+<span style="color:#75715e"># move the configuration file to the right place and name it properly</span>
+mv /opt/aws/amazon-cloudwatch-agent/bin/config.json <span style="color:#ae81ff">\ </span>/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json</code></pre></div>
 <p>Running the wizard asks you a set of questions and creates a config file.  However you need to move it to the etc folder and rename it in order for the agent to be able to find it.  The docs on the sections of the file seem pretty accurate, and it&rsquo;s self explanatory really.  I just accepted defaults, except for specifying the actual syslog file.</p>
 
 <p>Again, make sure you installed collectd.  Otherwise, the agent just hangs.</p>
 
 <p>Now you are ready.  Restart the service.</p>
-<pre><code># restart the service
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># restart the service</span>
 service amazon-cloudwatch-agent restart
-# check status
+<span style="color:#75715e"># check status</span>
 service amazon-cloudwatch-agent	status
-# check the logs
-tail -f /var/log/amazon/amazon-cloudwatch-agent/amazon-cloudwatch-agent.log</code></pre>
+<span style="color:#75715e"># check the logs</span>
+tail -f /var/log/amazon/amazon-cloudwatch-agent/amazon-cloudwatch-agent.log</code></pre></div>
 <p>You want to see something like this:</p>
-<pre><code>2020-11-04T14:26:44Z I! Started the statsd service on :8125
-2020-11-04T14:26:44Z I! [inputs.socket_listener] Listening on udp://127.0.0.1:25826
-2020-11-04T14:26:44Z I! Statsd listener listening on:  [::]:8125
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">2020-11-04T14:26:44Z I! Started the statsd service on :8125
+2020-11-04T14:26:44Z I! <span style="color:#f92672">[</span>inputs.socket_listener<span style="color:#f92672">]</span> Listening on udp://127.0.0.1:25826
+2020-11-04T14:26:44Z I! Statsd listener listening on:  <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:8125
 2020-11-04T14:26:45Z I! will use file based credentials provider
-2020-11-04T14:26:45Z I! [logagent] piping log from syslog/sol1(/var/log/messages) to cloudwatchlogs</code></pre>
+2020-11-04T14:26:45Z I! <span style="color:#f92672">[</span>logagent<span style="color:#f92672">]</span> piping log from syslog/sol1<span style="color:#f92672">(</span>/var/log/messages<span style="color:#f92672">)</span> to cloudwatchlogs</code></pre></div>
 <p>Now you know that the agent is sending stuff to CloudWatch.  Your next step is to go there and configure dashboards, etc.  That&rsquo;s for another post!</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
