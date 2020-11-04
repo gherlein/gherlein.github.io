@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>monitoring on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/monitoring/</link>
-    <description>Recent content in monitoring on Greg Herlein</description>
+    <title>syslogs on Greg Herlein</title>
+    <link>https://gherlein.github.io/tags/syslogs/</link>
+    <description>Recent content in syslogs on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Wed, 04 Nov 2020 00:00:01 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/monitoring/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gherlein.github.io/tags/syslogs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://gherlein.github.io/post/ubuntu-on-prem-cloudwatch/</guid>
       <description>&lt;p&gt;Can I replace a local Prometheus with AWS CloudWatch?  And include syslog monitoring as well?  Yes, I can.  But it was a PITA to set up.  Here&amp;rsquo;s how.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Catchup Post] Speaking at SphereIT in Krakow, October 2019</title>
-      <link>https://gherlein.github.io/post/sphereit/</link>
-      <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/post/sphereit/</guid>
-      <description>&lt;p&gt;Link to posted video &amp;ldquo;CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein &amp;amp; David Wang&amp;rdquo;&lt;/p&gt;</description>
     </item>
     
   </channel>
