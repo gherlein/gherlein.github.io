@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 04 Nov 2020 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 19 Dec 2020 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Changes - Ending 2020</title>
+      <link>https://gherlein.github.io/post/ending-2020/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/ending-2020/</guid>
+      <description>&lt;p&gt;As 2020 thankfully winds down, I leave Cisco and join AWS.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Using CloudWatch for On-Premise Ubuntu Servers</title>

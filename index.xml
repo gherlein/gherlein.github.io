@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 22 Nov 2020 00:00:05 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 19 Dec 2020 00:00:05 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,19 @@
     <item>
       <title>About</title>
       <link>https://gherlein.github.io/about/</link>
-      <pubDate>Sun, 22 Nov 2020 00:00:05 -0800</pubDate>
+      <pubDate>Sat, 19 Dec 2020 00:00:05 -0800</pubDate>
       
       <guid>https://gherlein.github.io/about/</guid>
       <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!</description>
+    </item>
+    
+    <item>
+      <title>Changes - Ending 2020</title>
+      <link>https://gherlein.github.io/post/ending-2020/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/ending-2020/</guid>
+      <description>&lt;p&gt;As 2020 thankfully winds down, I leave Cisco and join AWS.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -444,7 +453,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</d
 gherlein@herlein.com
 github.com/gherlein
 +1-415-368-7546
-Summary of Qualifications  10+ years Senior Engineering Leadership experience - teams up to 150 staff 10+ years distributed systems experience, 5+ years customer facing Extensive history migrating large-scale software to cloud-based SaaS deployments Strong software development, systems architecture, and operations experience Significant SRE background - treating operations as a software problem Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo; Cloud Expert - AWS Certified Solutions Architect, 10+ years of practical experience Agile Expert - scrum, kanban and scrumban used in production on multiple SaaS Excellent communicator at all levels - especially strong communicationg technical vision  Immediately Relevant Experience  Currently engaged at the Exec-level across multiple business units Directly customer facing in 2019 consulting for a cloud-based 5G network buildout Two-years managing a team of solution architects migrating legacy apps to cloud-native Took multiple products to the cloud, often personally involved in the designs Certified AWS Solutions Architect (Associate) Proven history of attracting, developing and growing high-level techncial talent  Work History Cisco - Director Software Engineering, CX Cloud (12&amp;frasl;2014 to Present)  Currently leading a small, senior team of System Architects and Developers  Solution will ingest product telemetry world-wide, at multi-petabyte scale All-AWS, will span across all product lines and Cisco interal IT Personally driving technical progress and making presentations at all levels  Previously: led a team of about 100 Engineers refactoring systems moving to AWS  Solution split across multiple customer sites and AWS Tech stack: AWS Aurora, lambda, S3, Fargate, ELK, java moving to golang Teams split across several US offices, Bangalore and Chennai India, remotes  Previously: one year assignment building an SRE function for a cloud-based 5G network  Deployed large-scale ELK-based logging/monitoring/observability framework Tech stack: OpenStack, Kubernetes (k8s), ELK, SNMP, Prometheus, golang Teams split across Japan, India, Europe and multiple US offices and remotes  Previously: 2 years as Principal Architect for a group of over 600 Engineers  Migrating from traditional Enterprise software to cloud-native DevOps-based SaaS Drove organization to develop all new software in AWS and Cisco&amp;rsquo;s OpenStack cloud Tech stack: terraform, ansible, helm, docker, k8s, Prometheus, Cassandra, Java Teams split across US offices, Bangalore and Chennai India, Vienna Austria, remotes</description>
+Summary of Qualifications  10+ years Senior Engineering Leadership experience - teams up to 150 staff 10+ years distributed systems experience, 5+ years customer facing Extensive history migrating large-scale software to cloud-based SaaS deployments Strong software development, systems architecture, and operations experience Significant SRE background - treating operations as a software problem Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo; Cloud Expert - AWS Certified Solutions Architect, 10+ years of practical experience Agile Expert - scrum, kanban and scrumban used in production on multiple SaaS Excellent communicator at all levels - especially strong communicationg technical vision  Immediately Relevant Experience  Directly customer facing in 2019 consulting for a cloud-based 5G network buildout Two-years managing a team of solution architects migrating legacy apps to cloud-native Took multiple products to the cloud, often personally involved in the designs Certified AWS Solutions Architect (Associate) Proven history of attracting, developing and growing high-level techncial talent  Work History Amazon AWS - Sr Manager, Solution Architecture (12&amp;frasl;2020 to Present)  Leadership role helping AWS customers adopt and scale into the AWS cloud  Cisco - Director Software Engineering, CX Cloud (11&amp;frasl;2014 to 12&amp;frasl;2020)  Currently leading a small, senior team of System Architects and Developers  Solution will ingest product telemetry world-wide, at multi-petabyte scale All-AWS, will span across all product lines and Cisco interal IT Personally driving technical progress and making presentations at all levels  Previously: led a team of about 100 Engineers refactoring systems moving to AWS  Solution split across multiple customer sites and AWS Tech stack: AWS Aurora, lambda, S3, Fargate, ELK, java moving to golang Teams split across several US offices, Bangalore and Chennai India, remotes  Previously: one year assignment building an SRE function for a cloud-based 5G network  Deployed large-scale ELK-based logging/monitoring/observability framework Tech stack: OpenStack, Kubernetes (k8s), ELK, SNMP, Prometheus, golang Teams split across Japan, India, Europe and multiple US offices and remotes  Previously: 2 years as Principal Architect for a group of over 600 Engineers  Migrating from traditional Enterprise software to cloud-native DevOps-based SaaS Drove organization to develop all new software in AWS and Cisco&amp;rsquo;s OpenStack cloud Tech stack: terraform, ansible, helm, docker, k8s, Prometheus, Cassandra, Java Teams split across US offices, Bangalore and Chennai India, Vienna Austria, remotes</description>
     </item>
     
   </channel>
