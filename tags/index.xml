@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 19 Dec 2020 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jan 2021 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,27 @@
     <item>
       <title>AWS</title>
       <link>https://gherlein.github.io/tags/aws/</link>
-      <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
+      <pubDate>Sat, 30 Jan 2021 00:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>certifications</title>
+      <link>https://gherlein.github.io/tags/certifications/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/certifications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -54,15 +72,6 @@
       <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/power/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/technical/</guid>
       <description></description>
     </item>
     

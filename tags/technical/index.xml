@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 11 Nov 2020 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 Jan 2021 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AWS SysOps Administrator Certified!</title>
+      <link>https://gherlein.github.io/post/sysops-cert-2021/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/sysops-cert-2021/</guid>
+      <description>&lt;p&gt;This week I passed the AWS SysOps Administrator (Associate) Exam.  Here&amp;rsquo;s some notes on what I did to prepare, and observations of the process.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Power Costs</title>
