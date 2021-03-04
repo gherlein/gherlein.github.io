@@ -148,15 +148,6 @@
     </item>
     
     <item>
-      <title>git</title>
-      <link>https://gherlein.github.io/tags/git/</link>
-      <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>github</title>
       <link>https://gherlein.github.io/tags/github/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
@@ -387,6 +378,15 @@
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://gherlein.github.io/tags/git/</link>
+      <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/git/</guid>
       <description></description>
     </item>
     
