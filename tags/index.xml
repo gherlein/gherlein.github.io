@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AWS</title>
+      <link>https://gherlein.github.io/tags/aws/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>esp32</title>
+      <link>https://gherlein.github.io/tags/esp32/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/esp32/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeRTOS</title>
+      <link>https://gherlein.github.io/tags/freertos/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/freertos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://gherlein.github.io/tags/linux/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>esp-idf</title>
@@ -27,33 +72,6 @@
       <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/esp32c3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FreeRTOS</title>
-      <link>https://gherlein.github.io/tags/freertos/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/freertos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/technical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AWS</title>
-      <link>https://gherlein.github.io/tags/aws/</link>
-      <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/aws/</guid>
       <description></description>
     </item>
     
@@ -99,15 +117,6 @@
       <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/costs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://gherlein.github.io/tags/linux/</link>
-      <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/linux/</guid>
       <description></description>
     </item>
     

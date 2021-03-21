@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://gherlein.github.io/tags/freertos/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dabbling into ESP32 and FreeRTOS</title>
+      <link>https://gherlein.github.io/post/esp32/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/esp32/</guid>
+      <description>&lt;p&gt;Dipping a toe into the FreeRTOS ESP32 world.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>ESP32-C3 First Playing</title>
