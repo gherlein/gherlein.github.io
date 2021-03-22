@@ -264,13 +264,19 @@
 
 </div>
 
-  <p>A few quick notes on getting the AWS IoT C SDK running on Linux&rdquo;</p>
+  <p>A few quick notes on getting the AWS IoT C SDK running on Linux.</p>
 
-<p>I played a lot this past weekend with AWS IoT things.  I finally decided that my friends advice was good:  get something running on a known, reliable platform and then change variables.  So I literally went right back to basics:  <a href="https://github.com/aws/aws-iot-device-sdk-embedded-C">the IoT Embedded C SDK</a>.  I&rsquo;m going to get that running, then I&rsquo;ll go to the <a href="https://github.com/espressif/esp-aws-iot">ESP32 port</a>.</p>
+<p>I played a lot this past weekend with AWS IoT things.  I finally decided that my friends advice was good:  get something running on a known, reliable platform and then change variables once I understood what I was doing.  So I literally went right back to basics:  <a href="https://github.com/aws/aws-iot-device-sdk-embedded-C">the IoT Embedded C SDK</a>.  I&rsquo;m going to get that running, then I&rsquo;ll go to the <a href="https://github.com/espressif/esp-aws-iot">ESP32 port</a>.</p>
 
 <h3 id="it-works-but-details-matter">It Works, But Details Matter</h3>
 
 <p>AWS IoT has security built in, and the details matter.  I just wanted to do the simple &ldquo;mqtt_demo_mutual_auth&rdquo; case.  I spent some time getting things right.  Now, I don&rsquo;t want to say this is the ONLY way to do it&hellip; but it&rsquo;s what I had to do.</p>
+
+<h3 id="why-do-this">Why Do This?</h3>
+
+<p>Turns out this is hugely valuable.  If you do this, and get it working, you know that your AWS-side works.  You can work it all out at the linux command line where logs are easy and the iterative process of development is trivial.  Trying to do this AND deal with flashing an embedded controller is adding a lot of variables for things to go wrong.  And makes it really hard to troubleshoot.</p>
+
+<p>Once you have all this working, you can translate the SAME thing name and topics to your embedded code and at least know it was working on linux.</p>
 
 <h2 id="on-the-aws-console">On the AWS Console</h2>
 
@@ -320,7 +326,7 @@ testclient.public.key</code></pre>
 
 <h4 id="associate-the-policy-with-the-certs">Associate the Policy with the Certs</h4>
 
-<p>This is important.  Miss this and you won&rsquo;t be able to communicate over MQTT.  Naviage to the Console Manage &ndash;&gt; Things and select the &lsquo;testclient&rsquo; thing you created.  You should see that it has a certificate attached.  Click on that cert.  You will be taken to that certicate configuration.  Navigating to the cert in this way ensures that you have the right cert selected.</p>
+<p><strong>This is important</strong>.  Miss this and you won&rsquo;t be able to communicate over MQTT.  Naviage to the Console Manage &ndash;&gt; Things and select the &lsquo;testclient&rsquo; thing you created.  You should see that it has a certificate attached.  Click on that cert.  You will be taken to that certicate configuration.  Navigating to the cert in this way ensures that you have the right cert selected.</p>
 
 <p>Click Actions in the right corner and select &ldquo;Attach policy.&rdquo;  You will get a drop-down dialog box listing the policies you have created.  Select the new &ldquo;testclient-policy&rdquo; that you just created above, and click &ldquo;Attach.&rdquo;</p>
 
@@ -397,6 +403,38 @@ http_demo_basic_tls  jobs_demo_mosquitto  ota_demo_core_http     pkcs11_demo_mec
 [INFO] [MQTT] [core_mqtt.c:1174] State record updated. New state=MQTTPublishDone.
 [INFO] [DEMO] [mqtt_demo_mutual_auth.c:1007] PUBACK received for packet id 2.</code></pre>
 <p>And there you have it.  A working demo, at least on linux.</p>
+
+<h4 id="troubleshooting">Troubleshooting</h4>
+
+<p>If your certs are wrong, you will get output that looks like this:</p>
+<pre><code>gherlein@mars:~/src/aws/aws-iot-device-sdk-embedded-C/build/bin$ ./mqtt_demo_mutual_auth
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:625] Establishing a TLS session to a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com:8883.
+[ERROR] [Transport_OpenSSL_Sockets] [openssl_posix.c:396] SSL_CTX_use_certificate_chain_file failed to import client certificate at ~/certs.
+[ERROR] [Transport_OpenSSL_Sockets] [openssl_posix.c:627] Setting up credentials failed.
+[ERROR] [Transport_OpenSSL_Sockets] [openssl_posix.c:672] Failed to establish a TLS connection.</code></pre>
+<p>Note the &ldquo;Setting up credentials failed&rdquo; entry.  Go back and triple check that your certs are set up correctly.</p>
+
+<p>If your policy is not right, or not attached to the certs, you will get output like this:</p>
+<pre><code>gherlein@mars:~/src/aws/aws-iot-device-sdk-embedded-C/build/bin$ ./mqtt_demo_mutual_auth
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:625] Establishing a TLS session to a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com:8883.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1325] Creating an MQTT connection to a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com.
+[INFO] [MQTT] [core_mqtt.c:885] Packet received. ReceivedBytes=2.
+[INFO] [MQTT] [core_mqtt_serializer.c:970] CONNACK session present bit not set.
+[INFO] [MQTT] [core_mqtt_serializer.c:912] Connection accepted.
+[INFO] [MQTT] [core_mqtt.c:1563] Received MQTT CONNACK successfully from broker.
+[INFO] [MQTT] [core_mqtt.c:1829] MQTT connection established with the broker.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1096] MQTT connection successfully established with broker.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1358] A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1375] Subscribing to the MQTT topic testclient/example/topic.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1158] SUBSCRIBE sent for topic testclient/example/topic to broker.
+[ERROR] [Transport_OpenSSL_Sockets] [openssl_posix.c:760] Failed to receive data over network: SSL_read failed: ErrorStatus=EVP lib.
+[ERROR] [MQTT] [core_mqtt_serializer.c:2394] A single byte was not read from the transport: transportStatus=-1.
+[ERROR] [MQTT] [core_mqtt.c:1319] Receiving incoming packet length failed. Status=MQTTRecvFailed
+[ERROR] [MQTT] [core_mqtt.c:2191] Exiting process loop due to failure: ErrorStatus=MQTTRecvFailed
+[ERROR] [DEMO] [mqtt_demo_mutual_auth.c:1395] MQTT_ProcessLoop returned with status = MQTTRecvFailed.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1476] Disconnecting the MQTT connection with a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com.
+[INFO] [MQTT] [core_mqtt.c:2149] Disconnected from the broker.</code></pre>
+<p>This indicates that the client can connect, but cannot work on those topics on MQTT.  Triple check your policy is correct, and that it is attached to that certificate.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
