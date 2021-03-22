@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <title>Back to Basics:  AWS IoT C SDK &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2020. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Back to Basics:  AWS IoT C SDK</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>22 Mar 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/iot">iot</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/mqtt">mqtt</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>A few quick notes on getting the AWS IoT C SDK running on Linux&rdquo;</p>
+
+<p>I played a lot this past weekend with AWS IoT things.  I finally decided that my friends advice was good:  get something running on a known, reliable platform and then change variables.  So I literally went right back to basics:  <a href="https://github.com/aws/aws-iot-device-sdk-embedded-C">the IoT Embedded C SDK</a>.  I&rsquo;m going to get that running, then I&rsquo;ll go to the <a href="https://github.com/espressif/esp-aws-iot">ESP32 port</a>.</p>
+
+<h3 id="it-works-but-details-matter">It Works, But Details Matter</h3>
+
+<p>AWS IoT has security built in, and the details matter.  I just wanted to do the simple &ldquo;mqtt_demo_mutual_auth&rdquo; case.  I spent some time getting things right.  Now, I don&rsquo;t want to say this is the ONLY way to do it&hellip; but it&rsquo;s what I had to do.</p>
+
+<h2 id="on-the-aws-console">On the AWS Console</h2>
+
+<h4 id="make-a-thing">Make a Thing</h4>
+
+<p>Start with making a thing in the Console.  Naviage to &ldquo;AWS IoT &ndash;&gt; Getting Started&rdquo; and select &ldquo;Onboard a device&rdquo; by clicking &ldquo;Get Started&rdquo; and then click &ldquo;Get started&rdquo; again on the next screen.  I selected &ldquo;Linux/OSX&rdquo; and Python, then clicked &ldquo;Next.&rdquo;</p>
+
+<p>This seemed important:  I named my thing &ldquo;testclient&rdquo; - discovered through trial and error.</p>
+
+<p>Download the zip by clicking on &ldquo;Linux/OSX&rdquo; and save the file locally.  In a local terminal, unzip that file to a folder and remember that location.  You should have these files now:</p>
+<pre><code>connect_device_package.zip
+start.sh
+testclient.cert.pem
+testclient.private.key
+testclient.public.key</code></pre>
+<p>If you want to test the keys, follow the normal directions in the console.</p>
+
+<h4 id="create-a-policy-that-matches-the-demo">Create a Policy That Matches the Demo</h4>
+
+<p>The policy that was created automatically above is good for the python test code that was in the zip file, but not for the C SDK.  In the Console, navigate to Secure &ndash;&gt; Policies and click &ldquo;Create&rdquo; on the upper right side.  Name the policy &ldquo;testclient-policy&rdquo; and click &ldquo;Advanced mode&rdquo; to open an inline editor.  Paste this policy, replacing $REGION:$ACCOUNT_NUMBER with the region string and account number for you.</p>
+<pre><code>{
+  &#34;Version&#34;: &#34;2012-10-17&#34;,
+  &#34;Statement&#34;: [
+    {
+      &#34;Effect&#34;: &#34;Allow&#34;,
+      &#34;Action&#34;: &#34;iot:Connect&#34;,
+      &#34;Resource&#34;: &#34;arn:aws:iot:$REGION:$ACCOUNT_NUMBER:client/${iot:Connection.Thing.ThingName}&#34;
+    },
+    {
+      &#34;Effect&#34;: &#34;Allow&#34;,
+      &#34;Action&#34;: &#34;iot:Subscribe&#34;,
+      &#34;Resource&#34;: &#34;arn:aws:iot:$REGION:$ACCOUNT_NUMBER:topicfilter/${iot:Connection.Thing.ThingName}/example/topic&#34;
+    },
+    {
+      &#34;Effect&#34;: &#34;Allow&#34;,
+      &#34;Action&#34;: &#34;iot:Receive&#34;,
+      &#34;Resource&#34;: &#34;arn:aws:iot:$REGION:$ACCOUNT_NUMBER:topic/${iot:Connection.Thing.ThingName}/example/topic&#34;
+    },
+    {
+      &#34;Effect&#34;: &#34;Allow&#34;,
+      &#34;Action&#34;: &#34;iot:Publish&#34;,
+      &#34;Resource&#34;: &#34;arn:aws:iot:$REGION:$ACCOUNT_NUMBER:topic/${iot:Connection.Thing.ThingName}/example/topic&#34;
+    }
+  ]
+}</code></pre>
+<p>Click &ldquo;Create&rdquo; to make the policy.</p>
+
+<h4 id="associate-the-policy-with-the-certs">Associate the Policy with the Certs</h4>
+
+<p>This is important.  Miss this and you won&rsquo;t be able to communicate over MQTT.  Naviage to the Console Manage &ndash;&gt; Things and select the &lsquo;testclient&rsquo; thing you created.  You should see that it has a certificate attached.  Click on that cert.  You will be taken to that certicate configuration.  Navigating to the cert in this way ensures that you have the right cert selected.</p>
+
+<p>Click Actions in the right corner and select &ldquo;Attach policy.&rdquo;  You will get a drop-down dialog box listing the policies you have created.  Select the new &ldquo;testclient-policy&rdquo; that you just created above, and click &ldquo;Attach.&rdquo;</p>
+
+<h4 id="all-this-is-important">All this is IMPORTANT</h4>
+
+<p>The certs ensure that only authorized clients can connect, and that clients can trust that the endpoint really is AWS, and that the communications will be secure.</p>
+
+<p>The policy limits what the client can do.  Specifically, that policy allows any thing name to connect to the MQTT broker, subscribe, send and receive to/from any topic named like this:</p>
+<pre><code>$ThingName/example/topic</code></pre>
+<p>The client CANNOT use any other topics at all.  This is a majority of the point of AWS IoT:  to provide a common service while ensuring high security for all the clients.</p>
+
+<h2 id="on-the-build-pc-linux-only-was-tested">On the Build PC (Linux only was tested)</h2>
+
+<h4 id="clone-the-sdk">Clone the SDK</h4>
+
+<p>To proceed to the SDK testing, clone the repo locally per the instructions.</p>
+<pre><code>git clone --recurse-submodules git@github.com:aws/aws-iot-device-sdk-embedded-C.git
+cd aws-iot-device-sdk-embedded-C</code></pre>
+<h4 id="find-your-aws-endpoint">Find your AWS Endpoint</h4>
+
+<p>The easiest way is to use the AWS CLI:</p>
+<pre><code>aws iot describe-endpoint --endpoint-type iot:Data-ATS</code></pre>
+<h4 id="configure-the-demo">Configure the Demo</h4>
+
+<p>You will need to ensure you have cmake installed.  Run this command, filling in your details.  IMPORTANT:  don&rsquo;t use relative paths for the cert/key files.  Use the fully qualified path.</p>
+
+<p>Here&rsquo;s my command:</p>
+<pre><code>cmake -S. -Bbuild -DAWS_IOT_ENDPOINT=&#34;a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com&#34; -DCLIENT_CERT_PATH=&#34;/home/gherlein/certs/testclient.cert.pem&#34; -DCLIENT_PRIVATE_KEY_PATH=&#34;/home/gherlein/certs/testclient.private.key&#34;</code></pre>
+<p>Then, generate the makefile:</p>
+<pre><code>cmake -S. -Bbuild</code></pre>
+<p>If all went well, you should see this at the end of your output:</p>
+<pre><code>-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gherlein/src/aws/aws-iot-device-sdk-embedded-C/build</code></pre>
+<p>Now, build:</p>
+<pre><code>cd build
+make -j8 ## pick a number less than 8 if you so choose
+cd bin</code></pre>
+<p>You should now see something like this:</p>
+<pre><code>gherlein@mars:~/src/aws/aws-iot-device-sdk-embedded-C/build/bin$ ls
+certificates         http_demo_plaintext  mqtt_demo_mutual_auth  pkcs11_demo_management_and_rng      pkcs11_demo_objects
+http_demo_basic_tls  jobs_demo_mosquitto  ota_demo_core_http     pkcs11_demo_mechanisms_and_digests  pkcs11_demo_sign_and_verify</code></pre>
+<h4 id="run-the-demo">Run the Demo</h4>
+
+<p>Here&rsquo;s how I ran it and what good results look like:</p>
+<pre><code>gherlein@mars:~/src/aws/aws-iot-device-sdk-embedded-C/build/bin$ ./mqtt_demo_mutual_auth
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:625] Establishing a TLS session to a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com:8883.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1325] Creating an MQTT connection to a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com.
+[INFO] [MQTT] [core_mqtt.c:885] Packet received. ReceivedBytes=2.
+[INFO] [MQTT] [core_mqtt_serializer.c:970] CONNACK session present bit not set.
+[INFO] [MQTT] [core_mqtt_serializer.c:912] Connection accepted.
+[INFO] [MQTT] [core_mqtt.c:1563] Received MQTT CONNACK successfully from broker.
+[INFO] [MQTT] [core_mqtt.c:1829] MQTT connection established with the broker.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1096] MQTT connection successfully established with broker.
+
+
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1358] A clean MQTT connection is established. Cleaning up all the stored outgoing publishes.
+
+
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1375] Subscribing to the MQTT topic testclient/example/topic.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1158] SUBSCRIBE sent for topic testclient/example/topic to broker.
+
+
+[INFO] [MQTT] [core_mqtt.c:885] Packet received. ReceivedBytes=3.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:980] Subscribed to the topic testclient/example/topic. with maximum QoS 1.
+
+
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1419] Sending Publish to the MQTT topic testclient/example/topic.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1255] PUBLISH sent for topic testclient/example/topic to broker with packet ID 2.
+
+
+[INFO] [MQTT] [core_mqtt.c:885] Packet received. ReceivedBytes=2.
+[INFO] [MQTT] [core_mqtt.c:1161] Ack packet deserialized with result: MQTTSuccess.
+[INFO] [MQTT] [core_mqtt.c:1174] State record updated. New state=MQTTPublishDone.
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1007] PUBACK received for packet id 2.</code></pre>
+<p>And there you have it.  A working demo, at least on linux.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2faws-iot-c-sdk%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2faws-iot-c-sdk%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2faws-iot-c-sdk%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2faws-iot-c-sdk%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2faws-iot-c-sdk%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2faws-iot-c-sdk%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/esp32/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/esp32/">Dabbling into ESP32 and FreeRTOS</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+<script src="https://gherlein.github.io/js/math-code.js"></script>
+  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+

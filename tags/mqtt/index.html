@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.74.3" />
 
-  <title>Dabbling into ESP32 and FreeRTOS &middot; Greg Herlein</title>
+  <title>mqtt &middot; Greg Herlein</title>
 
     
 
@@ -41,6 +41,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
+  
+  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
+    href='https://gherlein.github.io/tags/mqtt/index.xml' />
   
 
   
@@ -111,6 +114,11 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href='https://gherlein.github.io/tags/mqtt/index.xml'><i
+          class="fas fa-rss"></i>RSS</a>
+    </li>
     
 
     
@@ -226,16 +234,20 @@
 
 
 <div class="header">
-  <h1>Dabbling into ESP32 and FreeRTOS</h1>
-  <h2></h2>
+  <h1>mqtt</h1>
 </div>
-<div class="content">
 
-  <div class="post-meta">
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://gherlein.github.io/post/aws-iot-c-sdk/">Back to Basics:  AWS IoT C SDK</a></h2>
+
+    <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>21 Mar 2021, 00:00</time>
+    <time>22 Mar 2021, 00:00</time>
   </div>
 
   
@@ -252,11 +264,11 @@
     
       <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/linux">linux</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/esp32">esp32</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">aws</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/freertos">FreeRTOS</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/iot">iot</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">AWS</a>
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/mqtt">mqtt</a>
     
   </div>
   
@@ -264,97 +276,20 @@
 
 </div>
 
-  <p>Dipping a toe into the FreeRTOS ESP32 world.</p>
+  </header>
 
-<p>Not impressed.  That&rsquo;s got to be my overwhelming opinion at the moment.  I know better than to try to blog when I am frustrated so this is not going to be a technical diatribe.</p>
-
-<p>I spent a lot of time this weekend trying to get FreeRTOS running on the ESP32 following the <a href="https://docs.aws.amazon.com/freertos/latest/userguide/getting_started_espressif.html">AWS Getting Started Guide</a>.  I submitted a lot of suggestions for doc improvement, and frankly never got it working.  I did build a binary, finally, but it just crashed constantly.</p>
-
-<p>My good friend, mentor and former boss Scott Francis suggested I look at the <a href="https://www.mouser.com/ProductDetail/NXP-Semiconductors/OM40007UL?qs=W0yvOO0ixfFR96hPnAtATw%3D%3D">NXP LPC54018</a>, so I bought one.  In the embedded world, it&rsquo;s all about the quality of the total ecosystem.  Libraries, docs, support forums.  NXP is solid, he says.</p>
-
-<p>My experience with the Espressif ESP families (ESP32 and ESP8266) is that in the Arduino universe they have that ecosystem.  Mostly the libraries work, and since there are lots of folks using them there&rsquo;s at least some support.  The IDF kits for writing code are solid, in my experience.  They just work.</p>
-
-<p>I suspect it&rsquo;s really an investment thing:  Arduino and makers are where the ESP family makes bank.  Put the money there.  For more &ldquo;serious&rdquo; or &ldquo;professional&rdquo; projects that might require FreeRTOS the tooling and ecosystem is different.  That&rsquo;s my guess.</p>
-
-<p>Anyway, I have a backlog of projects now.  My weather station kit arrived so I need to instrument that. I was planning on FreeRTOS/ESP32 but now I&rsquo;ll go back to the working Arduinio code I had running.  WORKING CODE WINS.  I&rsquo;ll hold my nose at the Arduino ecosystem, this time&hellip;</p>
-
-<p>Onwards!</p>
-  
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
-
-
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  <p>
+  <p>A few quick notes on getting the AWS IoT C SDK running on Linux&rdquo;</p>
+  </p>
 
   
-<div class="prev-next-post pure-g">
-  <div class="pure-u-1-24" style="text-align: left;">
-    
-    <a href="https://gherlein.github.io/post/esp32c3/"><i class="fa fa-chevron-left"></i></a>
-    
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://gherlein.github.io/post/esp32c3/">ESP32-C3 First Playing</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-2-24">
-    &nbsp;
-  </div>
-  <div class="pure-u-10-24">
-    
-    <nav class="next">
-      <a href="https://gherlein.github.io/post/aws-iot-c-sdk/">Back to Basics:  AWS IoT C SDK</a>
-    </nav>
-    
-  </div>
-  <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://gherlein.github.io/post/aws-iot-c-sdk/"><i class="fa fa-chevron-right"></i></a>
-    
-  </div>
-</div>
-
-
+  <footer>
+    <a href="https://gherlein.github.io/post/aws-iot-c-sdk/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
 
   
-
 </div>
 
 </div>
@@ -371,4 +306,3 @@
 
 </body>
 </html>
-

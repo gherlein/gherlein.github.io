@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iot on Greg Herlein</title>
+    <link>https://gherlein.github.io/tags/iot/</link>
+    <description>Recent content in iot on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:01 -0800</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Back to Basics:  AWS IoT C SDK</title>
+      <link>https://gherlein.github.io/post/aws-iot-c-sdk/</link>
+      <pubDate>Mon, 22 Mar 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/post/aws-iot-c-sdk/</guid>
+      <description>&lt;p&gt;A few quick notes on getting the AWS IoT C SDK running on Linux&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
