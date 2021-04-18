@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <title>Playing with Tasmota &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://gherlein.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://gherlein.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://gherlein.github.io/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://gherlein.github.io/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://gherlein.github.io/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/gherlein" rel="me" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin"></i></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2020. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Playing with Tasmota</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Apr 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/esp8266">esp8266</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/esp32">esp32</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/iot">IoT</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Playing around with Tasmota.</p>
+
+<p>Short post today, due to time.  I&rsquo;ve been playing with <a href="https://tasmota.github.io/docs/">Tasmota</a> which is embedded firmware for the ESP8266 and ESP32 (in beta).  If you want to get started FAST this is what you want.</p>
+
+<p>You need the ability to flash an ESP8266.  Once you can do that, you can pluck the generic build and flash the device.  It reboots and comes up as a WiFi Access Point (AP).  You connect to that AP and configure the credentials for your own AP.  It reboots, and then you connect to it again and configure logging, MQTT, and tell it what is connected to the GPIO pins.</p>
+
+<p>This deserves a real post, with screen shots and photos but I don&rsquo;t have time today.</p>
+
+<p>What I do have time to tell you is that it just works.  This is what I am using for my home IoT foundation.  I already have it in production use on two outside lights and my basement lights using the <a href="https://shelly.cloud/products/shelly-1-smart-home-automation-relay/">Shelly 1 Relays</a>.  These are hacker-friendly relays built around the ESP8266 that actually expose the pins so you can re-flash them.  Love these devices.</p>
+
+<h1 id="what">What?</h1>
+
+<p>Here are a few of the things I am currently working on:</p>
+
+<ul>
+<li>Water Flow Sensor <a href="https://smile.amazon.com/dp/B00VKAT7EE?psc=1&amp;ref=ppx_yo2_dt_b_product_details">(this one)</a></li>
+<li>Water Tanke (Cisterna) Level Detector <a href="https://smile.amazon.com/dp/B07211T6Y6?psc=1&amp;ref=ppx_yo2_dt_b_product_details">(these)</a></li>
+<li>Water Temp Sensor <a href="https://smile.amazon.com/dp/B07H3P8LRT?psc=1&amp;ref=ppx_yo2_dt_b_product_details">(this sensor</a> - [(this thermowell)[(<a href="https://smile.amazon.com/gp/product/B07L67CMZM/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">https://smile.amazon.com/gp/product/B07L67CMZM/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1</a>)</li>
+</ul>
+
+<p>The electronics on all this works, and I can measure and send data to an MQTT broker from the bench with all the sensors connected to a breadboard. It&rsquo;s the &ldquo;put in a real world box and power it&rdquo; part that I&rsquo;m working on now.</p>
+
+<p>I also am measuring sunlight.  I am NOT using a light sensor, but instead am using a tiny solar paenel <a href="https://smile.amazon.com/gp/product/B06XTS9SQ1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">(this one)</a> which is $3 each and rugged as hell.  Drop the output across a 50-50 volatege divider and the Analog input on most ESP8266/ESP32 read full range.  And you can put the voltage divider resistors in the package with the panel and pot it with epoxy <a href="https://smile.amazon.com/dp/B00VXV9YZ2?psc=1&amp;ref=ppx_yo2_dt_b_product_details">(this stuff)</a> and run two wires out into the sun with no worries about capacitive issues on an I2C signal.  And unlikely to die in the weather.</p>
+
+<p>Of course, none of this is working anywhere but my bench yet.  I need to get a move on packaging it up so it can live out in the real world.</p>
+
+<h2 id="why">Why?</h2>
+
+<p>I have a swimming pool, and I have a solar pool heater.  It&rsquo;s basically some black glass tubes that sit in the hot sun and the water inside gets warm.  Periodically you open the valve and the water is flushed into the pool, making it warmer.  To get the most efficiency you want to open the valve once the water is as hot as it&rsquo;s going to get, assuming the pool water actually needs to be warmed.  The system came with a timer for the electronic valve, which does not work well since sometimes it&rsquo;s cloudy, sometimes the water is warm enough already, etc.</p>
+
+<p>So, I&rsquo;m adding a temp sensor in the water flow to tell me what the pool temp actually is.  I was building a floating sensor, powered by a solar panel, but&hellip; well.  Lots of problems with that idea.  That&rsquo;s another post.  The valve will get a Shelly 1 to control it.  Basically I will measure the temp of the water and the strength of the sunlight.  The water in the glass tubes is harder to measure since it&rsquo;s not flowing.  I can sort of measure it with a temp sensor clamped to the copper piping, which is what I will do.  But I don&rsquo;t trust it, since without flow it&rsquo;s just the temp at that spot.  Plus, it will be in the sun itself.  So I don&rsquo;t really trust that data and if the long wire run has too much capacitance for the one-wire sensor to be read then I won&rsquo;t even install it.</p>
+
+<p>Basically, I&rsquo;ll constantly watch the pool water temp and strenght of the sun.  The solar panel is outputing volage proportional to the energy delivered by the sun.  That can be calculated as &ldquo;volt-seconds&rdquo; of energy.  The temp rise in the heater will be proportional to that.  A duration of water heating up is a &ldquo;baking period.&rdquo;  Periodically I will open the valve and measure the increase in pool temp as a result.  I can start with baking period of hours.  Within a few weeks I&rsquo;ll have enough empirical data to know how many volt-seconds are needed to accomplish the optimum increase in pool temp.  Then I can modify my control algorithm to just go from that and keep my pool at the best temp I can using ONLY the sun for energy.</p>
+
+<p>That&rsquo;s the plan anyway.  I&rsquo;ll let you know how it goes in the real world!</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2ftasmota%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2ftasmota%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2ftasmota%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2ftasmota%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2ftasmota%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2ftasmota%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://gherlein.github.io/post/freertos-helper-esp32/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://gherlein.github.io/post/freertos-helper-esp32/">Progress on ESP32 and FreeRTOS</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://gherlein.github.io/js/ui.js"></script>
+<script src="https://gherlein.github.io/js/menus.js"></script>
+
+
+
+
+
+
+<script src="https://gherlein.github.io/js/math-code.js"></script>
+  <script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+
