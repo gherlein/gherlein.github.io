@@ -299,6 +299,18 @@
 <p>Now, I have a sense that I could use some ML for this.  I could possibly use the data I gather over a few weeks to train an ML model to maintain as close to the desired temperature as possible.  And I&rsquo;ll probably do this as a practical project to &ldquo;learn by doing&rdquo; as I start to do more IoT ML work.  Should be fun!</p>
 
 <p>That&rsquo;s the plan anyway.  I&rsquo;ll let you know how it goes in the real world!</p>
+
+<h2 id="wait-what-about-the-water-flow-and-tank-sensors">Wait, What About the Water Flow and Tank Sensors?</h2>
+
+<p>Somone left a hose on to water, and that just happened to match up with the City doing some work on the water system.  This resulted in the underground water tank (Cisterna) getting drained, which then triggered the float valve on the water pump to shut down to protect it, which resulted in no water pressure in the house at all.  Bad juju.  I realized we are TOTALLY blind to that, so I am going to put a flow meter in and if water flow exceeds some normal amount for more than say, and hour, it will send an alarm.  Likewise the float valves in the cisterna.  If the level starts to go down then we should know it so we can reduce water consumption drastically so we have a water supply at least.  I am definitely planning on tying this to <a href="https://aws.amazon.com/greengrass/">AWS Greengrass</a> and use <a href="https://aws.amazon.com/sns/?whats-new-cards.sort-by=item.additionalFields.postDateTime&amp;whats-new-cards.sort-order=desc">AWS SNS</a> to text me when these kinds of alarms go off.</p>
+
+<h2 id="what-else">What Else?</h2>
+
+<p>Yes, I do plan to tie my <a href="https://store.ui.com/collections/unifi-protect">Unifi cameras</a> into <a href="https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&amp;blog-cards.sort-order=desc">AWS Rekognition</a>.  I&rsquo;ve worked through a <a href="https://aws.amazon.com/blogs/iot/creating-object-recognition-with-espressif-esp32/">blog</a> about how to do it with an ESP32 as a demo.  My actual architecture would be different, and not only because I can react to the Unifi Protect motion sensing and <a href="http://your.camera.ip.address/snap.jpeg">grab an image directly from the camera</a>.  It&rsquo;s a bit hacky.  I wish Ubiquity would just expose an MQTT feed, but hey.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>So you see, I have a TON of projects queued up.  And these are not just learning projects, but stuff that I really want to get done and use in my normal life.  On top of trying to learn Spanish and my very full time job at AWS it&rsquo;s going to be a busy year.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
