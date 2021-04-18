@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.74.3" />
 
-  <title>Playing with Tasmota &middot; Greg Herlein</title>
+  <title>Playing with Tasmota - A swimming Pool Story &middot; Greg Herlein</title>
 
     
 
@@ -226,7 +226,7 @@
 
 
 <div class="header">
-  <h1>Playing with Tasmota</h1>
+  <h1>Playing with Tasmota - A swimming Pool Story</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -262,7 +262,7 @@
 
 </div>
 
-  <p>Playing around with Tasmota.</p>
+  <p>Playing around with Tasmota - as the sensing core of an IoT-based swimming pool temperature control system.</p>
 
 <p>Short post today, due to time.  I&rsquo;ve been playing with <a href="https://tasmota.github.io/docs/">Tasmota</a> which is embedded firmware for the ESP8266 and ESP32 (in beta).  If you want to get started FAST this is what you want.</p>
 
@@ -295,6 +295,8 @@
 <p>So, I&rsquo;m adding a temp sensor in the water flow to tell me what the pool temp actually is.  I was building a floating sensor, powered by a solar panel, but&hellip; well.  Lots of problems with that idea.  That&rsquo;s another post.  The valve will get a Shelly 1 to control it.  Basically I will measure the temp of the water and the strength of the sunlight.  The water in the glass tubes is harder to measure since it&rsquo;s not flowing.  I can sort of measure it with a temp sensor clamped to the copper piping, which is what I will do.  But I don&rsquo;t trust it, since without flow it&rsquo;s just the temp at that spot.  Plus, it will be in the sun itself.  So I don&rsquo;t really trust that data and if the long wire run has too much capacitance for the one-wire sensor to be read then I won&rsquo;t even install it.</p>
 
 <p>Basically, I&rsquo;ll constantly watch the pool water temp and strenght of the sun.  The solar panel is outputing volage proportional to the energy delivered by the sun.  That can be calculated as &ldquo;volt-seconds&rdquo; of energy.  The temp rise in the heater will be proportional to that.  A duration of water heating up is a &ldquo;baking period.&rdquo;  Periodically I will open the valve and measure the increase in pool temp as a result.  I can start with baking period of hours.  Within a few weeks I&rsquo;ll have enough empirical data to know how many volt-seconds are needed to accomplish the optimum increase in pool temp.  Then I can modify my control algorithm to just go from that and keep my pool at the best temp I can using ONLY the sun for energy.</p>
+
+<p>Now, I have a sense that I could use some ML for this.  I could possibly use the data I gather over a few weeks to train an ML model to maintain as close to the desired temperature as possible.  And I&rsquo;ll probably do this as a practical project to &ldquo;learn by doing&rdquo; as I start to do more IoT ML work.  Should be fun!</p>
 
 <p>That&rsquo;s the plan anyway.  I&rsquo;ll let you know how it goes in the real world!</p>
   
