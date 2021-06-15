@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 23 Oct 2020 00:00:01 -0800</lastBuildDate>
-    
-	<atom:link href="https://gherlein.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:01 -0800</lastBuildDate><atom:link href="https://gherlein.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Actions - Copy to S3 on Commit to Master</title>
       <link>https://gherlein.github.io/post/github-to-s3/</link>

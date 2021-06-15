@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 22 Mar 2021 00:00:01 -0800</lastBuildDate>
-    
-	<atom:link href="https://gherlein.github.io/tags/mqtt/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 22 Mar 2021 00:00:01 -0800</lastBuildDate><atom:link href="https://gherlein.github.io/tags/mqtt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back to Basics:  AWS IoT C SDK</title>
       <link>https://gherlein.github.io/post/aws-iot-c-sdk/</link>
