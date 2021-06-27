@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 20 Jun 2020 03:10:43 -0800</lastBuildDate><atom:link href="https://gherlein.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jun 2020 03:10:43 -0800</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Docs as Code</title>
       <link>https://gherlein.github.io/post/docs-as-code/</link>

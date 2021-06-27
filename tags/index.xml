@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 08 Jun 2021 00:00:01 -0800</lastBuildDate><atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jun 2021 00:00:01 -0800</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>iot</title>
+      <link>https://gherlein.github.io/tags/iot/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://gherlein.github.io/tags/linux/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mqtt</title>
+      <link>https://gherlein.github.io/tags/mqtt/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/mqtt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://gherlein.github.io/tags/technical/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>general</title>
       <link>https://gherlein.github.io/tags/general/</link>
@@ -36,24 +76,6 @@
     </item>
     
     <item>
-      <title>iot</title>
-      <link>https://gherlein.github.io/tags/iot/</link>
-      <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
-      <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/technical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>AWS</title>
       <link>https://gherlein.github.io/tags/aws/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
@@ -68,24 +90,6 @@
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
       
       <guid>https://gherlein.github.io/tags/freertos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://gherlein.github.io/tags/linux/</link>
-      <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mqtt</title>
-      <link>https://gherlein.github.io/tags/mqtt/</link>
-      <pubDate>Mon, 22 Mar 2021 00:00:01 -0800</pubDate>
-      
-      <guid>https://gherlein.github.io/tags/mqtt/</guid>
       <description></description>
     </item>
     

@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:01 -0800</lastBuildDate><atom:link href="https://gherlein.github.io/tags/freertos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:01 -0800</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/freertos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Progress on ESP32 and FreeRTOS</title>
       <link>https://gherlein.github.io/post/freertos-helper-esp32/</link>

@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 17 Oct 2020 00:00:01 -0800</lastBuildDate><atom:link href="https://gherlein.github.io/tags/shortcuts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:01 -0800</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/shortcuts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Mac and Chrome HotKeys</title>
       <link>https://gherlein.github.io/post/hotkeys/</link>

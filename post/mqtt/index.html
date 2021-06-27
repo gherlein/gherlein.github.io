@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.74.3" />
 
-  <title>Dabbling into ESP32 and FreeRTOS &middot; Greg Herlein</title>
+  <title>Thoughts on MQTT &middot; Greg Herlein</title>
 
     
 
@@ -222,7 +222,7 @@
 
 
 <div class="header">
-  <h1>Dabbling into ESP32 and FreeRTOS</h1>
+  <h1>Thoughts on MQTT</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -231,7 +231,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>21 Mar 2021, 00:00</time>
+    <time>27 Jun 2021, 00:00</time>
   </div>
 
   
@@ -248,11 +248,9 @@
     
       <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/linux">linux</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/esp32">esp32</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/mqtt">mqtt</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/freertos">FreeRTOS</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/aws">AWS</a>
+      <a class="post-taxonomy-tag" href="https://gherlein.github.io/tags/iot">IoT</a>
     
   </div>
   
@@ -260,35 +258,33 @@
 
 </div>
 
-  <p>Dipping a toe into the FreeRTOS ESP32 world.</p>
+  <p>Some Thoughts on MQTT</p>
 
-<p>Not impressed.  That&rsquo;s got to be my overwhelming opinion at the moment.  I know better than to try to blog when I am frustrated so this is not going to be a technical diatribe.</p>
+<p>Life has gotten in the way of my pool project, but I do have some thoughts.  I&rsquo;ve gotten small Sonoff plugs set up to turn on and off bug zappers on a cron schedule. I reflashed the units with <a href="https://tasmota.github.io/docs/">Tasmota</a>.  From earlier robotics experiments I was fond of MQTT as a message bus.  Not so much anymore.</p>
 
-<p>I spent a lot of time this weekend trying to get FreeRTOS running on the ESP32 following the <a href="https://docs.aws.amazon.com/freertos/latest/userguide/getting_started_espressif.html">AWS Getting Started Guide</a>.  I submitted a lot of suggestions for doc improvement, and frankly never got it working.  I did build a binary, finally, but it just crashed constantly.</p>
+<p>Things do break.  Not often, but they do.  The node I was running MQTT on got a little flaky and it impacted ALL my devices.  That&rsquo;s a classic single point of failure (SPoF) problem.  Not good.  That got me thinking about the larger IoT ecosystem.  So much of it these days assumes MQTT.  Well, at least what I see.  That makes me uncomfortable.  Even for data collection I am not sure it&rsquo;s the right model.  I was thinking about polling my sensors over MQTT topics and then flowing that data to both a local system and the cloud for analysis.  I love Prometheus and was thinking I&rsquo;d use the cool looking <a href="https://github.com/inovex/mqtt_blackbox_exporter">Prometheus Blackbox Exporter</a>.</p>
 
-<p>My good friend, mentor and former boss Scott Francis suggested I look at the <a href="https://www.mouser.com/ProductDetail/NXP-Semiconductors/OM40007UL?qs=W0yvOO0ixfFR96hPnAtATw%3D%3D">NXP LPC54018</a>, so I bought one.  In the embedded world, it&rsquo;s all about the quality of the total ecosystem.  Libraries, docs, support forums.  NXP is solid, he says.</p>
+<p>So let&rsquo;s take a step back and look at this system.  I have a collection of WiFi-devices all configured to talk on MQTT topics. I have a mosquitto MQTT broker.  I have Prometheus running, and Grafana, and now I add the exporter.  You know, I could just poll the devices directly with an exporter and that&rsquo;s one less common-to-eveything component.  In fact, contrary to the way MQTT works I could take a page out of k8s thinking and have a node controller that has a map of declarative state - the desired state of bug zappers at what times (e.g. like a crontab) and it would be easy to have code check the devices and if they are not in the desired state command them to be in that state.  I could run more than one of that service and be totally idempotent, and thus quite resistant to the loss of any one node of that service.  Tell me again why I am using MQTT?</p>
 
-<p>My experience with the Espressif ESP families (ESP32 and ESP8266) is that in the Arduino universe they have that ecosystem.  Mostly the libraries work, and since there are lots of folks using them there&rsquo;s at least some support.  The IDF kits for writing code are solid, in my experience.  They just work.</p>
+<p>Yes, of course there are lots of use cases where MQTT is great.  I&rsquo;m not sure that mine is one of them.  So life is going to keep me from doing much on the personal hobby front this week, but my brain is sure active on it.  I suspect I can design a very small service that just polls a given device every X seconds and if it&rsquo;s not in the desired state it executes a command to put it in that state.  I could get that desired state from a distriibuted store so that I don&rsquo;t have to worry about configuring every controller.  Then I can run a few of those and they will be very lightweight, and since they are simple they probably won&rsquo;t fail much anyway.</p>
 
-<p>I suspect it&rsquo;s really an investment thing:  Arduino and makers are where the ESP family makes bank.  Put the money there.  For more &ldquo;serious&rdquo; or &ldquo;professional&rdquo; projects that might require FreeRTOS the tooling and ecosystem is different.  That&rsquo;s my guess.</p>
+<p>And my damn bug zappers will turn on and off when they are supposed to.</p>
 
-<p>Anyway, I have a backlog of projects now.  My weather station kit arrived so I need to instrument that. I was planning on FreeRTOS/ESP32 but now I&rsquo;ll go back to the working Arduinio code I had running.  WORKING CODE WINS.  I&rsquo;ll hold my nose at the Arduino ecosystem, this time&hellip;</p>
-
-<p>Onwards!</p>
+<p>See?  The power of technology.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgherlein.github.io%2fpost%2fmqtt%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fgherlein.github.io%2fpost%2fmqtt%2f&via=HorribleGeek" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fgherlein.github.io%2fpost%2fmqtt%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fgherlein.github.io%2fpost%2fmqtt%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fgherlein.github.io%2fpost%2fmqtt%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fesp32%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fgherlein.github.io%2fpost%2fmqtt%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
 	</li>
 </ul>
 
@@ -320,13 +316,13 @@
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://gherlein.github.io/post/esp32c3/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://gherlein.github.io/post/summer/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://gherlein.github.io/post/esp32c3/">ESP32-C3 First Playing</a>
+      <a href="https://gherlein.github.io/post/summer/">Summer</a>
     </nav>
     
   </div>
@@ -335,14 +331,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://gherlein.github.io/post/aws-iot-c-sdk/">Back to Basics:  AWS IoT C SDK</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://gherlein.github.io/post/aws-iot-c-sdk/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

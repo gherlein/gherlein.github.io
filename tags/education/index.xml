@@ -7,7 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 07:00:00 -0800</lastBuildDate><atom:link href="https://gherlein.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jul 2019 07:00:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://gherlein.github.io/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Not Everyone Needs to Go To College</title>
       <link>https://gherlein.github.io/post/college/</link>
