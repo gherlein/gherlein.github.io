@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/git/</link>
+    <link>https://blog.herlein.com/tags/git/</link>
     <description>Recent content in git on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Sat, 20 Jun 2020 03:10:43 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Docs as Code</title>
-      <link>https://gherlein.github.io/post/docs-as-code/</link>
+      <link>https://blog.herlein.com/post/docs-as-code/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/docs-as-code/</guid>
+      <guid>https://blog.herlein.com/post/docs-as-code/</guid>
       <description>&lt;p&gt;One of the core principles of modern &amp;ldquo;DevOps&amp;rdquo; development is to treat your documentation as code, just like code.  My team at Cisco open sourced how we do that.&lt;/p&gt;</description>
     </item>
     

@@ -2,112 +2,112 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AWS on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/aws/</link>
+    <link>https://blog.herlein.com/tags/aws/</link>
     <description>Recent content in AWS on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Sun, 04 Apr 2021 00:00:01 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Progress on ESP32 and FreeRTOS</title>
-      <link>https://gherlein.github.io/post/freertos-helper-esp32/</link>
+      <link>https://blog.herlein.com/post/freertos-helper-esp32/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/freertos-helper-esp32/</guid>
+      <guid>https://blog.herlein.com/post/freertos-helper-esp32/</guid>
       <description>&lt;p&gt;Progress, but not where I want it to be.  But it builds and installs the FreeRTOS AWS IoT demo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Back to Basics:  AWS IoT C SDK</title>
-      <link>https://gherlein.github.io/post/aws-iot-c-sdk/</link>
+      <link>https://blog.herlein.com/post/aws-iot-c-sdk/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/aws-iot-c-sdk/</guid>
+      <guid>https://blog.herlein.com/post/aws-iot-c-sdk/</guid>
       <description>&lt;p&gt;A few quick notes on getting the AWS IoT C SDK running on Linux.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Dabbling into ESP32 and FreeRTOS</title>
-      <link>https://gherlein.github.io/post/esp32/</link>
+      <link>https://blog.herlein.com/post/esp32/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/esp32/</guid>
+      <guid>https://blog.herlein.com/post/esp32/</guid>
       <description>&lt;p&gt;Dipping a toe into the FreeRTOS ESP32 world.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Kinesis Video Streams - Just Getting Started</title>
-      <link>https://gherlein.github.io/post/kinesis-video-streams/</link>
+      <link>https://blog.herlein.com/post/kinesis-video-streams/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/kinesis-video-streams/</guid>
+      <guid>https://blog.herlein.com/post/kinesis-video-streams/</guid>
       <description>&lt;p&gt;Just started playing with &lt;a href=&#34;https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amp;amp;amazon-kinesis-video-streams-resources-blog.sort-order=desc&#34;&gt;Amazon Kinesis Video Streams&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>AWS SysOps Administrator Certified!</title>
-      <link>https://gherlein.github.io/post/sysops-cert-2021/</link>
+      <link>https://blog.herlein.com/post/sysops-cert-2021/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/sysops-cert-2021/</guid>
+      <guid>https://blog.herlein.com/post/sysops-cert-2021/</guid>
       <description>&lt;p&gt;This week I passed the AWS SysOps Administrator (Associate) Exam.  Here&amp;rsquo;s some notes on what I did to prepare, and observations of the process.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Changes - Ending 2020</title>
-      <link>https://gherlein.github.io/post/ending-2020/</link>
+      <link>https://blog.herlein.com/post/ending-2020/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/ending-2020/</guid>
+      <guid>https://blog.herlein.com/post/ending-2020/</guid>
       <description>&lt;p&gt;As 2020 thankfully winds down, I leave Cisco and join AWS.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Using CloudWatch for On-Premise Ubuntu Servers</title>
-      <link>https://gherlein.github.io/post/ubuntu-on-prem-cloudwatch/</link>
+      <link>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/ubuntu-on-prem-cloudwatch/</guid>
+      <guid>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</guid>
       <description>&lt;p&gt;Can I replace a local Prometheus with AWS CloudWatch?  And include syslog monitoring as well?  Yes, I can.  But it was a PITA to set up.  Here&amp;rsquo;s how.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</title>
-      <link>https://gherlein.github.io/post/terraform/</link>
+      <link>https://blog.herlein.com/post/terraform/</link>
       <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/terraform/</guid>
+      <guid>https://blog.herlein.com/post/terraform/</guid>
       <description>&lt;p&gt;In AWS the AMI ID for a particular VM image is unique to that region.  But it&amp;rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Self Driving Revolution</title>
-      <link>https://gherlein.github.io/post/self-driving-revolution/</link>
+      <link>https://blog.herlein.com/post/self-driving-revolution/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/post/self-driving-revolution/</guid>
+      <guid>https://blog.herlein.com/post/self-driving-revolution/</guid>
       <description>&lt;p&gt;Think self-driving technology requires deep pockets to play with?  Think again.  &lt;a href=&#34;https://aws.amazon.com/deepracer/&#34;&gt;AWS DeepRacer&lt;/a&gt; and &lt;a href=&#34;https://github.com/CPFL/Autoware/wiki&#34;&gt;Autoware&lt;/a&gt; are the leading edges of self-driving automation for the maker.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>AWS Certified</title>
-      <link>https://gherlein.github.io/post/aws-certified/</link>
+      <link>https://blog.herlein.com/post/aws-certified/</link>
       <pubDate>Tue, 18 Dec 2018 23:50:38 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/aws-certified/</guid>
+      <guid>https://blog.herlein.com/post/aws-certified/</guid>
       <description>&lt;p&gt;On Becoming an AWS Certified Solutions Architect (Associate)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Avalanche! re:Invent 2018</title>
-      <link>https://gherlein.github.io/post/avalanche-reinvent/</link>
+      <link>https://blog.herlein.com/post/avalanche-reinvent/</link>
       <pubDate>Tue, 18 Dec 2018 10:50:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/avalanche-reinvent/</guid>
+      <guid>https://blog.herlein.com/post/avalanche-reinvent/</guid>
       <description>&lt;p&gt;Thoughts on AWS re:Invent 2018&lt;/p&gt;</description>
     </item>
     

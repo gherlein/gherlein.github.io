@@ -2,724 +2,724 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/</link>
+    <link>https://blog.herlein.com/tags/</link>
     <description>Recent content in Tags on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Sun, 27 Jun 2021 00:00:01 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iot</title>
-      <link>https://gherlein.github.io/tags/iot/</link>
+      <link>https://blog.herlein.com/tags/iot/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/iot/</guid>
+      <guid>https://blog.herlein.com/tags/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://gherlein.github.io/tags/linux/</link>
+      <link>https://blog.herlein.com/tags/linux/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/linux/</guid>
+      <guid>https://blog.herlein.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>mqtt</title>
-      <link>https://gherlein.github.io/tags/mqtt/</link>
+      <link>https://blog.herlein.com/tags/mqtt/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/mqtt/</guid>
+      <guid>https://blog.herlein.com/tags/mqtt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>technical</title>
-      <link>https://gherlein.github.io/tags/technical/</link>
+      <link>https://blog.herlein.com/tags/technical/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/technical/</guid>
+      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>general</title>
-      <link>https://gherlein.github.io/tags/general/</link>
+      <link>https://blog.herlein.com/tags/general/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/general/</guid>
+      <guid>https://blog.herlein.com/tags/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>esp32</title>
-      <link>https://gherlein.github.io/tags/esp32/</link>
+      <link>https://blog.herlein.com/tags/esp32/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/esp32/</guid>
+      <guid>https://blog.herlein.com/tags/esp32/</guid>
       <description></description>
     </item>
     
     <item>
       <title>esp8266</title>
-      <link>https://gherlein.github.io/tags/esp8266/</link>
+      <link>https://blog.herlein.com/tags/esp8266/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/esp8266/</guid>
+      <guid>https://blog.herlein.com/tags/esp8266/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AWS</title>
-      <link>https://gherlein.github.io/tags/aws/</link>
+      <link>https://blog.herlein.com/tags/aws/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/aws/</guid>
+      <guid>https://blog.herlein.com/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FreeRTOS</title>
-      <link>https://gherlein.github.io/tags/freertos/</link>
+      <link>https://blog.herlein.com/tags/freertos/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/freertos/</guid>
+      <guid>https://blog.herlein.com/tags/freertos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>esp-idf</title>
-      <link>https://gherlein.github.io/tags/esp-idf/</link>
+      <link>https://blog.herlein.com/tags/esp-idf/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/esp-idf/</guid>
+      <guid>https://blog.herlein.com/tags/esp-idf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>esp32c3</title>
-      <link>https://gherlein.github.io/tags/esp32c3/</link>
+      <link>https://blog.herlein.com/tags/esp32c3/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/esp32c3/</guid>
+      <guid>https://blog.herlein.com/tags/esp32c3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kinesis</title>
-      <link>https://gherlein.github.io/tags/kinesis/</link>
+      <link>https://blog.herlein.com/tags/kinesis/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/kinesis/</guid>
+      <guid>https://blog.herlein.com/tags/kinesis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>video</title>
-      <link>https://gherlein.github.io/tags/video/</link>
+      <link>https://blog.herlein.com/tags/video/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/video/</guid>
+      <guid>https://blog.herlein.com/tags/video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>certifications</title>
-      <link>https://gherlein.github.io/tags/certifications/</link>
+      <link>https://blog.herlein.com/tags/certifications/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/certifications/</guid>
+      <guid>https://blog.herlein.com/tags/certifications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloud</title>
-      <link>https://gherlein.github.io/tags/cloud/</link>
+      <link>https://blog.herlein.com/tags/cloud/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/cloud/</guid>
+      <guid>https://blog.herlein.com/tags/cloud/</guid>
       <description></description>
     </item>
     
     <item>
       <title>costs</title>
-      <link>https://gherlein.github.io/tags/costs/</link>
+      <link>https://blog.herlein.com/tags/costs/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/costs/</guid>
+      <guid>https://blog.herlein.com/tags/costs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>power</title>
-      <link>https://gherlein.github.io/tags/power/</link>
+      <link>https://blog.herlein.com/tags/power/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/power/</guid>
+      <guid>https://blog.herlein.com/tags/power/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cloudwatch</title>
-      <link>https://gherlein.github.io/tags/cloudwatch/</link>
+      <link>https://blog.herlein.com/tags/cloudwatch/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/cloudwatch/</guid>
+      <guid>https://blog.herlein.com/tags/cloudwatch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>monitoring</title>
-      <link>https://gherlein.github.io/tags/monitoring/</link>
+      <link>https://blog.herlein.com/tags/monitoring/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/monitoring/</guid>
+      <guid>https://blog.herlein.com/tags/monitoring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>syslogs</title>
-      <link>https://gherlein.github.io/tags/syslogs/</link>
+      <link>https://blog.herlein.com/tags/syslogs/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/syslogs/</guid>
+      <guid>https://blog.herlein.com/tags/syslogs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>https://gherlein.github.io/tags/ubuntu/</link>
+      <link>https://blog.herlein.com/tags/ubuntu/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/ubuntu/</guid>
+      <guid>https://blog.herlein.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>devops</title>
-      <link>https://gherlein.github.io/tags/devops/</link>
+      <link>https://blog.herlein.com/tags/devops/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/devops/</guid>
+      <guid>https://blog.herlein.com/tags/devops/</guid>
       <description></description>
     </item>
     
     <item>
       <title>actions</title>
-      <link>https://gherlein.github.io/tags/actions/</link>
+      <link>https://blog.herlein.com/tags/actions/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/actions/</guid>
+      <guid>https://blog.herlein.com/tags/actions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://gherlein.github.io/tags/github/</link>
+      <link>https://blog.herlein.com/tags/github/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/github/</guid>
+      <guid>https://blog.herlein.com/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>s3</title>
-      <link>https://gherlein.github.io/tags/s3/</link>
+      <link>https://blog.herlein.com/tags/s3/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/s3/</guid>
+      <guid>https://blog.herlein.com/tags/s3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://gherlein.github.io/tags/golang/</link>
+      <link>https://blog.herlein.com/tags/golang/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/golang/</guid>
+      <guid>https://blog.herlein.com/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>micro-kernels</title>
-      <link>https://gherlein.github.io/tags/micro-kernels/</link>
+      <link>https://blog.herlein.com/tags/micro-kernels/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/micro-kernels/</guid>
+      <guid>https://blog.herlein.com/tags/micro-kernels/</guid>
       <description></description>
     </item>
     
     <item>
       <title>architecture</title>
-      <link>https://gherlein.github.io/tags/architecture/</link>
+      <link>https://blog.herlein.com/tags/architecture/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/architecture/</guid>
+      <guid>https://blog.herlein.com/tags/architecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>management</title>
-      <link>https://gherlein.github.io/tags/management/</link>
+      <link>https://blog.herlein.com/tags/management/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/management/</guid>
+      <guid>https://blog.herlein.com/tags/management/</guid>
       <description></description>
     </item>
     
     <item>
       <title>efficiency</title>
-      <link>https://gherlein.github.io/tags/efficiency/</link>
+      <link>https://blog.herlein.com/tags/efficiency/</link>
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/efficiency/</guid>
+      <guid>https://blog.herlein.com/tags/efficiency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hotkeys</title>
-      <link>https://gherlein.github.io/tags/hotkeys/</link>
+      <link>https://blog.herlein.com/tags/hotkeys/</link>
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/hotkeys/</guid>
+      <guid>https://blog.herlein.com/tags/hotkeys/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MacOS</title>
-      <link>https://gherlein.github.io/tags/macos/</link>
+      <link>https://blog.herlein.com/tags/macos/</link>
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/macos/</guid>
+      <guid>https://blog.herlein.com/tags/macos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shortcuts</title>
-      <link>https://gherlein.github.io/tags/shortcuts/</link>
+      <link>https://blog.herlein.com/tags/shortcuts/</link>
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/shortcuts/</guid>
+      <guid>https://blog.herlein.com/tags/shortcuts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>copy-paste</title>
-      <link>https://gherlein.github.io/tags/copy-paste/</link>
+      <link>https://blog.herlein.com/tags/copy-paste/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/copy-paste/</guid>
+      <guid>https://blog.herlein.com/tags/copy-paste/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iterm2</title>
-      <link>https://gherlein.github.io/tags/iterm2/</link>
+      <link>https://blog.herlein.com/tags/iterm2/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/iterm2/</guid>
+      <guid>https://blog.herlein.com/tags/iterm2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>osx</title>
-      <link>https://gherlein.github.io/tags/osx/</link>
+      <link>https://blog.herlein.com/tags/osx/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/osx/</guid>
+      <guid>https://blog.herlein.com/tags/osx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sre</title>
-      <link>https://gherlein.github.io/tags/sre/</link>
+      <link>https://blog.herlein.com/tags/sre/</link>
       <pubDate>Wed, 30 Sep 2020 14:50:08 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/sre/</guid>
+      <guid>https://blog.herlein.com/tags/sre/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blackburn</title>
-      <link>https://gherlein.github.io/tags/blackburn/</link>
+      <link>https://blog.herlein.com/tags/blackburn/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/blackburn/</guid>
+      <guid>https://blog.herlein.com/tags/blackburn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogging</title>
-      <link>https://gherlein.github.io/tags/blogging/</link>
+      <link>https://blog.herlein.com/tags/blogging/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/blogging/</guid>
+      <guid>https://blog.herlein.com/tags/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://gherlein.github.io/tags/hugo/</link>
+      <link>https://blog.herlein.com/tags/hugo/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/hugo/</guid>
+      <guid>https://blog.herlein.com/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>debian</title>
-      <link>https://gherlein.github.io/tags/debian/</link>
+      <link>https://blog.herlein.com/tags/debian/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/debian/</guid>
+      <guid>https://blog.herlein.com/tags/debian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>raspberry pi</title>
-      <link>https://gherlein.github.io/tags/raspberry-pi/</link>
+      <link>https://blog.herlein.com/tags/raspberry-pi/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/raspberry-pi/</guid>
+      <guid>https://blog.herlein.com/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rpi</title>
-      <link>https://gherlein.github.io/tags/rpi/</link>
+      <link>https://blog.herlein.com/tags/rpi/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/rpi/</guid>
+      <guid>https://blog.herlein.com/tags/rpi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>driver</title>
-      <link>https://gherlein.github.io/tags/driver/</link>
+      <link>https://blog.herlein.com/tags/driver/</link>
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/driver/</guid>
+      <guid>https://blog.herlein.com/tags/driver/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kernel</title>
-      <link>https://gherlein.github.io/tags/kernel/</link>
+      <link>https://blog.herlein.com/tags/kernel/</link>
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/kernel/</guid>
+      <guid>https://blog.herlein.com/tags/kernel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>telephony</title>
-      <link>https://gherlein.github.io/tags/telephony/</link>
+      <link>https://blog.herlein.com/tags/telephony/</link>
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/telephony/</guid>
+      <guid>https://blog.herlein.com/tags/telephony/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>https://gherlein.github.io/tags/code/</link>
+      <link>https://blog.herlein.com/tags/code/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/code/</guid>
+      <guid>https://blog.herlein.com/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>docs</title>
-      <link>https://gherlein.github.io/tags/docs/</link>
+      <link>https://blog.herlein.com/tags/docs/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/docs/</guid>
+      <guid>https://blog.herlein.com/tags/docs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>https://gherlein.github.io/tags/git/</link>
+      <link>https://blog.herlein.com/tags/git/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/git/</guid>
+      <guid>https://blog.herlein.com/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>terraform</title>
-      <link>https://gherlein.github.io/tags/terraform/</link>
+      <link>https://blog.herlein.com/tags/terraform/</link>
       <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/terraform/</guid>
+      <guid>https://blog.herlein.com/tags/terraform/</guid>
       <description></description>
     </item>
     
     <item>
       <title>opinion</title>
-      <link>https://gherlein.github.io/tags/opinion/</link>
+      <link>https://blog.herlein.com/tags/opinion/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/opinion/</guid>
+      <guid>https://blog.herlein.com/tags/opinion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>prometheus</title>
-      <link>https://gherlein.github.io/tags/prometheus/</link>
+      <link>https://blog.herlein.com/tags/prometheus/</link>
       <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/prometheus/</guid>
+      <guid>https://blog.herlein.com/tags/prometheus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>snmp</title>
-      <link>https://gherlein.github.io/tags/snmp/</link>
+      <link>https://blog.herlein.com/tags/snmp/</link>
       <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/snmp/</guid>
+      <guid>https://blog.herlein.com/tags/snmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rdp</title>
-      <link>https://gherlein.github.io/tags/rdp/</link>
+      <link>https://blog.herlein.com/tags/rdp/</link>
       <pubDate>Tue, 21 Apr 2020 03:10:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/rdp/</guid>
+      <guid>https://blog.herlein.com/tags/rdp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>networking</title>
-      <link>https://gherlein.github.io/tags/networking/</link>
+      <link>https://blog.herlein.com/tags/networking/</link>
       <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/networking/</guid>
+      <guid>https://blog.herlein.com/tags/networking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ssh</title>
-      <link>https://gherlein.github.io/tags/ssh/</link>
+      <link>https://blog.herlein.com/tags/ssh/</link>
       <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/ssh/</guid>
+      <guid>https://blog.herlein.com/tags/ssh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>baking</title>
-      <link>https://gherlein.github.io/tags/baking/</link>
+      <link>https://blog.herlein.com/tags/baking/</link>
       <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/baking/</guid>
+      <guid>https://blog.herlein.com/tags/baking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>non-technical</title>
-      <link>https://gherlein.github.io/tags/non-technical/</link>
+      <link>https://blog.herlein.com/tags/non-technical/</link>
       <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/non-technical/</guid>
+      <guid>https://blog.herlein.com/tags/non-technical/</guid>
       <description></description>
     </item>
     
     <item>
       <title>education</title>
-      <link>https://gherlein.github.io/tags/education/</link>
+      <link>https://blog.herlein.com/tags/education/</link>
       <pubDate>Fri, 19 Jul 2019 07:00:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/education/</guid>
+      <guid>https://blog.herlein.com/tags/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>personal</title>
-      <link>https://gherlein.github.io/tags/personal/</link>
+      <link>https://blog.herlein.com/tags/personal/</link>
       <pubDate>Thu, 18 Jul 2019 11:40:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/personal/</guid>
+      <guid>https://blog.herlein.com/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>development</title>
-      <link>https://gherlein.github.io/tags/development/</link>
+      <link>https://blog.herlein.com/tags/development/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/development/</guid>
+      <guid>https://blog.herlein.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>micro-services</title>
-      <link>https://gherlein.github.io/tags/micro-services/</link>
+      <link>https://blog.herlein.com/tags/micro-services/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/micro-services/</guid>
+      <guid>https://blog.herlein.com/tags/micro-services/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>https://gherlein.github.io/tags/software/</link>
+      <link>https://blog.herlein.com/tags/software/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/software/</guid>
+      <guid>https://blog.herlein.com/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ML</title>
-      <link>https://gherlein.github.io/tags/ml/</link>
+      <link>https://blog.herlein.com/tags/ml/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/ml/</guid>
+      <guid>https://blog.herlein.com/tags/ml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robotics</title>
-      <link>https://gherlein.github.io/tags/robotics/</link>
+      <link>https://blog.herlein.com/tags/robotics/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/robotics/</guid>
+      <guid>https://blog.herlein.com/tags/robotics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ROS</title>
-      <link>https://gherlein.github.io/tags/ros/</link>
+      <link>https://blog.herlein.com/tags/ros/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/ros/</guid>
+      <guid>https://blog.herlein.com/tags/ros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>electronics</title>
-      <link>https://gherlein.github.io/tags/electronics/</link>
+      <link>https://blog.herlein.com/tags/electronics/</link>
       <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/electronics/</guid>
+      <guid>https://blog.herlein.com/tags/electronics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hardware</title>
-      <link>https://gherlein.github.io/tags/hardware/</link>
+      <link>https://blog.herlein.com/tags/hardware/</link>
       <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/hardware/</guid>
+      <guid>https://blog.herlein.com/tags/hardware/</guid>
       <description></description>
     </item>
     
     <item>
       <title>product</title>
-      <link>https://gherlein.github.io/tags/product/</link>
+      <link>https://blog.herlein.com/tags/product/</link>
       <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/product/</guid>
+      <guid>https://blog.herlein.com/tags/product/</guid>
       <description></description>
     </item>
     
     <item>
       <title>eagle</title>
-      <link>https://gherlein.github.io/tags/eagle/</link>
+      <link>https://blog.herlein.com/tags/eagle/</link>
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/eagle/</guid>
+      <guid>https://blog.herlein.com/tags/eagle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>smd</title>
-      <link>https://gherlein.github.io/tags/smd/</link>
+      <link>https://blog.herlein.com/tags/smd/</link>
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/smd/</guid>
+      <guid>https://blog.herlein.com/tags/smd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>design</title>
-      <link>https://gherlein.github.io/tags/design/</link>
+      <link>https://blog.herlein.com/tags/design/</link>
       <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/design/</guid>
+      <guid>https://blog.herlein.com/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data analytics</title>
-      <link>https://gherlein.github.io/tags/data-analytics/</link>
+      <link>https://blog.herlein.com/tags/data-analytics/</link>
       <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/data-analytics/</guid>
+      <guid>https://blog.herlein.com/tags/data-analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>scrappy</title>
-      <link>https://gherlein.github.io/tags/scrappy/</link>
+      <link>https://blog.herlein.com/tags/scrappy/</link>
       <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/tags/scrappy/</guid>
+      <guid>https://blog.herlein.com/tags/scrappy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>leadership</title>
-      <link>https://gherlein.github.io/tags/leadership/</link>
+      <link>https://blog.herlein.com/tags/leadership/</link>
       <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/leadership/</guid>
+      <guid>https://blog.herlein.com/tags/leadership/</guid>
       <description></description>
     </item>
     
     <item>
       <title>team building</title>
-      <link>https://gherlein.github.io/tags/team-building/</link>
+      <link>https://blog.herlein.com/tags/team-building/</link>
       <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/team-building/</guid>
+      <guid>https://blog.herlein.com/tags/team-building/</guid>
       <description></description>
     </item>
     
     <item>
       <title>i2c</title>
-      <link>https://gherlein.github.io/tags/i2c/</link>
+      <link>https://blog.herlein.com/tags/i2c/</link>
       <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/i2c/</guid>
+      <guid>https://blog.herlein.com/tags/i2c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>automation</title>
-      <link>https://gherlein.github.io/tags/automation/</link>
+      <link>https://blog.herlein.com/tags/automation/</link>
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/automation/</guid>
+      <guid>https://blog.herlein.com/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data-centers</title>
-      <link>https://gherlein.github.io/tags/data-centers/</link>
+      <link>https://blog.herlein.com/tags/data-centers/</link>
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/tags/data-centers/</guid>
+      <guid>https://blog.herlein.com/tags/data-centers/</guid>
       <description></description>
     </item>
     

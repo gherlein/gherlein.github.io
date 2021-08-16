@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogging on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/blogging/</link>
+    <link>https://blog.herlein.com/tags/blogging/</link>
     <description>Recent content in blogging on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Sat, 26 Sep 2020 00:00:04 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fixing Hugo Social Media Icons in Blackburn</title>
-      <link>https://gherlein.github.io/post/hugo-social-media-icons/</link>
+      <link>https://blog.herlein.com/post/hugo-social-media-icons/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/hugo-social-media-icons/</guid>
+      <guid>https://blog.herlein.com/post/hugo-social-media-icons/</guid>
       <description>&lt;p&gt;The Blackburn theme for Hugo has a bug in how it shows social media icons.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fixing Hugo Images</title>
-      <link>https://gherlein.github.io/post/hugo-images/</link>
+      <link>https://blog.herlein.com/post/hugo-images/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/hugo-images/</guid>
+      <guid>https://blog.herlein.com/post/hugo-images/</guid>
       <description>&lt;p&gt;Hugo made a change that broke image embedding using &lt;img&gt; tags.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
     

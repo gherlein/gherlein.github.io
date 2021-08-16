@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ssh on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/ssh/</link>
+    <link>https://blog.herlein.com/tags/ssh/</link>
     <description>Recent content in ssh on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Sun, 12 Apr 2020 06:40:43 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSH Tunnels</title>
-      <link>https://gherlein.github.io/post/ssh-tunnels/</link>
+      <link>https://blog.herlein.com/post/ssh-tunnels/</link>
       <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/ssh-tunnels/</guid>
+      <guid>https://blog.herlein.com/post/ssh-tunnels/</guid>
       <description>&lt;p&gt;SSH tunnels are basically indistinguishable from magic.&lt;/p&gt;</description>
     </item>
     

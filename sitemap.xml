@@ -3,702 +3,702 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gherlein.github.io/</loc>
+    <loc>https://blog.herlein.com/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/iot/</loc>
+    <loc>https://blog.herlein.com/tags/iot/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/linux/</loc>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/mqtt/</loc>
+    <loc>https://blog.herlein.com/tags/mqtt/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/</loc>
+    <loc>https://blog.herlein.com/post/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/</loc>
+    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/technical/</loc>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/mqtt/</loc>
+    <loc>https://blog.herlein.com/post/mqtt/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/general/</loc>
+    <loc>https://blog.herlein.com/tags/general/</loc>
     <lastmod>2021-06-08T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/summer/</loc>
+    <loc>https://blog.herlein.com/post/summer/</loc>
     <lastmod>2021-06-08T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/esp32/</loc>
+    <loc>https://blog.herlein.com/tags/esp32/</loc>
     <lastmod>2021-04-18T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/esp8266/</loc>
+    <loc>https://blog.herlein.com/tags/esp8266/</loc>
     <lastmod>2021-04-18T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/tasmota/</loc>
+    <loc>https://blog.herlein.com/post/tasmota/</loc>
     <lastmod>2021-04-18T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/aws/</loc>
+    <loc>https://blog.herlein.com/tags/aws/</loc>
     <lastmod>2021-04-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/freertos/</loc>
+    <loc>https://blog.herlein.com/tags/freertos/</loc>
     <lastmod>2021-04-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/freertos-helper-esp32/</loc>
+    <loc>https://blog.herlein.com/post/freertos-helper-esp32/</loc>
     <lastmod>2021-04-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/aws-iot-c-sdk/</loc>
+    <loc>https://blog.herlein.com/post/aws-iot-c-sdk/</loc>
     <lastmod>2021-03-22T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/esp32/</loc>
+    <loc>https://blog.herlein.com/post/esp32/</loc>
     <lastmod>2021-03-21T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/esp-idf/</loc>
+    <loc>https://blog.herlein.com/tags/esp-idf/</loc>
     <lastmod>2021-03-07T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/esp32c3/</loc>
+    <loc>https://blog.herlein.com/post/esp32c3/</loc>
     <lastmod>2021-03-07T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/esp32c3/</loc>
+    <loc>https://blog.herlein.com/tags/esp32c3/</loc>
     <lastmod>2021-03-07T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/about/</loc>
+    <loc>https://blog.herlein.com/about/</loc>
     <lastmod>2021-03-06T00:00:05-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/kinesis/</loc>
+    <loc>https://blog.herlein.com/tags/kinesis/</loc>
     <lastmod>2021-02-27T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/kinesis-video-streams/</loc>
+    <loc>https://blog.herlein.com/post/kinesis-video-streams/</loc>
     <lastmod>2021-02-27T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/video/</loc>
+    <loc>https://blog.herlein.com/tags/video/</loc>
     <lastmod>2021-02-27T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/sysops-cert-2021/</loc>
+    <loc>https://blog.herlein.com/post/sysops-cert-2021/</loc>
     <lastmod>2021-01-30T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/certifications/</loc>
+    <loc>https://blog.herlein.com/tags/certifications/</loc>
     <lastmod>2021-01-30T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/ending-2020/</loc>
+    <loc>https://blog.herlein.com/post/ending-2020/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/cloud/</loc>
+    <loc>https://blog.herlein.com/tags/cloud/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/costs/</loc>
+    <loc>https://blog.herlein.com/tags/costs/</loc>
     <lastmod>2020-11-11T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/power/</loc>
+    <loc>https://blog.herlein.com/tags/power/</loc>
     <lastmod>2020-11-11T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/power/</loc>
+    <loc>https://blog.herlein.com/post/power/</loc>
     <lastmod>2020-11-11T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/cloudwatch/</loc>
+    <loc>https://blog.herlein.com/tags/cloudwatch/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/monitoring/</loc>
+    <loc>https://blog.herlein.com/tags/monitoring/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/syslogs/</loc>
+    <loc>https://blog.herlein.com/tags/syslogs/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/ubuntu/</loc>
+    <loc>https://blog.herlein.com/tags/ubuntu/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/ubuntu-on-prem-cloudwatch/</loc>
+    <loc>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/devops/</loc>
+    <loc>https://blog.herlein.com/tags/devops/</loc>
     <lastmod>2020-10-24T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/disposability/</loc>
+    <loc>https://blog.herlein.com/post/disposability/</loc>
     <lastmod>2020-10-24T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/actions/</loc>
+    <loc>https://blog.herlein.com/tags/actions/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/github/</loc>
+    <loc>https://blog.herlein.com/tags/github/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/github-to-s3/</loc>
+    <loc>https://blog.herlein.com/post/github-to-s3/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/s3/</loc>
+    <loc>https://blog.herlein.com/tags/s3/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/golang/</loc>
+    <loc>https://blog.herlein.com/tags/golang/</loc>
     <lastmod>2020-10-22T00:00:01-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/golang-enabled-microkernel-reality/</loc>
+    <loc>https://blog.herlein.com/post/golang-enabled-microkernel-reality/</loc>
     <lastmod>2020-10-22T00:00:01-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/micro-kernels/</loc>
+    <loc>https://blog.herlein.com/tags/micro-kernels/</loc>
     <lastmod>2020-10-22T00:00:01-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/architecture/</loc>
+    <loc>https://blog.herlein.com/tags/architecture/</loc>
     <lastmod>2020-10-20T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/sa-team-software-approach/</loc>
+    <loc>https://blog.herlein.com/post/sa-team-software-approach/</loc>
     <lastmod>2020-10-20T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/management/</loc>
+    <loc>https://blog.herlein.com/tags/management/</loc>
     <lastmod>2020-10-20T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/efficiency/</loc>
+    <loc>https://blog.herlein.com/tags/efficiency/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/hotkeys/</loc>
+    <loc>https://blog.herlein.com/tags/hotkeys/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/hotkeys/</loc>
+    <loc>https://blog.herlein.com/post/hotkeys/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/macos/</loc>
+    <loc>https://blog.herlein.com/tags/macos/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/shortcuts/</loc>
+    <loc>https://blog.herlein.com/tags/shortcuts/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/copy-paste/</loc>
+    <loc>https://blog.herlein.com/tags/copy-paste/</loc>
     <lastmod>2020-10-05T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/iterm2/</loc>
+    <loc>https://blog.herlein.com/tags/iterm2/</loc>
     <lastmod>2020-10-05T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/iterm2-paste/</loc>
+    <loc>https://blog.herlein.com/post/iterm2-paste/</loc>
     <lastmod>2020-10-05T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/osx/</loc>
+    <loc>https://blog.herlein.com/tags/osx/</loc>
     <lastmod>2020-10-05T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/sre/</loc>
+    <loc>https://blog.herlein.com/tags/sre/</loc>
     <lastmod>2020-09-30T14:50:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/sre-123/</loc>
+    <loc>https://blog.herlein.com/post/sre-123/</loc>
     <lastmod>2020-09-30T14:50:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/blackburn/</loc>
+    <loc>https://blog.herlein.com/tags/blackburn/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/blogging/</loc>
+    <loc>https://blog.herlein.com/tags/blogging/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/hugo-social-media-icons/</loc>
+    <loc>https://blog.herlein.com/post/hugo-social-media-icons/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/hugo/</loc>
+    <loc>https://blog.herlein.com/tags/hugo/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/hugo-images/</loc>
+    <loc>https://blog.herlein.com/post/hugo-images/</loc>
     <lastmod>2020-09-26T00:00:03-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/debian/</loc>
+    <loc>https://blog.herlein.com/tags/debian/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/hello-ubuntu-kinda/</loc>
+    <loc>https://blog.herlein.com/post/hello-ubuntu-kinda/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/raspberry-pi/</loc>
+    <loc>https://blog.herlein.com/tags/raspberry-pi/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/rpi-zero-w/</loc>
+    <loc>https://blog.herlein.com/post/rpi-zero-w/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/rpi/</loc>
+    <loc>https://blog.herlein.com/tags/rpi/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/debian-again/</loc>
+    <loc>https://blog.herlein.com/post/debian-again/</loc>
     <lastmod>2020-08-07T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/lti/</loc>
+    <loc>https://blog.herlein.com/post/lti/</loc>
     <lastmod>2020-06-27T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/driver/</loc>
+    <loc>https://blog.herlein.com/tags/driver/</loc>
     <lastmod>2020-06-27T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/kernel/</loc>
+    <loc>https://blog.herlein.com/tags/kernel/</loc>
     <lastmod>2020-06-27T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/telephony/</loc>
+    <loc>https://blog.herlein.com/tags/telephony/</loc>
     <lastmod>2020-06-27T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/code/</loc>
+    <loc>https://blog.herlein.com/tags/code/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/docs/</loc>
+    <loc>https://blog.herlein.com/tags/docs/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/docs-as-code/</loc>
+    <loc>https://blog.herlein.com/post/docs-as-code/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/git/</loc>
+    <loc>https://blog.herlein.com/tags/git/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/terraform/</loc>
+    <loc>https://blog.herlein.com/tags/terraform/</loc>
     <lastmod>2020-06-06T07:21:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/terraform/</loc>
+    <loc>https://blog.herlein.com/post/terraform/</loc>
     <lastmod>2020-06-06T07:21:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/blm/</loc>
+    <loc>https://blog.herlein.com/post/blm/</loc>
     <lastmod>2020-06-06T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/opinion/</loc>
+    <loc>https://blog.herlein.com/tags/opinion/</loc>
     <lastmod>2020-06-06T00:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/sphereit/</loc>
+    <loc>https://blog.herlein.com/post/sphereit/</loc>
     <lastmod>2020-04-21T07:16:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/prometheus/</loc>
+    <loc>https://blog.herlein.com/tags/prometheus/</loc>
     <lastmod>2020-04-21T07:16:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/snmp/</loc>
+    <loc>https://blog.herlein.com/tags/snmp/</loc>
     <lastmod>2020-04-21T07:16:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/rdp/</loc>
+    <loc>https://blog.herlein.com/post/rdp/</loc>
     <lastmod>2020-04-21T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/rdp/</loc>
+    <loc>https://blog.herlein.com/tags/rdp/</loc>
     <lastmod>2020-04-21T03:10:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/networking/</loc>
+    <loc>https://blog.herlein.com/tags/networking/</loc>
     <lastmod>2020-04-12T06:40:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/ssh/</loc>
+    <loc>https://blog.herlein.com/tags/ssh/</loc>
     <lastmod>2020-04-12T06:40:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/ssh-tunnels/</loc>
+    <loc>https://blog.herlein.com/post/ssh-tunnels/</loc>
     <lastmod>2020-04-12T06:40:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/baking/</loc>
+    <loc>https://blog.herlein.com/tags/baking/</loc>
     <lastmod>2020-03-28T08:21:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/bread/</loc>
+    <loc>https://blog.herlein.com/post/bread/</loc>
     <lastmod>2020-03-28T08:21:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/non-technical/</loc>
+    <loc>https://blog.herlein.com/tags/non-technical/</loc>
     <lastmod>2020-03-28T08:21:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/covid-19/</loc>
+    <loc>https://blog.herlein.com/post/covid-19/</loc>
     <lastmod>2020-03-15T13:21:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/education/</loc>
+    <loc>https://blog.herlein.com/tags/education/</loc>
     <lastmod>2019-07-19T07:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/college/</loc>
+    <loc>https://blog.herlein.com/post/college/</loc>
     <lastmod>2019-07-19T07:00:00-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/ubuntu-lid/</loc>
+    <loc>https://blog.herlein.com/post/ubuntu-lid/</loc>
     <lastmod>2019-07-18T18:40:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/personal/</loc>
+    <loc>https://blog.herlein.com/tags/personal/</loc>
     <lastmod>2019-07-18T11:40:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/update-july/</loc>
+    <loc>https://blog.herlein.com/post/update-july/</loc>
     <lastmod>2019-07-18T11:40:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/development/</loc>
+    <loc>https://blog.herlein.com/tags/development/</loc>
     <lastmod>2019-02-24T08:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/micro-services/</loc>
+    <loc>https://blog.herlein.com/tags/micro-services/</loc>
     <lastmod>2019-02-24T08:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/blowing-up-monolith/</loc>
+    <loc>https://blog.herlein.com/post/blowing-up-monolith/</loc>
     <lastmod>2019-02-24T08:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/software/</loc>
+    <loc>https://blog.herlein.com/tags/software/</loc>
     <lastmod>2019-02-24T08:00:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/cloud-basics/</loc>
+    <loc>https://blog.herlein.com/post/cloud-basics/</loc>
     <lastmod>2019-02-10T14:50:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/ml/</loc>
+    <loc>https://blog.herlein.com/tags/ml/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/robotics/</loc>
+    <loc>https://blog.herlein.com/tags/robotics/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/ros/</loc>
+    <loc>https://blog.herlein.com/tags/ros/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/self-driving-revolution/</loc>
+    <loc>https://blog.herlein.com/post/self-driving-revolution/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/management-readme/</loc>
+    <loc>https://blog.herlein.com/post/management-readme/</loc>
     <lastmod>2019-01-30T09:30:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/electronics/</loc>
+    <loc>https://blog.herlein.com/tags/electronics/</loc>
     <lastmod>2019-01-21T13:40:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/hardware/</loc>
+    <loc>https://blog.herlein.com/tags/hardware/</loc>
     <lastmod>2019-01-21T13:40:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/product/</loc>
+    <loc>https://blog.herlein.com/tags/product/</loc>
     <lastmod>2019-01-21T13:40:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/rbot-value-prop/</loc>
+    <loc>https://blog.herlein.com/post/rbot-value-prop/</loc>
     <lastmod>2019-01-21T13:40:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/boards/</loc>
+    <loc>https://blog.herlein.com/post/boards/</loc>
     <lastmod>2019-01-21T10:50:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/eagle/</loc>
+    <loc>https://blog.herlein.com/tags/eagle/</loc>
     <lastmod>2019-01-21T10:50:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/smd/</loc>
+    <loc>https://blog.herlein.com/tags/smd/</loc>
     <lastmod>2019-01-21T10:50:08-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/ubuntu-18.04/</loc>
+    <loc>https://blog.herlein.com/post/ubuntu-18.04/</loc>
     <lastmod>2019-01-05T08:40:43-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/design/</loc>
+    <loc>https://blog.herlein.com/tags/design/</loc>
     <lastmod>2018-12-30T10:33:02-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/esp32-pico-v4-library/</loc>
+    <loc>https://blog.herlein.com/post/esp32-pico-v4-library/</loc>
     <lastmod>2018-12-30T10:33:02-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/data-analytics/</loc>
+    <loc>https://blog.herlein.com/tags/data-analytics/</loc>
     <lastmod>2018-12-24T11:33:02-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/scrappy/</loc>
+    <loc>https://blog.herlein.com/tags/scrappy/</loc>
     <lastmod>2018-12-24T11:33:02-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/uber-driver-data/</loc>
+    <loc>https://blog.herlein.com/post/uber-driver-data/</loc>
     <lastmod>2018-12-24T11:33:02-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/aws-certified/</loc>
+    <loc>https://blog.herlein.com/post/aws-certified/</loc>
     <lastmod>2018-12-18T23:50:38-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/avalanche-reinvent/</loc>
+    <loc>https://blog.herlein.com/post/avalanche-reinvent/</loc>
     <lastmod>2018-12-18T10:50:01-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/eng-leadership-321/</loc>
+    <loc>https://blog.herlein.com/post/eng-leadership-321/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/leadership/</loc>
+    <loc>https://blog.herlein.com/tags/leadership/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/team-building/</loc>
+    <loc>https://blog.herlein.com/tags/team-building/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/i2c/</loc>
+    <loc>https://blog.herlein.com/tags/i2c/</loc>
     <lastmod>2018-09-29T08:44:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/i2c-for-robot/</loc>
+    <loc>https://blog.herlein.com/post/i2c-for-robot/</loc>
     <lastmod>2018-09-29T08:44:43-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/pcal6416a-getting-started/</loc>
+    <loc>https://blog.herlein.com/post/pcal6416a-getting-started/</loc>
     <lastmod>2018-07-14T19:32:04-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/hello-world/</loc>
+    <loc>https://blog.herlein.com/post/hello-world/</loc>
     <lastmod>2018-06-30T09:30:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/golang-enabled-microkernels/</loc>
+    <loc>https://blog.herlein.com/post/golang-enabled-microkernels/</loc>
     <lastmod>2018-01-29T16:29:39-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/automation/</loc>
+    <loc>https://blog.herlein.com/tags/automation/</loc>
     <lastmod>2016-12-21T16:29:39-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/tags/data-centers/</loc>
+    <loc>https://blog.herlein.com/tags/data-centers/</loc>
     <lastmod>2016-12-21T16:29:39-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/technology-rolls-on/</loc>
+    <loc>https://blog.herlein.com/post/technology-rolls-on/</loc>
     <lastmod>2016-12-21T16:29:39-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/post/how-to-do-devops/</loc>
+    <loc>https://blog.herlein.com/post/how-to-do-devops/</loc>
     <lastmod>2016-04-12T16:29:39-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/projects/</loc>
+    <loc>https://blog.herlein.com/projects/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/resume/</loc>
+    <loc>https://blog.herlein.com/resume/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gherlein.github.io/topics/</loc>
+    <loc>https://blog.herlein.com/topics/</loc>
   </url>
   
 </urlset>

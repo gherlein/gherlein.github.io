@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>devops on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/devops/</link>
+    <link>https://blog.herlein.com/tags/devops/</link>
     <description>Recent content in devops on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Sat, 24 Oct 2020 00:00:01 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Disposability - the Missing ility</title>
-      <link>https://gherlein.github.io/post/disposability/</link>
+      <link>https://blog.herlein.com/post/disposability/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/disposability/</guid>
+      <guid>https://blog.herlein.com/post/disposability/</guid>
       <description>&lt;p&gt;You will get the most bang for the buck from cloud by destroying it.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>SRE 123</title>
-      <link>https://gherlein.github.io/post/sre-123/</link>
+      <link>https://blog.herlein.com/post/sre-123/</link>
       <pubDate>Wed, 30 Sep 2020 14:50:08 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/sre-123/</guid>
+      <guid>https://blog.herlein.com/post/sre-123/</guid>
       <description>&lt;p&gt;Everyone is all on fire about SRE.  But what is it really?  It&amp;rsquo;s as easy as 1-2-3 if you boil it down to the basics.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</title>
-      <link>https://gherlein.github.io/post/terraform/</link>
+      <link>https://blog.herlein.com/post/terraform/</link>
       <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/terraform/</guid>
+      <guid>https://blog.herlein.com/post/terraform/</guid>
       <description>&lt;p&gt;In AWS the AMI ID for a particular VM image is unique to that region.  But it&amp;rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Cloudy DevOps - Part 1</title>
-      <link>https://gherlein.github.io/post/cloud-basics/</link>
+      <link>https://blog.herlein.com/post/cloud-basics/</link>
       <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/cloud-basics/</guid>
+      <guid>https://blog.herlein.com/post/cloud-basics/</guid>
       <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>How To Do Devops?</title>
-      <link>https://gherlein.github.io/post/how-to-do-devops/</link>
+      <link>https://blog.herlein.com/post/how-to-do-devops/</link>
       <pubDate>Tue, 12 Apr 2016 16:29:39 -0700</pubDate>
       
-      <guid>https://gherlein.github.io/post/how-to-do-devops/</guid>
+      <guid>https://blog.herlein.com/post/how-to-do-devops/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     

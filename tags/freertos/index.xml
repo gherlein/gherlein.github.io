@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FreeRTOS on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/freertos/</link>
+    <link>https://blog.herlein.com/tags/freertos/</link>
     <description>Recent content in FreeRTOS on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Sun, 04 Apr 2021 00:00:01 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/freertos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/freertos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Progress on ESP32 and FreeRTOS</title>
-      <link>https://gherlein.github.io/post/freertos-helper-esp32/</link>
+      <link>https://blog.herlein.com/post/freertos-helper-esp32/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/freertos-helper-esp32/</guid>
+      <guid>https://blog.herlein.com/post/freertos-helper-esp32/</guid>
       <description>&lt;p&gt;Progress, but not where I want it to be.  But it builds and installs the FreeRTOS AWS IoT demo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Dabbling into ESP32 and FreeRTOS</title>
-      <link>https://gherlein.github.io/post/esp32/</link>
+      <link>https://blog.herlein.com/post/esp32/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/esp32/</guid>
+      <guid>https://blog.herlein.com/post/esp32/</guid>
       <description>&lt;p&gt;Dipping a toe into the FreeRTOS ESP32 world.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ESP32-C3 First Playing</title>
-      <link>https://gherlein.github.io/post/esp32c3/</link>
+      <link>https://blog.herlein.com/post/esp32c3/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/esp32c3/</guid>
+      <guid>https://blog.herlein.com/post/esp32c3/</guid>
       <description>&lt;p&gt;Finally got a few minutes to play withe the ESP32-C3 DevKit that &lt;a href=&#34;https://twitter.com/EspressifSystem&#34;&gt;Espressif&lt;/a&gt; was kind enough to ship.  So I made a blinky light using the onboard &lt;a href=&#34;https://cdn-shop.adafruit.com/datasheets/WS2812.pdf&#34;&gt;WS2812 LED&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     

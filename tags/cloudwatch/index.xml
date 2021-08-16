@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cloudwatch on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/cloudwatch/</link>
+    <link>https://blog.herlein.com/tags/cloudwatch/</link>
     <description>Recent content in cloudwatch on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Wed, 04 Nov 2020 00:00:01 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/cloudwatch/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/cloudwatch/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using CloudWatch for On-Premise Ubuntu Servers</title>
-      <link>https://gherlein.github.io/post/ubuntu-on-prem-cloudwatch/</link>
+      <link>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/ubuntu-on-prem-cloudwatch/</guid>
+      <guid>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</guid>
       <description>&lt;p&gt;Can I replace a local Prometheus with AWS CloudWatch?  And include syslog monitoring as well?  Yes, I can.  But it was a PITA to set up.  Here&amp;rsquo;s how.&lt;/p&gt;</description>
     </item>
     

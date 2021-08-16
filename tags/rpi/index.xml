@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rpi on Greg Herlein</title>
-    <link>https://gherlein.github.io/tags/rpi/</link>
+    <link>https://blog.herlein.com/tags/rpi/</link>
     <description>Recent content in rpi on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
     <lastBuildDate>Sat, 26 Sep 2020 00:00:01 -0800</lastBuildDate>
     
-	<atom:link href="https://gherlein.github.io/tags/rpi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.herlein.com/tags/rpi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Raspberry Pi Zero W Fun</title>
-      <link>https://gherlein.github.io/post/rpi-zero-w/</link>
+      <link>https://blog.herlein.com/post/rpi-zero-w/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
       
-      <guid>https://gherlein.github.io/post/rpi-zero-w/</guid>
+      <guid>https://blog.herlein.com/post/rpi-zero-w/</guid>
       <description>&lt;p&gt;The Raspberry Pi Zero W is likely the basis of my next few projects.&lt;/p&gt;</description>
     </item>
     
