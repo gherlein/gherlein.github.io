@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2020. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 18 Jul 2019 11:40:43 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 31 Aug 2021 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Goodbye Twitter</title>
+      <link>https://blog.herlein.com/post/goodbye-twitter/</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/goodbye-twitter/</guid>
+      <description>&lt;p&gt;Once again, I&amp;rsquo;m the product, being manipulated.  Goodbye Twitter.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Where Have I Been?</title>

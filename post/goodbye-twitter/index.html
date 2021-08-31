@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.74.3" />
 
-  <title>Thoughts on MQTT &middot; Greg Herlein</title>
+  <title>Goodbye Twitter &middot; Greg Herlein</title>
 
     
 
@@ -221,7 +221,7 @@
 
 
 <div class="header">
-  <h1>Thoughts on MQTT</h1>
+  <h1>Goodbye Twitter</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -230,7 +230,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>27 Jun 2021, 00:00</time>
+    <time>31 Aug 2021, 00:00</time>
   </div>
 
   
@@ -243,13 +243,7 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.comtags/technical">technical</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.comtags/linux">linux</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.comtags/mqtt">mqtt</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.comtags/iot">IoT</a>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.comtags/personal">personal</a>
     
   </div>
   
@@ -257,33 +251,35 @@
 
 </div>
 
-  <p>Some Thoughts on MQTT</p>
+  <p>Once again, I&rsquo;m the product, being manipulated.  Goodbye Twitter.</p>
 
-<p>Life has gotten in the way of my pool project, but I do have some thoughts.  I&rsquo;ve gotten small Sonoff plugs set up to turn on and off bug zappers on a cron schedule. I reflashed the units with <a href="https://tasmota.github.io/docs/">Tasmota</a>.  From earlier robotics experiments I was fond of MQTT as a message bus.  Not so much anymore.</p>
+<p>A few years ago I deleted my Facebook account.  It was clear to me that the material they were showing me was provocative and inflamatory.  I really valued the platform to stay in touch with old Navy friends, old friends in general, and news from very local places that don&rsquo;t rise to real news coverage.  But there came a point where things being shoved in my face were annoying me more than the value I was getting.  And, there&rsquo;s the moral part too:  FB is making billions of dollars from pitting Americans against each other.  It&rsquo;s actually their core business model.  I opted out.</p>
 
-<p>Things do break.  Not often, but they do.  The node I was running MQTT on got a little flaky and it impacted ALL my devices.  That&rsquo;s a classic single point of failure (SPoF) problem.  Not good.  That got me thinking about the larger IoT ecosystem.  So much of it these days assumes MQTT.  Well, at least what I see.  That makes me uncomfortable.  Even for data collection I am not sure it&rsquo;s the right model.  I was thinking about polling my sensors over MQTT topics and then flowing that data to both a local system and the cloud for analysis.  I love Prometheus and was thinking I&rsquo;d use the cool looking <a href="https://github.com/inovex/mqtt_blackbox_exporter">Prometheus Blackbox Exporter</a>.</p>
+<p>I stayed on twitter.  Until recently it was some ads but mostly a nice way to follow some tech folks I liked, get news about some new tech projects, hear about some Navy stuff, follow some veterans.  But over the last six monts I&rsquo;ve gotten more and more squeemish.  It&rsquo;s been feeling more and more like how FB used to feel.</p>
 
-<p>So let&rsquo;s take a step back and look at this system.  I have a collection of WiFi-devices all configured to talk on MQTT topics. I have a mosquitto MQTT broker.  I have Prometheus running, and Grafana, and now I add the exporter.  You know, I could just poll the devices directly with an exporter and that&rsquo;s one less common-to-eveything component.  In fact, contrary to the way MQTT works I could take a page out of k8s thinking and have a node controller that has a map of declarative state - the desired state of bug zappers at what times (e.g. like a crontab) and it would be easy to have code check the devices and if they are not in the desired state command them to be in that state.  I could run more than one of that service and be totally idempotent, and thus quite resistant to the loss of any one node of that service.  Tell me again why I am using MQTT?</p>
+<p>I started paying attention to what I was getting fed.  A lot of what I wanted to read was NOT showing up.  I could go to someones timeline and see it - but their posts would not show up in my feed.  Twitter&rsquo;s algorithm, you see.  Showing me what they want me to see.  Not necesarily what I want to see - but what their system wants me to see to shape me, to get me to see their ads, to manipulate me into spending more time on twitter.  It works amazingy well.  But I can totally see that I&rsquo;m being manipulated.  And frankly, I don&rsquo;t like it.</p>
 
-<p>Yes, of course there are lots of use cases where MQTT is great.  I&rsquo;m not sure that mine is one of them.  So life is going to keep me from doing much on the personal hobby front this week, but my brain is sure active on it.  I suspect I can design a very small service that just polls a given device every X seconds and if it&rsquo;s not in the desired state it executes a command to put it in that state.  I could get that desired state from a distriibuted store so that I don&rsquo;t have to worry about configuring every controller.  Then I can run a few of those and they will be very lightweight, and since they are simple they probably won&rsquo;t fail much anyway.</p>
+<p>I also am not buying the claim that &ldquo;it&rsquo;s a bug&rdquo; that makes one&rsquo;s timeline jump backwards so annoyingly.  I hate it.  But it could be fixed by now.  I suspect it&rsquo;s just part of their system, inserting stuff they want me to read.  Now that I am annoyed by it I think the worst.</p>
 
-<p>And my damn bug zappers will turn on and off when they are supposed to.</p>
+<p>So I&rsquo;m taking a break.  I won&rsquo;t delete it yet - there&rsquo;s a few folks that I DM with who I have not shifted to email yet.  But I think I may be done with the Mega-corp controlled social media bandwagon.  I have a backlog of reading to do, and I want to sharpen my go skills again.  The twitter black hole eats a lot of minutes I could be doing something far more productive.</p>
 
-<p>See?  The power of technology.</p>
+<p>I&rsquo;ll miss some folks - especially a few hardware hackers that I won&rsquo;t have a way to follow otherwise.  I guess I need to just make a list of blogs to follow.  But I bet I&rsquo;ll be happier.  I&rsquo;ll tell you in a few months!</p>
+
+<p>See ya Twitter!  Ya fail whale.  Ha.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fmqtt%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fgoodbye-twitter%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fmqtt%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fgoodbye-twitter%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fmqtt%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgoodbye-twitter%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fmqtt%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fgoodbye-twitter%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fmqtt%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgoodbye-twitter%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fmqtt%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgoodbye-twitter%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
 	</li>
 </ul>
 
@@ -315,13 +311,13 @@
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://blog.herlein.com/post/summer/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://blog.herlein.com/post/mqtt/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://blog.herlein.com/post/summer/">Summer</a>
+      <a href="https://blog.herlein.com/post/mqtt/">Thoughts on MQTT</a>
     </nav>
     
   </div>
@@ -330,14 +326,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://blog.herlein.com/post/goodbye-twitter/">Goodbye Twitter</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://blog.herlein.com/post/goodbye-twitter/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>
