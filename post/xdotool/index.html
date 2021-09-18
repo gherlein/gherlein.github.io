@@ -260,16 +260,16 @@
 <p>Contrary to the <a href="https://wiki.videolan.org/VLC_command-line_help/">VLC man page</a> the CLI commands to position the window don&rsquo;t work (&ndash;video-x and &ndash;video-y).  I got tired of manually positioning the windows and finally solved it: with xdotool!</p>
 
 <p>Here&rsquo;s the trick:</p>
-<pre><code>cvlc --loop rtsp://url.to.my.cam.on.back.stairs
-sleep 1
-xdotool search --sync --onlyvisible --name vlc set_window --name &#34;stairs&#34;
-win=$(xdotool search stairs)
-xdotool windowmove $win 640 719</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cvlc --loop rtsp://url.to.my.cam.on.back.stairs
+sleep <span style="color:#ae81ff">1</span>
+xdotool search --sync --onlyvisible --name vlc set_window --name <span style="color:#e6db74">&#34;stairs&#34;</span>
+win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search stairs<span style="color:#66d9ef">)</span>
+xdotool windowmove $win <span style="color:#ae81ff">640</span> <span style="color:#ae81ff">719</span></code></pre></div>
 <p>I repeated that for each camera, setting the screen positions I wanted.  I have more than will fit on the screen easily and the last two windows overlap the middle ones a bit.  But to &ldquo;raise focus&rdquo; of the windows that matter to me more I just did this:</p>
-<pre><code>win=$(xdotool search gate)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search gate<span style="color:#66d9ef">)</span>
 xdotool windowactivate $win
-win=$(xdotool search inside)
-xdotool windowactivate $win</code></pre>
+win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search inside<span style="color:#66d9ef">)</span>
+xdotool windowactivate $win</code></pre></div>
 <p>Those windows are now on top.</p>
 
 <p>I always knew there was a way to do this in X11 but I never dug into it before today.  The xdotool is a full-on automation tool, able to send mouse and key events, watch for window events and take actions, etc.  It&rsquo;s the low-level primitive for creating any X11 window manager automation that you need.  Very slick.</p>
