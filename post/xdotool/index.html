@@ -254,7 +254,7 @@
   <p>X11&rsquo;s xdotool cli is snazzy, and solved an annoying window placement problem.</p>
 
 <p>I have a set of Ubiquity Cameras that I use for basic video surveilance.  I run a set of tiled windows on an older linux notebook on a corner of my desk so I can see what&rsquo;s happening.  VLC is great for this, and you can even tell it to restart a window if the stream fails, like this:</p>
-<pre><code>cvlc --loop rtsp://your.url.here &amp;</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cvlc --loop rtsp://your.url.here &amp;</code></pre></div>
 <p>The &ndash;loop is a neat trick.  I have a bash script that starts an instance for each camera.  There&rsquo;s supposedly a way to do many video panes in one VLC window but I&rsquo;ve not researched that.</p>
 
 <p>Contrary to the <a href="https://wiki.videolan.org/VLC_command-line_help/">VLC man page</a> the CLI commands to position the window don&rsquo;t work (&ndash;video-x and &ndash;video-y).  I got tired of manually positioning the windows and finally solved it: with xdotool!</p>
