@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 18 Sep 2021 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VLC Error</title>
+      <link>https://blog.herlein.com/post/vlc/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/vlc/</guid>
+      <description>&lt;p&gt;A bug in VLC?  Grrrr.  Reminds me of the old days.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Power of xdotool in X11</title>

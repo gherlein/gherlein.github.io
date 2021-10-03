@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 18 Sep 2021 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>linux</title>
       <link>https://blog.herlein.com/tags/linux/</link>
-      <pubDate>Sat, 18 Sep 2021 00:00:01 -0800</pubDate>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/linux/</guid>
       <description></description>
@@ -24,9 +24,18 @@
     <item>
       <title>technical</title>
       <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sat, 18 Sep 2021 00:00:01 -0800</pubDate>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vlc</title>
+      <link>https://blog.herlein.com/tags/vlc/</link>
+      <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/vlc/</guid>
       <description></description>
     </item>
     
