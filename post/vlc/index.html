@@ -254,72 +254,72 @@
   <p>A bug in VLC?  Grrrr.  Reminds me of the old days.</p>
 
 <p>I&rsquo;m playing with my video cameras this morning and moved some displays to a new computer with a fresh install of Ubuntu.  And VLC is broken.  It just won&rsquo;t play the stream on the new machine.  Works like a champ on the older one.  Someone else had this problem, it seems, so I added to the <a href="https://github.com/aler9/rtsp-simple-server/issues/223">github issue</a>.  I have a sneaky suspicion this is a regression.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">main debug: processing request item: rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb, node: Playlist, skip: <span style="color:#ae81ff">0</span>
+<pre><code>main debug: processing request item: rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb, node: Playlist, skip: 0
 main debug: rebuilding array of current - root Playlist
-main debug: rebuild <span style="color:#66d9ef">done</span> - <span style="color:#ae81ff">2</span> items, index <span style="color:#ae81ff">1</span>
+main debug: rebuild done - 2 items, index 1
 main debug: starting playback of new item
 main debug: resyncing on rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb
-main debug: rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb is at <span style="color:#ae81ff">1</span>
+main debug: rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb is at 1
 main debug: creating new input thread
-main debug: Creating an input <span style="color:#66d9ef">for</span> <span style="color:#e6db74">&#39;rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39;</span>
-main debug: requesting art <span style="color:#66d9ef">for</span> new input thread
-main debug: using timeshift granularity of <span style="color:#ae81ff">50</span> MiB
+main debug: Creating an input for &#39;rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39;
+main debug: requesting art for new input thread
+main debug: using timeshift granularity of 50 MiB
 main debug: using default timeshift path
-main debug: <span style="color:#e6db74">`</span>rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb<span style="color:#e6db74">&#39; gives access `rtsp&#39;</span> demux <span style="color:#e6db74">`</span>any<span style="color:#e6db74">&#39; path `192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39;</span>
-main debug: creating demux: access<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;rtsp&#39;</span> demux<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;any&#39;</span> location<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39;</span> file<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;(null)&#39;</span>
-main debug: looking <span style="color:#66d9ef">for</span> access_demux module matching <span style="color:#e6db74">&#34;rtsp&#34;</span>: <span style="color:#ae81ff">18</span> candidates
+main debug: `rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39; gives access `rtsp&#39; demux `any&#39; path `192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39;
+main debug: creating demux: access=&#39;rtsp&#39; demux=&#39;any&#39; location=&#39;192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39; file=&#39;(null)&#39;
+main debug: looking for access_demux module matching &#34;rtsp&#34;: 18 candidates
 main debug: no access_demux modules matched
 main debug: creating access: rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb
-main debug: looking <span style="color:#66d9ef">for</span> access module matching <span style="color:#e6db74">&#34;rtsp&#34;</span>: <span style="color:#ae81ff">29</span> candidates
-satip debug: try to open <span style="color:#e6db74">&#39;rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39;</span>
-satip debug: connect to host <span style="color:#e6db74">&#39;192.168.2.1&#39;</span>
-main debug: net: connecting to 192.168.2.1 port <span style="color:#ae81ff">7447</span>
-main debug: looking <span style="color:#66d9ef">for</span> meta fetcher module matching <span style="color:#e6db74">&#34;any&#34;</span>: <span style="color:#ae81ff">1</span> candidates
+main debug: looking for access module matching &#34;rtsp&#34;: 29 candidates
+satip debug: try to open &#39;rtsp://192.168.2.1:7447/GNiEJN5KI4DKRGJb&#39;
+satip debug: connect to host &#39;192.168.2.1&#39;
+main debug: net: connecting to 192.168.2.1 port 7447
+main debug: looking for meta fetcher module matching &#34;any&#34;: 1 candidates
 lua debug: Trying Lua scripts in /home/gherlein/.local/share/vlc/lua/meta/fetcher
 lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/fetcher
 lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/fetcher
 main debug: no meta fetcher modules matched
-main debug: looking <span style="color:#66d9ef">for</span> art finder module matching <span style="color:#e6db74">&#34;any&#34;</span>: <span style="color:#ae81ff">2</span> candidates
+main debug: looking for art finder module matching &#34;any&#34;: 2 candidates
 lua debug: Trying Lua scripts in /home/gherlein/.local/share/vlc/lua/meta/art
 lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art
 lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
-lua debug: skipping script <span style="color:#f92672">(</span>unmatched scope<span style="color:#f92672">)</span> /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
-main debug: connection succeeded <span style="color:#f92672">(</span>socket <span style="color:#f92672">=</span> 39<span style="color:#f92672">)</span>
-main debug: net: opening 0.0.0.0 datagram port <span style="color:#ae81ff">9150</span>
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
+main debug: connection succeeded (socket = 39)
+main debug: net: opening 0.0.0.0 datagram port 9150
 lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
-main debug: net: opening 0.0.0.0 datagram port <span style="color:#ae81ff">9151</span>
-lua debug: skipping script <span style="color:#f92672">(</span>unmatched scope<span style="color:#f92672">)</span> /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
+main debug: net: opening 0.0.0.0 datagram port 9151
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
 lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
-lua debug: skipping script <span style="color:#f92672">(</span>unmatched scope<span style="color:#f92672">)</span> /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
 satip error: read error: Operation now in progress
 satip error: Failed to setup RTSP session
 lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
-main debug: net: connecting to 192.168.2.1 port <span style="color:#ae81ff">7447</span>
-lua debug: skipping script <span style="color:#f92672">(</span>unmatched scope<span style="color:#f92672">)</span> /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
+main debug: net: connecting to 192.168.2.1 port 7447
+lua debug: skipping script (unmatched scope) /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
 lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/art
 main debug: no art finder modules matched
-main debug: connection succeeded <span style="color:#f92672">(</span>socket <span style="color:#f92672">=</span> 39<span style="color:#f92672">)</span>
-main debug: looking <span style="color:#66d9ef">for</span> meta fetcher module matching <span style="color:#e6db74">&#34;any&#34;</span>: <span style="color:#ae81ff">1</span> candidates
+main debug: connection succeeded (socket = 39)
+main debug: looking for meta fetcher module matching &#34;any&#34;: 1 candidates
 lua debug: Trying Lua scripts in /home/gherlein/.local/share/vlc/lua/meta/fetcher
 lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/fetcher
 lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/fetcher
 main debug: no meta fetcher modules matched
-main debug: looking <span style="color:#66d9ef">for</span> art finder module matching <span style="color:#e6db74">&#34;any&#34;</span>: <span style="color:#ae81ff">2</span> candidates
+main debug: looking for art finder module matching &#34;any&#34;: 2 candidates
 lua debug: Trying Lua scripts in /home/gherlein/.local/share/vlc/lua/meta/art
 lua debug: Trying Lua scripts in /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art
 lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/00_musicbrainz.luac
 lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/01_googleimage.luac
-access_realrtsp warning: Cseq mismatch, got 1, assumed <span style="color:#ae81ff">0</span>
+access_realrtsp warning: Cseq mismatch, got 1, assumed 0
 access_realrtsp debug: rtsp connected
-access_realrtsp warning: only real/helix rtsp servers supported <span style="color:#66d9ef">for</span> now
+access_realrtsp warning: only real/helix rtsp servers supported for now
 main debug: no access modules matched
 main debug: dead input
 lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/02_frenchtv.luac
 lua debug: Trying Lua playlist script /usr/lib/x86_64-linux-gnu/vlc/lua/meta/art/03_lastfm.luac
 lua debug: Trying Lua scripts in /usr/share/vlc/lua/meta/art
 main debug: no art finder modules matched
-main debug: changing item without a request <span style="color:#f92672">(</span>current 1/2<span style="color:#f92672">)</span>
-main debug: nothing to play</code></pre></div>
+main debug: changing item without a request (current 1/2)
+main debug: nothing to play</code></pre>
 <p>Broken:
 gherlein@alien:~$ cvlc &ndash;version
 VLC media player 3.0.12 Vetinari (revision 3.0.12-1-0-gd147bb5e7e)</p>
