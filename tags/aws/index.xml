@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Back to the (Phone) Future!  Changing roles!</title>
+      <link>https://blog.herlein.com/post/webrtc-phone/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/webrtc-phone/</guid>
+      <description>&lt;p&gt;The only constant is change!  And&amp;hellip; sometimes things come full circle.  I&amp;rsquo;m changing roles at AWS.  Back to the Future!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Progress on ESP32 and FreeRTOS</title>

@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2021-10-03T00:00:00-07:00</lastmod>
+    <loc>https://blog.herlein.com/tags/aws/</loc>
+    <lastmod>2021-10-05T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2021-10-03T00:00:00-07:00</lastmod>
+    <loc>https://blog.herlein.com/post/webrtc-phone/</loc>
+    <lastmod>2021-10-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2021-10-05T00:00:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2021-10-03T00:00:00-07:00</lastmod>
+    <lastmod>2021-10-05T00:00:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2021-10-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/webrtc/</loc>
+    <lastmod>2021-10-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
     <lastmod>2021-10-03T00:00:00-07:00</lastmod>
   </url>
   
@@ -95,11 +110,6 @@
   <url>
     <loc>https://blog.herlein.com/post/tasmota/</loc>
     <lastmod>2021-04-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/aws/</loc>
-    <lastmod>2021-04-04T00:00:01-08:00</lastmod>
   </url>
   
   <url>

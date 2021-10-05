@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AWS</title>
+      <link>https://blog.herlein.com/tags/aws/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WebRTC</title>
+      <link>https://blog.herlein.com/tags/webrtc/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/webrtc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>linux</title>
@@ -99,15 +117,6 @@
       <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/esp8266/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AWS</title>
-      <link>https://blog.herlein.com/tags/aws/</link>
-      <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/aws/</guid>
       <description></description>
     </item>
     
