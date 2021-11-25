@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beaglebone Black - Getting Started</title>
+      <link>https://blog.herlein.com/post/beaglebone-getting-started/</link>
+      <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/beaglebone-getting-started/</guid>
+      <description>&lt;p&gt;Getting Started with the Beaglebone Black (Again)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Back to the (Phone) Future!  Changing roles!</title>
