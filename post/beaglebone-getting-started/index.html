@@ -271,14 +271,19 @@ later.</p>
 next week when my first official AWS blog posts.  So all my side projects went on hold for a bit.  Besides, turns out I don&rsquo;t get good enough WiFi signal in the pool casita anyway, so I had to wait until phase
 two of our remodel when the conduit gets pulled so that I have real networking there (and yes, I&rsquo;ll add another Ubiquity AP too).  In the next month I&rsquo;ll have all that sorted.</p>
 
-<p>So, in the meantime I updated my board with the latest Debian.  It is nice that the board has an onboard 4GB MMC so that you don&rsquo;t have to use an SD card.</p>
-
-<p>Since my day job has me neck deep in typescript anyway, I thought I&rsquo;d look into <a href="https://cylonjs.com/">CylonJS</a> and <a href="https://morphocode.com/starting-with-johnny-five-on-the-beaglebone/">JohnnyFive</a>. I wired up my
-trusty DS18b20 and started playing.</p>
+<p>So, in the meantime I updated my board with the latest Debian.  It is nice that the board has an onboard 4GB MMC so that you don&rsquo;t have to use an SD card.<br />
+I then wired up my trusty DS18b20 and started playing.</p>
 
 <p><img src="https://blog.herlein.com/images/bb.jpeg" width="100%" /></p>
 
-<p>I followed <a href="https://elinux.org/EBC_Exercise_31_Dallas_1-Wire">these instructions</a> and I can definitely read the temperatire.  Progress!</p>
+<p>I followed <a href="https://elinux.org/EBC_Exercise_31_Dallas_1-Wire">these instructions</a> and I can definitely read the temperature.  Progress!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/sys/class/hwmon/hwmon0&gt; cat temp1_input
+<span style="color:#ae81ff">23062</span></code></pre></div>
+<p>Divide 23062 by 1000 to get the reading in C.</p>
+
+<h2 id="frameworks">Frameworks?</h2>
+
+<p>Since my day job has me neck deep in typescript anyway, I thought I&rsquo;d look into <a href="https://cylonjs.com/">CylonJS</a> and <a href="https://morphocode.com/starting-with-johnny-five-on-the-beaglebone/">JohnnyFive</a>.</p>
 
 <h2 id="ooops-cylonjs-does-not-support-the-ds18b20">Ooops, CylonJS does not support the DS18b20</h2>
 
