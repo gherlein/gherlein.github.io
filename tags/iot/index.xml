@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Local Data Collection and Command Distribution</title>
+      <link>https://blog.herlein.com/post/local-data-collection/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/local-data-collection/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m revisiting why I don&amp;rsquo;t like MQTT, and what I am doing about it.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Beaglebone Black - Getting Started</title>

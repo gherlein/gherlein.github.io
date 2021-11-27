@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.herlein.com/post/beaglebone-getting-started/</loc>
-    <lastmod>2021-11-25T00:00:00-07:00</lastmod>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/</loc>
+    <loc>https://blog.herlein.com/tags/iot/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/local-data-collection/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/networking/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/udp/</loc>
+    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/beaglebone-getting-started/</loc>
     <lastmod>2021-11-25T00:00:00-07:00</lastmod>
   </url>
   
@@ -19,31 +59,6 @@
   
   <url>
     <loc>https://blog.herlein.com/tags/i2c/</loc>
-    <lastmod>2021-11-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/iot/</loc>
-    <lastmod>2021-11-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2021-11-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2021-11-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2021-11-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2021-11-25T00:00:00-07:00</lastmod>
   </url>
   
@@ -495,11 +510,6 @@
   <url>
     <loc>https://blog.herlein.com/tags/rdp/</loc>
     <lastmod>2020-04-21T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/networking/</loc>
-    <lastmod>2020-04-12T06:40:43-08:00</lastmod>
   </url>
   
   <url>

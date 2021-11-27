@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>iot</title>
+      <link>https://blog.herlein.com/tags/iot/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/iot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.herlein.com/tags/linux/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>https://blog.herlein.com/tags/networking/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UDP</title>
+      <link>https://blog.herlein.com/tags/udp/</link>
+      <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/udp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hardware</title>
@@ -27,33 +72,6 @@
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/i2c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>https://blog.herlein.com/tags/iot/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.herlein.com/tags/linux/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -549,15 +567,6 @@
       <pubDate>Tue, 21 Apr 2020 03:10:43 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/rdp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>networking</title>
-      <link>https://blog.herlein.com/tags/networking/</link>
-      <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/networking/</guid>
       <description></description>
     </item>
     
