@@ -267,7 +267,7 @@ PoE switches.  My network is redundant.  The host running my MQTT broker is my w
 
 <p><img src="https://blog.herlein.com/images/spof.jpeg" width="100%" /></p>
 
-<p>Supposedly there is a commercial broker that has a failover option.  So what.  I&rsquo;m not paying for this, at least for proprietary software.  Besides, I am increasingly
+<p>Supposedly there is a commercial broker that has a failover option.  So what.  I&rsquo;m not paying for for proprietary software to solve this.  Besides, I am increasingly
 convinced that MQTT is simply not the answer.  What does it give us?  Decoupling, and one to many.  The sender can post a message and then (if retain messages is configured)
 you can have many readers get that message.  For sensor data readers may take immediate action or shuttle that data off to an indexed data store.  For command messages
 the device reads the command and acts.  The sender and readers are not directly coupled (e.g. HTTP interaction).</p>
