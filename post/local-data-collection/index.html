@@ -290,6 +290,11 @@ basically nothing.  On my network I have a VLAN set up just for my IoT devices, 
 using actual Linux boards <a href="https://blog.herlein.com/post/beaglebone-getting-started/">(like the Beaglebone that I wrote about recently)</a>.  But I also am super fond of <a href="https://blog.herlein.com/post/tasmota/">Tasmota</a>.<br />
 It&rsquo;s written in the Arduino framework but it&rsquo;s all super-lightweight.  I bet that I can wedge UDP support even into that code base.  UDP requires almost no code and it&rsquo;s easy.</p>
 
+<h2 id="risk-data-loss">Risk:  Data Loss</h2>
+
+<p>Some UDP packets may get lost.  Not likely on my pretty good network, but yes.  They might.  Even if I had 3% packet loss though I&rsquo;m not worried.  If I am sending a packet per second and lose 2 seconds worth of data
+it&rsquo;s not going to change anything.  And as I mention below, if I lose a command packet then it won&rsquo;t matter either because the declarative control system will fix it.  That&rsquo;s what it&rsquo;s designed to do.</p>
+
 <h2 id="prove-it-udp-code-is-easy">Prove It:  UDP Code is Easy</h2>
 
 <p>I pulled together a simple C file yesterday while watching TV.  63 lines of code to build a simple CLI program to send a broadcast packet.  Read the code <a href="https://github.com/gherlein/sendudp">here</a>.</p>
