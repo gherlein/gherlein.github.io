@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ML/AI on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/ml/ai/</link>
+    <description>Recent content in ML/AI on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
+    
+	<atom:link href="https://blog.herlein.com/tags/ml/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Amazon Blog... ML/AI Chatbot over the Phone!</title>
+      <link>https://blog.herlein.com/post/amazon-blog/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/amazon-blog/</guid>
+      <description>&lt;p&gt;A month ago I told you I &lt;a href=&#34;https://blog.herlein.com/post/webrtc-phone/&#34;&gt;changed roles&lt;/a&gt; at AWS.  Now I can show you what I&amp;rsquo;ve done since then!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

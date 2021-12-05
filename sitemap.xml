@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.herlein.com/tags/amazon-lex/</loc>
+    <lastmod>2021-12-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/amazon-polly/</loc>
+    <lastmod>2021-12-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/aws/</loc>
     <lastmod>2021-12-05T00:00:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2021-12-05T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/ml/</loc>
     <lastmod>2021-12-05T00:00:00-07:00</lastmod>
   </url>
   
@@ -593,11 +608,6 @@
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/tags/ml/</loc>
-    <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/tags/robotics/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
   </url>
@@ -750,6 +760,10 @@
   <url>
     <loc>https://blog.herlein.com/resume/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/ml/ai/</loc>
   </url>
   
   <url>

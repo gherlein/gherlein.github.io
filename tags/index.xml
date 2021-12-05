@@ -13,11 +13,38 @@
     
     
     <item>
+      <title>Amazon Lex</title>
+      <link>https://blog.herlein.com/tags/amazon-lex/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/amazon-lex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amazon Polly</title>
+      <link>https://blog.herlein.com/tags/amazon-polly/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/amazon-polly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>AWS</title>
       <link>https://blog.herlein.com/tags/aws/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>https://blog.herlein.com/tags/ml/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/ml/</guid>
       <description></description>
     </item>
     
@@ -634,15 +661,6 @@
     </item>
     
     <item>
-      <title>ML</title>
-      <link>https://blog.herlein.com/tags/ml/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>robotics</title>
       <link>https://blog.herlein.com/tags/robotics/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
@@ -756,6 +774,15 @@
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/data-centers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML/AI</title>
+      <link>https://blog.herlein.com/tags/ml/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/ml/ai/</guid>
       <description></description>
     </item>
     
