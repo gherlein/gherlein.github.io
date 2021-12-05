@@ -311,14 +311,14 @@ caller-id and knows if you have called before.  It stores your number in DynamoD
 
 <p>Seriously.  Don&rsquo;t wait.  Call it up.  I&rsquo;ll leave that deployed until folks stop calling it.  Maybe I&rsquo;ll leave it up forever.  After all it&rsquo;s cloud cheap!  The <a href="https://aws.amazon.com/chime/chime-sdk/pricing/">pricing</a> is currently $1/month for the phone number and $0.002 per minute for the call, plus a tiny cost for the lambda function and DynamoDB consumption.  You could build a pretty powerful application for tens of dollars a year.  Cloud economics at work!</p>
 
-<h2 id="yes-but-how-did-you-really-do-this">Yes, But How Did You Really Do This?</h2>
+<h2 id="yes-but-how-would-i-really-do-this">Yes, But How Would I Really Do This?</h2>
 
-<p>It&rsquo;s simple.  I replicated the <a href="https://github.com/aws-samples/amazon-chime-sdk-pstn-cdk">template repo</a> into my AWS account.  You can see the new Github repo <a href="https://github.com/gherlein/simpleTest">here</a>.  I also cloned the CRP as described in the README, went into the template folder and typled &ldquo;make deploy.&rdquo;  Here is the sum total of what I did after I clicked &ldquo;Use this Template&rdquo; in github into my own &ldquo;simpleTest&rdquo; repo:</p>
+<p>It&rsquo;s simple.  Just replicate the <a href="https://github.com/aws-samples/amazon-chime-sdk-pstn-cdk">template repo</a> into your AWS account.  You can see the new Github repo <a href="https://github.com/gherlein/simpleTest">here</a>.  Clone the CRP as described in the README.  Make sure you have a dependencies intalled like the README describes and then go into the template folder and typled &ldquo;make deploy.&rdquo;  Here is the sum total of what I did after I clicked &ldquo;Use this Template&rdquo; in github into my own &ldquo;simpleTest&rdquo; repo:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone git@github.com:aws-samples/amazon-chime-sdk-pstn-provider.git
 git clone git@github.com:gherlein/simpleTest.git
 cd simpleTest
 make deploy</code></pre></div>
-<p>It took a few minutes to deploy and I called the phone number it spit out in the output.  It&rsquo;s that easy to deploy.  How&rsquo;s that for deployment automation?</p>
+<p>It took a few minutes to deploy and I called the phone number it spit out in the output.  It&rsquo;s that easy to deploy.  <strong>How&rsquo;s that for deployment automation?</strong></p>
 
 <h2 id="easter-egg-bug-reward">Easter Egg Bug Reward</h2>
 
