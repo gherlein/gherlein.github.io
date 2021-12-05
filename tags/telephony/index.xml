@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>telephony on Greg Herlein</title>
+    <title>Telephony on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/telephony/</link>
-    <description>Recent content in telephony on Greg Herlein</description>
+    <description>Recent content in Telephony on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Jun 2020 03:10:43 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/telephony/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My First Amazon Blog... or, What Have I Been Doing Lately?</title>
+      <link>https://blog.herlein.com/post/amazon-blog/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/amazon-blog/</guid>
+      <description>&lt;p&gt;A month ago I told you I &lt;a href=&#34;https://blog.herlein.com/post/webrtc-phone/&#34;&gt;changed roles&lt;/a&gt;.  Now I can show you what I&amp;rsquo;ve done since then!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Blast from the past - Linux Telephony API</title>

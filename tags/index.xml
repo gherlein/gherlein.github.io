@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AWS</title>
+      <link>https://blog.herlein.com/tags/aws/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telephony</title>
+      <link>https://blog.herlein.com/tags/telephony/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/telephony/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>iot</title>
@@ -72,15 +90,6 @@
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/i2c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AWS</title>
-      <link>https://blog.herlein.com/tags/aws/</link>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/aws/</guid>
       <description></description>
     </item>
     
@@ -486,15 +495,6 @@
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/kernel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>telephony</title>
-      <link>https://blog.herlein.com/tags/telephony/</link>
-      <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/telephony/</guid>
       <description></description>
     </item>
     
