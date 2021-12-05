@@ -273,7 +273,7 @@ I am really proud of this blog, and even more proud of the <a href="https://gith
 <p>If you know me at all then you know I&rsquo;m all about automation.  &ldquo;Start with Deployment Automation and the software design falls out.&rdquo;  Apparently I said that years ago and someone repeated it back to me recently.  That is indeed my philosophy.  So it won&rsquo;t surprise
 you that&rsquo;s where I started with the Chime SDK.  I&rsquo;d been wanting to really dig into the <a href="https://aws.amazon.com/cdk/">AWS Cloud Development Kit (CDK)</a> anyway and so I did.  But that&rsquo;s where I ran into my first block.</p>
 
-<p>The Amazon Chime SDK is new enough that native Cloud Formation support is not done yet.  So I did what any self-respecing geek with an automation bent would do:  I created a <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cfn-customresource.html">CloudFormation Custom Resource Provider</a> - called a Custom Resource Provider (CRP) - for the resources needed for the demo.  In native typescript.  And open sourced it.  You can find it <a href="https://github.com/aws-samples/amazon-chime-sdk-pstn-provider">here</a>.</p>
+<p>The Amazon Chime SDK is new enough that native Cloud Formation support is not done yet.  So I did what any self-respecting geek with an automation bent would do:  I created a <a href="https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cfn-customresource.html">CloudFormation Custom Resource Provider</a> - called a Custom Resource Provider (CRP) - for the resources needed for the demo.  In native typescript.  And open sourced it.  You can find it <a href="https://github.com/aws-samples/amazon-chime-sdk-pstn-provider">here</a>.</p>
 
 <p><img src="https://blog.herlein.com/images/baby.jpeg" width="60%"/></p>
 
@@ -303,7 +303,7 @@ caller-id and knows if you have called before.  It stores your number in DynamoD
 
 <p>That&rsquo;s right!  Call the US number:</p>
 
-<p>** +1-505-273-6307**</p>
+<p><strong>+1-505-273-6307</strong></p>
 
 <p>Right now.  DISCLAIMER:  it&rsquo;s up to you to understand if that will cost you money.  Many plans in the US have no charge for long-distance calls, but if this costs you money it&rsquo;s on you.  The number was allocated from New Mexico USA, so it may well be long-distance for you.  Please be wise.</p>
 
@@ -320,7 +320,7 @@ cd simpleTest
 make deploy</code></pre></div>
 <p>It took a few minutes to deploy and I called the phone number it spit out in the output.  It&rsquo;s that easy to deploy.  How&rsquo;s that for deployment automation?</p>
 
-<h2 id="easter-egg-bug">Easter Egg Bug</h2>
+<h2 id="easter-egg-bug-reward">Easter Egg Bug Reward</h2>
 
 <p>I left something &ldquo;wrong&rdquo; in the implementation.  Something simple, but obvious.</p>
 
