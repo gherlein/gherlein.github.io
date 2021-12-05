@@ -256,8 +256,7 @@
 <p>My <a href="https://aws.amazon.com/blogs/business-productivity/building-a-pstn-call-answering-system-with-the-amazon-chime-sdk-amazon-lex-and-amazon-polly/">first official AWS blog posted last Monday</a>, in sync with re:Invent.  Yes, I was there - more on that later.<br />
 I am really proud of this blog, and even more proud of the <a href="https://github.com/aws-samples/amazon-chime-sdk-lex-pstn-demo">code we open sourced that goes with it.</a>.</p>
 
-<p>What is it?  Machine Learning, baby!  Well, kinda.  The result of machine learning.  <a href="https://aws.amazon.com/lex/">Amazon Lex</a> lets you build chatbots with conversational AI.  My code lets you do that conversation over the phone!  Go check out my blog post for more
-information.  Please!  And tell your friends!</p>
+<p>What is it?  Machine Learning, baby!  Well, kinda.  The result of machine learning.  <a href="https://aws.amazon.com/lex/">Amazon Lex</a> lets you build chatbots with conversational AI.  My code lets you do that conversation over the phone!  Go check out my <a href="https://aws.amazon.com/blogs/business-productivity/building-a-pstn-call-answering-system-with-the-amazon-chime-sdk-amazon-lex-and-amazon-polly/">blog post</a> for more information.  Please!  And tell your friends!</p>
 
 <h2 id="but-wait-there-s-more">But Wait, There&rsquo;s More</h2>
 
@@ -272,9 +271,12 @@ you that&rsquo;s where I started with the Chime SDK.  I&rsquo;d been wanting to 
 
 <p>It&rsquo;s early days.  The tool only creates one phone number, one SIP rule, and one SIP Media Appliance (SMA) today.  It&rsquo;s perfect for a demo.  It lets you create the resources you need and more importantly when you are done it lets you delete them with a simple &ldquo;cdk destroy&rdquo; command.  This is the power of the cloud folks:  ephemeral resources.</p>
 
-<p>Hold right there and think about that again.  Use this code and you create a phone number.  A real number you can dial with your phone and interact with.  And when you are done you type a command it all vanishes.  And you paid for only what you used, while you used it.</p>
+<p>Hold right there and think about that again.  Use this code and you create a phone number.  A real number you can dial with your phone and interact with.  And when you are done you type a command it all vanishes.  And you paid for only what you used, while you used it.
+That&rsquo;s the essence of what I call &ldquo;Cloud 1.0&rdquo; thinking.  <a href="https://blog.herlein.com/post/cloud-basics/">Disposability</a> is key to even starting to get the benefits of the Cloud.  And we&rsquo;ve now brought this to telephony!</p>
 
-<p>Now, for real production systems you don&rsquo;t want your phone number to vanish back into a pool.  You want to keep it.  The provider code will have to evolve to support <a href="https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-cloudformation.NestedStack.html">nested stacks</a> or more.  Folks will need the ability to create and update a whole telephony stack and just &ldquo;release&rdquo; the phone numbers from connection to code and keep them allocated.  This logic will all need to be added to the CRP code.</p>
+<p><img src="https://blog.herlein.com/images/cloud-images/disposal-automation.png" width="60%"/></p>
+
+<p>For real production systems you don&rsquo;t want your phone number to vanish back into a pool.  You want to keep it.  The provider code will have to evolve to support <a href="https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-cloudformation.NestedStack.html">nested stacks</a> or more.  Folks will need the ability to create and update a whole telephony stack and just &ldquo;release&rdquo; the phone numbers from connection to code and keep them allocated.  This logic will all need to be added to the CRP code.</p>
 
 <p>And that is where you can come in.  This code is open source, licensed under the business-friendly MIT-0 license.  Pull Requests welcome!  Come play with me!</p>
 
@@ -283,17 +285,19 @@ you that&rsquo;s where I started with the Chime SDK.  I&rsquo;d been wanting to 
 <p>If you know me at all, you also know that&rsquo;s what I knew you would ask.  Building a cool demo that talks to you and building a cool CRP to help you automate deployment were necessary, but not sufficient.  Not for me, and it should not be for you either.  So I built a template starting point that uses the CRP and does the most basic telephony thing possible:  answer the phone and tell you the time.  Old farts like me will remember that this was always the phone number &ldquo;555-1212.&rdquo;  My example goes a little farther and reads your
 caller-id and knows if you have called before.  It stores your number in DynamoDB.  If you are a new caller, it speaks your number back to you.</p>
 
-<p>This is all open sourced.  You can clone the repos, set up your AWS account and try it all yourself.</p>
-
-<p><img src="https://blog.herlein.com/images/impatient.png" width="60%"/></p>
+<p>This is all open sourced.  You can clone the repos, set up your AWS account and try it all yourself.  And better yet, you can start from there and derive like crazy to make your OWN telephony application.  And if you do, drop me a note so I can help you share it around!</p>
 
 <h2 id="if-you-are-even-more-impatient-call-it-now">If You Are Even More Impatient:  Call it NOW</h2>
 
 <p>That&rsquo;s right!  Call the US number +15052736307 right now.  DISCLAIMER:  it&rsquo;s up to you to understand if that will cost you money.  Many plans in the US have no charge for long-distance calls, but if this costs you money it&rsquo;s on you.  The number was allocated from New Mexico USA, so it may well be long-distance for you.  Please be wise.</p>
 
-<h2 id="how-did-you-do-this">How Did You Do This?</h2>
+<p><img src="https://blog.herlein.com/images/impatient.png" width="60%"/></p>
 
-<p>It&rsquo;s simple.  I replicated the <a href="https://github.com/aws-samples/amazon-chime-sdk-pstn-cdk">template repo</a> into my own account.  You can see the new repo <a href="https://github.com/gherlein/simpleTest">here</a>.  I also cloned the CRP as described in the README, went into the template folder and typled &ldquo;make deploy.&rdquo;  Here is the sum total of what I did after I clicked &ldquo;Use this Template&rdquo; in github into my own &ldquo;simpleTest&rdquo; repo:</p>
+<p>Seriously.  Don&rsquo;t wait.  Call it up.  I&rsquo;ll leave that deployed until folks stop calling it.  Maybe I&rsquo;ll leave it up forever.  After all it&rsquo;s cloud cheap!  The <a href="https://aws.amazon.com/chime/chime-sdk/pricing/">pricing</a> is currently $1/month for the phone number and $0.002 per minute for the call, plus a tiny cost for the lambda function and DynamoDB consumption.  You could build a pretty powerful application for tens of dollars a year.  Cloud economics at work!</p>
+
+<h2 id="yes-but-how-did-you-really-do-this">Yes, But How Did You Really Do This?</h2>
+
+<p>It&rsquo;s simple.  I replicated the <a href="https://github.com/aws-samples/amazon-chime-sdk-pstn-cdk">template repo</a> into my AWS account.  You can see the new Github repo <a href="https://github.com/gherlein/simpleTest">here</a>.  I also cloned the CRP as described in the README, went into the template folder and typled &ldquo;make deploy.&rdquo;  Here is the sum total of what I did after I clicked &ldquo;Use this Template&rdquo; in github into my own &ldquo;simpleTest&rdquo; repo:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone git@github.com:aws-samples/amazon-chime-sdk-pstn-provider.git
 git clone git@github.com:gherlein/simpleTest.git
 make deploy</code></pre></div>
@@ -396,6 +400,9 @@ make deploy</code></pre></div>
 
 
 
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
 
 
 </body>
