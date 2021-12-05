@@ -301,7 +301,7 @@ caller-id and knows if you have called before.  It stores your number in DynamoD
 
 <p>That&rsquo;s right!  Call the US number:</p>
 
-<p>+15052736307</p>
+<p>** +1-505-273-6307**</p>
 
 <p>Right now.  DISCLAIMER:  it&rsquo;s up to you to understand if that will cost you money.  Many plans in the US have no charge for long-distance calls, but if this costs you money it&rsquo;s on you.  The number was allocated from New Mexico USA, so it may well be long-distance for you.  Please be wise.</p>
 
@@ -314,6 +314,7 @@ caller-id and knows if you have called before.  It stores your number in DynamoD
 <p>It&rsquo;s simple.  I replicated the <a href="https://github.com/aws-samples/amazon-chime-sdk-pstn-cdk">template repo</a> into my AWS account.  You can see the new Github repo <a href="https://github.com/gherlein/simpleTest">here</a>.  I also cloned the CRP as described in the README, went into the template folder and typled &ldquo;make deploy.&rdquo;  Here is the sum total of what I did after I clicked &ldquo;Use this Template&rdquo; in github into my own &ldquo;simpleTest&rdquo; repo:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone git@github.com:aws-samples/amazon-chime-sdk-pstn-provider.git
 git clone git@github.com:gherlein/simpleTest.git
+cd simpleTest
 make deploy</code></pre></div>
 <p>It took a few minutes to deploy and I called the phone number it spit out in the output.  It&rsquo;s that easy to deploy.  How&rsquo;s that for deployment automation?</p>
 
