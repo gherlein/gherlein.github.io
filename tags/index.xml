@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 05 Dec 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 07 Dec 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>general</title>
+      <link>https://blog.herlein.com/tags/general/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non-technical</title>
+      <link>https://blog.herlein.com/tags/non-technical/</link>
+      <pubDate>Tue, 07 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/non-technical/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Amazon Lex</title>
@@ -162,15 +180,6 @@
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/mqtt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>general</title>
-      <link>https://blog.herlein.com/tags/general/</link>
-      <pubDate>Tue, 08 Jun 2021 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/general/</guid>
       <description></description>
     </item>
     
@@ -612,15 +621,6 @@
       <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/baking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>non-technical</title>
-      <link>https://blog.herlein.com/tags/non-technical/</link>
-      <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/non-technical/</guid>
       <description></description>
     </item>
     
