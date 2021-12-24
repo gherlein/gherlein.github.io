@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <title>Spiral Again? &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://keybase.io/gherlein" rel="me" target="_blank"><i class="fas fa-key fa-fw"></i>Keybase</a>
+    </li>
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2021. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Spiral Again?</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>24 Dec 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/embedded-linux">embedded linux</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Merry Christmas Eve!  Plaing with the Beaglebone sends me into another thought spiral.</p>
+
+<p>Last weekend my order for a Beaglebone cape proto board and more <a href="https://smile.amazon.com/gp/product/B00M1PM55K/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1">DS18B20 temperature sensors</a> arrived and I
+soldered up connectors on the board.  This is a continuation of my pool sensor work (other posts <a href="https://blog.herlein.com/post/beaglebone-getting-started/">here</a> and <a href="https://blog.herlein.com/post/tasmota/">here</a>).  I had a Beaglebone in my parts
+drawer left over from an old project.  Good thing I didn&rsquo;t need to buy one.  The supply chain fiasco has driven their price WAY up.</p>
+
+<p><img src="https://blog.herlein.com/images/beaglebone.jpg" width="60%"/></p>
+
+<p>The green USB adapter with a read LED is a <a href="https://smile.amazon.com/gp/product/B005CPI0JQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">Gearmo RS-<sup>422</sup>&frasl;<sub>485</sub> Adapter</a> that will let me communicate with
+my pool pump.  Some folks have <a href="https://docs.google.com/document/d/1M0KMfXfvbszKeqzu6MUF_7yM6KDHk8cZ5nrH1_OUcAc/edit">reverse engineered their protocol</a>.  Because the salt air and tropical temperatures play hell with
+electronics I am putting all of it into a <a href="https://smile.amazon.com/gp/product/B01N4FSKZM/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&amp;psc=1">waterproof cabinet</a>.  Early tests with the Netgear GS108E switch, Beaglebone, adapters and all
+don&rsquo;t really produce much heat.  I don&rsquo;t think I will need active cooling.  Remember that part of why I went towards to the Beaglebone was because it has a much higher allowed temperature range than the Raspberry Pi.  And having
+a wired ethernet connection can&rsquo;t be beat to remove one potential failure point (WiFi).</p>
+
+<p>The essential goal of the project is to be able to read the pool temperature and periodically turn on the pumps and open a control valve that lets the hot water from the solar pool heater flush into the
+pool, the close the valve and let the solar heater refill, then turn off the pump.  It&rsquo;s not a diffucult control system.</p>
+
+<h2 id="some-code-worries">Some Code Worries</h2>
+
+<p>Since I&rsquo;m doing a lot of typescript and node development at my day job I started down that path.  Wow.  The Beablebone is pretty slow, really.  Node is single threaded, and I can&rsquo;t say it&rsquo;s all that
+performant.  Doing some development on the board was painfully slow.  And since I&rsquo;m readying from devices, it&rsquo;s not something I can do on another linux box and move it over.  And it&rsquo;s so slow as I am developing that
+I&rsquo;m really wondering if I&rsquo;ll be jumping into debug hell if I use use node for the project.</p>
+
+<p>So what&rsquo;s a self-respecting geek to do?  Go back to one&rsquo;s roots.  I pulled <a href="https://github.com/gherlein/ser">some very old C code</a> I had for doing serial and played around with it and two of the RS-485
+adapters.  No problem.  Tested that they worked with &ldquo;screen&rdquo; and then with code and that&rsquo;s a happy path.</p>
+
+<h2 id="reading-the-temperature-sensors">Reading The Temperature Sensors</h2>
+
+<p><a href="http://klaus.ede.hih.au.dk/index.php/BBB_and_OneWire">Here</a> is an excellent tutorial on how to get started reading the sensors.  One or two sensors works great.  But it&rsquo;s REALLY unreliable if I use more
+than two.  Check this out:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo ls /sys/bus/w1/devices
+28-00000002864c  28-00000002c80d  28-00000003a931  28-000004d04033  w1_bus_master1</code></pre></div>
+<p>Four devices.  Good.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">beaglebone:~&gt; sudo cat /sys/bus/w1/devices/28-00000002864c/w1_slave
+ff ff ff ff ff ff ff ff ff : crc<span style="color:#f92672">=</span>c9 NO
+<span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> t<span style="color:#f92672">=</span>-62</code></pre></div>
+<p>Good.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo ls /sys/bus/w1/devices/28-00000002864c
+ls: cannot access <span style="color:#e6db74">&#39;/sys/bus/w1/devices/28-00000002864c&#39;</span>: No such file or directory
+sudo ls /sys/bus/w1/devices/
+28-00000002c80d  28-000000038289  28-000004d04033  w1_bus_master1</code></pre></div>
+<p>Not good.  The device I just read from is no longer present.  Nothing in syslog about it either.  And it gets worse.  Rebooting will sometimes then show one, or two devices.  Reboot again and you
+may get three.</p>
+
+<p>Bottom line:  something is not right.  If I am going down this path I need to plan on spending some time troubleshooting.  I think the most common use case is one or two devices.  Getting out several sigmas from the norm
+puts in square in the land of experimentation again.</p>
+
+<h2 id="complexity">Complexity</h2>
+
+<p>Let&rsquo;s revisit why I wanted to go down the embedded linux path:  reducing complexity.  I spent a lot of time with the ESP32 (<a href="https://blog.herlein.com/post/esp32/">here</a> and <a href="https://blog.herlein.com/post/freertos-helper-esp32/">here</a>) and
+got myself into a place where the complexity of that path seemed larger than I wanted to deal with.  Heading into embedded linux could let me potentially go faster by leveraging higher level languages and code libraries that
+would reduce my effort.</p>
+
+<p>But maybe not.  I&rsquo;m a little pissed off at the moment.  The abstractions that I hoped would help me go faster come at a price.  On an ESP32 I can figure out what is happening pretty fast.  I at least have my Oscope and the code is a single driver.
+The cognitive load required to understand the technology and find the problem is something tolerable.  But with the Beaglebone I have the device overlay subsystem, the sysfs interface, then the 1Wire Driver, then the actual temperature driver.
+All of which is new to me.  Suddenly the time to market gains I got from being able to set up an embedded system the same way I am accustomed to are gone, vanished into an unknown number of hours of troubleshooting.  It almost feels like
+it did back in the day to get sound working on Linux.  Sigh.</p>
+
+<h2 id="other-good-stuff-i-found">Other Good Stuff I Found</h2>
+
+<p>I stumbled on several active AWS C development efforts:  <a href="https://github.com/awslabs/aws-c-iot">IoT</a> and <a href="https://github.com/awslabs/aws-c-common">a common lib</a>.  This rekindled my system thinking of &ldquo;how to I take this past just my local
+network later.&rdquo;  I still cringe that maybe AWS Greengrass v2 is not really ready for prime time, but it has been size months since I looked at it.  It gets me thinking.</p>
+
+<p>Frequent readers will also recall that I have had <a href="https://blog.herlein.com/post/mqtt/">some pains with MQTT</a>, specifically with it being a single point of failure.  But I came across <a href="https://www.servers.com/support/knowledge/linux-administration/how-to-setup-floating-ip-using-keepalived">keepalived</a> that can easily take over an IP address if the other fails.  Using an IP address outside my DHCP range I could easily set this up using linux IP alias.  I can see a path to an easy active-active solution
+for the MQTT broker, and I bet the system could tolerate the loss of a few message during failover.  It&rsquo;s worth looking at, especially since EVERYTHING is moving in the direction of MQTT.  Sure, I can hand code up a broadcast UDP solution but back to the &ldquo;how to I expand
+this off my local network&rdquo; problem&hellip;  the universe is going MQTT.</p>
+
+<h2 id="taking-some-time-away">Taking Some Time Away</h2>
+
+<p>Holiday breaks - especially the early morning hours - are usually when I actually have time for my own projects.  But I think I&rsquo;m going to set this aside and let my subconscious chew on it awhile.  I went to an embedded linux board to be able to use
+higher-level languages like typescript, abstraction libraries that could make me go faster.  And I found myself coming back to C.  And now the advantages I thought I had in using the standard linux GPIO device layer is not an advantage but a potential
+huge time sink.</p>
+
+<p>Should I just go back to an ESP32 and FreeRTOS?  There&rsquo;s a learning curve either way.  I feel like I am in a spiral of decision making.  So it&rsquo;s time to reflect a bit rather than chasing a rabbit.</p>
+
+<h2 id="holidays">Holidays</h2>
+
+<p>I have sourdough rising in the kitchen, with plans to bake it fresh tomorrow morning.  The sky is clear today after days of steady rain.  Both my kids are home from college.  It&rsquo;s Christmas Eve.  Life is good, and temperature probes and RS-485 is not the most important thing
+at the moment.</p>
+
+<p>I wish you all a wonderful holiday season, and prosperity, health, and joy in the new year.  We all deserve it!</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fspiral-again%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fspiral-again%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fspiral-again%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fspiral-again%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fspiral-again%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fspiral-again%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/thirty-years/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/thirty-years/">Thirty Years Ago Today</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

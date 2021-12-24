@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spiral Again?</title>
+      <link>https://blog.herlein.com/post/spiral-again/</link>
+      <pubDate>Fri, 24 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/spiral-again/</guid>
+      <description>&lt;p&gt;Merry Christmas Eve!  Plaing with the Beaglebone sends me into another thought spiral.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Local Data Collection and Command Distribution</title>
@@ -82,6 +91,15 @@
       
       <guid>https://blog.herlein.com/post/esp32/</guid>
       <description>&lt;p&gt;Dipping a toe into the FreeRTOS ESP32 world.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Programming Serial in C</title>
+      <link>https://blog.herlein.com/post/serial/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/serial/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s back to the future again.  Fidding with node.js a lot, but you know, C is still my favorite language.  Dug up some old code to read/write from a serial port.&lt;/p&gt;</description>
     </item>
     
     <item>

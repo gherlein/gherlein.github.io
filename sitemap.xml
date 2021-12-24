@@ -3,27 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.herlein.com/tags/embedded-linux/</loc>
+    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/spiral-again/</loc>
+    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/general/</loc>
     <lastmod>2021-12-07T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2021-12-07T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/tags/non-technical/</loc>
-    <lastmod>2021-12-07T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2021-12-07T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2021-12-07T00:00:00-07:00</lastmod>
   </url>
   
@@ -68,22 +88,12 @@
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/post/local-data-collection/</loc>
     <lastmod>2021-11-27T00:00:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.herlein.com/tags/networking/</loc>
-    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2021-11-27T00:00:00-07:00</lastmod>
   </url>
   
@@ -243,12 +253,27 @@
   </url>
   
   <url>
+    <loc>https://blog.herlein.com/tags/c/</loc>
+    <lastmod>2020-12-19T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/post/ending-2020/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.herlein.com/tags/cloud/</loc>
+    <lastmod>2020-12-19T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/serial/</loc>
+    <lastmod>2020-12-19T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/serial/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
   </url>
   
