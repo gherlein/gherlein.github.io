@@ -295,8 +295,9 @@ sudo ls /sys/bus/w1/devices/
 <p>Not good.  The device I just read from is no longer present.  Nothing in syslog about it either.  And it gets worse.  Rebooting will sometimes then show one, or two devices.  Reboot again and you
 may get three.</p>
 
-<p>Bottom line:  something is not right.  If I am going down this path I need to plan on spending some time troubleshooting.  I think the most common use case is one or two devices.  Getting out several sigmas from the norm
-puts in square in the land of experimentation again.</p>
+<p>Bottom line:  something is not right.  If I am going down this path I need to plan on spending some time troubleshooting.  I think the most common use case is one or two devices.  I&rsquo;m using four.  That puts me several sigmas from the norm
+and lands me square in the land of experimentation again. Sigh.  I could go towards an <a href="https://github.com/pstolarz/w1-gpio-cl">alternate 1-wire driver</a> but now I&rsquo;m in driver land on an ARM board.  I <em>could</em> do that, but then I&rsquo;m back down
+a rabbit hole of complexity again.</p>
 
 <h2 id="complexity">Complexity</h2>
 
