@@ -253,17 +253,16 @@
 
   <p>Merry Christmas Eve!  Plaing with the Beaglebone sends me into another thought spiral.</p>
 
-<p>Last weekend my order for a Beaglebone cape proto board and more <a href="https://smile.amazon.com/gp/product/B00M1PM55K/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1">DS18B20 temperature sensors</a> arrived and I
-soldered up connectors on the board.  This is a continuation of my pool sensor work (other posts <a href="https://blog.herlein.com/post/beaglebone-getting-started/">here</a> and <a href="https://blog.herlein.com/post/tasmota/">here</a>).  I had a Beaglebone in my parts
+<p>Last weekend my order for a <a href="https://www.digikey.com/en/products/detail/DEV-12774/1568-1261-ND/5762411?utm_medium=email&amp;utm_source=oce&amp;utm_campaign=4251_OCE21RT&amp;utm_content=productdetail_US&amp;utm_cid=2390020&amp;so=73308949&amp;mkt_tok=MDI4LVNYSy01MDcAAAGBWRx4Gats4svytyH9rzCX8MkWRLTj6I0xtCBa7zYt_ZWugxoNVAh-Ph3226TlLVsbsFHwNkHJqHcRWxYqxDglq_yfWtJYwVmANYjZ_Xyf">Beaglebone cape proto board</a> and more <a href="https://smile.amazon.com/gp/product/B00M1PM55K/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&amp;psc=1">DS18B20 temperature sensors</a> arrived and I soldered up connectors on the board.  This is a continuation of my pool sensor work (other posts <a href="https://blog.herlein.com/post/beaglebone-getting-started/">here</a> and <a href="https://blog.herlein.com/post/tasmota/">here</a>).  I had a Beaglebone in my parts
 drawer left over from an old project.  Good thing I didn&rsquo;t need to buy one.  The supply chain fiasco has driven their price WAY up.</p>
 
 <p><img src="https://blog.herlein.com/images/beaglebone.jpg" width="60%"/></p>
 
-<p>The green USB adapter with a read LED is a <a href="https://smile.amazon.com/gp/product/B005CPI0JQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">Gearmo RS-<sup>422</sup>&frasl;<sub>485</sub> Adapter</a> that will let me communicate with
-my pool pump.  Some folks have <a href="https://docs.google.com/document/d/1M0KMfXfvbszKeqzu6MUF_7yM6KDHk8cZ5nrH1_OUcAc/edit">reverse engineered their protocol</a>.  Because the salt air and tropical temperatures play hell with
-electronics I am putting all of it into a <a href="https://smile.amazon.com/gp/product/B01N4FSKZM/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&amp;psc=1">waterproof cabinet</a>.  Early tests with the Netgear GS108E switch, Beaglebone, adapters and all
-don&rsquo;t really produce much heat.  I don&rsquo;t think I will need active cooling.  Remember that part of why I went towards to the Beaglebone was because it has a much higher allowed temperature range than the Raspberry Pi.  And having
-a wired ethernet connection can&rsquo;t be beat to remove one potential failure point (WiFi).</p>
+<p>The green USB adapter with a read LED is a <a href="https://smile.amazon.com/gp/product/B005CPI0JQ/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">Gearmo RS-422/RS-485 Adapter</a> that will let me communicate with
+my pool pump.  Some folks have <a href="https://docs.google.com/document/d/1M0KMfXfvbszKeqzu6MUF_7yM6KDHk8cZ5nrH1_OUcAc/edit">reverse engineered their protocol</a> but since I am not going to use python I won&rsquo;t be using thier code.<br />
+Because the salt air and tropical temperatures play hell with electronics I am putting all of it into a <a href="https://smile.amazon.com/gp/product/B01N4FSKZM/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&amp;psc=1">waterproof cabinet</a>.
+Early tests with the Netgear GS108E switch, Beaglebone, adapters and all don&rsquo;t really produce much heat.  I don&rsquo;t think I will need active cooling.  Remember that part of why I went towards to the Beaglebone was because
+it has a much higher allowed temperature range than the Raspberry Pi.  And having a wired ethernet connection can&rsquo;t be beat to remove one potential failure point (WiFi).</p>
 
 <p>The essential goal of the project is to be able to read the pool temperature and periodically turn on the pumps and open a control valve that lets the hot water from the solar pool heater flush into the
 pool, the close the valve and let the solar heater refill, then turn off the pump.  It&rsquo;s not a diffucult control system.</p>
