@@ -13,12 +13,12 @@
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <loc>https://blog.herlein.com/post/modern-node-dev/</loc>
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/post/modern-node-dev/</loc>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
   </url>
   
@@ -29,6 +29,11 @@
   
   <url>
     <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/projen/</loc>
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
   </url>
   
