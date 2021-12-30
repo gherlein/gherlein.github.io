@@ -20,7 +20,7 @@
       <guid>https://blog.herlein.com/post/modern-node-dev/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a
 new tool I am using (&lt;a href=&#34;https://github.com/projen/projen/pull/1437&#34;&gt;projen&lt;/a&gt;) and learned
-a ton along the way.&lt;/p&gt;</description>
+a ton along the way.  This post is to share some of that.&lt;/p&gt;</description>
     </item>
     
   </channel>
