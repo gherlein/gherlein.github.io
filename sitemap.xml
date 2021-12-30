@@ -3,37 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.herlein.com/tags/cdk/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/modern-node-dev/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/node.js/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/typescript/</loc>
+    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/embedded-linux/</loc>
     <lastmod>2021-12-24T00:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/post/spiral-again/</loc>
-    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2021-12-24T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2021-12-24T00:00:00-07:00</lastmod>
   </url>
   

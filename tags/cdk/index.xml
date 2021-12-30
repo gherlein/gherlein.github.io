@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cdk on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/cdk/</link>
+    <description>Recent content in cdk on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://blog.herlein.com/tags/cdk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modern Development in Node - Patching a bug in a modern project</title>
+      <link>https://blog.herlein.com/post/modern-node-dev/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/modern-node-dev/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a
+new tool I am using (&lt;a href=&#34;https://github.com/projen/projen/pull/1437&#34;&gt;projen&lt;/a&gt;) and learned
+a ton along the way.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

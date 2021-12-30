@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 24 Dec 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cdk</title>
+      <link>https://blog.herlein.com/tags/cdk/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/cdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.herlein.com/tags/linux/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node.js</title>
+      <link>https://blog.herlein.com/tags/node.js/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typescript</title>
+      <link>https://blog.herlein.com/tags/typescript/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/typescript/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>embedded linux</title>
@@ -18,24 +63,6 @@
       <pubDate>Fri, 24 Dec 2021 00:00:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/embedded-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.herlein.com/tags/linux/</link>
-      <pubDate>Fri, 24 Dec 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Fri, 24 Dec 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     
