@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 13 Feb 2022 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/technical/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating an Ephemeral EC2 Instance for Development or Testing</title>
+      <link>https://blog.herlein.com/post/single-ec2-cdk/</link>
+      <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/single-ec2-cdk/</guid>
+      <description>&lt;p&gt;&amp;ldquo;Cattle, not Pets!&amp;rdquo; they say.  Except that for a lot of development, coders make their own laptop their favorite pet.  &amp;ldquo;It works on my machine!&amp;rdquo; becomes normal.  I got tired of that and &lt;a href=&#34;https://github.com/aws-samples/single-ec2-cdk&#34;&gt;automated the creation of my dev environment.&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Learnings from patching a bug in a modern project</title>
