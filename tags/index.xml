@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 13 Feb 2022 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:01 -0800</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SDLC</title>
+      <link>https://blog.herlein.com/tags/sdlc/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/sdlc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software development</title>
+      <link>https://blog.herlein.com/tags/software-development/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/software-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>automation</title>
@@ -54,15 +81,6 @@
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -846,6 +864,15 @@
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/data-centers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>https://blog.herlein.com/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/ci/cd/</guid>
       <description></description>
     </item>
     
