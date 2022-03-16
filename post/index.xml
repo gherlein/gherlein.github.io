@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 01 Mar 2022 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 16 Mar 2022 00:01:00 -0800</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DevOps - All Things To All People - or Not?</title>
+      <link>https://blog.herlein.com/post/devops-what/</link>
+      <pubDate>Wed, 16 Mar 2022 00:01:00 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/devops-what/</guid>
+      <description>&lt;p&gt;Seems like everyone is clammoring for DevOps folks.  Do they really know what they want?  That term means all things to all people.  Some thoughts.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Thoughts on CI/CD</title>
@@ -174,15 +183,6 @@ a ton along the way.  This post is to share some of that.&lt;/p&gt;</description
       
       <guid>https://blog.herlein.com/post/esp32/</guid>
       <description>&lt;p&gt;Dipping a toe into the FreeRTOS ESP32 world.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>DevOps - All Things To All People - or Not?</title>
-      <link>https://blog.herlein.com/post/devops-what/</link>
-      <pubDate>Mon, 15 Mar 2021 00:01:00 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/post/devops-what/</guid>
-      <description>&lt;p&gt;Seems like everyone is clammoring for DevOps folks.  Do they really know what they want?  That term means all things to all people.  Some thoughts.&lt;/p&gt;</description>
     </item>
     
     <item>
