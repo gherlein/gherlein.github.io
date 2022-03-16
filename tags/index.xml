@@ -292,6 +292,24 @@
     </item>
     
     <item>
+      <title>cloud</title>
+      <link>https://blog.herlein.com/tags/cloud/</link>
+      <pubDate>Tue, 16 Mar 2021 00:01:00 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
+      <link>https://blog.herlein.com/tags/devops/</link>
+      <pubDate>Tue, 16 Mar 2021 00:01:00 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>esp-idf</title>
       <link>https://blog.herlein.com/tags/esp-idf/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
@@ -342,15 +360,6 @@
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/c/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cloud</title>
-      <link>https://blog.herlein.com/tags/cloud/</link>
-      <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/cloud/</guid>
       <description></description>
     </item>
     
@@ -414,15 +423,6 @@
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>devops</title>
-      <link>https://blog.herlein.com/tags/devops/</link>
-      <pubDate>Sat, 24 Oct 2020 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/devops/</guid>
       <description></description>
     </item>
     

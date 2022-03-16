@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 19 Dec 2020 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Mar 2021 00:01:00 -0800</lastBuildDate>
     
 	<atom:link href="https://blog.herlein.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DevOps - All Things To All People - or Not?</title>
+      <link>https://blog.herlein.com/post/devops-what/</link>
+      <pubDate>Tue, 16 Mar 2021 00:01:00 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/devops-what/</guid>
+      <description>&lt;p&gt;Seems like everyone is clammoring for DevOps folks.  Do they really know what they want?  That term means all things to all people.  Some thoughts.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Changes - Ending 2020</title>

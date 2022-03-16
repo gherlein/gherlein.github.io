@@ -268,6 +268,21 @@
   </url>
   
   <url>
+    <loc>https://blog.herlein.com/tags/cloud/</loc>
+    <lastmod>2021-03-16T00:01:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/devops/</loc>
+    <lastmod>2021-03-16T00:01:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/devops-what/</loc>
+    <lastmod>2021-03-16T00:01:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/esp-idf/</loc>
     <lastmod>2021-03-07T00:00:00-08:00</lastmod>
   </url>
@@ -314,11 +329,6 @@
   
   <url>
     <loc>https://blog.herlein.com/post/ending-2020/</loc>
-    <lastmod>2020-12-19T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/cloud/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
   </url>
   
@@ -370,11 +380,6 @@
   <url>
     <loc>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/devops/</loc>
-    <lastmod>2020-10-24T00:00:01-08:00</lastmod>
   </url>
   
   <url>
