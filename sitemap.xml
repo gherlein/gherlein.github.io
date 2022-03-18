@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.herlein.com/tags/debian/</loc>
+    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/debian-again2/</loc>
+    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/ubuntu/</loc>
+    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/cloud/</loc>
     <lastmod>2022-03-16T00:01:00-08:00</lastmod>
   </url>
@@ -14,26 +54,6 @@
   
   <url>
     <loc>https://blog.herlein.com/post/devops-what/</loc>
-    <lastmod>2022-03-16T00:01:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2022-03-16T00:01:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-03-16T00:01:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2022-03-16T00:01:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2022-03-16T00:01:00-08:00</lastmod>
   </url>
   
@@ -79,11 +99,6 @@
   
   <url>
     <loc>https://blog.herlein.com/tags/ec2/</loc>
-    <lastmod>2022-02-13T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
     <lastmod>2022-02-13T00:00:01-08:00</lastmod>
   </url>
   
@@ -373,11 +388,6 @@
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/tags/ubuntu/</loc>
-    <lastmod>2020-11-04T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
   </url>
@@ -515,11 +525,6 @@
   <url>
     <loc>https://blog.herlein.com/post/hugo-images/</loc>
     <lastmod>2020-09-26T00:00:03-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/debian/</loc>
-    <lastmod>2020-09-26T00:00:01-08:00</lastmod>
   </url>
   
   <url>

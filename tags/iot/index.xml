@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://blog.herlein.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Local Data Collection and Command Distribution</title>
       <link>https://blog.herlein.com/post/local-data-collection/</link>
