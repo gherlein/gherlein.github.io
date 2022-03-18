@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <title>Using CloudWatch for On-Premise Ubuntu Servers &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2021. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Using CloudWatch for On-Premise Ubuntu Servers</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>04 Nov 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloudwatch">cloudwatch</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ubuntu">ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/monitoring">monitoring</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/syslogs">syslogs</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Can I replace a local Prometheus with AWS CloudWatch?  And include syslog monitoring as well?  Yes, I can.  But it was a PITA to set up.  Here&rsquo;s how.</p>
+
+<h2 id="why-cloudwatch">Why CloudWatch?</h2>
+
+<p>To learn, of course!  Well, that and a practical test.  It&rsquo;s an experiment.  I&rsquo;ve run a local server for years and had it be my syslog server and handle my monitoring.  Yes, I&rsquo;m a geek.  I use Ubiquity Unifi equipment and I have the controller configured to remote syslog so I get all the AP events.  I also run my own internal DHCP for static mapping of MAC to IP, and internal DNS and Reverse DNS.  I used to have DHCP/DNS on a different small server.</p>
+
+<p>But running these servers costs me money, in electrical costs.  I decided to see if could get comparable or better functionality using CloudWatch, and then compare the costs too.  This post will be just about the first steps of setting things up.  Later I&rsquo;ll blog about more details on the service, and evaluate the costs.  At this point even if it&rsquo;s more money I&rsquo;m going through this exercise, since I really want to understand how this would work.</p>
+
+<p>Of course, to really evaluate the two options I&rsquo;ll apply the <a href="https://aws.amazon.com/blogs/apn/the-5-pillars-of-the-aws-well-architected-framework/">5 pillars of the Well Architected Framework</a> - CORPS in short (Cost, Operational Excellence, Reliability, Performance, Security).  But that&rsquo;s another blog post.  Today is just getting the agent set up!</p>
+
+<h2 id="cloudwatch-agent">CloudWatch Agent</h2>
+
+<p>You would think this is an easy slam dunk.  AWS has a <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/install-CloudWatch-Agent-on-premise.html">document describing how to do this</a>.  But while it says you can download it using SystemManager or an S3 link, the docs don&rsquo;t actually include a link.  And it&rsquo;s very much written from the perspective that you will use SystemManager.</p>
+
+<p>But I&rsquo;m not.  All I want to do is install the Agent locally, configure it, and have it send it&rsquo;s logs and metrics off to CloudWatch.  Turns out that was fraught with difficulty.</p>
+
+<p>Google searches mostly turned up more on how to do it with SystemManager, or how to do it on an EC2 instance.  I did find <a href="https://www.petefreitag.com/item/868.cfm">this post</a> that was groundbreaking for me.  But it had some errors and misses too.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>The <a href="https://s3.amazonaws.com/amazoncloudwatch-agent
+/debian/amd64/latest/amazon-cloudwatch-agent.deb">agent debian package </a> is installed the usual way.  I&rsquo;ve <a href="https://github.com/gherlein/cloudwatch-install/blob/master/install.sh">created a script to do most of it for you</a> but here&rsquo;s the steps.  You need to be root.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># run this as root</span>
+<span style="color:#75715e"># download it</span>
+curl -o /root/amazon-cloudwatch-agent.deb https://s3.amazonaws.com/amazoncloudwatch-agent<span style="color:#ae81ff">\
+</span><span style="color:#ae81ff"></span>/debian/amd64/latest/amazon-cloudwatch-agent.deb
+<span style="color:#75715e"># install it</span>
+dpkg -i -E /root/amazon-cloudwatch-agent.deb</code></pre></div>
+<p>This will create a user &ldquo;cwagent&rdquo; but does nothing to configure anything.  You next do this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># add the cwagent user to the adm group so it can read logs</span>
+usermod -aG adm cwagent
+<span style="color:#75715e"># configure the user credentials</span>
+cat <span style="color:#e6db74">&lt;&lt;EOF &gt; /home/cwagent/.aws/credentials
+</span><span style="color:#e6db74">[AmazonCloudWatchAgent]
+</span><span style="color:#e6db74">aws_access_key_id = aaaaaaaa
+</span><span style="color:#e6db74">aws_secret_access_key = bbbbbbbb
+</span><span style="color:#e6db74">EOF</span>
+<span style="color:#75715e"># configure the user region</span>
+cat <span style="color:#e6db74">&lt;&lt;EOF &gt; /home/cwagent/.aws/config
+</span><span style="color:#e6db74">[AmazonCloudWatchAgent]
+</span><span style="color:#e6db74">output = text
+</span><span style="color:#e6db74">region = us-east-1
+</span><span style="color:#e6db74">EOF</span>
+<span style="color:#75715e"># get your own IAM creds for an IAM user and edit the file</span>
+nano /home/cwagent/.aws/credentials
+<span style="color:#75715e"># set ownership</span>
+chmod -R cwagent.cwagent /home/cwagent</code></pre></div>
+<p>Moving forward requires two things:  you need to <a href="https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html">install the AWS CLI</a> on your Ubuntu server, and you need to create an IAM user &ldquo;cwagent.&rdquo;  The <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-iam-roles-for-cloudwatch-agent.html">AWS docs for the latter</a> are quite clear and easy to follow.  When you have the AWS credentials for the new user, you need to add those to the new user on your ubuntu server:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># get your own IAM creds for an IAM user and edit the file</span>
+nano /home/cwagent/.aws/credentials</code></pre></div>
+<p>Replace nano with your favorite editor, as desired.</p>
+
+<p>Oh, set the region you want as well.  The example uses us-east-1 but choose the right region for you.</p>
+
+<p>Note that you also need to chown the files, since you did all this editing as root.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># set ownership</span>
+chmod -R cwagent.cwagent /home/cwagent</code></pre></div>
+<p>Now, this next step is important.  If you don&rsquo;t have collectd installed and you configure to collect metrics (see below) then the agent will just hang and not do anything.  Not even send syslogs.  I need to test this to ensure I can reproduce it, but it seems like a bug.  The logs should at least say something about it but they don&rsquo;t.  More on the agent logs later.</p>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>This is where I had a lot of head scratching.  The <a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create-cloudwatch-agent-configuration-file-wizard.html">documentation from AWS</a> is flat oout WRONG.  I have submitted feedback to the page on what I found.  Here&rsquo;s the scoop:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># run the wizard</span>
+/opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+<span style="color:#75715e"># move the configuration file to the right place and name it properly</span>
+mv /opt/aws/amazon-cloudwatch-agent/bin/config.json <span style="color:#ae81ff">\ </span>/opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json</code></pre></div>
+<p>Running the wizard asks you a set of questions and creates a config file.  However you need to move it to the etc folder and rename it in order for the agent to be able to find it.  The docs on the sections of the file seem pretty accurate, and it&rsquo;s self explanatory really.  I just accepted defaults, except for specifying the actual syslog file.</p>
+
+<p>Again, make sure you installed collectd.  Otherwise, the agent just hangs.</p>
+
+<p>Now you are ready.  Restart the service.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># restart the service</span>
+service amazon-cloudwatch-agent restart
+<span style="color:#75715e"># check status</span>
+service amazon-cloudwatch-agent	status
+<span style="color:#75715e"># check the logs</span>
+tail -f /var/log/amazon/amazon-cloudwatch-agent/amazon-cloudwatch-agent.log</code></pre></div>
+<p>You want to see something like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">2020-11-04T14:26:44Z I! Started the statsd service on :8125
+2020-11-04T14:26:44Z I! <span style="color:#f92672">[</span>inputs.socket_listener<span style="color:#f92672">]</span> Listening on udp://127.0.0.1:25826
+2020-11-04T14:26:44Z I! Statsd listener listening on:  <span style="color:#f92672">[</span>::<span style="color:#f92672">]</span>:8125
+2020-11-04T14:26:45Z I! will use file based credentials provider
+2020-11-04T14:26:45Z I! <span style="color:#f92672">[</span>logagent<span style="color:#f92672">]</span> piping log from syslog/sol1<span style="color:#f92672">(</span>/var/log/messages<span style="color:#f92672">)</span> to cloudwatchlogs</code></pre></div>
+<p>Now you know that the agent is sending stuff to CloudWatch.  Your next step is to go there and configure dashboards, etc.  That&rsquo;s for another post!</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fubuntu-on-prem-cloudwatch%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fubuntu-on-prem-cloudwatch%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fubuntu-on-prem-cloudwatch%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fubuntu-on-prem-cloudwatch%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fubuntu-on-prem-cloudwatch%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fubuntu-on-prem-cloudwatch%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/disposability/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/disposability/">Disposability - the Missing ility</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/power/">Power Costs</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/power/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+

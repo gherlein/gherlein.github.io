@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <title>Disposability - the Missing ility &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2021. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Disposability - the Missing ility</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>24 Oct 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>You will get the most bang for the buck from cloud by destroying it.</p>
+
+<h2 id="bold-statement">Bold Statement</h2>
+
+<p>That&rsquo;s right:  you will get the most bang for the buck from cloud by destroying it.  Disposability may be the most important of the &ldquo;ilities&rdquo; if you care about your overall development velocity.  I talk about this a little bit in my <a href="http://blog.herlein.com/post/cloud-basics/">Cloudy DevOps</a> post but I don&rsquo;t think I hammered the point well enough.  Certainly not in my day job, where I found out this week that we are living with pain around that.</p>
+
+<h2 id="what-is-disposability">What is Disposability?</h2>
+
+<p>Simply put:  the ability to easily completely destroy a set of cloud resources you have deployed - and then automatically recreate them again.  We focus so much on the automation of the CREATION but disposability is all about being able to easily destroy it again.  In AWS you can do this with <a href="https://aws.amazon.com/cloudformation/">CloudFormation</a> using Stacks and StackSets.  <a href="https://www.terraform.io/">Terraform</a> is a similar tool and is my preferred solution.  But regardless of the tool you use, the automation of the creation and descruction is a core cloud best practice.</p>
+
+<p>It&rsquo;s funny, actually, to talk about &ldquo;serverless&rdquo; since it&rsquo;s the epitomy of disposability.  Consider AWS <a href="https://aws.amazon.com/lambda/">Lambda</a> for example.  You literally set certain code to execute on a certain event and the compute resources are created, run your code, and disposed of when done.  Serverless embodies disposabililty.</p>
+
+<h2 id="benefit-to-velocity-decouple">Benefit to Velocity - Decouple!</h2>
+
+<p>It&rsquo;s easy to understand that cost control is a huge benefit.  Teams can spin up cloud resources and when they are done with them, perhaps for the day, they can dispose of them.  You don&rsquo;t get charged for resources that no longer exist.</p>
+
+<p>But the biggest benefits may come from a net increase in development velocity.  If you can deploy and destroy atomic units of your solution automatically then the team responsible for that unit can work independently.  They can build and test that unit with no dependency on any other team.  More importantly, the other services that they depend on can likewise be deployed BY THAT TEAM in a development environment for testing.</p>
+
+<p>An example, only slightly contrived:  you have three teams.  One is the front-end browser app, one is the application software team, and one handles the database and the ingesting and indexing of the data.  The front-end team are already used to a model where they can get a clean runtime environment merely by closing a tab.  The app team, however, can get substantial value from treating the entire data layer as a disposable object.</p>
+
+<p>Assuming you can run a script that instantiates the whole data layer automatically, and by passing in a parameter the script can populate the database to a known state (last production backup, clone of a running system, or load of a specific test dataset, whatever).  The App team can spin up a database, run a set of tests against their code, and then just destroy that database.  They can also automate this and use a set of tests against a specific set of known database states.  That too is a best practice, as part of a CI/CD pipeline.  But if you cannot easily dispose of the resources and then re-create them, none of this works.</p>
+
+<p>If your teams can do this, you don&rsquo;t need to maintain a &ldquo;staging&rdquo; environment.  You can create one on demand.  You don&rsquo;t need to have teams bottle-necked waiting for a certain database load to be restored by the Ops team for testing, or for a newer version of another micro-service to be deployed so you can test your implementation of their new API version.</p>
+
+<p>This is literally decoupling the development process the way that micro-services decouple system design.  Monolithic software systems can bog down from one poorly implemented part.  We decouple our code to solve that.  We should also decouple our development processes, and Disposability is the key way to enable that.  This is a concrete example of &ldquo;thinking like a Software Engineer&rdquo; - only applied to your overall workflows not just to your code.</p>
+
+<h2 id="accidental-gravity-wells">Accidental Gravity Wells</h2>
+
+<p>My day job fell into a gravity well around all this, totally accidentally.  We are giant believers in the &ldquo;Infrastructure as Code&rdquo; approach, and we keep our terraform scripts in github.  We also use <a href="https://github.com/gruntwork-io/terragrunt">Terragrunt</a> to help us keep our code DRY and help us modulularize our code.  We enforce a code review process so that changes cannot be merged without a successful approval.  We isolate the humans from the running of the code using <a href="https://www.runatlantis.io/">Atlantis</a>.  This operational discipline is a good thing.</p>
+
+<p>But.  There&rsquo;s almost always a but.  Atlantis is great for production, but for development it adds a wrinkle.  Atlantis manages the terraform state, so the &ldquo;right&rdquo; way to dispose of what it created (to do a &ldquo;terraform destroy&rdquo;) also requires a pull request and a code review.  The change to the scripts is only one line, but then the code repo master branch has that one line change.  I guess this is not a bad thing since master then reflects the actual state of the infra.  But it just feels wrong.  It&rsquo;s not as easy as it seems like it should be. If we were simply using raw terraform in a main.tf it would be a lot easier, but we do a lot of custom modules and wrap it in terragrunt.  So it&rsquo;s less than ideal.</p>
+
+<p>And that matters, since it looks like making it harder to dispose of cloud resources resulted in teams not actually disposing of things - leading to not decoupling the processes.  When you are transforming a development organization to agile, cloud processes you can&rsquo;t make it harder.  Then teams just fall into the gravity well of doing things the way they always have.  And that&rsquo;s really hard to spot unless you are in the trenches with the teams.  You may not even see it in your cloud costs.  It will show up later in slower overall velocity.  And that&rsquo;s bad.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Just moving your infra to cloud is what I call &ldquo;Cloud 1.0&rdquo; and if that&rsquo;s all you do that&rsquo;s great.  But if you really want to get the actual benefits of cloud then embrace Disposability.  There&rsquo;s a learning curve and some up front investment, but it will pay off downstream in vastly improved development velocity as well as product quality.  And it then enables you to do work on all the other &lsquo;ilities&rdquo; too.  And in the principle of &ldquo;thinking like a Software Engineer&rdquo; none of this is &ldquo;done done&rdquo; unless it&rsquo;s been tested.  And that means creating and destroying in at least a few accounts and ensuring you haven&rsquo;t left any orphaned resources behind.</p>
+
+<p>Of course, if you are jumping past VM and k8s deployments towards serverless you are already doing disposability anyway.  That&rsquo;s a topic for another day.</p>
+
+<p>So go take a peek at your systems.  Are you missing Disposability?</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fdisposability%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fdisposability%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdisposability%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fdisposability%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdisposability%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdisposability%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/github-to-s3/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/github-to-s3/">GitHub Actions - Copy to S3 on Commit to Master</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/">Using CloudWatch for On-Premise Ubuntu Servers</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

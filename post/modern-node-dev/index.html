@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <title>Learnings from patching a bug in a modern project &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2021. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Learnings from patching a bug in a modern project</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>30 Dec 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/node.js">node.js</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/typescript">typescript</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cdk">cdk</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/projen">projen</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>I&rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a
+new tool I am using (<a href="https://github.com/projen/projen/pull/1437">projen</a>) and learned
+a ton along the way.  This post is to share some of that.</p>
+
+<p>If you have followed me lately you know that I am developing code for telephony again (and loving it!  Want to work in my group?  We&rsquo;re <a href="https://www.amazon.jobs/en/search?base_query=chime+sdk&amp;loc_query=">hiring!</a>.  A big part of this is developing the deployment automation that goes with the application - the &ldquo;infrastructure as code&rdquo; part of the solution.  I am all-in with the <a href="https://aws.amazon.com/cdk/">Amazon Cloud Development Kit (CDK)</a> and I&rsquo;m very excited about a new book that just
+came out, appropriately titled <a href="https://thecdkbook.com/">&ldquo;The CDK Book&rdquo;</a>.  If you are serious
+about using the CDK stop reading this and go buy it.  Seriously.  You need it.</p>
+
+<p><a href="https://thecdkbook.com/"><img src="https://blog.herlein.com/images/cdkbook-cover.png" width="50%"/></p>
+
+<p>I especially like the section on levels of abstraction using &ldquo;constructs.&rdquo;  That&rsquo;s a post for another day.  The book describes how to easily build and publish a CDK construct as an npm module.  The authors of the tool don&rsquo;t believe in templates (yikes!) and prefer a tool to build a templated repo for you.  That&rsquo;s where Projen comes in.</p>
+
+<p><a href="https://github.com/projen/projen">Projen</a> aims to &ldquo;define and maintain complex project configuration through code.&rdquo;  I believe the same thing about Infra and Operations, so I&rsquo;m all in. I have to know more.  I immediately did the &ldquo;Getting Started&rdquo; steps.</p>
+
+<p>And it immediately blew up.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gherlein@ip-172-31-61-56:~/t$ npx projen new awscdk-construct
+👾 Project definition file was created at /home/gherlein/t/.projenrc.js
+yarn install v1.22.11
+info No lockfile found.
+<span style="color:#f92672">[</span>1/4<span style="color:#f92672">]</span> Resolving packages...
+<span style="color:#f92672">[</span>2/4<span style="color:#f92672">]</span> Fetching packages...
+info fsevents@2.3.2: The platform <span style="color:#e6db74">&#34;linux&#34;</span> is incompatible with this module.
+info <span style="color:#e6db74">&#34;fsevents@2.3.2&#34;</span> is an optional dependency and failed compatibility check. Excluding it from installation.
+<span style="color:#f92672">[</span>3/4<span style="color:#f92672">]</span> Linking dependencies...
+<span style="color:#f92672">[</span>4/4<span style="color:#f92672">]</span> Building fresh packages...
+success Saved lockfile.
+Done in 15.41s.
+
+&gt; t@0.0.0 eslint
+&gt; npx projen eslint
+
+Error: Command failed: git init -b main
+error: unknown switch <span style="color:#e6db74">`</span>b<span style="color:#960050;background-color:#1e0010">&#39;</span>
+&lt;snip&gt;</code></pre></div>
+<p>I dug around a bit and verified that yes, it wants to do &ldquo;init -b main&rdquo; to set the default
+branch to main (not master).  The right thing to do.  More digging.</p>
+
+<p>It turns out that git only added &ldquo;init -b&rdquo; as an option in version 2.28.  I was working on an
+EC2 instance running Ubuntu 20.04 LTS.  Behold:</p>
+<pre><code>gherlein@ip-172-31-61-56:~/t$ git --version
+git version 2.25.1</code></pre>
+<p>This is quickly fixable, of course:</p>
+<pre><code>sudo apt remove -y git git-man
+sudo add-apt-repository -y ppa:git-core/ppa
+sudo apt -y update
+sudo apt -y install git</code></pre>
+<p>But my new role is in my DNA now, and I don&rsquo;t want other folks to have this friction.  They at least need to know that it&rsquo;s a known issue that they should upgrade.  So I sent a <a href="https://github.com/projen/projen/pull/1424">Pull Request</a> to edit the README.  Very, very quickly I had a reply from <a href="https://github.com/Chriscbr">@Chriscbr</a> suggesting we revert to the older way of doing the git commands that accomplishes the same thing.  Then <a href="https://github.com/eladb">@eladb</a>  quickly commented that maybe we should check the version and then do the right thing.  Good call and Kudos to Elad and Christopher for being right on top of new issues.</p>
+
+<p>Which now brings us to the point of my blog post.  Find it, try to fix it, right?  Plus, I really need to understand how larger, more complicated node projects are organized and what the workflow is to develop them.</p>
+
+<p>Projen has an <a href="https://github.com/projen/projen/blob/main/CONTRIBUTING.md">excellent page on contributing</a>.  I often don&rsquo;t read those pages because they are T&amp;Cs about licensing.  In this case, it&rsquo;s an excellent primer on how to go about setting up a development environment.  Here&rsquo;s the neat trick I learned extrapolated to any similar &ldquo;tool&rdquo; you will run with npx:</p>
+
+<p>First, in your tool directory:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /path/to/local/tool/repo
+yarn link</code></pre></div>
+<p>Then, in the folder you plan to work from:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /path/to/working folder
+yarn link &lt;tool name&gt;
+node_modules/projen/bin/&lt;tool name&gt;</code></pre></div>
+<p>The command <a href="https://classic.yarnpkg.com/en/docs/cli/link/">&ldquo;yarn link&rdquo;</a> creates a symlink at the global node_modules level.  You can then directly run your tool from the command line.</p>
+
+<h2 id="practicality-of-approach">Practicality of Approach</h2>
+
+<p>The projen example is a perfect way to build system-level tools using typescript.  It seems pretty easy to make shell aliases to npx commands, and you can even <a href="https://dev.to/ipreda/run-your-npx-script-directly-from-github-create-your-own-cli-commands-and-other-stories-4pn3">run them directly from github without an install.</a>.  I can totally see building some tools to help me automate some of the silly things I seem to need to do on new machines.  And I get new machines all the time.  You should too.  You are creating and destroying new EC2 when you need to do a quick test right? Having really easy automation makes it pointless to keep a dev server laying around.</p>
+
+<h2 id="thoughts-on-projen">Thoughts on Projen</h2>
+
+<p>I think I&rsquo;m a believer now. I had looked around for some templates that could be a good starting point for development.  I love how &ldquo;cdk init&rdquo; just works and projen give me that for many more project types.  At least until something shows me otherwise I now fully support the <a href="https://twitter.com/search?q=%23TemplatesAreEvil">#TemplatesAreEvil movement!</a>.</p>
+
+<h2 id="next-steps-for-me">Next Steps for Me</h2>
+
+<p>I think a logical extension of this will be to create projects at a higher abstraction level.  The [CDK book] talks about Level 3 constructs:</p>
+
+<blockquote>
+<p>For example, maybe you’ve adopted AWS Serverless and want to build all your APIs using API Gateway, Lambda, and DynamoDB. You could create a construct called MySimpleApi that creates a new API Gateway, Lambda Function, and DynamoDB Table L2 constructs according to your own specific architectural needs.&rdquo;</p>
+</blockquote>
+
+<p>In this example, a L3 construct &ldquo;MySimpleApi&rdquo; is the atomic unit of operation and below it are hidden all the implementations.</p>
+
+<p>&ldquo;What if we could take something like projen, add some stock code and a configuration file and &ldquo;synthesize&rdquo; a fully working application?  In the example above, if you add in all the HTML and code for the website you can get MySimpleWebSite and it&rsquo;s a &ldquo;one click install&rdquo; (only no clicks, since I&rsquo;m a command line kind of guy).  I think there&rsquo;s a lot of progress to be made around this area and I can&rsquo;t wait to learn more!</p>
+
+<h2 id="shout-outs">Shout Outs</h2>
+
+<p>Key contributors to projen and cdk - super helpful guys who were immediately responsive:</p>
+
+<ul>
+<li><a href="https://github.com/Chriscbr">Christopher Rybicki @Chriscbr</a></li>
+<li><a href="https://github.com/eladb">Elad Ben-israel @eladb</a></li>
+</ul>
+
+<p>and to Court, who turned me onto the CDK Book and constructs:</p>
+
+<ul>
+<li><a href="https://github.com/schuettc">Court Schuett @schuettc</a></li>
+</ul>
+
+<h2 id="disclaimer">Disclaimer</h2>
+
+<p>This blog does not represent the thoughts, intentions, plans or strategies of my employer. All opinions here are purely my own.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fmodern-node-dev%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fmodern-node-dev%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fmodern-node-dev%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fmodern-node-dev%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fmodern-node-dev%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fmodern-node-dev%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/spiral-again/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/spiral-again/">Spiral Again?</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/single-ec2-cdk/">Creating an Ephemeral EC2 Instance for Development for Testing</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/single-ec2-cdk/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+

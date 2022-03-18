@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <title>DevOps - All Things To All People - or Not? &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2021. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>DevOps - All Things To All People - or Not?</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>16 Mar 2022, 00:01</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Seems like everyone is clammoring for DevOps folks.  Do they really know what they want?  That term means all things to all people.  Some thoughts.</p>
+
+<h1 id="what-is-devops">What is DevOps?</h1>
+
+<p>Just about six years ago I wrote a blog <a href="https://www.linkedin.com/pulse/how-do-devops-greg-herlein/">How To Do DevOps</a> that is as accurate today as it was then.  Boil it all away and you need to align the interests (and reward structures) of Operations and Development, and you need to treat Operations as if it was a software problem.  Three years ago I blogged about <a href="https://blog.herlein.com/post/cloud-basics/">Cloudy DevOps</a> and how it&rsquo;s all a process.  That&rsquo;s still true too.</p>
+
+<p>But conversations with a few folks recently have got me thinking more about this.  It&rsquo;s good to get some review, and some basic agreement in place.</p>
+
+<p>DevOps and CI/CD are answers to a business problem. Consumers expect both web and mobile software for everything. Uber shows you how far away your ride is, live on a map.  FedEx shows you every step of where your package is, and when it will arrive at your doorstep.  Kaiser Permanente shows you test results online the day after giving blood.  Every company, regardless of their product, is becoming a software company.  New features and especially security fixes are expected to occur frequently.  The approaches to building software from even 10 years ago no longer meet the expectations of consumers.  DevOps has arisen as is a collection of tools and processes to reduce the time and cost to create new software and then deploy and operate that software. Continuous Integration (CI) automates the merging of new software code and the associated testing.  Continuous Deployment automates installing and configuring software and software updates.</p>
+
+<p>Most folks I hear talking about DevOps are mostly talking about CI/CD.  Which is short-sighted.  But let&rsquo;s run with that for now.  Despite what many vendors convey in their marketing, DevOps is more than just tools.  To accomplish the business goal, it requires a combination of technology, process, and people.</p>
+
+<h1 id="technology">Technology</h1>
+
+<p>The best technology for DevOps depends on the technology stack in use, but also has implications on the processes and the people involved.  Jenkins has been a mainstream CI tool for years, but is less well suited for newer serverless systems, or for container orchestration systems like Kubernetes (k8s).  k8s has changed the operational posture completely by automating much of traditional “operations.”  This spawned a new set of tools (helm charts for deployments, for example) and new products (Flux, Argo).  Similarly, “observability” has overtaken simple monitoring, with Prometheus leading to Thanos and the OpenTelemetry efforts leading to Honeycomb.  The rate of change in these technologies is significant.</p>
+
+<p>Think about it.  Only 11 years ago OpenStack was the darling of many Enterprises.  Only 5 years ago VCs were still investing in Mesos/Marathon platform companies.  And in a few years, k8s will be replaced with something newer and better.  Gasp!  Can it be?  Yes, the cutting edge will replace k8s.  More on that below.  The important thing to realize is that all of this changes, faster than you want it to.  As changes continue the “right” CI/CD/DevOps technology will change again. Expertise in these technologies requires not just learning, but actual doing.  The smart Technology Leader will realize that they really need folks with experience migrating between technologies.  Hands-on skills with any one technology have a short half-life.  Understanding of first principles and the ability to learn is what an organization needs.  Beware teams and Engineers who learned it once and want to coast.  This game is the fastest changing game in tech if you account for the scope of knowledge required.  Hardware is easy even though it changes fast, because at least it&rsquo;s limited in scope.</p>
+
+<p>I do think there&rsquo;s plenty of room for new technology here.  Recently I <a href="https://blog.herlein.com/post/cicd-thoughts/">blogged about on-prem and cloud CI/CD</a>.  Having a declarative way to create/define/configure a mixed in-prem and cloud environment, that is immutable like k8s is, seems to be the way to go.  But it feels like we need to let some ML (or just smart defaults) define the hardware.  We should be able to describe our workloads and let smarts figure out what basic hardware deployment is needed.  But I digress.  Some of what those new technologies will need to address are the issues I raise below.</p>
+
+<h1 id="process">Process</h1>
+
+<p>The purpose of DevOps is to reduce the time it takes to obtain the business value from the software. Having a CI/CD solution that can deploy multiple updates per day has limited value if the development team cannot make meaningful changes that often.  Many companies try to become “agile,” but how agile are most teams? Many try and only accomplish “mini-waterfall” delivering new software at the end of two or four week sprints (or worse).  The agile promise is more than that.  True agile allows fixes and improvements to be deployed multiple times per day, perhaps thousands of times per day.  User stories can be accepted and deployed independently and atomically without waiting for some arbitrary “sprint boundary.”  Appropriate automated testing can validate the work in near real-time.  Changes can be deployed and A/B tested in production, widening the deployed footprint automatically, or rolling back changes that indicate a problem.  There are technology tools that enable all of those things, but the development processes - and people - must support that in order to realize those benefits.</p>
+
+<p>So when you think about DevOps and want modern CI/CD and do multiple releases per day, could you?  Can your process support that?  And track it?  Probably not.  There&rsquo;s a whole pile of process you need to put in place.  And skills, and more tools.  Which leads us to people.</p>
+
+<h1 id="people">People</h1>
+
+<p>Processes are performed by people.  Software is written and then deployed/operated by people. Those people need the right skills.  Moving to cloud requires a substantial new set of skills, but serverless, containers, container orchestration, distributed architectures, and consuming managed services have exponentially increased the required skill set for the product development team.  New tools to track the work?  New skills to learn.  And yes, like k8s, those too will change.  In a few years there will be new tools.</p>
+
+<p>Even more important than skill-set are the mind-set of the team.  As companies go global and become more dependent on software the expectations on the staff change. DevOps (and especially DevSecOps) merges what used to be disparate, separate skilled teams into a group that collectively become responsible to keep things working and make things better.  “Normal working-hours” white collar knowledge workers from a few years ago are now on-call.  Operations staff are now expected to at least read code, and perhaps even debug it.  People change more slowly than technology.  The expectations, culture and compensation of the team must be managed differently.</p>
+
+<p>Or do they?  I strongly believe that DevOps means that the interests of Operations and Development need to be aligned.  There&rsquo;s another way to solve the problem than having developers learn ops and Operators learning development: Google&rsquo;s SRE model.  I won&rsquo;t dig into that now, but the whole field of &ldquo;Resiliency Engineering&rdquo; and &ldquo;reliabililty Engineering&rdquo; really boils down to being able to have high feature velocity AND high uptime at the same time.  The SRE approach has two key ideas to it:  a team of Engineers who specialize in these things that acts as an overlay organization, and more importantly, a rock-solid commitment to a &ldquo;budget&rdquo; of reliability.  When you want to make changes and you don&rsquo;t have room in the availability budget, Development teams work instead on creating more budget through debt reduction, better designs/abstractions, ops tools, etc.  There&rsquo;s whole books on this, so I won&rsquo;t go on.  If you don&rsquo;t think you can staff your Dev and Ops teams with folks who can move towards each others skills, you probably need to be thinking about going SRE.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Accomplishing the business goal of delivering software faster and cheaper requires leadership in all three of these areas.  The technology will change much faster than the processes, and the people will change slower still.  Expertise in today’s technology is vital, but it is also critical to plan for the inevitable change in those technologies.  The leadership you seek may be more than a single person or role.  You may need one or more senior technologists fluent in the low-level technologies today, as well as a seasoned leaders who have managed these kinds of transitions before and can look around corners to see the problems of tomorrow.</p>
+
+<p>At the end of the day, DevOps, CI/CD, SRE are all just names for things.  The business goal is to deliver more features in the same amount of time, and &ldquo;always work.&rdquo;  That&rsquo;s what consumers have come to expect, and that&rsquo;s what every business needs to try to deliver.  Don&rsquo;t drown in the alphabet soup.  Keep your mind on the business goal, remember that it&rsquo;s all going to change faster than you want it to, and get the best people you can.  And yes, this flies in the face of what most of your tool vendors are telling you.  My favorite question for them is to have their Engineering Leaders come tell me how they do DevOps.  If it&rsquo;s not better than how you are doing it, what makes them think their tool is all that great?</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fdevops-what%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fdevops-what%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdevops-what%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fdevops-what%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdevops-what%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdevops-what%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/cicd-thoughts/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/cicd-thoughts/">Thoughts on CI/CD</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/debian-again2/">Goodbye Ubuntu, Hello Debian my old friend - AGAIN</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/debian-again2/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
