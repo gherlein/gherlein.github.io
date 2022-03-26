@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.herlein.com/tags/amazon-chime-sdk/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/amazon-lex/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/amazon-polly/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/aws/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/lex2/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/ml/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/telephony/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/debian/</loc>
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
   </url>
@@ -13,22 +63,7 @@
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
   </url>
   
@@ -79,11 +114,6 @@
   
   <url>
     <loc>https://blog.herlein.com/tags/automation/</loc>
-    <lastmod>2022-02-13T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/aws/</loc>
     <lastmod>2022-02-13T00:00:01-08:00</lastmod>
   </url>
   
@@ -148,27 +178,7 @@
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/tags/amazon-lex/</loc>
-    <lastmod>2021-12-05T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/amazon-polly/</loc>
-    <lastmod>2021-12-05T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/ml/</loc>
-    <lastmod>2021-12-05T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/post/amazon-blog/</loc>
-    <lastmod>2021-12-05T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/telephony/</loc>
     <lastmod>2021-12-05T00:00:00-07:00</lastmod>
   </url>
   

@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 18 Mar 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Mar 2022 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amazon Chime SDK</title>
+      <link>https://blog.herlein.com/tags/amazon-chime-sdk/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/amazon-chime-sdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amazon Lex</title>
+      <link>https://blog.herlein.com/tags/amazon-lex/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/amazon-lex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Amazon Polly</title>
+      <link>https://blog.herlein.com/tags/amazon-polly/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/amazon-polly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AWS</title>
+      <link>https://blog.herlein.com/tags/aws/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>https://blog.herlein.com/tags/ml/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telephony</title>
+      <link>https://blog.herlein.com/tags/telephony/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/telephony/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>debian</title>
       <link>https://blog.herlein.com/tags/debian/</link>
@@ -90,15 +144,6 @@
     </item>
     
     <item>
-      <title>AWS</title>
-      <link>https://blog.herlein.com/tags/aws/</link>
-      <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>cdk</title>
       <link>https://blog.herlein.com/tags/cdk/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
@@ -167,42 +212,6 @@
       <pubDate>Tue, 07 Dec 2021 00:00:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/non-technical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Amazon Lex</title>
-      <link>https://blog.herlein.com/tags/amazon-lex/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/amazon-lex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Amazon Polly</title>
-      <link>https://blog.herlein.com/tags/amazon-polly/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/amazon-polly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ML</title>
-      <link>https://blog.herlein.com/tags/ml/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Telephony</title>
-      <link>https://blog.herlein.com/tags/telephony/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/telephony/</guid>
       <description></description>
     </item>
     
