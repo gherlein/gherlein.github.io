@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.herlein.com/tags/cap/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/alert-manager-ha/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/monitoring/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/prometheus/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/snmp/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2022-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/amazon-chime-sdk/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
   </url>
@@ -28,22 +78,7 @@
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/tags/ml/</loc>
-    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
   </url>
   
@@ -59,16 +94,6 @@
   
   <url>
     <loc>https://blog.herlein.com/post/debian-again2/</loc>
-    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
   </url>
   
@@ -295,31 +320,6 @@
   <url>
     <loc>https://blog.herlein.com/post/freertos-helper-esp32/</loc>
     <lastmod>2021-04-04T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/cap/</loc>
-    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/alert-manager-ha/</loc>
-    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/monitoring/</loc>
-    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/prometheus/</loc>
-    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/snmp/</loc>
-    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
   </url>
   
   <url>
