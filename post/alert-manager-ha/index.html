@@ -286,7 +286,7 @@
 
 <p>There were a few tricky parts.  One was getting k8s running in an all IPv6 environment.  Another was dealing with the incoming traps.  We pumped them through <a href="https://net-snmp.sourceforge.io/docs/man/snmptrapd.html">snmptrapd</a> and output text that piped through <a href="https://www.elastic.co/beats/">beats</a> into <a href="https://www.elastic.co/">Elastic</a>.  We had to write a little code to do some custom processing of some of the traps because they were weird, but that was a corner case, really.</p>
 
-<p>The big thing to solve was making AlertManager HA.  This was especially critical since we used <a href="https://github.com/linki/chaoskube">chaoskube</a> to randomly kill pods.  This ensured constant testing that our solution was reliable.</p>
+<p>The big thing to solve was making AlertManager HA.  This was especially critical since we used <a href="https://github.com/linki/chaoskube">chaoskube</a> to randomly kill pods.  This ensured constant testing that our solution was reliable.  But it also ensured that periodically we had an AM that was completely blind to all the alerts that recently happened.</p>
 
 <h2 id="alertmanager-ha">AlertManager HA</h2>
 
