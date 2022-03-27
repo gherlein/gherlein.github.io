@@ -298,6 +298,31 @@
   </url>
   
   <url>
+    <loc>https://blog.herlein.com/tags/cap/</loc>
+    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/alert-manager-ha/</loc>
+    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/monitoring/</loc>
+    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/prometheus/</loc>
+    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/snmp/</loc>
+    <lastmod>2021-03-27T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/post/aws-iot-c-sdk/</loc>
     <lastmod>2021-03-22T00:00:01-08:00</lastmod>
   </url>
@@ -384,11 +409,6 @@
   
   <url>
     <loc>https://blog.herlein.com/tags/cloudwatch/</loc>
-    <lastmod>2020-11-04T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/monitoring/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
   </url>
   
@@ -619,16 +639,6 @@
   
   <url>
     <loc>https://blog.herlein.com/post/sphereit/</loc>
-    <lastmod>2020-04-21T07:16:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/prometheus/</loc>
-    <lastmod>2020-04-21T07:16:43-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/snmp/</loc>
     <lastmod>2020-04-21T07:16:43-08:00</lastmod>
   </url>
   

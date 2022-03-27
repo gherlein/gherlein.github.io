@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>snmp on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/snmp/</link>
-    <description>Recent content in snmp on Greg Herlein</description>
+    <title>CAP on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/cap/</link>
+    <description>Recent content in CAP on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Mar 2021 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/snmp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Mar 2021 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/cap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Making Prometheus Alert Manager (more) Consistent</title>
       <link>https://blog.herlein.com/post/alert-manager-ha/</link>
@@ -15,15 +15,6 @@
       
       <guid>https://blog.herlein.com/post/alert-manager-ha/</guid>
       <description>&lt;p&gt;Prometheus Alert Manager is an &amp;ldquo;AP&amp;rdquo; system, in &amp;ldquo;CAP&amp;rdquo; terms.  How we make it more Consistent, including a forked repo of the Alert Manager code.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>[Catchup Post] Speaking at SphereIT in Krakow, October 2019</title>
-      <link>https://blog.herlein.com/post/sphereit/</link>
-      <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/post/sphereit/</guid>
-      <description>&lt;p&gt;Link to posted video &amp;ldquo;CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein &amp;amp; David Wang&amp;rdquo;&lt;/p&gt;</description>
     </item>
     
   </channel>
