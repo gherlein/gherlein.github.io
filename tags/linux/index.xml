@@ -106,7 +106,7 @@ a ton along the way.  This post is to share some of that.&lt;/p&gt;</description
       <pubDate>Sat, 27 Mar 2021 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/post/alert-manager-ha/</guid>
-      <description>&lt;p&gt;Prometheus Alert Manager is an &amp;ldquo;AP&amp;rdquo; system, in &amp;ldquo;CAP&amp;rdquo; terms.  How we make it more Consistent, including a forked repo of the Alert Manager code.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Prometheus Alert Manager is an &amp;ldquo;AP&amp;rdquo; system, in &amp;ldquo;CAP&amp;rdquo; terms.  How we made it more Consistent, including a forked repo of the Alert Manager code.&lt;/p&gt;</description>
     </item>
     
     <item>
