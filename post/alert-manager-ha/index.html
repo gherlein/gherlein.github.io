@@ -296,7 +296,7 @@
 
 <p>So we cheated it a bit.  We wrote the code to have AM use <a href="https://etcd.io/">etcd</a> to store the alert state.  Every AM would put it&rsquo;s state there (if that alert had not already been stored).  Each AM would then periodically sync it&rsquo;s alert state to etcd, and on startup, would pull all alerts into memory.  We submitted a PR for this, but the Prometheus team did not see it as a priority.  It probably wasn&rsquo;t:  it was just something this particular use case needed.  So we had to fork the code, unfortunately.</p>
 
-<p>The code is open source, published here: <a href="https://github.com/cisco-kusanagi/alertmanager-ha">alertmanager-ha</a></p>
+<p>The code is open source, published here: <a href="https://github.com/cisco-kusanagi/alertmanager-ha">alertmanager-ha</a>.  Our talk at SphereIT in Poland in late 2019 includes a <a href="https://youtu.be/HHHvX5HloYQ?t=1667">live, on-stage demo</a> of this feature in action.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
