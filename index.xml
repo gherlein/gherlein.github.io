@@ -9,6 +9,15 @@
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
     <lastBuildDate>Sat, 07 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://blog.herlein.com/about/</link>
+      <pubDate>Sat, 14 May 2022 00:00:05 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/about/</guid>
+      <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!</description>
+    </item>
+    
+    <item>
       <title>Playing like it was summer (but with an ESP32)</title>
       <link>https://blog.herlein.com/post/back-to-the-future/</link>
       <pubDate>Sat, 07 May 2022 00:00:01 -0700</pubDate>
@@ -51,15 +60,6 @@
       
       <guid>https://blog.herlein.com/post/devops-what/</guid>
       <description>&lt;p&gt;Seems like everyone is clammoring for DevOps folks.  Do they really know what they want?  That term means all things to all people.  Some thoughts.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://blog.herlein.com/about/</link>
-      <pubDate>Tue, 01 Mar 2022 00:00:05 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/about/</guid>
-      <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!</description>
     </item>
     
     <item>
@@ -694,7 +694,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</d
 gherlein@herlein.com
 github.com/gherlein
 +1-415-368-7546
-Summary of Qualifications  10+ years Senior Engineering Leadership experience - teams up to 150 staff 10+ years distributed systems experience, 5+ years customer facing Extensive history migrating large-scale software to cloud-based SaaS deployments Strong software development, systems architecture, and operations experience Significant SRE background - treating operations as a software problem Cloud Expert - AWS Certified Solutions Architect/Developer/SysOps Admin Agile Expert - scrum, kanban and scrumban used in production on multiple SaaS Excellent communicator at all levels - especially strong communicationg technical vision Proven history of attracting, developing and growing high-level techncial talent Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo;  Work History Amazon AWS - Principal Evangelist, Amazon Chime SDK (12&amp;frasl;2020 to Present) The Amazon Chime SDK is a real-time communications components that developers can use to quickly add messaging, audio, video, telephony, and screen sharing capabilities to their web or mobile applications.</description>
+Summary of Qualifications  15+ years senior Engineering Leadership experience in all stages of the product lifecycle Proven track record leading large Engineering organizations (100+ Engineers) Significant experience driving automation and DevOps, distributed systems, cloud migration Strong technical expertise in Linux, networking, control systems, embedded systems Deep hands-on experience with software development, automated testing, networking Proven ability to work closely with customers both deploying and supporting products Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo; Agile Expert - scrum, kanban and scrumban – adept at maximizing feature velocity  Work History Amazon AWS - Principal Evangelist, Amazon Chime SDK (12&amp;frasl;2020 to Present) The Amazon Chime SDK is a real-time communications components that developers can use to quickly add messaging, audio, video, telephony, and screen sharing capabilities to their web or mobile applications.</description>
     </item>
     
   </channel>

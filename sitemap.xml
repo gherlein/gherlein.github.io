@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.herlein.com/about/</loc>
+    <lastmod>2022-05-14T00:00:05-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/embedded/</loc>
     <lastmod>2022-05-07T00:00:01-07:00</lastmod>
   </url>
@@ -130,11 +135,6 @@
   <url>
     <loc>https://blog.herlein.com/post/devops-what/</loc>
     <lastmod>2022-03-16T00:01:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/about/</loc>
-    <lastmod>2022-03-01T00:00:05-08:00</lastmod>
   </url>
   
   <url>
