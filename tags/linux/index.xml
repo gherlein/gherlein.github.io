@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 27 Mar 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Clicky Web Analytics with Hugo</title>
+      <link>https://blog.herlein.com/post/clicky/</link>
+      <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/clicky/</guid>
+      <description>&lt;p&gt;I added &lt;a href=&#34;https://clicky.com/&#34;&gt;Clicky&lt;/a&gt; web analytics to my blog (running &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Making Prometheus Alert Manager (more) Consistent</title>
       <link>https://blog.herlein.com/post/alert-manager-ha/</link>
