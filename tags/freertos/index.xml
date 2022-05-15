@@ -14,7 +14,11 @@
       <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
       
       <guid>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</guid>
-      <description>&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a title=&#34;Google Analytics Alternative&#34; href=&#34;https://clicky.com/101366448&#34;&gt;&lt;img alt=&#34;Clicky&#34; src=&#34;//static.getclicky.com/media/links/badge.gif&#34; border=&#34;0&#34; /&gt;&lt;/a&gt;
+&lt;script async src=&#34;//static.getclicky.com/101366448.js&#34;&gt;&lt;/script&gt;
+&lt;noscript&gt;&lt;p&gt;&lt;img alt=&#34;Clicky&#34; width=&#34;1&#34; height=&#34;1&#34; src=&#34;//in.getclicky.com/101366448ns.gif&#34; /&gt;&lt;/p&gt;&lt;/noscript&gt;&lt;/p&gt;
+
+&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;
 
 &lt;p&gt;Picking up from last weekend, I play with the &lt;a href=&#34;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware&#34;&gt;ESP32-POE-EA board from Olimex&lt;/a&gt; using the &lt;a href=&#34;https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#&#34;&gt;Espressif FreeRTOS ESP-IDF Framework&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
