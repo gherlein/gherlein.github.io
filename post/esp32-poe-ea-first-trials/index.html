@@ -289,7 +289,7 @@ I <span style="color:#f92672">(</span>2893<span style="color:#f92672">)</span> e
 <h2 id="but-how-is-this-different">But How is This Different?</h2>
 
 <p>Oof.  It&rsquo;s very different.  Right off I compared the sdkconfig files and painstakingly changed them on the new side.  I&rsquo;m unclear on a few things, like this difference:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">CONFIG_EXAMPLE_ETH_PHY_LAN8720<span style="color:#f92672">=</span>y                              | CONFIG_EXAMPLE_ETH_PHY_LAN87XX<span style="color:#f92672">=</span>y</code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">CONFIG_EXAMPLE_ETH_PHY_LAN8720<span style="color:#f92672">=</span>y     |CONFIG_EXAMPLE_ETH_PHY_LAN87XX<span style="color:#f92672">=</span>y</code></pre></div>
 <p>(that was created with &lsquo;diff -wy&rsquo; by the way).  Probably chalk it up to improvements in making the official code more generic, and the Olimex code is a snapshot in time of the official code.</p>
 
 <p>I think I got all the changes to match, but alas, it just crashes:</p>
