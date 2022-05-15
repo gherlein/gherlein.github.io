@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 07 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Trials:  ESP32-POE-EA Board from Olimex</title>
+      <link>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</link>
+      <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</guid>
+      <description>&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;
+
+&lt;p&gt;Picking up from last weekend, I play with the &lt;a href=&#34;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware&#34;&gt;ESP32-POE-EA board from Olimex&lt;/a&gt; using the &lt;a href=&#34;https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#&#34;&gt;Espressif FreeRTOS ESP-IDF Framework&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Playing like it was summer (but with an ESP32)</title>
       <link>https://blog.herlein.com/post/back-to-the-future/</link>

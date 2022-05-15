@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 07 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>embedded</title>
       <link>https://blog.herlein.com/tags/embedded/</link>
-      <pubDate>Sat, 07 May 2022 00:00:01 -0700</pubDate>
+      <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/embedded/</guid>
       <description></description>
@@ -20,16 +20,25 @@
     <item>
       <title>esp32</title>
       <link>https://blog.herlein.com/tags/esp32/</link>
-      <pubDate>Sat, 07 May 2022 00:00:01 -0700</pubDate>
+      <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/esp32/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>FreeRTOS</title>
+      <link>https://blog.herlein.com/tags/freertos/</link>
+      <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/freertos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>technical</title>
       <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sat, 07 May 2022 00:00:01 -0700</pubDate>
+      <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
@@ -365,15 +374,6 @@
       <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/esp8266/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FreeRTOS</title>
-      <link>https://blog.herlein.com/tags/freertos/</link>
-      <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/freertos/</guid>
       <description></description>
     </item>
     
