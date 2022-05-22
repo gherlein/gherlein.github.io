@@ -6,7 +6,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.80.0" />
 
-  <title>DevOps: Optimize for Cognitive Load &middot; Greg Herlein</title>
+  <title>DevOps: Manage the Cognitive Load &middot; Greg Herlein</title>
 
     
 
@@ -216,7 +216,7 @@
 
 
 <div class="header">
-  <h1>DevOps: Optimize for Cognitive Load</h1>
+  <h1>DevOps: Manage the Cognitive Load</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -250,7 +250,7 @@
 
 </div>
 
-  <p>Speed, cost and quality are considered the vectors that you can control.  Cognitive Load cuts across all of those.  What do I mean?</p>
+  <p>Speed, cost and quality are considered the vectors that you can control.  If you are moving to cloud to get the &ldquo;ilities&rdquo; that comprise quality, you need to seriously consider Cognitive Load.</p>
 
 <p>Over the last 10 years I&rsquo;ve seen a lot of different software architectures and systems at a lot of companies.  Every team and system has it&rsquo;s own history, it&rsquo;s own technical debt, it&rsquo;s own velocity and set of capabilities.  Some teams are staffed more completely than others.  Some are farther along the cloud journey than others.  Some have people with more current skills than others.</p>
 
@@ -260,7 +260,7 @@
 
 <p>Cognitive Load is the sum total of all the knowledge and understanding needed in order to do your job.  It&rsquo;s going to include the base eduction that got you to where you are at, and it includes all the new material you need to understand how your job is changing.  Some jobs have huge amounts of knowledge needed but don&rsquo;t change that fast.  I used to be a nuclear power plant operator and supervisor on a US Navy submarine.  It took two years of training before I stepped onto the boat, and generally it takes another year to be fully qualified.  But then it did not change all that fast.</p>
 
-<p><img src="https://blog.herlein.com/images/sf.jpg" width="60%"/></p>
+<p><center><img src="https://blog.herlein.com/images/sf.jpg" width="80%"/></center></p>
 
 <p>If your job is building and/or operating today&rsquo;s software then you have both a massive amount of residual knowledge needed AND it&rsquo;s changing incredibly fast.  If your job includes migrating software to cloud, then it&rsquo;s a double load: you need to know how the current system works, and you also need to understand all the cloud technology needed for how your system will work in the cloud.  If your software is written in, say, Java, and you are porting it to golang then it&rsquo;s a double load:  you need to know the Java ecosystem and also the golang tools and ecosystem.  If you are moving from VMs to containers, same thing.  All of those vectors of change are not additive.  They are multiplicative.</p>
 
@@ -268,7 +268,7 @@
 
 <p>Today, companies are moving towards &ldquo;Cloud Native&rdquo; architectures.  Which usually means Kubernetes (k8s).  Which itself then implies containers.  And a new monitoring system, probably oriented around &ldquo;observability.&rdquo;  And often it includes moving to a &ldquo;streaming&rdquo; data injest model, possibly with kafka or Amazon Kinesis or the like.  And if you are going there, you almost certainly want to adopt a &ldquo;DevOps&rdquo; posture, meaning using Continuous Integration and Continuous Deployment (CI/CD).  That means you also need automated, continuous testing, and almost certainly a whole new set of automation tools.  Jenkins may have served you well deploying to long-lived servers in a data center, but it&rsquo;s going to be a poor fit if you are doing k8s.</p>
 
-<p><img src="https://blog.herlein.com/images/brain.jpg" width="60%"/></p>
+<p><center><img src="https://blog.herlein.com/images/brain.jpg" width="60%"/></center></p>
 
 <p>BOOM.  The brain explodes.  This is a LOT of material.</p>
 
@@ -276,15 +276,23 @@
 
 <p>Product management is about planning what your product needs to do in order to be of the most value to customers.  It usually includes planning trade offs in the development of that product, usually trying to deliver useful bits of the product incrementally, usually adapting the product as you gain experience and customer feedback.  Engineering designs the archicture and builds the product. Management plans the funding, staffing, and work efforts.</p>
 
-<p>YOU MUST ALSO MANAGE THE COGNITIVE LOAD.</p>
+<p><b>YOU MUST ALSO MANAGE THE COGNITIVE LOAD.</b></p>
 
 <p>Your teams have to learn a lot of material, and there is no &ldquo;one size fits all&rdquo; approach to up-skilling your teams.  It&rsquo;s a learning journey.  Building the new architecture is a journey too, usually refactoring the software, shifting parts into micro-services, decoupling sub-systems, doing a &ldquo;strangler fig&rdquo; approach to untangle your monolith.  That takes planning.  The learning journey to cope with the cognitive load also takes planning.</p>
 
 <p>Don&rsquo;t underestimate this.  I personally have seen a project get into trouble because the team did not invest enough in how they were going to operate a new technology.  If you think you can just adopt something like kafka and it &ldquo;just works&rdquo; then you are going to have a bad quarter.  You have to plan how your teams are going to learn all the new tech.  You have to plan for the cognitive load.</p>
 
+<h2 id="optimization-and-choices">Optimization and Choices</h2>
+
+<p>Back to the vectors:  speed, cost, quality.  The old saying is &ldquo;pick any two.&rdquo;  Quality is the sum of all the &ldquo;ilities&rdquo; (reliability, sustainability, operability, scalability, etc.).  Adopting new cloud technology is to get you those &ldquo;ilities.&rdquo;  But clearly doing so will slow you down, and cost you more.</p>
+
+<p>You do have some choices.  You can choose how fast you adopt new technologies, and which technologies.  If you move to containers, do you really need to jump right to k8s?  Can you consider <a href="https://docs.docker.com/engine/swarm/">Docker Swarm?</a>.  What about <a href="https://www.nomadproject.io/">Hashicorp Nomad</a> instead?  Both have substantially lower learning curves.  Can you spread the change over a longer period?  What really is driving your need to make the changes in the first place?</p>
+
+<p>Sometimes you just have to bite the bullet and adopt change.  But consider the time to learn, training costs, and most importantly learning to OPERATE the new technology.  Does your team know how to troubleshoot it when it fails?  How do you recover?  Have you actually practiced that?</p>
+
 <h2 id="conclusion">Conclusion</h2>
 
-<p>Teams have a certain amount of energy they are able to deliver.  Some companies try to push teams harder to get more energy delivered per unit time, but ultimately the energy a team has is finite.  Some of that energy will be spent learning the new technologies.  You may be able to hire some new talent who already have the skills, but even that takes time.  And money.  There is a talent war going on.  In all likelyhood you will need to up-skill your existing teams.  And that means managing their Cognitive Load.</p>
+<p>Teams have a certain amount of energy they are able to deliver.  Some companies try to push teams harder to get more energy delivered per unit time, but ultimately the energy a team has is finite.  Some of that energy will be spent learning the new technologies.  You may be able to hire some new talent who already have the skills, but even that takes time.  And money.  There is a talent war going on.  In all likelyhood you will need to up-skill your existing teams.  And that means making careful choices about how much Cognitive Load you are taking on.</p>
 
 <p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
 <script async src="//static.getclicky.com/101366448.js"></script>
