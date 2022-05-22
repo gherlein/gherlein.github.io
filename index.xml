@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 15 May 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps: Optimize for Cognitive Load</title>
+      <link>https://blog.herlein.com/post/cognitive-load/</link>
+      <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/cognitive-load/</guid>
+      <description>&lt;p&gt;Speed, cost and quality are considered the vectors that you can control.  Cognitive Load cuts across all of those.  What do I mean?&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Using Clicky Web Analytics with Hugo</title>
       <link>https://blog.herlein.com/post/clicky/</link>

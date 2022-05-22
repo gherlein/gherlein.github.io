@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.herlein.com/tags/analytics/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/devops/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/cognitive-load/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/engineering/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/management/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/analytics/</loc>
     <lastmod>2022-05-15T00:00:01-08:00</lastmod>
   </url>
   
@@ -19,16 +49,6 @@
   
   <url>
     <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2022-05-15T00:00:01-08:00</lastmod>
   </url>
   
@@ -154,11 +174,6 @@
   
   <url>
     <loc>https://blog.herlein.com/tags/cloud/</loc>
-    <lastmod>2022-03-16T00:01:00-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/devops/</loc>
     <lastmod>2022-03-16T00:01:00-08:00</lastmod>
   </url>
   
@@ -504,11 +519,6 @@
   
   <url>
     <loc>https://blog.herlein.com/post/sa-team-software-approach/</loc>
-    <lastmod>2020-10-20T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/management/</loc>
     <lastmod>2020-10-20T00:00:01-08:00</lastmod>
   </url>
   

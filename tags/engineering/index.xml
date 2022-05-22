@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engineering on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/engineering/</link>
+    <description>Recent content in Engineering on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 21 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps: Optimize for Cognitive Load</title>
+      <link>https://blog.herlein.com/post/cognitive-load/</link>
+      <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/cognitive-load/</guid>
+      <description>&lt;p&gt;Speed, cost and quality are considered the vectors that you can control.  Cognitive Load cuts across all of those.  What do I mean?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
