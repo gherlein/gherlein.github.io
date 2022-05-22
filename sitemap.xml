@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.herlein.com/post/networking-book-review/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/networking/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.herlein.com/tags/devops/</loc>
     <lastmod>2022-05-21T00:00:01-07:00</lastmod>
   </url>
@@ -18,22 +53,7 @@
   </url>
   
   <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.herlein.com/tags/management/</loc>
-    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2022-05-21T00:00:01-07:00</lastmod>
   </url>
   
@@ -44,16 +64,6 @@
   
   <url>
     <loc>https://blog.herlein.com/tags/hug/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2022-05-15T00:00:01-08:00</lastmod>
   </url>
   
@@ -274,11 +284,6 @@
   
   <url>
     <loc>https://blog.herlein.com/post/local-data-collection/</loc>
-    <lastmod>2021-11-27T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/networking/</loc>
     <lastmod>2021-11-27T00:00:00-07:00</lastmod>
   </url>
   
