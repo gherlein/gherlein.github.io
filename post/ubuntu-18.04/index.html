@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Ubuntu Again! &middot; Greg Herlein</title>
 
@@ -317,14 +317,14 @@ person.  But honestly it was the hardest part of the whole process.</p>
 
 <p>The option that worked for me I found on the <a href="https://ubuntuforums.org/showthread.php?t=2390403">Ubuntu Forums</a>.  All I needed to do was add the following to the kernel
 parameters list (the line with vmlinuz in it) at the end:</p>
-<pre><code>acpi_osi=</code></pre>
+<pre tabindex="0"><code>acpi_osi=</code></pre>
 <p>Then hit Ctrl-x and let it boot.  Bingo.  It installed.  But that&rsquo;s not all.<br />
 To make that permanent, once you have the install done but before you reboot
 you need to go in and edit /etc/default/grub file and and add the same
 thing.</p>
-<pre><code>GRUB_CMDLINE_LINUX=&#34;acpi_osi=&#34;</code></pre>
+<pre tabindex="0"><code>GRUB_CMDLINE_LINUX=&#34;acpi_osi=&#34;</code></pre>
 <p>Then run the config utility:</p>
-<pre><code>update-grub</code></pre>
+<pre tabindex="0"><code>update-grub</code></pre>
 <p>And that&rsquo;s it.  At least for me. It forces the ACPI system to be &ldquo;generic&rdquo; and
 that lets things work OK for Linux.</p>
 

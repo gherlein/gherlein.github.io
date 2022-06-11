@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>First Trials:  ESP32-POE-EA Board from Olimex &middot; Greg Herlein</title>
 
@@ -263,7 +263,7 @@
 <p><center><img src="https://blog.herlein.com/images/esp32-poe-ea.jpg" width="60%"/></center></p>
 
 <p>And here it&rsquo;s on the network:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">I <span style="color:#f92672">(</span>1913<span style="color:#f92672">)</span> eth_example: Ethernet Started
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">I <span style="color:#f92672">(</span>1913<span style="color:#f92672">)</span> eth_example: Ethernet Started
 I <span style="color:#f92672">(</span>1913<span style="color:#f92672">)</span> eth_example: Ethernet Link Up
 I <span style="color:#f92672">(</span>1913<span style="color:#f92672">)</span> eth_example: Ethernet HW Addr 08:3a:f2:13:4c:4f
 I <span style="color:#f92672">(</span>2873<span style="color:#f92672">)</span> esp_netif_handlers: eth ip: 192.168.42.164, mask: 255.255.255.0, gw: 192.168.42.1
@@ -288,11 +288,11 @@ I <span style="color:#f92672">(</span>2893<span style="color:#f92672">)</span> e
 <h2 id="but-how-is-this-different">But How is This Different?</h2>
 
 <p>Oof.  It&rsquo;s very different.  Right off I compared the sdkconfig files and painstakingly changed them on the new side.  I&rsquo;m unclear on a few things, like this difference:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">CONFIG_EXAMPLE_ETH_PHY_LAN8720<span style="color:#f92672">=</span>y     |CONFIG_EXAMPLE_ETH_PHY_LAN87XX<span style="color:#f92672">=</span>y</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">CONFIG_EXAMPLE_ETH_PHY_LAN8720<span style="color:#f92672">=</span>y     |CONFIG_EXAMPLE_ETH_PHY_LAN87XX<span style="color:#f92672">=</span>y</code></pre></div>
 <p>(that was created with &lsquo;diff -wy&rsquo; by the way).  Probably chalk it up to improvements in making the official code more generic, and the Olimex code is a snapshot in time of the official code.</p>
 
 <p>I think I got all the changes to match, but alas, it just crashes:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">I <span style="color:#f92672">(</span>382<span style="color:#f92672">)</span> system_api: read default base MAC address from EFUSE
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">I <span style="color:#f92672">(</span>382<span style="color:#f92672">)</span> system_api: read default base MAC address from EFUSE
 E <span style="color:#f92672">(</span>402<span style="color:#f92672">)</span> lan87xx: lan87xx_init<span style="color:#f92672">(</span>499<span style="color:#f92672">)</span>: wrong chip ID
 E <span style="color:#f92672">(</span>402<span style="color:#f92672">)</span> esp_eth: esp_eth_driver_install<span style="color:#f92672">(</span>215<span style="color:#f92672">)</span>: init phy failed
 ESP_ERROR_CHECK failed: esp_err_t 0xffffffff <span style="color:#f92672">(</span>ESP_FAIL<span style="color:#f92672">)</span> at 0x40085548

@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Ubuntu Lid Control &middot; Greg Herlein</title>
 
@@ -270,7 +270,7 @@ sometimes sites go away I&rsquo;m going to duplicate the content below.</p>
 <h2 id="solution-from-maciej-mensfeld">Solution from MacieJ Mensfeld</h2>
 
 <p>You need to be root.</p>
-<pre><code>#sudo -i # really, you need to be root
+<pre tabindex="0"><code>#sudo -i # really, you need to be root
 echo &#39;HandleLidSwitch=ignore&#39; | tee --append /etc/systemd/logind.conf
 echo &#39;HandleLidSwitchDocked=ignore&#39; | tee --append /etc/systemd/logind.conf
 service systemd-logind restart

@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>GitHub Actions - Copy to S3 on Commit to Master &middot; Greg Herlein</title>
 
@@ -269,10 +269,10 @@
 <h2 id="actions">Actions</h2>
 
 <p>In your repo, you need to make a folder that tells GitHub what to do.</p>
-<pre><code>mkdir -p .github/workflows
+<pre tabindex="0"><code>mkdir -p .github/workflows
 touch .github/workflows/main.yaml</code></pre>
 <p>In your favorite text editor, open .github/workflows/main.yaml and paste the following:</p>
-<pre><code>name: CopyToS3
+<pre tabindex="0"><code>name: CopyToS3
 on: [push]
 jobs:
   build:

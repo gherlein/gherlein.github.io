@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Progress on ESP32 and FreeRTOS &middot; Greg Herlein</title>
 
@@ -273,14 +273,14 @@
 <p>I&rsquo;m using the config helper script provided in the FreeRTOS tree.  You fill out a JSON config file and run a python script and it creates the AWS IoT thing, the certs, the policy, and then associates the policy to the cert and the cert to the thing.  It also does all the work for you to embed the cert binaries into the header files.  Again, this is not for production use but for learning it&rsquo;s fine.</p>
 
 <p>I don&rsquo;t think this is documented, and I have not automated around it, but that script does have more features.  If you just run the script over and over it will fail, since the thing/certs/policy already exist.  But, you can clean it all up like this:</p>
-<pre><code>cd amazon-freertos/tools/aws_config_quick_start
+<pre tabindex="0"><code>cd amazon-freertos/tools/aws_config_quick_start
 python SetupAWS.py cleanup</code></pre>
 <p>Then you can start over cleanly.</p>
 
 <h3 id="dboard-parameter">DBOARD Parameter</h3>
 
 <p>The most important command in the chain is this one:</p>
-<pre><code>cmake -DVENDOR=espressif -DBOARD=esp32_wrover_kit -DCOMPILER=xtensa-esp32 -S . -B build -GNinja
+<pre tabindex="0"><code>cmake -DVENDOR=espressif -DBOARD=esp32_wrover_kit -DCOMPILER=xtensa-esp32 -S . -B build -GNinja
 idf.py build</code></pre>
 <p>But&hellip;  which board do you have?  The build system <a href="https://github.com/aws/amazon-freertos/blob/master/vendors/espressif/boards/esp32/CMakeLists.txt">supports a few options</a>:</p>
 
@@ -309,7 +309,7 @@ idf.py build</code></pre>
 </ul>
 
 <p>How do you know what chip your ESP32 uses?  You use the &lsquo;esptool read_mac&rsquo; command, like this:</p>
-<pre><code>gherlein@mars:~/src/aws$ esptool read_mac
+<pre tabindex="0"><code>gherlein@mars:~/src/aws$ esptool read_mac
 esptool.py v2.8
 Found 1 serial ports
 Serial port /dev/ttyUSB0

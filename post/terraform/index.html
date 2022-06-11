@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still? &middot; Greg Herlein</title>
 
@@ -270,13 +270,13 @@ But AMI IDs are not consistent across regions.  A basic latest 20.04 amd64 Ubunt
 <p>Alas, I learned something yesterday:  the NAME of the image is consistent.  Now, if you look at the Cannonical lookup page it tells you the &ldquo;name&rdquo; is basically their release code name (e.g. trusty, precise, focal, etc).  Not really helpful. Back to Ubuntu&rsquo;s reliance on silly names not numbered releases.</p>
 
 <p>How do you find the names?  AWS CLI to the rescue:</p>
-<pre><code>aws ec2 describe-images   --region us-west-2 --filters &#34;Name=name, Values=*ubuntu-*-20.04-amd64-server-*&#34; |grep \&#34;Name
+<pre tabindex="0"><code>aws ec2 describe-images   --region us-west-2 --filters &#34;Name=name, Values=*ubuntu-*-20.04-amd64-server-*&#34; |grep \&#34;Name
             &#34;Name&#34;: &#34;ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20200528&#34;,
             &#34;Name&#34;: &#34;ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20200423-aced0818-eef1-427a-9e04-8ba38bada306-ami-068663a3c619dd892.4&#34;,
             &#34;Name&#34;: &#34;ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20200423&#34;,
             &#34;Name&#34;: &#34;ubuntu-pro/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20200423-ae7ed378-8838-4fcf-842d-d1d09b34f116-ami-0118f3de163338756.4&#34;,            </code></pre>
 <p>The key is the filter:</p>
-<pre><code> --filters &#34;Name=name, Values=*ubuntu-*-20.04-amd64-server-*&#34;</code></pre>
+<pre tabindex="0"><code> --filters &#34;Name=name, Values=*ubuntu-*-20.04-amd64-server-*&#34;</code></pre>
 <p>If I was looking for another Ubuntu release - or perhaps for arm64 not amd64 - I could change that and find the name.  From what I can tell there&rsquo;s a naming convention they follow, but I&rsquo;m a &ldquo;trust but verify&rdquo; kind of person.</p>
 
 <p>OK.  Now I know I have a name that I can look up.  The CLI gave me four options.</p>
@@ -284,9 +284,9 @@ But AMI IDs are not consistent across regions.  A basic latest 20.04 amd64 Ubunt
 <h3 id="don-t-need-to-know-the-full-names">Don&rsquo;t Need to Know the Full Names!</h3>
 
 <p>But I don&rsquo;t actually need to know the full names.  We can do the same kind of search right in terraform, and luckily terraform provides a way to select the most recent AMI, conveniently with this snip:</p>
-<pre><code>  most_recent = true</code></pre>
+<pre tabindex="0"><code>  most_recent = true</code></pre>
 <p>Here is a sample terraform that will launch an EC2 instance using the latest Ubuntu 20.04 image:</p>
-<pre><code>provider &#34;aws&#34; {
+<pre tabindex="0"><code>provider &#34;aws&#34; {
  region = &#34;us-west-2&#34;
 }
 

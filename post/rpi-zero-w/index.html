@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Raspberry Pi Zero W Fun &middot; Greg Herlein</title>
 
@@ -285,7 +285,7 @@
 <p><img src="https://blog.herlein.com/images/rpizw.jpg" width="100%"/></p>
 
 <p>It&rsquo;s just a BME280 temperature and humidity sensor.</p>
-<pre><code>gherlein@raspberrypi:~ $ sudo i2cdetect -y 1
+<pre tabindex="0"><code>gherlein@raspberrypi:~ $ sudo i2cdetect -y 1
 [sudo] password for gherlein: 
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
@@ -301,11 +301,11 @@
 <h3 id="setup">Setup</h3>
 
 <p>Some notes, for posterity.  You really want to treat these boards as headless.  That means you reall want to network enable them right away.  [Here](<a href="https://desertbot.io/blog/setup-pi-zero-w-headless-wifi_">https://desertbot.io/blog/setup-pi-zero-w-headless-wifi_</a> is a post with details on that, but the key things are:</p>
-<pre><code># mount the SD card and cd into the /boot folder
+<pre tabindex="0"><code># mount the SD card and cd into the /boot folder
 touch /Volumes/boot/ssh
 touch /Volumes/boot/wpa_supplicant.conf</code></pre>
 <p>Then edit wpa_supplicant.conf to include your details</p>
-<pre><code>country=US
+<pre tabindex="0"><code>country=US
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
@@ -314,7 +314,7 @@ network={
     psk=&#34;NETWORK-PASSWORD&#34;
 }</code></pre>
 <p>The pi will use zeroconf so that you can directly ssh it without setting up any DNS foo.</p>
-<pre><code>ssh pi@raspberrypi.local</code></pre>
+<pre tabindex="0"><code>ssh pi@raspberrypi.local</code></pre>
 <p>Then set it up like usual.</p>
 
 <h3 id="software">Software</h3>

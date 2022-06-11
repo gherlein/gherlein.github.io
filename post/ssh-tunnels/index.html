@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>SSH Tunnels &middot; Greg Herlein</title>
 
@@ -261,7 +261,7 @@
 <p>By operational I mean that it &ldquo;just works.&rdquo;  Even if you lose power and everything reboots.  That article goes over how to configure systemd to make that happen.  It&rsquo;s not that hard, and there are not that many steps.  You will need a VM in the cloud somewhere or a linux box on a public IP.  I have a linode host for these kinds of things.</p>
 
 <p>Anyway, all that is vanilla.  The problem I was having was that I needed to access a web page on an appliance on the remote network.  The vendor didn&rsquo;t make a means to upgrade the firmware from a CLI - I needed web access.  I fiddled and farted and I tried this and I tried that and nothing was working all that well.  So I called my good friend David Wang and talked him through it all.  I was re-assured that he thought it was complicated too.  It was him that had the epiphany that this was not a two hop problem.  I did not need to make a second proxy that jumped to the linode VM that jumped to the remote network. It was a one hop from localhost:</p>
-<pre><code>ssh  -N -D &lt;local port, like 8080&gt; &lt;public host&gt; -p &lt;ssh tunnel port&gt;</code></pre>
+<pre tabindex="0"><code>ssh  -N -D &lt;local port, like 8080&gt; &lt;public host&gt; -p &lt;ssh tunnel port&gt;</code></pre>
 <p>Tell Firefox to use a &ldquo;Manual Proxy Configuration&rdquo; set to localhost on local port (like 8080) and make sure you select SOCKS v5.  Point your browser at the remote host on the remote network and&hellip;.</p>
 
 <p>It worked.  Just worked.  Like magic.</p>

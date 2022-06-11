@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Kinesis Video Streams - Just Getting Started &middot; Greg Herlein</title>
 
@@ -263,7 +263,7 @@
 <h2 id="building-the-plugin">Building the Plugin</h2>
 
 <p>The code to start with is the <a href="https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp">GStreamer plugin</a>.  The build instructions were confusing so I submitted a Pull Request to make them more clear.  That may be accepted by the time you read this, but if not, here&rsquo;s what you do:</p>
-<pre><code>git clone https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp.git
+<pre tabindex="0"><code>git clone https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp.git
 mkdir -p amazon-kinesis-video-streams-producer-sdk-cpp/build; 
 cd amazon-kinesis-video-streams-producer-sdk-cpp/build; 
 cmake -DBUILD_GSTREAMER_PLUGIN=ON ..</code></pre>
@@ -274,7 +274,7 @@ cmake -DBUILD_GSTREAMER_PLUGIN=ON ..</code></pre>
 <p>To run this you need to have an RTSP camera handy.  I&rsquo;m a fan of the <a href="https://store.ui.com/collections/surveillance">Unifi Camera Product line</a> and have several.  You will need to find the RTSP URL that applies to you.</p>
 
 <p>I hate typing commands over and over, so I&rsquo;m a fan of makefiles.  In the build folder I made a new file called Makefile.run:</p>
-<pre><code>ACCESS=&#34;&lt;your AWS access key&gt;&#34;
+<pre tabindex="0"><code>ACCESS=&#34;&lt;your AWS access key&gt;&#34;
 SECRET=&#34;&lt;your AWS secret key&gt;&#34;
 REGION=&#34;&lt;your AWS region&gt;&#34;
 

@@ -1,937 +1,563 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://blog.herlein.com/post/networking-book-review/</loc>
-    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
-    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/networking/</loc>
-    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
-    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/devops/</loc>
-    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/cognitive-load/</loc>
-    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/engineering/</loc>
-    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/management/</loc>
-    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/analytics/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/hug/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/clicky/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/web/</loc>
-    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/embedded/</loc>
-    <lastmod>2022-05-15T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/esp32/</loc>
-    <lastmod>2022-05-15T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</loc>
-    <lastmod>2022-05-15T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/tags/freertos/</loc>
-    <lastmod>2022-05-15T00:00:01-07:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://blog.herlein.com/about/</loc>
-    <lastmod>2022-05-14T00:00:05-08:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-06-11T00:01:05-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/networking-book-review/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/networking/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/devops/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/cognitive-load/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/engineering/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/management/</loc>
+    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/analytics/</loc>
+    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/hug/</loc>
+    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/clicky/</loc>
+    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/web/</loc>
+    <lastmod>2022-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/embedded/</loc>
+    <lastmod>2022-05-15T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/esp32/</loc>
+    <lastmod>2022-05-15T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</loc>
+    <lastmod>2022-05-15T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/freertos/</loc>
+    <lastmod>2022-05-15T00:00:01-07:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/back-to-the-future/</loc>
     <lastmod>2022-05-07T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/cap/</loc>
     <lastmod>2022-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/alert-manager-ha/</loc>
     <lastmod>2022-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/monitoring/</loc>
     <lastmod>2022-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/prometheus/</loc>
     <lastmod>2022-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/snmp/</loc>
     <lastmod>2022-03-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/amazon-chime-sdk/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/amazon-lex/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/amazon-polly/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/aws/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/lex2/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ml/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/telephony/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/debian/</loc>
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/debian-again2/</loc>
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ubuntu/</loc>
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/cloud/</loc>
     <lastmod>2022-03-16T00:01:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/devops-what/</loc>
     <lastmod>2022-03-16T00:01:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/sdlc/</loc>
     <lastmod>2022-03-01T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/software-development/</loc>
     <lastmod>2022-03-01T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/cicd-thoughts/</loc>
     <lastmod>2022-03-01T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/automation/</loc>
     <lastmod>2022-02-13T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/cdk/</loc>
     <lastmod>2022-02-13T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/single-ec2-cdk/</loc>
     <lastmod>2022-02-13T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ec2/</loc>
     <lastmod>2022-02-13T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/modern-node-dev/</loc>
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/node.js/</loc>
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/projen/</loc>
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/typescript/</loc>
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/embedded-linux/</loc>
     <lastmod>2021-12-24T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/spiral-again/</loc>
     <lastmod>2021-12-24T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/general/</loc>
     <lastmod>2021-12-07T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/non-technical/</loc>
     <lastmod>2021-12-07T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/thirty-years/</loc>
     <lastmod>2021-12-07T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/amazon-blog/</loc>
     <lastmod>2021-12-05T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/iot/</loc>
     <lastmod>2021-11-27T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/local-data-collection/</loc>
     <lastmod>2021-11-27T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/udp/</loc>
     <lastmod>2021-11-27T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/beaglebone-getting-started/</loc>
     <lastmod>2021-11-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/hardware/</loc>
     <lastmod>2021-11-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/i2c/</loc>
     <lastmod>2021-11-25T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/webrtc-phone/</loc>
     <lastmod>2021-10-05T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/webrtc/</loc>
     <lastmod>2021-10-05T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/vlc/</loc>
     <lastmod>2021-10-03T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/vlc/</loc>
     <lastmod>2021-10-03T00:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/xdotool/</loc>
     <lastmod>2021-09-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/x11/</loc>
     <lastmod>2021-09-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/goodnight-twitter/</loc>
     <lastmod>2021-08-31T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/personal/</loc>
     <lastmod>2021-08-31T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/mqtt/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/mqtt/</loc>
     <lastmod>2021-06-27T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/summer/</loc>
     <lastmod>2021-06-08T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/esp8266/</loc>
     <lastmod>2021-04-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/tasmota/</loc>
     <lastmod>2021-04-18T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/freertos-helper-esp32/</loc>
     <lastmod>2021-04-04T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/aws-iot-c-sdk/</loc>
     <lastmod>2021-03-22T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/esp32/</loc>
     <lastmod>2021-03-21T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/esp-idf/</loc>
     <lastmod>2021-03-07T00:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/esp32c3/</loc>
     <lastmod>2021-03-07T00:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/esp32c3/</loc>
     <lastmod>2021-03-07T00:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/kinesis/</loc>
     <lastmod>2021-02-27T00:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/kinesis-video-streams/</loc>
     <lastmod>2021-02-27T00:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/video/</loc>
     <lastmod>2021-02-27T00:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/sysops-cert-2021/</loc>
     <lastmod>2021-01-30T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/certifications/</loc>
     <lastmod>2021-01-30T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/c/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/ending-2020/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/serial/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/serial/</loc>
     <lastmod>2020-12-19T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/costs/</loc>
     <lastmod>2020-11-11T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/power/</loc>
     <lastmod>2020-11-11T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/power/</loc>
     <lastmod>2020-11-11T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/cloudwatch/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/syslogs/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</loc>
     <lastmod>2020-11-04T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/disposability/</loc>
     <lastmod>2020-10-24T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/actions/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/github/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/github-to-s3/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/s3/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/golang/</loc>
     <lastmod>2020-10-22T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/golang-enabled-microkernel-reality/</loc>
     <lastmod>2020-10-22T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/micro-kernels/</loc>
     <lastmod>2020-10-22T00:00:01-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/architecture/</loc>
     <lastmod>2020-10-20T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/sa-team-software-approach/</loc>
     <lastmod>2020-10-20T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/efficiency/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/hotkeys/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/hotkeys/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/macos/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/shortcuts/</loc>
     <lastmod>2020-10-17T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/copy-paste/</loc>
     <lastmod>2020-10-05T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/iterm2/</loc>
     <lastmod>2020-10-05T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/iterm2-paste/</loc>
     <lastmod>2020-10-05T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/osx/</loc>
     <lastmod>2020-10-05T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/sre/</loc>
     <lastmod>2020-09-30T14:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/sre-123/</loc>
     <lastmod>2020-09-30T14:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/blackburn/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/blogging/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/hugo-social-media-icons/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/hugo/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/hugo-images/</loc>
     <lastmod>2020-09-26T00:00:03-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/hello-ubuntu-kinda/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/raspberry-pi/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/rpi-zero-w/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/rpi/</loc>
     <lastmod>2020-09-26T00:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/debian-again/</loc>
     <lastmod>2020-08-07T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/lti/</loc>
     <lastmod>2020-06-27T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/driver/</loc>
     <lastmod>2020-06-27T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/kernel/</loc>
     <lastmod>2020-06-27T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/code/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/docs/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/docs-as-code/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/git/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/terraform/</loc>
     <lastmod>2020-06-06T07:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/terraform/</loc>
     <lastmod>2020-06-06T07:21:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/blm/</loc>
     <lastmod>2020-06-06T00:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/opinion/</loc>
     <lastmod>2020-06-06T00:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/sphereit/</loc>
     <lastmod>2020-04-21T07:16:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/rdp/</loc>
     <lastmod>2020-04-21T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/rdp/</loc>
     <lastmod>2020-04-21T03:10:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ssh/</loc>
     <lastmod>2020-04-12T06:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/ssh-tunnels/</loc>
     <lastmod>2020-04-12T06:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/baking/</loc>
     <lastmod>2020-03-28T08:21:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/bread/</loc>
     <lastmod>2020-03-28T08:21:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/covid-19/</loc>
     <lastmod>2020-03-15T13:21:00-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/education/</loc>
     <lastmod>2019-07-19T07:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/college/</loc>
     <lastmod>2019-07-19T07:00:00-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/ubuntu-lid/</loc>
     <lastmod>2019-07-18T18:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/update-july/</loc>
     <lastmod>2019-07-18T11:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/development/</loc>
     <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/micro-services/</loc>
     <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/blowing-up-monolith/</loc>
     <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/software/</loc>
     <lastmod>2019-02-24T08:00:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/cloud-basics/</loc>
     <lastmod>2019-02-10T14:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/robotics/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ros/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/self-driving-revolution/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/management-readme/</loc>
     <lastmod>2019-01-30T09:30:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/electronics/</loc>
     <lastmod>2019-01-21T13:40:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/product/</loc>
     <lastmod>2019-01-21T13:40:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/rbot-value-prop/</loc>
     <lastmod>2019-01-21T13:40:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/boards/</loc>
     <lastmod>2019-01-21T10:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/eagle/</loc>
     <lastmod>2019-01-21T10:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/smd/</loc>
     <lastmod>2019-01-21T10:50:08-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/ubuntu-18.04/</loc>
     <lastmod>2019-01-05T08:40:43-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/design/</loc>
     <lastmod>2018-12-30T10:33:02-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/esp32-pico-v4-library/</loc>
     <lastmod>2018-12-30T10:33:02-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/data-analytics/</loc>
     <lastmod>2018-12-24T11:33:02-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/scrappy/</loc>
     <lastmod>2018-12-24T11:33:02-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/uber-driver-data/</loc>
     <lastmod>2018-12-24T11:33:02-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/aws-certified/</loc>
     <lastmod>2018-12-18T23:50:38-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/avalanche-reinvent/</loc>
     <lastmod>2018-12-18T10:50:01-08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/eng-leadership-321/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/leadership/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/team-building/</loc>
     <lastmod>2018-10-15T21:30:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/i2c-for-robot/</loc>
     <lastmod>2018-09-29T08:44:43-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/pcal6416a-getting-started/</loc>
     <lastmod>2018-07-14T19:32:04-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/hello-world/</loc>
     <lastmod>2018-06-30T09:30:29-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/golang-enabled-microkernels/</loc>
     <lastmod>2018-01-29T16:29:39-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/data-centers/</loc>
     <lastmod>2016-12-21T16:29:39-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/technology-rolls-on/</loc>
     <lastmod>2016-12-21T16:29:39-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/post/how-to-do-devops/</loc>
     <lastmod>2016-04-12T16:29:39-07:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/projects/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/resume/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://blog.herlein.com/categories/</loc>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ci/cd/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ml/ai/</loc>
   </url>
-  
-  <url>
-    <loc>https://blog.herlein.com/topics/</loc>
-  </url>
-  
 </urlset>

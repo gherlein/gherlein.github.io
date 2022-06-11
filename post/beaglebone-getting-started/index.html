@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Beaglebone Black - Getting Started &middot; Greg Herlein</title>
 
@@ -276,7 +276,7 @@ I then wired up my trusty DS18b20 and started playing.</p>
 <p><img src="https://blog.herlein.com/images/bb.jpeg" width="100%" /></p>
 
 <p>I followed <a href="https://elinux.org/EBC_Exercise_31_Dallas_1-Wire">these instructions</a> and I can definitely read the temperature.  Progress!</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/sys/class/hwmon/hwmon0&gt; cat temp1_input
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/sys/class/hwmon/hwmon0&gt; cat temp1_input
 <span style="color:#ae81ff">23062</span></code></pre></div>
 <p>Divide 23062 by 1000 to get the reading in C.</p>
 

@@ -9,6 +9,15 @@
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
     <lastBuildDate>Sun, 22 May 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://blog.herlein.com/about/</link>
+      <pubDate>Sat, 11 Jun 2022 00:01:05 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/about/</guid>
+      <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!</description>
+    </item>
+    
+    <item>
       <title>Book Review: Linux for Networking Professionals</title>
       <link>https://blog.herlein.com/post/networking-book-review/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
@@ -44,15 +53,6 @@
       <description>&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;
 
 &lt;p&gt;Picking up from last weekend, I play with the &lt;a href=&#34;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware&#34;&gt;ESP32-POE-EA board from Olimex&lt;/a&gt; using the &lt;a href=&#34;https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#&#34;&gt;Espressif FreeRTOS ESP-IDF Framework&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://blog.herlein.com/about/</link>
-      <pubDate>Sat, 14 May 2022 00:00:05 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/about/</guid>
-      <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!</description>
     </item>
     
     <item>

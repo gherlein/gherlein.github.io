@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Local Data Collection and Command Distribution &middot; Greg Herlein</title>
 
@@ -297,9 +297,9 @@ it&rsquo;s not going to change anything.  And as I mention below, if I lose a co
 <h2 id="prove-it-udp-code-is-easy">Prove It:  UDP Code is Easy</h2>
 
 <p>I pulled together a simple C file yesterday while watching TV.  63 lines of code to build a simple CLI program to send a broadcast packet.  Read the code <a href="https://github.com/gherlein/sendudp">here</a>.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">beaglebone:~&gt; ./sendudp <span style="color:#ae81ff">8000</span> <span style="color:#e6db74">&#34;This is just a test&#34;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">beaglebone:~&gt; ./sendudp <span style="color:#ae81ff">8000</span> <span style="color:#e6db74">&#34;This is just a test&#34;</span></code></pre></div>
 <p>And the output in tcpdump:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mars:~&gt; sudo tcpdump -i enxd0374505d925 -n <span style="color:#e6db74">&#34;broadcast&#34;</span> and port <span style="color:#ae81ff">8000</span> -s <span style="color:#ae81ff">1024</span> -X
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mars:~&gt; sudo tcpdump -i enxd0374505d925 -n <span style="color:#e6db74">&#34;broadcast&#34;</span> and port <span style="color:#ae81ff">8000</span> -s <span style="color:#ae81ff">1024</span> -X
 tcpdump: verbose output suppressed, use -v or -vv <span style="color:#66d9ef">for</span> full protocol decode
 listening on enxd0374505d925, link-type EN10MB <span style="color:#f92672">(</span>Ethernet<span style="color:#f92672">)</span>, capture size <span style="color:#ae81ff">1024</span> bytes
 06:51:50.676886 IP 192.168.2.104.43532 &gt; 255.255.255.255.8000: UDP, length <span style="color:#ae81ff">19</span>
@@ -353,13 +353,13 @@ I&rsquo;m already working on using a <a href="https://blog.herlein.com/post/beag
 <h2 id="practical-example">Practical Example</h2>
 
 <p>On my beaglebone I wrote a script:</p>
-<pre><code>beaglebone:~&gt; cat ./sendtemp.sh
+<pre tabindex="0"><code>beaglebone:~&gt; cat ./sendtemp.sh
 TEMP=`cat /sys/class/hwmon/hwmon0/temp1_input`
 TEMPC=`awk &#34;BEGIN {print $TEMP/1000}&#34;`
 echo $TEMPC
 ./sendudp 8000 $TEMPC</code></pre>
 <p>and if you run it you can get the data over the network:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mars:~&gt; sudo tcpdump -i enxd0374505d925 -n <span style="color:#e6db74">&#34;broadcast&#34;</span> and port <span style="color:#ae81ff">8000</span> -s <span style="color:#ae81ff">1024</span> -X
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mars:~&gt; sudo tcpdump -i enxd0374505d925 -n <span style="color:#e6db74">&#34;broadcast&#34;</span> and port <span style="color:#ae81ff">8000</span> -s <span style="color:#ae81ff">1024</span> -X
 tcpdump: verbose output suppressed, use -v or -vv <span style="color:#66d9ef">for</span> full protocol decode
 listening on enxd0374505d925, link-type EN10MB <span style="color:#f92672">(</span>Ethernet<span style="color:#f92672">)</span>, capture size <span style="color:#ae81ff">1024</span> bytes
 08:26:56.897086 IP 192.168.2.104.51066 &gt; 255.255.255.255.8000: UDP, length <span style="color:#ae81ff">6</span>

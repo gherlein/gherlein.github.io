@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Learnings from patching a bug in a modern project &middot; Greg Herlein</title>
 
@@ -271,7 +271,7 @@ about using the CDK stop reading this and go buy it.  Seriously.  You need it.</
 <p><a href="https://github.com/projen/projen">Projen</a> aims to &ldquo;define and maintain complex project configuration through code.&rdquo;  I believe the same thing about Infra and Operations, so I&rsquo;m all in. I have to know more.  I immediately did the &ldquo;Getting Started&rdquo; steps.</p>
 
 <p>And it immediately blew up.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gherlein@ip-172-31-61-56:~/t$ npx projen new awscdk-construct
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gherlein@ip-172-31-61-56:~/t$ npx projen new awscdk-construct
 👾 Project definition file was created at /home/gherlein/t/.projenrc.js
 yarn install v1.22.11
 info No lockfile found.
@@ -295,10 +295,10 @@ branch to main (not master).  The right thing to do.  More digging.</p>
 
 <p>It turns out that git only added &ldquo;init -b&rdquo; as an option in version 2.28.  I was working on an
 EC2 instance running Ubuntu 20.04 LTS.  Behold:</p>
-<pre><code>gherlein@ip-172-31-61-56:~/t$ git --version
+<pre tabindex="0"><code>gherlein@ip-172-31-61-56:~/t$ git --version
 git version 2.25.1</code></pre>
 <p>This is quickly fixable, of course:</p>
-<pre><code>sudo apt remove -y git git-man
+<pre tabindex="0"><code>sudo apt remove -y git git-man
 sudo add-apt-repository -y ppa:git-core/ppa
 sudo apt -y update
 sudo apt -y install git</code></pre>
@@ -309,10 +309,10 @@ sudo apt -y install git</code></pre>
 <p>Projen has an <a href="https://github.com/projen/projen/blob/main/CONTRIBUTING.md">excellent page on contributing</a>.  I often don&rsquo;t read those pages because they are T&amp;Cs about licensing.  In this case, it&rsquo;s an excellent primer on how to go about setting up a development environment.  Here&rsquo;s the neat trick I learned extrapolated to any similar &ldquo;tool&rdquo; you will run with npx:</p>
 
 <p>First, in your tool directory:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /path/to/local/tool/repo
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /path/to/local/tool/repo
 yarn link</code></pre></div>
 <p>Then, in the folder you plan to work from:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /path/to/working folder
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd /path/to/working folder
 yarn link &lt;tool name&gt;
 node_modules/projen/bin/&lt;tool name&gt;</code></pre></div>
 <p>The command <a href="https://classic.yarnpkg.com/en/docs/cli/link/">&ldquo;yarn link&rdquo;</a> creates a symlink at the global node_modules level.  You can then directly run your tool from the command line.</p>

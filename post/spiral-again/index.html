@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>Spiral Again? &middot; Greg Herlein</title>
 
@@ -280,14 +280,14 @@ adapters.  No problem.  Tested that they worked with &ldquo;screen&rdquo; and th
 
 <p><a href="http://klaus.ede.hih.au.dk/index.php/BBB_and_OneWire">Here</a> is an excellent tutorial on how to get started reading the sensors.  One or two sensors works great.  But it&rsquo;s REALLY unreliable if I use more
 than two.  Check this out:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo ls /sys/bus/w1/devices
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo ls /sys/bus/w1/devices
 28-00000002864c  28-00000002c80d  28-00000003a931  28-000004d04033  w1_bus_master1</code></pre></div>
 <p>Four devices.  Good.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">beaglebone:~&gt; sudo cat /sys/bus/w1/devices/28-00000002864c/w1_slave
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">beaglebone:~&gt; sudo cat /sys/bus/w1/devices/28-00000002864c/w1_slave
 ff ff ff ff ff ff ff ff ff : crc<span style="color:#f92672">=</span>c9 NO
 <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> <span style="color:#ae81ff">00</span> t<span style="color:#f92672">=</span>-62</code></pre></div>
 <p>Good.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo ls /sys/bus/w1/devices/28-00000002864c
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo ls /sys/bus/w1/devices/28-00000002864c
 ls: cannot access <span style="color:#e6db74">&#39;/sys/bus/w1/devices/28-00000002864c&#39;</span>: No such file or directory
 sudo ls /sys/bus/w1/devices/
 28-00000002c80d  28-000000038289  28-000004d04033  w1_bus_master1</code></pre></div>

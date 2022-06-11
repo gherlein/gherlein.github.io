@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.80.0" />
+  <meta name="generator" content="Hugo 0.92.2" />
 
   <title>My First Amazon Blog... ML/AI Chatbot over the Phone! &middot; Greg Herlein</title>
 
@@ -313,7 +313,7 @@ caller-id and knows if you have called before.  It stores your number in DynamoD
 <h2 id="yes-but-how-would-i-really-do-this">Yes, But How Would I Really Do This?</h2>
 
 <p>It&rsquo;s simple.  Just replicate the <a href="https://github.com/aws-samples/amazon-chime-sdk-pstn-cdk">template repo</a> into your AWS account.  You can see the new Github repo <a href="https://github.com/gherlein/simpleTest">here</a>.  Clone the CRP as described in the README.  Make sure you have a dependencies intalled like the README describes and then go into the template folder and typled &ldquo;make deploy.&rdquo;  Here is the sum total of what I did after I clicked &ldquo;Use this Template&rdquo; in github into my own &ldquo;simpleTest&rdquo; repo:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone git@github.com:aws-samples/amazon-chime-sdk-pstn-provider.git
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone git@github.com:aws-samples/amazon-chime-sdk-pstn-provider.git
 git clone git@github.com:gherlein/simpleTest.git
 cd simpleTest
 make deploy</code></pre></div>
