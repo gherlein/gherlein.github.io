@@ -9,6 +9,33 @@
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
     <lastBuildDate>Sun, 22 May 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>AWS</title>
+      <link>https://blog.herlein.com/tags/aws/</link>
+      <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book-reviw</title>
+      <link>https://blog.herlein.com/tags/book-reviw/</link>
+      <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/book-reviw/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://blog.herlein.com/tags/cloud/</link>
+      <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>linux</title>
       <link>https://blog.herlein.com/tags/linux/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
@@ -180,15 +207,6 @@
     </item>
     
     <item>
-      <title>AWS</title>
-      <link>https://blog.herlein.com/tags/aws/</link>
-      <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/aws/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ML</title>
       <link>https://blog.herlein.com/tags/ml/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
@@ -221,15 +239,6 @@
       <pubDate>Fri, 18 Mar 2022 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cloud</title>
-      <link>https://blog.herlein.com/tags/cloud/</link>
-      <pubDate>Wed, 16 Mar 2022 00:01:00 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/cloud/</guid>
       <description></description>
     </item>
     

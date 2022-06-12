@@ -5,7 +5,19 @@
     <loc>https://blog.herlein.com/about/</loc>
     <lastmod>2022-06-11T00:01:05-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/aws/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/aws-cookbook-review/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/networking-book-review/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/book-reviw/</loc>
+    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/cloud/</loc>
     <lastmod>2022-05-22T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/</loc>
@@ -89,9 +101,6 @@
     <loc>https://blog.herlein.com/tags/amazon-polly/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/aws/</loc>
-    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/lex2/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
   </url><url>
@@ -109,9 +118,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/ubuntu/</loc>
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/cloud/</loc>
-    <lastmod>2022-03-16T00:01:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/devops-what/</loc>
     <lastmod>2022-03-16T00:01:00-08:00</lastmod>
