@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>leadership on Greg Herlein</title>
+    <title>Leadership on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/leadership/</link>
-    <description>Recent content in leadership on Greg Herlein</description>
+    <description>Recent content in Leadership on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 15 Oct 2018 21:30:29 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jun 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brighsign!</title>
+      <link>https://blog.herlein.com/post/brightsign/</link>
+      <pubDate>Mon, 20 Jun 2022 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/brightsign/</guid>
+      <description>&lt;p&gt;What&amp;rsquo;s old is new again:  I&amp;rsquo;ve joined &lt;a href=&#34;https://www.brightsign.biz/&#34;&gt;Brightsign&lt;/a&gt; as their Head of Software Engineering!&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Engineering Leadership 321</title>
       <link>https://blog.herlein.com/post/eng-leadership-321/</link>
