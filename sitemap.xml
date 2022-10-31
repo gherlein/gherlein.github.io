@@ -2,10 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/tags/digital-signage/</loc>
-    <lastmod>2022-09-24T00:00:01-07:00</lastmod>
+    <loc>https://blog.herlein.com/tags/general/</loc>
+    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/goodbye-twitter/</loc>
+    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/non-technical/</loc>
+    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/digital-signage/</loc>
     <lastmod>2022-09-24T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/leadership/</loc>
@@ -14,16 +29,10 @@
     <loc>https://blog.herlein.com/tags/media-players/</loc>
     <lastmod>2022-09-24T00:00:01-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-09-24T00:00:01-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/september/</loc>
     <lastmod>2022-09-24T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/software-engineering/</loc>
-    <lastmod>2022-09-24T00:00:01-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2022-09-24T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/about/</loc>
@@ -187,12 +196,6 @@
   </url><url>
     <loc>https://blog.herlein.com/post/spiral-again/</loc>
     <lastmod>2021-12-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/general/</loc>
-    <lastmod>2021-12-07T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/non-technical/</loc>
-    <lastmod>2021-12-07T00:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/thirty-years/</loc>
     <lastmod>2021-12-07T00:00:00-07:00</lastmod>
