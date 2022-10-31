@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 20 Jun 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Septenber Update</title>
+      <link>https://blog.herlein.com/post/september/</link>
+      <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/september/</guid>
+      <description>&lt;p&gt;Three months since I posted, so here&amp;rsquo;s some random thoughts and updates.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://blog.herlein.com/about/</link>
@@ -78,7 +87,6 @@
       
       <guid>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</guid>
       <description>&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;
-
 &lt;p&gt;Picking up from last weekend, I play with the &lt;a href=&#34;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware&#34;&gt;ESP32-POE-EA board from Olimex&lt;/a&gt; using the &lt;a href=&#34;https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#&#34;&gt;Espressif FreeRTOS ESP-IDF Framework&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
@@ -432,7 +440,7 @@ a ton along the way.  This post is to share some of that.&lt;/p&gt;</description
       <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
       
       <guid>https://blog.herlein.com/post/hugo-images/</guid>
-      <description>&lt;p&gt;Hugo made a change that broke image embedding using &lt;img&gt; tags.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hugo made a change that broke image embedding using &lt;!-- raw HTML omitted --&gt; tags.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -743,10 +751,10 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</d
       
       <guid>https://blog.herlein.com/projects/</guid>
       <description>Projects This is a short list of projects I am currently working on (or have built and am actively using):
- GoNetMon - Network use visualization writting in GoLang, using Prometheus and Kibana
- ouilookup - CLI tool written in go to look up the vendor for a given MAC address
- PiBlaster-MQTT - port of PiBlaster to use MQTT instead of a local charachter device
- goxb_mqtt - native go code that reads from an XBox&amp;trade; controller (using libusb) and sends events over MQTT</description>
+GoNetMon - Network use visualization writting in GoLang, using Prometheus and Kibana
+ouilookup - CLI tool written in go to look up the vendor for a given MAC address
+PiBlaster-MQTT - port of PiBlaster to use MQTT instead of a local charachter device
+goxb_mqtt - native go code that reads from an XBox(tm) controller (using libusb) and sends events over MQTT</description>
     </item>
     
     <item>
@@ -759,7 +767,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</d
 gherlein@herlein.com
 github.com/gherlein
 +1-415-368-7546
-Summary of Qualifications  15+ years senior Engineering Leadership experience in all stages of the product lifecycle Proven track record leading large Engineering organizations (100+ Engineers) Significant experience driving automation and DevOps, distributed systems, cloud migration Strong technical expertise in Linux, networking, control systems, embedded systems Deep hands-on experience with software development, automated testing, networking Proven ability to work closely with customers both deploying and supporting products Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo; Agile Expert - scrum, kanban and scrumban – adept at maximizing feature velocity  Work History Amazon AWS - Principal Evangelist, Amazon Chime SDK (12&amp;frasl;2020 to Present) The Amazon Chime SDK is a real-time communications components that developers can use to quickly add messaging, audio, video, telephony, and screen sharing capabilities to their web or mobile applications.</description>
+Summary of Qualifications 15+ years senior Engineering Leadership experience in all stages of the product lifecycle Proven track record leading large Engineering organizations (100+ Engineers) Significant experience driving automation and DevOps, distributed systems, cloud migration Strong technical expertise in Linux, networking, control systems, embedded systems Deep hands-on experience with software development, automated testing, networking Proven ability to work closely with customers both deploying and supporting products Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo; Agile Expert - scrum, kanban and scrumban – adept at maximizing feature velocity Work History Amazon AWS - Principal Evangelist, Amazon Chime SDK (12/2020 to Present) The Amazon Chime SDK is a real-time communications components that developers can use to quickly add messaging, audio, video, telephony, and screen sharing capabilities to their web or mobile applications.</description>
     </item>
     
   </channel>

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>The Power of xdotool in X11 &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -251,35 +248,28 @@
 </div>
 
   <p>X11&rsquo;s xdotool cli is snazzy, and solved an annoying window placement problem.</p>
-
 <p>I have a set of Ubiquity Cameras that I use for basic video surveilance.  I run a set of tiled windows on an older linux notebook on a corner of my desk so I can see what&rsquo;s happening.  VLC is great for this, and you can even tell it to restart a window if the stream fails, like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cvlc --loop rtsp://your.url.here &amp;</code></pre></div>
-<p>The &ndash;loop is a neat trick.  I have a bash script that starts an instance for each camera.  There&rsquo;s supposedly a way to do many video panes in one VLC window but I&rsquo;ve not researched that.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cvlc --loop rtsp://your.url.here &amp;
+</span></span></code></pre></div><p>The &ndash;loop is a neat trick.  I have a bash script that starts an instance for each camera.  There&rsquo;s supposedly a way to do many video panes in one VLC window but I&rsquo;ve not researched that.</p>
 <p>Contrary to the <a href="https://wiki.videolan.org/VLC_command-line_help/">VLC man page</a> the CLI commands to position the window don&rsquo;t work (&ndash;video-x and &ndash;video-y).  I got tired of manually positioning the windows and finally solved it: with xdotool!</p>
-
 <p>Here&rsquo;s the trick:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cvlc --loop rtsp://url.to.my.cam.on.back.stairs
-sleep <span style="color:#ae81ff">1</span>
-xdotool search --sync --onlyvisible --name vlc set_window --name <span style="color:#e6db74">&#34;stairs&#34;</span>
-win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search stairs<span style="color:#66d9ef">)</span>
-xdotool windowmove $win <span style="color:#ae81ff">640</span> <span style="color:#ae81ff">719</span></code></pre></div>
-<p>I repeated that for each camera, setting the screen positions I wanted.  I have more than will fit on the screen easily and the last two windows overlap the middle ones a bit.  But to &ldquo;raise focus&rdquo; of the windows that matter to me more I just did this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search gate<span style="color:#66d9ef">)</span>
-xdotool windowactivate $win
-win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search inside<span style="color:#66d9ef">)</span>
-xdotool windowactivate $win</code></pre></div>
-<p>Those windows are now on top.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cvlc --loop rtsp://url.to.my.cam.on.back.stairs
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>xdotool search --sync --onlyvisible --name vlc set_window --name <span style="color:#e6db74">&#34;stairs&#34;</span>
+</span></span><span style="display:flex;"><span>win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search stairs<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>xdotool windowmove $win <span style="color:#ae81ff">640</span> <span style="color:#ae81ff">719</span>
+</span></span></code></pre></div><p>I repeated that for each camera, setting the screen positions I wanted.  I have more than will fit on the screen easily and the last two windows overlap the middle ones a bit.  But to &ldquo;raise focus&rdquo; of the windows that matter to me more I just did this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search gate<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>xdotool windowactivate $win
+</span></span><span style="display:flex;"><span>win<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>xdotool search inside<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>xdotool windowactivate $win
+</span></span></code></pre></div><p>Those windows are now on top.</p>
 <p>I always knew there was a way to do this in X11 but I never dug into it before today.  The xdotool is a full-on automation tool, able to send mouse and key events, watch for window events and take actions, etc.  It&rsquo;s the low-level primitive for creating any X11 window manager automation that you need.  Very slick.</p>
-
 <p>What I have not tested yet is the &ndash;loop functionality.  It may respawn a new window that then is out of it&rsquo;s set position (and likely has the wrong name?).  I don&rsquo;t know yet.  What I will need is a way to detect that and then move the window to the right place again.  That may be tricky and require some logic to determine which one respawned.  That may need a real daemon type of application&hellip; which means I would need to integrate xdotool into an app.  I wonder if it has libraries?  I&rsquo;ll solve that later.</p>
-
 <p>For today, I&rsquo;m excited I got my camera window placement automated!  The power of linux.</p>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

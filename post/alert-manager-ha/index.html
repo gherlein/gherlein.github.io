@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>Making Prometheus Alert Manager (more) Consistent &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -257,59 +254,34 @@
 </div>
 
   <p>Prometheus Alert Manager is an &ldquo;AP&rdquo; system, in &ldquo;CAP&rdquo; terms.  How we made it more Consistent, including a forked repo of the Alert Manager code.</p>
-
 <p>First of all, this is not new.  My good friend and former colleague <a href="https://www.linkedin.com/in/dcwangmit01/">David Wang </a> spoke at CloudSphere in Krakow Poland in late 2019.  The recording is:
 <a href="https://www.youtube.com/watch?v=HHHvX5HloYQ">CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein &amp; David Wang</a>.</p>
-
 <p>I&rsquo;m setting up <a href="https://prometheus.io/">Prometheus</a> again for some home monitoring and I realized I&rsquo;d never blogged about it, really, beyond a <a href="https://blog.herlein.com/post/sphereit/">post</a> that merely had a link to the recording. The overall problem was super interesting so it&rsquo;s worth a few notes.</p>
-
 <h2 id="background">Background</h2>
-
 <p>Christmas 2018 (actually December 26): my phone rings.  It&rsquo;s the head of Cisco Advanced Services in Japan, and he wanted to know if I knew anything about &ldquo;SRE.&rdquo;  I told him that I managed a team of SREs, trying to bring an SRE mindset to the core software team in Cisco Customer Experinece (CX), so yes, in fact, I think I did.  Cisco had a customer in Japan deploying a huge cloud-native, fully virtualized 5G mobile phone network and their CTO was asking if Cisco could share our perspective and help them organize an SRE team.  Long story short, I was on a plane to Tokyo the next week and earned the customers trust.  Myself and a few of my team were loaned to the effort to help this strategic customer built out an SRE function.</p>
-
 <p>A key part of the problem space was that the monitoring system they used was great for SaaS applications.  And the way the network was being deployed was more SaaS-like.  The whole goal was to build it all out as &ldquo;networking as a service.&rdquo;  But after digging deep with the teams and the technology, we found that there was a huge gap between the low-level networking and how the monitoring system expected to hear alerts.</p>
-
 <h2 id="problem-details">Problem Details</h2>
-
 <p>A lot of the system was deployed using <a href="https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html">Cisco Network Service Orchestrator (NS)</a> and network systems still generate a lot of alerts using <a href="https://www.thousandeyes.com/learning/techtorials/snmp-simple-network-management-protocol#:~:text=Simple%20Network%20Management%20Protocol%20(SNMP)%20is%20a%20networking%20protocol%20used,devices%20in%20Internet%20Protocol%20networks.">SNMP</a>.  SNMP terminology for an alert is &ldquo;trap.&rdquo;  Most traps are really low level, like &ldquo;signal lost on line card 22&rdquo; type low level.  Generally a modern Network Monitoring System (NMS) collects and aggregates those low level traps into something more actionable.  But this new network was being built in a completely new, modern way, and was not using any existing NMS.  They were cusom modifying a monitoring system used for SaaS instead.  To make things more complicated, there were at least three vendors providing key software for 5G network functionality, all of whom had their own systems that sent varying levels of aggregation.</p>
-
 <p>A key difference too, if you think about it is that Prometheus is a pull model.  It &ldquo;scrapes&rdquo; data from REST interfaces, and reacts.  The whole SNMP trap model is a &ldquo;push&rdquo; model: sending UDP messages to a target destination.  It&rsquo;s sad, but a lot of systems that use SNMP cannot even use FQDN for the target.  The failure model for networking gear assumes the worst, and does not want to rely on getting a DNS reply.</p>
-
 <p>This really was a case of impedance mismatch between the networking world and the SaaS world.</p>
-
 <h2 id="summary-of-the-solution">Summary of the Solution</h2>
-
 <p>We designed and wrote a system called the &ldquo;Observability Framework.&rdquo;  That&rsquo;s my fault.  I&rsquo;m not that creative with names.  Internally we gave it a code name of <a href="https://en.wikipedia.org/wiki/Kusanagi_no_Tsurugi">&ldquo;Kusanagi&rdquo;</a>, named after a legendary Japanese sword.  The system was based around Prometheus, running in Kubernetes (k8s).  It accepted inputs as SNMP traps, logs via remote syslog, and metrics using the standard Prometheus scraping mechanism.  Scrapes were easy, and often we&rsquo;d just deploy node exporter with Ansible onto key machines.  Logs went into an Elastic Search cluster, and we ran periodic queries for known issues and then generated alerts.</p>
-
 <p>The novel thing we did was to use <a href="https://prometheus.io/docs/alerting/latest/alertmanager/">Prometheus AlertManager (AM)</a> as the interface between our software and the SaaS monitoring system.  This gave us aggregation aggregation and muting with a known, testable, documented interface.  Metrics, logs, and SNMP traps would all map to a set of defined &ldquo;alerts&rdquo; delivered to the SaaS monitoring system by AM.</p>
-
 <p>There were a few tricky parts.  One was getting k8s running in an all IPv6 environment.  Another was dealing with the incoming traps.  We pumped them through <a href="https://net-snmp.sourceforge.io/docs/man/snmptrapd.html">snmptrapd</a> and output text that piped through <a href="https://www.elastic.co/beats/">beats</a> into <a href="https://www.elastic.co/">Elastic</a>.  We had to write a little code to do some custom processing of some of the traps because they were weird, but that was a corner case, really.</p>
-
 <p>The big thing to solve was making AlertManager HA.  This was especially critical since we used <a href="https://github.com/linki/chaoskube">chaoskube</a> to randomly kill pods.  This ensured constant testing that our solution was reliable.  But it also ensured that periodically we had an AM that was completely blind to all the alerts that recently happened.</p>
-
 <h2 id="alertmanager-ha">AlertManager HA</h2>
-
 <p>Things may have changed in the last few years.  That&rsquo;s something I&rsquo;ll dig into as I set it all up again.  But for our solution, we discovered that the clustering feature for AM uses a gossip protocol to share alerts.  Any alert showing up at one AM is duplicated at another.  This provides &ldquo;AP&rdquo; coverage, but did not cover &ldquo;C.&rdquo;  If you rebooted an AM, or started a new one, you would not have state.  The new AM would be missing some alerts.  That created a problem.</p>
-
 <p>Our duplicate AMs would send alerts to the SaaS Monitoring system, and it was configured to clear alerts/tickets if the system recovered.  There were many automated responces that would get triggered by the ticket, run a script/tailf/something to cause a recovery, and then wait for the condidtion to clear.  In a complex, cascading fault recovery the duplicate AMs and SaaS Monitoring systems might be partitioned.  Since some of these conditions were actual network probles (it was a &ldquo;network as a service&rdquo; afterall) we needed to have at least one AM detect that the problem had been cleared and &ldquo;clear&rdquo; the alert.  We actually needed more consistency.  But CAP theorem says you cannot have all three.</p>
-
 <p>So we cheated it a bit.  We wrote the code to have AM use <a href="https://etcd.io/">etcd</a> to store the alert state.  Every AM would put it&rsquo;s state there (if that alert had not already been stored).  Each AM would then periodically sync it&rsquo;s alert state to etcd, and on startup, would pull all alerts into memory.  We submitted a PR for this, but the Prometheus team did not see it as a priority.  It probably wasn&rsquo;t:  it was just something this particular use case needed.  So we had to fork the code, unfortunately.</p>
-
 <p>The code is open source, published here: <a href="https://github.com/cisco-kusanagi/alertmanager-ha">alertmanager-ha</a>.  Our talk at SphereIT in Poland in late 2019 includes a <a href="https://youtu.be/HHHvX5HloYQ?t=1667">live, on-stage demo</a> of this feature in action.</p>
-
 <h2 id="conclusion">Conclusion</h2>
-
 <p>Reading over the current AM docs, I suspect that the same gossip sync is still in place.  I&rsquo;ll figure that out in the coming weeks as I set it all up again.  My requirements are certainly not for HA, but I do want reliability.  My monitoring is mostly my local infrastructure at two locations.  I&rsquo;m still on the fence about the pull vs push model for metric collection, as I&rsquo;ve talked about in my posts on MQTT and control in general.  But I am coming around to it.  At the end of the day you have to have a proper inventory of &ldquo;things&rdquo; on the network anyway.  You need a means to do service discovery anyway.  So hook into that and poll things.  <a href="https://prometheus.io/docs/instrumenting/exporters/">Prometheus Exporters</a> are simple and fairly bulletproof.</p>
-
 <p>If you have read this far, you should have an appreciation for the complexities of building something to &ldquo;observe&rdquo; a complex, mult-vender, multi-technology platform.  The CAP theory has very, very real implications on how you design and build systems.</p>
-
 <h2 id="credit-where-due">Credit Where Due!</h2>
-
 <p>The team that did the heavy lifting for all this are among the very top Engineers I have ever known.  Credit to <a href="https://www.linkedin.com/in/dcwangmit01/">David Wang</a>, <a href="https://www.linkedin.com/in/jmdots/">Josh Dotson</a> and <a href="https://www.linkedin.com/in/xiehang/">Hang Xi</a>.  Not only did they put up with me, they worked a million hours, never complained (much), and delivered.  More than delilvered.  I&rsquo;m proud to have worked with them.</p>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

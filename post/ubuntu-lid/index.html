@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>Ubuntu Lid Control &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -251,24 +248,16 @@
 </div>
 
   <p>The default behavior of Ubuntu 18.04 is not friendly for a notebook that swaps back and forth from desk to mobile.</p>
-
 <p>Because I forget things, I have to write them down.  And sometimes, that is just noting where I found a
 good answer to a problem I was having.</p>
-
 <h2 id="background">Background</h2>
-
 <p>I re-installed Ubuntu and out of the box it suspends the host when the lid is closed.  That&rsquo;s great if you are
 mobile but terrible if you use the notebook on a KVM or just as a build machine or such sitting on the network.</p>
-
 <p>What we want to meet both cases is a way to suspend on lid close UNLESS the notebook is plugged into power.</p>
-
-<h2 id="acknowledgements-this-work-is-not-mine">Acknowledgements - This Work Is Not Mine!</h2>
-
+<h2 id="acknowledgements---this-work-is-not-mine">Acknowledgements - This Work Is Not Mine!</h2>
 <p>This solution came from <a href="https://mensfeld.pl/2018/08/ubuntu-18-04-disable-screen-on-lid-close/">here</a>.  But since
 sometimes sites go away I&rsquo;m going to duplicate the content below.</p>
-
 <h2 id="solution-from-maciej-mensfeld">Solution from MacieJ Mensfeld</h2>
-
 <p>You need to be root.</p>
 <pre tabindex="0"><code>#sudo -i # really, you need to be root
 echo &#39;HandleLidSwitch=ignore&#39; | tee --append /etc/systemd/logind.conf
@@ -294,14 +283,12 @@ grep -q open /proc/acpi/button/lid/*/state
 if [ $? = 0 ]; then
   su -c  &#34;xset -display :0 dpms force on &amp;&gt; /tmp/screen.lid&#34; - $USER
 fi
-EOF</code></pre>
-<h2 id="disclaimer">Disclaimer</h2>
-
+EOF
+</code></pre><h2 id="disclaimer">Disclaimer</h2>
 <p>This works for me.  Your results may vary.</p>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

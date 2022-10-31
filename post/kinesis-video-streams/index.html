@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>Kinesis Video Streams - Just Getting Started &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -253,26 +250,18 @@
 </div>
 
   <p>Just started playing with <a href="https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amp;amazon-kinesis-video-streams-resources-blog.sort-order=desc">Amazon Kinesis Video Streams</a>.</p>
-
 <p>I&rsquo;ve been meaning to get around to Kinesis video streams but&hellip; well, life.  And my new job at AWS that&rsquo;s kept me busy studying for both the SysOps Admin and Developer certifications.  Those are done now (at least at the Associate level) so I played a bit, as a reward.</p>
-
 <h2 id="architecture">Architecture</h2>
-
 <p>A full video pipeline has a producer and a consumer, and perhaps some intermediate processing steps.  In the example I am building I&rsquo;ll have a camera, something that reads an RTSP steam from the camera and writes it to an <a href="https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amp;amazon-kinesis-video-streams-resources-blog.sort-order=desc">Amazon Kinesis Video Stream</a>.  To read from the stream I&rsquo;ll use a <a href="https://github.com/aws-samples/amazon-kinesis-video-streams-media-viewer">simple web-based solution</a>.</p>
-
 <h2 id="building-the-plugin">Building the Plugin</h2>
-
 <p>The code to start with is the <a href="https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp">GStreamer plugin</a>.  The build instructions were confusing so I submitted a Pull Request to make them more clear.  That may be accepted by the time you read this, but if not, here&rsquo;s what you do:</p>
 <pre tabindex="0"><code>git clone https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp.git
 mkdir -p amazon-kinesis-video-streams-producer-sdk-cpp/build; 
 cd amazon-kinesis-video-streams-producer-sdk-cpp/build; 
-cmake -DBUILD_GSTREAMER_PLUGIN=ON ..</code></pre>
-<p>This is ALMOST what was in the docs.  The key part is that you MUST include -DBUILD_GSTREAMER_PLUGIN=ON or it does not build the plugin.</p>
-
+cmake -DBUILD_GSTREAMER_PLUGIN=ON ..
+</code></pre><p>This is ALMOST what was in the docs.  The key part is that you MUST include -DBUILD_GSTREAMER_PLUGIN=ON or it does not build the plugin.</p>
 <h2 id="run-the-example">Run the Example</h2>
-
 <p>To run this you need to have an RTSP camera handy.  I&rsquo;m a fan of the <a href="https://store.ui.com/collections/surveillance">Unifi Camera Product line</a> and have several.  You will need to find the RTSP URL that applies to you.</p>
-
 <p>I hate typing commands over and over, so I&rsquo;m a fan of makefiles.  In the build folder I made a new file called Makefile.run:</p>
 <pre tabindex="0"><code>ACCESS=&#34;&lt;your AWS access key&gt;&#34;
 SECRET=&#34;&lt;your AWS secret key&gt;&#34;
@@ -294,26 +283,18 @@ kvssink:
 fake:
 	export GST_PLUGIN_PATH=.
 	gst-launch-1.0 rtspsrc location=${RTSP} short-header=TRUE ! rtph264depay ! h264parse ! video/x-h264, format=avc,alignment=au ! fakesink
-		</code></pre>
-<h3 id="create-the-stream">Create the Stream</h3>
-
+		
+</code></pre><h3 id="create-the-stream">Create the Stream</h3>
 <p>You should first create the stream (make -f Makefile.run create).  You can verify that it was properly created (make -f Makefile.run list).</p>
-
 <h3 id="connect-the-camera-feed-to-the-stream">Connect the Camera Feed to the Stream</h3>
-
 <p>You then connect the feed to the stream (make -f Makefile.run kvssink).  If you get errors you can check your pipeline (make -f Makefile.run fake) using a fake source.  I used that to discover that I needed to add the &lsquo;h264parse&rsquo; to the gstreamer pipeline.</p>
-
 <h3 id="viewing-the-video">Viewing the Video</h3>
-
 <p>I used the <a href="https://aws-samples.github.io/amazon-kinesis-video-streams-media-viewer/">excellent Kinesis Video Stream Viewer</a>.  It&rsquo;s a static web site hosted on GitHub. Fill in the fields with your AWS credentials, region, and your stream name and hit play!</p>
-
 <h2 id="next-steps-for-me">Next Steps for Me</h2>
-
 <p>It&rsquo;s been years since I played with video, and <a href="https://gstreamer.freedesktop.org/">GStreamer</a> has matured amazingly over that time.  I really need to dig into how it works, what the pipelines really do.  And of course, on the AWS side I need to understand what I can do with the streams there.  I want to plug into <a href="https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&amp;blog-cards.sort-order=desc">Amazon Rekognition</a> and do some really cool stuff!</p>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

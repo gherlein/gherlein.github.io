@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>SSH Tunnels &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -253,33 +250,23 @@
 </div>
 
   <p>SSH tunnels are basically indistinguishable from magic.</p>
-
 <p>So I have a remote network that I want to access.  Most of my gear is <a href="https://www.ui.com/">Unifi Networking</a> equipment (that&rsquo;s another post about why) so one simple thing would be to do a site-to-site VPN.  Alas, the remote network does not expose a publicly routable IP address.  It&rsquo;s deep into my ISP&rsquo;s private network space (10.etc.).  Setting site to site VPN is thus pretty much off the table.</p>
-
 <p>Most of the time I just need to ssh to a server on that remote network.  So a vanilla SSH tunnel is perfect.  It&rsquo;s pointless for me to document here how to do that - there&rsquo;s really great pages on it all over the net.  So many, in fact, you will get confused.  <a href="https://www.everythingcli.org/ssh-tunnelling-for-fun-and-profit-autossh/">Here&rsquo;s a page</a> that I found not only accurate, but has all the details you will need to make the tunnel &ldquo;operational.&rdquo;</p>
-
 <p>By operational I mean that it &ldquo;just works.&rdquo;  Even if you lose power and everything reboots.  That article goes over how to configure systemd to make that happen.  It&rsquo;s not that hard, and there are not that many steps.  You will need a VM in the cloud somewhere or a linux box on a public IP.  I have a linode host for these kinds of things.</p>
-
 <p>Anyway, all that is vanilla.  The problem I was having was that I needed to access a web page on an appliance on the remote network.  The vendor didn&rsquo;t make a means to upgrade the firmware from a CLI - I needed web access.  I fiddled and farted and I tried this and I tried that and nothing was working all that well.  So I called my good friend David Wang and talked him through it all.  I was re-assured that he thought it was complicated too.  It was him that had the epiphany that this was not a two hop problem.  I did not need to make a second proxy that jumped to the linode VM that jumped to the remote network. It was a one hop from localhost:</p>
-<pre tabindex="0"><code>ssh  -N -D &lt;local port, like 8080&gt; &lt;public host&gt; -p &lt;ssh tunnel port&gt;</code></pre>
-<p>Tell Firefox to use a &ldquo;Manual Proxy Configuration&rdquo; set to localhost on local port (like 8080) and make sure you select SOCKS v5.  Point your browser at the remote host on the remote network and&hellip;.</p>
-
+<pre tabindex="0"><code>ssh  -N -D &lt;local port, like 8080&gt; &lt;public host&gt; -p &lt;ssh tunnel port&gt;
+</code></pre><p>Tell Firefox to use a &ldquo;Manual Proxy Configuration&rdquo; set to localhost on local port (like 8080) and make sure you select SOCKS v5.  Point your browser at the remote host on the remote network and&hellip;.</p>
 <p>It worked.  Just worked.  Like magic.</p>
-
 <p>Arthur C Clark said any sufficiently advanced technology is indistinguishable from magic.  SSH tunnels fit that bill.</p>
-
 <p>Maybe they will help you someday.</p>
-
 <p>Some things I want to play with:</p>
-
 <ul>
 <li>can I make the Unifi USG run the ssh tunnel natively?</li>
 <li>can I run the ssh host VM on my network and have the remote host hit my firewall and port forward to the internal host?</li>
 </ul>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>Goodbye Ubuntu, Hello Debian my old friend &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -253,35 +250,23 @@
 </div>
 
   <p>Ubuntu just went too far with the snap crap.  Back to Debian!</p>
-
 <p>I first installed Linux in 1994 (I think).  The kernel was pre-1.0 and the distribution was slackware - if it was even called that then.  A huge stack of floppies.  I would compile my own kernel and fail all the time and have to revert back to a known good kernel.  That was in the LILO days, way before grub.</p>
-
 <p>But, as one gets older and has less free time I just wanted things to work.  I didn&rsquo;t want to build everything from source.  I just wanted to install software and use it.  I had used Debian for years because it was stable, but over time I also wanted to play a lot.  I was doing a lot of embedded development for my robotics hpobbies and generally playing with a lot of stuff.  And getting proprietary drivers onto my machines was something I didn&rsquo;t have a lot of time for and Debian is famous for open source purity.  Ubuntu was easily the most popular so I went with it.  I totally hated Unity and actually went to Mint for a long time but in January of 2019 I went back to Ubuntu.  I <a href="http://blog.herlein.com/post/ubuntu-18.04/">blogged about it</a> even.</p>
-
 <p>These past weeks I&rsquo;ve been doing a lot of playing with some small computers, including a new Raspberry Pi4 (which I returned in disgust, but that&rsquo;s a different post).  I was burning bootable ISOs to USB thumb drives quite a bit.  Along the way I found that for whatever reason, if I burned it from my Ubuntu notebook the drive would not boot.  I never did really solve that, for reasons that will become apparent in a moment.</p>
-
 <p>What really drove me nuts what the whole snap thing, adding a ton of mounted filesystems to my machine.  WTF was all that?</p>
-
-<p><img src="https://blog.herlein.com/images/snap_mounts.png" width="480" height="320" /></p>
-
+<!-- raw HTML omitted -->
 <p>I forgot to take a screen shot of the insanity but found this shot in my research.  It turns out that lots of folks are pissed about this, and the <a href="https://hackaday.com/2020/06/24/whats-the-deal-with-snap-packages/">Hackaday article</a> is pretty good.  Go read that.  It will do a better job than I will explaining this mess.</p>
-
-<p>So what was the problem?  I plugged in a USB thumb drive and typed &lsquo;lsblk&rdquo; and suddenly had this HUGE long list of snap packages mounted on loopback.  I had NEVER used snap - only apt.  Seeing what drives were mounted was cluttered by all this unwanted, never asked for loopback snap crap.  I was amazed and angry.  A fast google search and I found I was not alone.  Go back.  Read that article.  it will explain it all.</p>
-
+<p>So what was the problem?  I plugged in a USB thumb drive and typed &rsquo;lsblk&quot; and suddenly had this HUGE long list of snap packages mounted on loopback.  I had NEVER used snap - only apt.  Seeing what drives were mounted was cluttered by all this unwanted, never asked for loopback snap crap.  I was amazed and angry.  A fast google search and I found I was not alone.  Go back.  Read that article.  it will explain it all.</p>
 <p>tl;dr:  Ubuntu was using snap to install software behind my back.  I didn&rsquo;t want to use snap, but they were doing it without asking.  And it&rsquo;s totally proprietary to Cannonical. And it&rsquo;s a totally stupid approach that solves THEIR business problem at the expense of their users.</p>
-
 <p>Here&rsquo;s my core point:  Cannonical is playing the same kind of games that Microsoft did back in the day.  Embrace and Extend.  Snap is a terrible idea.  It&rsquo;s a hack at best.  They could have gone open source - even gone towards using actual container technology but they did not.  They invented something proprietary and started ramming it down our throats.  It&rsquo;s abouot control.  If you control the distribution of software, you have a control point over the linux world.  That was the kind of bad behavior that us Linux folks fought long ago.  Why on earth would we support it in a Linux vendor?</p>
-
 <p>It&rsquo;s still a free country.  Cannonical can do what they want with Ubuntu.  But I can make choices too - and my open source roots run really deep.  So Ubuntu is out.  Off my systems.  I grabbed Debian Buster and to my surprise it installed easily on my Dell.  I had to install non-free wifi:</p>
 <pre tabindex="0"><code># add contrib non-free per https://wiki.debian.org/SourcesList
-apt install -y firmware-realtek firmware-iwlwifi</code></pre>
-<p>I did have to re-install when I also put the Nvidia drivers on and I lost all my video.  I still don&rsquo;t have working HDMI output but I&rsquo;ll fiddle with that next week.  I am writing this from Tahoe (snuck away for a few days of warmth in the mountains) and I have not even booted my work MacBook Pro.  I&rsquo;m using my Debian notebook and am completely happy.</p>
-
+apt install -y firmware-realtek firmware-iwlwifi
+</code></pre><p>I did have to re-install when I also put the Nvidia drivers on and I lost all my video.  I still don&rsquo;t have working HDMI output but I&rsquo;ll fiddle with that next week.  I am writing this from Tahoe (snuck away for a few days of warmth in the mountains) and I have not even booted my work MacBook Pro.  I&rsquo;m using my Debian notebook and am completely happy.</p>
 <p>I&rsquo;ll post more later about how I fix the HDMI issue.  But for now, I&rsquo;m just happy to have a real linux system again.</p>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

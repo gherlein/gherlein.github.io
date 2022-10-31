@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>Thoughts on MQTT &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -253,22 +250,15 @@
 </div>
 
   <p>Some Thoughts on MQTT</p>
-
 <p>Life has gotten in the way of my pool project, but I do have some thoughts.  I&rsquo;ve gotten small Sonoff plugs set up to turn on and off bug zappers on a cron schedule. I reflashed the units with <a href="https://tasmota.github.io/docs/">Tasmota</a>.  From earlier robotics experiments I was fond of MQTT as a message bus.  Not so much anymore.</p>
-
 <p>Things do break.  Not often, but they do.  The node I was running MQTT on got a little flaky and it impacted ALL my devices.  That&rsquo;s a classic single point of failure (SPoF) problem.  Not good.  That got me thinking about the larger IoT ecosystem.  So much of it these days assumes MQTT.  Well, at least what I see.  That makes me uncomfortable.  Even for data collection I am not sure it&rsquo;s the right model.  I was thinking about polling my sensors over MQTT topics and then flowing that data to both a local system and the cloud for analysis.  I love Prometheus and was thinking I&rsquo;d use the cool looking <a href="https://github.com/inovex/mqtt_blackbox_exporter">Prometheus Blackbox Exporter</a>.</p>
-
 <p>So let&rsquo;s take a step back and look at this system.  I have a collection of WiFi-devices all configured to talk on MQTT topics. I have a mosquitto MQTT broker.  I have Prometheus running, and Grafana, and now I add the exporter.  You know, I could just poll the devices directly with an exporter and that&rsquo;s one less common-to-eveything component.  In fact, contrary to the way MQTT works I could take a page out of k8s thinking and have a node controller that has a map of declarative state - the desired state of bug zappers at what times (e.g. like a crontab) and it would be easy to have code check the devices and if they are not in the desired state command them to be in that state.  I could run more than one of that service and be totally idempotent, and thus quite resistant to the loss of any one node of that service.  Tell me again why I am using MQTT?</p>
-
 <p>Yes, of course there are lots of use cases where MQTT is great.  I&rsquo;m not sure that mine is one of them.  So life is going to keep me from doing much on the personal hobby front this week, but my brain is sure active on it.  I suspect I can design a very small service that just polls a given device every X seconds and if it&rsquo;s not in the desired state it executes a command to put it in that state.  I could get that desired state from a distriibuted store so that I don&rsquo;t have to worry about configuring every controller.  Then I can run a few of those and they will be very lightweight, and since they are simple they probably won&rsquo;t fail much anyway.</p>
-
 <p>And my damn bug zappers will turn on and off when they are supposed to.</p>
-
 <p>See?  The power of technology.</p>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

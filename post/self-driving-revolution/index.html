@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>Self Driving Revolution &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -253,45 +250,26 @@
 </div>
 
   <p>Think self-driving technology requires deep pockets to play with?  Think again.  <a href="https://aws.amazon.com/deepracer/">AWS DeepRacer</a> and <a href="https://github.com/CPFL/Autoware/wiki">Autoware</a> are the leading edges of self-driving automation for the maker.</p>
-
-<h2 id="tl-dr">TL;DR</h2>
-
+<h2 id="tldr">TL;DR</h2>
 <p><a href="https://aws.amazon.com/deepracer/">AWS DeepRacer</a> is a low-cost, <a href="http://www.ros.org/">ROS-based</a> robotic card that uses machine learning (reinforcement learning) and it&rsquo;s camera-input to drive courses it&rsquo;s been &ldquo;trained&rdquo; to drive.  With the online simulator, this tool can get you started developing self-driving cars <a href="https://www.amazon.com/AWS-DeepRacer-Fully-autonomous-developers/dp/B07JMHRKQG/ref=sr_1_3?ie=UTF8&amp;qid=1549816067&amp;sr=8-3&amp;keywords=deep+racer">for under $400.</a></p>
-
 <p><a href="https://www.autoware.ai/">Autoware</a> is the world&rsquo;s first &ldquo;All-in-One&rdquo; open-source software for autonomous driving technology. It is based on ROS 1 and available under the <a href="https://github.com/CPFL/Autoware/wiki">Apache 2.0 license on github.</a>  It <a href="https://github.com/CPFL/Autoware#recommended-system-specifications">requires</a> 8 cores and 32GB of RAM so it&rsquo;s not going to run on a Raspberry Pi.  It supports camera, LIDAR, IMU and GPS inputs.  Those compute and sensor requirements are going to be a lot more than the DeepRacer, but I&rsquo;m guessing you could build something in the $1000 range that works.</p>
-
 <p>The important thing is that there&rsquo;s a starting point for the platform.</p>
-
-<p><img src="https://blog.herlein.com/images/deepracer.jpg" width="100%" />
-<img src="https://blog.herlein.com/images/autoware.png" width="100%" /></p>
-
+<!-- raw HTML omitted -->
 <h2 id="summary">Summary</h2>
-
 <p>Here in San Francisco we see self-driving enabled cars on the road a lot. Many of them are annoying as hell since they make driving decisions much more slowly than humans do.  Geeks among us think &ldquo;damn, how hard is really to decide the cross-walk is empty!&rdquo;  It&rsquo;s easy to think that you need the cash of a VC-backed startup to really start playing with that tech.  Not so.  It&rsquo;s still pricey:  $400 for the DeepRacer and likely $1000-1500 for a proper Autoware robot.  But the tooling is there if you have a bit of money, at least some background in coding, and the time and energy to learn.</p>
-
 <p>It&rsquo;s ripe for Innovation!!!</p>
-
 <h2 id="imagination">Imagination</h2>
-
 <p>I have a DeepRacer and have another on order.  I bought one within minutes of it being announced at AWS re:Invent <a href="http://herlein.com/post/avalanche-reinvent/">(I blogged about that at the time).</a>  I have one sitting here in my home office and only lack the time to play with it.  I got lucky enough to be invited by AWS to a four-hour solo-focus-session where an AWS CX person watched me unbox and learn to set it up.  It was a bit strange to be under the microscope, but I think I gave them some good feedback and I got to keep the DeepRacer that I unboxed.  Win-win!</p>
-
-<p><img src="https://blog.herlein.com/images/amazon-aws-deepracer-interior.jpg" width="640" height="480" /></p>
-
+<!-- raw HTML omitted -->
 <p>One thing that I am extremely excited about is the fact that the DeepRacer tool is based on Robot Operating System - ROS.  And it&rsquo;s not all locked out either.  AWS is not hiding the guts.  It&rsquo;s an Ubuntu board with and Atom CPU and 4GB of RAM <a href="https://imgur.com/a/m4ymiYH">(specs here)</a>.  You can <a href="https://www.reddit.com/r/DeepRacer/comments/a47ka2/its_pretty_easy_by_design_to_get_into_ubuntu_on/?utm_source=reddit-android">develop right on the car main node</a>.  The main code seems to be in python interfacing with ROS.  So this seems extremely hackable.  <a href="https://hackaday.com/tag/deepracer/">Hackaday</a> is postulating alternative hardware even, so this ecosystem is about to explode.</p>
-
 <p>In the last few days I came across Autoware.  It&rsquo;s non-trivial and is being used as the basis for commercial offerings already, so it&rsquo;s real.  It looks reasonably modularized.  Being based on ROS is almost certainly all written in C++ so it&rsquo;s probably reasonably performant.</p>
-
-<p><img src="https://blog.herlein.com/images/autoware_overview.png" width="100%" /></p>
-
+<!-- raw HTML omitted -->
 <p>Given the hardware requirements this is probably a bit harder to set up and the bug-a-boo will be I/O bandwidth I am sure.  USB webcams are the obvious choice for cameras but can you do multiple cameras at once?  May need USB3, which means you are not even going to use an Intel Nuc for this.  The GPS is easy over USB, and you could make a USB adapter for a 9DoF IMU pretty easily.  I was reading about a module that a guy built that did the sensor fusion on the board and had one-degree heading accuracy for under $75 if I recall.  I&rsquo;ll try to look that up and revise this post later with a link.  You would think it would be the LIDAR that was the harder sensor to deal with, but there&rsquo;s a lot of options for that.   <a href="https://www.adafruit.com/product/4010?gclid=Cj0KCQiAtP_iBRDGARIsAEWJA8hC-BFONYtcV8nD-f9n0T2MXtqcXlw579h3ISa98NP3p48gKUUz_X0aAuuXEALw_wcB">Adafruit sells an intersting scanning LIDAR for $114.</a>  Sparkfun has a <a href="https://learn.sparkfun.com/tutorials/lidar-lite-v3-hookup-guide/all">non-rotating unit.</a> as well as a <a href="https://www.sparkfun.com/products/14756">rotating one</a>, granted more expensive at $320.  My point is that there are many options out there.  You might have to tweak some of the Autoware code - or more likely, the underlying ROS libraries - to make it work but the products are there to be integrated.</p>
-
-<p><img src="https://blog.herlein.com/images/autoware_demo.png" width="100%" /></p>
-
+<!-- raw HTML omitted -->
 <p>The building blocks are there.  Damn, I wish I had more time!</p>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

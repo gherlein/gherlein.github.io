@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.92.2" />
+  <meta name="generator" content="Hugo 0.105.0">
 
   <title>Back to Basics:  AWS IoT C SDK &middot; Greg Herlein</title>
 
@@ -115,10 +116,6 @@
 
     
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/gherlein" rel="me" target="_blank"><i class="fab fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
     
 
     
@@ -255,37 +252,24 @@
 </div>
 
   <p>A few quick notes on getting the AWS IoT C SDK running on Linux.</p>
-
 <p>I played a lot this past weekend with AWS IoT things.  I finally decided that my friends advice was good:  get something running on a known, reliable platform and then change variables once I understood what I was doing.  So I literally went right back to basics:  <a href="https://github.com/aws/aws-iot-device-sdk-embedded-C">the IoT Embedded C SDK</a>.  I&rsquo;m going to get that running, then I&rsquo;ll go to the <a href="https://github.com/espressif/esp-aws-iot">ESP32 port</a>.</p>
-
 <h3 id="it-works-but-details-matter">It Works, But Details Matter</h3>
-
 <p>AWS IoT has security built in, and the details matter.  I just wanted to do the simple &ldquo;mqtt_demo_mutual_auth&rdquo; case.  I spent some time getting things right.  Now, I don&rsquo;t want to say this is the ONLY way to do it&hellip; but it&rsquo;s what I had to do.</p>
-
 <h3 id="why-do-this">Why Do This?</h3>
-
 <p>Turns out this is hugely valuable.  If you do this, and get it working, you know that your AWS-side works.  You can work it all out at the linux command line where logs are easy and the iterative process of development is trivial.  Trying to do this AND deal with flashing an embedded controller is adding a lot of variables for things to go wrong.  And makes it really hard to troubleshoot.</p>
-
 <p>Once you have all this working, you can translate the SAME thing name and topics to your embedded code and at least know it was working on linux.</p>
-
 <h2 id="on-the-aws-console">On the AWS Console</h2>
-
 <h4 id="make-a-thing">Make a Thing</h4>
-
 <p>Start with making a thing in the Console.  Naviage to &ldquo;AWS IoT &ndash;&gt; Getting Started&rdquo; and select &ldquo;Onboard a device&rdquo; by clicking &ldquo;Get Started&rdquo; and then click &ldquo;Get started&rdquo; again on the next screen.  I selected &ldquo;Linux/OSX&rdquo; and Python, then clicked &ldquo;Next.&rdquo;</p>
-
 <p>This seemed important:  I named my thing &ldquo;testclient&rdquo; - discovered through trial and error.</p>
-
 <p>Download the zip by clicking on &ldquo;Linux/OSX&rdquo; and save the file locally.  In a local terminal, unzip that file to a folder and remember that location.  You should have these files now:</p>
 <pre tabindex="0"><code>connect_device_package.zip
 start.sh
 testclient.cert.pem
 testclient.private.key
-testclient.public.key</code></pre>
-<p>If you want to test the keys, follow the normal directions in the console.</p>
-
+testclient.public.key
+</code></pre><p>If you want to test the keys, follow the normal directions in the console.</p>
 <h4 id="create-a-policy-that-matches-the-demo">Create a Policy That Matches the Demo</h4>
-
 <p>The policy that was created automatically above is good for the python test code that was in the zip file, but not for the C SDK.  In the Console, navigate to Secure &ndash;&gt; Policies and click &ldquo;Create&rdquo; on the upper right side.  Name the policy &ldquo;testclient-policy&rdquo; and click &ldquo;Advanced mode&rdquo; to open an inline editor.  Paste this policy, replacing $REGION:$ACCOUNT_NUMBER with the region string and account number for you.</p>
 <pre tabindex="0"><code>{
   &#34;Version&#34;: &#34;2012-10-17&#34;,
@@ -311,56 +295,43 @@ testclient.public.key</code></pre>
       &#34;Resource&#34;: &#34;arn:aws:iot:$REGION:$ACCOUNT_NUMBER:topic/${iot:Connection.Thing.ThingName}/example/topic&#34;
     }
   ]
-}</code></pre>
-<p>Click &ldquo;Create&rdquo; to make the policy.</p>
-
+}
+</code></pre><p>Click &ldquo;Create&rdquo; to make the policy.</p>
 <h4 id="associate-the-policy-with-the-certs">Associate the Policy with the Certs</h4>
-
-<p><strong>This is important</strong>.  Miss this and you won&rsquo;t be able to communicate over MQTT.  Naviage to the Console Manage &ndash;&gt; Things and select the &lsquo;testclient&rsquo; thing you created.  You should see that it has a certificate attached.  Click on that cert.  You will be taken to that certicate configuration.  Navigating to the cert in this way ensures that you have the right cert selected.</p>
-
+<p><strong>This is important</strong>.  Miss this and you won&rsquo;t be able to communicate over MQTT.  Naviage to the Console Manage &ndash;&gt; Things and select the &rsquo;testclient&rsquo; thing you created.  You should see that it has a certificate attached.  Click on that cert.  You will be taken to that certicate configuration.  Navigating to the cert in this way ensures that you have the right cert selected.</p>
 <p>Click Actions in the right corner and select &ldquo;Attach policy.&rdquo;  You will get a drop-down dialog box listing the policies you have created.  Select the new &ldquo;testclient-policy&rdquo; that you just created above, and click &ldquo;Attach.&rdquo;</p>
-
 <h4 id="all-this-is-important">All this is IMPORTANT</h4>
-
 <p>The certs ensure that only authorized clients can connect, and that clients can trust that the endpoint really is AWS, and that the communications will be secure.</p>
-
 <p>The policy limits what the client can do.  Specifically, that policy allows any thing name to connect to the MQTT broker, subscribe, send and receive to/from any topic named like this:</p>
-<pre tabindex="0"><code>$ThingName/example/topic</code></pre>
-<p>The client CANNOT use any other topics at all.  This is a majority of the point of AWS IoT:  to provide a common service while ensuring high security for all the clients.</p>
-
+<pre tabindex="0"><code>$ThingName/example/topic
+</code></pre><p>The client CANNOT use any other topics at all.  This is a majority of the point of AWS IoT:  to provide a common service while ensuring high security for all the clients.</p>
 <h2 id="on-the-build-pc-linux-only-was-tested">On the Build PC (Linux only was tested)</h2>
-
 <h4 id="clone-the-sdk">Clone the SDK</h4>
-
 <p>To proceed to the SDK testing, clone the repo locally per the instructions.</p>
 <pre tabindex="0"><code>git clone --recurse-submodules git@github.com:aws/aws-iot-device-sdk-embedded-C.git
-cd aws-iot-device-sdk-embedded-C</code></pre>
-<h4 id="find-your-aws-endpoint">Find your AWS Endpoint</h4>
-
+cd aws-iot-device-sdk-embedded-C
+</code></pre><h4 id="find-your-aws-endpoint">Find your AWS Endpoint</h4>
 <p>The easiest way is to use the AWS CLI:</p>
-<pre tabindex="0"><code>aws iot describe-endpoint --endpoint-type iot:Data-ATS</code></pre>
-<h4 id="configure-the-demo">Configure the Demo</h4>
-
+<pre tabindex="0"><code>aws iot describe-endpoint --endpoint-type iot:Data-ATS
+</code></pre><h4 id="configure-the-demo">Configure the Demo</h4>
 <p>You will need to ensure you have cmake installed.  Run this command, filling in your details.  IMPORTANT:  don&rsquo;t use relative paths for the cert/key files.  Use the fully qualified path.</p>
-
 <p>Here&rsquo;s my command:</p>
-<pre tabindex="0"><code>cmake -S. -Bbuild -DAWS_IOT_ENDPOINT=&#34;a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com&#34; -DCLIENT_CERT_PATH=&#34;/home/gherlein/certs/testclient.cert.pem&#34; -DCLIENT_PRIVATE_KEY_PATH=&#34;/home/gherlein/certs/testclient.private.key&#34;</code></pre>
-<p>Then, generate the makefile:</p>
-<pre tabindex="0"><code>cmake -S. -Bbuild</code></pre>
-<p>If all went well, you should see this at the end of your output:</p>
+<pre tabindex="0"><code>cmake -S. -Bbuild -DAWS_IOT_ENDPOINT=&#34;a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com&#34; -DCLIENT_CERT_PATH=&#34;/home/gherlein/certs/testclient.cert.pem&#34; -DCLIENT_PRIVATE_KEY_PATH=&#34;/home/gherlein/certs/testclient.private.key&#34;
+</code></pre><p>Then, generate the makefile:</p>
+<pre tabindex="0"><code>cmake -S. -Bbuild
+</code></pre><p>If all went well, you should see this at the end of your output:</p>
 <pre tabindex="0"><code>-- Configuring done
 -- Generating done
--- Build files have been written to: /home/gherlein/src/aws/aws-iot-device-sdk-embedded-C/build</code></pre>
-<p>Now, build:</p>
+-- Build files have been written to: /home/gherlein/src/aws/aws-iot-device-sdk-embedded-C/build
+</code></pre><p>Now, build:</p>
 <pre tabindex="0"><code>cd build
 make -j8 ## pick a number less than 8 if you so choose
-cd bin</code></pre>
-<p>You should now see something like this:</p>
+cd bin
+</code></pre><p>You should now see something like this:</p>
 <pre tabindex="0"><code>gherlein@mars:~/src/aws/aws-iot-device-sdk-embedded-C/build/bin$ ls
 certificates         http_demo_plaintext  mqtt_demo_mutual_auth  pkcs11_demo_management_and_rng      pkcs11_demo_objects
-http_demo_basic_tls  jobs_demo_mosquitto  ota_demo_core_http     pkcs11_demo_mechanisms_and_digests  pkcs11_demo_sign_and_verify</code></pre>
-<h4 id="run-the-demo">Run the Demo</h4>
-
+http_demo_basic_tls  jobs_demo_mosquitto  ota_demo_core_http     pkcs11_demo_mechanisms_and_digests  pkcs11_demo_sign_and_verify
+</code></pre><h4 id="run-the-demo">Run the Demo</h4>
 <p>Here&rsquo;s how I ran it and what good results look like:</p>
 <pre tabindex="0"><code>gherlein@mars:~/src/aws/aws-iot-device-sdk-embedded-C/build/bin$ ./mqtt_demo_mutual_auth
 [INFO] [DEMO] [mqtt_demo_mutual_auth.c:625] Establishing a TLS session to a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com:8883.
@@ -391,19 +362,16 @@ http_demo_basic_tls  jobs_demo_mosquitto  ota_demo_core_http     pkcs11_demo_mec
 [INFO] [MQTT] [core_mqtt.c:885] Packet received. ReceivedBytes=2.
 [INFO] [MQTT] [core_mqtt.c:1161] Ack packet deserialized with result: MQTTSuccess.
 [INFO] [MQTT] [core_mqtt.c:1174] State record updated. New state=MQTTPublishDone.
-[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1007] PUBACK received for packet id 2.</code></pre>
-<p>And there you have it.  A working demo, at least on linux.</p>
-
+[INFO] [DEMO] [mqtt_demo_mutual_auth.c:1007] PUBACK received for packet id 2.
+</code></pre><p>And there you have it.  A working demo, at least on linux.</p>
 <h4 id="troubleshooting">Troubleshooting</h4>
-
 <p>If your certs are wrong, you will get output that looks like this:</p>
 <pre tabindex="0"><code>gherlein@mars:~/src/aws/aws-iot-device-sdk-embedded-C/build/bin$ ./mqtt_demo_mutual_auth
 [INFO] [DEMO] [mqtt_demo_mutual_auth.c:625] Establishing a TLS session to a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com:8883.
 [ERROR] [Transport_OpenSSL_Sockets] [openssl_posix.c:396] SSL_CTX_use_certificate_chain_file failed to import client certificate at ~/certs.
 [ERROR] [Transport_OpenSSL_Sockets] [openssl_posix.c:627] Setting up credentials failed.
-[ERROR] [Transport_OpenSSL_Sockets] [openssl_posix.c:672] Failed to establish a TLS connection.</code></pre>
-<p>Note the &ldquo;Setting up credentials failed&rdquo; entry.  Go back and triple check that your certs are set up correctly.</p>
-
+[ERROR] [Transport_OpenSSL_Sockets] [openssl_posix.c:672] Failed to establish a TLS connection.
+</code></pre><p>Note the &ldquo;Setting up credentials failed&rdquo; entry.  Go back and triple check that your certs are set up correctly.</p>
 <p>If your policy is not right, or not attached to the certs, you will get output like this:</p>
 <pre tabindex="0"><code>gherlein@mars:~/src/aws/aws-iot-device-sdk-embedded-C/build/bin$ ./mqtt_demo_mutual_auth
 [INFO] [DEMO] [mqtt_demo_mutual_auth.c:625] Establishing a TLS session to a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com:8883.
@@ -423,12 +391,11 @@ http_demo_basic_tls  jobs_demo_mosquitto  ota_demo_core_http     pkcs11_demo_mec
 [ERROR] [MQTT] [core_mqtt.c:2191] Exiting process loop due to failure: ErrorStatus=MQTTRecvFailed
 [ERROR] [DEMO] [mqtt_demo_mutual_auth.c:1395] MQTT_ProcessLoop returned with status = MQTTRecvFailed.
 [INFO] [DEMO] [mqtt_demo_mutual_auth.c:1476] Disconnecting the MQTT connection with a11cxor2mooi1v-ats.iot.us-west-1.amazonaws.com.
-[INFO] [MQTT] [core_mqtt.c:2149] Disconnected from the broker.</code></pre>
-<p>This indicates that the client can connect, but cannot work on those topics on MQTT.  Triple check your policy is correct, and that it is attached to that certificate.</p>
-
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+[INFO] [MQTT] [core_mqtt.c:2149] Disconnected from the broker.
+</code></pre><p>This indicates that the client can connect, but cannot work on those topics on MQTT.  Triple check your policy is correct, and that it is attached to that certificate.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
