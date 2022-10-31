@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.105.0">
 
-  <title>Greg Herlein</title>
+  <title>Git Clone Workaround &middot; Greg Herlein</title>
 
     
 
@@ -42,9 +42,6 @@
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
-    href='https://blog.herlein.com/index.xml' />
   
 
   
@@ -115,11 +112,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href='https://blog.herlein.com/index.xml'><i
-          class="fas fa-rss fa-fw"></i>RSS</a>
-    </li>
     
 
     
@@ -221,21 +213,16 @@
 
 
 <div class="header">
-  <h1>Greg Herlein</h1>
-  <h2>Building tech, and teams that build tech.  Code, cloud, electronics, whatever.</h2>
+  <h1>Git Clone Workaround</h1>
+  <h2></h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://blog.herlein.com/post/technology-rolls-on/">Technology Rolls On, Better Roll With It</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>21 Dec 2016, 16:29</time>
+    <time>31 Oct 2022, 01:30</time>
   </div>
 
   
@@ -248,13 +235,9 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/general">general</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/git">git</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/data-centers">data-centers</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/automation">automation</a>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>
     
   </div>
   
@@ -262,84 +245,94 @@
 
 </div>
 
-  </header>
+  <p>Cloning from GitHub hanging for no apparent reason?  A work-around.  Anyone know why it works?</p>
+<p>For some reason GitHub has been hanging when cloning new repos.  I did find a workaround that solves it.</p>
+<p>You need to make sure your ssh public key is configured in GitHub of course.  Then, edit your .ssh/config file and add:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Host github.com
+</span></span><span style="display:flex;"><span>  Hostname ssh.github.com
+</span></span><span style="display:flex;"><span>  Port <span style="color:#ae81ff">443</span>
+</span></span></code></pre></div><p>Then from the command line:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh -T git@github.com
+</span></span></code></pre></div><p>Then your clones should no longer hang.</p>
+<p>I have yet to understand why this works.  But its working for me!</p>
+<h2 id="credits">Credits</h2>
+<p>I didn&rsquo;t solve this.  I found it <a href="https://gist.github.com/Tamal/1cc77f88ef3e900aeae65f0e5e504794">here</a>.  Kudos to those folks!</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-clone-workaround%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-clone-workaround%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-clone-workaround%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-clone-workaround%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-clone-workaround%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-clone-workaround%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
 
-  <p>
-  <p><a href="https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/">Technology Rolls On, Better Roll With It</a></p>
-  </p>
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
 
   
-  <footer>
-    <a href="https://blog.herlein.com/post/technology-rolls-on/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://blog.herlein.com/post/how-to-do-devops/">How To Do Devops?</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>12 Apr 2016, 16:29</time>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/goodbye-twitter/"><i class="fa fa-chevron-left"></i></a>
+    
   </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+  <div class="pure-u-10-24">
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/general">general</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/automation">automation</a>
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/goodbye-twitter/">Goodbye Twitter</a>
+    </nav>
     
   </div>
-  
-  
-
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
-
-  <p>
-  <p><a href="https://www.linkedin.com/pulse/how-do-devops-greg-herlein/">How To Do Devops?</a></p>
-  </p>
 
   
-  <footer>
-    <a href="https://blog.herlein.com/post/how-to-do-devops/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
   
-</article>
-
+  
   
 
   
-
-
-<nav class="pagination" role="pagination">
-  
-  <a href="https://blog.herlein.com/page/8/"><i class="fa fa-chevron-left"></i></a>
-  
-  <span>&nbsp;9 / 9&nbsp;</span>
-  
-  <i class="fa fa-chevron-right"></i>
-  
-</nav>
-
-
 
 </div>
 

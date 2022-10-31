@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/git/</loc>
+    <lastmod>2022-10-31T01:30:29-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/git-clone-workaround/</loc>
+    <lastmod>2022-10-31T01:30:29-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-10-31T01:30:29-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-10-31T01:30:29-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-10-31T01:30:29-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2022-10-31T01:30:29-07:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/general/</loc>
     <lastmod>2022-10-31T00:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/goodbye-twitter/</loc>
     <lastmod>2022-10-31T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/non-technical/</loc>
-    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-10-31T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2022-10-31T00:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/digital-signage/</loc>
@@ -51,9 +60,6 @@
     <lastmod>2022-06-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/sudo/</loc>
-    <lastmod>2022-06-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2022-06-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/aws/</loc>
@@ -432,9 +438,6 @@
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/docs-as-code/</loc>
-    <lastmod>2020-06-20T03:10:43-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/git/</loc>
     <lastmod>2020-06-20T03:10:43-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/terraform/</loc>

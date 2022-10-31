@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 31 Oct 2022 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 01:30:29 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>git</title>
+      <link>https://blog.herlein.com/tags/git/</link>
+      <pubDate>Mon, 31 Oct 2022 01:30:29 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Mon, 31 Oct 2022 01:30:29 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>general</title>
       <link>https://blog.herlein.com/tags/general/</link>
@@ -86,15 +104,6 @@
       <pubDate>Sat, 18 Jun 2022 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/sudo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sat, 18 Jun 2022 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -788,15 +797,6 @@
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/docs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://blog.herlein.com/tags/git/</link>
-      <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/git/</guid>
       <description></description>
     </item>
     
