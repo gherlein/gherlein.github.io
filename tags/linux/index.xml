@@ -187,7 +187,7 @@ a ton along the way.  This post is to share some of that.&lt;/p&gt;</description
       <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
       
       <guid>https://blog.herlein.com/post/hugo-images/</guid>
-      <description>&lt;p&gt;Hugo made a change that broke image embedding using &lt;!-- raw HTML omitted --&gt; tags.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hugo made a change that broke image embedding using &lt;img&gt; tags.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
     
     <item>

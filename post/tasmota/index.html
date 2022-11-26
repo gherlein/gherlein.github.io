@@ -254,7 +254,7 @@
 <p>You need the ability to flash an ESP8266.  Once you can do that, you can pluck the generic build and flash the device.  It reboots and comes up as a WiFi Access Point (AP).  You connect to that AP and configure the credentials for your own AP.  It reboots, and then you connect to it again and configure logging, MQTT, and tell it what is connected to the GPIO pins.</p>
 <p>This deserves a real post, with screen shots and photos but I don&rsquo;t have time today.</p>
 <p>Beware though, and don&rsquo;t rush these things.  I grabbed the wrong power supply for a test and plugged it into the ESP8266.  Yes indeed, the 5V to 3.3V regulator did NOT like 12VDC applied. I turned around to connect to it with the web browser and by the time I realized it was not online I started to smell it.  I let the magic smoke out.  Ugh.</p>
-<!-- raw HTML omitted -->
+<img src="https://blog.herlein.com/images/smoke.jpg" width="50%"/>
 <p>One blown up ESP9266.  I&rsquo;m glad they are cheap!</p>
 <p>I bet you thought I was going to say I dropped it in the pool right?  Ha ha ha. I&rsquo;d tell you a story about building a floating pool temp thermometer but I definitely don&rsquo;t have time for that.</p>
 <p>What I do have time to tell you is that it just works.  This is what I am using for my home IoT foundation.  I already have it in production use on two outside lights and my basement lights using the <a href="https://shelly.cloud/products/shelly-1-smart-home-automation-relay/">Shelly 1 Relays</a>.  These are hacker-friendly relays built around the ESP8266 that actually expose the pins so you can re-flash them.  Love these devices.</p>
@@ -281,13 +281,13 @@
 <h2 id="what-else">What Else?</h2>
 <p>Yes, I do plan to tie my <a href="https://store.ui.com/collections/unifi-protect">Unifi cameras</a> into <a href="https://aws.amazon.com/rekognition/?blog-cards.sort-by=item.additionalFields.createdDate&amp;blog-cards.sort-order=desc">AWS Rekognition</a>.  I&rsquo;ve worked through a <a href="https://aws.amazon.com/blogs/iot/creating-object-recognition-with-espressif-esp32/">blog</a> about how to do it with an ESP32 as a demo.  My actual architecture would be different, and not only because I can react to the Unifi Protect motion sensing and <a href="http://your.camera.ip.address/snap.jpeg">grab an image directly from the camera</a>.  It&rsquo;s a bit hacky.  I wish Ubiquity would just expose an MQTT feed, but hey.</p>
 <p>I also have a <a href="https://www.sparkfun.com/products/15901">Weather Meter Kit</a> and actually tried to test the wind speed annemometer.  No joy.  The <a href="https://cdn.sparkfun.com/assets/d/1/e/0/6/DS-15901-Weather_Meter.pdf">datasheet</a> says 1 contact closure per second equals 2.4km/hour of wind.  But tasmota does not count those pulses, for some reason.  Same basic reading as the water flow meter - pulses per second - but no joy.  I know the pulses are happening too, because I can see them on my scope:</p>
-<!-- raw HTML omitted -->
+<img src="https://blog.herlein.com/images/scope.jpg" width="100%"/>
 <p>I set that aside for later.  I need the pool and water tank done!</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>So you see, I have a TON of projects queued up.  And these are not just learning projects, but stuff that I really want to get done and use in my normal life.  On top of trying to learn Spanish and my very full time job at AWS it&rsquo;s going to be a busy year.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+<script async src="//static.getclicky.com/101366448.js"></script>
+<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

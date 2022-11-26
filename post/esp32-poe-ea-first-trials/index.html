@@ -253,7 +253,7 @@
 <p>Picking up from last weekend, I play with the <a href="https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware">ESP32-POE-EA board from Olimex</a> using the <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#">Espressif FreeRTOS ESP-IDF Framework</a>.</p>
 <p>Before I get started, I want to give an unsolicited plug to <a href="https://github.com/Mair">Mair Seartz</a> for his <a href="https://learnesp32.com/">excellent video tutorial on ESP32 programming</a>.  It&rsquo;s on sale for $49 and it&rsquo;s worth it.  I&rsquo;ve got books and read web pages and even built some things, but dang, a few hours with his videos and I am vastly more knowledgable.  And he showed me some thing I flat out did not know that changed my development.  If you want to do ESP32, go watch his courses.  That&rsquo;s my heartfelt advice.  He has no idea I&rsquo;m plugging him, either.</p>
 <p>Here&rsquo;s the gadget:</p>
-<!-- raw HTML omitted -->
+<center><img src="https://blog.herlein.com/images/esp32-poe-ea.jpg" width="60%"/></center>
 <p>And here it&rsquo;s on the network:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>I <span style="color:#f92672">(</span>1913<span style="color:#f92672">)</span> eth_example: Ethernet Started
 </span></span><span style="display:flex;"><span>I <span style="color:#f92672">(</span>1913<span style="color:#f92672">)</span> eth_example: Ethernet Link Up
@@ -269,7 +269,7 @@
 <h2 id="getting-started-really-understanding">Getting Started Really Understanding</h2>
 <p>I got it to compile and run, but to really grok how it works I decided to build a clean new app based off the official samples.  ESP32 has example code for Ethernet, geared towards their <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-ethernet-kit.html">Ethernet Kit</a>.  One of the nifty things I learned from <a href="https://learnesp32.com/">learn32.com</a> was how to create a sample app easily in Visual Code.</p>
 <p>Inside Visual Code, hit F1 and search for &ldquo;ESP-IDF: Show Example Projects&rdquo; and select your installed ESP-IDF folder as the source.  You can pick any of them and create a sample app directly from it.</p>
-<!-- raw HTML omitted -->
+<img src="https://blog.herlein.com/images/new-sample-proj.png" width="100%"/>
 <p>So I did that and then started to compare it to the Olimex example.  My process on this included opening an <a href="https://github.com/OLIMEX/ESP32-POE/issues/30">issue in the Olimex git repo</a> that has a bad link&hellip; and basically says nothing useful.  It does compile and run, assuming you use the right version of the ESP-IDF framework.</p>
 <h2 id="but-how-is-this-different">But How is This Different?</h2>
 <p>Oof.  It&rsquo;s very different.  Right off I compared the sdkconfig files and painstakingly changed them on the new side.  I&rsquo;m unclear on a few things, like this difference:</p>
@@ -300,20 +300,20 @@
 <h2 id="but-what-are-you-building">But What Are You Building?</h2>
 <p>I have an underground cistern without a water gauge.  If the cistern gets low the pump float switch will prevent it from running (to save the pump).  So when I have no water pressure, is it due to low water level (e.g. someone used it faster than the city water pressure could refill it) or do I have some other problem?  What I really need is a water level gauge!</p>
 <p>I have a drawer full of <a href="https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf">HC-SR04 Ultrasonic Ranging Modules</a> from robotics.</p>
-<!-- raw HTML omitted -->
+<center><img src="https://blog.herlein.com/images/hc-sr04.jpg" width="60%"/></center>
 <p>The cover of the cistern is concrete and steel.  I very much doubt that I can get WiFi down there.  But I can run an Ethernet cable and do POE and data over it!</p>
 <p>I already tried <a href="https://esp32.com/viewtopic.php?t=25865">someone elses example code</a> and found it pretty easy.  Calibration will be a big deal though.</p>
 <p>Goal established.  Learn.  Hack.  Oh, and get a notice if the water level drops below a certain point so I can tell folks to go easy unless they want to be thirsty!</p>
 <h2 id="update">Update</h2>
 <p>I had an older <a href="https://www.olimex.com/Products/IoT/ESP32/ESP32-GATEWAY/open-source-hardware">Olimex ESP32 Gateway</a> board in my parts bin.  I found it while looking to see if I had a suitable JTAG adapter (I don&rsquo;t, so I ordered <a href="https://smile.amazon.com/ubld-FIDDY-Plus-FT2232H-Interface/dp/B091MDFHH3/ref=sr_1_3?keywords=ft2232h+jtag&amp;qid=1652641591&amp;sprefix=ft2232%2Caps%2C129&amp;sr=8-3">this one</a>).  I built the same code and installed it.</p>
 <p>AND IT WORKED.</p>
-<!-- raw HTML omitted -->
+<center><img src="https://blog.herlein.com/images/ESP32-gateway.jpg" width="60%" style="transform:rotate(270deg);"/></center>
 <p>So I pulled out the new <a href="https://www.olimex.com/Products/IoT/ESP32/ESP32-EVB/open-source-hardware">ESP32=EVB-EA-IND</a> board that I bought with the POE board and tried it.</p>
-<!-- raw HTML omitted -->
+<center><img src="https://blog.herlein.com/images/ESP32-EVB.jpg" width="60%" style="transform:rotate(270deg);"/></center>
 <p>AND IT WORKED.  Which is not too surprising.  Olimex has a standard design and they are sticking to it.  Good to see.  Now I have three boards that have the same hardware!  And they are readily available, and the hardware is open source.  That&rsquo;s really remarkable.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+<script async src="//static.getclicky.com/101366448.js"></script>
+<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

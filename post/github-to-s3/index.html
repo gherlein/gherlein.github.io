@@ -254,7 +254,7 @@
 <p>GitHub can trigger actions on events.  This is what drives CI/CD integrations.  But it can be used for things that are radically simpler too.  I found myself wanting to automatically push changes to a CloudFormation (CF) template to an S3 bucket, since that&rsquo;s where CF wants to pull templates from.  But, as a software guy, I beleive in my soul of souls that everything is code, and code needs to be in source control - which means GitHub, for all practical purposes.</p>
 <h2 id="secrets">Secrets</h2>
 <p>First of all, you need to go into your repo settings and store your secrets:</p>
-<!-- raw HTML omitted -->
+<img src="https://blog.herlein.com/images/secrets.png" width="100%" />
 <p>Specifically you need to set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and if you want to just copy and paste from my main.yaml file you should set AWS_REGION.  This is exactly the stuff from configuring AWS CLI tools.  That&rsquo;s the action you will be taking:  using AWS CLI to sync files to an S3 bucket.</p>
 <h2 id="actions">Actions</h2>
 <p>In your repo, you need to make a folder that tells GitHub what to do.</p>
@@ -280,9 +280,9 @@ jobs:
 <h2 id="conclusion">Conclusion</h2>
 <p>This is so trivial and simple, but I had to go find a simple example because all the examples that are easily found are for much more complicated CI/CD behavior.  I do owe a shout-out to a great example I found <a href="https://blog.kylegalbraith.com/2019/12/09/deploying-your-static-websites-to-aws-in-style-using-github-actions/">here</a> for publishing a static web site.</p>
 <p>Hope this helps someone!</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+<script async src="//static.getclicky.com/101366448.js"></script>
+<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
