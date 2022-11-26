@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Nov 2022 01:21:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Nov 2022 02:21:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>general</title>
       <link>https://blog.herlein.com/tags/general/</link>
-      <pubDate>Sat, 26 Nov 2022 01:21:00 -0700</pubDate>
+      <pubDate>Sat, 26 Nov 2022 02:21:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>non-technical</title>
+      <link>https://blog.herlein.com/tags/non-technical/</link>
+      <pubDate>Sat, 26 Nov 2022 02:21:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/non-technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opinion</title>
+      <link>https://blog.herlein.com/tags/opinion/</link>
+      <pubDate>Sat, 26 Nov 2022 02:21:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/opinion/</guid>
       <description></description>
     </item>
     
@@ -50,24 +68,6 @@
       <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/job-hunting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>non-technical</title>
-      <link>https://blog.herlein.com/tags/non-technical/</link>
-      <pubDate>Sat, 26 Nov 2022 00:21:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/non-technical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opinion</title>
-      <link>https://blog.herlein.com/tags/opinion/</link>
-      <pubDate>Sat, 26 Nov 2022 00:21:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/opinion/</guid>
       <description></description>
     </item>
     

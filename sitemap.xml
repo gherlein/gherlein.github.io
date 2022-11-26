@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/general/</loc>
+    <lastmod>2022-11-26T02:21:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2022-11-26T02:21:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/no-more-twitter/</loc>
+    <lastmod>2022-11-26T02:21:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/non-technical/</loc>
+    <lastmod>2022-11-26T02:21:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/opinion/</loc>
+    <lastmod>2022-11-26T02:21:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2022-11-26T02:21:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2022-11-26T02:21:00-07:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/hugo-images/</loc>
     <lastmod>2022-11-26T01:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/general/</loc>
-    <lastmod>2022-11-26T01:21:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2022-11-26T01:21:00-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/hugo/</loc>
-    <lastmod>2022-11-26T01:21:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2022-11-26T01:21:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2022-11-26T01:21:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/technical/</loc>
@@ -31,15 +40,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/job-hunting/</loc>
     <lastmod>2022-11-26T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/no-more-twitter/</loc>
-    <lastmod>2022-11-26T00:21:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/non-technical/</loc>
-    <lastmod>2022-11-26T00:21:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/opinion/</loc>
-    <lastmod>2022-11-26T00:21:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/git/</loc>
     <lastmod>2022-10-31T01:30:29-07:00</lastmod>
