@@ -54,20 +54,29 @@
     </item>
     
     <item>
+      <title>non-technical</title>
+      <link>https://blog.herlein.com/tags/non-technical/</link>
+      <pubDate>Sat, 26 Nov 2022 00:21:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/non-technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opinion</title>
+      <link>https://blog.herlein.com/tags/opinion/</link>
+      <pubDate>Sat, 26 Nov 2022 00:21:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/opinion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>git</title>
       <link>https://blog.herlein.com/tags/git/</link>
       <pubDate>Mon, 31 Oct 2022 01:30:29 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>non-technical</title>
-      <link>https://blog.herlein.com/tags/non-technical/</link>
-      <pubDate>Mon, 31 Oct 2022 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/non-technical/</guid>
       <description></description>
     </item>
     
@@ -824,15 +833,6 @@
       <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/terraform/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opinion</title>
-      <link>https://blog.herlein.com/tags/opinion/</link>
-      <pubDate>Sat, 06 Jun 2020 00:00:00 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/opinion/</guid>
       <description></description>
     </item>
     
