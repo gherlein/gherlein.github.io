@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.105.0">
 
-  <title>Fixing Hugo Images &middot; Greg Herlein</title>
+  <title>Fixing Hugo Scaled Images &middot; Greg Herlein</title>
 
     
 
@@ -213,7 +213,7 @@
 
 
 <div class="header">
-  <h1>Fixing Hugo Images</h1>
+  <h1>Fixing Hugo Scaled Images</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -222,7 +222,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>26 Sep 2020, 00:00</time>
+    <time>26 Nov 2022, 01:21</time>
   </div>
 
   
@@ -235,13 +235,11 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/general">general</a>&nbsp;&#47;
+    
       <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/hugo">hugo</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/blogging">blogging</a>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/hugo">hugo</a>
     
   </div>
   
@@ -249,19 +247,24 @@
 
 </div>
 
-  <p>Hugo made a change that broke image embedding using <img> tags.  Here&rsquo;s how to fix it.</p>
-<p>Lost some more time this morning.  Finally wrote some more blog posts and saw that an embedded image did not post.  Then found that ALL my images were gone.</p>
-<p>Chased this around a bit, updated Hugo from source, fiddled more&hellip;</p>
-<p>And then finally found the <a href="https://jdhao.github.io/2019/12/29/hugo_html_not_shown/">answer</a>.</p>
-<h2 id="tldr">TL;DR</h2>
-<p>Hugo changed rendering engines for markdown.  Edit your config.toml file and add this:</p>
-<pre tabindex="0"><code>[markup]
-  defaultMarkdownHandler = &#34;blackfriday&#34;
-  
-</code></pre><p>Rebuild.  Worked for me.</p>
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+  <p>Hugo broke image rendering.  Well, they made it better, but broke how <em>I</em> used it.  Here&rsquo;s the fix.</p>
+<p>I love Hugo.  Well, I did.  Then I realized that none of my blog images were loading.  Grrrr.</p>
+<p><a href="https://gohugo.io/content-management/image-processing">Hugo Image Processing</a> is now the way to do things, apparently.  Not sure when that changed, but I&rsquo;ve not been blogging much this year and certainly not with images.  There&rsquo;s a whole new ecosystem that enables some advanced image processing.  This <a href="https://mertbakir.gitlab.io/hugo/image-processing-in-hugo/">blog</a> seems like a good tutorial.</p>
+<p>What a pain!  I use these kinds of tags a lot:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/starter.jpeg&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;100%&#34;</span>/&gt;
+</span></span></code></pre></div><p>The width parameter gives me exactly the control I want to scale my embedded images.  But Hugo changed and no longer supports embeddeding raw HTML in the markdown.  Do I really need to go edit every blog post I have ever done to get new features I don&rsquo;t even need?</p>
+<p>But wait!  There&rsquo;s a trick.</p>
+<h2 id="workaround">Workaround</h2>
+<p>You can, actually, just enable it again.  Here&rsquo;s how.  In the config.toml file in the root of your blog, add this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>markup.goldmark.renderer<span style="color:#f92672">]</span>
+</span></span><span style="display:flex;"><span>  unsafe <span style="color:#f92672">=</span> true
+</span></span></code></pre></div><p>That&rsquo;s it.  Now Hugo will happily support raw HTML again.  I suppose they had a good reason to turn this off, but it was a pain that cost me 30 minutes of my life this morning.  But then again, I&rsquo;m not paying for Hugo with money.  Open source is paid for with time!</p>
+<h2 id="credits">Credits</h2>
+<p>Thank you to the kind author of <a href="https://radu.link/tips-hugo-beginners/">this</a> guide for Hugo beginners.  Silly, but this is how the internet works.  If you are not constantly paying attention things change and your stuff breaks.</p>
+<img src="https://blog.herlein.com/images/better.jpeg" width="100%" />
+<a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
 <script async src="//static.getclicky.com/101366448.js"></script>
-<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
@@ -307,13 +310,13 @@
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://blog.herlein.com/post/hello-ubuntu-kinda/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://blog.herlein.com/post/advice-to-new-developers/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://blog.herlein.com/post/hello-ubuntu-kinda/">Hello Ubuntu - Kinda</a>
+      <a href="https://blog.herlein.com/post/advice-to-new-developers/">Advice to New Developers (or, How to Get Hired)</a>
     </nav>
     
   </div>
@@ -322,14 +325,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://blog.herlein.com/post/hugo-social-media-icons/">Fixing Hugo Social Media Icons in Blackburn</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://blog.herlein.com/post/hugo-social-media-icons/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

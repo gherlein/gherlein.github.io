@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Nov 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Nov 2022 01:21:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing Hugo Scaled Images</title>
+      <link>https://blog.herlein.com/post/hugo-images/</link>
+      <pubDate>Sat, 26 Nov 2022 01:21:00 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/post/hugo-images/</guid>
+      <description>&lt;p&gt;Hugo broke image rendering.  Well, they made it better, but broke how &lt;em&gt;I&lt;/em&gt; used it.  Here&amp;rsquo;s the fix.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Advice to New Developers (or, How to Get Hired)</title>
       <link>https://blog.herlein.com/post/advice-to-new-developers/</link>
@@ -450,15 +459,6 @@ a ton along the way.  This post is to share some of that.&lt;/p&gt;</description
       
       <guid>https://blog.herlein.com/post/hugo-social-media-icons/</guid>
       <description>&lt;p&gt;The Blackburn theme for Hugo has a bug in how it shows social media icons.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Fixing Hugo Images</title>
-      <link>https://blog.herlein.com/post/hugo-images/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:03 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/post/hugo-images/</guid>
-      <description>&lt;p&gt;Hugo made a change that broke image embedding using &lt;img&gt; tags.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
     
     <item>
