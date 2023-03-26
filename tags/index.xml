@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 05 Feb 2023 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOS</title>
+      <link>https://blog.herlein.com/tags/macos/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>excellence</title>
       <link>https://blog.herlein.com/tags/excellence/</link>
@@ -68,15 +86,6 @@
       <pubDate>Sat, 26 Nov 2022 01:21:00 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sat, 26 Nov 2022 01:21:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -725,15 +734,6 @@
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/hotkeys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MacOS</title>
-      <link>https://blog.herlein.com/tags/macos/</link>
-      <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/macos/</guid>
       <description></description>
     </item>
     
