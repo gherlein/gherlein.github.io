@@ -7,22 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2021. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 26 Mar 2023 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 May 2023 08:40:43 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>MacOS</title>
-      <link>https://blog.herlein.com/tags/macos/</link>
-      <pubDate>Sun, 26 Mar 2023 00:00:01 -0800</pubDate>
+      <title>linux</title>
+      <link>https://blog.herlein.com/tags/linux/</link>
+      <pubDate>Fri, 12 May 2023 08:40:43 -0800</pubDate>
       
-      <guid>https://blog.herlein.com/tags/macos/</guid>
+      <guid>https://blog.herlein.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>technical</title>
       <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sun, 26 Mar 2023 00:00:01 -0800</pubDate>
+      <pubDate>Fri, 12 May 2023 08:40:43 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://blog.herlein.com/tags/ubuntu/</link>
+      <pubDate>Fri, 12 May 2023 08:40:43 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://blog.herlein.com/tags/macos/</link>
+      <pubDate>Sun, 26 Mar 2023 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/macos/</guid>
       <description></description>
     </item>
     
@@ -158,15 +176,6 @@
       <pubDate>Sat, 18 Jun 2022 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/groups/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://blog.herlein.com/tags/linux/</link>
-      <pubDate>Sat, 18 Jun 2022 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -383,15 +392,6 @@
       <pubDate>Fri, 18 Mar 2022 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ubuntu</title>
-      <link>https://blog.herlein.com/tags/ubuntu/</link>
-      <pubDate>Fri, 18 Mar 2022 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     

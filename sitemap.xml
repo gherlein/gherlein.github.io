@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://blog.herlein.com/</loc>
-    <lastmod>2023-03-26T00:00:01-08:00</lastmod>
+    <lastmod>2023-05-12T08:40:43-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2023-05-12T08:40:43-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2023-05-12T08:40:43-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2023-05-12T08:40:43-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2023-05-12T08:40:43-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ubuntu/</loc>
+    <lastmod>2023-05-12T08:40:43-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/ubuntu-again/</loc>
+    <lastmod>2023-05-12T08:40:43-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/macos/</loc>
     <lastmod>2023-03-26T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/macos-ventura/</loc>
-    <lastmod>2023-03-26T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2023-03-26T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2023-03-26T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2023-03-26T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/excellence/</loc>
@@ -93,9 +102,6 @@
     <lastmod>2022-06-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/locked-out-and-locked-up/</loc>
-    <lastmod>2022-06-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
     <lastmod>2022-06-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/sudo/</loc>
@@ -195,9 +201,6 @@
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/debian-again2/</loc>
-    <lastmod>2022-03-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ubuntu/</loc>
     <lastmod>2022-03-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/devops-what/</loc>
