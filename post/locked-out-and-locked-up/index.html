@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.105.0">
+
+  <title>How I Locked Myself Out of my Linux System &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2021. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>How I Locked Myself Out of my Linux System</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Jun 2022, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/sudo">sudo</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/groups">groups</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Imagine my surprise when I could not sudo!  Wait, what?</p>
+<p>First the back story: I had to reboot my linux notebook this morning because it had locked up.  I went back to Ubuntu for a working desktop linux machine because I was having trouble with Debian and a second monitor and I was in a hurry.  It would lock up once in a few weeks on Debian, but it locked up three times yesterday.  Anyway, went to check if <em>this time</em> maybe it logged something and suddenly my terminal tells me that I am not in the sudoers file.  Wait.  What?  How can that be?</p>
+<p>First clue was that I did &ldquo;id&rdquo; and found that I was really only in one group (video).  I knew for a fact that could not be right.  So that was causing it (no membership in the sudo group) but how?  To find that out I needed to get my root priveledges back.</p>
+<p>New Ubuntu boot screens are for the masses, not for geeks, so they took out the GRUB menu.  You need to press &ldquo;shift&rdquo; during boot to get that to pop up.  In GRUB you can select to boot in recovery mode, and then drop to a root shell, and then remount with</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mount -o remount,rw /
+</span></span></code></pre></div><p>And then edit the /etc/group file.  Reboot.  OK, now I am back.</p>
+<h2 id="was-i-hacked">Was I Hacked?</h2>
+<p>I was actually afraid for a moment that I had been insidiously hacked.  Nope.  Just my own ignorance.  I had shot myself in the foot with a command and it was not until a reboot that I found it.  Because, after all, you only re-read your group memberships after you log out and back in (or reboot).</p>
+<h2 id="what-did-i-do-wrong">What Did I Do (Wrong)?</h2>
+<p>I had been playing with &ldquo;v4l2-ctl&rdquo; to adjust my camera settings in meetings.  Works like a charm, and far more reliable than apps on the Mac.  But to run it you need to be a member of the video group.  So I had added myself to the video group but I didn&rsquo;t really want to reboot, so I just did a quick command and then &ldquo;sudo - gherlein&rdquo; to reload my session without logging out and back in.  What was the command?</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>usermod -G gherlein video
+</span></span></code></pre></div><p>Vanilla right?  Easy.  The experienced admins out there just winced.  They spotted it right away.  Me?  Nope.  Running too fast, not ninja-level on my SysAdmin commands anymore I guess.  What I just told the system to do was to add me to the video group AND ONLY THAT GROUP.  What I SHOULD have done was:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>usermod -aG gherlein video
+</span></span></code></pre></div><p>which does an APPEND that group, maintining all other memberships.  One letter, and I managed to lock myself out of admin rights on my own computer.</p>
+<h2 id="lessons-learned">Lessons Learned</h2>
+<p>Aside from &ldquo;cargo cult programming&rdquo; advice of making certain you know what every command does when you do it as root, the big lesson I am reminded of is that with Linux you can almost always fix it.  You can boot back to a mode where with skills (and the sometimes help of a Google search) you can restore your computer to working.  So don&rsquo;t panic!  Love Linux!</p>
+<h2 id="back-to-the-freezing">Back to the Freezing</h2>
+<p>Now that I had sudo rights again I could actually look at syslog.  Nothing at all useful in the logs</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Jun <span style="color:#ae81ff">17</span> 21:18:10 alien dbus-daemon<span style="color:#f92672">[</span>664<span style="color:#f92672">]</span>: <span style="color:#f92672">[</span>system<span style="color:#f92672">]</span> Successfully activated service <span style="color:#e6db74">&#39;org.freedesktop.nm_dispatcher
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#39;</span>
+</span></span><span style="display:flex;"><span>Jun <span style="color:#ae81ff">17</span> 21:18:10 alien systemd<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>: Started Network Manager Script Dispatcher Service.
+</span></span><span style="display:flex;"><span>Jun <span style="color:#ae81ff">17</span> 21:18:20 alien systemd<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>: NetworkManager-dispatcher.service: Deactivated successfully.
+</span></span><span style="display:flex;"><span>Jun <span style="color:#ae81ff">18</span> 05:15:44 alien systemd-modules-load<span style="color:#f92672">[</span>371<span style="color:#f92672">]</span>: Inserted module <span style="color:#e6db74">&#39;lp&#39;</span>
+</span></span><span style="display:flex;"><span>Jun <span style="color:#ae81ff">18</span> 05:15:44 alien systemd-modules-load<span style="color:#f92672">[</span>371<span style="color:#f92672">]</span>: Inserted module <span style="color:#e6db74">&#39;ppdev&#39;</span>
+</span></span><span style="display:flex;"><span>Jun <span style="color:#ae81ff">18</span> 05:15:44 alien systemd-modules-load<span style="color:#f92672">[</span>371<span style="color:#f92672">]</span>: Inserted module <span style="color:#e6db74">&#39;parport_pc&#39;</span>
+</span></span><span style="display:flex;"><span>Jun <span style="color:#ae81ff">18</span> 05:15:44 alien systemd-modules-load<span style="color:#f92672">[</span>371<span style="color:#f92672">]</span>: Inserted module <span style="color:#e6db74">&#39;msr&#39;</span>
+</span></span><span style="display:flex;"><span>Jun <span style="color:#ae81ff">18</span> 05:15:44 alien systemd-modules-load<span style="color:#f92672">[</span>371<span style="color:#f92672">]</span>: Inserted module <span style="color:#e6db74">&#39;ipmi_devintf&#39;</span>
+</span></span><span style="display:flex;"><span>Jun <span style="color:#ae81ff">18</span> 05:15:44 alien systemd<span style="color:#f92672">[</span>1<span style="color:#f92672">]</span>: Starting Flush Journal to Persistent Storage...
+</span></span></code></pre></div><p>Smells like a hardware problem.  Definitely happens more often now that I am using this same machine as a desktop.  Ran the hardware tests and they came up clean, so it does not seem to be a RAM problem.  I read that sometimes an SSD failure can manifest like this (but that seems weird) but really?</p>
+<h2 id="working-hypothesis">Working Hypothesis</h2>
+<p>I&rsquo;m betting it&rsquo;s the GPU.  Playing video in the browser seems to be the thing that I am doing now that I was not doing before, so I disabled hardware acceleration in Chrome.  I also removed a lot of the Chrome extensions I had installed.  If I did not remember using it, out.  Chrome is easily the most demanding thing I run all the time so let&rsquo;s unload things it does not need.</p>
+<p>So I&rsquo;ll let you know.  I would really like to make this machine work as my working desktop.  My new job (oops, not announcing that) shipped me a new MBP 16&quot; M1 that should be a screamer, so I may end up using that mostly.</p>
+<h2 id="update">UPDATE</h2>
+<p>As I was editing that last paragraph my system froze again.  And of course I had not saved my work.  I was preparing to be pissed (and really disappointed) but in line with the theme above I did a quick search.  Lo and behold, you can <a href="https://datarecoverypit.com/recover-vs-code-files/">recover unsaved files from VS Code.</a>.  So gentle reader, you are reading this because someone smart made a way to keep work saved.</p>
+<p>Of course, I still don&rsquo;t know what&rsquo;s causing my notebook to freeze up.  More troubleshooting is needed.  But there&rsquo;s a farmers market to go to, flank steak to grill, and good friends to pour some bubbly for.  Fixing this computer may just have to wait!</p>
+<h2 id="update2">UPDATE2</h2>
+<p>It locked up AGAIN but this time I saw the main LCD screen go nuts right before it froze.  So it&rsquo;s DEFINITELY something with the GPU.  A bit of googling and found <a href="https://www.reddit.com/r/linux/comments/l2j8kk/psa_if_your_system_freezes_randomly_and_you_have/">this</a> that said to downgrade the NVidia drivers (and found &hellip;) AND IT LOCKED UP.</p>
+<p>So I purged all Nvidia drivers and reinstalled.  For the observant reader wondering why I am keeping a buggy proprietary driver, it&rsquo;s because the external HDMI port is only supported using the Nvidia driver for some reason.</p>
+<p>Still trying.  But it&rsquo;s getting more than annoying to have my working machine lock up every few minutes.  It&rsquo;s reminding me of the old days on Linux (and I don&rsquo;t have time for that shit today).</p>
+<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+<script async src="//static.getclicky.com/101366448.js"></script>
+<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript>
+(END)</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2flocked-out-and-locked-up%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2flocked-out-and-locked-up%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocked-out-and-locked-up%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2flocked-out-and-locked-up%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocked-out-and-locked-up%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocked-out-and-locked-up%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/aws-cookbook-review/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/aws-cookbook-review/">Book Review: AWS Cookbook</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/brightsign/">BrightSign!</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/brightsign/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

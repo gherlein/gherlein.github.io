@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.105.0">
+
+  <title>cloud &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
+    href='https://blog.herlein.com/tags/cloud/index.xml' />
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href='https://blog.herlein.com/tags/cloud/index.xml'><i
+          class="fas fa-rss fa-fw"></i>RSS</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2021. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>cloud</h1>
+</div>
+
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/aws-cookbook-review/">Book Review: AWS Cookbook</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>22 May 2022, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/book-review">book-review</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Tl;dr: <a href="https://smile.amazon.com/AWS-Cookbook-Recipes-Success/dp/1492092606/ref=sr_1_1?crid=10TVQCJGZ2FWA&amp;keywords=aws+cookbook&amp;qid=1654968145&amp;sprefix=aws+cookbook%2Caps%2C111&amp;sr=8-1">The AWS Cookbook</a> is a must have addition to your reference library.  Disclaimer:  I received a free copy of this book from the author.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/aws-cookbook-review/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/devops-what/">DevOps - All Things To All People - or Not?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>16 Mar 2022, 00:01</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Seems like everyone is clammoring for DevOps folks.  Do they really know what they want?  That term means all things to all people.  Some thoughts.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/devops-what/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/ending-2020/">Changes - Ending 2020</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>19 Dec 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>As 2020 thankfully winds down, I leave Cisco and join AWS.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/ending-2020/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/">Using CloudWatch for On-Premise Ubuntu Servers</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>04 Nov 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloudwatch">cloudwatch</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ubuntu">ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/monitoring">monitoring</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/syslogs">syslogs</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Can I replace a local Prometheus with AWS CloudWatch?  And include syslog monitoring as well?  Yes, I can.  But it was a PITA to set up.  Here&rsquo;s how.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/disposability/">Disposability - the Missing ility</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>24 Oct 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>You will get the most bang for the buck from cloud by destroying it.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/disposability/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/github-to-s3/">GitHub Actions - Copy to S3 on Commit to Master</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>23 Oct 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/github">github</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/actions">actions</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/s3">s3</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>GitHub Actions can be for more than CI/CD.  You can also use them to just simply publish to S3.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/github-to-s3/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/golang-enabled-microkernel-reality/">Golang Unikernel Is Reality!</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>22 Oct 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/general">general</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/golang">golang</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/micro-kernels">micro-kernels</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Back in January of 2018 I <a href="https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/">blogged on LinkedIn</a> asking the question if golang would enable development of micro-kernels.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/golang-enabled-microkernel-reality/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/sa-team-software-approach/">Building Solution Architecture Teams - A Software Approach</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>20 Oct 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/architecture">architecture</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/management">management</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>What actually is Solution Architecture?  How do you build and manage an Architecture team?  Can you take a software approach to that?</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/sa-team-software-approach/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/sre-123/">SRE 123</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>30 Sep 2020, 14:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/sre">sre</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Everyone is all on fire about SRE.  But what is it really?  It&rsquo;s as easy as 1-2-3 if you boil it down to the basics.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/sre-123/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/terraform/">Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>06 Jun 2020, 07:21</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/terraform">terraform</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>In AWS the AMI ID for a particular VM image is unique to that region.  But it&rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/terraform/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/blowing-up-monolith/">Review:  Blowing up the Monolith</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>24 Feb 2019, 08:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/micro-services">micro-services</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/architecture">architecture</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/software">software</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/development">development</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Book review - free <a href="https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf">&ldquo;Blowing up the Monolith&rdquo;</a> book from Kong.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/blowing-up-monolith/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/cloud-basics/">Cloudy DevOps - Part 1</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Feb 2019, 14:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&rsquo;s some of what I&rsquo;ve learned across a half-dozen teams who&rsquo;ve done it.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/cloud-basics/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/aws-certified/">AWS Certified</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2018, 23:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>On Becoming an AWS Certified Solutions Architect (Associate)</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/aws-certified/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/avalanche-reinvent/">Avalanche! re:Invent 2018</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2018, 10:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Thoughts on AWS re:Invent 2018</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/avalanche-reinvent/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/golang-enabled-microkernels/">Golang Enabling Unikernels?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>29 Jan 2018, 16:29</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/general">general</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/golang">golang</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/micro-kernels">micro-kernels</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p><a href="https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/">Golang Enabling Unikernels?</a></p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/golang-enabled-microkernels/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/technology-rolls-on/">Technology Rolls On, Better Roll With It</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>21 Dec 2016, 16:29</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/general">general</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/data-centers">data-centers</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/automation">automation</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p><a href="https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/">Technology Rolls On, Better Roll With It</a></p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/technology-rolls-on/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/how-to-do-devops/">How To Do Devops?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>12 Apr 2016, 16:29</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/general">general</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/automation">automation</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p><a href="https://www.linkedin.com/pulse/how-do-devops-greg-herlein/">How To Do Devops?</a></p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/how-to-do-devops/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

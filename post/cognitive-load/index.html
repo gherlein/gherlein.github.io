@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.105.0">
+
+  <title>DevOps: Manage the Cognitive Load &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2021. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>DevOps: Manage the Cognitive Load</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>21 May 2022, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">DevOps</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/engineering">Engineering</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/management">Management</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Speed, cost and quality are considered the vectors that you can control.  If you are moving to cloud to get the &ldquo;ilities&rdquo; that comprise quality, you need to seriously consider Cognitive Load.</p>
+<p>Over the last 10 years I&rsquo;ve seen a lot of different software architectures and systems at a lot of companies.  Every team and system has it&rsquo;s own history, it&rsquo;s own technical debt, it&rsquo;s own velocity and set of capabilities.  Some teams are staffed more completely than others.  Some are farther along the cloud journey than others.  Some have people with more current skills than others.</p>
+<p>What&rsquo;s not often discussed or evaluated is the level of &ldquo;Cognitive Load&rdquo; the team has to carry.</p>
+<h2 id="how-i-define-cogntive-load">How I Define Cogntive Load</h2>
+<p>Cognitive Load is the sum total of all the knowledge and understanding needed in order to do your job.  It&rsquo;s going to include the base eduction that got you to where you are at, and it includes all the new material you need to understand how your job is changing.  Some jobs have huge amounts of knowledge needed but don&rsquo;t change that fast.  I used to be a nuclear power plant operator and supervisor on a US Navy submarine.  It took two years of training before I stepped onto the boat, and generally it takes another year to be fully qualified.  But then it did not change all that fast.</p>
+<center><img src="https://blog.herlein.com/images/sf.jpg" width="80%"/></center>
+<p>If your job is building and/or operating today&rsquo;s software then you have both a massive amount of residual knowledge needed AND it&rsquo;s changing incredibly fast.  If your job includes migrating software to cloud, then it&rsquo;s a double load: you need to know how the current system works, and you also need to understand all the cloud technology needed for how your system will work in the cloud.  If your software is written in, say, Java, and you are porting it to golang then it&rsquo;s a double load:  you need to know the Java ecosystem and also the golang tools and ecosystem.  If you are moving from VMs to containers, same thing.  All of those vectors of change are not additive.  They are multiplicative.</p>
+<p>Think about that for a minute.</p>
+<p>Today, companies are moving towards &ldquo;Cloud Native&rdquo; architectures.  Which usually means Kubernetes (k8s).  Which itself then implies containers.  And a new monitoring system, probably oriented around &ldquo;observability.&rdquo;  And often it includes moving to a &ldquo;streaming&rdquo; data injest model, possibly with kafka or Amazon Kinesis or the like.  And if you are going there, you almost certainly want to adopt a &ldquo;DevOps&rdquo; posture, meaning using Continuous Integration and Continuous Deployment (CI/CD).  That means you also need automated, continuous testing, and almost certainly a whole new set of automation tools.  Jenkins may have served you well deploying to long-lived servers in a data center, but it&rsquo;s going to be a poor fit if you are doing k8s.</p>
+<center><img src="https://blog.herlein.com/images/brain.jpg" width="60%"/></center>
+<p>BOOM.  The brain explodes.  This is a LOT of material.</p>
+<h2 id="managing-the-load">Managing the Load</h2>
+<p>Product management is about planning what your product needs to do in order to be of the most value to customers.  It usually includes planning trade offs in the development of that product, usually trying to deliver useful bits of the product incrementally, usually adapting the product as you gain experience and customer feedback.  Engineering designs the archicture and builds the product. Management plans the funding, staffing, and work efforts.</p>
+<p><b>YOU MUST ALSO MANAGE THE COGNITIVE LOAD.</b></p>
+<p>Your teams have to learn a lot of material, and there is no &ldquo;one size fits all&rdquo; approach to up-skilling your teams.  It&rsquo;s a learning journey.  Building the new architecture is a journey too, usually refactoring the software, shifting parts into micro-services, decoupling sub-systems, doing a &ldquo;strangler fig&rdquo; approach to untangle your monolith.  That takes planning.  The learning journey to cope with the cognitive load also takes planning.</p>
+<p>Don&rsquo;t underestimate this.  I personally have seen a project get into trouble because the team did not invest enough in how they were going to operate a new technology.  If you think you can just adopt something like kafka and it &ldquo;just works&rdquo; then you are going to have a bad quarter.  You have to plan how your teams are going to learn all the new tech.  You have to plan for the cognitive load.</p>
+<h2 id="optimization-and-choices">Optimization and Choices</h2>
+<p>Back to the vectors:  speed, cost, quality.  The old saying is &ldquo;pick any two.&rdquo;  Quality is the sum of all the &ldquo;ilities&rdquo; (reliability, sustainability, operability, scalability, etc.).  Adopting new cloud technology is to get you those &ldquo;ilities.&rdquo;  But clearly doing so will slow you down, and cost you more.</p>
+<p>You do have some choices.  You can choose how fast you adopt new technologies, and which technologies.  If you move to containers, do you really need to jump right to k8s?  Can you consider <a href="https://docs.docker.com/engine/swarm/">Docker Swarm?</a>.  What about <a href="https://www.nomadproject.io/">Hashicorp Nomad</a> instead?  Both have substantially lower learning curves.  Can you spread the change over a longer period?  What really is driving your need to make the changes in the first place?</p>
+<p>Sometimes you just have to bite the bullet and adopt change.  But consider the time to learn, training costs, and most importantly learning to OPERATE the new technology.  Does your team know how to troubleshoot it when it fails?  How do you recover?  Have you actually practiced that?</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Teams have a certain amount of energy they are able to deliver.  Some companies try to push teams harder to get more energy delivered per unit time, but ultimately the energy a team has is finite.  Some of that energy will be spent learning the new technologies.  You may be able to hire some new talent who already have the skills, but even that takes time.  And money.  There is a talent war going on.  In all likelyhood you will need to up-skill your existing teams.  And that means making careful choices about how much Cognitive Load you are taking on.</p>
+<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+<script async src="//static.getclicky.com/101366448.js"></script>
+<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fcognitive-load%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fcognitive-load%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fcognitive-load%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fcognitive-load%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fcognitive-load%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fcognitive-load%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/clicky/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/clicky/">Using Clicky Web Analytics with Hugo</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/networking-book-review/">Book Review: Linux for Networking Professionals</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/networking-book-review/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
