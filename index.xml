@@ -804,7 +804,7 @@ which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</d
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://blog.herlein.com/projects/</guid>
-      <description>Projects This is a short list of projects I am currently working on (or have built and am actively using):
+      <description>Projects These are projects that are basically abandoned right now. I wish I had more time for them!
 GoNetMon - Network use visualization writting in GoLang, using Prometheus and Kibana
 ouilookup - CLI tool written in go to look up the vendor for a given MAC address
 PiBlaster-MQTT - port of PiBlaster to use MQTT instead of a local charachter device
