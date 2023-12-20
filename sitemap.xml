@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/tags/family/</loc>
-    <lastmod>2023-05-13T08:40:43-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/facebook/</loc>
+    <lastmod>2023-12-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/facebook-again/</loc>
+    <lastmod>2023-12-20T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2023-12-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2023-12-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/social-media/</loc>
+    <lastmod>2023-12-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2023-12-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/family/</loc>
     <lastmod>2023-05-13T08:40:43-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/luca/</loc>
     <lastmod>2023-05-13T08:40:43-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/luca-graduates/</loc>
-    <lastmod>2023-05-13T08:40:43-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2023-05-13T08:40:43-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2023-05-13T08:40:43-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/linux/</loc>
