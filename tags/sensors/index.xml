@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/development/</link>
-    <description>Recent content in development on Greg Herlein</description>
+    <title>sensors on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/sensors/</link>
+    <description>Recent content in sensors on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2023. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 25 Dec 2023 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Dec 2023 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ocean Technology and Talking to Whales</title>
       <link>https://blog.herlein.com/post/bristlemouth-pioneer/</link>
@@ -16,15 +16,6 @@
       <guid>https://blog.herlein.com/post/bristlemouth-pioneer/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been accepted into the &lt;a href=&#34;https://www.bristlemouth.org/pioneer&#34;&gt;Bristlemout Pioneer Program&lt;/a&gt;.  I&amp;rsquo;ve been granted a &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with a &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;.  I want to build a system capable of autonomously recording whale song (and other ocean data) - especially &lt;a href=&#34;https://sanctuaries.noaa.gov/news/sep22/mysteries-of-humpback-whale-song.html&#34;&gt;Humpback Whale songs&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;But really getting all &amp;ldquo;science fictiony&amp;rdquo; - can we build an ocean phone system to talk to whales?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Review:  Blowing up the Monolith</title>
-      <link>https://blog.herlein.com/post/blowing-up-monolith/</link>
-      <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/post/blowing-up-monolith/</guid>
-      <description>&lt;p&gt;Book review - free &lt;a href=&#34;https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf&#34;&gt;&amp;ldquo;Blowing up the Monolith&amp;rdquo;&lt;/a&gt; book from Kong.&lt;/p&gt;</description>
     </item>
     
   </channel>
