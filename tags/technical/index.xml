@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2023. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 30 Dec 2023 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whale Song - Some Background</title>
+      <link>https://blog.herlein.com/post/whale-song/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/whale-song/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Bristlemouth Dev Kit Delayed - Customs Woes</title>
       <link>https://blog.herlein.com/post/bristlemouth-delayed/</link>
