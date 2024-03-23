@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2023. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 07 Mar 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Mar 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://blog.herlein.com/about/</link>
+      <pubDate>Sat, 23 Mar 2024 00:01:05 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/about/</guid>
+      <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!</description>
+    </item>
+    
+    <item>
+      <title>Book Review:  Operational Excellence</title>
+      <link>https://blog.herlein.com/post/ops-excellence/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/ops-excellence/</guid>
+      <description>&lt;p&gt;I finally have a book that describes my management philosophy.  Two retired US Navy Submariners Officers describe how the core principles of the Submarine Service are the perfect model for excellence in the business world too.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Bristlemouth Dev Kit: YES!</title>
       <link>https://blog.herlein.com/post/bristlemouth-yes/</link>
@@ -161,15 +179,6 @@ Somehow I didn&amp;rsquo;t follow their community standards EVEN BEFORE I LOGGED
       
       <guid>https://blog.herlein.com/post/september/</guid>
       <description>&lt;p&gt;Three months since I posted, so here&amp;rsquo;s some random thoughts and updates.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://blog.herlein.com/about/</link>
-      <pubDate>Wed, 27 Jul 2022 00:01:05 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/about/</guid>
-      <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!</description>
     </item>
     
     <item>
@@ -904,7 +913,8 @@ goxb_mqtt - native go code that reads from an XBox(tm) controller (using libusb)
 gherlein@herlein.com
 github.com/gherlein
 +1-415-368-7546
-Summary of Qualifications 15+ years senior Engineering Leadership experience in all stages of the product lifecycle Proven track record leading large Engineering organizations (100+ Engineers) Significant experience driving automation and DevOps, distributed systems, cloud migration Strong technical expertise in Linux, networking, control systems, embedded systems Deep hands-on experience with software development, automated testing, networking Proven ability to work closely with customers both deploying and supporting products Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo; Agile Expert - scrum, kanban and scrumban – adept at maximizing feature velocity Work History Amazon AWS - Principal Evangelist, Amazon Chime SDK (12/2020 to Present) The Amazon Chime SDK is a real-time communications components that developers can use to quickly add messaging, audio, video, telephony, and screen sharing capabilities to their web or mobile applications.</description>
+Summary of Qualifications
+20+ years of experience in software development and cloud systems architecture 10+ years of direct people management experience 10+ years of experience building distributed SaaS systems in the cloud Extremely fast learner and technology early adopter Creative problem solver – inventor of 6 patents and many innovative products Led teams of Cloud Solution Architects at AWS directly supporting GTM sales plans Drove a multi-million dollar program integrating cloud technologies at Rakuten Principal Architect for data lake modernization project for over 1100 Engineers Solid understanding of compliance, including networking and security Exceptional presentation skills – strong with both Engineers and Executives Strong communication and interpersonal skills – adept at cross-team collaboration Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo; Work History</description>
     </item>
     
   </channel>
