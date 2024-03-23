@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/about/</loc>
-    <lastmod>2024-03-23T00:01:05-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/ops-excellence/</loc>
+    <lastmod>2024-03-23T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/opsexcellence/</loc>
     <lastmod>2024-03-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/culture/</loc>
@@ -175,6 +175,9 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/software-engineering/</loc>
     <lastmod>2022-09-24T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/about/</loc>
+    <lastmod>2022-07-27T00:01:05-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/brightsign/</loc>
     <lastmod>2022-06-20T00:00:01-07:00</lastmod>
