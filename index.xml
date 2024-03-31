@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 23 Mar 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Mar 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
       <link>https://blog.herlein.com/about/</link>
@@ -15,6 +15,15 @@
       
       <guid>https://blog.herlein.com/about/</guid>
       <description>Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!</description>
+    </item>
+    
+    <item>
+      <title>Bristlemouth Dev Kit: SLOW - and Thinking</title>
+      <link>https://blog.herlein.com/post/bristlemouth-slow/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/bristlemouth-slow/</guid>
+      <description>&lt;p&gt;Work on the &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt; is slower than I hoped.&lt;/p&gt;</description>
     </item>
     
     <item>
