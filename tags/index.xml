@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 31 Mar 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Apr 2024 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leadership</title>
+      <link>https://blog.herlein.com/tags/leadership/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Management</title>
+      <link>https://blog.herlein.com/tags/management/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>https://blog.herlein.com/tags/podcast/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software-Engineering</title>
+      <link>https://blog.herlein.com/tags/software-engineering/</link>
+      <pubDate>Fri, 05 Apr 2024 00:00:01 -0700</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>bristlemouth</title>
       <link>https://blog.herlein.com/tags/bristlemouth/</link>
@@ -306,29 +342,11 @@
     </item>
     
     <item>
-      <title>Leadership</title>
-      <link>https://blog.herlein.com/tags/leadership/</link>
-      <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/leadership/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Media-Players</title>
       <link>https://blog.herlein.com/tags/media-players/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/media-players/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software-Engineering</title>
-      <link>https://blog.herlein.com/tags/software-engineering/</link>
-      <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/software-engineering/</guid>
       <description></description>
     </item>
     
@@ -401,15 +419,6 @@
       <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
       
       <guid>https://blog.herlein.com/tags/engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Management</title>
-      <link>https://blog.herlein.com/tags/management/</link>
-      <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/management/</guid>
       <description></description>
     </item>
     
