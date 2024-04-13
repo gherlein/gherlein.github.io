@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/communication/</loc>
+    <lastmod>2024-04-13T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
-    <lastmod>2024-04-05T00:00:01-07:00</lastmod>
+    <lastmod>2024-04-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/two-way-street/</loc>
+    <lastmod>2024-04-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/honesty/</loc>
+    <lastmod>2024-04-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2024-04-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/recruiting/</loc>
+    <lastmod>2024-04-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2024-04-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2024-04-13T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/synergy-podcast/</loc>
     <lastmod>2024-04-05T00:00:01-07:00</lastmod>
@@ -17,13 +38,7 @@
     <loc>https://blog.herlein.com/tags/podcast/</loc>
     <lastmod>2024-04-05T00:00:01-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2024-04-05T00:00:01-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/software-engineering/</loc>
-    <lastmod>2024-04-05T00:00:01-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2024-04-05T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/about/</loc>
@@ -42,9 +57,6 @@
     <lastmod>2024-03-31T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/sensors/</loc>
-    <lastmod>2024-03-31T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2024-03-31T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/ops-excellence/</loc>
@@ -702,6 +714,8 @@
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/resume/</loc>
+  </url><url>
+    <loc>https://blog.herlein.com/staffing/</loc>
   </url><url>
     <loc>https://blog.herlein.com/categories/</loc>
   </url><url>
