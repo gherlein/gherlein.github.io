@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/tags/acoustics/</loc>
-    <lastmod>2024-05-11T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/history/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/lost-boats-2024/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/memorial/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/navy/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/respect/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ww2/</loc>
+    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/acoustics/</loc>
     <lastmod>2024-05-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/humpback/</loc>
@@ -15,12 +39,6 @@
     <lastmod>2024-05-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/ocean/</loc>
-    <lastmod>2024-05-11T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2024-05-11T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2024-05-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/technical/</loc>
@@ -96,9 +114,6 @@
     <lastmod>2024-03-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/integrity/</loc>
-    <lastmod>2024-03-23T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/navy/</loc>
     <lastmod>2024-03-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/operations/</loc>
