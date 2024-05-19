@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/post/lol/lol/</loc>
+    <lastmod>2024-05-19T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
-    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
+    <lastmod>2024-05-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/leadership/</loc>
+    <lastmod>2024-05-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/managment/</loc>
+    <lastmod>2024-05-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/people-development/</loc>
+    <lastmod>2024-05-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2024-05-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2024-05-19T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/history/</loc>
     <lastmod>2024-05-13T00:00:01-08:00</lastmod>
@@ -17,13 +35,7 @@
     <loc>https://blog.herlein.com/tags/navy/</loc>
     <lastmod>2024-05-13T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/respect/</loc>
-    <lastmod>2024-05-13T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2024-05-13T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/ww2/</loc>
@@ -44,6 +56,9 @@
     <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2024-05-11T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/post/lol/whale-new-tech/</loc>
+    <lastmod>2024-05-11T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/whale-new-tech/</loc>
     <lastmod>2024-05-11T00:00:01-08:00</lastmod>
   </url><url>
@@ -57,9 +72,6 @@
     <lastmod>2024-04-27T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/hiring/</loc>
-    <lastmod>2024-04-27T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/leadership/</loc>
     <lastmod>2024-04-27T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/management/</loc>
