@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/post/lol/lol/</loc>
+    <loc>https://blog.herlein.com/post/lol/</loc>
     <lastmod>2024-05-19T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/</loc>
@@ -54,9 +54,6 @@
     <lastmod>2024-05-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/technical/</loc>
-    <lastmod>2024-05-11T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/lol/whale-new-tech/</loc>
     <lastmod>2024-05-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/whale-new-tech/</loc>
