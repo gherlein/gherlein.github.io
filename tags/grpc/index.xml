@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gRPC on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/grpc/</link>
+    <description>Recent content in gRPC on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 28 May 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/grpc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning gRPC in golang - with some ChatGPT help</title>
+      <link>https://blog.herlein.com/post/golang-grpc-chatgpt/</link>
+      <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/post/golang-grpc-chatgpt/</guid>
+      <description>&lt;p&gt;I decided to learn how to write gRPC code in golang - and used ChatGPT as an accelerator! Jump to the &lt;a href=&#34;https://github.com/gherlein/time-services&#34;&gt;writeup&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

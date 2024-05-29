@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 21 May 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT</title>
+      <link>https://blog.herlein.com/tags/chatgpt/</link>
+      <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://blog.herlein.com/tags/go/</link>
+      <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://blog.herlein.com/tags/golang/</link>
+      <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gRPC</title>
+      <link>https://blog.herlein.com/tags/grpc/</link>
+      <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/grpc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
+      
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
@@ -140,15 +185,6 @@
       <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/ocean/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     
@@ -986,15 +1022,6 @@
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
       
       <guid>https://blog.herlein.com/tags/s3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://blog.herlein.com/tags/golang/</link>
-      <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/golang/</guid>
       <description></description>
     </item>
     
