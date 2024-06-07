@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/tags/equality/</loc>
-    <lastmod>2024-06-06T00:00:01-07:00</lastmod>
+    <loc>https://blog.herlein.com/post/review-priorities/</loc>
+    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/book-reviews/</loc>
+    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/culture/</loc>
+    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/priorities/</loc>
+    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/product-management/</loc>
+    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/equality/</loc>
     <lastmod>2024-06-06T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/wistem-podcast/</loc>
@@ -20,13 +41,7 @@
     <loc>https://blog.herlein.com/tags/podcast/</loc>
     <lastmod>2024-06-06T00:00:01-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2024-06-06T00:00:01-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/software-engineering/</loc>
-    <lastmod>2024-06-06T00:00:01-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2024-06-06T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/chatgpt/</loc>
@@ -150,9 +165,6 @@
     <lastmod>2024-03-31T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/ops-excellence/</loc>
-    <lastmod>2024-03-23T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/culture/</loc>
     <lastmod>2024-03-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/integrity/</loc>
