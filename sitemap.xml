@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/post/chrome-predictor/</loc>
+    <lastmod>2024-08-03T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/general/</loc>
+    <lastmod>2024-08-03T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2024-08-03T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2024-08-03T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2024-08-03T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/review-priorities/</loc>
     <lastmod>2024-06-07T00:00:01-08:00</lastmod>
   </url><url>
@@ -11,19 +26,10 @@
     <loc>https://blog.herlein.com/tags/culture/</loc>
     <lastmod>2024-06-07T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/priorities/</loc>
     <lastmod>2024-06-07T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/product-management/</loc>
-    <lastmod>2024-06-07T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2024-06-07T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/equality/</loc>
@@ -236,9 +242,6 @@
     <loc>https://blog.herlein.com/tags/excellence/</loc>
     <lastmod>2023-02-05T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/general/</loc>
-    <lastmod>2023-02-05T00:00:00-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/rickover-lessons/</loc>
     <lastmod>2023-02-05T00:00:00-07:00</lastmod>
   </url><url>
@@ -383,6 +386,9 @@
     <loc>https://blog.herlein.com/tags/ml/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/ml/ai/</loc>
+    <lastmod>2022-03-26T00:00:00-07:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/telephony/</loc>
     <lastmod>2022-03-26T00:00:00-07:00</lastmod>
   </url><url>
@@ -391,6 +397,9 @@
   </url><url>
     <loc>https://blog.herlein.com/post/devops-what/</loc>
     <lastmod>2022-03-16T00:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ci/cd/</loc>
+    <lastmod>2022-03-01T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/sdlc/</loc>
     <lastmod>2022-03-01T00:00:01-08:00</lastmod>
@@ -803,8 +812,6 @@
   </url><url>
     <loc>https://blog.herlein.com/categories/</loc>
   </url><url>
-    <loc>https://blog.herlein.com/tags/ci/cd/</loc>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ml/ai/</loc>
+    <loc>https://blog.herlein.com/topics/</loc>
   </url>
 </urlset>

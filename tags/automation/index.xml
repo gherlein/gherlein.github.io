@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>automation on Greg Herlein</title>
+    <title>Automation on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/automation/</link>
-    <description>Recent content in automation on Greg Herlein</description>
+    <description>Recent content in Automation on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 13 Feb 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Feb 2022 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating an Ephemeral EC2 Instance for Development for Testing</title>
       <link>https://blog.herlein.com/post/single-ec2-cdk/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/single-ec2-cdk/</guid>
       <description>&lt;p&gt;&amp;ldquo;Cattle, not Pets!&amp;rdquo; they say.  Except that for a lot of development, coders make their own laptop their favorite pet.  &amp;ldquo;It works on my machine!&amp;rdquo; becomes normal.  I got tired of that and &lt;a href=&#34;https://github.com/aws-samples/single-ec2-cdk&#34;&gt;automated the creation of my dev environment.&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Technology Rolls On, Better Roll With It</title>
       <link>https://blog.herlein.com/post/technology-rolls-on/</link>
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/technology-rolls-on/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/&#34;&gt;Technology Rolls On, Better Roll With It&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How To Do Devops?</title>
       <link>https://blog.herlein.com/post/how-to-do-devops/</link>
       <pubDate>Tue, 12 Apr 2016 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/how-to-do-devops/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

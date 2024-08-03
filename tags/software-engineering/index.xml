@@ -1,48 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software-Engineering on Greg Herlein</title>
+    <title>Software Engineering on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/software-engineering/</link>
-    <description>Recent content in Software-Engineering on Greg Herlein</description>
+    <description>Recent content in Software Engineering on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:01 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guest Appearance: Women in STEM Podcast</title>
       <link>https://blog.herlein.com/post/wistem-podcast/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/wistem-podcast/</guid>
       <description>&lt;p&gt;I had a lot of fun being interviewed by &lt;a href=&#34;https://www.linkedin.com/in/aimeevincent-bunn/&#34;&gt;Aimee Vincent-Bunn&lt;/a&gt; who hosts the fabulous &lt;a href=&#34;https://podcasters.spotify.com/pod/show/women-in-stem10/episodes/In-conversation-with-Greg-Herlein---WiSTEM-e2kfoev/a-abb1pkq&#34;&gt;Women in STEM&lt;/a&gt; podcast.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Guest Appearance: Software Synergy Podcast</title>
       <link>https://blog.herlein.com/post/synergy-podcast/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/synergy-podcast/</guid>
       <description>&lt;p&gt;I had a lot of fun being interviewed by &lt;a href=&#34;https://www.linkedin.com/in/engagewithjames/&#34;&gt;James Holder&lt;/a&gt; for the Software Synergy Podcast.  You can listen on &lt;a href=&#34;https://open.spotify.com/episode/6JvlUGVC1JFN1Z4fsWbpbZ?si=ka92jZDIQ8WKODM4i8e7vw&#34;&gt;Spotify&lt;/a&gt; or &lt;a href=&#34;https://podcasts.apple.com/us/podcast/the-software-synergy-podcast/id1722647800?i=1000651471535&#34;&gt;Apple&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>September Update</title>
       <link>https://blog.herlein.com/post/september/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/september/</guid>
       <description>&lt;p&gt;Three months since I posted, so here&amp;rsquo;s some random thoughts and updates.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BrightSign!</title>
       <link>https://blog.herlein.com/post/brightsign/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/brightsign/</guid>
       <description>&lt;p&gt;What&amp;rsquo;s old is new again:  I&amp;rsquo;ve joined &lt;a href=&#34;https://www.brightsign.biz/&#34;&gt;BrightSign&lt;/a&gt; as their Head of Software Engineering!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

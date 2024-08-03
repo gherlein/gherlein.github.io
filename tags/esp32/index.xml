@@ -1,58 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>esp32 on Greg Herlein</title>
+    <title>Esp32 on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/esp32/</link>
-    <description>Recent content in esp32 on Greg Herlein</description>
+    <description>Recent content in Esp32 on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 15 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/esp32/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:01 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/esp32/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Trials:  ESP32-POE-EA Board from Olimex</title>
       <link>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</guid>
-      <description>&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;
-&lt;p&gt;Picking up from last weekend, I play with the &lt;a href=&#34;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware&#34;&gt;ESP32-POE-EA board from Olimex&lt;/a&gt; using the &lt;a href=&#34;https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#&#34;&gt;Espressif FreeRTOS ESP-IDF Framework&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;&#xA;&lt;p&gt;Picking up from last weekend, I play with the &lt;a href=&#34;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware&#34;&gt;ESP32-POE-EA board from Olimex&lt;/a&gt; using the &lt;a href=&#34;https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#&#34;&gt;Espressif FreeRTOS ESP-IDF Framework&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing like it was summer (but with an ESP32)</title>
       <link>https://blog.herlein.com/post/back-to-the-future/</link>
       <pubDate>Sat, 07 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/back-to-the-future/</guid>
       <description>&lt;p&gt;Been awhile, head spinning, took some time to just play.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing with Tasmota - A Swimming Pool Story</title>
       <link>https://blog.herlein.com/post/tasmota/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/tasmota/</guid>
       <description>&lt;p&gt;Playing around with Tasmota - as the sensing core of an IoT-based swimming pool temperature control system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Progress on ESP32 and FreeRTOS</title>
       <link>https://blog.herlein.com/post/freertos-helper-esp32/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/freertos-helper-esp32/</guid>
       <description>&lt;p&gt;Progress, but not where I want it to be.  But it builds and installs the FreeRTOS AWS IoT demo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dabbling into ESP32 and FreeRTOS</title>
       <link>https://blog.herlein.com/post/esp32/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/esp32/</guid>
       <description>&lt;p&gt;Dipping a toe into the FreeRTOS ESP32 world.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

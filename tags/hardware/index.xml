@@ -1,48 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hardware on Greg Herlein</title>
+    <title>Hardware on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/hardware/</link>
-    <description>Recent content in hardware on Greg Herlein</description>
+    <description>Recent content in Hardware on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beaglebone Black - Getting Started</title>
       <link>https://blog.herlein.com/post/beaglebone-getting-started/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/beaglebone-getting-started/</guid>
       <description>&lt;p&gt;Getting Started with the Beaglebone Black (Again)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RBOT Robotics Sensor/Acuator Board - Value Proposition</title>
       <link>https://blog.herlein.com/post/rbot-value-prop/</link>
       <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/rbot-value-prop/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m building a board for robotics, but it&amp;rsquo;s also useful for IoT and home automation.  What&amp;rsquo;s it do?  What problem does it solve?  It&amp;rsquo;s basically a WiFi interface to a variety of I2C-driven devices (motors or sensors).  The I2C side is Engineered to be highly robust and reliable.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>I2c Tools for Project RBOT</title>
       <link>https://blog.herlein.com/post/i2c-for-robot/</link>
       <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/i2c-for-robot/</guid>
       <description>&lt;p&gt;I2C Tools I am Using for the RBOT Project&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pcal6416a Getting Started</title>
       <link>https://blog.herlein.com/post/pcal6416a-getting-started/</link>
       <pubDate>Sat, 14 Jul 2018 19:32:04 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/pcal6416a-getting-started/</guid>
       <description>&lt;p&gt;I2C Port Expander for Robotics Use - Getting Started with the NXP PCAL6416A&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

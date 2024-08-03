@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>software on Greg Herlein</title>
+    <title>Software on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/software/</link>
-    <description>Recent content in software on Greg Herlein</description>
+    <description>Recent content in Software on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 24 Feb 2019 08:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Feb 2019 08:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Review:  Blowing up the Monolith</title>
       <link>https://blog.herlein.com/post/blowing-up-monolith/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/blowing-up-monolith/</guid>
       <description>&lt;p&gt;Book review - free &lt;a href=&#34;https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf&#34;&gt;&amp;ldquo;Blowing up the Monolith&amp;rdquo;&lt;/a&gt; book from Kong.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

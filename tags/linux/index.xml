@@ -1,296 +1,230 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Greg Herlein</title>
+    <title>Linux on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/linux/</link>
-    <description>Recent content in linux on Greg Herlein</description>
+    <description>Recent content in Linux on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 20 Dec 2023 08:00:00 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 08:00:00 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back to the Mac</title>
       <link>https://blog.herlein.com/post/back-to-mac/</link>
       <pubDate>Wed, 20 Dec 2023 08:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/back-to-mac/</guid>
       <description>&lt;p&gt;I undid it.  I&amp;rsquo;m still using my desktop (mostly remotely) and I do love my Lenovo X1 Carbon.  But my primary machine is back to the Mac Book Pro.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu Again!</title>
       <link>https://blog.herlein.com/post/ubuntu-again/</link>
       <pubDate>Fri, 12 May 2023 08:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ubuntu-again/</guid>
       <description>&lt;p&gt;I did it.  I went total Linux on the Desktop again.  Full blown beast of a real machine, and am getting a Lenovo X1 Carbon for travel.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How I Locked Myself Out of my Linux System</title>
       <link>https://blog.herlein.com/post/locked-out-and-locked-up/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/locked-out-and-locked-up/</guid>
       <description>&lt;p&gt;Imagine my surprise when I could not sudo!  Wait, what?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Review: Linux for Networking Professionals</title>
       <link>https://blog.herlein.com/post/networking-book-review/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/networking-book-review/</guid>
       <description>&lt;p&gt;Tl;dr: read the web instead of &lt;a href=&#34;https://smile.amazon.com/Linux-Networking-Professionals-configure-enterprise-ebook/dp/B09BZTLRKY&#34;&gt;Linux for Networking Professionals&lt;/a&gt;.  This book is a broad, shallow coverage that is probably more easily learned from web pages for free.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using Clicky Web Analytics with Hugo</title>
       <link>https://blog.herlein.com/post/clicky/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/clicky/</guid>
       <description>&lt;p&gt;I added &lt;a href=&#34;https://clicky.com/&#34;&gt;Clicky&lt;/a&gt; web analytics to my blog (running &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Making Prometheus Alert Manager (more) Consistent</title>
       <link>https://blog.herlein.com/post/alert-manager-ha/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/alert-manager-ha/</guid>
       <description>&lt;p&gt;Prometheus Alert Manager is an &amp;ldquo;AP&amp;rdquo; system, in &amp;ldquo;CAP&amp;rdquo; terms.  How we made it more Consistent, including a forked repo of the Alert Manager code.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Goodbye Ubuntu, Hello Debian my old friend - AGAIN</title>
       <link>https://blog.herlein.com/post/debian-again2/</link>
       <pubDate>Fri, 18 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/debian-again2/</guid>
       <description>&lt;p&gt;Back to the future, debian again.  Ubuntu begone!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Creating an Ephemeral EC2 Instance for Development for Testing</title>
       <link>https://blog.herlein.com/post/single-ec2-cdk/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/single-ec2-cdk/</guid>
       <description>&lt;p&gt;&amp;ldquo;Cattle, not Pets!&amp;rdquo; they say.  Except that for a lot of development, coders make their own laptop their favorite pet.  &amp;ldquo;It works on my machine!&amp;rdquo; becomes normal.  I got tired of that and &lt;a href=&#34;https://github.com/aws-samples/single-ec2-cdk&#34;&gt;automated the creation of my dev environment.&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learnings from patching a bug in a modern project</title>
       <link>https://blog.herlein.com/post/modern-node-dev/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/modern-node-dev/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a
-new tool I am using (&lt;a href=&#34;https://github.com/projen/projen/pull/1437&#34;&gt;projen&lt;/a&gt;) and learned
-a ton along the way.  This post is to share some of that.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a&#xA;new tool I am using (&lt;a href=&#34;https://github.com/projen/projen/pull/1437&#34;&gt;projen&lt;/a&gt;) and learned&#xA;a ton along the way.  This post is to share some of that.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Spiral Again?</title>
       <link>https://blog.herlein.com/post/spiral-again/</link>
       <pubDate>Fri, 24 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/spiral-again/</guid>
       <description>&lt;p&gt;Merry Christmas Eve!  Playing with the Beaglebone sends me into another thought spiral.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Local Data Collection and Command Distribution</title>
       <link>https://blog.herlein.com/post/local-data-collection/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/local-data-collection/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m revisiting why I don&amp;rsquo;t like MQTT, and what I am doing about it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Beaglebone Black - Getting Started</title>
       <link>https://blog.herlein.com/post/beaglebone-getting-started/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/beaglebone-getting-started/</guid>
       <description>&lt;p&gt;Getting Started with the Beaglebone Black (Again)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VLC Error</title>
       <link>https://blog.herlein.com/post/vlc/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/vlc/</guid>
       <description>&lt;p&gt;A bug in VLC?  Grrrr.  Reminds me of the old days.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Power of xdotool in X11</title>
       <link>https://blog.herlein.com/post/xdotool/</link>
       <pubDate>Sat, 18 Sep 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/xdotool/</guid>
       <description>&lt;p&gt;X11&amp;rsquo;s xdotool cli is snazzy, and solved an annoying window placement problem.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Thoughts on MQTT</title>
       <link>https://blog.herlein.com/post/mqtt/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/mqtt/</guid>
       <description>&lt;p&gt;Some Thoughts on MQTT&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Progress on ESP32 and FreeRTOS</title>
       <link>https://blog.herlein.com/post/freertos-helper-esp32/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/freertos-helper-esp32/</guid>
       <description>&lt;p&gt;Progress, but not where I want it to be.  But it builds and installs the FreeRTOS AWS IoT demo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Back to Basics:  AWS IoT C SDK</title>
       <link>https://blog.herlein.com/post/aws-iot-c-sdk/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/aws-iot-c-sdk/</guid>
       <description>&lt;p&gt;A few quick notes on getting the AWS IoT C SDK running on Linux.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dabbling into ESP32 and FreeRTOS</title>
       <link>https://blog.herlein.com/post/esp32/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/esp32/</guid>
       <description>&lt;p&gt;Dipping a toe into the FreeRTOS ESP32 world.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Programming Serial in C</title>
       <link>https://blog.herlein.com/post/serial/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/serial/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s back to the future again.  Fidding with node.js a lot, but you know, C is still my favorite language.  Dug up some old code to read/write from a serial port.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Power Costs</title>
       <link>https://blog.herlein.com/post/power/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/power/</guid>
       <description>&lt;p&gt;A quick measure of the costs of running on-premise computers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Fixing Hugo Social Media Icons in Blackburn</title>
       <link>https://blog.herlein.com/post/hugo-social-media-icons/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/hugo-social-media-icons/</guid>
       <description>&lt;p&gt;The Blackburn theme for Hugo has a bug in how it shows social media icons.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hello Ubuntu - Kinda</title>
       <link>https://blog.herlein.com/post/hello-ubuntu-kinda/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/hello-ubuntu-kinda/</guid>
       <description>&lt;p&gt;Debian not good for me on the desktop - back to Ubuntu, lost the snaps.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Raspberry Pi Zero W Fun</title>
       <link>https://blog.herlein.com/post/rpi-zero-w/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/rpi-zero-w/</guid>
       <description>&lt;p&gt;The Raspberry Pi Zero W is likely the basis of my next few projects.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Goodbye Ubuntu, Hello Debian my old friend</title>
       <link>https://blog.herlein.com/post/debian-again/</link>
       <pubDate>Fri, 07 Aug 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/debian-again/</guid>
       <description>&lt;p&gt;Ubuntu just went too far with the snap crap.  Back to Debian!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Blast from the past - Linux Telephony API</title>
       <link>https://blog.herlein.com/post/lti/</link>
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/lti/</guid>
       <description>&lt;p&gt;A trip down memory lane:  the first linux telephony drivers&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docs as Code</title>
       <link>https://blog.herlein.com/post/docs-as-code/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/docs-as-code/</guid>
       <description>&lt;p&gt;One of the core principles of modern &amp;ldquo;DevOps&amp;rdquo; development is to treat your documentation as code, just like code.  My team at Cisco open sourced how we do that.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>[Catchup Post] Speaking at SphereIT in Krakow, October 2019</title>
       <link>https://blog.herlein.com/post/sphereit/</link>
       <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/sphereit/</guid>
       <description>&lt;p&gt;Link to posted video &amp;ldquo;CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein &amp;amp; David Wang&amp;rdquo;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Make RDP work from OSX</title>
       <link>https://blog.herlein.com/post/rdp/</link>
       <pubDate>Tue, 21 Apr 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/rdp/</guid>
       <description>&lt;p&gt;Quick reminder how to enable RDP sessions from OSX to an Ubuntu box.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SSH Tunnels</title>
       <link>https://blog.herlein.com/post/ssh-tunnels/</link>
       <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ssh-tunnels/</guid>
       <description>&lt;p&gt;SSH tunnels are basically indistinguishable from magic.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu Lid Control</title>
       <link>https://blog.herlein.com/post/ubuntu-lid/</link>
       <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ubuntu-lid/</guid>
       <description>&lt;p&gt;The default behavior of Ubuntu 18.04 is not friendly for a notebook that swaps back and forth from desk to mobile.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu Again!</title>
       <link>https://blog.herlein.com/post/ubuntu-18.04/</link>
       <pubDate>Sat, 05 Jan 2019 08:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ubuntu-18.04/</guid>
-      <description>&lt;p&gt;From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop
-became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!
-Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s
-the easiest and happiest linux ever for me.&lt;/p&gt;</description>
+      <description>&lt;p&gt;From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop&#xA;became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!&#xA;Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s&#xA;the easiest and happiest linux ever for me.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

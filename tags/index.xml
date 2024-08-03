@@ -7,1392 +7,1085 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 07 Jun 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>book reviews</title>
+      <title>General</title>
+      <link>https://blog.herlein.com/tags/general/</link>
+      <pubDate>Sat, 03 Aug 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Book Reviews</title>
       <link>https://blog.herlein.com/tags/book-reviews/</link>
       <pubDate>Fri, 07 Jun 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/book-reviews/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>culture</title>
+      <title>Culture</title>
       <link>https://blog.herlein.com/tags/culture/</link>
       <pubDate>Fri, 07 Jun 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/culture/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>priorities</title>
+      <title>Priorities</title>
       <link>https://blog.herlein.com/tags/priorities/</link>
       <pubDate>Fri, 07 Jun 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/priorities/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>product management</title>
+      <title>Product Management</title>
       <link>https://blog.herlein.com/tags/product-management/</link>
       <pubDate>Fri, 07 Jun 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/product-management/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Equality</title>
       <link>https://blog.herlein.com/tags/equality/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/equality/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Leadership</title>
       <link>https://blog.herlein.com/tags/leadership/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/leadership/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Management</title>
       <link>https://blog.herlein.com/tags/management/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/management/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Podcast</title>
       <link>https://blog.herlein.com/tags/podcast/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/podcast/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Software-Engineering</title>
+      <title>Software Engineering</title>
       <link>https://blog.herlein.com/tags/software-engineering/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/software-engineering/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ChatGPT</title>
       <link>https://blog.herlein.com/tags/chatgpt/</link>
       <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/chatgpt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>go</title>
+      <title>Go</title>
       <link>https://blog.herlein.com/tags/go/</link>
       <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/go/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>golang</title>
+      <title>Golang</title>
       <link>https://blog.herlein.com/tags/golang/</link>
       <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/golang/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>gRPC</title>
+      <title>GRPC</title>
       <link>https://blog.herlein.com/tags/grpc/</link>
       <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/grpc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>technical</title>
+      <title>Technical</title>
       <link>https://blog.herlein.com/tags/technical/</link>
       <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
       <pubDate>Tue, 21 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/ai/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>computing</title>
+      <title>Computing</title>
       <link>https://blog.herlein.com/tags/computing/</link>
       <pubDate>Tue, 21 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/computing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>edge</title>
+      <title>Edge</title>
       <link>https://blog.herlein.com/tags/edge/</link>
       <pubDate>Tue, 21 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/edge/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>managment</title>
+      <title>Managment</title>
       <link>https://blog.herlein.com/tags/managment/</link>
       <pubDate>Sun, 19 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/managment/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>people development</title>
+      <title>People Development</title>
       <link>https://blog.herlein.com/tags/people-development/</link>
       <pubDate>Sun, 19 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/people-development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>history</title>
+      <title>History</title>
       <link>https://blog.herlein.com/tags/history/</link>
       <pubDate>Mon, 13 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/history/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>memorial</title>
+      <title>Memorial</title>
       <link>https://blog.herlein.com/tags/memorial/</link>
       <pubDate>Mon, 13 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/memorial/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>navy</title>
+      <title>Navy</title>
       <link>https://blog.herlein.com/tags/navy/</link>
       <pubDate>Mon, 13 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/navy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>respect</title>
+      <title>Respect</title>
       <link>https://blog.herlein.com/tags/respect/</link>
       <pubDate>Mon, 13 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/respect/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>WW2</title>
       <link>https://blog.herlein.com/tags/ww2/</link>
       <pubDate>Mon, 13 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/ww2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>acoustics</title>
+      <title>Acoustics</title>
       <link>https://blog.herlein.com/tags/acoustics/</link>
       <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/acoustics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>humpback</title>
+      <title>Humpback</title>
       <link>https://blog.herlein.com/tags/humpback/</link>
       <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/humpback/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>legal</title>
+      <title>Legal</title>
       <link>https://blog.herlein.com/tags/legal/</link>
       <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/legal/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ocean</title>
+      <title>Ocean</title>
       <link>https://blog.herlein.com/tags/ocean/</link>
       <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/ocean/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>whales</title>
+      <title>Whales</title>
       <link>https://blog.herlein.com/tags/whales/</link>
       <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/whales/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>happiness</title>
+      <title>Happiness</title>
       <link>https://blog.herlein.com/tags/happiness/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/happiness/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hiring</title>
+      <title>Hiring</title>
       <link>https://blog.herlein.com/tags/hiring/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/hiring/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>teams</title>
+      <title>Teams</title>
       <link>https://blog.herlein.com/tags/teams/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/teams/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>communication</title>
+      <title>Communication</title>
       <link>https://blog.herlein.com/tags/communication/</link>
       <pubDate>Sat, 13 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/communication/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>honesty</title>
+      <title>Honesty</title>
       <link>https://blog.herlein.com/tags/honesty/</link>
       <pubDate>Sat, 13 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/honesty/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>recruiting</title>
+      <title>Recruiting</title>
       <link>https://blog.herlein.com/tags/recruiting/</link>
       <pubDate>Sat, 13 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/recruiting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>bristlemouth</title>
+      <title>Bristlemouth</title>
       <link>https://blog.herlein.com/tags/bristlemouth/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/bristlemouth/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>development</title>
+      <title>Development</title>
       <link>https://blog.herlein.com/tags/development/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sensors</title>
+      <title>Sensors</title>
       <link>https://blog.herlein.com/tags/sensors/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/sensors/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>integrity</title>
+      <title>Integrity</title>
       <link>https://blog.herlein.com/tags/integrity/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/integrity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>operations</title>
+      <title>Operations</title>
       <link>https://blog.herlein.com/tags/operations/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/operations/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>process</title>
+      <title>Process</title>
       <link>https://blog.herlein.com/tags/process/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/process/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>debian</title>
+      <title>Debian</title>
       <link>https://blog.herlein.com/tags/debian/</link>
       <pubDate>Wed, 20 Dec 2023 08:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/debian/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://blog.herlein.com/tags/linux/</link>
       <pubDate>Wed, 20 Dec 2023 08:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mac</title>
+      <title>Mac</title>
       <link>https://blog.herlein.com/tags/mac/</link>
       <pubDate>Wed, 20 Dec 2023 08:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/mac/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>facebook</title>
+      <title>Facebook</title>
       <link>https://blog.herlein.com/tags/facebook/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/facebook/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>social media</title>
+      <title>Social Media</title>
       <link>https://blog.herlein.com/tags/social-media/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/social-media/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>family</title>
+      <title>Family</title>
       <link>https://blog.herlein.com/tags/family/</link>
       <pubDate>Sat, 13 May 2023 08:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/family/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Luca</title>
       <link>https://blog.herlein.com/tags/luca/</link>
       <pubDate>Sat, 13 May 2023 08:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/luca/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ubuntu</title>
+      <title>Ubuntu</title>
       <link>https://blog.herlein.com/tags/ubuntu/</link>
       <pubDate>Fri, 12 May 2023 08:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>MacOS</title>
       <link>https://blog.herlein.com/tags/macos/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/macos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>excellence</title>
+      <title>Excellence</title>
       <link>https://blog.herlein.com/tags/excellence/</link>
       <pubDate>Sun, 05 Feb 2023 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/excellence/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>general</title>
-      <link>https://blog.herlein.com/tags/general/</link>
-      <pubDate>Sun, 05 Feb 2023 00:00:00 -0700</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>organizational</title>
+      <title>Organizational</title>
       <link>https://blog.herlein.com/tags/organizational/</link>
       <pubDate>Sun, 05 Feb 2023 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/organizational/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>quality</title>
+      <title>Quality</title>
       <link>https://blog.herlein.com/tags/quality/</link>
       <pubDate>Sun, 05 Feb 2023 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/quality/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>non-technical</title>
+      <title>Non-Technical</title>
       <link>https://blog.herlein.com/tags/non-technical/</link>
       <pubDate>Sat, 26 Nov 2022 02:21:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/non-technical/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>opinion</title>
+      <title>Opinion</title>
       <link>https://blog.herlein.com/tags/opinion/</link>
       <pubDate>Sat, 26 Nov 2022 02:21:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/opinion/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://blog.herlein.com/tags/hugo/</link>
       <pubDate>Sat, 26 Nov 2022 01:21:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>job-hunting</title>
+      <title>Job-Hunting</title>
       <link>https://blog.herlein.com/tags/job-hunting/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/job-hunting/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>git</title>
+      <title>Git</title>
       <link>https://blog.herlein.com/tags/git/</link>
       <pubDate>Mon, 31 Oct 2022 01:30:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Digital-Signage</title>
       <link>https://blog.herlein.com/tags/digital-signage/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/digital-signage/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Media-Players</title>
       <link>https://blog.herlein.com/tags/media-players/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/media-players/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>groups</title>
+      <title>Groups</title>
       <link>https://blog.herlein.com/tags/groups/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/groups/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sudo</title>
+      <title>Sudo</title>
       <link>https://blog.herlein.com/tags/sudo/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/sudo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AWS</title>
       <link>https://blog.herlein.com/tags/aws/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/aws/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>book-review</title>
+      <title>Book-Review</title>
       <link>https://blog.herlein.com/tags/book-review/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/book-review/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cloud</title>
+      <title>Cloud</title>
       <link>https://blog.herlein.com/tags/cloud/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/cloud/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>networking</title>
+      <title>Networking</title>
       <link>https://blog.herlein.com/tags/networking/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/networking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>devops</title>
+      <title>Devops</title>
       <link>https://blog.herlein.com/tags/devops/</link>
       <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/devops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Engineering</title>
       <link>https://blog.herlein.com/tags/engineering/</link>
       <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/engineering/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>analytics</title>
+      <title>Analytics</title>
       <link>https://blog.herlein.com/tags/analytics/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/analytics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hug</title>
+      <title>Hug</title>
       <link>https://blog.herlein.com/tags/hug/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/hug/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>web</title>
+      <title>Web</title>
       <link>https://blog.herlein.com/tags/web/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/web/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>embedded</title>
+      <title>Embedded</title>
       <link>https://blog.herlein.com/tags/embedded/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/embedded/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>esp32</title>
+      <title>Esp32</title>
       <link>https://blog.herlein.com/tags/esp32/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/esp32/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>FreeRTOS</title>
       <link>https://blog.herlein.com/tags/freertos/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/freertos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CAP</title>
       <link>https://blog.herlein.com/tags/cap/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/cap/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>monitoring</title>
+      <title>Monitoring</title>
       <link>https://blog.herlein.com/tags/monitoring/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/monitoring/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>prometheus</title>
+      <title>Prometheus</title>
       <link>https://blog.herlein.com/tags/prometheus/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/prometheus/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>snmp</title>
+      <title>Snmp</title>
       <link>https://blog.herlein.com/tags/snmp/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/snmp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Amazon Chime SDK</title>
       <link>https://blog.herlein.com/tags/amazon-chime-sdk/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/amazon-chime-sdk/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Amazon Lex</title>
       <link>https://blog.herlein.com/tags/amazon-lex/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/amazon-lex/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Amazon Polly</title>
       <link>https://blog.herlein.com/tags/amazon-polly/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/amazon-polly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ML</title>
       <link>https://blog.herlein.com/tags/ml/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/ml/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>ML/AI</title>
+      <link>https://blog.herlein.com/tags/ml/ai/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/ml/ai/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Telephony</title>
       <link>https://blog.herlein.com/tags/telephony/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/telephony/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>CI/CD</title>
+      <link>https://blog.herlein.com/tags/ci/cd/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ci/cd/</guid>
+      <description></description>
+    </item>
     <item>
       <title>SDLC</title>
       <link>https://blog.herlein.com/tags/sdlc/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/sdlc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>software development</title>
+      <title>Software Development</title>
       <link>https://blog.herlein.com/tags/software-development/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/software-development/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>automation</title>
+      <title>Automation</title>
       <link>https://blog.herlein.com/tags/automation/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/automation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cdk</title>
+      <title>Cdk</title>
       <link>https://blog.herlein.com/tags/cdk/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/cdk/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ec2</title>
+      <title>Ec2</title>
       <link>https://blog.herlein.com/tags/ec2/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/ec2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>node.js</title>
+      <title>Node.js</title>
       <link>https://blog.herlein.com/tags/node.js/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/node.js/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>projen</title>
+      <title>Projen</title>
       <link>https://blog.herlein.com/tags/projen/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/projen/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>typescript</title>
+      <title>Typescript</title>
       <link>https://blog.herlein.com/tags/typescript/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/typescript/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>embedded linux</title>
+      <title>Embedded Linux</title>
       <link>https://blog.herlein.com/tags/embedded-linux/</link>
       <pubDate>Fri, 24 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/embedded-linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>iot</title>
+      <title>IoT</title>
       <link>https://blog.herlein.com/tags/iot/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/iot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>UDP</title>
       <link>https://blog.herlein.com/tags/udp/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/udp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hardware</title>
+      <title>Hardware</title>
       <link>https://blog.herlein.com/tags/hardware/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/hardware/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>i2c</title>
+      <title>I2c</title>
       <link>https://blog.herlein.com/tags/i2c/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/i2c/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>WebRTC</title>
       <link>https://blog.herlein.com/tags/webrtc/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/webrtc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vlc</title>
+      <title>Vlc</title>
       <link>https://blog.herlein.com/tags/vlc/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/vlc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>x11</title>
+      <title>X11</title>
       <link>https://blog.herlein.com/tags/x11/</link>
       <pubDate>Sat, 18 Sep 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/x11/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>personal</title>
+      <title>Personal</title>
       <link>https://blog.herlein.com/tags/personal/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/personal/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mqtt</title>
+      <title>Mqtt</title>
       <link>https://blog.herlein.com/tags/mqtt/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/mqtt/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>esp8266</title>
+      <title>Esp8266</title>
       <link>https://blog.herlein.com/tags/esp8266/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/esp8266/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>esp-idf</title>
+      <title>Esp-Idf</title>
       <link>https://blog.herlein.com/tags/esp-idf/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/esp-idf/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>esp32c3</title>
+      <title>Esp32c3</title>
       <link>https://blog.herlein.com/tags/esp32c3/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/esp32c3/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kinesis</title>
+      <title>Kinesis</title>
       <link>https://blog.herlein.com/tags/kinesis/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/kinesis/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>video</title>
+      <title>Video</title>
       <link>https://blog.herlein.com/tags/video/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/video/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>certifications</title>
+      <title>Certifications</title>
       <link>https://blog.herlein.com/tags/certifications/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/certifications/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>C</title>
       <link>https://blog.herlein.com/tags/c/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/c/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>serial</title>
+      <title>Serial</title>
       <link>https://blog.herlein.com/tags/serial/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/serial/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>costs</title>
+      <title>Costs</title>
       <link>https://blog.herlein.com/tags/costs/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/costs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>power</title>
+      <title>Power</title>
       <link>https://blog.herlein.com/tags/power/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/power/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cloudwatch</title>
+      <title>Cloudwatch</title>
       <link>https://blog.herlein.com/tags/cloudwatch/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/cloudwatch/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>syslogs</title>
+      <title>Syslogs</title>
       <link>https://blog.herlein.com/tags/syslogs/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/syslogs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>actions</title>
+      <title>Actions</title>
       <link>https://blog.herlein.com/tags/actions/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/actions/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>github</title>
+      <title>Github</title>
       <link>https://blog.herlein.com/tags/github/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/github/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>s3</title>
+      <title>S3</title>
       <link>https://blog.herlein.com/tags/s3/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/s3/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>micro-kernels</title>
+      <title>Micro-Kernels</title>
       <link>https://blog.herlein.com/tags/micro-kernels/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/micro-kernels/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>architecture</title>
+      <title>Architecture</title>
       <link>https://blog.herlein.com/tags/architecture/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/architecture/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>efficiency</title>
+      <title>Efficiency</title>
       <link>https://blog.herlein.com/tags/efficiency/</link>
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/efficiency/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hotkeys</title>
+      <title>Hotkeys</title>
       <link>https://blog.herlein.com/tags/hotkeys/</link>
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/hotkeys/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>shortcuts</title>
+      <title>Shortcuts</title>
       <link>https://blog.herlein.com/tags/shortcuts/</link>
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/shortcuts/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>copy-paste</title>
+      <title>Copy-Paste</title>
       <link>https://blog.herlein.com/tags/copy-paste/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/copy-paste/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>iterm2</title>
+      <title>Iterm2</title>
       <link>https://blog.herlein.com/tags/iterm2/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/iterm2/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>osx</title>
+      <title>Osx</title>
       <link>https://blog.herlein.com/tags/osx/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/osx/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sre</title>
+      <title>Sre</title>
       <link>https://blog.herlein.com/tags/sre/</link>
       <pubDate>Wed, 30 Sep 2020 14:50:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/sre/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blackburn</title>
+      <title>Blackburn</title>
       <link>https://blog.herlein.com/tags/blackburn/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/blackburn/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blogging</title>
+      <title>Blogging</title>
       <link>https://blog.herlein.com/tags/blogging/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/blogging/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>raspberry pi</title>
+      <title>Raspberry Pi</title>
       <link>https://blog.herlein.com/tags/raspberry-pi/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/raspberry-pi/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rpi</title>
+      <title>Rpi</title>
       <link>https://blog.herlein.com/tags/rpi/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/rpi/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>driver</title>
+      <title>Driver</title>
       <link>https://blog.herlein.com/tags/driver/</link>
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/driver/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kernel</title>
+      <title>Kernel</title>
       <link>https://blog.herlein.com/tags/kernel/</link>
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/kernel/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>code</title>
+      <title>Code</title>
       <link>https://blog.herlein.com/tags/code/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/code/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>docs</title>
+      <title>Docs</title>
       <link>https://blog.herlein.com/tags/docs/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/docs/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>terraform</title>
+      <title>Terraform</title>
       <link>https://blog.herlein.com/tags/terraform/</link>
       <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/terraform/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rdp</title>
+      <title>Rdp</title>
       <link>https://blog.herlein.com/tags/rdp/</link>
       <pubDate>Tue, 21 Apr 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/rdp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ssh</title>
+      <title>Ssh</title>
       <link>https://blog.herlein.com/tags/ssh/</link>
       <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/ssh/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>baking</title>
+      <title>Baking</title>
       <link>https://blog.herlein.com/tags/baking/</link>
       <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/baking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>education</title>
+      <title>Education</title>
       <link>https://blog.herlein.com/tags/education/</link>
       <pubDate>Fri, 19 Jul 2019 07:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/education/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>micro-services</title>
+      <title>Micro-Services</title>
       <link>https://blog.herlein.com/tags/micro-services/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/micro-services/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>software</title>
+      <title>Software</title>
       <link>https://blog.herlein.com/tags/software/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/software/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>robotics</title>
+      <title>Robotics</title>
       <link>https://blog.herlein.com/tags/robotics/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/robotics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ROS</title>
       <link>https://blog.herlein.com/tags/ros/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/ros/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>electronics</title>
+      <title>Electronics</title>
       <link>https://blog.herlein.com/tags/electronics/</link>
       <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/electronics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>product</title>
+      <title>Product</title>
       <link>https://blog.herlein.com/tags/product/</link>
       <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/product/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>eagle</title>
+      <title>Eagle</title>
       <link>https://blog.herlein.com/tags/eagle/</link>
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/eagle/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>smd</title>
+      <title>Smd</title>
       <link>https://blog.herlein.com/tags/smd/</link>
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/smd/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>design</title>
+      <title>Design</title>
       <link>https://blog.herlein.com/tags/design/</link>
       <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/design/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data analytics</title>
+      <title>Data Analytics</title>
       <link>https://blog.herlein.com/tags/data-analytics/</link>
       <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/data-analytics/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>scrappy</title>
+      <title>Scrappy</title>
       <link>https://blog.herlein.com/tags/scrappy/</link>
       <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/tags/scrappy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>team building</title>
+      <title>Team Building</title>
       <link>https://blog.herlein.com/tags/team-building/</link>
       <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/team-building/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>data-centers</title>
+      <title>Data-Centers</title>
       <link>https://blog.herlein.com/tags/data-centers/</link>
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/tags/data-centers/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>CI/CD</title>
-      <link>https://blog.herlein.com/tags/ci/cd/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/ci/cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ML/AI</title>
-      <link>https://blog.herlein.com/tags/ml/ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://blog.herlein.com/tags/ml/ai/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

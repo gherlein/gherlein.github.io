@@ -1,165 +1,132 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cloud on Greg Herlein</title>
+    <title>Cloud on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/cloud/</link>
-    <description>Recent content in cloud on Greg Herlein</description>
+    <description>Recent content in Cloud on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 22 May 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Review: AWS Cookbook</title>
       <link>https://blog.herlein.com/post/aws-cookbook-review/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/aws-cookbook-review/</guid>
       <description>&lt;p&gt;Tl;dr: &lt;a href=&#34;https://smile.amazon.com/AWS-Cookbook-Recipes-Success/dp/1492092606/ref=sr_1_1?crid=10TVQCJGZ2FWA&amp;amp;keywords=aws+cookbook&amp;amp;qid=1654968145&amp;amp;sprefix=aws+cookbook%2Caps%2C111&amp;amp;sr=8-1&#34;&gt;The AWS Cookbook&lt;/a&gt; is a must have addition to your reference library.  Disclaimer:  I received a free copy of this book from the author.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DevOps - All Things To All People - or Not?</title>
       <link>https://blog.herlein.com/post/devops-what/</link>
       <pubDate>Wed, 16 Mar 2022 00:01:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/devops-what/</guid>
       <description>&lt;p&gt;Seems like everyone is clammoring for DevOps folks.  Do they really know what they want?  That term means all things to all people.  Some thoughts.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Changes - Ending 2020</title>
       <link>https://blog.herlein.com/post/ending-2020/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ending-2020/</guid>
       <description>&lt;p&gt;As 2020 thankfully winds down, I leave Cisco and join AWS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using CloudWatch for On-Premise Ubuntu Servers</title>
       <link>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</guid>
       <description>&lt;p&gt;Can I replace a local Prometheus with AWS CloudWatch?  And include syslog monitoring as well?  Yes, I can.  But it was a PITA to set up.  Here&amp;rsquo;s how.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Disposability - the Missing ility</title>
       <link>https://blog.herlein.com/post/disposability/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/disposability/</guid>
       <description>&lt;p&gt;You will get the most bang for the buck from cloud by destroying it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GitHub Actions - Copy to S3 on Commit to Master</title>
       <link>https://blog.herlein.com/post/github-to-s3/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/github-to-s3/</guid>
       <description>&lt;p&gt;GitHub Actions can be for more than CI/CD.  You can also use them to just simply publish to S3.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Golang Unikernel Is Reality!</title>
       <link>https://blog.herlein.com/post/golang-enabled-microkernel-reality/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/golang-enabled-microkernel-reality/</guid>
       <description>&lt;p&gt;Back in January of 2018 I &lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;blogged on LinkedIn&lt;/a&gt; asking the question if golang would enable development of micro-kernels.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building Solution Architecture Teams - A Software Approach</title>
       <link>https://blog.herlein.com/post/sa-team-software-approach/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/sa-team-software-approach/</guid>
       <description>&lt;p&gt;What actually is Solution Architecture?  How do you build and manage an Architecture team?  Can you take a software approach to that?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SRE 123</title>
       <link>https://blog.herlein.com/post/sre-123/</link>
       <pubDate>Wed, 30 Sep 2020 14:50:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/sre-123/</guid>
       <description>&lt;p&gt;Everyone is all on fire about SRE.  But what is it really?  It&amp;rsquo;s as easy as 1-2-3 if you boil it down to the basics.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</title>
       <link>https://blog.herlein.com/post/terraform/</link>
       <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/terraform/</guid>
       <description>&lt;p&gt;In AWS the AMI ID for a particular VM image is unique to that region.  But it&amp;rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Review:  Blowing up the Monolith</title>
       <link>https://blog.herlein.com/post/blowing-up-monolith/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/blowing-up-monolith/</guid>
       <description>&lt;p&gt;Book review - free &lt;a href=&#34;https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf&#34;&gt;&amp;ldquo;Blowing up the Monolith&amp;rdquo;&lt;/a&gt; book from Kong.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cloudy DevOps - Part 1</title>
       <link>https://blog.herlein.com/post/cloud-basics/</link>
       <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/cloud-basics/</guid>
       <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AWS Certified</title>
       <link>https://blog.herlein.com/post/aws-certified/</link>
       <pubDate>Tue, 18 Dec 2018 23:50:38 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/aws-certified/</guid>
       <description>&lt;p&gt;On Becoming an AWS Certified Solutions Architect (Associate)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Avalanche! re:Invent 2018</title>
       <link>https://blog.herlein.com/post/avalanche-reinvent/</link>
       <pubDate>Tue, 18 Dec 2018 10:50:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/avalanche-reinvent/</guid>
       <description>&lt;p&gt;Thoughts on AWS re:Invent 2018&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Golang Enabling Unikernels?</title>
       <link>https://blog.herlein.com/post/golang-enabled-microkernels/</link>
       <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/golang-enabled-microkernels/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;Golang Enabling Unikernels?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Technology Rolls On, Better Roll With It</title>
       <link>https://blog.herlein.com/post/technology-rolls-on/</link>
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/technology-rolls-on/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/&#34;&gt;Technology Rolls On, Better Roll With It&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How To Do Devops?</title>
       <link>https://blog.herlein.com/post/how-to-do-devops/</link>
       <pubDate>Tue, 12 Apr 2016 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/how-to-do-devops/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

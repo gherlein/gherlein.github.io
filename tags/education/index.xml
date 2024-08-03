@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>education on Greg Herlein</title>
+    <title>Education on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/education/</link>
-    <description>Recent content in education on Greg Herlein</description>
+    <description>Recent content in Education on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 19 Jul 2019 07:00:00 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jul 2019 07:00:00 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/education/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Not Everyone Needs to Go To College</title>
       <link>https://blog.herlein.com/post/college/</link>
       <pubDate>Fri, 19 Jul 2019 07:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/college/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s wrong, and possibly dangerous, to just make college free for anyone who wants it.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

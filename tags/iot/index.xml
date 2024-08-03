@@ -1,66 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>iot on Greg Herlein</title>
+    <title>IoT on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/iot/</link>
-    <description>Recent content in iot on Greg Herlein</description>
+    <description>Recent content in IoT on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Nov 2021 00:00:00 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Local Data Collection and Command Distribution</title>
       <link>https://blog.herlein.com/post/local-data-collection/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/local-data-collection/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m revisiting why I don&amp;rsquo;t like MQTT, and what I am doing about it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Beaglebone Black - Getting Started</title>
       <link>https://blog.herlein.com/post/beaglebone-getting-started/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/beaglebone-getting-started/</guid>
       <description>&lt;p&gt;Getting Started with the Beaglebone Black (Again)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Thoughts on MQTT</title>
       <link>https://blog.herlein.com/post/mqtt/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/mqtt/</guid>
       <description>&lt;p&gt;Some Thoughts on MQTT&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing with Tasmota - A Swimming Pool Story</title>
       <link>https://blog.herlein.com/post/tasmota/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/tasmota/</guid>
       <description>&lt;p&gt;Playing around with Tasmota - as the sensing core of an IoT-based swimming pool temperature control system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Progress on ESP32 and FreeRTOS</title>
       <link>https://blog.herlein.com/post/freertos-helper-esp32/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/freertos-helper-esp32/</guid>
       <description>&lt;p&gt;Progress, but not where I want it to be.  But it builds and installs the FreeRTOS AWS IoT demo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Back to Basics:  AWS IoT C SDK</title>
       <link>https://blog.herlein.com/post/aws-iot-c-sdk/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/aws-iot-c-sdk/</guid>
       <description>&lt;p&gt;A few quick notes on getting the AWS IoT C SDK running on Linux.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

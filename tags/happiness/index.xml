@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>happiness on Greg Herlein</title>
+    <title>Happiness on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/happiness/</link>
-    <description>Recent content in happiness on Greg Herlein</description>
+    <description>Recent content in Happiness on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Apr 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/happiness/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Apr 2024 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/happiness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dream Teams</title>
       <link>https://blog.herlein.com/post/dream-team/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/dream-team/</guid>
       <description>&lt;p&gt;A friend was telling me about &amp;ldquo;Dream Teams&amp;rdquo; at Netflix and I realized &lt;em&gt;that&lt;/em&gt; is exactly what I have been trying to build/encourage around me.  That is what I want!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

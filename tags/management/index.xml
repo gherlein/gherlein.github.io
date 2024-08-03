@@ -7,61 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:01 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guest Appearance: Women in STEM Podcast</title>
       <link>https://blog.herlein.com/post/wistem-podcast/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/wistem-podcast/</guid>
       <description>&lt;p&gt;I had a lot of fun being interviewed by &lt;a href=&#34;https://www.linkedin.com/in/aimeevincent-bunn/&#34;&gt;Aimee Vincent-Bunn&lt;/a&gt; who hosts the fabulous &lt;a href=&#34;https://podcasters.spotify.com/pod/show/women-in-stem10/episodes/In-conversation-with-Greg-Herlein---WiSTEM-e2kfoev/a-abb1pkq&#34;&gt;Women in STEM&lt;/a&gt; podcast.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dream Teams</title>
       <link>https://blog.herlein.com/post/dream-team/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/dream-team/</guid>
       <description>&lt;p&gt;A friend was telling me about &amp;ldquo;Dream Teams&amp;rdquo; at Netflix and I realized &lt;em&gt;that&lt;/em&gt; is exactly what I have been trying to build/encourage around me.  That is what I want!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Guest Appearance: Software Synergy Podcast</title>
       <link>https://blog.herlein.com/post/synergy-podcast/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/synergy-podcast/</guid>
       <description>&lt;p&gt;I had a lot of fun being interviewed by &lt;a href=&#34;https://www.linkedin.com/in/engagewithjames/&#34;&gt;James Holder&lt;/a&gt; for the Software Synergy Podcast.  You can listen on &lt;a href=&#34;https://open.spotify.com/episode/6JvlUGVC1JFN1Z4fsWbpbZ?si=ka92jZDIQ8WKODM4i8e7vw&#34;&gt;Spotify&lt;/a&gt; or &lt;a href=&#34;https://podcasts.apple.com/us/podcast/the-software-synergy-podcast/id1722647800?i=1000651471535&#34;&gt;Apple&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DevOps: Manage the Cognitive Load</title>
       <link>https://blog.herlein.com/post/cognitive-load/</link>
       <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/cognitive-load/</guid>
       <description>&lt;p&gt;Speed, cost and quality are considered the vectors that you can control.  If you are moving to cloud to get the &amp;ldquo;ilities&amp;rdquo; that comprise quality, you need to seriously consider Cognitive Load.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building Solution Architecture Teams - A Software Approach</title>
       <link>https://blog.herlein.com/post/sa-team-software-approach/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/sa-team-software-approach/</guid>
       <description>&lt;p&gt;What actually is Solution Architecture?  How do you build and manage an Architecture team?  Can you take a software approach to that?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Engineering Leadership 321</title>
       <link>https://blog.herlein.com/post/eng-leadership-321/</link>
       <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/eng-leadership-321/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve come to firmly believe that Engineering Leadership has a 3-2-1 principle to create Engineer happiness,
-which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve come to firmly believe that Engineering Leadership has a 3-2-1 principle to create Engineer happiness,&#xA;which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

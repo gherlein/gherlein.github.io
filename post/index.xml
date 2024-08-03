@@ -7,987 +7,770 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 07 Jun 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Aug 2024 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changing Chrome Address Bar Suggestions</title>
+      <link>https://blog.herlein.com/post/chrome-predictor/</link>
+      <pubDate>Sat, 03 Aug 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/chrome-predictor/</guid>
+      <description>&lt;p&gt;Leaving this here mostly for me, but short instructions on how to change Chrome&amp;rsquo;s &amp;ldquo;typeahead&amp;rdquo; predictors if it remembers the &amp;ldquo;wrong&amp;rdquo; one.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Book Review:  Managing Priorities</title>
       <link>https://blog.herlein.com/post/review-priorities/</link>
       <pubDate>Fri, 07 Jun 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/review-priorities/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been waiting several years for &lt;a href=&#34;https://www.linkedin.com/in/harrymax/&#34;&gt;Harry Max&lt;/a&gt; to finish his book &lt;a href=&#34;https://www.amazon.com/Managing-Priorities-Create-Smarter-Decisions/dp/1959029002/ref=sr_1_2?crid=5RQEJRH5KZAI&amp;amp;dib=eyJ2IjoiMSJ9.q9_X01U27T2lnwDdjFqJSE2rqArkTPV1esytqE8l3Bc7TKJSiX6Rh-kr7FeoIITrH1GaTFRXGwxdBcdgT_bLdeQ3IbNHLhYIa7NcKa7m0NrqytaNF3yhEQfCWbf8YVZMklfYWig5Ip5E6t6RSRlVXqp8Zc43Bh2nf7gQ0WcTK-okoqiOmewIcABEPY7oCgrHwUXO6eLIn197t79hpJU8EJyRNAioit0SAJr2CF59mI4.2XCGLy2oiRuC7NeiQyJYzuAtTFFSV2_5jB04CgaQ9yA&amp;amp;dib_tag=se&amp;amp;keywords=managing+priorities&amp;amp;qid=1717763474&amp;amp;sprefix=managing+prioritie%2Caps%2C136&amp;amp;sr=8-2&#34;&gt;&amp;ldquo;Managing Priorities&lt;/a&gt;.  It&amp;rsquo;s available, and it&amp;rsquo;s awesome!  Some observations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Guest Appearance: Women in STEM Podcast</title>
       <link>https://blog.herlein.com/post/wistem-podcast/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/wistem-podcast/</guid>
       <description>&lt;p&gt;I had a lot of fun being interviewed by &lt;a href=&#34;https://www.linkedin.com/in/aimeevincent-bunn/&#34;&gt;Aimee Vincent-Bunn&lt;/a&gt; who hosts the fabulous &lt;a href=&#34;https://podcasters.spotify.com/pod/show/women-in-stem10/episodes/In-conversation-with-Greg-Herlein---WiSTEM-e2kfoev/a-abb1pkq&#34;&gt;Women in STEM&lt;/a&gt; podcast.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learning gRPC in golang - with some ChatGPT help</title>
       <link>https://blog.herlein.com/post/golang-grpc-chatgpt/</link>
       <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/golang-grpc-chatgpt/</guid>
       <description>&lt;p&gt;I decided to learn how to write gRPC code in golang - and used ChatGPT as an accelerator! Jump to the &lt;a href=&#34;https://github.com/gherlein/time-services&#34;&gt;writeup&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Review: AI at the Edge</title>
       <link>https://blog.herlein.com/post/edge-ai/</link>
       <pubDate>Tue, 21 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/edge-ai/</guid>
       <description>&lt;p&gt;I bought the eBook &lt;a href=&#34;https://www.amazon.com/AI-at-Edge-Daniel-Situnayake-ebook/dp/B0BS2FKXW4/ref=sr_1_1?crid=2Y7H35NZX1T2X&amp;amp;dib=eyJ2IjoiMSJ9.YVcaIOeDUrnPaRKjlIpqDw2xPbpbIllMK3yBWW7GIwXNftlBZIiFDjxBMPwvShuig7DwSNZKIYrbmAuTh5DRoooK8XBRw_r_i7t1MFsEY8mQ56E4dJJ_0erV7loifhGYrEKKxi-EcCotUXv_HabTTeXOaKO_LdIJd6Aqu8FEf2SoBMYOifAq9FLYbn8KM9ydkYNilUpKBT_GwejxKml66IBAGFS0uzO3BjL2EbRLwwA.xV0rgNEiT9qpdTnArFldlPvQh-1lXGI7FePn60wrYJo&amp;amp;dib_tag=se&amp;amp;keywords=ai+at+the+edge&amp;amp;qid=1716340331&amp;amp;sprefix=ai+at+the+edge%2Caps%2C149&amp;amp;sr=8-1&#34;&gt;AI at the Edge&lt;/a&gt;.  But you can download a &lt;a href=&#34;https://www.linkedin.com/posts/edgeimpulse_edge-impulse-unleashing-intelligent-solutions-activity-7188548497820848129-VmpI&#34;&gt;free copy&lt;/a&gt; from LinkedIn.  In short?  Don&amp;rsquo;t waste your money.  But for free?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Developing Leaders in the post-COVID Era</title>
       <link>https://blog.herlein.com/post/lol/</link>
       <pubDate>Sun, 19 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/lol/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been a &amp;ldquo;leader-of-leaders&amp;rdquo; for a long time. It&amp;rsquo;s changed post-covid.  But when I talk to some Engineers about the difference between &amp;ldquo;Leader of Others&amp;rdquo; and &amp;ldquo;Leader of Leaders&amp;rdquo; they don&amp;rsquo;t know what I&amp;rsquo;m talking about.  So I thought I&amp;rsquo;d blog about it, and maybe even learn more myself.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lost Boats Ceremony - Tolling of the Boats 2024</title>
       <link>https://blog.herlein.com/post/lost-boats-2024/</link>
       <pubDate>Mon, 13 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/lost-boats-2024/</guid>
       <description>&lt;p&gt;Memorial Day is special to me as a former submariner.  Many have sacrificed for our freedoms, but the US Submarine Force more than many.  Memorial Day is when I honor that.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Whale Song Delayed - New Technology</title>
       <link>https://blog.herlein.com/post/whale-new-tech/</link>
       <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/whale-new-tech/</guid>
       <description>&lt;p&gt;A short update on my whale song project: it&amp;rsquo;s shifting technology.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dream Teams</title>
       <link>https://blog.herlein.com/post/dream-team/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/dream-team/</guid>
       <description>&lt;p&gt;A friend was telling me about &amp;ldquo;Dream Teams&amp;rdquo; at Netflix and I realized &lt;em&gt;that&lt;/em&gt; is exactly what I have been trying to build/encourage around me.  That is what I want!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Whale Song Update</title>
       <link>https://blog.herlein.com/post/whale-update/</link>
       <pubDate>Sun, 14 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/whale-update/</guid>
       <description>&lt;p&gt;A short update on my whale song project:  it&amp;rsquo;s delayed.  Need to sort out some legal stuff.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hiring is a Two-Way Street</title>
       <link>https://blog.herlein.com/post/two-way-street/</link>
       <pubDate>Sat, 13 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/two-way-street/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been thinking a lot about tech hiring and why it&amp;rsquo;s a crap-show for so many. I&amp;rsquo;ve posted my thoughts on &lt;a href=&#34;https://blog.herlein.com/staffing&#34;&gt;staffing software engineers&lt;/a&gt; but I have some musing on the way hiring is done today.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Guest Appearance: Software Synergy Podcast</title>
       <link>https://blog.herlein.com/post/synergy-podcast/</link>
       <pubDate>Fri, 05 Apr 2024 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/synergy-podcast/</guid>
       <description>&lt;p&gt;I had a lot of fun being interviewed by &lt;a href=&#34;https://www.linkedin.com/in/engagewithjames/&#34;&gt;James Holder&lt;/a&gt; for the Software Synergy Podcast.  You can listen on &lt;a href=&#34;https://open.spotify.com/episode/6JvlUGVC1JFN1Z4fsWbpbZ?si=ka92jZDIQ8WKODM4i8e7vw&#34;&gt;Spotify&lt;/a&gt; or &lt;a href=&#34;https://podcasts.apple.com/us/podcast/the-software-synergy-podcast/id1722647800?i=1000651471535&#34;&gt;Apple&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bristlemouth Dev Kit: SLOW - and Thinking</title>
       <link>https://blog.herlein.com/post/bristlemouth-slow/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-slow/</guid>
       <description>&lt;p&gt;Work on the &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt; is slower than I hoped.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Review:  Extreme Operational Excellence</title>
       <link>https://blog.herlein.com/post/ops-excellence/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ops-excellence/</guid>
       <description>&lt;p&gt;I finally have a book that describes my management philosophy.  Two retired US Navy Submariners Officers describe how the core principles of the Submarine Service are the perfect model for excellence in the business world too.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bristlemouth Dev Kit: YES!</title>
       <link>https://blog.herlein.com/post/bristlemouth-yes/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-yes/</guid>
       <description>&lt;p&gt;I have possession and unboxed the &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bristlemouth Dev Kit May Not Happen</title>
       <link>https://blog.herlein.com/post/bristlemouth-questionable/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-questionable/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt; may not be able to get to me.  There&amp;rsquo;s some legal paperwork that I don&amp;rsquo;t have - that may be quite expensive to get.  Import/Export laws are a pain.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Whale Song - Some Background</title>
       <link>https://blog.herlein.com/post/whale-song/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/whale-song/</guid>
       <description>&lt;p&gt;Recent press about an actual conversation with a whale was preceeded by ground-breaking work by &lt;a href=&#34;https://www.linkedin.com/in/michelle-e-h-fournet-she-her-51033b85/&#34;&gt;Dr. Michelle Fournet&lt;/a&gt; and profiled in the fantastic documentary &lt;a href=&#34;https://tv.apple.com/us/movie/fathom/umc.cmc.5dba56sgwst50iuh5h9uqpdsq&#34;&gt;Fathom&lt;/a&gt; on AppleTV.  This is a MUST WATCH if you love the ocean - or humanity!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bristlemouth Dev Kit Delayed - Customs Woes</title>
       <link>https://blog.herlein.com/post/bristlemouth-delayed/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-delayed/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been accepted into the &lt;a href=&#34;https://www.bristlemouth.org/pioneer&#34;&gt;Bristlemouth Pioneer Program&lt;/a&gt;.  I&amp;rsquo;ve been granted a &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with a &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;.  Unfortunately it was detained in customs due to it&amp;rsquo;s high invoiced value.  I required a &amp;ldquo;customs agent&amp;rdquo; to clear it - which I did not have.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ocean Technology and Talking to Whales</title>
       <link>https://blog.herlein.com/post/bristlemouth-pioneer/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-pioneer/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been accepted into the &lt;a href=&#34;https://www.bristlemouth.org/pioneer&#34;&gt;Bristlemouth Pioneer Program&lt;/a&gt;.  I&amp;rsquo;ve been granted a &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with a &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;.  I want to build a system capable of autonomously recording whale song (and other ocean data).  &lt;a href=&#34;https://sanctuaries.noaa.gov/news/sep22/mysteries-of-humpback-whale-song.html&#34;&gt;Humpback Whale songs&lt;/a&gt; is incredibly interesting - and scientists have JUST been able to actually talk to whales.&lt;/p&gt;
-&lt;p&gt;But really getting all &amp;ldquo;science fictiony&amp;rdquo; - can we build an ocean phone system to talk to whales?&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been accepted into the &lt;a href=&#34;https://www.bristlemouth.org/pioneer&#34;&gt;Bristlemouth Pioneer Program&lt;/a&gt;.  I&amp;rsquo;ve been granted a &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with a &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;.  I want to build a system capable of autonomously recording whale song (and other ocean data).  &lt;a href=&#34;https://sanctuaries.noaa.gov/news/sep22/mysteries-of-humpback-whale-song.html&#34;&gt;Humpback Whale songs&lt;/a&gt; is incredibly interesting - and scientists have JUST been able to actually talk to whales.&lt;/p&gt;&#xA;&lt;p&gt;But really getting all &amp;ldquo;science fictiony&amp;rdquo; - can we build an ocean phone system to talk to whales?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Back to the Mac</title>
       <link>https://blog.herlein.com/post/back-to-mac/</link>
       <pubDate>Wed, 20 Dec 2023 08:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/back-to-mac/</guid>
       <description>&lt;p&gt;I undid it.  I&amp;rsquo;m still using my desktop (mostly remotely) and I do love my Lenovo X1 Carbon.  But my primary machine is back to the Mac Book Pro.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Facebook again?  Maybe?  But they still suck</title>
       <link>https://blog.herlein.com/post/facebook-again/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/facebook-again/</guid>
-      <description>I left Facebook to get away from all the hate. But there&amp;rsquo;s community information there I find valuable and so I signed up again (after years away). And my account is suspended!
-Somehow I didn&amp;rsquo;t follow their community standards EVEN BEFORE I LOGGED IN! I can tell you that all I ever did was leave Facebook and delete my account there. I certainly never &amp;ldquo;violated thier community standards&amp;rdquo; (as if they really have them with the hate they promote).</description>
+      <description>I left Facebook to get away from all the hate. But there&amp;rsquo;s community information there I find valuable and so I signed up again (after years away). And my account is suspended!&#xA;Somehow I didn&amp;rsquo;t follow their community standards EVEN BEFORE I LOGGED IN! I can tell you that all I ever did was leave Facebook and delete my account there. I certainly never &amp;ldquo;violated thier community standards&amp;rdquo; (as if they really have them with the hate they promote).</description>
     </item>
-    
     <item>
       <title>Luca Graduates!</title>
       <link>https://blog.herlein.com/post/luca-graduates/</link>
       <pubDate>Sat, 13 May 2023 08:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/luca-graduates/</guid>
       <description>&lt;p&gt;My son graduated from CU Boulder with a BS in Aerospace Engineering.  I am so proud!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu Again!</title>
       <link>https://blog.herlein.com/post/ubuntu-again/</link>
       <pubDate>Fri, 12 May 2023 08:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ubuntu-again/</guid>
       <description>&lt;p&gt;I did it.  I went total Linux on the Desktop again.  Full blown beast of a real machine, and am getting a Lenovo X1 Carbon for travel.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>MacOS Ventura - How to set network order</title>
       <link>https://blog.herlein.com/post/macos-ventura/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/macos-ventura/</guid>
       <description>&lt;p&gt;Apple moved things around in the Network tab in System Settings.  Here&amp;rsquo;s how to set network order.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lessons from Admiral Rickover</title>
       <link>https://blog.herlein.com/post/rickover-lessons/</link>
       <pubDate>Sun, 05 Feb 2023 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/rickover-lessons/</guid>
       <description>&lt;p&gt;Admiral Hyman Rickover (1900-1986), the “Father of the Nuclear Navy,” was controversial.  He taught a whole generation of the best Engineers.  Some of my thoughts on this.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>No More Twitter</title>
       <link>https://blog.herlein.com/post/no-more-twitter/</link>
       <pubDate>Sat, 26 Nov 2022 02:21:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/no-more-twitter/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve left Twitter.  You should too.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Fixing Hugo Scaled Images</title>
       <link>https://blog.herlein.com/post/hugo-images/</link>
       <pubDate>Sat, 26 Nov 2022 01:21:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/hugo-images/</guid>
       <description>&lt;p&gt;Hugo broke image rendering.  Well, they made it better, but broke how &lt;em&gt;I&lt;/em&gt; used it.  Here&amp;rsquo;s the fix.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Advice to New Developers (or, How to Get Hired)</title>
       <link>https://blog.herlein.com/post/advice-to-new-developers/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/advice-to-new-developers/</guid>
       <description>&lt;p&gt;I get asked a lot by new developers:  &amp;ldquo;how do I find a coding job?&amp;rdquo;  What should I do/learn to get a really good job?  Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Git Clone Workaround</title>
       <link>https://blog.herlein.com/post/git-clone-workaround/</link>
       <pubDate>Mon, 31 Oct 2022 01:30:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/git-clone-workaround/</guid>
       <description>&lt;p&gt;Cloning from GitHub hanging for no apparent reason?  A work-around.  Anyone know why it works?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Goodbye Twitter</title>
       <link>https://blog.herlein.com/post/goodbye-twitter/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/goodbye-twitter/</guid>
       <description>&lt;p&gt;After 13.5 years I&amp;rsquo;m no longer using Twitter.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>September Update</title>
       <link>https://blog.herlein.com/post/september/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/september/</guid>
       <description>&lt;p&gt;Three months since I posted, so here&amp;rsquo;s some random thoughts and updates.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BrightSign!</title>
       <link>https://blog.herlein.com/post/brightsign/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/brightsign/</guid>
       <description>&lt;p&gt;What&amp;rsquo;s old is new again:  I&amp;rsquo;ve joined &lt;a href=&#34;https://www.brightsign.biz/&#34;&gt;BrightSign&lt;/a&gt; as their Head of Software Engineering!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How I Locked Myself Out of my Linux System</title>
       <link>https://blog.herlein.com/post/locked-out-and-locked-up/</link>
       <pubDate>Sat, 18 Jun 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/locked-out-and-locked-up/</guid>
       <description>&lt;p&gt;Imagine my surprise when I could not sudo!  Wait, what?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Review: AWS Cookbook</title>
       <link>https://blog.herlein.com/post/aws-cookbook-review/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/aws-cookbook-review/</guid>
       <description>&lt;p&gt;Tl;dr: &lt;a href=&#34;https://smile.amazon.com/AWS-Cookbook-Recipes-Success/dp/1492092606/ref=sr_1_1?crid=10TVQCJGZ2FWA&amp;amp;keywords=aws+cookbook&amp;amp;qid=1654968145&amp;amp;sprefix=aws+cookbook%2Caps%2C111&amp;amp;sr=8-1&#34;&gt;The AWS Cookbook&lt;/a&gt; is a must have addition to your reference library.  Disclaimer:  I received a free copy of this book from the author.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Book Review: Linux for Networking Professionals</title>
       <link>https://blog.herlein.com/post/networking-book-review/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/networking-book-review/</guid>
       <description>&lt;p&gt;Tl;dr: read the web instead of &lt;a href=&#34;https://smile.amazon.com/Linux-Networking-Professionals-configure-enterprise-ebook/dp/B09BZTLRKY&#34;&gt;Linux for Networking Professionals&lt;/a&gt;.  This book is a broad, shallow coverage that is probably more easily learned from web pages for free.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DevOps: Manage the Cognitive Load</title>
       <link>https://blog.herlein.com/post/cognitive-load/</link>
       <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/cognitive-load/</guid>
       <description>&lt;p&gt;Speed, cost and quality are considered the vectors that you can control.  If you are moving to cloud to get the &amp;ldquo;ilities&amp;rdquo; that comprise quality, you need to seriously consider Cognitive Load.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using Clicky Web Analytics with Hugo</title>
       <link>https://blog.herlein.com/post/clicky/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/clicky/</guid>
       <description>&lt;p&gt;I added &lt;a href=&#34;https://clicky.com/&#34;&gt;Clicky&lt;/a&gt; web analytics to my blog (running &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First Trials:  ESP32-POE-EA Board from Olimex</title>
       <link>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/esp32-poe-ea-first-trials/</guid>
-      <description>&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;
-&lt;p&gt;Picking up from last weekend, I play with the &lt;a href=&#34;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware&#34;&gt;ESP32-POE-EA board from Olimex&lt;/a&gt; using the &lt;a href=&#34;https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#&#34;&gt;Espressif FreeRTOS ESP-IDF Framework&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Tl/Dr:  It&amp;rsquo;s on the network!  But in my analysis, I fell victim to my own bias.&lt;/p&gt;&#xA;&lt;p&gt;Picking up from last weekend, I play with the &lt;a href=&#34;https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware&#34;&gt;ESP32-POE-EA board from Olimex&lt;/a&gt; using the &lt;a href=&#34;https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/freertos-smp.html#&#34;&gt;Espressif FreeRTOS ESP-IDF Framework&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing like it was summer (but with an ESP32)</title>
       <link>https://blog.herlein.com/post/back-to-the-future/</link>
       <pubDate>Sat, 07 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/back-to-the-future/</guid>
       <description>&lt;p&gt;Been awhile, head spinning, took some time to just play.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Making Prometheus Alert Manager (more) Consistent</title>
       <link>https://blog.herlein.com/post/alert-manager-ha/</link>
       <pubDate>Sun, 27 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/alert-manager-ha/</guid>
       <description>&lt;p&gt;Prometheus Alert Manager is an &amp;ldquo;AP&amp;rdquo; system, in &amp;ldquo;CAP&amp;rdquo; terms.  How we made it more Consistent, including a forked repo of the Alert Manager code.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Enable Chatbots on the phone using Amazon Lex and the Amazon Chime SDK</title>
       <link>https://blog.herlein.com/post/lex2/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/lex2/</guid>
       <description>&lt;p&gt;Telephony made a huge leap forward last week.  It&amp;rsquo;s insanely easy to build a voice chatbot for phone calls!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Goodbye Ubuntu, Hello Debian my old friend - AGAIN</title>
       <link>https://blog.herlein.com/post/debian-again2/</link>
       <pubDate>Fri, 18 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/debian-again2/</guid>
       <description>&lt;p&gt;Back to the future, debian again.  Ubuntu begone!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DevOps - All Things To All People - or Not?</title>
       <link>https://blog.herlein.com/post/devops-what/</link>
       <pubDate>Wed, 16 Mar 2022 00:01:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/devops-what/</guid>
       <description>&lt;p&gt;Seems like everyone is clammoring for DevOps folks.  Do they really know what they want?  That term means all things to all people.  Some thoughts.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Thoughts on CI/CD</title>
       <link>https://blog.herlein.com/post/cicd-thoughts/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/cicd-thoughts/</guid>
       <description>&lt;p&gt;Yet again I am thinking about the overall software development/deployment life cycle, and am back to thinking about CI/CD again.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Creating an Ephemeral EC2 Instance for Development for Testing</title>
       <link>https://blog.herlein.com/post/single-ec2-cdk/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/single-ec2-cdk/</guid>
       <description>&lt;p&gt;&amp;ldquo;Cattle, not Pets!&amp;rdquo; they say.  Except that for a lot of development, coders make their own laptop their favorite pet.  &amp;ldquo;It works on my machine!&amp;rdquo; becomes normal.  I got tired of that and &lt;a href=&#34;https://github.com/aws-samples/single-ec2-cdk&#34;&gt;automated the creation of my dev environment.&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learnings from patching a bug in a modern project</title>
       <link>https://blog.herlein.com/post/modern-node-dev/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/modern-node-dev/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a
-new tool I am using (&lt;a href=&#34;https://github.com/projen/projen/pull/1437&#34;&gt;projen&lt;/a&gt;) and learned
-a ton along the way.  This post is to share some of that.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a&#xA;new tool I am using (&lt;a href=&#34;https://github.com/projen/projen/pull/1437&#34;&gt;projen&lt;/a&gt;) and learned&#xA;a ton along the way.  This post is to share some of that.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Spiral Again?</title>
       <link>https://blog.herlein.com/post/spiral-again/</link>
       <pubDate>Fri, 24 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/spiral-again/</guid>
       <description>&lt;p&gt;Merry Christmas Eve!  Playing with the Beaglebone sends me into another thought spiral.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Thirty Years Ago Today</title>
       <link>https://blog.herlein.com/post/thirty-years/</link>
       <pubDate>Tue, 07 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/thirty-years/</guid>
       <description>&lt;p&gt;Thirty years ago today I left the US Navy.  A reflection.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>My First Amazon Blog... ML/AI Chatbot over the Phone!</title>
       <link>https://blog.herlein.com/post/amazon-blog/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/amazon-blog/</guid>
       <description>&lt;p&gt;A month ago I told you I &lt;a href=&#34;https://blog.herlein.com/post/webrtc-phone/&#34;&gt;changed roles&lt;/a&gt; at AWS.  Now I can show you what I&amp;rsquo;ve done since then!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Local Data Collection and Command Distribution</title>
       <link>https://blog.herlein.com/post/local-data-collection/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/local-data-collection/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m revisiting why I don&amp;rsquo;t like MQTT, and what I am doing about it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Beaglebone Black - Getting Started</title>
       <link>https://blog.herlein.com/post/beaglebone-getting-started/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/beaglebone-getting-started/</guid>
       <description>&lt;p&gt;Getting Started with the Beaglebone Black (Again)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Back to the (Phone) Future!  Changing roles!</title>
       <link>https://blog.herlein.com/post/webrtc-phone/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/webrtc-phone/</guid>
       <description>&lt;p&gt;The only constant is change!  And&amp;hellip; sometimes things come full circle.  I&amp;rsquo;m changing roles at AWS.  Back to the Future!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VLC Error</title>
       <link>https://blog.herlein.com/post/vlc/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/vlc/</guid>
       <description>&lt;p&gt;A bug in VLC?  Grrrr.  Reminds me of the old days.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Power of xdotool in X11</title>
       <link>https://blog.herlein.com/post/xdotool/</link>
       <pubDate>Sat, 18 Sep 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/xdotool/</guid>
       <description>&lt;p&gt;X11&amp;rsquo;s xdotool cli is snazzy, and solved an annoying window placement problem.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Goodnight Twitter</title>
       <link>https://blog.herlein.com/post/goodnight-twitter/</link>
       <pubDate>Tue, 31 Aug 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/goodnight-twitter/</guid>
       <description>&lt;p&gt;Once again, I&amp;rsquo;m the product, being manipulated. This time it&amp;rsquo;s Twitter&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Thoughts on MQTT</title>
       <link>https://blog.herlein.com/post/mqtt/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/mqtt/</guid>
       <description>&lt;p&gt;Some Thoughts on MQTT&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Summer</title>
       <link>https://blog.herlein.com/post/summer/</link>
       <pubDate>Tue, 08 Jun 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/summer/</guid>
       <description>&lt;p&gt;Where am I? Summer!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Playing with Tasmota - A Swimming Pool Story</title>
       <link>https://blog.herlein.com/post/tasmota/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/tasmota/</guid>
       <description>&lt;p&gt;Playing around with Tasmota - as the sensing core of an IoT-based swimming pool temperature control system.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Progress on ESP32 and FreeRTOS</title>
       <link>https://blog.herlein.com/post/freertos-helper-esp32/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/freertos-helper-esp32/</guid>
       <description>&lt;p&gt;Progress, but not where I want it to be.  But it builds and installs the FreeRTOS AWS IoT demo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Back to Basics:  AWS IoT C SDK</title>
       <link>https://blog.herlein.com/post/aws-iot-c-sdk/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/aws-iot-c-sdk/</guid>
       <description>&lt;p&gt;A few quick notes on getting the AWS IoT C SDK running on Linux.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dabbling into ESP32 and FreeRTOS</title>
       <link>https://blog.herlein.com/post/esp32/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/esp32/</guid>
       <description>&lt;p&gt;Dipping a toe into the FreeRTOS ESP32 world.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ESP32-C3 First Playing</title>
       <link>https://blog.herlein.com/post/esp32c3/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/esp32c3/</guid>
       <description>&lt;p&gt;Finally got a few minutes to play withe the ESP32-C3 DevKit that &lt;a href=&#34;https://twitter.com/EspressifSystem&#34;&gt;Espressif&lt;/a&gt; was kind enough to ship.  So I made a blinky light using the onboard &lt;a href=&#34;https://cdn-shop.adafruit.com/datasheets/WS2812.pdf&#34;&gt;WS2812 LED&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Kinesis Video Streams - Just Getting Started</title>
       <link>https://blog.herlein.com/post/kinesis-video-streams/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/kinesis-video-streams/</guid>
       <description>&lt;p&gt;Just started playing with &lt;a href=&#34;https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amp;amp;amazon-kinesis-video-streams-resources-blog.sort-order=desc&#34;&gt;Amazon Kinesis Video Streams&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AWS SysOps Administrator Certified!</title>
       <link>https://blog.herlein.com/post/sysops-cert-2021/</link>
       <pubDate>Sat, 30 Jan 2021 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/sysops-cert-2021/</guid>
       <description>&lt;p&gt;This week I passed the AWS SysOps Administrator (Associate) Exam.  Here&amp;rsquo;s some notes on what I did to prepare, and observations of the process.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Changes - Ending 2020</title>
       <link>https://blog.herlein.com/post/ending-2020/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ending-2020/</guid>
       <description>&lt;p&gt;As 2020 thankfully winds down, I leave Cisco and join AWS.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Programming Serial in C</title>
       <link>https://blog.herlein.com/post/serial/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/serial/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s back to the future again.  Fidding with node.js a lot, but you know, C is still my favorite language.  Dug up some old code to read/write from a serial port.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Power Costs</title>
       <link>https://blog.herlein.com/post/power/</link>
       <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/power/</guid>
       <description>&lt;p&gt;A quick measure of the costs of running on-premise computers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Using CloudWatch for On-Premise Ubuntu Servers</title>
       <link>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</link>
       <pubDate>Wed, 04 Nov 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/</guid>
       <description>&lt;p&gt;Can I replace a local Prometheus with AWS CloudWatch?  And include syslog monitoring as well?  Yes, I can.  But it was a PITA to set up.  Here&amp;rsquo;s how.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Disposability - the Missing ility</title>
       <link>https://blog.herlein.com/post/disposability/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/disposability/</guid>
       <description>&lt;p&gt;You will get the most bang for the buck from cloud by destroying it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GitHub Actions - Copy to S3 on Commit to Master</title>
       <link>https://blog.herlein.com/post/github-to-s3/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/github-to-s3/</guid>
       <description>&lt;p&gt;GitHub Actions can be for more than CI/CD.  You can also use them to just simply publish to S3.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Golang Unikernel Is Reality!</title>
       <link>https://blog.herlein.com/post/golang-enabled-microkernel-reality/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/golang-enabled-microkernel-reality/</guid>
       <description>&lt;p&gt;Back in January of 2018 I &lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;blogged on LinkedIn&lt;/a&gt; asking the question if golang would enable development of micro-kernels.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Building Solution Architecture Teams - A Software Approach</title>
       <link>https://blog.herlein.com/post/sa-team-software-approach/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/sa-team-software-approach/</guid>
       <description>&lt;p&gt;What actually is Solution Architecture?  How do you build and manage an Architecture team?  Can you take a software approach to that?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mac and Chrome HotKeys</title>
       <link>https://blog.herlein.com/post/hotkeys/</link>
       <pubDate>Sat, 17 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/hotkeys/</guid>
       <description>&lt;p&gt;A simple hotkey extension in Chrome that makes my life easier.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>iTerm2 Paste Buffers on MacOS/OSX - how to increase size</title>
       <link>https://blog.herlein.com/post/iterm2-paste/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/iterm2-paste/</guid>
       <description>&lt;p&gt;Quick reminder: how to increase the copy-paste buffers size in iTerm2.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SRE 123</title>
       <link>https://blog.herlein.com/post/sre-123/</link>
       <pubDate>Wed, 30 Sep 2020 14:50:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/sre-123/</guid>
       <description>&lt;p&gt;Everyone is all on fire about SRE.  But what is it really?  It&amp;rsquo;s as easy as 1-2-3 if you boil it down to the basics.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Fixing Hugo Social Media Icons in Blackburn</title>
       <link>https://blog.herlein.com/post/hugo-social-media-icons/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/hugo-social-media-icons/</guid>
       <description>&lt;p&gt;The Blackburn theme for Hugo has a bug in how it shows social media icons.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hello Ubuntu - Kinda</title>
       <link>https://blog.herlein.com/post/hello-ubuntu-kinda/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/hello-ubuntu-kinda/</guid>
       <description>&lt;p&gt;Debian not good for me on the desktop - back to Ubuntu, lost the snaps.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Raspberry Pi Zero W Fun</title>
       <link>https://blog.herlein.com/post/rpi-zero-w/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/rpi-zero-w/</guid>
       <description>&lt;p&gt;The Raspberry Pi Zero W is likely the basis of my next few projects.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Goodbye Ubuntu, Hello Debian my old friend</title>
       <link>https://blog.herlein.com/post/debian-again/</link>
       <pubDate>Fri, 07 Aug 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/debian-again/</guid>
       <description>&lt;p&gt;Ubuntu just went too far with the snap crap.  Back to Debian!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Blast from the past - Linux Telephony API</title>
       <link>https://blog.herlein.com/post/lti/</link>
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/lti/</guid>
       <description>&lt;p&gt;A trip down memory lane:  the first linux telephony drivers&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docs as Code</title>
       <link>https://blog.herlein.com/post/docs-as-code/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/docs-as-code/</guid>
       <description>&lt;p&gt;One of the core principles of modern &amp;ldquo;DevOps&amp;rdquo; development is to treat your documentation as code, just like code.  My team at Cisco open sourced how we do that.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</title>
       <link>https://blog.herlein.com/post/terraform/</link>
       <pubDate>Sat, 06 Jun 2020 07:21:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/terraform/</guid>
       <description>&lt;p&gt;In AWS the AMI ID for a particular VM image is unique to that region.  But it&amp;rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Black Lives Matter</title>
       <link>https://blog.herlein.com/post/blm/</link>
       <pubDate>Sat, 06 Jun 2020 00:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/blm/</guid>
       <description>&lt;p&gt;We all protest and effect change in our own ways.  I choose mentorship, education, and work - because that&amp;rsquo;s what I can do best to make a difference.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>[Catchup Post] Speaking at SphereIT in Krakow, October 2019</title>
       <link>https://blog.herlein.com/post/sphereit/</link>
       <pubDate>Tue, 21 Apr 2020 07:16:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/sphereit/</guid>
       <description>&lt;p&gt;Link to posted video &amp;ldquo;CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein &amp;amp; David Wang&amp;rdquo;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Make RDP work from OSX</title>
       <link>https://blog.herlein.com/post/rdp/</link>
       <pubDate>Tue, 21 Apr 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/rdp/</guid>
       <description>&lt;p&gt;Quick reminder how to enable RDP sessions from OSX to an Ubuntu box.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SSH Tunnels</title>
       <link>https://blog.herlein.com/post/ssh-tunnels/</link>
       <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ssh-tunnels/</guid>
       <description>&lt;p&gt;SSH tunnels are basically indistinguishable from magic.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Baking Sourdough Bread</title>
       <link>https://blog.herlein.com/post/bread/</link>
       <pubDate>Sat, 28 Mar 2020 08:21:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/bread/</guid>
       <description>&lt;p&gt;My first attempt baking sourdough bread led to tasty, but flat loaves.  Here&amp;rsquo;s why.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>COVID-19</title>
       <link>https://blog.herlein.com/post/covid-19/</link>
       <pubDate>Sun, 15 Mar 2020 13:21:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/covid-19/</guid>
       <description>&lt;p&gt;The impacts of COVID-19 are really not upon us yet.  But some of them are hitting, and I thought I&amp;rsquo;d jot some notes about how it&amp;rsquo;s hitting us here in SF.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Not Everyone Needs to Go To College</title>
       <link>https://blog.herlein.com/post/college/</link>
       <pubDate>Fri, 19 Jul 2019 07:00:00 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/college/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s wrong, and possibly dangerous, to just make college free for anyone who wants it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu Lid Control</title>
       <link>https://blog.herlein.com/post/ubuntu-lid/</link>
       <pubDate>Thu, 18 Jul 2019 18:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ubuntu-lid/</guid>
       <description>&lt;p&gt;The default behavior of Ubuntu 18.04 is not friendly for a notebook that swaps back and forth from desk to mobile.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Where Have I Been?</title>
       <link>https://blog.herlein.com/post/update-july/</link>
       <pubDate>Thu, 18 Jul 2019 11:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/update-july/</guid>
       <description>&lt;p&gt;Dang, no blog posts for almost six months?  What&amp;rsquo;s kept me so busy?  Japan!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Review:  Blowing up the Monolith</title>
       <link>https://blog.herlein.com/post/blowing-up-monolith/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/blowing-up-monolith/</guid>
       <description>&lt;p&gt;Book review - free &lt;a href=&#34;https://konghq.com/wp-content/uploads/2018/06/blowing-up-the-monolith-adopting-microservices-based-architectures.pdf&#34;&gt;&amp;ldquo;Blowing up the Monolith&amp;rdquo;&lt;/a&gt; book from Kong.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cloudy DevOps - Part 1</title>
       <link>https://blog.herlein.com/post/cloud-basics/</link>
       <pubDate>Sun, 10 Feb 2019 14:50:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/cloud-basics/</guid>
       <description>&lt;p&gt;What exactly is Cloudy DevOps?  How do you go from classic data center Enterprise deployments to the cloud?  Here&amp;rsquo;s some of what I&amp;rsquo;ve learned across a half-dozen teams who&amp;rsquo;ve done it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Self Driving Revolution</title>
       <link>https://blog.herlein.com/post/self-driving-revolution/</link>
       <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/self-driving-revolution/</guid>
       <description>&lt;p&gt;Think self-driving technology requires deep pockets to play with?  Think again.  &lt;a href=&#34;https://aws.amazon.com/deepracer/&#34;&gt;AWS DeepRacer&lt;/a&gt; and &lt;a href=&#34;https://github.com/CPFL/Autoware/wiki&#34;&gt;Autoware&lt;/a&gt; are the leading edges of self-driving automation for the maker.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Updated Management README</title>
       <link>https://blog.herlein.com/post/management-readme/</link>
       <pubDate>Wed, 30 Jan 2019 09:30:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/management-readme/</guid>
       <description>&lt;p&gt;I updated my &lt;a href=&#34;http://herlein.com/about/&#34;&gt;&amp;ldquo;Management README&amp;rdquo;&lt;/a&gt;. Give it a read if you&amp;rsquo;d like.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>RBOT Robotics Sensor/Acuator Board - Value Proposition</title>
       <link>https://blog.herlein.com/post/rbot-value-prop/</link>
       <pubDate>Mon, 21 Jan 2019 13:40:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/rbot-value-prop/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m building a board for robotics, but it&amp;rsquo;s also useful for IoT and home automation.  What&amp;rsquo;s it do?  What problem does it solve?  It&amp;rsquo;s basically a WiFi interface to a variety of I2C-driven devices (motors or sensors).  The I2C side is Engineered to be highly robust and reliable.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Boards!</title>
       <link>https://blog.herlein.com/post/boards/</link>
       <pubDate>Mon, 21 Jan 2019 10:50:08 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/boards/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m building a robotics board that basically is a WiFi REST interface to a variety of I2C sensors - the I2C side uses an I2C switch driven by an ESP32. My first RBOT board arrived, but alas, I got schooled on surface mount part numbering.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu Again!</title>
       <link>https://blog.herlein.com/post/ubuntu-18.04/</link>
       <pubDate>Sat, 05 Jan 2019 08:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ubuntu-18.04/</guid>
-      <description>&lt;p&gt;From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop
-became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!
-Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s
-the easiest and happiest linux ever for me.&lt;/p&gt;</description>
+      <description>&lt;p&gt;From 1997 to 2010 I believed it was only a matter of time before Linux on the desktop&#xA;became a reality.  I gave up in 2010 and went to OSX.  But we may finally be close!&#xA;Here&amp;rsquo;s my notes on installing Linux Ubuntu 18.04 on a Dell Inspiron 15 7000.  It&amp;rsquo;s&#xA;the easiest and happiest linux ever for me.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ESP32-PICO-KIT-V4 Eagle Library</title>
       <link>https://blog.herlein.com/post/esp32-pico-v4-library/</link>
       <pubDate>Sun, 30 Dec 2018 10:33:02 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/esp32-pico-v4-library/</guid>
       <description>&lt;p&gt;An Eagle part library to support use of the ESP32-PICO-KIT-V4 as a daughterboard.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Uber Driver Teaches me Data Analytics</title>
       <link>https://blog.herlein.com/post/uber-driver-data/</link>
       <pubDate>Mon, 24 Dec 2018 11:33:02 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/uber-driver-data/</guid>
       <description>&lt;p&gt;An Uber Driver this past week schooled me that data analytics does not require coding.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>AWS Certified</title>
       <link>https://blog.herlein.com/post/aws-certified/</link>
       <pubDate>Tue, 18 Dec 2018 23:50:38 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/aws-certified/</guid>
       <description>&lt;p&gt;On Becoming an AWS Certified Solutions Architect (Associate)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Avalanche! re:Invent 2018</title>
       <link>https://blog.herlein.com/post/avalanche-reinvent/</link>
       <pubDate>Tue, 18 Dec 2018 10:50:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/avalanche-reinvent/</guid>
       <description>&lt;p&gt;Thoughts on AWS re:Invent 2018&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Engineering Leadership 321</title>
       <link>https://blog.herlein.com/post/eng-leadership-321/</link>
       <pubDate>Mon, 15 Oct 2018 21:30:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/eng-leadership-321/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve come to firmly believe that Engineering Leadership has a 3-2-1 principle to create Engineer happiness,
-which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve come to firmly believe that Engineering Leadership has a 3-2-1 principle to create Engineer happiness,&#xA;which is a key prerequisite for high performance Engineering teams.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>I2c Tools for Project RBOT</title>
       <link>https://blog.herlein.com/post/i2c-for-robot/</link>
       <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/i2c-for-robot/</guid>
       <description>&lt;p&gt;I2C Tools I am Using for the RBOT Project&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Pcal6416a Getting Started</title>
       <link>https://blog.herlein.com/post/pcal6416a-getting-started/</link>
       <pubDate>Sat, 14 Jul 2018 19:32:04 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/pcal6416a-getting-started/</guid>
       <description>&lt;p&gt;I2C Port Expander for Robotics Use - Getting Started with the NXP PCAL6416A&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hello World</title>
       <link>https://blog.herlein.com/post/hello-world/</link>
       <pubDate>Sat, 30 Jun 2018 09:30:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/hello-world/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been procrastinating setting up a real blog for&amp;hellip; well, years.  Now it&amp;rsquo;s here.  Read on for the why and the how.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Golang Enabling Unikernels?</title>
       <link>https://blog.herlein.com/post/golang-enabled-microkernels/</link>
       <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/golang-enabled-microkernels/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;Golang Enabling Unikernels?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Technology Rolls On, Better Roll With It</title>
       <link>https://blog.herlein.com/post/technology-rolls-on/</link>
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/technology-rolls-on/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/&#34;&gt;Technology Rolls On, Better Roll With It&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How To Do Devops?</title>
       <link>https://blog.herlein.com/post/how-to-do-devops/</link>
       <pubDate>Tue, 12 Apr 2016 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/how-to-do-devops/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/how-do-devops-greg-herlein/&#34;&gt;How To Do Devops?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ec2 on Greg Herlein</title>
+    <title>Ec2 on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/ec2/</link>
-    <description>Recent content in ec2 on Greg Herlein</description>
+    <description>Recent content in Ec2 on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 13 Feb 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/ec2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Feb 2022 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/ec2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating an Ephemeral EC2 Instance for Development for Testing</title>
       <link>https://blog.herlein.com/post/single-ec2-cdk/</link>
       <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/single-ec2-cdk/</guid>
       <description>&lt;p&gt;&amp;ldquo;Cattle, not Pets!&amp;rdquo; they say.  Except that for a lot of development, coders make their own laptop their favorite pet.  &amp;ldquo;It works on my machine!&amp;rdquo; becomes normal.  I got tired of that and &lt;a href=&#34;https://github.com/aws-samples/single-ec2-cdk&#34;&gt;automated the creation of my dev environment.&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

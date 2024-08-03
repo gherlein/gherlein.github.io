@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hiring on Greg Herlein</title>
+    <title>Hiring on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/hiring/</link>
-    <description>Recent content in hiring on Greg Herlein</description>
+    <description>Recent content in Hiring on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Apr 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/hiring/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Apr 2024 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/hiring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dream Teams</title>
       <link>https://blog.herlein.com/post/dream-team/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/dream-team/</guid>
       <description>&lt;p&gt;A friend was telling me about &amp;ldquo;Dream Teams&amp;rdquo; at Netflix and I realized &lt;em&gt;that&lt;/em&gt; is exactly what I have been trying to build/encourage around me.  That is what I want!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Advice to New Developers (or, How to Get Hired)</title>
       <link>https://blog.herlein.com/post/advice-to-new-developers/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/advice-to-new-developers/</guid>
       <description>&lt;p&gt;I get asked a lot by new developers:  &amp;ldquo;how do I find a coding job?&amp;rdquo;  What should I do/learn to get a really good job?  Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

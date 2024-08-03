@@ -1,58 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sensors on Greg Herlein</title>
+    <title>Sensors on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/sensors/</link>
-    <description>Recent content in sensors on Greg Herlein</description>
+    <description>Recent content in Sensors on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 31 Mar 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Mar 2024 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bristlemouth Dev Kit: SLOW - and Thinking</title>
       <link>https://blog.herlein.com/post/bristlemouth-slow/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-slow/</guid>
       <description>&lt;p&gt;Work on the &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt; is slower than I hoped.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bristlemouth Dev Kit: YES!</title>
       <link>https://blog.herlein.com/post/bristlemouth-yes/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-yes/</guid>
       <description>&lt;p&gt;I have possession and unboxed the &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bristlemouth Dev Kit May Not Happen</title>
       <link>https://blog.herlein.com/post/bristlemouth-questionable/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-questionable/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt; may not be able to get to me.  There&amp;rsquo;s some legal paperwork that I don&amp;rsquo;t have - that may be quite expensive to get.  Import/Export laws are a pain.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bristlemouth Dev Kit Delayed - Customs Woes</title>
       <link>https://blog.herlein.com/post/bristlemouth-delayed/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-delayed/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been accepted into the &lt;a href=&#34;https://www.bristlemouth.org/pioneer&#34;&gt;Bristlemouth Pioneer Program&lt;/a&gt;.  I&amp;rsquo;ve been granted a &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with a &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;.  Unfortunately it was detained in customs due to it&amp;rsquo;s high invoiced value.  I required a &amp;ldquo;customs agent&amp;rdquo; to clear it - which I did not have.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ocean Technology and Talking to Whales</title>
       <link>https://blog.herlein.com/post/bristlemouth-pioneer/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/bristlemouth-pioneer/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been accepted into the &lt;a href=&#34;https://www.bristlemouth.org/pioneer&#34;&gt;Bristlemouth Pioneer Program&lt;/a&gt;.  I&amp;rsquo;ve been granted a &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with a &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;.  I want to build a system capable of autonomously recording whale song (and other ocean data).  &lt;a href=&#34;https://sanctuaries.noaa.gov/news/sep22/mysteries-of-humpback-whale-song.html&#34;&gt;Humpback Whale songs&lt;/a&gt; is incredibly interesting - and scientists have JUST been able to actually talk to whales.&lt;/p&gt;
-&lt;p&gt;But really getting all &amp;ldquo;science fictiony&amp;rdquo; - can we build an ocean phone system to talk to whales?&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been accepted into the &lt;a href=&#34;https://www.bristlemouth.org/pioneer&#34;&gt;Bristlemouth Pioneer Program&lt;/a&gt;.  I&amp;rsquo;ve been granted a &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with a &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;.  I want to build a system capable of autonomously recording whale song (and other ocean data).  &lt;a href=&#34;https://sanctuaries.noaa.gov/news/sep22/mysteries-of-humpback-whale-song.html&#34;&gt;Humpback Whale songs&lt;/a&gt; is incredibly interesting - and scientists have JUST been able to actually talk to whales.&lt;/p&gt;&#xA;&lt;p&gt;But really getting all &amp;ldquo;science fictiony&amp;rdquo; - can we build an ocean phone system to talk to whales?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
