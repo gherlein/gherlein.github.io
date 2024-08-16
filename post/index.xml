@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 03 Aug 2024 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pulseview on Linux</title>
+      <link>https://blog.herlein.com/post/pulseview-linux/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/pulseview-linux/</guid>
+      <description>&lt;p&gt;Leaving this here mostly for me, but short instructions on how to install Pulseview on Linux to use cheap logic analyzers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Changing Chrome Address Bar Suggestions</title>
       <link>https://blog.herlein.com/post/chrome-predictor/</link>

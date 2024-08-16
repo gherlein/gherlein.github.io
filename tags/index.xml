@@ -7,13 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 03 Aug 2024 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>General</title>
       <link>https://blog.herlein.com/tags/general/</link>
-      <pubDate>Sat, 03 Aug 2024 00:00:01 -0800</pubDate>
+      <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://blog.herlein.com/tags/hardware/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://blog.herlein.com/tags/linux/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -308,13 +322,6 @@
       <link>https://blog.herlein.com/tags/debian/</link>
       <pubDate>Wed, 20 Dec 2023 08:00:00 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/debian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://blog.herlein.com/tags/linux/</link>
-      <pubDate>Wed, 20 Dec 2023 08:00:00 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -686,13 +693,6 @@
       <link>https://blog.herlein.com/tags/udp/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
       <guid>https://blog.herlein.com/tags/udp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hardware</title>
-      <link>https://blog.herlein.com/tags/hardware/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/hardware/</guid>
       <description></description>
     </item>
     <item>
