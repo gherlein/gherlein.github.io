@@ -7,8 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 15 Aug 2024 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embedded</title>
+      <link>https://blog.herlein.com/tags/embedded/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/embedded/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ocean</title>
+      <link>https://blog.herlein.com/tags/ocean/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ocean/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Whales</title>
+      <link>https://blog.herlein.com/tags/whales/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/whales/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zephyr</title>
+      <link>https://blog.herlein.com/tags/zephyr/</link>
+      <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/zephyr/</guid>
+      <description></description>
+    </item>
     <item>
       <title>General</title>
       <link>https://blog.herlein.com/tags/general/</link>
@@ -122,13 +157,6 @@
       <description></description>
     </item>
     <item>
-      <title>Technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/technical/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
       <pubDate>Tue, 21 May 2024 00:00:01 -0800</pubDate>
@@ -217,20 +245,6 @@
       <link>https://blog.herlein.com/tags/legal/</link>
       <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/legal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ocean</title>
-      <link>https://blog.herlein.com/tags/ocean/</link>
-      <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ocean/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Whales</title>
-      <link>https://blog.herlein.com/tags/whales/</link>
-      <pubDate>Sat, 11 May 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/whales/</guid>
       <description></description>
     </item>
     <item>
@@ -518,13 +532,6 @@
       <link>https://blog.herlein.com/tags/web/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/web/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Embedded</title>
-      <link>https://blog.herlein.com/tags/embedded/</link>
-      <pubDate>Sun, 15 May 2022 00:00:01 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/embedded/</guid>
       <description></description>
     </item>
     <item>
