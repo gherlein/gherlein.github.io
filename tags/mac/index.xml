@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mac on Greg Herlein</title>
+    <title>mac on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/mac/</link>
-    <description>Recent content in Mac on Greg Herlein</description>
+    <description>Recent content in mac on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 20 Dec 2023 08:00:00 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 08:00:00 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back to the Mac</title>
       <link>https://blog.herlein.com/post/back-to-mac/</link>
       <pubDate>Wed, 20 Dec 2023 08:00:00 -0800</pubDate>
+      
       <guid>https://blog.herlein.com/post/back-to-mac/</guid>
       <description>&lt;p&gt;I undid it.  I&amp;rsquo;m still using my desktop (mostly remotely) and I do love my Lenovo X1 Carbon.  But my primary machine is back to the Mac Book Pro.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

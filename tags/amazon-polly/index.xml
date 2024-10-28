@@ -7,21 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Mar 2022 00:00:00 -0700</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/amazon-polly/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Mar 2022 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/amazon-polly/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable Chatbots on the phone using Amazon Lex and the Amazon Chime SDK</title>
       <link>https://blog.herlein.com/post/lex2/</link>
       <pubDate>Sat, 26 Mar 2022 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/lex2/</guid>
       <description>&lt;p&gt;Telephony made a huge leap forward last week.  It&amp;rsquo;s insanely easy to build a voice chatbot for phone calls!&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>My First Amazon Blog... ML/AI Chatbot over the Phone!</title>
       <link>https://blog.herlein.com/post/amazon-blog/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/amazon-blog/</guid>
       <description>&lt;p&gt;A month ago I told you I &lt;a href=&#34;https://blog.herlein.com/post/webrtc-phone/&#34;&gt;changed roles&lt;/a&gt; at AWS.  Now I can show you what I&amp;rsquo;ve done since then!&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

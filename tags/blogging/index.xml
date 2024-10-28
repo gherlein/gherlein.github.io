@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogging on Greg Herlein</title>
+    <title>blogging on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/blogging/</link>
-    <description>Recent content in Blogging on Greg Herlein</description>
+    <description>Recent content in blogging on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Sep 2020 00:00:04 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:04 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fixing Hugo Social Media Icons in Blackburn</title>
       <link>https://blog.herlein.com/post/hugo-social-media-icons/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
+      
       <guid>https://blog.herlein.com/post/hugo-social-media-icons/</guid>
       <description>&lt;p&gt;The Blackburn theme for Hugo has a bug in how it shows social media icons.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

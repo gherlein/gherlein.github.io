@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kinesis on Greg Herlein</title>
+    <title>kinesis on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/kinesis/</link>
-    <description>Recent content in Kinesis on Greg Herlein</description>
+    <description>Recent content in kinesis on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/kinesis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/kinesis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kinesis Video Streams - Just Getting Started</title>
       <link>https://blog.herlein.com/post/kinesis-video-streams/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
+      
       <guid>https://blog.herlein.com/post/kinesis-video-streams/</guid>
       <description>&lt;p&gt;Just started playing with &lt;a href=&#34;https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amp;amp;amazon-kinesis-video-streams-resources-blog.sort-order=desc&#34;&gt;Amazon Kinesis Video Streams&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

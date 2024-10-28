@@ -7,14 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 01 Mar 2022 00:00:01 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/sdlc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/sdlc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thoughts on CI/CD</title>
       <link>https://blog.herlein.com/post/cicd-thoughts/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
+      
       <guid>https://blog.herlein.com/post/cicd-thoughts/</guid>
       <description>&lt;p&gt;Yet again I am thinking about the overall software development/deployment life cycle, and am back to thinking about CI/CD again.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

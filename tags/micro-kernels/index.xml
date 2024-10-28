@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Micro-Kernels on Greg Herlein</title>
+    <title>micro-kernels on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/micro-kernels/</link>
-    <description>Recent content in Micro-Kernels on Greg Herlein</description>
+    <description>Recent content in micro-kernels on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 00:00:01 -0700</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/micro-kernels/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Oct 2020 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/micro-kernels/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Golang Unikernel Is Reality!</title>
       <link>https://blog.herlein.com/post/golang-enabled-microkernel-reality/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:01 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/golang-enabled-microkernel-reality/</guid>
       <description>&lt;p&gt;Back in January of 2018 I &lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;blogged on LinkedIn&lt;/a&gt; asking the question if golang would enable development of micro-kernels.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Golang Enabling Unikernels?</title>
       <link>https://blog.herlein.com/post/golang-enabled-microkernels/</link>
       <pubDate>Mon, 29 Jan 2018 16:29:39 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/golang-enabled-microkernels/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/golang-enabling-unikernels-greg-herlein/&#34;&gt;Golang Enabling Unikernels?&lt;/a&gt;&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>People Development on Greg Herlein</title>
+    <title>people development on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/people-development/</link>
-    <description>Recent content in People Development on Greg Herlein</description>
+    <description>Recent content in people development on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 19 May 2024 00:00:01 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/people-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/people-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developing Leaders in the post-COVID Era</title>
       <link>https://blog.herlein.com/post/lol/</link>
       <pubDate>Sun, 19 May 2024 00:00:01 -0800</pubDate>
+      
       <guid>https://blog.herlein.com/post/lol/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been a &amp;ldquo;leader-of-leaders&amp;rdquo; for a long time. It&amp;rsquo;s changed post-covid.  But when I talk to some Engineers about the difference between &amp;ldquo;Leader of Others&amp;rdquo; and &amp;ldquo;Leader of Leaders&amp;rdquo; they don&amp;rsquo;t know what I&amp;rsquo;m talking about.  So I thought I&amp;rsquo;d blog about it, and maybe even learn more myself.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

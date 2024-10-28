@@ -7,21 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 24 Sep 2022 00:00:01 -0700</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/media-players/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Sep 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/media-players/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>September Update</title>
       <link>https://blog.herlein.com/post/september/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/september/</guid>
       <description>&lt;p&gt;Three months since I posted, so here&amp;rsquo;s some random thoughts and updates.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>BrightSign!</title>
       <link>https://blog.herlein.com/post/brightsign/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:01 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/brightsign/</guid>
       <description>&lt;p&gt;What&amp;rsquo;s old is new again:  I&amp;rsquo;ve joined &lt;a href=&#34;https://www.brightsign.biz/&#34;&gt;BrightSign&lt;/a&gt; as their Head of Software Engineering!&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>I2c on Greg Herlein</title>
+    <title>i2c on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/i2c/</link>
-    <description>Recent content in I2c on Greg Herlein</description>
+    <description>Recent content in i2c on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 -0700</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/i2c/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/i2c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beaglebone Black - Getting Started</title>
       <link>https://blog.herlein.com/post/beaglebone-getting-started/</link>
       <pubDate>Thu, 25 Nov 2021 00:00:00 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/beaglebone-getting-started/</guid>
       <description>&lt;p&gt;Getting Started with the Beaglebone Black (Again)&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>I2c Tools for Project RBOT</title>
       <link>https://blog.herlein.com/post/i2c-for-robot/</link>
       <pubDate>Sat, 29 Sep 2018 08:44:43 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/i2c-for-robot/</guid>
       <description>&lt;p&gt;I2C Tools I am Using for the RBOT Project&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Pcal6416a Getting Started</title>
       <link>https://blog.herlein.com/post/pcal6416a-getting-started/</link>
       <pubDate>Sat, 14 Jul 2018 19:32:04 -0700</pubDate>
+      
       <guid>https://blog.herlein.com/post/pcal6416a-getting-started/</guid>
       <description>&lt;p&gt;I2C Port Expander for Robotics Use - Getting Started with the NXP PCAL6416A&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>
