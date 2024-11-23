@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kernel on Greg Herlein</title>
+    <title>Kernel on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/kernel/</link>
-    <description>Recent content in kernel on Greg Herlein</description>
+    <description>Recent content in Kernel on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 27 Jun 2020 03:10:43 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jun 2020 03:10:43 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blast from the past - Linux Telephony API</title>
       <link>https://blog.herlein.com/post/lti/</link>
       <pubDate>Sat, 27 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/lti/</guid>
       <description>&lt;p&gt;A trip down memory lane:  the first linux telephony drivers&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

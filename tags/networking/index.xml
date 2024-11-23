@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>networking on Greg Herlein</title>
+    <title>Networking on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/networking/</link>
-    <description>Recent content in networking on Greg Herlein</description>
+    <description>Recent content in Networking on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 22 May 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Review: Linux for Networking Professionals</title>
       <link>https://blog.herlein.com/post/networking-book-review/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/networking-book-review/</guid>
       <description>&lt;p&gt;Tl;dr: read the web instead of &lt;a href=&#34;https://smile.amazon.com/Linux-Networking-Professionals-configure-enterprise-ebook/dp/B09BZTLRKY&#34;&gt;Linux for Networking Professionals&lt;/a&gt;.  This book is a broad, shallow coverage that is probably more easily learned from web pages for free.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Local Data Collection and Command Distribution</title>
       <link>https://blog.herlein.com/post/local-data-collection/</link>
       <pubDate>Sat, 27 Nov 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/local-data-collection/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m revisiting why I don&amp;rsquo;t like MQTT, and what I am doing about it.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>SSH Tunnels</title>
       <link>https://blog.herlein.com/post/ssh-tunnels/</link>
       <pubDate>Sun, 12 Apr 2020 06:40:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/ssh-tunnels/</guid>
       <description>&lt;p&gt;SSH tunnels are basically indistinguishable from magic.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

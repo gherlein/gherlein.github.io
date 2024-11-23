@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>iterm2 on Greg Herlein</title>
+    <title>Iterm2 on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/iterm2/</link>
-    <description>Recent content in iterm2 on Greg Herlein</description>
+    <description>Recent content in Iterm2 on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/iterm2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/iterm2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iTerm2 Paste Buffers on MacOS/OSX - how to increase size</title>
       <link>https://blog.herlein.com/post/iterm2-paste/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/iterm2-paste/</guid>
       <description>&lt;p&gt;Quick reminder: how to increase the copy-paste buffers size in iTerm2.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

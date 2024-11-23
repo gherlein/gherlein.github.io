@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 19 Dec 2020 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Dec 2020 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming Serial in C</title>
       <link>https://blog.herlein.com/post/serial/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/serial/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s back to the future again.  Fidding with node.js a lot, but you know, C is still my favorite language.  Dug up some old code to read/write from a serial port.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

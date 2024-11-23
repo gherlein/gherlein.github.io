@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web on Greg Herlein</title>
+    <title>Web on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/web/</link>
-    <description>Recent content in web on Greg Herlein</description>
+    <description>Recent content in Web on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 15 May 2022 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Clicky Web Analytics with Hugo</title>
       <link>https://blog.herlein.com/post/clicky/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/clicky/</guid>
       <description>&lt;p&gt;I added &lt;a href=&#34;https://clicky.com/&#34;&gt;Clicky&lt;/a&gt; web analytics to my blog (running &lt;a href=&#34;https://gohugo.io/&#34;&gt;hugo&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

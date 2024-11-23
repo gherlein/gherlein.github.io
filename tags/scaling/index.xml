@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scaling on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/scaling/</link>
+    <description>Recent content in Scaling on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 23 Nov 2024 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/scaling/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foundations of High-Performance Engineering Teams</title>
+      <link>https://blog.herlein.com/post/foundations-excellence/</link>
+      <pubDate>Sat, 23 Nov 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/foundations-excellence/</guid>
+      <description>&lt;p&gt;The US Navy gave me a solid foundation in leadership and operational excellence.  But translating that into the business world requires a few more things.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

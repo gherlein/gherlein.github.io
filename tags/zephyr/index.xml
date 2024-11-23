@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>zephyr on Greg Herlein</title>
+    <title>Zephyr on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/zephyr/</link>
-    <description>Recent content in zephyr on Greg Herlein</description>
+    <description>Recent content in Zephyr on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Oct 2024 00:00:01 -0800</lastBuildDate><atom:link href="https://blog.herlein.com/tags/zephyr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Oct 2024 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/zephyr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Long Time No Post! RPi Pico, Zephyr, and Whales (oh my)</title>
       <link>https://blog.herlein.com/post/long-time-no-post/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/long-time-no-post/</guid>
       <description>&lt;p&gt;A short update on my whale song project:  I fell down a few technical rabbit hole!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

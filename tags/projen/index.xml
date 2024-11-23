@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>projen on Greg Herlein</title>
+    <title>Projen on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/projen/</link>
-    <description>Recent content in projen on Greg Herlein</description>
+    <description>Recent content in Projen on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/projen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Dec 2021 00:00:00 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/projen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learnings from patching a bug in a modern project</title>
       <link>https://blog.herlein.com/post/modern-node-dev/</link>
       <pubDate>Thu, 30 Dec 2021 00:00:00 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/modern-node-dev/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a
-new tool I am using (&lt;a href=&#34;https://github.com/projen/projen/pull/1437&#34;&gt;projen&lt;/a&gt;) and learned
-a ton along the way.  This post is to share some of that.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m continuing to dive deep on modern typescript/node development.  I fixed a bug in a&#xA;new tool I am using (&lt;a href=&#34;https://github.com/projen/projen/pull/1437&#34;&gt;projen&lt;/a&gt;) and learned&#xA;a ton along the way.  This post is to share some of that.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

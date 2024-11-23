@@ -7,15 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 21 May 2022 00:00:01 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Nov 2024 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foundations of High-Performance Engineering Teams</title>
+      <link>https://blog.herlein.com/post/foundations-excellence/</link>
+      <pubDate>Sat, 23 Nov 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/foundations-excellence/</guid>
+      <description>&lt;p&gt;The US Navy gave me a solid foundation in leadership and operational excellence.  But translating that into the business world requires a few more things.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>DevOps: Manage the Cognitive Load</title>
       <link>https://blog.herlein.com/post/cognitive-load/</link>
       <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/cognitive-load/</guid>
       <description>&lt;p&gt;Speed, cost and quality are considered the vectors that you can control.  If you are moving to cloud to get the &amp;ldquo;ilities&amp;rdquo; that comprise quality, you need to seriously consider Cognitive Load.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

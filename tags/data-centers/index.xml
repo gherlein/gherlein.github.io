@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data-centers on Greg Herlein</title>
+    <title>Data-Centers on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/data-centers/</link>
-    <description>Recent content in data-centers on Greg Herlein</description>
+    <description>Recent content in Data-Centers on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 21 Dec 2016 16:29:39 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/data-centers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2016 16:29:39 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/data-centers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technology Rolls On, Better Roll With It</title>
       <link>https://blog.herlein.com/post/technology-rolls-on/</link>
       <pubDate>Wed, 21 Dec 2016 16:29:39 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/technology-rolls-on/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/technology-rolls-better-roll-greg-herlein/&#34;&gt;Technology Rolls On, Better Roll With It&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

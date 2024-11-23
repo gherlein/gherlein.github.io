@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on Greg Herlein</title>
+    <title>Git on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/git/</link>
-    <description>Recent content in git on Greg Herlein</description>
+    <description>Recent content in Git on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 31 Oct 2022 01:30:29 -0700</lastBuildDate><atom:link href="https://blog.herlein.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Oct 2022 01:30:29 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git Clone Workaround</title>
       <link>https://blog.herlein.com/post/git-clone-workaround/</link>
       <pubDate>Mon, 31 Oct 2022 01:30:29 -0700</pubDate>
-      
       <guid>https://blog.herlein.com/post/git-clone-workaround/</guid>
       <description>&lt;p&gt;Cloning from GitHub hanging for no apparent reason?  A work-around.  Anyone know why it works?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Docs as Code</title>
       <link>https://blog.herlein.com/post/docs-as-code/</link>
       <pubDate>Sat, 20 Jun 2020 03:10:43 -0800</pubDate>
-      
       <guid>https://blog.herlein.com/post/docs-as-code/</guid>
       <description>&lt;p&gt;One of the core principles of modern &amp;ldquo;DevOps&amp;rdquo; development is to treat your documentation as code, just like code.  My team at Cisco open sourced how we do that.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
