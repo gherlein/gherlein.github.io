@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 23 Nov 2024 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 09:30:29 -0700</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>General</title>
+      <link>https://blog.herlein.com/tags/general/</link>
+      <pubDate>Thu, 09 Jan 2025 09:30:29 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Radio</title>
+      <link>https://blog.herlein.com/tags/radio/</link>
+      <pubDate>Thu, 09 Jan 2025 09:30:29 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/radio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Thu, 09 Jan 2025 09:30:29 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Engineering</title>
       <link>https://blog.herlein.com/tags/engineering/</link>
@@ -66,13 +87,6 @@
       <description></description>
     </item>
     <item>
-      <title>Technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/technical/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Whales</title>
       <link>https://blog.herlein.com/tags/whales/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
@@ -84,13 +98,6 @@
       <link>https://blog.herlein.com/tags/zephyr/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/zephyr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>General</title>
-      <link>https://blog.herlein.com/tags/general/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/general/</guid>
       <description></description>
     </item>
     <item>
