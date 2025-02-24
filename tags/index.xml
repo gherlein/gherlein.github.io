@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 09 Jan 2025 09:30:29 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2025 10:50:08 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keymaps</title>
+      <link>https://blog.herlein.com/tags/keymaps/</link>
+      <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/keymaps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://blog.herlein.com/tags/linux/</link>
+      <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macos</title>
+      <link>https://blog.herlein.com/tags/macos/</link>
+      <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
     <item>
       <title>General</title>
       <link>https://blog.herlein.com/tags/general/</link>
@@ -87,13 +115,6 @@
       <description></description>
     </item>
     <item>
-      <title>Technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/technical/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Zephyr</title>
       <link>https://blog.herlein.com/tags/zephyr/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
@@ -105,13 +126,6 @@
       <link>https://blog.herlein.com/tags/hardware/</link>
       <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/hardware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://blog.herlein.com/tags/linux/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -364,20 +378,6 @@
       <link>https://blog.herlein.com/tags/process/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/process/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Keymaps</title>
-      <link>https://blog.herlein.com/tags/keymaps/</link>
-      <pubDate>Sat, 24 Feb 2024 10:50:08 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/keymaps/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Macos</title>
-      <link>https://blog.herlein.com/tags/macos/</link>
-      <pubDate>Sat, 24 Feb 2024 10:50:08 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/macos/</guid>
       <description></description>
     </item>
     <item>
