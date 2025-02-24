@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MacOS on Greg Herlein</title>
+    <title>Macos on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/macos/</link>
-    <description>Recent content in MacOS on Greg Herlein</description>
+    <description>Recent content in Macos on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-2024. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 26 Mar 2023 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 10:50:08 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MacOS and Ubuntu Keyboard Remaps</title>
+      <link>https://blog.herlein.com/post/ubuntu-remaps/</link>
+      <pubDate>Sat, 24 Feb 2024 10:50:08 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/ubuntu-remaps/</guid>
+      <description>&lt;p&gt;How I mapped some basic keys to be the same on MacOS and Ubuntu and saved my sanity.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>MacOS Ventura - How to set network order</title>
       <link>https://blog.herlein.com/post/macos-ventura/</link>
