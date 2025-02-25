@@ -255,11 +255,20 @@
 
 </div>
 
-  <p>How I mapped some basic keys to be the same on MacOS and Ubuntu and saved my sanity.</p>
+  <p>How I mapped some basic keys to be the same on MacOS and Ubuntu and saved my sanity. UPDATED!</p>
 <h2 id="problem-statement">Problem Statement</h2>
 <p>I move back and forth between MacOS and Ubuntu.  I work in the terminal a lot and I&rsquo;m shifting to using <a href="https://zed.dev/">zed</a> as my primary work editor.  Why?  It&rsquo;s fast, and it&rsquo;s EASY to configure.  For me the learning curve of VSCode is too steep and I don&rsquo;t need all the features.  I just need a fast editor that I can EASILY configure to my liking.  Oh, that is easy to bind an LLM to for assisted code.</p>
 <p>You ARE using an LLM, right?  If not, you should be.  I use <a href="https://copilot.github.com">CoPilot</a> and am testing <a href="https://zed.dev/docs/assistant/configuration">others</a> as well.</p>
 <p>AI won&rsquo;t take your coding job.  But another developer skilled in using AI almost certainly will.  You have been warned!</p>
+<h2 id="update---possible-overkill-but-it-works">UPDATE - Possible Overkill But It Works!</h2>
+<p>Edit a new file .Xmodmap in your home directory and add the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>remove mod4 <span style="color:#f92672">=</span> Super_L
+</span></span><span style="display:flex;"><span>keysym Super_L <span style="color:#f92672">=</span> Control_L
+</span></span><span style="display:flex;"><span>add Control <span style="color:#f92672">=</span> Control_L
+</span></span></code></pre></div><p>Then run the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>xmodmap ~/.Xmodmap
+</span></span></code></pre></div><p>This will remap the Super key to the Control key.  This is a bit of overkill, but it works.  I&rsquo;m still testing it, but so far it seems to work well.</p>
+<p>If this works for you then you can probably skip the rest of this article.  I&rsquo;m leaving it here for reference and in case the above doesn&rsquo;t work for you.</p>
 <h2 id="ubuntu---unbinding-keys">Ubuntu - Unbinding Keys</h2>
 <p>In settings, go to keyboard &ndash;&gt; keyboard shortcuts &ndash;&gt; system</p>
 <ul>
