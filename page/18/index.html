@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="
+  
+    
+    ">
+  <meta name="generator" content="Hugo 0.129.0">
+
+  <meta property="og:title" content="Greg Herlein" />
+  <meta name="twitter:title" content="Greg Herlein" />
+
+  <meta property="og:url" content="https://blog.herlein.com/" />
+  
+    <meta name="twitter:card" content="summary">
+  
+
+  <meta name="twitter:site" content="Greg Herlein">
+  <meta name="twitter:creator" content="Herlein">
+  
+    <meta name="twitter:description" content="Building tech, and teams that build tech.  Software, cloud, electronics, whatever." />
+  
+
+  
+  <link rel="preconnect" href="https://s.ytimg.com">
+  <link rel="preconnect" href="https://i.imgur.com">
+
+  <title>Greg Herlein</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/pure-min.css" media="screen">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/grids-responsive-min.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css" media="screen">
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-burn.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-menu.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/vars.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/menu-x.css" media="screen">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+  </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$']],
+      displayMath: [['$$','$$']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+    CommonHTML: { linebreaks: { automatic: true } },
+    "HTML-CSS": { linebreaks: { automatic: true } },
+          SVG: { linebreaks: { automatic: true } }    
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+ 
+ 
+ <link rel="alternate" type="application/rss+xml" title="Greg Herlein" href='https://blog.herlein.com/index.xml' />
+ 
+
+  
+  <link async rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css" media="screen">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.highlightAll();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+  
+
+  
+  
+</head>
+
+
+<body>
+  <div id="layout">
+    
+<a href="#menu" class="menu-link" id="menuLink" aria-label="Go to menu of this website">
+  <s class="bar"></s><s class="bar"></s>
+</a>
+<div id="menu">
+
+  
+
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i><span>Home</span></a>
+        </li>
+      
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i><span>Posts</span></a>
+        </li>
+      
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i><span>About Me</span></a>
+        </li>
+      
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i><span>Projects</span></a>
+        </li>
+      
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i><span>Resume</span></a>
+        </li>
+      
+        <li class="pure-menu-item">
+            <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i><span>Staffing</span></a>
+        </li>
+      
+    </ul>
+  </div>
+
+  
+<div class="pure-menu social">
+    <ul class="pure-menu-list">
+
+      
+      <li class="pure-menu-item">
+        <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-linkedin fa-fw"></i><span>LinkedIn</span></a>
+      </li>
+      
+  
+      
+      <li class="pure-menu-item">
+        <a class="pure-menu-link" href="https://github.com/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-github-square fa-fw"></i><span>GitHub</span></a>
+      </li>
+      
+
+      
+
+      
+      <li class="pure-menu-item">
+        <a class="pure-menu-link" href='https://blog.herlein.com/index.xml'><i class="fas fa-rss fa-fw"></i><span>RSS</span></a>
+      </li>
+      
+
+    </ul>
+  </div>
+
+
+  <div class="copyright-small">
+  Built with <a href="https://gohugo.io/" rel="external noopener" target="_blank">Hugo</a>
+</div>
+<div class="copyright-small">
+  W/ <a href="https://github.com/dwy6626/dw-favored-blackburn" rel="external noopener" target="_blank">DW-Favored-Blackburn</a>
+</div>
+<div class="copyright-small">
+  Based on <a href="https://github.com/yoshiharuyamashita/blackburn" rel="external noopener" target="_blank">Blackburn</a>
+</div>
+<div class="copyright-small">
+  and <a href="https://purecss.io/" rel="external noopener" target="_blank">Pure CSS</a>
+</div>
+<div class="copyright-small">
+  Icons <a href="https://fontawesome.com" rel="external noopener" target="_blank">Font Awesome</a>
+</div>
+
+<div class="copyright-small">
+  <a href="https://blog.herlein.com/">
+    &copy; 2018-2024. All rights reserved.
+  </a>
+</div>
+
+</div>
+
+
+    <div id="main">
+      <div class="header">
+        
+  <h1>Greg Herlein</h1>
+  
+    <h2>Building tech, and teams that build tech.  Software, cloud, electronics, whatever.</h2>
+  
+
+      </div>
+      <div class="aside-container">
+        
+      </div>
+      <div class="content">
+        
+  
+    <article>
+  <p>
+    Management README I was inspired by an article on Management README&rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&rsquo;t change that much and it&rsquo;s only just me gaining more insight about myself!
+  </p>
+  
+    <footer>
+      <a href="https://blog.herlein.com/about/">more about me<i class="fa fa-angle-double-right fa-fw"></i></a>
+    </footer>
+  
+</article>
+
+  
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/lti/">Blast from the past - Linux Telephony API</a></h2>
+    <ul class="post-meta">
+  <li>
+    <i class="fa fa-calendar fa-fw"></i>
+    <span>
+      <time>27 Jun 2020, 03:10</time>
+    </span>
+  </li>
+</ul>
+
+
+
+
+<ul class="post-meta">
+  
+
+  
+    
+      <a href='https://blog.herlein.com/tags/technical'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>technical</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/linux'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>linux</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/telephony'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>telephony</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/kernel'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>kernel</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/driver'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>driver</span>
+        </li>
+      </a>
+    
+  
+</ul>
+
+  </header>
+
+  <p>
+    <p>A trip down memory lane:  the first linux telephony drivers</p>
+  </p>
+
+  
+    <footer>
+      <a href="https://blog.herlein.com/post/lti/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/docs-as-code/">Docs as Code</a></h2>
+    <ul class="post-meta">
+  <li>
+    <i class="fa fa-calendar fa-fw"></i>
+    <span>
+      <time>20 Jun 2020, 03:10</time>
+    </span>
+  </li>
+</ul>
+
+
+
+
+<ul class="post-meta">
+  
+
+  
+    
+      <a href='https://blog.herlein.com/tags/technical'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>technical</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/linux'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>linux</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/docs'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>docs</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/code'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>code</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/git'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>git</span>
+        </li>
+      </a>
+    
+  
+</ul>
+
+  </header>
+
+  <p>
+    <p>One of the core principles of modern &ldquo;DevOps&rdquo; development is to treat your documentation as code, just like code.  My team at Cisco open sourced how we do that.</p>
+  </p>
+
+  
+    <footer>
+      <a href="https://blog.herlein.com/post/docs-as-code/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/terraform/">Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</a></h2>
+    <ul class="post-meta">
+  <li>
+    <i class="fa fa-calendar fa-fw"></i>
+    <span>
+      <time>06 Jun 2020, 07:21</time>
+    </span>
+  </li>
+</ul>
+
+
+
+
+<ul class="post-meta">
+  
+
+  
+    
+      <a href='https://blog.herlein.com/tags/cloud'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>cloud</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/technical'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>technical</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/devops'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>devops</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/aws'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>aws</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/terraform'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>terraform</span>
+        </li>
+      </a>
+    
+  
+</ul>
+
+  </header>
+
+  <p>
+    <p>In AWS the AMI ID for a particular VM image is unique to that region.  But it&rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?</p>
+  </p>
+
+  
+    <footer>
+      <a href="https://blog.herlein.com/post/terraform/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/blm/">Black Lives Matter</a></h2>
+    <ul class="post-meta">
+  <li>
+    <i class="fa fa-calendar fa-fw"></i>
+    <span>
+      <time>06 Jun 2020, 00:00</time>
+    </span>
+  </li>
+</ul>
+
+
+
+
+<ul class="post-meta">
+  
+
+  
+    
+      <a href='https://blog.herlein.com/tags/opinion'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>opinion</span>
+        </li>
+      </a>
+    
+  
+</ul>
+
+  </header>
+
+  <p>
+    <p>We all protest and effect change in our own ways.  I choose mentorship, education, and work - because that&rsquo;s what I can do best to make a difference.</p>
+  </p>
+
+  
+    <footer>
+      <a href="https://blog.herlein.com/post/blm/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/sphereit/">[Catchup Post] Speaking at SphereIT in Krakow, October 2019</a></h2>
+    <ul class="post-meta">
+  <li>
+    <i class="fa fa-calendar fa-fw"></i>
+    <span>
+      <time>21 Apr 2020, 07:16</time>
+    </span>
+  </li>
+</ul>
+
+
+
+
+<ul class="post-meta">
+  
+
+  
+    
+      <a href='https://blog.herlein.com/tags/technical'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>technical</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/linux'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>linux</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/prometheus'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>prometheus</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/snmp'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>snmp</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/monitoring'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>monitoring</span>
+        </li>
+      </a>
+    
+  
+</ul>
+
+  </header>
+
+  <p>
+    <p>Link to posted video &ldquo;CloudSphere: Impedance Matching Legacy Apps to Prometheus Monitoring by Greg Herlein &amp; David Wang&rdquo;</p>
+  </p>
+
+  
+    <footer>
+      <a href="https://blog.herlein.com/post/sphereit/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+    </footer>
+  
+</article>
+
+  
+
+  
+  
+  
+  <div class="pagination mobile">
+    <ul class="pagination" role="navigation" aria-label="Pagination Navigation">
+        
+          <a href="https://blog.herlein.com/page/17/" aria-label="previous page">
+            <li>
+              <i class="fa fa-chevron-left"></i>
+            </li>
+          </a>
+        
+      <li>18</li>
+      <li>/</li>
+      <li>23</li>
+
+      
+        <a href="https://blog.herlein.com/page/19/" aria-label="next page">
+          <li>
+            <i class="fa fa-chevron-right"></i>
+          </li>
+        </a>
+      
+    </ul>
+  </div>
+
+
+<div class="pagination desktop">
+  
+  
+  <ul class="pagination">
+    
+      <a href="https://blog.herlein.com/" class="page-link" aria-label="First">
+        <li class="page-item">
+          <span aria-hidden="true">&laquo;&laquo;</span>
+        </li>
+      </a>
+      <a href="https://blog.herlein.com/page/17/" class="page-link" aria-label="Previous">
+        <li class="page-item">
+          <span aria-hidden="true">&laquo;</span>
+        </li>
+      </a>
+    
+        
+          <a class="page-link" href="https://blog.herlein.com/">
+            <li class="page-item">
+              1
+            </li>
+          </a>
+        
+        
+          <a class="page-link" href="https://blog.herlein.com/page/2/">
+            <li class="page-item">
+              2
+            </li>
+          </a>
+        
+        
+          <a class="page-link" href="https://blog.herlein.com/page/3/">
+            <li class="page-item">
+              3
+            </li>
+          </a>
+        
+      <li class="page-item disabled">
+        <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
+      </li>
+        
+          <a class="page-link" href="https://blog.herlein.com/page/17/">
+            <li class="page-item">
+              17
+            </li>
+          </a>
+        
+        
+          <li class="page-item active">
+            18
+          </li>
+        
+        
+          <a class="page-link" href="https://blog.herlein.com/page/19/">
+            <li class="page-item">
+              19
+            </li>
+          </a>
+        
+      <li class="page-item disabled">
+        <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
+      </li>
+        
+          <a class="page-link" href="https://blog.herlein.com/page/23/">
+            <li class="page-item">
+              23
+            </li>
+          </a>
+        
+
+    
+      <a href="https://blog.herlein.com/page/19/" class="page-link" aria-label="Next">
+        <li class="page-item">
+          <span aria-hidden="true">&raquo;</span>
+        </li>
+      </a>
+      <a href="https://blog.herlein.com/page/23/" class="page-link" aria-label="Last">
+        <li class="page-item">
+          <span aria-hidden="true">&raquo;&raquo;</span>
+        </li>
+      </a>
+    
+  </ul>
+  
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

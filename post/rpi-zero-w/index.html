@@ -4,32 +4,44 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.123.7">
+  <meta name="description" content="
+  
+      The Raspberry Pi Zero W is likely the basis of my next few projects.
+    ">
+  <meta name="generator" content="Hugo 0.129.0">
+
+  <meta property="og:title" content="Raspberry Pi Zero W Fun" />
+  <meta name="twitter:title" content="Raspberry Pi Zero W Fun" />
+
+  <meta property="og:url" content="https://blog.herlein.com/post/rpi-zero-w/" />
+  
+    <meta name="twitter:card" content="summary">
+  
+
+  <meta name="twitter:site" content="Greg Herlein">
+  <meta name="twitter:creator" content="Herlein">
+  
+    <meta name="twitter:description" content="The Raspberry Pi Zero W is likely the basis of my next few projects." />
+  
+
+  
+  <link rel="preconnect" href="https://s.ytimg.com">
+  <link rel="preconnect" href="https://i.imgur.com">
 
   <title>Raspberry Pi Zero W Fun &middot; Greg Herlein</title>
 
-    
-
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/pure-min.css" media="screen">
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
-  <!--<![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/grids-responsive-min.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css" media="screen">
 
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
-  <!--<![endif]-->
-
-  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-burn.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-menu.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/vars.css" media="screen">
+  <link rel="stylesheet" href="https://blog.herlein.com/css/menu-x.css" media="screen">
 
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -39,224 +51,223 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
   
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+  </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$']],
+      displayMath: [['$$','$$']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    },
+    CommonHTML: { linebreaks: { automatic: true } },
+    "HTML-CSS": { linebreaks: { automatic: true } },
+          SVG: { linebreaks: { automatic: true } }    
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
 
  
-  
+ 
 
   
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
-  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <link async rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css" media="screen">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
   
-  <script>hljs.initHighlightingOnLoad();</script>
+  <script>hljs.highlightAll();</script>
   
 
   <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
 
   
   
+  
 
+  
+  
 </head>
 
 
 <body>
-<div id="layout">
-
-  
-<a href="#menu" id="menuLink" class="menu-link">
-  
-  <span></span>
+  <div id="layout">
+    
+<a href="#menu" class="menu-link" id="menuLink" aria-label="Go to menu of this website">
+  <s class="bar"></s><s class="bar"></s>
 </a>
 <div id="menu">
 
   
+
   <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
 
 
   <div class="pure-menu">
     <ul class="pure-menu-list">
       
-      
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
+            <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i><span>Home</span></a>
         </li>
       
-      
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
-      
+            <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i><span>Posts</span></a>
         </li>
       
-      
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
-      
+            <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i><span>About Me</span></a>
         </li>
       
-      
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
-      
+            <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i><span>Projects</span></a>
         </li>
       
-      
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
-      
+            <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i><span>Resume</span></a>
         </li>
       
-      
         <li class="pure-menu-item">
-          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
-      
+            <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i><span>Staffing</span></a>
         </li>
       
     </ul>
   </div>
 
-  <div class="pure-menu social">
-  <ul class="pure-menu-list">
+  
+<div class="pure-menu social">
+    <ul class="pure-menu-list">
 
-    
+      
+      <li class="pure-menu-item">
+        <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-linkedin fa-fw"></i><span>LinkedIn</span></a>
+      </li>
+      
+  
+      
+      <li class="pure-menu-item">
+        <a class="pure-menu-link" href="https://github.com/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-github-square fa-fw"></i><span>GitHub</span></a>
+      </li>
+      
 
-    
+      
 
-    
+      
 
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  </ul>
-</div>
-
-
-  <div>
-  <div class="small-print">
-    <small>&copy; 2018-2024. All rights reserved.</small>
+    </ul>
   </div>
-  <div class="small-print">
-    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+
+
+  <div class="copyright-small">
+  Built with <a href="https://gohugo.io/" rel="external noopener" target="_blank">Hugo</a>
+</div>
+<div class="copyright-small">
+  W/ <a href="https://github.com/dwy6626/dw-favored-blackburn" rel="external noopener" target="_blank">DW-Favored-Blackburn</a>
+</div>
+<div class="copyright-small">
+  Based on <a href="https://github.com/yoshiharuyamashita/blackburn" rel="external noopener" target="_blank">Blackburn</a>
+</div>
+<div class="copyright-small">
+  and <a href="https://purecss.io/" rel="external noopener" target="_blank">Pure CSS</a>
+</div>
+<div class="copyright-small">
+  Icons <a href="https://fontawesome.com" rel="external noopener" target="_blank">Font Awesome</a>
+</div>
+
+<div class="copyright-small">
+  <a href="https://blog.herlein.com/">
+    &copy; 2018-2024. All rights reserved.
+  </a>
+</div>
+
+</div>
+
+
+    <div id="main">
+      <div class="header">
+        
+          <h1>
+            
+              Raspberry Pi Zero W Fun
+            
+          </h1>
+          <h2>
+            
+          </h2>
+        
+      </div>
+      <div class="aside-container">
+        
+  <div id="toc-aside" style="display: none;">
+    
   </div>
-</div>
 
-</div>
-
-
-  <div id="main">
-
-
-<div class="header">
-  <h1>Raspberry Pi Zero W Fun</h1>
-  <h2></h2>
-</div>
-<div class="content">
-
-  <div class="post-meta">
-
-  <div>
+      </div>
+      <div class="content">
+        
+  <ul class="post-meta">
+  <li>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>26 Sep 2020, 00:00</time>
+    <span>
+      <time>26 Sep 2020, 00:00</time>
+    </span>
+  </li>
+</ul>
+
+
+
+
+<ul class="post-meta">
+  
+
+  
+    
+      <a href='https://blog.herlein.com/tags/technical'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>technical</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/linux'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>linux</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/rpi'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>rpi</span>
+        </li>
+      </a>
+    
+      <a href='https://blog.herlein.com/tags/raspberry-pi'>
+        <li>
+          <i class="fas fa-tag fa-fw"></i>
+          <span>raspberry pi</span>
+        </li>
+      </a>
+    
+  
+</ul>
+
+
+  <div id="toc-top" style="display: none;">
+    
   </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/rpi">rpi</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/raspberry-pi">raspberry pi</a>
-    
-  </div>
-  
-  
-
-</div>
-
   <p>The Raspberry Pi Zero W is likely the basis of my next few projects.</p>
-<p>So I have a few things I want to build, and they are sort of coming together a bit.  I want to have a way to plug a small sensor board board (1x2 inches or so) into a <a href="https://www.amazon.com/gp/product/B07T82D4YF/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;psc=1">USB wall wart power supply with vertical power sockets</a> and have it measure temperature, humidity, and motion and connect over wifi.  And, I want to pick up my ideas for a robotics development platform that is good for both teaching and actual small robots.</p>
+<p>So I have a few things I want to build, and they are sort of coming together a bit.  I want to have a way to plug a small sensor board board (1x2 inches or so) into a <a href="https://www.amazon.com/gp/product/B07T82D4YF/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1">USB wall wart power supply with vertical power sockets</a> and have it measure temperature, humidity, and motion and connect over wifi.  And, I want to pick up my ideas for a robotics development platform that is good for both teaching and actual small robots.</p>
 <h2 id="sensor-board">Sensor Board</h2>
 <p>The sensor board is just a way to remotely measure the conditions in a room far far away.  Temperature and humidy are metrics - best stored as a time series, probably in Prometheus.  I&rsquo;m a big fan of <a href="https://prometheus.io/">Prometheus</a>, both at work and for home projects.  I have a nice <a href="https://github.com/gherlein/gonetmon">home network traffic analysis system built around it</a>.  Still pondering about the motion sensor parts - but likely would just use those as direct entries into AlertManager.  This is all thinking based around work we did on the <a href="http://blog.herlein.com/post/sphereit/">Observability Framework</a> in 2019.</p>
 <p>Earlier testing had me quite fond of these <a href="https://www.amazon.com/WHDTS-RCWL-0516-Microwave-Induction-Detection/dp/B0732VQ4Q2/ref=sr_1_5">radar boards for motion detection</a>.  The cheap IR sensors work, kinda, but they are big and bulky and I found them to be pain to adjust to the sensitivity I wanted.  I figured these radar boards could be a daughter board of sorts.  If this thing plugs onto the power plug then it could be almost as wide, and that gives me an inch of depth so I could do three boards stacked if I wanted and still have room for a 3D printed case around it.</p>
@@ -266,7 +277,7 @@
 <p>I just learned of <a href="https://piwars.org/2021-vpw/">a new competition called Pi Wars at Home</a>.  I am really encouraging folks to check it out.  This has rekindled my thinking around robotics, especially how to make it more approachable.</p>
 <h2 id="rbot">RBOT</h2>
 <p>I had huge grand plans in early 2019 to build an <a href="http://blog.herlein.com/post/rbot-value-prop/">actuator board I called RBOT</a>.  The problem is that it was vastly more work than one person could do.  Even if I completely ignored my wife and kids - not something I want to do - there just was not enough time to build and debug the board AND then build and debug the sensors.  And, in hindsight, the choice of the ESP32 really would have caused a HUGE time investment that probably would have ended up being counter to some of my core principles.  I really want this platform to be open to MORE people learning to code (especially teenagers) not less.  The learning curve of ESP32 and FreeRTOS is almost certainly too steep for most of them.  It would not have been an approachable tool.</p>
-<p>My plans for RBOT were to use a ESP32-PICO-KIT-V4 as the compute daughterboard.  It costs $8 at Digikey or <a href="https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z/ref=sr_1_1_sspa">$11 at Amazon</a>.  I actually designed a specific way to support that as a daughterboard.  I developed an <a href="http://blog.herlein.com/post/esp32-pico-v4-library/">Eagle part for it</a>.  Now <a href="https://www.autodesk.com/products/eagle/overview?plc=F360&amp;term=1-YEAR&amp;support=ADVANCED&amp;quantity=1">Eagle</a> is stupidly bundled with Fushion 360 - that I don&rsquo;t need - so it&rsquo;s not even worth playing with the limited free version.  It&rsquo;s time to spend some time learning <a href="https://kicad-pcb.org/">KiCad</a>.  Damn.  More wasted time.</p>
+<p>My plans for RBOT were to use a ESP32-PICO-KIT-V4 as the compute daughterboard.  It costs $8 at Digikey or <a href="https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z/ref=sr_1_1_sspa">$11 at Amazon</a>.  I actually designed a specific way to support that as a daughterboard.  I developed an <a href="http://blog.herlein.com/post/esp32-pico-v4-library/">Eagle part for it</a>.  Now <a href="https://www.autodesk.com/products/eagle/overview?plc=F360&term=1-YEAR&support=ADVANCED&quantity=1">Eagle</a> is stupidly bundled with Fushion 360 - that I don&rsquo;t need - so it&rsquo;s not even worth playing with the limited free version.  It&rsquo;s time to spend some time learning <a href="https://kicad-pcb.org/">KiCad</a>.  Damn.  More wasted time.</p>
 <p>So, my plan had been to use the ESP32 board.  But wait&hellip; the Raspberry Pi Zero Wireless is $10. Cheaper. And it&rsquo;s a real linux machine.  Sure, it&rsquo;s single core and it&rsquo;s a lot slower than a Raspberry Pi 3 or 4, but it&rsquo;s likely much faster than the ESP32.  And developing the code will be MUCH easier.  And much more approachable for teenagers and makers in general.</p>
 <h2 id="raspberry-pi-zero-w">Raspberry Pi Zero W</h2>
 <p>So I bought one. Here it is with a sensor breakout board connected.</p>
@@ -306,46 +317,15 @@ network={
 <p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
 <script async src="//static.getclicky.com/101366448.js"></script>
 <p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+
   
-  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
-<ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2frpi-zero-w%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2frpi-zero-w%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2frpi-zero-w%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2frpi-zero-w%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2frpi-zero-w%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
-	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2frpi-zero-w%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
-	</li>
-</ul>
 
 
-<style>
-	ul.share-buttons{
-	  list-style: none;
-	  padding: 0;
-	}
-
-	ul.share-buttons li{
-	  display: inline;
-	}
-
-	ul.share-buttons .sr-only{
-	  position: absolute;
-	  clip: rect(1px 1px 1px 1px);
-	  clip: rect(1px, 1px, 1px, 1px);
-	  padding: 0;
-	  border: 0;
-	  height: 1px;
-	  width: 1px;
-	  overflow: hidden;
-	}
-</style>
-
+  <div class="copyright">
+    This article is licensed under
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
+    .
+  </div>
 
   
 <div class="prev-next-post pure-g">
@@ -384,13 +364,12 @@ network={
   
   
 
-  
 
-</div>
+      </div>
+    </div>
+  </div>
 
-</div>
-</div>
-<script src="https://blog.herlein.com/js/ui.js"></script>
+  <script src="https://blog.herlein.com/js/ui.js"></script>
 <script src="https://blog.herlein.com/js/menus.js"></script>
 
 
@@ -400,11 +379,6 @@ network={
 
 
 
-<script src="https://blog.herlein.com/js/math-code.js"></script>
-  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-  
 
-
-</body>
+  </body>
 </html>
-
