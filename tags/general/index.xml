@@ -7,21 +7,21 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 09 Jan 2025 09:30:29 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 08 Mar 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pulseview on Linux - UPDATED</title>
+      <link>https://blog.herlein.com/post/pulseview-linux/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/pulseview-linux/</guid>
+      <description>&lt;p&gt;UPDATED:  On Ubuntu 24.10 just installing using apt &amp;ldquo;just works.&amp;rdquo;  This workaround no longer needed.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Finally Got my Ham Radio License - and Whales!</title>
       <link>https://blog.herlein.com/post/ham-radio/</link>
       <pubDate>Thu, 09 Jan 2025 09:30:29 -0700</pubDate>
       <guid>https://blog.herlein.com/post/ham-radio/</guid>
       <description>&lt;p&gt;I was trained as a US Navy ET.  Decades later I finally took my Ham Radio test.  I am now also known as K06HAX!  It&amp;rsquo;s a key step towards my whale song project!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Pulseview on Linux</title>
-      <link>https://blog.herlein.com/post/pulseview-linux/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/pulseview-linux/</guid>
-      <description>&lt;p&gt;Leaving this here mostly for me, but short instructions on how to install Pulseview on Linux to use cheap logic analyzers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Changing Chrome Address Bar Suggestions</title>

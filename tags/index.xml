@@ -7,20 +7,34 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 24 Feb 2025 10:50:08 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 08 Mar 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Keymaps</title>
-      <link>https://blog.herlein.com/tags/keymaps/</link>
-      <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/keymaps/</guid>
+      <title>General</title>
+      <link>https://blog.herlein.com/tags/general/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://blog.herlein.com/tags/hardware/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/hardware/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
       <link>https://blog.herlein.com/tags/linux/</link>
-      <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
+      <pubDate>Sat, 08 Mar 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keymaps</title>
+      <link>https://blog.herlein.com/tags/keymaps/</link>
+      <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/keymaps/</guid>
       <description></description>
     </item>
     <item>
@@ -35,13 +49,6 @@
       <link>https://blog.herlein.com/tags/technical/</link>
       <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/technical/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>General</title>
-      <link>https://blog.herlein.com/tags/general/</link>
-      <pubDate>Thu, 09 Jan 2025 09:30:29 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/general/</guid>
       <description></description>
     </item>
     <item>
@@ -119,13 +126,6 @@
       <link>https://blog.herlein.com/tags/zephyr/</link>
       <pubDate>Sat, 26 Oct 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/zephyr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hardware</title>
-      <link>https://blog.herlein.com/tags/hardware/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/hardware/</guid>
       <description></description>
     </item>
     <item>

@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.129.0">
 
-  <title>Pulseview on Linux &middot; Greg Herlein</title>
+  <title>Pulseview on Linux - UPDATED &middot; Greg Herlein</title>
 
     
 
@@ -219,7 +219,7 @@
 
 
 <div class="header">
-  <h1>Pulseview on Linux</h1>
+  <h1>Pulseview on Linux - UPDATED</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -228,7 +228,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>15 Aug 2024, 00:00</time>
+    <time>08 Mar 2025, 00:00</time>
   </div>
 
   
@@ -253,7 +253,13 @@
 
 </div>
 
-  <p>Leaving this here mostly for me, but short instructions on how to install Pulseview on Linux to use cheap logic analyzers.</p>
+  <p>UPDATED:  On Ubuntu 24.10 just installing using apt &ldquo;just works.&rdquo;  This workaround no longer needed.</p>
+<h1 id="on-ubuntu-2410">On Ubuntu 24.10</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    sudo apt install -y libsigrok-dev
+</span></span><span style="display:flex;"><span>    sudo apt install -y pulseview
+</span></span></code></pre></div><p>Do the UDev rules install from Step 4 below.</p>
+<p>Worked out of the box.  Glad to see that the deb packages all got fixed.</p>
+<h1 id="old-instructions-for-history">Old Instructions for History</h1>
 <p>Clone Logic analyzers that use the Cypress FX2 chips are readily available for cheap - like this <a href="https://www.amazon.com/gp/product/B077LSG5P2/ref=ppx_yo_dt_b_search_asin_title">one</a> on Amazon.  But to set them up on Linux is a few steps and I seem to always have to hunt down the exact steps.  So I&rsquo;m noting them here for my future self and anyone else that needs them.</p>
 <h2 id="libsigrok">Libsigrok</h2>
 <p>First, you will need the basic library - AND the udev rules that go with it!</p>
@@ -346,13 +352,13 @@
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://blog.herlein.com/post/chrome-predictor/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://blog.herlein.com/post/ubuntu-remaps/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://blog.herlein.com/post/chrome-predictor/">Changing Chrome Address Bar Suggestions</a>
+      <a href="https://blog.herlein.com/post/ubuntu-remaps/">MacOS and Ubuntu Keyboard Remaps</a>
     </nav>
     
   </div>
@@ -361,14 +367,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://blog.herlein.com/post/long-time-no-post/">Long Time No Post! RPi Pico, Zephyr, and Whales (oh my)</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://blog.herlein.com/post/long-time-no-post/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

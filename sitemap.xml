@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2025-02-24T10:50:08-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/general/</loc>
+    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/keymaps/</loc>
-    <lastmod>2025-02-24T10:50:08-08:00</lastmod>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/hardware/</loc>
+    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/pulseview-linux/</loc>
+    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/keymaps/</loc>
     <lastmod>2025-02-24T10:50:08-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/macos/</loc>
     <lastmod>2025-02-24T10:50:08-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/ubuntu-remaps/</loc>
-    <lastmod>2025-02-24T10:50:08-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-02-24T10:50:08-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2025-02-24T10:50:08-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/technical/</loc>
@@ -30,9 +39,6 @@
     <lastmod>2025-01-13T00:01:05-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/ham-radio/</loc>
-    <lastmod>2025-01-09T09:30:29-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/general/</loc>
     <lastmod>2025-01-09T09:30:29-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/radio/</loc>
@@ -73,12 +79,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/zephyr/</loc>
     <lastmod>2024-10-26T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/hardware/</loc>
-    <lastmod>2024-08-15T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/pulseview-linux/</loc>
-    <lastmod>2024-08-15T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/chrome-predictor/</loc>
     <lastmod>2024-08-03T00:00:01-08:00</lastmod>
