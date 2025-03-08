@@ -185,7 +185,7 @@
 
 <div class="copyright-small">
   <a href="https://blog.herlein.com/">
-    &copy; 2018-2024. All rights reserved.
+    &copy; 2018-2025. All rights reserved.
   </a>
 </div>
 
@@ -208,6 +208,30 @@
       <div class="aside-container">
         
   <div id="toc-aside" style="display: none;">
+    
+      <link rel="stylesheet" href="https://blog.herlein.com/css/aside-toc.css" media="screen">
+<script src="https://blog.herlein.com/js/toc.js"></script>
+<div class="toc">
+  <aside>
+    <summary>Table of Contents</summary>
+    <div class="toc-item">
+      <p><a rel='tag' href="#">Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</a></p>
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#ami-ids">AMI IDs</a></li>
+        <li><a href="#ami-names">AMI Names</a></li>
+        <li><a href="#dont-need-to-know-the-full-names">Don&rsquo;t Need to Know the Full Names!</a></li>
+        <li><a href="#is-terraform-still-the-right-choice-for-infra-as-code">Is Terraform Still the Right Choice for Infra-As-Code?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  </aside>
+</div>
+
     
   </div>
 
@@ -271,6 +295,28 @@
 
 
   <div id="toc-top" style="display: none;">
+    
+      <div class="toc">
+        <aside>
+          <details>
+            <summary>Table of Contents</summary>
+            <div class="toc-item">
+              <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#ami-ids">AMI IDs</a></li>
+        <li><a href="#ami-names">AMI Names</a></li>
+        <li><a href="#dont-need-to-know-the-full-names">Don&rsquo;t Need to Know the Full Names!</a></li>
+        <li><a href="#is-terraform-still-the-right-choice-for-infra-as-code">Is Terraform Still the Right Choice for Infra-As-Code?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </details>
+        </aside>
+      </div>
     
   </div>
   <p>In AWS the AMI ID for a particular VM image is unique to that region.  But it&rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?</p>
