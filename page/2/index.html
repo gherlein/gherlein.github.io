@@ -4,44 +4,32 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="
-  
-    
-    ">
+  <meta name="description" content="">
   <meta name="generator" content="Hugo 0.129.0">
-
-  <meta property="og:title" content="Greg Herlein" />
-  <meta name="twitter:title" content="Greg Herlein" />
-
-  <meta property="og:url" content="https://blog.herlein.com/" />
-  
-    <meta name="twitter:card" content="summary">
-  
-
-  <meta name="twitter:site" content="Greg Herlein">
-  <meta name="twitter:creator" content="Herlein">
-  
-    <meta name="twitter:description" content="Building tech, and teams that build tech.  Software, cloud, electronics, whatever." />
-  
-
-  
-  <link rel="preconnect" href="https://s.ytimg.com">
-  <link rel="preconnect" href="https://i.imgur.com">
 
   <title>Greg Herlein</title>
 
+    
+
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/pure-min.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/grids-responsive-min.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css" media="screen">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
 
-  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-burn.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-menu.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/vars.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/menu-x.css" media="screen">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
 
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -51,588 +39,727 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
   
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
-  </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$']],
-      displayMath: [['$$','$$']],
-      processEscapes: true,
-      processEnvironments: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-      TeX: { equationNumbers: { autoNumber: "AMS" },
-      extensions: ["AMSmath.js", "AMSsymbols.js"] }
-    },
-    CommonHTML: { linebreaks: { automatic: true } },
-    "HTML-CSS": { linebreaks: { automatic: true } },
-          SVG: { linebreaks: { automatic: true } }    
-  });
-</script>
-<script type="text/x-mathjax-config">
-  // Fix <code> tags after MathJax finishes running. This is a
-  // hack to overcome a shortcoming of Markdown. Discussion at
-  // https://github.com/mojombo/jekyll/issues/199
-  MathJax.Hub.Queue(() => {
-    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
-  });
-</script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
- 
- <link rel="alternate" type="application/rss+xml" title="Greg Herlein" href='https://blog.herlein.com/index.xml' />
- 
+  
+  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
+    href='https://blog.herlein.com/index.xml' />
+  
 
   
-  <link async rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css" media="screen">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
   
-  <script>hljs.highlightAll();</script>
+  <script>hljs.initHighlightingOnLoad();</script>
   
 
   <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
 
   
   
-  
 
-  
-  
 </head>
 
 
 <body>
-  <div id="layout">
-    
-<a href="#menu" class="menu-link" id="menuLink" aria-label="Go to menu of this website">
-  <s class="bar"></s><s class="bar"></s>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
 </a>
 <div id="menu">
 
   
-
   <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
 
 
   <div class="pure-menu">
     <ul class="pure-menu-list">
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i><span>Home</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i><span>Posts</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
         </li>
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i><span>About Me</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i><span>Projects</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
         </li>
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i><span>Resume</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i><span>Staffing</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
         </li>
       
     </ul>
   </div>
 
-  
-<div class="pure-menu social">
-    <ul class="pure-menu-list">
-
-      
-      <li class="pure-menu-item">
-        <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-linkedin fa-fw"></i><span>LinkedIn</span></a>
-      </li>
-      
-  
-      
-      <li class="pure-menu-item">
-        <a class="pure-menu-link" href="https://github.com/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-github-square fa-fw"></i><span>GitHub</span></a>
-      </li>
-      
-
-      
-
-      
-      <li class="pure-menu-item">
-        <a class="pure-menu-link" href='https://blog.herlein.com/index.xml'><i class="fas fa-rss fa-fw"></i><span>RSS</span></a>
-      </li>
-      
-
-    </ul>
-  </div>
-
-
-  <div class="copyright-small">
-  Built with <a href="https://gohugo.io/" rel="external noopener" target="_blank">Hugo</a>
-</div>
-<div class="copyright-small">
-  W/ <a href="https://github.com/dwy6626/dw-favored-blackburn" rel="external noopener" target="_blank">DW-Favored-Blackburn</a>
-</div>
-<div class="copyright-small">
-  Based on <a href="https://github.com/yoshiharuyamashita/blackburn" rel="external noopener" target="_blank">Blackburn</a>
-</div>
-<div class="copyright-small">
-  and <a href="https://purecss.io/" rel="external noopener" target="_blank">Pure CSS</a>
-</div>
-<div class="copyright-small">
-  Icons <a href="https://fontawesome.com" rel="external noopener" target="_blank">Font Awesome</a>
-</div>
-
-<div class="copyright-small">
-  <a href="https://blog.herlein.com/">
-    &copy; 2018-2025. All rights reserved.
-  </a>
-</div>
-
-</div>
-
-
-    <div id="main">
-      <div class="header">
-        
-  <h1>Greg Herlein</h1>
-  
-    <h2>Building tech, and teams that build tech.  Software, cloud, electronics, whatever.</h2>
-  
-
-      </div>
-      <div class="aside-container">
-        
-      </div>
-      <div class="content">
-        
-  
-    <article>
-  <p>
-    Management README I was inspired by an article on Management README&rsquo;s and thought it was high time I do something similar. This is mostly for folks I work with, but I hope it&rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date. Hopefully I don&rsquo;t change that much and it&rsquo;s only just me gaining more insight about myself!
-  </p>
-  
-    <footer>
-      <a href="https://blog.herlein.com/about/">more about me<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
-  
-</article>
-
-  
-
-  
-    <article>
-  <header>
-    <h2><a href="https://blog.herlein.com/post/chrome-predictor/">Changing Chrome Address Bar Suggestions</a></h2>
-    <ul class="post-meta">
-  <li>
-    <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>03 Aug 2024, 00:00</time>
-    </span>
-  </li>
-</ul>
-
-
-
-
-<ul class="post-meta">
-  
-
-  
-    
-      <a href='https://blog.herlein.com/tags/general'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>general</span>
-        </li>
-      </a>
-    
-  
-</ul>
-
-  </header>
-
-  <p>
-    <p>Leaving this here mostly for me, but short instructions on how to change Chrome&rsquo;s &ldquo;typeahead&rdquo; predictors if it remembers the &ldquo;wrong&rdquo; one.</p>
-  </p>
-
-  
-    <footer>
-      <a href="https://blog.herlein.com/post/chrome-predictor/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://blog.herlein.com/post/review-priorities/">Book Review:  Managing Priorities</a></h2>
-    <ul class="post-meta">
-  <li>
-    <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>07 Jun 2024, 00:00</time>
-    </span>
-  </li>
-</ul>
-
-
-
-
-<ul class="post-meta">
-  
-
-  
-    
-      <a href='https://blog.herlein.com/tags/book-reviews'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>book reviews</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/priorities'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>priorities</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/culture'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>culture</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/product-management'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>product management</span>
-        </li>
-      </a>
-    
-  
-</ul>
-
-  </header>
-
-  <p>
-    <p>I&rsquo;ve been waiting several years for <a href="https://www.linkedin.com/in/harrymax/">Harry Max</a> to finish his book <a href="https://www.amazon.com/Managing-Priorities-Create-Smarter-Decisions/dp/1959029002/ref=sr_1_2?crid=5RQEJRH5KZAI&dib=eyJ2IjoiMSJ9.q9_X01U27T2lnwDdjFqJSE2rqArkTPV1esytqE8l3Bc7TKJSiX6Rh-kr7FeoIITrH1GaTFRXGwxdBcdgT_bLdeQ3IbNHLhYIa7NcKa7m0NrqytaNF3yhEQfCWbf8YVZMklfYWig5Ip5E6t6RSRlVXqp8Zc43Bh2nf7gQ0WcTK-okoqiOmewIcABEPY7oCgrHwUXO6eLIn197t79hpJU8EJyRNAioit0SAJr2CF59mI4.2XCGLy2oiRuC7NeiQyJYzuAtTFFSV2_5jB04CgaQ9yA&dib_tag=se&keywords=managing+priorities&qid=1717763474&sprefix=managing+prioritie%2Caps%2C136&sr=8-2">&ldquo;Managing Priorities</a>.  It&rsquo;s available, and it&rsquo;s awesome!  Some observations.</p>
-  </p>
-
-  
-    <footer>
-      <a href="https://blog.herlein.com/post/review-priorities/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://blog.herlein.com/post/wistem-podcast/">Guest Appearance: Women in STEM Podcast</a></h2>
-    <ul class="post-meta">
-  <li>
-    <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>06 Jun 2024, 00:00</time>
-    </span>
-  </li>
-</ul>
-
-
-
-
-<ul class="post-meta">
-  
-
-  
-    
-      <a href='https://blog.herlein.com/tags/software-engineering'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Software Engineering</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/management'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Management</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/leadership'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Leadership</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/equality'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Equality</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/podcast'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Podcast</span>
-        </li>
-      </a>
-    
-  
-</ul>
-
-  </header>
-
-  <p>
-    <p>I had a lot of fun being interviewed by <a href="https://www.linkedin.com/in/aimeevincent-bunn/">Aimee Vincent-Bunn</a> who hosts the fabulous <a href="https://podcasters.spotify.com/pod/show/women-in-stem10/episodes/In-conversation-with-Greg-Herlein---WiSTEM-e2kfoev/a-abb1pkq">Women in STEM</a> podcast.</p>
-  </p>
-
-  
-    <footer>
-      <a href="https://blog.herlein.com/post/wistem-podcast/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://blog.herlein.com/post/golang-grpc-chatgpt/">Learning gRPC in golang - with some ChatGPT help</a></h2>
-    <ul class="post-meta">
-  <li>
-    <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>28 May 2024, 00:00</time>
-    </span>
-  </li>
-</ul>
-
-
-
-
-<ul class="post-meta">
-  
-
-  
-    
-      <a href='https://blog.herlein.com/tags/technical'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>technical</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/go'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>go</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/golang'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>golang</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/grpc'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>gRPC</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/chatgpt'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>ChatGPT</span>
-        </li>
-      </a>
-    
-  
-</ul>
-
-  </header>
-
-  <p>
-    <p>I decided to learn how to write gRPC code in golang - and used ChatGPT as an accelerator! Jump to the <a href="https://github.com/gherlein/time-services">writeup</a>.</p>
-  </p>
-
-  
-    <footer>
-      <a href="https://blog.herlein.com/post/golang-grpc-chatgpt/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://blog.herlein.com/post/edge-ai/">Book Review: AI at the Edge</a></h2>
-    <ul class="post-meta">
-  <li>
-    <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>21 May 2024, 00:00</time>
-    </span>
-  </li>
-</ul>
-
-
-
-
-<ul class="post-meta">
-  
-
-  
-    
-      <a href='https://blog.herlein.com/tags/ai'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>AI</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/edge'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>edge</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/computing'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>computing</span>
-        </li>
-      </a>
-    
-  
-</ul>
-
-  </header>
-
-  <p>
-    <p>I bought the eBook <a href="https://www.amazon.com/AI-at-Edge-Daniel-Situnayake-ebook/dp/B0BS2FKXW4/ref=sr_1_1?crid=2Y7H35NZX1T2X&dib=eyJ2IjoiMSJ9.YVcaIOeDUrnPaRKjlIpqDw2xPbpbIllMK3yBWW7GIwXNftlBZIiFDjxBMPwvShuig7DwSNZKIYrbmAuTh5DRoooK8XBRw_r_i7t1MFsEY8mQ56E4dJJ_0erV7loifhGYrEKKxi-EcCotUXv_HabTTeXOaKO_LdIJd6Aqu8FEf2SoBMYOifAq9FLYbn8KM9ydkYNilUpKBT_GwejxKml66IBAGFS0uzO3BjL2EbRLwwA.xV0rgNEiT9qpdTnArFldlPvQh-1lXGI7FePn60wrYJo&dib_tag=se&keywords=ai+at+the+edge&qid=1716340331&sprefix=ai+at+the+edge%2Caps%2C149&sr=8-1">AI at the Edge</a>.  But you can download a <a href="https://www.linkedin.com/posts/edgeimpulse_edge-impulse-unleashing-intelligent-solutions-activity-7188548497820848129-VmpI">free copy</a> from LinkedIn.  In short?  Don&rsquo;t waste your money.  But for free?</p>
-  </p>
-
-  
-    <footer>
-      <a href="https://blog.herlein.com/post/edge-ai/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
-  
-</article>
-
-  
-
-  
-  
-  
-  <div class="pagination mobile">
-    <ul class="pagination" role="navigation" aria-label="Pagination Navigation">
-        
-          <a href="https://blog.herlein.com/" aria-label="previous page">
-            <li>
-              <i class="fa fa-chevron-left"></i>
-            </li>
-          </a>
-        
-      <li>2</li>
-      <li>/</li>
-      <li>23</li>
-
-      
-        <a href="https://blog.herlein.com/page/3/" aria-label="next page">
-          <li>
-            <i class="fa fa-chevron-right"></i>
-          </li>
-        </a>
-      
-    </ul>
-  </div>
-
-
-<div class="pagination desktop">
-  
-  
-  <ul class="pagination">
-    
-      <a href="https://blog.herlein.com/" class="page-link" aria-label="First">
-        <li class="page-item">
-          <span aria-hidden="true">&laquo;&laquo;</span>
-        </li>
-      </a>
-      <a href="https://blog.herlein.com/" class="page-link" aria-label="Previous">
-        <li class="page-item">
-          <span aria-hidden="true">&laquo;</span>
-        </li>
-      </a>
-    
-        
-          <a class="page-link" href="https://blog.herlein.com/">
-            <li class="page-item">
-              1
-            </li>
-          </a>
-        
-        
-          <li class="page-item active">
-            2
-          </li>
-        
-        
-          <a class="page-link" href="https://blog.herlein.com/page/3/">
-            <li class="page-item">
-              3
-            </li>
-          </a>
-        
-      <li class="page-item disabled">
-        <span aria-hidden="true">&nbsp;&hellip;&nbsp;</span>
-      </li>
-        
-          <a class="page-link" href="https://blog.herlein.com/page/23/">
-            <li class="page-item">
-              23
-            </li>
-          </a>
-        
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
 
     
-      <a href="https://blog.herlein.com/page/3/" class="page-link" aria-label="Next">
-        <li class="page-item">
-          <span aria-hidden="true">&raquo;</span>
-        </li>
-      </a>
-      <a href="https://blog.herlein.com/page/23/" class="page-link" aria-label="Last">
-        <li class="page-item">
-          <span aria-hidden="true">&raquo;&raquo;</span>
-        </li>
-      </a>
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href='https://blog.herlein.com/index.xml'><i
+          class="fas fa-rss fa-fw"></i>RSS</a>
+    </li>
     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
   </ul>
-  
 </div>
 
-      </div>
-    </div>
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2025. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Greg Herlein</h1>
+  <h2>Building tech, and teams that build tech.  Software, cloud, electronics, whatever.</h2>
+</div>
+
+<div class="content">
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/lol/">Developing Leaders in the post-COVID Era</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>19 May 2024, 00:00</time>
   </div>
 
-  <script src="https://blog.herlein.com/js/ui.js"></script>
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/leadership">leadership</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/managment">managment</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/people-development">people development</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>I&rsquo;ve been a &ldquo;leader-of-leaders&rdquo; for a long time. It&rsquo;s changed post-covid.  But when I talk to some Engineers about the difference between &ldquo;Leader of Others&rdquo; and &ldquo;Leader of Leaders&rdquo; they don&rsquo;t know what I&rsquo;m talking about.  So I thought I&rsquo;d blog about it, and maybe even learn more myself.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/lol/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/lost-boats-2024/">Lost Boats Ceremony - Tolling of the Boats 2024</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>13 May 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/navy">navy</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/memorial">memorial</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ww2">WW2</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/history">history</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/respect">respect</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Memorial Day is special to me as a former submariner.  Many have sacrificed for our freedoms, but the US Submarine Force more than many.  Memorial Day is when I honor that.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/lost-boats-2024/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/whale-new-tech/">Whale Song Delayed - New Technology</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 May 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ocean">ocean</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/whales">whales</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/humpback">humpback</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/acoustics">acoustics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/legal">legal</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>A short update on my whale song project: it&rsquo;s shifting technology.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/whale-new-tech/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/dream-team/">Dream Teams</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>27 Apr 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/leadership">leadership</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/management">management</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/teams">teams</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/hiring">hiring</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/happiness">happiness</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>A friend was telling me about &ldquo;Dream Teams&rdquo; at Netflix and I realized <em>that</em> is exactly what I have been trying to build/encourage around me.  That is what I want!</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/dream-team/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/whale-update/">Whale Song Update</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>14 Apr 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ocean">ocean</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/whales">whales</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/humpback">humpback</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/acoustics">acoustics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/legal">legal</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>A short update on my whale song project:  it&rsquo;s delayed.  Need to sort out some legal stuff.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/whale-update/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/two-way-street/">Hiring is a Two-Way Street</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>13 Apr 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/recruiting">recruiting</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/honesty">honesty</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/communication">communication</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>I&rsquo;ve been thinking a lot about tech hiring and why it&rsquo;s a crap-show for so many. I&rsquo;ve posted my thoughts on <a href="https://blog.herlein.com/staffing">staffing software engineers</a> but I have some musing on the way hiring is done today.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/two-way-street/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/synergy-podcast/">Guest Appearance: Software Synergy Podcast</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>05 Apr 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/software-engineering">Software Engineering</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/management">Management</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/leadership">Leadership</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/podcast">Podcast</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>I had a lot of fun being interviewed by <a href="https://www.linkedin.com/in/engagewithjames/">James Holder</a> for the Software Synergy Podcast.  You can listen on <a href="https://open.spotify.com/episode/6JvlUGVC1JFN1Z4fsWbpbZ?si=ka92jZDIQ8WKODM4i8e7vw">Spotify</a> or <a href="https://podcasts.apple.com/us/podcast/the-software-synergy-podcast/id1722647800?i=1000651471535">Apple</a>.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/synergy-podcast/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/bristlemouth-slow/">Bristlemouth Dev Kit: SLOW - and Thinking</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>31 Mar 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ocean">ocean</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/sensors">sensors</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/development">development</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/bristlemouth">bristlemouth</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Work on the <a href="https://www.sofarocean.com/products/spotter#s-subsurface">SOFAR Spotter</a> with <a href="https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8">Development Kit</a> is slower than I hoped.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/bristlemouth-slow/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/ops-excellence/">Book Review:  Extreme Operational Excellence</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>23 Mar 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/navy">navy</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/process">process</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/operations">operations</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/culture">culture</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/integrity">integrity</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>I finally have a book that describes my management philosophy.  Two retired US Navy Submariners Officers describe how the core principles of the Submarine Service are the perfect model for excellence in the business world too.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/ops-excellence/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/opsexcellence/">Book Review:  Operational Excellence</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>23 Mar 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/navy">navy</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/process">process</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/operations">operations</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/culture">culture</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/integrity">integrity</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>I finally have a book that describes my management philosophy.  Two retired US Navy Submariners Officers describe how the core principles of the Submarine Service are the perfect model for excellence in the business world too.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/opsexcellence/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+
+  
+
+
+<nav class="pagination" role="pagination">
+  
+  <a href="https://blog.herlein.com/"><i class="fa fa-chevron-left"></i></a>
+  
+  <span>&nbsp;2 / 12&nbsp;</span>
+  
+  <a href="https://blog.herlein.com/page/3/"><i class="fa fa-chevron-right"></i></a>
+  
+</nav>
+
+
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
 <script src="https://blog.herlein.com/js/menus.js"></script>
 
 
@@ -643,5 +770,7 @@
 
 
 
-  </body>
+
+</body>
 </html>
+

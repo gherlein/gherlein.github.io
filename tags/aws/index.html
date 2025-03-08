@@ -4,44 +4,32 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="
-  
-    
-    ">
+  <meta name="description" content="">
   <meta name="generator" content="Hugo 0.129.0">
-
-  <meta property="og:title" content="AWS" />
-  <meta name="twitter:title" content="AWS" />
-
-  <meta property="og:url" content="https://blog.herlein.com/tags/aws/" />
-  
-    <meta name="twitter:card" content="summary">
-  
-
-  <meta name="twitter:site" content="Greg Herlein">
-  <meta name="twitter:creator" content="Herlein">
-  
-    <meta name="twitter:description" content="Building tech, and teams that build tech.  Software, cloud, electronics, whatever." />
-  
-
-  
-  <link rel="preconnect" href="https://s.ytimg.com">
-  <link rel="preconnect" href="https://i.imgur.com">
 
   <title>AWS &middot; Greg Herlein</title>
 
+    
+
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/pure-min.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/grids-responsive-min.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css" media="screen">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
 
-  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-burn.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-menu.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/vars.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/menu-x.css" media="screen">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
 
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -51,233 +39,244 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
   
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
-  </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$']],
-      displayMath: [['$$','$$']],
-      processEscapes: true,
-      processEnvironments: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-      TeX: { equationNumbers: { autoNumber: "AMS" },
-      extensions: ["AMSmath.js", "AMSsymbols.js"] }
-    },
-    CommonHTML: { linebreaks: { automatic: true } },
-    "HTML-CSS": { linebreaks: { automatic: true } },
-          SVG: { linebreaks: { automatic: true } }    
-  });
-</script>
-<script type="text/x-mathjax-config">
-  // Fix <code> tags after MathJax finishes running. This is a
-  // hack to overcome a shortcoming of Markdown. Discussion at
-  // https://github.com/mojombo/jekyll/issues/199
-  MathJax.Hub.Queue(() => {
-    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
-  });
-</script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
- 
- <link rel="alternate" type="application/rss+xml" title="Greg Herlein" href='https://blog.herlein.com/tags/aws/index.xml' />
- 
+  
+  <link rel="alternate" type="application/rss+xml" title="Greg Herlein"
+    href='https://blog.herlein.com/tags/aws/index.xml' />
+  
 
   
-  <link async rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css" media="screen">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
   
-  <script>hljs.highlightAll();</script>
+  <script>hljs.initHighlightingOnLoad();</script>
   
 
   <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
 
   
   
-  
 
-  
-  
 </head>
 
 
 <body>
-  <div id="layout">
-    
-<a href="#menu" class="menu-link" id="menuLink" aria-label="Go to menu of this website">
-  <s class="bar"></s><s class="bar"></s>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
 </a>
 <div id="menu">
 
   
-
   <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
 
 
   <div class="pure-menu">
     <ul class="pure-menu-list">
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i><span>Home</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i><span>Posts</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
         </li>
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i><span>About Me</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i><span>Projects</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
         </li>
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i><span>Resume</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i><span>Staffing</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
         </li>
       
     </ul>
   </div>
 
-  
-<div class="pure-menu social">
-    <ul class="pure-menu-list">
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
 
-      
-      <li class="pure-menu-item">
-        <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-linkedin fa-fw"></i><span>LinkedIn</span></a>
-      </li>
-      
-  
-      
-      <li class="pure-menu-item">
-        <a class="pure-menu-link" href="https://github.com/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-github-square fa-fw"></i><span>GitHub</span></a>
-      </li>
-      
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href='https://blog.herlein.com/tags/aws/index.xml'><i
+          class="fas fa-rss fa-fw"></i>RSS</a>
+    </li>
+    
 
-      
+    
 
-      
-      <li class="pure-menu-item">
-        <a class="pure-menu-link" href='https://blog.herlein.com/tags/aws/index.xml'><i class="fas fa-rss fa-fw"></i><span>RSS</span></a>
-      </li>
-      
+    
 
-    </ul>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2025. All rights reserved.</small>
   </div>
-
-
-  <div class="copyright-small">
-  Built with <a href="https://gohugo.io/" rel="external noopener" target="_blank">Hugo</a>
-</div>
-<div class="copyright-small">
-  W/ <a href="https://github.com/dwy6626/dw-favored-blackburn" rel="external noopener" target="_blank">DW-Favored-Blackburn</a>
-</div>
-<div class="copyright-small">
-  Based on <a href="https://github.com/yoshiharuyamashita/blackburn" rel="external noopener" target="_blank">Blackburn</a>
-</div>
-<div class="copyright-small">
-  and <a href="https://purecss.io/" rel="external noopener" target="_blank">Pure CSS</a>
-</div>
-<div class="copyright-small">
-  Icons <a href="https://fontawesome.com" rel="external noopener" target="_blank">Font Awesome</a>
-</div>
-
-<div class="copyright-small">
-  <a href="https://blog.herlein.com/">
-    &copy; 2018-2025. All rights reserved.
-  </a>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
 </div>
 
 </div>
 
 
-    <div id="main">
-      <div class="header">
-        
-          <h1>
-            
-              AWS
-            
-          </h1>
-          <h2>
-            
-          </h2>
-        
-      </div>
-      <div class="aside-container">
-        
-      </div>
-      <div class="content">
-        
+  <div id="main">
+
+
+<div class="header">
+  <h1>AWS</h1>
+</div>
+
+<div class="content">
   
     <article>
   <header>
     <h2><a href="https://blog.herlein.com/post/aws-cookbook-review/">Book Review: AWS Cookbook</a></h2>
-    <ul class="post-meta">
-  <li>
+
+    <div class="post-meta">
+
+  <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>22 May 2022, 00:00</time>
-    </span>
-  </li>
-</ul>
+    <time>22 May 2022, 00:00</time>
+  </div>
 
+  
 
-
-
-<ul class="post-meta">
   
 
   
-    
-      <a href='https://blog.herlein.com/tags/technical'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>technical</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/aws'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>AWS</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/cloud'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>cloud</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/book-review'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>book-review</span>
-        </li>
-      </a>
-    
   
-</ul>
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/book-review">book-review</a>
+    
+  </div>
+  
+  
+
+</div>
 
   </header>
 
   <p>
-    <p>Tl;dr: <a href="https://smile.amazon.com/AWS-Cookbook-Recipes-Success/dp/1492092606/ref=sr_1_1?crid=10TVQCJGZ2FWA&keywords=aws+cookbook&qid=1654968145&sprefix=aws+cookbook%2Caps%2C111&sr=8-1">The AWS Cookbook</a> is a must have addition to your reference library.  Disclaimer:  I received a free copy of this book from the author.</p>
+  <p>Tl;dr: <a href="https://smile.amazon.com/AWS-Cookbook-Recipes-Success/dp/1492092606/ref=sr_1_1?crid=10TVQCJGZ2FWA&amp;keywords=aws+cookbook&amp;qid=1654968145&amp;sprefix=aws+cookbook%2Caps%2C111&amp;sr=8-1">The AWS Cookbook</a> is a must have addition to your reference library.  Disclaimer:  I received a free copy of this book from the author.</p>
   </p>
 
   
-    <footer>
-      <a href="https://blog.herlein.com/post/aws-cookbook-review/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
+  <footer>
+    <a href="https://blog.herlein.com/post/aws-cookbook-review/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
   
 </article>
 
@@ -285,78 +284,52 @@
     <article>
   <header>
     <h2><a href="https://blog.herlein.com/post/lex2/">Enable Chatbots on the phone using Amazon Lex and the Amazon Chime SDK</a></h2>
-    <ul class="post-meta">
-  <li>
+
+    <div class="post-meta">
+
+  <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>26 Mar 2022, 00:00</time>
-    </span>
-  </li>
-</ul>
+    <time>26 Mar 2022, 00:00</time>
+  </div>
 
+  
 
-
-
-<ul class="post-meta">
   
 
   
-    
-      <a href='https://blog.herlein.com/tags/telephony'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Telephony</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/aws'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>AWS</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/ml/ai'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>ML/AI</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/amazon-lex'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Amazon Lex</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/amazon-polly'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Amazon Polly</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/amazon-chime-sdk'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Amazon Chime SDK</span>
-        </li>
-      </a>
-    
   
-</ul>
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/telephony">Telephony</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ml/ai">ML/AI</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/amazon-lex">Amazon Lex</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/amazon-polly">Amazon Polly</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/amazon-chime-sdk">Amazon Chime SDK</a>
+    
+  </div>
+  
+  
+
+</div>
 
   </header>
 
   <p>
-    <p>Telephony made a huge leap forward last week.  It&rsquo;s insanely easy to build a voice chatbot for phone calls!</p>
+  <p>Telephony made a huge leap forward last week.  It&rsquo;s insanely easy to build a voice chatbot for phone calls!</p>
   </p>
 
   
-    <footer>
-      <a href="https://blog.herlein.com/post/lex2/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
+  <footer>
+    <a href="https://blog.herlein.com/post/lex2/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
   
 </article>
 
@@ -364,78 +337,52 @@
     <article>
   <header>
     <h2><a href="https://blog.herlein.com/post/single-ec2-cdk/">Creating an Ephemeral EC2 Instance for Development for Testing</a></h2>
-    <ul class="post-meta">
-  <li>
+
+    <div class="post-meta">
+
+  <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>13 Feb 2022, 00:00</time>
-    </span>
-  </li>
-</ul>
+    <time>13 Feb 2022, 00:00</time>
+  </div>
 
+  
 
-
-
-<ul class="post-meta">
   
 
   
-    
-      <a href='https://blog.herlein.com/tags/technical'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>technical</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/linux'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>linux</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/aws'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>aws</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/ec2'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>ec2</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/cdk'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>cdk</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/automation'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>automation</span>
-        </li>
-      </a>
-    
   
-</ul>
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ec2">ec2</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cdk">cdk</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/automation">automation</a>
+    
+  </div>
+  
+  
+
+</div>
 
   </header>
 
   <p>
-    <p>&ldquo;Cattle, not Pets!&rdquo; they say.  Except that for a lot of development, coders make their own laptop their favorite pet.  &ldquo;It works on my machine!&rdquo; becomes normal.  I got tired of that and <a href="https://github.com/aws-samples/single-ec2-cdk">automated the creation of my dev environment.</a>.</p>
+  <p>&ldquo;Cattle, not Pets!&rdquo; they say.  Except that for a lot of development, coders make their own laptop their favorite pet.  &ldquo;It works on my machine!&rdquo; becomes normal.  I got tired of that and <a href="https://github.com/aws-samples/single-ec2-cdk">automated the creation of my dev environment.</a>.</p>
   </p>
 
   
-    <footer>
-      <a href="https://blog.herlein.com/post/single-ec2-cdk/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
+  <footer>
+    <a href="https://blog.herlein.com/post/single-ec2-cdk/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
   
 </article>
 
@@ -443,71 +390,50 @@
     <article>
   <header>
     <h2><a href="https://blog.herlein.com/post/amazon-blog/">My First Amazon Blog... ML/AI Chatbot over the Phone!</a></h2>
-    <ul class="post-meta">
-  <li>
+
+    <div class="post-meta">
+
+  <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>05 Dec 2021, 00:00</time>
-    </span>
-  </li>
-</ul>
+    <time>05 Dec 2021, 00:00</time>
+  </div>
 
+  
 
-
-
-<ul class="post-meta">
   
 
   
-    
-      <a href='https://blog.herlein.com/tags/telephony'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Telephony</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/aws'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>AWS</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/ml/ai'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>ML/AI</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/amazon-lex'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Amazon Lex</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/amazon-polly'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>Amazon Polly</span>
-        </li>
-      </a>
-    
   
-</ul>
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/telephony">Telephony</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ml/ai">ML/AI</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/amazon-lex">Amazon Lex</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/amazon-polly">Amazon Polly</a>
+    
+  </div>
+  
+  
+
+</div>
 
   </header>
 
   <p>
-    <p>A month ago I told you I <a href="https://blog.herlein.com/post/webrtc-phone/">changed roles</a> at AWS.  Now I can show you what I&rsquo;ve done since then!</p>
+  <p>A month ago I told you I <a href="https://blog.herlein.com/post/webrtc-phone/">changed roles</a> at AWS.  Now I can show you what I&rsquo;ve done since then!</p>
   </p>
 
   
-    <footer>
-      <a href="https://blog.herlein.com/post/amazon-blog/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
+  <footer>
+    <a href="https://blog.herlein.com/post/amazon-blog/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
   
 </article>
 
@@ -515,140 +441,596 @@
     <article>
   <header>
     <h2><a href="https://blog.herlein.com/post/webrtc-phone/">Back to the (Phone) Future!  Changing roles!</a></h2>
-    <ul class="post-meta">
-  <li>
+
+    <div class="post-meta">
+
+  <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>05 Oct 2021, 00:00</time>
-    </span>
-  </li>
-</ul>
+    <time>05 Oct 2021, 00:00</time>
+  </div>
 
+  
 
-
-
-<ul class="post-meta">
   
 
   
-    
-      <a href='https://blog.herlein.com/tags/webrtc'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>WebRTC</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/aws'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>AWS</span>
-        </li>
-      </a>
-    
   
-</ul>
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/webrtc">WebRTC</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
 
   </header>
 
   <p>
-    <p>The only constant is change!  And&hellip; sometimes things come full circle.  I&rsquo;m changing roles at AWS.  Back to the Future!</p>
+  <p>The only constant is change!  And&hellip; sometimes things come full circle.  I&rsquo;m changing roles at AWS.  Back to the Future!</p>
   </p>
 
   
-    <footer>
-      <a href="https://blog.herlein.com/post/webrtc-phone/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-    </footer>
+  <footer>
+    <a href="https://blog.herlein.com/post/webrtc-phone/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
   
 </article>
 
   
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/freertos-helper-esp32/">Progress on ESP32 and FreeRTOS</a></h2>
 
-  
-  
-  
-  <div class="pagination mobile">
-    <ul class="pagination" role="navigation" aria-label="Pagination Navigation">
-        
-          <li>
-            <i class="fa fa-chevron-left"></i>
-          </li>
-        
-      <li>1</li>
-      <li>/</li>
-      <li>4</li>
+    <div class="post-meta">
 
-      
-        <a href="https://blog.herlein.com/tags/aws/page/2/" aria-label="next page">
-          <li>
-            <i class="fa fa-chevron-right"></i>
-          </li>
-        </a>
-      
-    </ul>
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>04 Apr 2021, 00:00</time>
   </div>
 
+  
 
-<div class="pagination desktop">
+  
+
   
   
-  <ul class="pagination">
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
     
-      <li class="page-item">
-        <span aria-hidden="true">&laquo;&laquo;</span>
-      </li>
-      <li class="page-item disabled">
-        <span aria-hidden="true">&laquo;</span>
-      </li>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
     
-        
-          <li class="page-item active">
-            1
-          </li>
-        
-        
-          <a class="page-link" href="https://blog.herlein.com/tags/aws/page/2/">
-            <li class="page-item">
-              2
-            </li>
-          </a>
-        
-        
-          <a class="page-link" href="https://blog.herlein.com/tags/aws/page/3/">
-            <li class="page-item">
-              3
-            </li>
-          </a>
-        
-        
-          <a class="page-link" href="https://blog.herlein.com/tags/aws/page/4/">
-            <li class="page-item">
-              4
-            </li>
-          </a>
-        
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/freertos">FreeRTOS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/esp32">esp32</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/iot">IoT</a>
+    
+  </div>
+  
+  
 
+</div>
+
+  </header>
+
+  <p>
+  <p>Progress, but not where I want it to be.  But it builds and installs the FreeRTOS AWS IoT demo.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/freertos-helper-esp32/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/aws-iot-c-sdk/">Back to Basics:  AWS IoT C SDK</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>22 Mar 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
     
-      <a href="https://blog.herlein.com/tags/aws/page/2/" class="page-link" aria-label="Next">
-        <li class="page-item disabled">
-          <span aria-hidden="true">&raquo;</span>
-        </li>
-      </a>
-      <a href="https://blog.herlein.com/tags/aws/page/4/" class="page-link" aria-label="Last">
-        <li class="page-item">
-          <span aria-hidden="true">&raquo;&raquo;</span>
-        </li>
-      </a>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
     
-  </ul>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/iot">iot</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/mqtt">mqtt</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>A few quick notes on getting the AWS IoT C SDK running on Linux.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/aws-iot-c-sdk/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/esp32/">Dabbling into ESP32 and FreeRTOS</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>21 Mar 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/esp32">esp32</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/freertos">FreeRTOS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Dipping a toe into the FreeRTOS ESP32 world.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/esp32/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/kinesis-video-streams/">Kinesis Video Streams - Just Getting Started</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>27 Feb 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/video">video</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/kinesis">kinesis</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Just started playing with <a href="https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amp;amazon-kinesis-video-streams-resources-blog.sort-order=desc">Amazon Kinesis Video Streams</a>.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/kinesis-video-streams/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/sysops-cert-2021/">AWS SysOps Administrator Certified!</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>30 Jan 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/certifications">certifications</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>This week I passed the AWS SysOps Administrator (Associate) Exam.  Here&rsquo;s some notes on what I did to prepare, and observations of the process.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/sysops-cert-2021/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/ending-2020/">Changes - Ending 2020</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>19 Dec 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>As 2020 thankfully winds down, I leave Cisco and join AWS.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/ending-2020/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/">Using CloudWatch for On-Premise Ubuntu Servers</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>04 Nov 2020, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloudwatch">cloudwatch</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ubuntu">ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/monitoring">monitoring</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/syslogs">syslogs</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Can I replace a local Prometheus with AWS CloudWatch?  And include syslog monitoring as well?  Yes, I can.  But it was a PITA to set up.  Here&rsquo;s how.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/ubuntu-on-prem-cloudwatch/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/terraform/">Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>06 Jun 2020, 07:21</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/terraform">terraform</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>In AWS the AMI ID for a particular VM image is unique to that region.  But it&rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/terraform/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/self-driving-revolution/">Self Driving Revolution</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Feb 2019, 09:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/robotics">robotics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ros">ROS</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ml">ML</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Think self-driving technology requires deep pockets to play with?  Think again.  <a href="https://aws.amazon.com/deepracer/">AWS DeepRacer</a> and <a href="https://github.com/CPFL/Autoware/wiki">Autoware</a> are the leading edges of self-driving automation for the maker.</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/self-driving-revolution/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/aws-certified/">AWS Certified</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2018, 23:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>On Becoming an AWS Certified Solutions Architect (Associate)</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/aws-certified/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
+  
+    <article>
+  <header>
+    <h2><a href="https://blog.herlein.com/post/avalanche-reinvent/">Avalanche! re:Invent 2018</a></h2>
+
+    <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>18 Dec 2018, 10:50</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">AWS</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  </header>
+
+  <p>
+  <p>Thoughts on AWS re:Invent 2018</p>
+  </p>
+
+  
+  <footer>
+    <a href="https://blog.herlein.com/post/avalanche-reinvent/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
+  </footer>
+  
+</article>
+
   
 </div>
 
-      </div>
-    </div>
-  </div>
-
-  <script src="https://blog.herlein.com/js/ui.js"></script>
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
 <script src="https://blog.herlein.com/js/menus.js"></script>
 
 
@@ -659,5 +1041,6 @@
 
 
 
-  </body>
+
+</body>
 </html>

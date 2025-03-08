@@ -4,44 +4,32 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="
-  
-      I&rsquo;m revisiting why I don&rsquo;t like MQTT, and what I am doing about it.
-    ">
+  <meta name="description" content="">
   <meta name="generator" content="Hugo 0.129.0">
-
-  <meta property="og:title" content="Local Data Collection and Command Distribution" />
-  <meta name="twitter:title" content="Local Data Collection and Command Distribution" />
-
-  <meta property="og:url" content="https://blog.herlein.com/post/local-data-collection/" />
-  
-    <meta name="twitter:card" content="summary">
-  
-
-  <meta name="twitter:site" content="Greg Herlein">
-  <meta name="twitter:creator" content="Herlein">
-  
-    <meta name="twitter:description" content="I&rsquo;m revisiting why I don&rsquo;t like MQTT, and what I am doing about it." />
-  
-
-  
-  <link rel="preconnect" href="https://s.ytimg.com">
-  <link rel="preconnect" href="https://i.imgur.com">
 
   <title>Local Data Collection and Command Distribution &middot; Greg Herlein</title>
 
+    
+
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/pure-min.css" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/2.0.5/grids-responsive-min.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css" media="screen">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
 
-  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-burn.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/dw-menu.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/vars.css" media="screen">
-  <link rel="stylesheet" href="https://blog.herlein.com/css/menu-x.css" media="screen">
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
 
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -51,292 +39,224 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
 
   
-  <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
-  </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$','$']],
-      displayMath: [['$$','$$']],
-      processEscapes: true,
-      processEnvironments: true,
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-      TeX: { equationNumbers: { autoNumber: "AMS" },
-      extensions: ["AMSmath.js", "AMSsymbols.js"] }
-    },
-    CommonHTML: { linebreaks: { automatic: true } },
-    "HTML-CSS": { linebreaks: { automatic: true } },
-          SVG: { linebreaks: { automatic: true } }    
-  });
-</script>
-<script type="text/x-mathjax-config">
-  // Fix <code> tags after MathJax finishes running. This is a
-  // hack to overcome a shortcoming of Markdown. Discussion at
-  // https://github.com/mojombo/jekyll/issues/199
-  MathJax.Hub.Queue(() => {
-    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
-  });
-</script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
- 
+  
 
   
-  <link async rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css" media="screen">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
   
-  <script>hljs.highlightAll();</script>
+  <script>hljs.initHighlightingOnLoad();</script>
   
 
   <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
 
   
   
-  
 
-  
-  
 </head>
 
 
 <body>
-  <div id="layout">
-    
-<a href="#menu" class="menu-link" id="menuLink" aria-label="Go to menu of this website">
-  <s class="bar"></s><s class="bar"></s>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
 </a>
 <div id="menu">
 
   
-
   <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
 
 
   <div class="pure-menu">
     <ul class="pure-menu-list">
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i><span>Home</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i><span>Posts</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
         </li>
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i><span>About Me</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i><span>Projects</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
         </li>
       
-        <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i><span>Resume</span></a>
-        </li>
       
         <li class="pure-menu-item">
-            <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i><span>Staffing</span></a>
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
         </li>
       
     </ul>
   </div>
 
-  
-<div class="pure-menu social">
-    <ul class="pure-menu-list">
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
 
-      
-      <li class="pure-menu-item">
-        <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-linkedin fa-fw"></i><span>LinkedIn</span></a>
-      </li>
-      
-  
-      
-      <li class="pure-menu-item">
-        <a class="pure-menu-link" href="https://github.com/gherlein" rel="me external noopener" target="_blank"><i class="fab fa-github-square fa-fw"></i><span>GitHub</span></a>
-      </li>
-      
-
-      
-
-      
-
-    </ul>
-  </div>
-
-
-  <div class="copyright-small">
-  Built with <a href="https://gohugo.io/" rel="external noopener" target="_blank">Hugo</a>
-</div>
-<div class="copyright-small">
-  W/ <a href="https://github.com/dwy6626/dw-favored-blackburn" rel="external noopener" target="_blank">DW-Favored-Blackburn</a>
-</div>
-<div class="copyright-small">
-  Based on <a href="https://github.com/yoshiharuyamashita/blackburn" rel="external noopener" target="_blank">Blackburn</a>
-</div>
-<div class="copyright-small">
-  and <a href="https://purecss.io/" rel="external noopener" target="_blank">Pure CSS</a>
-</div>
-<div class="copyright-small">
-  Icons <a href="https://fontawesome.com" rel="external noopener" target="_blank">Font Awesome</a>
-</div>
-
-<div class="copyright-small">
-  <a href="https://blog.herlein.com/">
-    &copy; 2018-2025. All rights reserved.
-  </a>
-</div>
-
-</div>
-
-
-    <div id="main">
-      <div class="header">
-        
-          <h1>
-            
-              Local Data Collection and Command Distribution
-            
-          </h1>
-          <h2>
-            
-          </h2>
-        
-      </div>
-      <div class="aside-container">
-        
-  <div id="toc-aside" style="display: none;">
     
-      <link rel="stylesheet" href="https://blog.herlein.com/css/aside-toc.css" media="screen">
-<script src="https://blog.herlein.com/js/toc.js"></script>
-<div class="toc">
-  <aside>
-    <summary>Table of Contents</summary>
-    <div class="toc-item">
-      <p><a rel='tag' href="#">Local Data Collection and Command Distribution</a></p>
-      <nav id="TableOfContents">
-  <ul>
-    <li><a href="#a-better-solution">A Better Solution</a></li>
-    <li><a href="#advantage--lightweight-low-impact">Advantage:  Lightweight, Low Impact</a></li>
-    <li><a href="#risk--data-loss">Risk:  Data Loss</a></li>
-    <li><a href="#prove-it--udp-code-is-easy">Prove It:  UDP Code is Easy</a></li>
-    <li><a href="#why-in-c">Why in C?</a></li>
-    <li><a href="#how-does-this-solve-redundancy">How Does this Solve Redundancy?</a>
-      <ul>
-        <li><a href="#listeners">Listeners</a></li>
-        <li><a href="#actuators">Actuators</a></li>
-        <li><a href="#addressing">Addressing</a></li>
-        <li><a href="#security">Security</a></li>
-      </ul>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
     </li>
-    <li><a href="#tasmota-changes">Tasmota Changes?</a></li>
-    <li><a href="#incremental-development">Incremental Development?</a></li>
-    <li><a href="#practical-example">Practical Example</a></li>
-    <li><a href="#next-steps">Next Steps</a></li>
-  </ul>
-</nav>
-    </div>
-  </aside>
-</div>
+    
 
     
-  </div>
 
-      </div>
-      <div class="content">
-        
-  <ul class="post-meta">
-  <li>
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2025. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Local Data Collection and Command Distribution</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <span>
-      <time>27 Nov 2021, 00:00</time>
-    </span>
-  </li>
-</ul>
+    <time>27 Nov 2021, 00:00</time>
+  </div>
 
+  
 
-
-
-<ul class="post-meta">
   
 
   
-    
-      <a href='https://blog.herlein.com/tags/udp'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>UDP</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/technical'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>technical</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/networking'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>networking</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/linux'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>linux</span>
-        </li>
-      </a>
-    
-      <a href='https://blog.herlein.com/tags/iot'>
-        <li>
-          <i class="fas fa-tag fa-fw"></i>
-          <span>IoT</span>
-        </li>
-      </a>
-    
   
-</ul>
-
-
-  <div id="toc-top" style="display: none;">
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
     
-      <div class="toc">
-        <aside>
-          <details>
-            <summary>Table of Contents</summary>
-            <div class="toc-item">
-              <nav id="TableOfContents">
-  <ul>
-    <li><a href="#a-better-solution">A Better Solution</a></li>
-    <li><a href="#advantage--lightweight-low-impact">Advantage:  Lightweight, Low Impact</a></li>
-    <li><a href="#risk--data-loss">Risk:  Data Loss</a></li>
-    <li><a href="#prove-it--udp-code-is-easy">Prove It:  UDP Code is Easy</a></li>
-    <li><a href="#why-in-c">Why in C?</a></li>
-    <li><a href="#how-does-this-solve-redundancy">How Does this Solve Redundancy?</a>
-      <ul>
-        <li><a href="#listeners">Listeners</a></li>
-        <li><a href="#actuators">Actuators</a></li>
-        <li><a href="#addressing">Addressing</a></li>
-        <li><a href="#security">Security</a></li>
-      </ul>
-    </li>
-    <li><a href="#tasmota-changes">Tasmota Changes?</a></li>
-    <li><a href="#incremental-development">Incremental Development?</a></li>
-    <li><a href="#practical-example">Practical Example</a></li>
-    <li><a href="#next-steps">Next Steps</a></li>
-  </ul>
-</nav>
-            </div>
-          </details>
-        </aside>
-      </div>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/udp">UDP</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/networking">networking</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/iot">IoT</a>
     
   </div>
+  
+  
+
+</div>
+
   <p>I&rsquo;m revisiting why I don&rsquo;t like MQTT, and what I am doing about it.</p>
 <p>I wrote in June about <a href="https://blog.herlein.com/post/mqtt/">my thoughts on MQTT</a>.  I had another case where my MQTT broker went down.  The Ubuntu host it was running on did some
 stupid Cannonical auto-update and it basically hung with no working network.  Different control system than before though.  In June it was bug zappers that were not getting
@@ -420,7 +340,7 @@ echo $TEMPC
 </span></span></span></code></pre></div><h2 id="next-steps">Next Steps</h2>
 <p>Now I need to write a data collector for the UDP packets and come up with a common payload format (that includes addressing and multiple data elements).  I&rsquo;m leaning towards a JSON payload format, to be honest, and then
 using nodejs for the controller.  The host for the controller software will be an Intel Nuc, most likely, or maybe another lower end linux box like a Beaglebone.  The Nuc&rsquo;s are wonderful but they do use about 14W
-<a href="https://blog.herlein.com/post/power/">last time I checked</a>.  A Beaglebone supposedly uses 6W.  I don&rsquo;t have my <a href="https://smile.amazon.com/gp/product/B0777H8MS8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">power meter</a> handy - had to
+<a href="https://blog.herlein.com/post/power/">last time I checked</a>.  A Beaglebone supposedly uses 6W.  I don&rsquo;t have my <a href="https://smile.amazon.com/gp/product/B0777H8MS8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">power meter</a> handy - had to
 order a new one - so I&rsquo;m going off the spec sheet.  As I dial my power use back more and more I may just shift to Beaglebones for these tasks.</p>
 <p>At a high level the controller won&rsquo;t be all that hard.  It basically will listen for data packets and forward them off, probably to Amazon Cloudwatch.  I did a <a href="https://github.com/gherlein/gonetmon">lot of work</a>
 on <a href="https://prometheus.io/">Prometheus</a> a few years back, but I really don&rsquo;t like their pull model of data collection.  It&rsquo;s the opposite of what I am doing in my new approach.  So the aggregation/visualization part
@@ -428,15 +348,46 @@ still needs some thinking about.</p>
 <p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
 <script async src="//static.getclicky.com/101366448.js"></script>
 <p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
-
   
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
 
 
-  <div class="copyright">
-    This article is licensed under
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>
-    .
-  </div>
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
 
   
 <div class="prev-next-post pure-g">
@@ -475,12 +426,13 @@ still needs some thinking about.</p>
   
   
 
+  
 
-      </div>
-    </div>
-  </div>
+</div>
 
-  <script src="https://blog.herlein.com/js/ui.js"></script>
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
 <script src="https://blog.herlein.com/js/menus.js"></script>
 
 
@@ -490,6 +442,11 @@ still needs some thinking about.</p>
 
 
 
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
 
-  </body>
+
+</body>
 </html>
+
