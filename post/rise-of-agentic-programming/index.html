@@ -260,9 +260,11 @@
 </div>
 
   <p>The evolution of AI-assisted programming has reached a pivotal moment, transforming from simple code completion to truly collaborative AI agents. This shift represents not just an improvement in tooling, but a fundamental change in how software is developed.  Or is it?</p>
-<h2 id="the-early-days-from-completion-to-comprehension">The Early Days: From Completion to Comprehension</h2>
-<p>The journey began with GitHub Copilot in June 2021, which introduced AI-powered code completion that could suggest entire functions. While revolutionary at the time, it was fundamentally reactive - waiting for developers to write code before making suggestions. In February 2023, the Cursor editor launched with the first implementation of true &ldquo;agent mode&rdquo; capabilities, demonstrating that AI could maintain context across entire conversations about code. This was followed by Amazon CodeWhisperer&rsquo;s integration of conversation memory in late 2023, and Anthropic&rsquo;s Claude extension for VS Code in early 2024, which brought sophisticated project-wide understanding to mainstream IDEs.</p>
+<p>The short answer is YES.  It&rsquo;s a new era.  I suspect many of you don&rsquo;t think so.  But this isn&rsquo;t a fad.  The whole job of what it means to be a Software Engineer is changing.  Massively.</p>
+<p>But how did we get here?</p>
+<p>Other than some folks asking ChatGPT to write some code, it all began with GitHub Copilot in June 2021.  It introduced AI-powered code completion that could suggest entire functions. While revolutionary at the time, it was fundamentally reactive - waiting for developers to write code before making suggestions. In February 2023, the Cursor editor launched with the first implementation of true &ldquo;agent mode&rdquo; capabilities, demonstrating that AI could maintain context across entire conversations about code. This was followed by Amazon CodeWhisperer&rsquo;s integration of conversation memory in late 2023, and Anthropic&rsquo;s Claude extension for VS Code in early 2024, which brought sophisticated project-wide understanding to mainstream IDEs.</p>
 <p>What made these early agents different was their ability to maintain context across entire conversations and understand project-wide implications of changes. However, they still struggled with complex architectural decisions and often needed extensive prompting to produce reliable code.</p>
+<p>It became an arms race.</p>
 <h2 id="the-2024-breakthrough">The 2024 Breakthrough</h2>
 <p>The major technical breakthrough in mid-2024 came from advances in LLMs.  Multiple folks directly building LLMs are saying that there is a step increase in capability EVERY TWO MONTHS.  But what happened in 2024 that really changed things?  Claude 3.5 things it&rsquo;s three intersecting advances:</p>
 <pre tabindex="0"><code>1. Neural-Symbolic Integration:
@@ -290,6 +292,7 @@ This wasn&#39;t just an incremental improvement - it represented a fundamental s
 
 These advances laid the foundation for the Model Context Protocol (MCP) and Agent-to-Agent (A2A) specifications
 </code></pre><p>I haven&rsquo;t fact checked that, but it seems not far off.  Basically, 2024 was the year that LLMs started to be able to really do code.</p>
+<p>And the arms race became nuclear.</p>
 <h2 id="the-protocol-revolution-mcp-and-a2a">The Protocol Revolution: MCP and A2A</h2>
 <p>The adoption of the Model Context Protocol (MCP) enables AI agents to actually DO THINGS.  Like go gather data.  And write files.  Or hit an API to make something happen.  And effectively build a workflow.</p>
 <p>The Agent-to-Agent (A2A) specification (just released last month) takes this further, enabling multiple specialized agents to collaborate on complex tasks. It claims it can enable:</p>
@@ -308,10 +311,15 @@ These advances laid the foundation for the Model Context Protocol (MCP) and Agen
 <li>JetBrains</li>
 <li>WundSurfer (formerly Codium)</li>
 </ul>
+<p>And then there are the agents, which are getting better every day.  I&rsquo;m using Claude 3.5 Sonnet now.  By the time that you read this it may be something newer.</p>
+<p>In fact, I&rsquo;m playing with <a href="https://ollama.com/">Ollama</a> - a tool to let you run models locally.  No remote AI vendor needed.  It&rsquo;s stunning to make it all work on your own computer (which admittedly is a really powerful computer).</p>
 <p>All of these can be basically used to write entire applications nearly autonomously. But&hellip; will they work?  Maybe.</p>
 <h2 id="my-early-results">My Early Results</h2>
 <p>I&rsquo;ve build a few smaller projects, in C, go and typescript.  None of them were of significant size.  The time savings to at least get a working scaffolding is insane.  It&rsquo;s at least 100x.</p>
-<p>Do I completely trust it?  No.  Of course not.  On my team we still require a second code review and that cannot be done by AI.</p>
+<p>It requires guidance.  You really have to write your specifications clearly.  Just like in real products, if you are fuzzy in your ask, it&rsquo;s likely to become something other than what you intended.</p>
+<p>You need to really break things down into small, clear parts.  In writing.  Doing this is a skill.  In fact, I think it&rsquo;s going to become the core skill in Software Engineering from here out.</p>
+<p>My experience today is that these tools can write code about as well as a junior developer.  For web stuff probably as well as an intermediate developer.</p>
+<p>Do I completely trust it?  No.  Of course not.  On my team we still require a second code review and that cannot be done by AI. Do you trust all the code that your junior developers write?  I hope not.</p>
 <p>Does it write the code the way I would?  Rarely.  In fact, the code I&rsquo;ve seen it write does not really follow the design patterns that I would use. But why do we use design patterns?  We use them for two reasons:</p>
 <ul>
 <li>they are tried and true patterns to solve a problem</li>
