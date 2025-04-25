@@ -2,10 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/tags/general/</loc>
-    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/agents/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/development/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/mcp/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/software/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/rise-of-agentic-programming/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/general/</loc>
     <lastmod>2025-03-08T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/hardware/</loc>
@@ -14,13 +41,7 @@
     <loc>https://blog.herlein.com/tags/linux/</loc>
     <lastmod>2025-03-08T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/pulseview-linux/</loc>
-    <lastmod>2025-03-08T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2025-03-08T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/keymaps/</loc>
@@ -30,9 +51,6 @@
     <lastmod>2025-02-24T10:50:08-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/ubuntu-remaps/</loc>
-    <lastmod>2025-02-24T10:50:08-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2025-02-24T10:50:08-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/about/</loc>
@@ -63,9 +81,6 @@
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/scaling/</loc>
-    <lastmod>2024-11-23T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/software/</loc>
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/embedded/</loc>
@@ -124,9 +139,6 @@
   </url><url>
     <loc>https://blog.herlein.com/post/golang-grpc-chatgpt/</loc>
     <lastmod>2024-05-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2024-05-21T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/edge-ai/</loc>
     <lastmod>2024-05-21T00:00:01-08:00</lastmod>
@@ -210,9 +222,6 @@
     <lastmod>2024-03-31T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/bristlemouth-slow/</loc>
-    <lastmod>2024-03-31T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/development/</loc>
     <lastmod>2024-03-31T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/sensors/</loc>

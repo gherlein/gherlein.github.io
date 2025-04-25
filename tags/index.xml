@@ -7,8 +7,50 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 08 Mar 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Apr 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents</title>
+      <link>https://blog.herlein.com/tags/agents/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://blog.herlein.com/tags/ai/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://blog.herlein.com/tags/development/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>https://blog.herlein.com/tags/mcp/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://blog.herlein.com/tags/software/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
     <item>
       <title>General</title>
       <link>https://blog.herlein.com/tags/general/</link>
@@ -42,13 +84,6 @@
       <link>https://blog.herlein.com/tags/macos/</link>
       <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/macos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Mon, 24 Feb 2025 10:50:08 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     <item>
@@ -98,13 +133,6 @@
       <link>https://blog.herlein.com/tags/scaling/</link>
       <pubDate>Sat, 23 Nov 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/scaling/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://blog.herlein.com/tags/software/</link>
-      <pubDate>Sat, 23 Nov 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/software/</guid>
       <description></description>
     </item>
     <item>
@@ -203,13 +231,6 @@
       <link>https://blog.herlein.com/tags/grpc/</link>
       <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/grpc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Tue, 21 May 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -343,13 +364,6 @@
       <link>https://blog.herlein.com/tags/bristlemouth/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/bristlemouth/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Development</title>
-      <link>https://blog.herlein.com/tags/development/</link>
-      <pubDate>Sun, 31 Mar 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/development/</guid>
       <description></description>
     </item>
     <item>
