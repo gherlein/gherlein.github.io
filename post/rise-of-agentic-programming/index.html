@@ -274,7 +274,7 @@
 <p>It became an arms race.</p>
 <h2 id="the-2024-breakthrough">The 2024 Breakthrough</h2>
 <p>The major technical breakthrough in mid-2024 came from advances in LLMs.  Multiple folks directly building LLMs are saying that there is a step increase in capability EVERY TWO MONTHS.  This isn&rsquo;t just incremental improvement - it&rsquo;s entire step changes in capability.  <strong>EVERY TWO MONTHS</strong>.</p>
-<p>Think about that.  <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore&rsquo;s Law</a> for doubling chip capability is every two years.  AI models are doing that in <strong>TWO MONTHS</strong>.</p>
+<p>Think about that.  <a href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore&rsquo;s Law</a> says we double chip capability is every two years.  AI models are doing that in <strong>TWO MONTHS</strong>.</p>
 <h2 id="agents-are-ephemeral-robots">Agents are Ephemeral Robots</h2>
 <p>The model is just the brain.  If you want it to DO THINGS in the real world (like write code for you, or control DevOps for you) then you need it to become a robot.  Yes, a robot.</p>
 <center>
@@ -298,8 +298,8 @@
 <li>While others could focus on documentation and maintenance</li>
 </ul>
 <p>This is all foundational stuff.  I do wonder if MCP will be the new SOAP (credit to Scott Francis for that insight) but time will tell.  We&rsquo;ll adapt, just like we did when REST came out.</p>
-<h2 id="what-development-tools-support-agent-mode">What Development Tools Support Agent Mode?</h2>
-<p>Today&rsquo;s development environment is radically different from just last winter. Major platforms have embraced agentic programming:</p>
+<h2 id="so-what-is-agentic-programming">So What is Agentic Programming?</h2>
+<p>Agentic programming is using AI models combined with code editing agents to completely change how software is designed and written.  This is radically different from just last winter. Major platforms have embraced agentic programming:</p>
 <ul>
 <li>Cursor Editor</li>
 <li>Visual Studio Code GitHub Copilot integration</li>
@@ -308,16 +308,20 @@
 </ul>
 <p>And then there are the models, which are getting better every day.  I&rsquo;m using Claude 3.5 Sonnet now.  By the time that you read this it may be something newer.</p>
 <p>In fact, I&rsquo;m playing with <a href="https://ollama.com/">Ollama</a> - a tool to let you run models locally.  No remote AI vendor needed.  It&rsquo;s stunning to make it all work on your own computer (mine is admittedly is a really powerful computer - MBP with M4 Pro and 48GB of RAM).</p>
-<p>All of these can be basically used to write entire applications nearly autonomously. But&hellip; will they work?  Maybe.</p>
-<p>But it&rsquo;s not an all or nothing thing.</p>
+<p>All of these can be basically used to write entire applications nearly autonomously. The Software Engineer interacts with the AI agent providing prompts (instructions).  The AI writes code.  For crude, limited applications you may not even need to know how to code.  That kind of development is called <a href="https://en.wikipedia.org/wiki/Vibe_coding">Vide Coding</a> and it already has some serious stories floating around about the resulting security and fraud impacts of turning loose these kinds of apps in the wild.</p>
+<p>But my point?  it&rsquo;s not an all or nothing thing.  Even if the agent can&rsquo;t build it all for you automatically, it&rsquo;s a huge boost in productivity.  If you were building a house would you really cut all the wood by hand?</p>
+<center>
+<img src="https://blog.herlein.com/images/power-saw.jpg" width="50%"/></a>
+</center>
+<p>Not me.  I&rsquo;m using a power saw.  Who will build the house faster?</p>
 <h2 id="my-early-results">My Early Results</h2>
 <p>I&rsquo;ve build a few smaller projects, in C, go and typescript.  None of them were of significant size.  The time savings to at least get a working scaffolding is insane.  It&rsquo;s at least 100x.</p>
-<p>Yes.  100x.  I can get 100 times the work done in a unit of time.</p>
-<p>It requires guidance.  You really have to write your specifications clearly.  Just like in real products, if you are fuzzy in your ask, it&rsquo;s likely to become something other than what you intended.</p>
+<p>Yes.  100x.  <strong>I can get 100 times the work done in a unit of time.</strong></p>
+<p>The agent requires guidance.  You really have to write your specifications clearly.  Just like in real products, if you are fuzzy in your ask, it&rsquo;s likely to become something other than what you intended.</p>
 <p>You need to really break things down into small, clear parts.  In writing.  Doing this is a skill.  In fact, I think it&rsquo;s going to become the core skill in Software Engineering from here out.</p>
 <p>My experience today is that these tools can write code about as well as a junior developer.  For web stuff probably as well as an intermediate developer.</p>
-<p>Do I completely trust it?  No.  Of course not.  On my team we still require a second code review and that cannot be done by AI. Do you trust all the code that your junior developers write?  I hope not.</p>
-<p>Does it write the code the way I would?  Rarely.  In fact, the code I&rsquo;ve seen it write does not really follow the design patterns that I would use. But why do we use design patterns?  We use them for two reasons:</p>
+<p>Do I completely trust it?  No.  Of course not. Do you trust all the code that your junior developers write?  I hope not.  On my team we still require a second code review and that cannot be done by AI.</p>
+<p>Does the agent write the code the way I would?  Rarely.  In fact, the code I&rsquo;ve seen it write does not really follow the design patterns that I would use. But why do we use design patterns?  We use them for two reasons:</p>
 <ul>
 <li>they are tried and true patterns to solve a problem</li>
 <li>in a way that other humans can grok when looking at the code later</li>
