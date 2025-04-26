@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/a2a/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/rise-of-agentic-programming/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/agents/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
@@ -20,6 +26,9 @@
     <loc>https://blog.herlein.com/post/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/robots/</loc>
+    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/software/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
@@ -27,9 +36,6 @@
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/technical/</loc>
-    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/rise-of-agentic-programming/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/general/</loc>

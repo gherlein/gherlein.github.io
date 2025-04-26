@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.129.0">
 
-  <title>The Rise of Agentic Programming: A New Era of Software Development &middot; Greg Herlein</title>
+  <title>Agentic Programming: The New Robot Revolution! &middot; Greg Herlein</title>
 
     
 
@@ -219,7 +219,7 @@
 
 
 <div class="header">
-  <h1>The Rise of Agentic Programming: A New Era of Software Development</h1>
+  <h1>Agentic Programming: The New Robot Revolution!</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -251,7 +251,11 @@
     
       <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/agents">agents</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/mcp">MCP</a>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/mcp">MCP</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/a2a">A2A</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/robots">robots</a>
     
   </div>
   
@@ -260,41 +264,31 @@
 </div>
 
   <p>The evolution of AI-assisted programming has reached a pivotal moment, transforming from simple code completion to truly collaborative AI agents. This shift represents not just an improvement in tooling, but a fundamental change in how software is developed.  Or is it?</p>
-<p>The short answer is YES.  It&rsquo;s a new era.  I suspect many of you don&rsquo;t think so.  But this isn&rsquo;t a fad.  The whole job of what it means to be a Software Engineer is changing.  Massively.</p>
+<p>The short answer is YES.  It&rsquo;s a new era.  I suspect many of you don&rsquo;t think so.  But this isn&rsquo;t a fad.  The whole job of what it means to be a Software Engineer is changing.  Massively.  Robotics is here and now in the software industry.</p>
+<center>
+<img src="https://blog.herlein.com/images/robot-finger.webp" width="50%"/></a>
+</center>
 <p>But how did we get here?</p>
 <p>Other than some folks asking ChatGPT to write some code, it all began with GitHub Copilot in June 2021.  It introduced AI-powered code completion that could suggest entire functions. While revolutionary at the time, it was fundamentally reactive - waiting for developers to write code before making suggestions. In February 2023, the Cursor editor launched with the first implementation of true &ldquo;agent mode&rdquo; capabilities, demonstrating that AI could maintain context across entire conversations about code. This was followed by Amazon CodeWhisperer&rsquo;s integration of conversation memory in late 2023, and Anthropic&rsquo;s Claude extension for VS Code in early 2024, which brought sophisticated project-wide understanding to mainstream IDEs.</p>
 <p>What made these early agents different was their ability to maintain context across entire conversations and understand project-wide implications of changes. However, they still struggled with complex architectural decisions and often needed extensive prompting to produce reliable code.</p>
 <p>It became an arms race.</p>
 <h2 id="the-2024-breakthrough">The 2024 Breakthrough</h2>
-<p>The major technical breakthrough in mid-2024 came from advances in LLMs.  Multiple folks directly building LLMs are saying that there is a step increase in capability EVERY TWO MONTHS.  But what happened in 2024 that really changed things?  Claude 3.5 thinks it&rsquo;s three intersecting advances:</p>
-<pre tabindex="0"><code>1. Neural-Symbolic Integration:
-
-* Models gained the ability to actually simulate code execution paths
-* They could understand how code would behave in different contexts
-* They could detect potential runtime issues before execution
-* Integration with build systems allowed real-world validation
-
-2. Advanced Context Processing:
-
-* New attention mechanisms specifically designed for code structure
-* Ability to maintain context across multiple services and repositories
-* Understanding of complex dependency chains
-* Project-wide awareness of architectural patterns
-
-3. Tool Integration Architecture:
-
-* Deep integration with build systems and CI/CD pipelines
-* Real-time analysis of deployment specifications
-* Understanding of package management and dependencies
-* Integration with security scanning tools
-
-This wasn&#39;t just an incremental improvement - it represented a fundamental shift in how AI models understood and interacted with code. The models moved from pattern matching against training data to actually reasoning about code behavior and system architecture.
-
-These advances laid the foundation for the Model Context Protocol (MCP) and Agent-to-Agent (A2A) specifications
-</code></pre><p>I haven&rsquo;t fact checked that, but it seems not far off.  Basically, 2024 was the year that LLMs started to be able to write actual code as large patches and not just as &ldquo;next best suggestion.&rdquo;</p>
+<p>The major technical breakthrough in mid-2024 came from advances in LLMs.  Multiple folks directly building LLMs are saying that there is a step increase in capability EVERY TWO MONTHS.  This isn&rsquo;t just incremental improvement - it&rsquo;s entire step changes in capability.  EVERY TWO MONTHS.</p>
+<h2 id="agents-are-ephemeral-robots">Agents are Ephemeral Robots</h2>
+<p>The model is just the brain.  If you want it to DO THINGS in the real world (like write code for you, or control DevOps for you) then you need it to become a robot.  Yes, a robot.</p>
+<center>
+<img src="https://blog.herlein.com/images/robot-arm.webp" width="50%"/></a>
+</center>
+<p>What we are calling AI agents today are basically ephemeral robots.  No motors or sensors, but definitely wired to the real world.  How do they do that?  The Model Context Protocol (MCP).  Just SIX MONTHS AGO (yes, 6) <a href="https://www.anthropic.com/news/model-context-protocol">Anthorpric released the specification for MCP</a>.   Within six months there are HUNDREDS of MCP servers out there.  See the <a href="https://github.com/modelcontextprotocol/servers">official list</a> and the <a href="https://github.com/appcypher/awesome-mcp-servers">awesome list</a>.</p>
+<p>What do you want to control from your AI chat?  Slack?  Jira?  Snowflake?  And database you have?  Your file system?  All of that and much more is there already.</p>
+<p>But&hellip; how do you get swarms of robots?  the Agent-to-Agent (A2A) specification. This was <a href="https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/">announced by Google</a> TWO WEEKS AGO.  Over 50 technology companies publically support and promote this specification already.</p>
+<p>Unless you were actually watching, you didn&rsquo;t see these robots arrive.  But they arrived in force in late 2024 and the became a tsunami in early 2025.</p>
 <p>And the arms race became nuclear.</p>
-<h2 id="the-protocol-revolution-mcp-and-a2a">The Protocol Revolution: MCP and A2A</h2>
-<p>The adoption of the Model Context Protocol (MCP) enables AI agents to actually DO THINGS.  Like go gather data.  And write files.  Or hit an API to make something happen.  And effectively build a workflow.</p>
+<center>
+<img src="https://blog.herlein.com/images/nuclear-explosion.jpg" width="75%"/></a>
+</center>
+<h2 id="what-are-mcp-and-a2a">What are MCP and A2A?</h2>
+<p>Model Context Protocol (MCP) enables AI agents to actually DO THINGS.  Like go gather data.  And write files.  Or hit an API to make something happen.  And effectively build a workflow.  It&rsquo;s basically a standard software interface to the robot arm or motor.</p>
 <p>The Agent-to-Agent (A2A) specification (just released last month) takes this further, enabling multiple specialized agents to collaborate on complex tasks. It claims it can enable:</p>
 <ul>
 <li>One agent might focus on architectural decisions</li>
@@ -303,7 +297,7 @@ These advances laid the foundation for the Model Context Protocol (MCP) and Agen
 <li>While others could focus on documentation and maintenance</li>
 </ul>
 <p>This is all foundational stuff.  I do wonder if MCP will be the new SOAP (credit to Scott Francis for that insight) but time will tell.  We&rsquo;ll adapt, just like we did when REST came out.</p>
-<h2 id="what-tools">What Tools?</h2>
+<h2 id="what-development-tools-support-agent-mode">What Development Tools Support Agent Mode?</h2>
 <p>Today&rsquo;s development environment is radically different from just last winter. Major platforms have embraced agentic programming:</p>
 <ul>
 <li>Cursor Editor</li>
@@ -311,11 +305,13 @@ These advances laid the foundation for the Model Context Protocol (MCP) and Agen
 <li>JetBrains</li>
 <li>WindSurfer (formerly Codium)</li>
 </ul>
-<p>And then there are the agents, which are getting better every day.  I&rsquo;m using Claude 3.5 Sonnet now.  By the time that you read this it may be something newer.</p>
-<p>In fact, I&rsquo;m playing with <a href="https://ollama.com/">Ollama</a> - a tool to let you run models locally.  No remote AI vendor needed.  It&rsquo;s stunning to make it all work on your own computer (which admittedly is a really powerful computer).</p>
+<p>And then there are the models, which are getting better every day.  I&rsquo;m using Claude 3.5 Sonnet now.  By the time that you read this it may be something newer.</p>
+<p>In fact, I&rsquo;m playing with <a href="https://ollama.com/">Ollama</a> - a tool to let you run models locally.  No remote AI vendor needed.  It&rsquo;s stunning to make it all work on your own computer (mine is admittedly is a really powerful computer - MBP with M4 Pro and 48GB of RAM).</p>
 <p>All of these can be basically used to write entire applications nearly autonomously. But&hellip; will they work?  Maybe.</p>
+<p>But it&rsquo;s not an all or nothing thing.</p>
 <h2 id="my-early-results">My Early Results</h2>
 <p>I&rsquo;ve build a few smaller projects, in C, go and typescript.  None of them were of significant size.  The time savings to at least get a working scaffolding is insane.  It&rsquo;s at least 100x.</p>
+<p>Yes.  100x.  I can get 100 times the work done in a unit of time.</p>
 <p>It requires guidance.  You really have to write your specifications clearly.  Just like in real products, if you are fuzzy in your ask, it&rsquo;s likely to become something other than what you intended.</p>
 <p>You need to really break things down into small, clear parts.  In writing.  Doing this is a skill.  In fact, I think it&rsquo;s going to become the core skill in Software Engineering from here out.</p>
 <p>My experience today is that these tools can write code about as well as a junior developer.  For web stuff probably as well as an intermediate developer.</p>
@@ -326,11 +322,14 @@ These advances laid the foundation for the Model Context Protocol (MCP) and Agen
 <li>in a way that other humans can grok when looking at the code later</li>
 </ul>
 <p>But&hellip; for a lot of modules, there&rsquo;s no real need for a human to grok the code.  If you really embrace this and have the AI write your tests first (you do write tests first, right?) and if you review those tests carefully and if the AI-generated code is passing the tests&hellip;  then do you really care it didn&rsquo;t use the design pattern you would have?</p>
-<p>Because now you can:</p>
+<p>Because now you can do things like this:</p>
 <pre tabindex="0"><code>inspect the code in this repository and write a design document about how it works.  Your audience is an experienced software engineer.  Generate block diagrams, sequence diagrams and state diagrams as needed using mermaid.  
 </code></pre><p>Try that.  You&rsquo;ll be amazed.</p>
 <h2 id="whats-next-for-me">What&rsquo;s Next for Me?</h2>
-<p>Keep testing this!  Embrace!  Learn what it can and cannot do.  Folks, it&rsquo;s real.  It&rsquo;s not going away.  And I&rsquo;ll tell you about it as I go.</p>
+<p>Keep testing this!  Embrace!  Learn what it can and cannot do.  Folks, it&rsquo;s real.  It&rsquo;s not going away.  The robot swarm is coming.  And I&rsquo;ll tell you about it as I go.</p>
+<center>
+<img src="https://blog.herlein.com/images/robot-swarm.webp" width="75%"/></a>
+</center>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
