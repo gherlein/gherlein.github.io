@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Job-Hunting on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/job-hunting/</link>
-    <description>Recent content in Job-Hunting on Greg Herlein</description>
+    <title>Early in Career on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/early-in-career/</link>
+    <description>Recent content in Early in Career on Greg Herlein</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
     <lastBuildDate>Sun, 25 May 2025 00:00:01 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/job-hunting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.herlein.com/tags/early-in-career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advice to New (All!) Developers May 2025</title>
       <link>https://blog.herlein.com/post/advice-to-new-developers-may2025/</link>
       <pubDate>Sun, 25 May 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/advice-to-new-developers-may2025/</guid>
       <description>&lt;p&gt;&lt;em&gt;Reading time: 10 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;From everything I hear, it&amp;rsquo;s brutally hard to find a job as a new college grad today.  And AI is changing things even for seasoned Engineers. Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Advice to New Developers (or, How to Get Hired)</title>
-      <link>https://blog.herlein.com/post/advice-to-new-developers/</link>
-      <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/advice-to-new-developers/</guid>
-      <description>&lt;p&gt;I get asked a lot by new developers:  &amp;ldquo;how do I find a coding job?&amp;rdquo;  What should I do/learn to get a really good job?  Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

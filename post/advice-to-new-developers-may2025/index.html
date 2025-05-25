@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.129.0">
+
+  <title>Advice to New (All!) Developers May 2025 &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/gherlein" rel="me" target="_blank"><i class="fab fa-linkedin fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/gherlein" rel="me" target="_blank"><i class="fab fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2025. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Advice to New (All!) Developers May 2025</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>25 May 2025, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/hiring">hiring</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/job-hunting">job-hunting</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/early-in-career">early in career</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ai">ai</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/coding-agents">coding agents</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p><em>Reading time: 10 minutes</em></p>
+<p>From everything I hear, it&rsquo;s brutally hard to find a job as a new college grad today.  And AI is changing things even for seasoned Engineers. Here&rsquo;s my advice.</p>
+<p>The job market in 2025 is particularly challenging for new developers. Companies are in a peculiar holding pattern - they&rsquo;re waiting to see how AI coding agents will transform their businesses before making significant hiring commitments.</p>
+<img src="https://blog.herlein.com/images/impending-storm.jpg" width="50%"/>
+<p>This uncertainty is compounded by economic headwinds and unclear government policy directions, especially around AI regulation (and tarrifs, but I won&rsquo;t get started down that rathole).</p>
+<img src="https://blog.herlein.com/images/no-rat-holes.png" width="50%"/>
+<h2 id="caveat">Caveat</h2>
+<p>AI Assist was HEAVILY used in writing this blob post, of course.</p>
+<h2 id="why-is-it-so-hard-right-now">Why Is It So Hard Right Now?</h2>
+<p>The tech industry is experiencing unprecedented change. AI is evolving so rapidly that companies are struggling to define what skills they need in their workforce. Job descriptions from just six months ago might already be obsolete. In fact, in my day job I have already re-written two job descriptions several times as I rapidly learn how I need to evolve.</p>
+<p>And this change is coming faster than you think.</p>
+<img src="https://blog.herlein.com/images/Generative-AI-Adoption-2025.png" width="50%"/>
+<h2 id="why-does-this-apply-to-all-developers">Why Does This Apply to All Developers?</h2>
+<p>Let&rsquo;s say that all this agentic coding only makes you 1.5x more productive (I think it&rsquo;s at least 2-3x but let&rsquo;s not argue about the value).  That means that to get the same work done employers will need 50% fewer developers.  Or maybe they can do 50% more work.  But a lot of businesses are not writing code to grow a market - they are writing code to reduce costs and/or streamline delivery.</p>
+<img src="https://blog.herlein.com/images/ai-assist.jpeg" width="50%"/>
+<p>Many of those companies will simply need fewer human developers.  That means you could get laid off.  Yes, there.  I said it.  AI might take your job.</p>
+<p>But it&rsquo;s more likely to take the job of the Engineer who can&rsquo;t/won&rsquo;t/didn'
+t embrace AI tooling.  I&rsquo;ll blog separately about what I think will happen to our industry.</p>
+<p>But just ask yourself:  do you want to be on the bottom when the layoff comes?  No?  Then jump in the water and learn these AI tools.</p>
+<h2 id="what-still-matters---and-will-matter-past-2025">What Still Matters - and Will Matter Past 2025</h2>
+<p>First, I want to emphasize that <a href="./advice-to-new-developers">my previous advice to new developers</a> remains fundamentally valid. Understanding Linux, containers, cloud infrastructure, and distributed systems is still crucial. These fundamentals aren&rsquo;t going away - they&rsquo;re becoming even more important as systems grow more complex.</p>
+<p>In fact, it might be even more important than ever that you be really good at two things:</p>
+<ol>
+<li>
+<p>Troubleshooting.  When (not if) the agent writes subtley broken code, you need to be able to find and fix it.  It&rsquo;s no different than if you had a human colleague drop a module and go on holiday and suddenly you have to fix it before you can ship.  Only now the colleague is an agent who can write &gt;10K times the amount of code.</p>
+</li>
+<li>
+<p>System Thinking.  Today&rsquo;s agents cannot created huge systems from scratch.  You can&rsquo;t just prompt &ldquo;write an awesome CRM system&rdquo; and hope that it will make a Salesforce killer for you.  You have to be super clear, in writing, about what you want it to do, how you want it designed, and how you want it tested.  This will take 50% of your time.  Generating the code will take 10%.  Then iterating to make it actually work will take the other 90%.  Yes, the last 20% of the work always takes 80% of the time (and before you email to complain, yes, I know that adds up to more than 100% - software always takes longer to write, correct?).</p>
+</li>
+</ol>
+<h2 id="whats-different-in-2025">What&rsquo;s Different in 2025</h2>
+<p>Here&rsquo;s my guidance to ALL developers, but especially early-in-career Engineers:</p>
+<h3 id="1-master-ai-assisted-development">1. Master AI-Assisted Development</h3>
+<p>The single biggest change is the need to become proficient with AI coding agents. This doesn&rsquo;t mean just using them - it means mastering them. Whether you&rsquo;re using GitHub Copilot, Cursor, Windsurfer, or other tools, you need to:</p>
+<ul>
+<li>Build complete projects using agent mode</li>
+<li>Learn how to effectively prompt and guide the agents</li>
+<li>Understand their limitations and how to work around them</li>
+<li>Document your learnings and share them with others</li>
+</ul>
+<p>The key is to build things you wouldn&rsquo;t have attempted before. Use AI agents to tackle projects that seem beyond your current skill level. This stretches both your technical abilities and your AI collaboration skills.</p>
+<img src="https://blog.herlein.com/images/best-way-sticker.png" width="50%"/>
+<p>Remember:  you can&rsquo;t learn to swim from a book!</p>
+<h3 id="2-become-an-agent-architecture-expert">2. Become an Agent Architecture Expert</h3>
+<p>At a high level, AI agents work within a structured ecosystem:</p>
+<img src="https://blog.herlein.com/images/agent-concept.png" width="50%"/>
+<p>Learn how to write agents, especially using the Model Context Protocol (MCP). In 2025, a significant portion of new code involves creating, extending, and maintaining AI agents. Understanding how to:</p>
+<ul>
+<li>Build MCP servers</li>
+<li>Design effective prompts and context windows</li>
+<li>Handle error cases and edge conditions</li>
+<li>Create reliable and maintainable agent architectures</li>
+</ul>
+<p>These skills are becoming as fundamental as object-oriented programming was in previous decades.  No, that&rsquo;s not correct.  It&rsquo;s FAR MORE IMPORTANT.</p>
+<h3 id="3-focus-on-building-not-applying-for-jobs">3. Focus on Building, Not Applying for Jobs</h3>
+<p>Here&rsquo;s the hard truth: spending time submitting hundreds of online applications is likely less valuable than building interesting projects and open-sourcing them on GitHub. Why?</p>
+<ul>
+<li>Your GitHub profile demonstrates real capabilities</li>
+<li>Building things gives you actual experience with AI tools</li>
+<li>Open source contributions show you can work with others</li>
+<li>Projects prove you can complete complex tasks</li>
+<li>Your work is visible to potential employers 24/7</li>
+</ul>
+<p>But more importantly:  you have no idea what the hiring manager actually wants, so you cannot possibly tweak your resume/CV to be perfect enough to get past the agent that&rsquo;s screening applications.  You cannot count on that vector to get a job.</p>
+<h3 id="4-its-still-who-you-know---and-what-you-have-built">4. It&rsquo;s Still Who You Know - and What You Have Built</h3>
+<p>The best job out there isn&rsquo;t even listed yet.  Want that one?  Be connected to people who can recommend you for it.  That means being active online, promoting your useful GitHub projects.  Help others learn.  Contribute to Open Source - especially around AI.  Go to meetups.  Attend virtual conferences and follow up with interesting people.</p>
+<h3 id="5--break-the-stereotype-of-cant-communicate">5.  Break the Stereotype of &ldquo;Can&rsquo;t Communicate&rdquo;</h3>
+<p>Let&rsquo;s face it:  most Software Engineers are &ldquo;somewhere on the spectrum.&rdquo;  We likely got into computers because they are easier to communcicate with than humans.  I know I&rsquo;m generalizing, but there&rsquo;s a hunk of truth there.</p>
+<p>But in this new world, the ability to be descriptive, to ask and answer questions, to think much more like a Product Manager&hellip; that&rsquo;s going to be a HUGE difference.</p>
+<p>I heard it said this week on a podcast that starting in 2025 the &ldquo;10x Engineer&rdquo; will be the ones who can manage thousands of agents to design, build and deploy software at scales - and speed - never imagined before.  And folks, that requires communications.</p>
+<h2 id="what-to-build">What to Build?</h2>
+<p>Build things that interest you, but make sure to:</p>
+<ol>
+<li>Use AI agents extensively and document your process</li>
+<li>Create projects that solve real problems</li>
+<li>Implement proper testing and documentation</li>
+<li>Share your learnings about working with AI tools</li>
+<li>Contribute to existing AI-related open source projects</li>
+<li>Post about your work online in your favorite places</li>
+<li>But defitely post on LinkedIn - and follow folks there who interest you</li>
+</ol>
+<h2 id="the-light-at-the-end-of-the-tunnel">The Light at the End of the Tunnel</h2>
+<p>While the current job market is challenging, remember that software development isn&rsquo;t going away - it&rsquo;s evolving. Companies will need developers who understand both traditional software development and AI-assisted development. By focusing on building real projects and mastering AI tools, you&rsquo;re positioning yourself for the jobs that will emerge as the industry stabilizes.</p>
+<p>The key is to stay active, keep building, and maintain a strong presence on GitHub. The jobs will come - but they&rsquo;ll go to those who can demonstrate they&rsquo;re ready for the AI-augmented future of software development.</p>
+<p>Remember: Every industry transformation creates opportunities. The rise of AI agents is no different - it&rsquo;s just a matter of positioning yourself correctly for these opportunities.</p>
+<hr>
+<p>The most important question you can ask yourself today:  <em>What are you building with AI agents?</em></p>
+<p>I hope to see your posts online soon!</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fadvice-to-new-developers-may2025%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fadvice-to-new-developers-may2025%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fadvice-to-new-developers-may2025%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fadvice-to-new-developers-may2025%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fadvice-to-new-developers-may2025%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fadvice-to-new-developers-may2025%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/rise-of-agentic-programming/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/rise-of-agentic-programming/">Agentic Programming: The New Robot Revolution!</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
