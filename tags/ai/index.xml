@@ -7,15 +7,8 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 May 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Apr 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Advice to New (All!) Developers May 2025</title>
-      <link>https://blog.herlein.com/post/advice-to-new-developers-may2025/</link>
-      <pubDate>Sun, 25 May 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/advice-to-new-developers-may2025/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Reading time: 10 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;From everything I hear, it&amp;rsquo;s brutally hard to find a job as a new college grad today.  And AI is changing things even for seasoned Engineers. Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Agentic Programming: The New Robot Revolution!</title>
       <link>https://blog.herlein.com/post/rise-of-agentic-programming/</link>
@@ -29,6 +22,13 @@
       <pubDate>Tue, 21 May 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/edge-ai/</guid>
       <description>&lt;p&gt;I bought the eBook &lt;a href=&#34;https://www.amazon.com/AI-at-Edge-Daniel-Situnayake-ebook/dp/B0BS2FKXW4/ref=sr_1_1?crid=2Y7H35NZX1T2X&amp;amp;dib=eyJ2IjoiMSJ9.YVcaIOeDUrnPaRKjlIpqDw2xPbpbIllMK3yBWW7GIwXNftlBZIiFDjxBMPwvShuig7DwSNZKIYrbmAuTh5DRoooK8XBRw_r_i7t1MFsEY8mQ56E4dJJ_0erV7loifhGYrEKKxi-EcCotUXv_HabTTeXOaKO_LdIJd6Aqu8FEf2SoBMYOifAq9FLYbn8KM9ydkYNilUpKBT_GwejxKml66IBAGFS0uzO3BjL2EbRLwwA.xV0rgNEiT9qpdTnArFldlPvQh-1lXGI7FePn60wrYJo&amp;amp;dib_tag=se&amp;amp;keywords=ai+at+the+edge&amp;amp;qid=1716340331&amp;amp;sprefix=ai+at+the+edge%2Caps%2C149&amp;amp;sr=8-1&#34;&gt;AI at the Edge&lt;/a&gt;.  But you can download a &lt;a href=&#34;https://www.linkedin.com/posts/edgeimpulse_edge-impulse-unleashing-intelligent-solutions-activity-7188548497820848129-VmpI&#34;&gt;free copy&lt;/a&gt; from LinkedIn.  In short?  Don&amp;rsquo;t waste your money.  But for free?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advice to New Developers (or, How to Get Hired)</title>
+      <link>https://blog.herlein.com/post/advice-to-new-developers-may2025/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/advice-to-new-developers-may2025/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Reading time: 10 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s brutally hard to find a job as a new college grad today.  And AI is changing things even for seasoned Engineers. Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

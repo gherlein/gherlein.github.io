@@ -17,13 +17,6 @@
       <description>Estimated reading time: 25 minutes&#xA;Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar.&#xA;This is a long post, but I&amp;rsquo;m not a simple person. But if you want to try to understand me, perhaps it&amp;rsquo;s worth the time?&#xA;This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date.</description>
     </item>
     <item>
-      <title>Advice to New (All!) Developers May 2025</title>
-      <link>https://blog.herlein.com/post/advice-to-new-developers-may2025/</link>
-      <pubDate>Sun, 25 May 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/advice-to-new-developers-may2025/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Reading time: 10 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;From everything I hear, it&amp;rsquo;s brutally hard to find a job as a new college grad today.  And AI is changing things even for seasoned Engineers. Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Agentic Programming: The New Robot Revolution!</title>
       <link>https://blog.herlein.com/post/rise-of-agentic-programming/</link>
       <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
@@ -260,6 +253,13 @@
       <pubDate>Sat, 26 Nov 2022 01:21:00 -0700</pubDate>
       <guid>https://blog.herlein.com/post/hugo-images/</guid>
       <description>&lt;p&gt;Hugo broke image rendering.  Well, they made it better, but broke how &lt;em&gt;I&lt;/em&gt; used it.  Here&amp;rsquo;s the fix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advice to New Developers (or, How to Get Hired)</title>
+      <link>https://blog.herlein.com/post/advice-to-new-developers-may2025/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/advice-to-new-developers-may2025/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Reading time: 10 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s brutally hard to find a job as a new college grad today.  And AI is changing things even for seasoned Engineers. Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Advice to New Developers (or, How to Get Hired)</title>
