@@ -851,6 +851,13 @@
     </item>
     <item>
       <title></title>
+      <link>https://blog.herlein.com/common/vscode-vs-zed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://blog.herlein.com/common/vscode-vs-zed/</guid>
+      <description>Agentic Development in Zed vs Visual Studio Code (Mid‑2025 Comparison) LLM Integration: Native Support vs Plugins Zed Editor: AI assistance is built-in as a first-class feature. Zed’s “assistant panel” and Agentic Editing are integrated into the core editor (no separate plugin required). Out of the box, Zed supports multiple large language models (LLMs) and providers – you can plug in OpenAI GPT-4, Anthropic Claude (e.g. Claude 2/3), Google’s PaLM/Gemini, and more, or even local models.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://blog.herlein.com/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.herlein.com/resume/</guid>
