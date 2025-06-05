@@ -2,10 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/about/</loc>
-    <lastmod>2025-05-25T00:01:05-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/blogging/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/claude/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/written-by-ai/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/productivity/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/zed/</loc>
+    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/advice-to-new-developers-may2025/</loc>
+    <lastmod>2025-05-31T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/agents/</loc>
+    <lastmod>2025-05-31T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/hiring/</loc>
+    <lastmod>2025-05-31T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/job-hunting/</loc>
+    <lastmod>2025-05-31T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/skills/</loc>
+    <lastmod>2025-05-31T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/about/</loc>
     <lastmod>2025-05-25T00:01:05-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/a2a/</loc>
@@ -14,28 +53,16 @@
     <loc>https://blog.herlein.com/post/rise-of-agentic-programming/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/agents/</loc>
-    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/development/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/mcp/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/robots/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/software/</loc>
-    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/technical/</loc>
@@ -200,9 +227,6 @@
     <loc>https://blog.herlein.com/tags/happiness/</loc>
     <lastmod>2024-04-27T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/hiring/</loc>
-    <lastmod>2024-04-27T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/teams/</loc>
     <lastmod>2024-04-27T00:00:01-08:00</lastmod>
   </url><url>
@@ -323,16 +347,7 @@
     <loc>https://blog.herlein.com/tags/hugo/</loc>
     <lastmod>2022-11-26T01:21:00-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/advice-to-new-developers-may2025/</loc>
-    <lastmod>2022-11-26T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/advice-to-new-developers/</loc>
-    <lastmod>2022-11-26T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/job-hunting/</loc>
-    <lastmod>2022-11-26T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/skills/</loc>
     <lastmod>2022-11-26T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/git/</loc>
@@ -678,9 +693,6 @@
     <lastmod>2020-09-30T14:50:08-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/blackburn/</loc>
-    <lastmod>2020-09-26T00:00:04-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/blogging/</loc>
     <lastmod>2020-09-26T00:00:04-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/hugo-social-media-icons/</loc>

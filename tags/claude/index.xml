@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogging on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/blogging/</link>
-    <description>Recent content in Blogging on Greg Herlein</description>
+    <title>Claude on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/claude/</link>
+    <description>Recent content in Claude on Greg Herlein</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
     <lastBuildDate>Wed, 04 Jun 2025 17:45:00 -0700</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.herlein.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating Blog Posts with AI: My Experience with Zed and Claude 3.5</title>
       <link>https://blog.herlein.com/post/written-by-ai/</link>
       <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
       <guid>https://blog.herlein.com/post/written-by-ai/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been exploring the intersection of AI and content creation lately, and I wanted to share my experience using Anthropic&amp;rsquo;s Claude 3.5 AI assistant within the Zed editor to streamline my blogging workflow.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fixing Hugo Social Media Icons in Blackburn</title>
-      <link>https://blog.herlein.com/post/hugo-social-media-icons/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/hugo-social-media-icons/</guid>
-      <description>&lt;p&gt;The Blackburn theme for Hugo has a bug in how it shows social media icons.  Here&amp;rsquo;s how to fix it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

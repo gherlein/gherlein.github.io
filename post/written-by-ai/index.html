@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.129.0">
 
-  <title>Fixing Hugo Scaled Images &middot; Greg Herlein</title>
+  <title>Creating Blog Posts with AI: My Experience with Zed and Claude 3.5 &middot; Greg Herlein</title>
 
     
 
@@ -219,7 +219,7 @@
 
 
 <div class="header">
-  <h1>Fixing Hugo Scaled Images</h1>
+  <h1>Creating Blog Posts with AI: My Experience with Zed and Claude 3.5</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -228,7 +228,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>26 Nov 2022, 01:21</time>
+    <time>04 Jun 2025, 17:45</time>
   </div>
 
   
@@ -241,11 +241,15 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/general">general</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ai">AI</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/blogging">blogging</a>&nbsp;&#47;
     
-      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/hugo">hugo</a>
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/claude">Claude</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/zed">Zed</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/productivity">productivity</a>
     
   </div>
   
@@ -253,38 +257,53 @@
 
 </div>
 
-  <p>Hugo broke image rendering.  Well, they made it better, but broke how <em>I</em> used it.  Here&rsquo;s the fix.</p>
-<p>I love Hugo.  Well, I did.  Then I realized that none of my blog images were loading.  Grrrr.</p>
-<img src="https://blog.herlein.com/images/hugo-logo-wide.png" width="100%"/>
-<p><a href="https://gohugo.io/content-management/image-processing">Hugo Image Processing</a> is now the way to do things, apparently.  Not sure when that changed, but I&rsquo;ve not been blogging much this year and certainly not with images.  There&rsquo;s a whole new ecosystem that enables some advanced image processing.  This <a href="https://mertbakir.gitlab.io/hugo/image-processing-in-hugo/">blog</a> seems like a good tutorial.</p>
-<p>What a pain!  I use these kinds of tags a lot:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/images/starter.jpeg&#34;</span> <span style="color:#a6e22e">width</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;100%&#34;</span>/&gt;
-</span></span></code></pre></div><p>The width parameter gives me exactly the control I want to scale my embedded images.  But Hugo changed and no longer supports embeddeding raw HTML in the markdown.  Do I really need to go edit every blog post I have ever done to get new features I don&rsquo;t even need?</p>
-<p>But wait!  There&rsquo;s a trick.</p>
-<h2 id="workaround">Workaround</h2>
-<p>You can, actually, just enable it again.  Here&rsquo;s how.  In the config.toml file in the root of your blog, add this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#f92672">[</span>markup.goldmark.renderer<span style="color:#f92672">]</span>
-</span></span><span style="display:flex;"><span>  unsafe <span style="color:#f92672">=</span> true
-</span></span></code></pre></div><p>That&rsquo;s it.  Now Hugo will happily support raw HTML again.  I suppose they had a good reason to turn this off, but it was a pain that cost me 30 minutes of my life this morning.  But then again, I&rsquo;m not paying for Hugo with money.  Open source is paid for with time!</p>
-<h2 id="credits">Credits</h2>
-<p>Thank you to the kind author of <a href="https://radu.link/tips-hugo-beginners/">this</a> guide for Hugo beginners.  Silly, but this is how the internet works.  If you are not constantly paying attention things change and your stuff breaks.</p>
-<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
-<script async src="//static.getclicky.com/101366448.js"></script>
-<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+  <p>I&rsquo;ve been exploring the intersection of AI and content creation lately, and I wanted to share my experience using Anthropic&rsquo;s Claude 3.5 AI assistant within the Zed editor to streamline my blogging workflow.</p>
+<p>As someone who&rsquo;s been blogging for years, one of the challenges has always been maintaining a consistent publishing schedule while juggling other responsibilities. Enter agentic AI - specifically, the combination of the Zed editor and Claude 3.5, which has transformed how I approach blog writing.</p>
+<h2 id="why-zed--claude">Why Zed + Claude?</h2>
+<p>The Zed editor has impressed me with its clean, minimal interface and blazing-fast performance. But what really sets it apart is its deep integration with Claude 3.5. Unlike other AI integrations that feel bolted on, Zed&rsquo;s implementation feels natural and seamless.</p>
+<p>What makes this combination particularly powerful for blogging?</p>
+<ol>
+<li>
+<p><strong>Format Consistency</strong>: Claude understands your blog&rsquo;s existing structure and can automatically adhere to your established formatting, front matter, and style guidelines.</p>
+</li>
+<li>
+<p><strong>Context-Aware</strong>: The AI can analyze your existing content and maintain a consistent voice and tone across posts.</p>
+</li>
+<li>
+<p><strong>Interactive Refinement</strong>: You can have a natural dialogue with Claude to refine ideas, restructure content, or expand on specific points.</p>
+</li>
+<li>
+<p><strong>Technical Accuracy</strong>: Claude 3.5&rsquo;s extensive knowledge base means it can fact-check and provide accurate technical details while you write.</p>
+</li>
+</ol>
+<h2 id="the-writing-process">The Writing Process</h2>
+<p>The actual process of creating a post is remarkably straightforward:</p>
+<ol>
+<li>Open Zed and create a new markdown file</li>
+<li>Ask Claude to help structure the post and generate initial content</li>
+<li>Iteratively refine the content through natural conversation</li>
+<li>Review and make final edits</li>
+</ol>
+<p>The AI doesn&rsquo;t replace your voice or creativity - it amplifies them. You remain in control of the narrative and editorial decisions, while the AI handles the heavy lifting of formatting, structure, and initial draft generation.</p>
+<h2 id="looking-forward">Looking Forward</h2>
+<p>This post itself was created using this exact workflow - a meta-demonstration of the capability. While AI assistance in writing isn&rsquo;t new, the level of sophistication and seamless integration we&rsquo;re seeing with tools like Zed and Claude 3.5 marks a significant evolution in how we can approach content creation.</p>
+<p>For technical bloggers especially, this combination offers an excellent balance of efficiency and control. It&rsquo;s not about replacing human creativity but augmenting it with tools that understand both the technical and creative aspects of blog writing.</p>
+<p>As these tools continue to evolve, I&rsquo;m excited to see how they&rsquo;ll further transform the content creation landscape. For now, I&rsquo;m thoroughly enjoying the productivity boost and creative partnership they provide.</p>
+<p>And yes, up until this line 100% of this post was written by Claude 3.5!</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
-	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fhugo-images%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fwritten-by-ai%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fhugo-images%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fwritten-by-ai%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fhugo-images%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fwritten-by-ai%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fhugo-images%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fwritten-by-ai%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fhugo-images%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fwritten-by-ai%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
 	</li>&nbsp;&nbsp;&nbsp;
-	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fhugo-images%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fwritten-by-ai%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
 	</li>
 </ul>
 
@@ -316,13 +335,13 @@
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://blog.herlein.com/post/advice-to-new-developers/"><i class="fa fa-chevron-left"></i></a>
+    <a href="https://blog.herlein.com/post/advice-to-new-developers-may2025/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="https://blog.herlein.com/post/advice-to-new-developers/">Advice to New Developers (or, How to Get Hired)</a>
+      <a href="https://blog.herlein.com/post/advice-to-new-developers-may2025/">Advice to New Developers (or, How to Get Hired)</a>
     </nav>
     
   </div>
@@ -331,14 +350,8 @@
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="https://blog.herlein.com/post/no-more-twitter/">No More Twitter</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="https://blog.herlein.com/post/no-more-twitter/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

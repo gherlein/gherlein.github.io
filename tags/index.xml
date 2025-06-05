@@ -7,27 +7,76 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 25 Apr 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jun 2025 17:45:00 -0700</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A2A</title>
-      <link>https://blog.herlein.com/tags/a2a/</link>
-      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/a2a/</guid>
+      <title>AI</title>
+      <link>https://blog.herlein.com/tags/ai/</link>
+      <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogging</title>
+      <link>https://blog.herlein.com/tags/blogging/</link>
+      <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/blogging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://blog.herlein.com/tags/claude/</link>
+      <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://blog.herlein.com/tags/productivity/</link>
+      <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zed</title>
+      <link>https://blog.herlein.com/tags/zed/</link>
+      <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
+      <guid>https://blog.herlein.com/tags/zed/</guid>
       <description></description>
     </item>
     <item>
       <title>Agents</title>
       <link>https://blog.herlein.com/tags/agents/</link>
-      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
+      <pubDate>Sat, 31 May 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agents/</guid>
       <description></description>
     </item>
     <item>
-      <title>AI</title>
-      <link>https://blog.herlein.com/tags/ai/</link>
+      <title>Hiring</title>
+      <link>https://blog.herlein.com/tags/hiring/</link>
+      <pubDate>Sat, 31 May 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/hiring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Job-Hunting</title>
+      <link>https://blog.herlein.com/tags/job-hunting/</link>
+      <pubDate>Sat, 31 May 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/job-hunting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>https://blog.herlein.com/tags/skills/</link>
+      <pubDate>Sat, 31 May 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A2A</title>
+      <link>https://blog.herlein.com/tags/a2a/</link>
       <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ai/</guid>
+      <guid>https://blog.herlein.com/tags/a2a/</guid>
       <description></description>
     </item>
     <item>
@@ -339,13 +388,6 @@
       <description></description>
     </item>
     <item>
-      <title>Hiring</title>
-      <link>https://blog.herlein.com/tags/hiring/</link>
-      <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/hiring/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Teams</title>
       <link>https://blog.herlein.com/tags/teams/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:01 -0800</pubDate>
@@ -490,20 +532,6 @@
       <link>https://blog.herlein.com/tags/hugo/</link>
       <pubDate>Sat, 26 Nov 2022 01:21:00 -0700</pubDate>
       <guid>https://blog.herlein.com/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Job-Hunting</title>
-      <link>https://blog.herlein.com/tags/job-hunting/</link>
-      <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/job-hunting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skills</title>
-      <link>https://blog.herlein.com/tags/skills/</link>
-      <pubDate>Sat, 26 Nov 2022 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/skills/</guid>
       <description></description>
     </item>
     <item>
@@ -980,13 +1008,6 @@
       <link>https://blog.herlein.com/tags/blackburn/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/blackburn/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blogging</title>
-      <link>https://blog.herlein.com/tags/blogging/</link>
-      <pubDate>Sat, 26 Sep 2020 00:00:04 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/blogging/</guid>
       <description></description>
     </item>
     <item>
