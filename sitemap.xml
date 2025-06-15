@@ -2,8 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/post/agent-building/</loc>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/agents/</loc>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/golang/</loc>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ollama/</loc>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/skills/</loc>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/blogging/</loc>
     <lastmod>2025-06-04T17:45:00-07:00</lastmod>
@@ -14,16 +38,7 @@
     <loc>https://blog.herlein.com/post/written-by-ai/</loc>
     <lastmod>2025-06-04T17:45:00-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/productivity/</loc>
-    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2025-06-04T17:45:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/zed/</loc>
@@ -32,16 +47,10 @@
     <loc>https://blog.herlein.com/post/advice-to-new-developers-may2025/</loc>
     <lastmod>2025-05-31T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/agents/</loc>
-    <lastmod>2025-05-31T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/hiring/</loc>
     <lastmod>2025-05-31T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/job-hunting/</loc>
-    <lastmod>2025-05-31T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/skills/</loc>
     <lastmod>2025-05-31T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/about/</loc>
@@ -162,9 +171,6 @@
     <lastmod>2024-05-28T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/go/</loc>
-    <lastmod>2024-05-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/golang/</loc>
     <lastmod>2024-05-28T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/grpc/</loc>

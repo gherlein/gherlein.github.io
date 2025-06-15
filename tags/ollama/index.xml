@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Skills on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/skills/</link>
-    <description>Recent content in Skills on Greg Herlein</description>
+    <title>Ollama on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/ollama/</link>
+    <description>Recent content in Ollama on Greg Herlein</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
     <lastBuildDate>Sun, 15 Jun 2025 00:00:01 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/skills/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.herlein.com/tags/ollama/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agent Building: Ollama Hosted Models Token per Second</title>
       <link>https://blog.herlein.com/post/agent-building/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/agent-building/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s no way to really understand something unless you dive into first principles.  This is especially true for AI coding agents.  What is the editor doing under the hood?  I try to peel the onion a bit.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Advice to New Developers (or, How to Get Hired)</title>
-      <link>https://blog.herlein.com/post/advice-to-new-developers-may2025/</link>
-      <pubDate>Sat, 31 May 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/advice-to-new-developers-may2025/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Reading time: 10 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s brutally hard to find a job as a new college grad today.  And AI is changing things even for seasoned Engineers. Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

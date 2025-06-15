@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 04 Jun 2025 17:45:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 15 Jun 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agent Building: Ollama Hosted Models Token per Second</title>
+      <link>https://blog.herlein.com/post/agent-building/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/agent-building/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s no way to really understand something unless you dive into first principles.  This is especially true for AI coding agents.  What is the editor doing under the hood?  I try to peel the onion a bit.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Creating Blog Posts with AI: My Experience with Zed and Claude 3.5</title>
       <link>https://blog.herlein.com/post/written-by-ai/</link>
