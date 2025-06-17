@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/post/agent-naysayers/</loc>
-    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/agents/</loc>
     <lastmod>2025-06-17T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/agent-naysayers/</loc>
     <lastmod>2025-06-17T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/denial/</loc>
