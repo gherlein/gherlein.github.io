@@ -7,20 +7,41 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 17 Jun 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agents</title>
       <link>https://blog.herlein.com/tags/agents/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:01 -0800</pubDate>
+      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agents/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:01 -0800</pubDate>
+      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Denial</title>
+      <link>https://blog.herlein.com/tags/denial/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/denial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ostriches</title>
+      <link>https://blog.herlein.com/tags/ostriches/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ostriches/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>https://blog.herlein.com/tags/skills/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/skills/</guid>
       <description></description>
     </item>
     <item>
@@ -35,13 +56,6 @@
       <link>https://blog.herlein.com/tags/ollama/</link>
       <pubDate>Sun, 15 Jun 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ollama/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skills</title>
-      <link>https://blog.herlein.com/tags/skills/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/skills/</guid>
       <description></description>
     </item>
     <item>
@@ -455,6 +469,34 @@
       <link>https://blog.herlein.com/tags/process/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/process/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Future</title>
+      <link>https://blog.herlein.com/tags/future/</link>
+      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/future/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Llm</title>
+      <link>https://blog.herlein.com/tags/llm/</link>
+      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/llm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pair-Programming</title>
+      <link>https://blog.herlein.com/tags/pair-programming/</link>
+      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/pair-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://blog.herlein.com/tags/programming/</link>
+      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/programming/</guid>
       <description></description>
     </item>
     <item>

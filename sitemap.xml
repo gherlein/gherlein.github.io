@@ -2,31 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/post/agent-building/</loc>
-    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+    <loc>https://blog.herlein.com/post/agent-naysayers/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/agents/</loc>
-    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/denial/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ostriches/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/skills/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/agent-building/</loc>
     <lastmod>2025-06-15T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/golang/</loc>
     <lastmod>2025-06-15T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/ollama/</loc>
-    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/skills/</loc>
-    <lastmod>2025-06-15T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2025-06-15T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/blogging/</loc>
@@ -280,6 +289,21 @@
   </url><url>
     <loc>https://blog.herlein.com/post/bristlemouth-yes/</loc>
     <lastmod>2024-03-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/embrace-ai-pairing/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/future/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/llm/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/pair-programming/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/programming/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/bristlemouth-questionable/</loc>
     <lastmod>2024-01-03T00:00:01-08:00</lastmod>
