@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 28 May 2024 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Clicking Yes to Letting Claude Run Wild (Safely)</title>
+      <link>https://blog.herlein.com/post/claude-code/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/claude-code/</guid>
+      <description>&lt;h1 id=&#34;from-clicking-yes-to-letting-claude-run-wild-safely&#34;&gt;From Clicking &amp;ldquo;Yes&amp;rdquo; to Letting Claude Run Wild (Safely)&lt;/h1&gt;&#xA;&lt;p&gt;So I&amp;rsquo;ve been working on this project called &lt;a href=&#34;https://github.com/gherlein/client-w-mcp&#34;&gt;client-w-mcp&lt;/a&gt; – it&amp;rsquo;s a leanring project to truly understand how an AI agent works with MCP servers.  And I&amp;rsquo;m exploring Agentic development - with Claude Code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-claude-code&#34;&gt;Why Claude Code?&lt;/h2&gt;&#xA;&lt;p&gt;The first time I used it, Claude just&amp;hellip; &lt;em&gt;flowed&lt;/em&gt;. It seems to do a lot more by itself to figure things out.  I especially like the Task(&lt;prompt&gt;) so that it can go do more than one thing at a time.  It would be bad to try to modify code that way, but to write tests or update docs and not have to wait doing one thing at a time&amp;hellip; is wonderful.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Learning gRPC in golang - with some ChatGPT help</title>
       <link>https://blog.herlein.com/post/golang-grpc-chatgpt/</link>

@@ -7,20 +7,48 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 17 Jun 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Agents</title>
-      <link>https://blog.herlein.com/tags/agents/</link>
-      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/agents/</guid>
+      <title>Agentic Coding</title>
+      <link>https://blog.herlein.com/tags/agentic-coding/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
+      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://blog.herlein.com/tags/claude/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://blog.herlein.com/tags/go/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agents</title>
+      <link>https://blog.herlein.com/tags/agents/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agents/</guid>
       <description></description>
     </item>
     <item>
@@ -63,13 +91,6 @@
       <link>https://blog.herlein.com/tags/blogging/</link>
       <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
       <guid>https://blog.herlein.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -133,13 +154,6 @@
       <link>https://blog.herlein.com/tags/software/</link>
       <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/software/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     <item>
@@ -301,13 +315,6 @@
       <link>https://blog.herlein.com/tags/chatgpt/</link>
       <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/chatgpt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>https://blog.herlein.com/tags/go/</link>
-      <pubDate>Tue, 28 May 2024 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/go/</guid>
       <description></description>
     </item>
     <item>

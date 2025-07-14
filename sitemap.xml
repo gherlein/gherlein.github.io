@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/tags/agents/</loc>
-    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/claude/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/claude-code/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/go/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2025-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/agents/</loc>
     <lastmod>2025-06-17T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/agent-naysayers/</loc>
@@ -14,19 +38,10 @@
     <loc>https://blog.herlein.com/tags/denial/</loc>
     <lastmod>2025-06-17T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/ostriches/</loc>
     <lastmod>2025-06-17T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/skills/</loc>
-    <lastmod>2025-06-17T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2025-06-17T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/agent-building/</loc>
@@ -39,9 +54,6 @@
     <lastmod>2025-06-15T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/blogging/</loc>
-    <lastmod>2025-06-04T17:45:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/claude/</loc>
     <lastmod>2025-06-04T17:45:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/written-by-ai/</loc>
@@ -81,9 +93,6 @@
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/software/</loc>
-    <lastmod>2025-04-25T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/general/</loc>
@@ -177,9 +186,6 @@
     <lastmod>2024-06-06T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/chatgpt/</loc>
-    <lastmod>2024-05-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/go/</loc>
     <lastmod>2024-05-28T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/grpc/</loc>
@@ -904,8 +910,6 @@
     <loc>https://blog.herlein.com/resume/</loc>
   </url><url>
     <loc>https://blog.herlein.com/staffing/</loc>
-  </url><url>
-    <loc>https://blog.herlein.com/categories/</loc>
   </url><url>
     <loc>https://blog.herlein.com/common/</loc>
   </url><url>
