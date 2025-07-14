@@ -356,6 +356,23 @@
 <p>Look, the <code>--dangerously-skip-permissions</code> flag turns Claude from a helpful but sometimes frustrating assistant into a genuine coding partner that can actually get stuff done. But with great power comes great responsibility, and all that.</p>
 <p>The Devcontainer approach is honestly brilliant – you get all the benefits of giving Claude full access without the heart palpitations that come from worrying about what it might accidentally delete. Add in solid tests and a good devcontainer setup, and you&rsquo;ve got a development environment that&rsquo;s both powerful and safe.</p>
 <p>Trust me, once you get this setup working smoothly, you&rsquo;ll wonder how you ever developed software any other way. Just remember to keep those tests green, and you&rsquo;ll be golden.</p>
+<h2 id="footnote">Footnote</h2>
+<p>I went to publish this and realized that I had updated hugo on the machine I do blog builds on.  And, of course, it broke the build. I got this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo -d ../gherlein.github.io/
+</span></span><span style="display:flex;"><span>  Start building sites …
+</span></span><span style="display:flex;"><span>  hugo v0.148.1-98ba786f2f5dca0866f47ab79f394370bcb77d2f linux/amd64
+</span></span><span style="display:flex;"><span>  BuildDate<span style="color:#f92672">=</span>2025-07-11T12:56:21Z VendorInfo<span style="color:#f92672">=</span>gohugoio
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  ERROR deprecated: .Site.Social was deprecated in Hugo v0.124.0 and subsequently
+</span></span><span style="display:flex;"><span>  removed. Implement taxonomy <span style="color:#e6db74">&#39;social&#39;</span> or use .Site.Params.Social instead.
+</span></span><span style="display:flex;"><span>  ERROR deprecated: .Page.NextPage was deprecated in Hugo v0.123.0 and subsequently
+</span></span><span style="display:flex;"><span>  removed. Use .Page.Next instead.
+</span></span><span style="display:flex;"><span>  ERROR deprecated: .Page.PrevPage was deprecated in Hugo v0.123.0 and subsequently
+</span></span><span style="display:flex;"><span>  removed. Use .Page.Prev instead.
+</span></span><span style="display:flex;"><span>  Total in <span style="color:#ae81ff">245</span> ms
+</span></span><span style="display:flex;"><span>  Error: error building site: logged <span style="color:#ae81ff">3</span> error<span style="color:#f92672">(</span>s<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>Alas, I use the blackburn theme and it has not been updated to work with the latest Hugo.  I tried a few things that didn&rsquo;t work and decided to take a walk.  I came back and just used Claude Code.  It found the specific errors in blackburn and fixed them.  15 seconds later, I had a working blog build again.  I was able to publish this post.</p>
+<p>Have I said how much I love Claude Code?</p>
 
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
