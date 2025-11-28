@@ -4,7 +4,7 @@
     <title>Commons on Greg Herlein</title>
     <link>https://blog.herlein.com/common/</link>
     <description>Recent content in Commons on Greg Herlein</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2025. All rights reserved.</copyright>
     <atom:link href="https://blog.herlein.com/common/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://blog.herlein.com/common/vscode-vs-zed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.herlein.com/common/vscode-vs-zed/</guid>
-      <description>&lt;h1 id=&#34;agentic-development-in-zed-vs-visual-studio-code-mid2025-comparison&#34;&gt;Agentic Development in Zed vs Visual Studio Code (Mid‑2025 Comparison)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;llm-integration-native-support-vs-plugins&#34;&gt;LLM Integration: Native Support vs Plugins&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Zed Editor:&lt;/strong&gt; AI assistance is built-in as a first-class feature. Zed’s “assistant panel” and &lt;em&gt;Agentic Editing&lt;/em&gt; are integrated into the core editor (no separate plugin required). Out of the box, Zed supports multiple large language models (LLMs) and providers – you can plug in OpenAI GPT-4, Anthropic Claude (e.g. Claude 2/3), Google’s PaLM/Gemini, and more, or even local models. Zed offers flexible options to &lt;strong&gt;“bring your own keys”&lt;/strong&gt; for third-party APIs or run models locally via tools like Ollama/LM Studio. This means you’re not tied to a single vendor: for example, you can switch between Anthropic’s Claude and OpenAI’s GPT in a dropdown, or even use GitHub Copilot as a backend through Zed’s interface. All of this is handled natively by Zed’s Rust-based architecture and open-source AI agent panel, rather than through external extensions.&lt;/p&gt;</description>
+      <description>Agentic Development in Zed vs Visual Studio Code (Mid‑2025 Comparison) LLM Integration: Native Support vs Plugins Zed Editor: AI assistance is built-in as a first-class feature. Zed’s “assistant panel” and Agentic Editing are integrated into the core editor (no separate plugin required). Out of the box, Zed supports multiple large language models (LLMs) and providers – you can plug in OpenAI GPT-4, Anthropic Claude (e.g. Claude 2/3), Google’s PaLM/Gemini, and more, or even local models.</description>
     </item>
   </channel>
 </rss>
