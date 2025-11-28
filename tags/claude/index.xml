@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 14 Jul 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/claude/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Claude Code to Build gocat</title>
+      <link>https://blog.herlein.com/post/claude-code-gocat/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/claude-code-gocat/</guid>
+      <description>&lt;p&gt;In my &lt;a href=&#34;https://blog.herlein.com/post/claude-code/&#34;&gt;previous post about Claude Code&lt;/a&gt;, I talked about using VS Code devcontainers to safely run Claude in &amp;ldquo;dangerous mode.&amp;rdquo; That was great for a typical software project. But what about something harder? What about porting a complex hardware-interfacing library from Python to Go, where you need to deeply understand USB protocols, radio registers, and firmware internals?&lt;/p&gt;&#xA;&lt;p&gt;That&amp;rsquo;s exactly what I did with &lt;a href=&#34;https://github.com/gherlein/gocat&#34;&gt;gocat&lt;/a&gt; – a Go library for controlling the YardStick One sub-GHz RF transceiver. And Claude Code was instrumental in making it happen.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>From Clicking Yes to Letting Claude Run Wild (Safely)</title>
       <link>https://blog.herlein.com/post/claude-code/</link>

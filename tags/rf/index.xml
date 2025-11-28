@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agentic Coding on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/agentic-coding/</link>
-    <description>Recent content in Agentic Coding on Greg Herlein</description>
+    <title>Rf on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/rf/</link>
+    <description>Recent content in Rf on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
     <lastBuildDate>Fri, 28 Nov 2025 00:00:01 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/agentic-coding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.herlein.com/tags/rf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Claude Code to Build gocat</title>
       <link>https://blog.herlein.com/post/claude-code-gocat/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/claude-code-gocat/</guid>
       <description>&lt;p&gt;In my &lt;a href=&#34;https://blog.herlein.com/post/claude-code/&#34;&gt;previous post about Claude Code&lt;/a&gt;, I talked about using VS Code devcontainers to safely run Claude in &amp;ldquo;dangerous mode.&amp;rdquo; That was great for a typical software project. But what about something harder? What about porting a complex hardware-interfacing library from Python to Go, where you need to deeply understand USB protocols, radio registers, and firmware internals?&lt;/p&gt;&#xA;&lt;p&gt;That&amp;rsquo;s exactly what I did with &lt;a href=&#34;https://github.com/gherlein/gocat&#34;&gt;gocat&lt;/a&gt; – a Go library for controlling the YardStick One sub-GHz RF transceiver. And Claude Code was instrumental in making it happen.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>From Clicking Yes to Letting Claude Run Wild (Safely)</title>
-      <link>https://blog.herlein.com/post/claude-code/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/claude-code/</guid>
-      <description>So I&amp;rsquo;ve been working on this project called client-w-mcp – it&amp;rsquo;s a leanring project to truly understand how an AI agent works with MCP servers. And I&amp;rsquo;m exploring Agentic development - with Claude Code.&#xA;Why Claude Code? The first time I used it, Claude just&amp;hellip; flowed. It seems to do a lot more by itself to figure things out. I especially like the Task() so that it can go do more than one thing at a time.</description>
     </item>
   </channel>
 </rss>

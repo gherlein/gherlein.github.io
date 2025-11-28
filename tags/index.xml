@@ -7,40 +7,54 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 14 Jul 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agentic Coding</title>
       <link>https://blog.herlein.com/tags/agentic-coding/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Claude</title>
       <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/claude/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
       <link>https://blog.herlein.com/tags/go/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://blog.herlein.com/tags/hardware/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rf</title>
+      <link>https://blog.herlein.com/tags/rf/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/rf/</guid>
       <description></description>
     </item>
     <item>
       <title>Technical</title>
       <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
+      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
@@ -161,13 +175,6 @@
       <link>https://blog.herlein.com/tags/general/</link>
       <pubDate>Sat, 08 Mar 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/general/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hardware</title>
-      <link>https://blog.herlein.com/tags/hardware/</link>
-      <pubDate>Sat, 08 Mar 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/hardware/</guid>
       <description></description>
     </item>
     <item>
