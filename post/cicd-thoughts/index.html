@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Thoughts on CI/CD &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Thoughts on CI/CD</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>01 Mar 2022, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/sdlc">SDLC</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/software-development">software development</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ci/cd">CI/CD</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Yet again I am thinking about the overall software development/deployment life cycle, and am back to thinking about CI/CD again.</p>
+<p>I should be building out a second MQTT server and setting it up as a failover.  I&rsquo;ve written <a href="https://blog.herlein.com/post/mqtt/">before</a> about MQTT being a SPOF.  But I am afflicted with the curse of the software developer: laziness.  What I really should do is solve it correctly, forever, with a means to automatically deploy it.  I need it in TWO locations, and if it&rsquo;s useful to me it probably is useful to others, so I should automate it.  But then I get busy in my day job and then I write blog posts and I still have not done it.  Not to mention re-writing some IPTABLES rules so I can more easily see my remote cameras.  But I digress.</p>
+<p>Speaking of that, I have similar problems there.  I&rsquo;m writing a ton of sample code for some cool new things (no leaks here!).  I prefer <a href="https://aws.amazon.com/cdk/">Terraform</a> over <a href="https://aws.amazon.com/cloudformation/">CloudFormation</a>.  But both are what I would call &ldquo;first generation&rdquo; IaaS tools.  All they really do is deployment of infrastructure.  A &ldquo;second generation&rdquo; tool would be the <a href="https://aws.amazon.com/cdk/">Amazon Cloud Development Kit (CDK)</a>.  It&rsquo;s new v2 with constructs is quite nice.  It even has some minimal CI capability, especially in the <a href="https://docs.aws.amazon.com/cdk/api/v1/docs/aws-lambda-nodejs-readme.html">Amazon Lambda Nodejs Library</a> where you can bundle your typescript into the lambda.  That&rsquo;s been very helpful, especially as an easier way to use typescript for lambdas.  Don&rsquo;t worry, there&rsquo;s a whole pile of example code and blogs coming around that.  Patience, and what a few weeks for a certain trade show&hellip;  I&rsquo;m especially interested in the new <a href="https://docs.aws.amazon.com/cdk/v2/guide/cdk_pipeline.html">CDK Pipelines</a> that let you build CD pipelines for CDK scripts.  Those move what is a developer tool (&lsquo;cdk init&rsquo;) to something you can really use in production.</p>
+<p>But there&rsquo;s a lot to be desired.  All that works for certain kinds of cloud workloads.  But not all.</p>
+<h2 id="on-premise-environments">On-Premise Environments</h2>
+<p>CDK works for an AWS cloud enviroment, but can&rsquo;t work for my on-prem enviroment.  That&rsquo;s not totally true either:  there is the <a href="https://docs.aws.amazon.com/cdk/api/v1/docs/aws-codedeploy-readme.html">AWS CodeDeploy Construct Library</a> that I really should try.  But that won&rsquo;t work easily for my environments since the whole VPN thing is complicated.  Both my ISPs operate on private address space, so doing a VPN to a cloud is complicated.  I&rsquo;ll try to blog about that another time.  Plus, I don&rsquo;t really want to do a cloud-based deployment for stuff that runs totally on-premise.  It&rsquo;s just introducing another dependency.  So CDK isn&rsquo;t especially a good solution for my home problems.</p>
+<h2 id="cloud-native">Cloud Native</h2>
+<p>If I was going to do things &ldquo;right&rdquo; for the MQTT problem, I would set up a three node kubernetes cluster and let it do the work for me. I have not tried it, but there&rsquo;s <a href="https://serverfault.com/questions/1045712/how-to-setup-mosquitto-mqtt-broker-in-kubernetes">examples of config files</a> and even a <a href="https://artifacthub.io/packages/helm/k8s-at-home/mosquitto">helm chart</a> to get started.</p>
+<p>But hoo boy, now we dive down the rabbit hole.  How to manage that?  Go all the way to gitops? Not familiar?  GitOps is the operational practice that NOTHING in your deployment is valid if it did not get there through a git checkin, usually of a helm chart.  For the newbies, Linux Foundation has a <a href="https://training.linuxfoundation.org/training/introduction-to-gitops-lfs169/">course</a> that is probably generic enough.  I spoke this morning to a great Engineer who is now leading a DevOps team at a startup and they are all in on GitOps.  They use <a href="https://argo-cd.readthedocs.io/en/stable/">ArgoCD</a> and their developers love it.  Great GUI.  We went that route at Cisco when I was there too, at least in the group I was last in.  <a href="https://fluxcd.io/">Flux</a> would probably be more my style, since I am a command line person more than a gui person.  Both have come far in the last few years.</p>
+<h2 id="but-what-about-cloud-cloud">But What About Cloud-Cloud?</h2>
+<p>Back to my day job and CDK.  It&rsquo;s not kubernetes (k8s for short).  In fact, in all of 2020 as a leader of Solution Architects helping literally thousands of customers, I only saw a few customers using k8s.  My advice for anyone writing new software would definitely be to consider k8s, especially if you have the developers who can embrace it.  But most customers were early in their <a href="https://blog.herlein.com/post/cloud-basics/">cloud journey</a> and they were buying at least some of their software.  Or, migrating to cloud and at least some of the software was &ldquo;as a service.&rdquo;</p>
+<p>In those scenarios, the &ldquo;Cloud Native&rdquo; solutions can&rsquo;t help a bit.  And they don&rsquo;t deal with IaaS at all.  That would be a problem for someone wanting to build major communications software using my day job product (the <a href="https://aws.amazon.com/chime/chime-sdk/">Amazon Chime SDK</a>), especially the telephony parts.  The alure of our offering is that you can run a script and create real phone numbers in the cloud that you can then programatically control.  But those are cloud resources, and &ldquo;cloud native&rdquo; tools like ArgoCD/Flux/Helm/whatever can&rsquo;t help at all.  Same thing if you need to create S3 buckets, for example.  The CD tooling can deploy the SOFTWARE, but not the infra.  CDK can do both, but cannot do k8s.  Both have problems if you also want to deploy on-premise.</p>
+<p>In short, there isn&rsquo;t a good tool that works for both.</p>
+<h2 id="but-what-about-cloud-services">But What About Cloud Services?</h2>
+<p>Again, a day job problem.  Under the hood cloud services are web-services (usually but not always REST services).  Software that consumes those services are configured with the &ldquo;production&rdquo; endpoint (URL) and stuff just works. Some new services are in beta (or gamma) and the way those are exposed is through a different &ldquo;endpoint&rdquo; which often is &ldquo;allow-listed&rdquo; somehow to limit who can use it.  This is extremely common in any non-trivial system composed of micro-services.  The difference between &ldquo;environments&rdquo; (alpha, beta, gamma, stage, production, whatever you call it) is often the endpoint you use.</p>
+<p>So, a proper CI/CD system would also keep track of the &ldquo;environment&rdquo; and have a way to store the endpoints for different services, so that it could be discovered by software.  There&rsquo;s software that enables this.  <a href="https://www.consul.io/">Consul</a> and <a href="https://zookeeper.apache.org/">Zookeeper</a> come to mind.  K8s uses <a href="https://etcd.io/">etcd</a> for this.  So what, now I have to roll that out too, in order to do a proper staged pipeline of CD?  Hmmm. Lots of extra work there, and for darn sure not something I would do in a small on-premise network.</p>
+<p>In short, the tools don&rsquo;t support this key need.</p>
+<h2 id="counter-arguments-and-answers-which-may-be-just-more-questions">Counter-Arguments, and Answers (which may be just more questions)</h2>
+<p>&ldquo;Traditionalist Cloud Practitioners&rdquo; (ha, have we done cloud long enough for those folks to really exist yet?) would argue that except for small companies you need &ldquo;separation of concerns&rdquo; and that the Infra team needs to be different than the software team, blah blah blah.  Sure.  The skill sets are different.  But if the software developers are not intimately familiar with the infra they need, and more importantly the security limitations (<a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html">IAM rules, in AWS speak</a>) there&rsquo;s a natural gap that leads to friction and mis-understandings.  If not during development, definitely during an incident.  The infra folks need to understand what the software is doing too, for the same reasons.  Bosses should care deeply, since the ability to increase your feature velocity is directly connected to the most important (for speed) &ldquo;ility&rdquo; there is:  disposability.  I&rsquo;ve <a href="https://blog.herlein.com/post/disposability/">written about that before</a>.  So you see, the whole idea that we can use CI for the developers and CD for the Infra/Ops team is nonsense, if you want to go fast, test better, and increase your confidence in reliability.  They need to work together.  In fact, they need three things to be &ldquo;DevOps&rdquo; in my opinion.  Read about that <a href="https://www.linkedin.com/pulse/how-do-devops-greg-herlein/">here</a>.</p>
+<p>But what about <a href="https://www.jenkins.io/">Jenkins?</a>  Well, it&rsquo;s getting old in the tooth.  How are you going to deploy jenkins itself?  And it&rsquo;s just CI.  It does not touch CD, let alone IaaS deployment.</p>
+<p>But <a href="https://www.terraform.io/">Terraform!</a>  Yes.  Aside from the fact that it&rsquo;s it&rsquo;s own language, it is amazing.  It does IaaS deployment very well.  But it can&rsquo;t touch the other parts.</p>
+<h2 id="practical-implications-on-agile-software-development">Practical Implications on Agile Software Development</h2>
+<p>Building software is hard.  Operating software is harder.  Doing it well is harder still.  Doing it at scale is herculean.  Adopting agile methods has proven to help though.  But that&rsquo;s a process on how humans work.  I especially admire the ebook <a href="https://codefresh.io/wp-content/uploads/2020/11/GitOps-2.0-The-Future-of-DevOps-Ebook-v4.pdf">GitOps 2.0</a> by <a href="https://codefresh.io/">CodeFresh</a>.  I&rsquo;ve not yet looked at their product but in the book they eloquently talk about the need for &ldquo;feature observability.&rdquo;   In a practical software shop management will ask &ldquo;how long will it take to add feature X?&rdquo;  Agile can answer that, usually.  But there&rsquo;s a lack of tooling to answer &ldquo;which code release has feature X in it?&rdquo; and &ldquo;at which stage in our pipeline is feature X?&rdquo;  This is because features tracked in the agile tools are not tagged to actual CI builds, and CI build tags are not visible in tools that show what&rsquo;s in various pipeline/environment stages.  I see this in my day job all the time - and at every shop I&rsquo;ve been a part of.  Remember, &ldquo;done done&rdquo; means &ldquo;in production, doing real things for real customers.&rdquo;  Anything short of that the feature is not done.  But the developers THINK it&rsquo;s done, since it passed their tests and the first stage of your pipeline.  Tracking that last bit is a gap most shops don&rsquo;t have a good solution for.</p>
+<h2 id="so-what-is-the-answer">So What Is the Answer?</h2>
+<p>I&rsquo;m not sure yet.  And it&rsquo;s stalling me, since I really should get my home MQTTs to be redundant, and I can&rsquo;t stomach doing it with IP-address takeover and configuring my Ubuntu boxes manually.  I&rsquo;ve been spending so much of my time on CDK, as well as learning how to develop services in typescript.  My instinct is that ultimate answer will be writtin in go, but that might just be wishful thinking.  Here are some things that I wish I had in such a tool:</p>
+<ul>
+<li>works on premise and in cloud (best: able to support multi-cloud)</li>
+<li>supports containers, because that&rsquo;s how software should be packaged these days</li>
+<li>supports k8s as an option, not as a requirement - should support running with systemd for isolated services</li>
+<li>has a secrets and configuration store that can be auto-discovered (suitable for on-prem or cloud)</li>
+<li>optionally can plug into monitoring sytems, or at least alerting systems, for deployment failures</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Wishful thinking still, I guess.  There is no CI/CD ring to rule them all.  But if you know of tools I should be aware of, drop me a note.  <a href="https://twitter.com/gherlein">Twitter</a> or <a href="https://www.linkedin.com/in/gherlein/">LinkedIn</a>, or old fashioned email at gherlein <at> herlein.com.  No spam please.</p>
+<p>And since the perfect is the enemy of the good enough to ship, I suspect I just need to do a 3 node k8s cluster and a helm chart and be done with the MQTT problem.  We&rsquo;ll see how long that takes me to get to!</p>
+<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+<script async src="//static.getclicky.com/101366448.js"></script>
+<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fcicd-thoughts%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fcicd-thoughts%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fcicd-thoughts%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fcicd-thoughts%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fcicd-thoughts%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fcicd-thoughts%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/single-ec2-cdk/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/single-ec2-cdk/">Creating an Ephemeral EC2 Instance for Development for Testing</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/devops-what/">DevOps - All Things To All People - or Not?</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/devops-what/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still? &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Terraform in AWS:  use AMI Names not IDs - and is Terraform the right answer still?</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>06 Jun 2020, 07:21</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/cloud">cloud</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/aws">aws</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/terraform">terraform</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>In AWS the AMI ID for a particular VM image is unique to that region.  But it&rsquo;s name is consistent across AWS.  When building infra-as-code (such as terraform) use the name, not the ID.  And some musings on terraform.  Is it still the right answer for infra-as-code?</p>
+<p>It&rsquo;s been awhile since I did anything real with <a href="https://www.terraform.io/">terraform</a>.  My teams use it heavily at work but a lot of my personal projects lately have not been cloud based.  So yesterday I took a day off (for my own mental health) and did some things that make me happy.  Including some coding.  Which included refreshing a bit on terraform.</p>
+<p>One thing that annoys me about Cannonical is their insistence on using only silly code names (e.g. trusty, precise, focal, etc.) and not including the release numbers (e.g. 16.04, 18.10, 20.04, etc.).  I can&rsquo;t remember the release names, but the numbers are date based and easy to remember.</p>
+<h3 id="ami-ids">AMI IDs</h3>
+<p>To launch an EC2 instance you need to tell AWS what OS to launch.  This is the AMI ID.  Lots of helpful web pages will point you at the <a href="https://cloud-images.ubuntu.com/locator/ec2/">Cannonical lookup page</a> where you can easily find these.
+But AMI IDs are not consistent across regions.  A basic latest 20.04 amd64 Ubuntu image in us-west-2 is ami-004e1dc83789471c1 but in us-east-2 it&rsquo;s ami-0769e4bb31e1db8e4.  If you aspire to <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY principles</a> then having to change a variable to a script just because I want to run the same thing in a different region is really lame.</p>
+<h3 id="ami-names">AMI Names</h3>
+<p>Alas, I learned something yesterday:  the NAME of the image is consistent.  Now, if you look at the Cannonical lookup page it tells you the &ldquo;name&rdquo; is basically their release code name (e.g. trusty, precise, focal, etc).  Not really helpful. Back to Ubuntu&rsquo;s reliance on silly names not numbered releases.</p>
+<p>How do you find the names?  AWS CLI to the rescue:</p>
+<pre tabindex="0"><code>aws ec2 describe-images   --region us-west-2 --filters &#34;Name=name, Values=*ubuntu-*-20.04-amd64-server-*&#34; |grep \&#34;Name
+            &#34;Name&#34;: &#34;ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20200528&#34;,
+            &#34;Name&#34;: &#34;ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20200423-aced0818-eef1-427a-9e04-8ba38bada306-ami-068663a3c619dd892.4&#34;,
+            &#34;Name&#34;: &#34;ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20200423&#34;,
+            &#34;Name&#34;: &#34;ubuntu-pro/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20200423-ae7ed378-8838-4fcf-842d-d1d09b34f116-ami-0118f3de163338756.4&#34;,            
+</code></pre><p>The key is the filter:</p>
+<pre tabindex="0"><code> --filters &#34;Name=name, Values=*ubuntu-*-20.04-amd64-server-*&#34;
+</code></pre><p>If I was looking for another Ubuntu release - or perhaps for arm64 not amd64 - I could change that and find the name.  From what I can tell there&rsquo;s a naming convention they follow, but I&rsquo;m a &ldquo;trust but verify&rdquo; kind of person.</p>
+<p>OK.  Now I know I have a name that I can look up.  The CLI gave me four options.</p>
+<h3 id="dont-need-to-know-the-full-names">Don&rsquo;t Need to Know the Full Names!</h3>
+<p>But I don&rsquo;t actually need to know the full names.  We can do the same kind of search right in terraform, and luckily terraform provides a way to select the most recent AMI, conveniently with this snip:</p>
+<pre tabindex="0"><code>  most_recent = true
+</code></pre><p>Here is a sample terraform that will launch an EC2 instance using the latest Ubuntu 20.04 image:</p>
+<pre tabindex="0"><code>provider &#34;aws&#34; {
+ region = &#34;us-west-2&#34;
+}
+
+data &#34;aws_ami&#34; &#34;ubuntu&#34; {
+  most_recent = true
+
+  filter {
+    name   = &#34;name&#34;
+    values = [&#34;*ubuntu-focal-20.04-amd64-server-*&#34;]
+  }
+
+  filter {
+        name   = &#34;virtualization-type&#34;
+        values = [&#34;hvm&#34;]
+  }
+  owners = [&#34;099720109477&#34;] # Canonical
+
+}
+
+resource &#34;aws_instance&#34; &#34;simple&#34; {
+  ami           = data.aws_ami.ubuntu.id
+  instance_type = &#34;t2.micro&#34;
+
+  tags = {
+    Name = &#34;HelloWorld&#34;
+  }
+}
+
+output &#34;image_id&#34; {
+    value = &#34;${data.aws_ami.ubuntu.id}&#34;
+}
+</code></pre><h3 id="is-terraform-still-the-right-choice-for-infra-as-code">Is Terraform Still the Right Choice for Infra-As-Code?</h3>
+<p>Of course, this is just a toy.  In a production setting I would want to create a VPC, set security groups, etc.  I spent some time yesterday with this.  Terraform is technically the <a href="https://www.terraform.io/docs/configuration/index.html">Hashicorp Configuration Language</a> which isn&rsquo;t hard to learn for basics but non-trivial for large deployments.  I think it&rsquo;s time to revisit the state of all this stuff for infra-as-code.  I&rsquo;m torn.  I&rsquo;m all in for infra-as-code, don&rsquo;t get me wrong.  But terraform is a programming language all of it&rsquo;s own now, and the more you invest in that the farther you get from regular team software Engineers doing the infra deployments.  This tends to push the &ldquo;DevOps&rdquo; team towards a separate group (which is happening in my day job) which is the wrong direction in my opinion.  If your regualr team that codes in golang (one hopes) or java (run away) or node or ruby or whatever&hellip; if that team has to learn a complex new language to deploy their cloud then it adds a LOT to the cognitive load.  They are already writing helm charts, probably, so yet another language might be tipping the boat over.  This is a good reason to wonder again if <a href="https://www.pulumi.com/docs/intro/vs/terraform/">Pulumi</a> might be worth another look.  Or go back to pure python with the <a href="https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html">boto3</a> libraries, or <a href="https://docs.aws.amazon.com/sdk-for-go/api/">golang with the AWS API</a>.  Not cloud-agnostic, but with the deep hooks the cloud vendors have into all of us is there any such thing as multi-cloud?  Really?  Even terraform is so cloud-specific it&rsquo;s another code base - one per cloud.  This is something for further study.</p>
+<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+<script async src="//static.getclicky.com/101366448.js"></script>
+<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fterraform%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fterraform%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fterraform%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fterraform%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fterraform%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fterraform%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/blm/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/blm/">Black Lives Matter</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/docs-as-code/">Docs as Code</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/docs-as-code/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+

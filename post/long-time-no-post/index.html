@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Long Time No Post! RPi Pico, Zephyr, and Whales (oh my) &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Long Time No Post! RPi Pico, Zephyr, and Whales (oh my)</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>26 Oct 2024, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ocean">ocean</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/whales">whales</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/zephyr">zephyr</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/embedded">embedded</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>A short update on my whale song project:  I fell down a few technical rabbit hole!</p>
+<p>Back in May I <a href="https://blog.herlein.com/post/whale-new-tech/">posted</a> that my <a href="https://blog.herlein.com/post/whale-song/">whale song project</a> was delayed to change the underlying technology.  Whew!  It&rsquo;s been an adventure to learn a bunch of new things.</p>
+<img src="https://blog.herlein.com/images/rabbit-hole.jpg" width="50%"/>
+<p>This is all in my spare time, so progress has been much slower than I would like.</p>
+<h2 id="why-not-arduino">Why Not Arduino?</h2>
+<p>Some folks might wonder why I wouldn&rsquo;t just use arduino - even use micropython.  I could.  I might even get a fully working single buoy out made.  It probably would be a fine way to prototype it all, since nearly every sensor has drivers.  I didn&rsquo;t want to do that for two reasons:</p>
+<ul>
+<li>I want to learn how the lower level technology works - my goal is not to get <em>something</em> working as fast as possible</li>
+<li>even if I did get a fast prototype done, I would STILL have to do the work later to make it scalable</li>
+</ul>
+<p>So, off I went down the technical rabblit hole.</p>
+<h1 id="tinygo">TinyGo?</h1>
+<p>I like golang - a lot.  So I wanted to try <a href="https://tinygo.org/">TinyGo</a>.  It was ridiculously easy to get started.  The community around seems strong.  But very quickly I found that many of the sensor chips I wanted to use were not supported yet.</p>
+<p>OK, maybe too new.  What ecosystem has a lot of support?  Enter Zephyr.</p>
+<h1 id="zephyr">Zephyr?</h1>
+<p>All the buzz is around the <a href="https://github.com/zephyrproject-rtos/zephyr">Zephyr RTOS ecosystem</a>.  Huge.  Like, it&rsquo;s overtaking FreeRTOS (which makes me wonder if Amazon made a mistake buying FreeRTOS).</p>
+<p>Everyone told me it had a very steep learning curve.  My initial research dove into device trees (different than Linux device trees) and kconfig (seems to be pretty much like linux kconfig) and a dizzying array of configuration options.  Yes, the learning curve feels like a steep mountain peak in the winter.</p>
+<img src="https://blog.herlein.com/images/steep-mountain.jpg" width="100%"/>
+<p>So I set Zephyr aside and looked for something I could approach more quickly.</p>
+<h2 id="raspberry-pi-pico">Raspberry Pi Pico</h2>
+<p>I fell in love with this <a href="https://www.raspberrypi.com/products/raspberry-pi-pico/">controller</a>.  I have decided not to use it for this project, but damn I love it.  Here&rsquo;s some things I really like about it:</p>
+<ul>
+<li>incredible documentation</li>
+<li>FAST - 133MHz</li>
+<li>dual core</li>
+<li>European company</li>
+<li>widely adopted</li>
+<li>programmable with another pico or the cheap <a href="https://www.raspberrypi.com/products/debug-probe/">picoprobe</a></li>
+<li>did I mention the great docs?</li>
+</ul>
+<p>I really got into this part.  I even built a <a href="https://github.com/gherlein/pico-template">template repository on github</a> that makes it much easier to set up a new project for this board.  I&rsquo;m specifically referring to using this with the <a href="https://github.com/raspberrypi/pico-sdk">Pico SDK</a>.  This is a bare-metal C/C++ SDK that is simply amazing.</p>
+<p>I really, really love this part.  So why did I set it aside?</p>
+<h2 id="its-the-ecosystem-stupid-its-me-thats-stupid">It&rsquo;s the Ecosystem, Stupid (it&rsquo;s me that&rsquo;s stupid)</h2>
+<p>I&rsquo;ve come to learn that the most important thing you should consider about choosing microcontrollers is the ecosysystem - specifically, how many drivers exist for it, and how much energy is in the system by chip vendors.  I spent a pile of time trying to port drivers to the Pico and&hellip; well, darn.  It takes a LOT of time, and frankly is not what I most like to do.  Digging around in the registers of a new chip isn&rsquo;t my cup of tea.</p>
+<p>I tried integrationg an <a href="https://github.com/gherlein/pico-imulib">IMU</a> and also a <a href="https://github.com/gherlein/pico-pong">LoRa radio</a>.  I found myself spending all my time - what very small time I have for this project - doing things that are simply not core to the project.</p>
+<p>I also discovered that many of the drivers easily available are from chips from 2-5 years ago.  And some (many?) of those are &ldquo;not recommended for new designs.&rdquo;  Some are flat out no longer being made (though are actively cloned).  The chips I would want to put into a product I&rsquo;d make next year are simply not supported yet.  Makes sense, if you think about it.  The open source ecosystem supports what is already mainstream, and the drivers mature enough to be in the SDK examples are going to be for older stuff.</p>
+<p>So I decided, reluctantly, to shift directions. Despite loving the SDK, the lack of drivers had me using all my time trying to create them. But it&rsquo;s almost November and that means it&rsquo;s almost time for the whales to migrate south again and&hellip;  I don&rsquo;t have a thing to put in the water.  I can&rsquo;t even talk to the sensor chips I want to use.</p>
+<p>Oh, this rabbit hole gets deeper.  It&rsquo;s not just a change in SDK!</p>
+<h1 id="zephyr-1">Zephyr!</h1>
+<p>The things slowing me down were lack of drivers for newer chips. Zephyr has support for many of those newer chips.  So I bit the bullet and did enough experimenting that I got a variety of &ldquo;hello world&rdquo; and &ldquo;blinky&rdquo; working on the Pico.  Yay!  Super fun.  The things that were simple in the SDK took some work in Zephyr - like making the Pico Probe work.  But I plowed ahead and made it work.</p>
+<p>Now that I had a way to tak to sensors, I needed a radio.  Specifically, I need a radio link that I can use to (eventually) take a boat to get near a whale recording bouy and download the song.  Ideally it could tell me over a long-range radio that it actually had data for me to collect.  So I was looking at a LoRa radio for alerting and either WiFi or Bluetooth for data transfer.  The Pico W has a radio on the board already integrated and my casual testing showed it worked well.</p>
+<p>And that&rsquo;s when I hit a brick wall.</p>
+<img src="https://blog.herlein.com/images/brick-wall.jpg" width="100%"/>
+<p>To do anything that isn&rsquo;t super basic with the Pico radio under Zephyr was going to be either impossible, or take a lot of time.  I was back at that same point I was at with the Pico SDK.</p>
+<p>I can definitely understand why folks trying to &ldquo;move up&rdquo; to more professional tooling for embedded systems give up and just go back to Arduino.  Damn, this stuff is hard.</p>
+<h2 id="enter-nordic">Enter Nordic</h2>
+<p>This should have been obvious to me from day one, but <a href="https://www.nordicsemi.com/About-us">Nordic Semiconductor</a> is THE vedor that has the best support in Zephyr.  They integrated it into their entire toolchain.  They have whole swaths of training videos.  All aimed at their chips, of course.</p>
+<p>Well, in for a penny in for a pound!  I bought a <a href="https://www.amazon.com/gp/product/B0DDQ71LR6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">3 pack of nRF52840-based boards by Seeed Studio</a> and got to work.</p>
+<p>An things worked pretty much out of the box.  Of course, by this time I was already a lot more familiar with Zephyr and that helped.  I did have to dig around in my parts bin for a J-Link probe, and I had to buy a <a href="https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/">Seeed Studio Expansion Base Board</a> to expose the SWD pins.  More learning.</p>
+<p>And now an entire universe of radio options opens up to me, include <a href="https://en.wikipedia.org/wiki/Bluetooth_mesh_networking">Bluetooth Mesh</a>.  It&rsquo;s possible that over water, with some directional antennas I could string a set of bouys together in a mesh.  If that works, I would not even need to go out in a boat to get the wale song recordings.  I might solve a Phase 2 problem in Phase 1!</p>
+<p>It does sometimes feel like I&rsquo;m just sprialling, but as long as I a getting closer and closer to a solution it&rsquo;s fine!  And as long as I&rsquo;m learning, it&rsquo;s totally fine.</p>
+<img src="https://blog.herlein.com/images/spiral.jpeg" width="100%"/>
+<p>Is there a bottom to this rabbit hole?  We can only move forward and fine out!</p>
+<h2 id="playing-with-tinygo-aagain">Playing with TinyGo Aagain?</h2>
+<p>Yes, I am in a spiral of sorts.  In the months I was learning all this a whole bunch of new sensors/drivers were added to TinyGo.  If I get some time I may go back and play there, just for fun!</p>
+<p>This is what happens when you are more interested in learning than actually completing a project.  But the whales only migrate once a year, so at some point I need to get something in the water!</p>
+<p></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p>
+</noscript></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2flong-time-no-post%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2flong-time-no-post%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2flong-time-no-post%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2flong-time-no-post%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2flong-time-no-post%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2flong-time-no-post%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/chrome-predictor/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/chrome-predictor/">Changing Chrome Address Bar Suggestions</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/foundations-excellence/">Foundations of High-Performance Engineering Teams</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/foundations-excellence/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

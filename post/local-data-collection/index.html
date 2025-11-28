@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Local Data Collection and Command Distribution &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Local Data Collection and Command Distribution</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>27 Nov 2021, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/udp">UDP</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/networking">networking</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/iot">IoT</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>I&rsquo;m revisiting why I don&rsquo;t like MQTT, and what I am doing about it.</p>
+<p>I wrote in June about <a href="https://blog.herlein.com/post/mqtt/">my thoughts on MQTT</a>.  I had another case where my MQTT broker went down.  The Ubuntu host it was running on did some
+stupid Cannonical auto-update and it basically hung with no working network.  Different control system than before though.  In June it was bug zappers that were not getting
+controlled.  This time it was outside lights.  Hello Darkness, my old friend.  As in I could not see in my own backyard.</p>
+<p>This is not that big a deal, really.  Quick fix.  But it flared all my design instincts and I wanted to throw things again.  Single Point of Failure (SPoF).  My whole
+reliabillity posture is sitting on the uptime of a single host.  My network is pretty solid (Ubiquity gear).  And I have more than one AP to cover, powered by separate
+PoE switches.  My network is redundant.  The host running my MQTT broker is my weakest link.</p>
+<img src="https://blog.herlein.com/images/spof.jpeg" width="100%" />
+<p>Supposedly there is a commercial broker that has a failover option.  So what.  I&rsquo;m not paying for for proprietary software to solve this.  Besides, I am increasingly
+convinced that MQTT is simply not the answer.  What does it give us?  Decoupling, and one to many.  The sender can post a message and then (if retain messages is configured)
+you can have many readers get that message.  For sensor data readers may take immediate action or shuttle that data off to an indexed data store.  For command messages
+the device reads the command and acts.  The sender and readers are not directly coupled (e.g. HTTP interaction).</p>
+<h2 id="a-better-solution">A Better Solution</h2>
+<p>I can get the decoupling in a far easier way.  I&rsquo;ve been playing with this idea for a long time and now is the time to really build it out.</p>
+<p>Broadcast UDP.</p>
+<p>Your reaction to reading was almost certainly negative.  Oh, it&rsquo;s unreliable.  Oh, you have to do extra work.  Bah.  Let me explain.</p>
+<h2 id="advantage--lightweight-low-impact">Advantage:  Lightweight, Low Impact</h2>
+<p>Sending a broadcast UDP packet is lightweight.  The network itself becomes your broker.  Yes, because the packets are broadcast every node on the subnet
+has to process it.  Even if I send one reading per SECOND it&rsquo;s really no traffic at all.  Let&rsquo;s say I have 50 devices (I don&rsquo;t).  50 packets per second at 1K payload each is
+basically nothing.  On my network I have a VLAN set up just for my IoT devices, so sending a broadcast message actually has an even smaller impact.</p>
+<p>If you have been reading my blog, you know that I&rsquo;ve done a lot of playing around with ESP8266 and <a href="https://blog.herlein.com/post/freertos-helper-esp32/">ESP32</a> these past few years.  I&rsquo;m getting away from those in favor of
+using actual Linux boards <a href="https://blog.herlein.com/post/beaglebone-getting-started/">(like the Beaglebone that I wrote about recently)</a>.  But I also am super fond of <a href="https://blog.herlein.com/post/tasmota/">Tasmota</a>.<br>
+It&rsquo;s written in the Arduino framework but it&rsquo;s all super-lightweight.  I bet that I can wedge UDP support even into that code base.  UDP requires almost no code and it&rsquo;s easy.</p>
+<h2 id="risk--data-loss">Risk:  Data Loss</h2>
+<p>Some UDP packets may get lost.  Not likely on my pretty good network, but yes.  They might.  Even if I had 3% packet loss though I&rsquo;m not worried.  If I am sending a packet per second and lose 2 seconds worth of data
+it&rsquo;s not going to change anything.  And as I mention below, if I lose a command packet then it won&rsquo;t matter either because the declarative control system will fix it.  That&rsquo;s what it&rsquo;s designed to do.</p>
+<h2 id="prove-it--udp-code-is-easy">Prove It:  UDP Code is Easy</h2>
+<p>I pulled together a simple C file yesterday while watching TV.  63 lines of code to build a simple CLI program to send a broadcast packet.  Read the code <a href="https://github.com/gherlein/sendudp">here</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>beaglebone:~&gt; ./sendudp <span style="color:#ae81ff">8000</span> <span style="color:#e6db74">&#34;This is just a test&#34;</span>
+</span></span></code></pre></div><p>And the output in tcpdump:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mars:~&gt; sudo tcpdump -i enxd0374505d925 -n <span style="color:#e6db74">&#34;broadcast&#34;</span> and port <span style="color:#ae81ff">8000</span> -s <span style="color:#ae81ff">1024</span> -X
+</span></span><span style="display:flex;"><span>tcpdump: verbose output suppressed, use -v or -vv <span style="color:#66d9ef">for</span> full protocol decode
+</span></span><span style="display:flex;"><span>listening on enxd0374505d925, link-type EN10MB <span style="color:#f92672">(</span>Ethernet<span style="color:#f92672">)</span>, capture size <span style="color:#ae81ff">1024</span> bytes
+</span></span><span style="display:flex;"><span>06:51:50.676886 IP 192.168.2.104.43532 &gt; 255.255.255.255.8000: UDP, length <span style="color:#ae81ff">19</span>
+</span></span><span style="display:flex;"><span>    0x0000:  <span style="color:#ae81ff">4500</span> 002f 99db <span style="color:#ae81ff">4000</span> <span style="color:#ae81ff">4011</span> ddd2 c0a8 <span style="color:#ae81ff">0268</span>  E../..@.@......h
+</span></span><span style="display:flex;"><span>    0x0010:  ffff ffff aa0c 1f40 001b 29c3 <span style="color:#ae81ff">5468</span> <span style="color:#ae81ff">6973</span>  .......@..<span style="color:#f92672">)</span>.This
+</span></span><span style="display:flex;"><span>    0x0020:  <span style="color:#ae81ff">2069</span> <span style="color:#ae81ff">7320</span> 6a75 <span style="color:#ae81ff">7374</span> <span style="color:#ae81ff">2061</span> <span style="color:#ae81ff">2074</span> <span style="color:#ae81ff">6573</span> <span style="color:#ae81ff">7400</span>  .is.just.a.test.
+</span></span><span style="display:flex;"><span>    0x0030:  <span style="color:#ae81ff">0000</span>                                     ..
+</span></span></code></pre></div><h2 id="why-in-c">Why in C?</h2>
+<p>I tried to do this simple example in typescript, or even javascript.  Wow.  The Beaglebone is really low power.  It&rsquo;s slow.  Developing on it with a scripting language is painful, and I can only see
+doom in my future if I try to do multiple things on it in a scripting language.  C is still my favorite language, it&rsquo;s showing why again.  It was easy to build, it&rsquo;s insanely fast and it was fun to write.</p>
+<p>Also, this approach adheres to the <a href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix Philosophy</a>.  You should stop and go read that.  Seriously.  I&rsquo;ll wait.  We need more of that thinking these days.</p>
+<h2 id="how-does-this-solve-redundancy">How Does this Solve Redundancy?</h2>
+<p>All by iteself it doesn&rsquo;t.  What do I have now with MQTT?  A bunch of devices, and a broker.  The new model is the same, with the network itself being the broker.  Only now I can add another program to read the packets and
+it can operate completely independently of the other.</p>
+<h3 id="listeners">Listeners</h3>
+<p>For data coming from sensors it&rsquo;s simple.  The sensor sends data broadcast.  Both listeners &ldquo;hear&rdquo; it and log it away where it needs to go (I&rsquo;m thinking of using <a href="https://aws.amazon.com/cloudwatch/">Amazon CloudWatch</a> for this,
+or maybe <a href="https://aws.amazon.com/timestream/">Amazon TimeStream</a>).  But regardless, I can have duplicate listeners and control the logic upstream on whether I just keep duplicate data sets or filter dups post-collection.</p>
+<h3 id="actuators">Actuators</h3>
+<p>For commands being sent to actuators using a UDP packet is equally easy.  I can have more than one command node and it will &ldquo;just work.&rdquo;  Today I have a cronjob sending MQTT messages to the broker at specified times.  It&rsquo;s not
+ideal.  Not only is the broker a SPoF as I mentioned above, but as a control system it&rsquo;s really too simple.  What I want is a declarative system where I say &ldquo;I want this device to be in this state over these periods&rdquo; and the controller
+actively checks the device state and commands it to be in that state if it isn&rsquo;t.  This solves another problem of using UDP as well:  a lost command is no big deal, since the next time the controller checks the device state and finds it
+not to be in the desired state, it will send another command to fix it.  Self-healing (this is how Kubernetes works, by the way).  This is theoretically possible on top of MQTT, but then why do I need that complex message bus?</p>
+<h3 id="addressing">Addressing</h3>
+<p>The astute reader will wonder &ldquo;what about addressing?&rdquo;  The UDP broadcast goes to everything.  So the device needs a way to determine &ldquo;is this for me?&rdquo;  Today over MQTT every device has a name.  So I don&rsquo;t think it would be too hard to just
+use that name for things that are directed messages.  The data is there to use, it&rsquo;s just a matter of deciding the formating.</p>
+<h3 id="security">Security</h3>
+<p>MQTT supports options for encryption and authentication.  Those are easy to add too.  The UDP packet could be either encrypted or signed (HMAC) with a shared key and you&rsquo;d get the same level of protection that MQTT offers today.</p>
+<h2 id="tasmota-changes">Tasmota Changes?</h2>
+<p>I am very fond of <a href="https://tasmota.github.io/docs/">Tasmota</a> and especially the <a href="https://shelly.cloud/products/shelly-1-smart-home-automation-relay/">Shelly 1</a>.  Today these are either serial, HTTP, or MQTT based for commands.  To make
+my dream system come true I&rsquo;ll have to look at adding in a UDP option.</p>
+<h2 id="incremental-development">Incremental Development?</h2>
+<p>Some new ideas are basically &ldquo;all or nothing&rdquo; and you find yourself in a chicken-before-the-egg scenario.  It&rsquo;s clear that I could start this UDP solution for my <a href="https://blog.herlein.com/post/tasmota/">swimming pool sensor</a> problem first.
+I&rsquo;m already working on using a <a href="https://blog.herlein.com/post/beaglebone-getting-started/">Beaglebone Black</a> for collecting all that sensor data.  I can start there, and then migrate more devices as I make progress with Tasmota.</p>
+<h2 id="practical-example">Practical Example</h2>
+<p>On my beaglebone I wrote a script:</p>
+<pre tabindex="0"><code>beaglebone:~&gt; cat ./sendtemp.sh
+TEMP=`cat /sys/class/hwmon/hwmon0/temp1_input`
+TEMPC=`awk &#34;BEGIN {print $TEMP/1000}&#34;`
+echo $TEMPC
+./sendudp 8000 $TEMPC
+</code></pre><p>and if you run it you can get the data over the network:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mars:~&gt; sudo tcpdump -i enxd0374505d925 -n <span style="color:#e6db74">&#34;broadcast&#34;</span> and port <span style="color:#ae81ff">8000</span> -s <span style="color:#ae81ff">1024</span> -X
+</span></span><span style="display:flex;"><span>tcpdump: verbose output suppressed, use -v or -vv <span style="color:#66d9ef">for</span> full protocol decode
+</span></span><span style="display:flex;"><span>listening on enxd0374505d925, link-type EN10MB <span style="color:#f92672">(</span>Ethernet<span style="color:#f92672">)</span>, capture size <span style="color:#ae81ff">1024</span> bytes
+</span></span><span style="display:flex;"><span>08:26:56.897086 IP 192.168.2.104.51066 &gt; 255.255.255.255.8000: UDP, length <span style="color:#ae81ff">6</span>
+</span></span><span style="display:flex;"><span>	0x0000:  <span style="color:#ae81ff">4500</span> <span style="color:#ae81ff">0022</span> 9b82 <span style="color:#ae81ff">4000</span> <span style="color:#ae81ff">4011</span> dc38 c0a8 <span style="color:#ae81ff">0268</span>  E..<span style="color:#e6db74">&#34;..@.@..8...h
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	0x0010:  ffff ffff c77a 1f40 000e c268 3233 2e34  .....z.@...h23.4
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	0x0020:  3337 0000 0000 0000 0000 0000 0000 0000  37..............
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">	0x0030:  0000                                     ..
+</span></span></span></code></pre></div><h2 id="next-steps">Next Steps</h2>
+<p>Now I need to write a data collector for the UDP packets and come up with a common payload format (that includes addressing and multiple data elements).  I&rsquo;m leaning towards a JSON payload format, to be honest, and then
+using nodejs for the controller.  The host for the controller software will be an Intel Nuc, most likely, or maybe another lower end linux box like a Beaglebone.  The Nuc&rsquo;s are wonderful but they do use about 14W
+<a href="https://blog.herlein.com/post/power/">last time I checked</a>.  A Beaglebone supposedly uses 6W.  I don&rsquo;t have my <a href="https://smile.amazon.com/gp/product/B0777H8MS8/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&amp;psc=1">power meter</a> handy - had to
+order a new one - so I&rsquo;m going off the spec sheet.  As I dial my power use back more and more I may just shift to Beaglebones for these tasks.</p>
+<p>At a high level the controller won&rsquo;t be all that hard.  It basically will listen for data packets and forward them off, probably to Amazon Cloudwatch.  I did a <a href="https://github.com/gherlein/gonetmon">lot of work</a>
+on <a href="https://prometheus.io/">Prometheus</a> a few years back, but I really don&rsquo;t like their pull model of data collection.  It&rsquo;s the opposite of what I am doing in my new approach.  So the aggregation/visualization part
+still needs some thinking about.</p>
+<p><a title="Google Analytics Alternative" href="https://clicky.com/101366448"><img alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a></p>
+<script async src="//static.getclicky.com/101366448.js"></script>
+<p><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101366448ns.gif" /></p></noscript></p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocal-data-collection%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/beaglebone-getting-started/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/beaglebone-getting-started/">Beaglebone Black - Getting Started</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/amazon-blog/">My First Amazon Blog... ML/AI Chatbot over the Phone!</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/amazon-blog/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+
