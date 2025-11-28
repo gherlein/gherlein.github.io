@@ -257,6 +257,7 @@
 <p>That&rsquo;s exactly what I did with <a href="https://github.com/gherlein/gocat">gocat</a> – a Go library for controlling the YardStick One sub-GHz RF transceiver. And Claude Code was instrumental in making it happen.</p>
 <h2 id="the-challenge-porting-rfcat-to-go">The Challenge: Porting RFCat to Go</h2>
 <p>The <a href="https://greatscottgadgets.com/yardstickone/">YardStick One</a> (YS1) is a fantastic piece of hardware for RF research. It&rsquo;s based on a CC1111 radio transceiver that can transmit and receive on frequencies from 300-928 MHz. The existing tooling is <a href="https://github.com/atlas0fd00m/rfcat">RFCat</a>, a Python library that&rsquo;s been around for years and works well.</p>
+<img src="https://blog.herlein.com/images/ys1.png" width="50%" />
 <p>But Python has its limitations for production deployments. Managing Python environments across systems is a pain. The GIL limits concurrency. And shipping a Python application means shipping a runtime. Go, on the other hand, compiles to a single static binary. No dependencies. No virtualenvs. Just run it.</p>
 <p>The problem? Porting RFCat to Go meant understanding:</p>
 <ul>
@@ -268,6 +269,7 @@
 <p>This isn&rsquo;t a &ldquo;read the API docs and write some wrapper code&rdquo; kind of project. This is reverse engineering.</p>
 <h2 id="a-safe-space-for-dangerous-work">A Safe Space for Dangerous Work</h2>
 <p>After my experience with devcontainers, I knew I wanted something more flexible for hardware work. The YardStick One needs USB access, which means device passthrough. And I wanted to be able to reference the original RFCat Python code while writing the Go replacement – but I definitely didn&rsquo;t want Claude accidentally modifying that code.</p>
+<img src="https://blog.herlein.com/images/claude-code.png" width="50%" />
 <p>Enter <a href="https://github.com/gherlein/localdev">localdev</a>.</p>
 <p>localdev is a Podman container setup I built specifically for this kind of work. The key insight: <strong>mount directories with different permissions for different purposes</strong>.</p>
 <p>Here&rsquo;s what my gocat development environment looked like:</p>
