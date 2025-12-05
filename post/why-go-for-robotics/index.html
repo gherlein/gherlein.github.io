@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Why Go for Robotics? &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Why Go for Robotics?</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>05 Dec 2025, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/go">go</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/golang">golang</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/robotics">robotics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/python">python</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/c&#43;&#43;">c&#43;&#43;</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/programming">programming</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Python dominates robotics today. C++ is the serious choice. But I&rsquo;m starting to think we&rsquo;ve been sleeping on Go. Here&rsquo;s why I&rsquo;m actively exploring it.</p>
+<h2 id="the-python-problem">The Python Problem</h2>
+<p>Look, I get it. Python is everywhere in robotics. ROS has massive Python support. Every machine learning tutorial starts with Python. There are libraries for <em>everything</em>. It&rsquo;s fast to learn, fast to prototype, and there&rsquo;s an army of people contributing packages.</p>
+<p>But here&rsquo;s the thing: Python doesn&rsquo;t have the performance needed for real robotics.</p>
+<p>&ldquo;But Greg, you can throw more hardware at it!&rdquo; Sure. And now you&rsquo;ve just increased your costs to scale. When you&rsquo;re trying to build a lot of robots, that extra $50 per board adds up fast. The economics don&rsquo;t work. And still, even on a faster board are you REALLY happy with how fast your python runs?</p>
+<p>Python is fast to learn and prototype, but getting it to be <em>really</em> reliable? That&rsquo;s hard. The very thing that makes it accessible — all those libraries — is also a liability. You don&rsquo;t know the quality of most of them. Seriously. Some random person published a package three years ago. Does it work? Is it maintained? <em>Does it have trojans inside?</em></p>
+<p>People worry about not reading code that AI writes. But have they read all the modules that are included in what they write? Especially in Python or JavaScript? Hmmm.</p>
+<p>And here&rsquo;s the kicker: any real work in Python is going to require modules that use C under the hood for performance. NumPy, OpenCV, PyTorch — all C or C++ inside. Now you have cross-compile complexity, since so much of robotics runs on ARM. You&rsquo;re not really &ldquo;just using Python&rdquo; anymore. You&rsquo;re managing a multi-language stack whether you like it or not.</p>
+<h2 id="the-c-reality">The C++ Reality</h2>
+<p>C++ is heavily used in production robotics today, and for good reason. It&rsquo;s fast. There&rsquo;s a lot of mature code out there, and it&rsquo;s likely to be better quality than your average Python package.</p>
+<p>But hoo boy, C++ is hard to master.</p>
+<p>Is it really faster than Go? For most robotics workloads, the answer is &ldquo;maybe marginally, but probably not enough to matter.&rdquo; Go is <em>fast</em>. Compiled, statically typed, garbage collected (yes, GC, but with low latency that&rsquo;s been getting better every release).</p>
+<p>The bigger issue with C++ is that getting all that code to play nicely together is a lot of work. Build systems, dependency management, ABI compatibility — it&rsquo;s a full-time job just wrangling the toolchain.</p>
+<p>And here&rsquo;s something I&rsquo;ve been noticing: AI assist is less viable in C++ since today&rsquo;s LLMs admit they are weak in C++. They&rsquo;ll happily generate Python or Go all day, but ask them for complex C++ and they start hallucinating memory leaks and template metaprogramming nightmares.</p>
+<h2 id="gos-secret-weapon-simplicity">Go&rsquo;s Secret Weapon: Simplicity</h2>
+<p>Go is a vastly simpler language than C++. That&rsquo;s not a bug, it&rsquo;s a feature.</p>
+<p>Getting multi-threaded code right in C++ requires an extremely high level of skill. Mutexes, condition variables, memory ordering, lock-free data structures — even experienced developers get this wrong. And in robotics, you <em>need</em> concurrency. Sensors, actuators, planning loops, communication — it&rsquo;s all happening simultaneously.</p>
+<p>Go&rsquo;s concurrency model is just&hellip; better. Goroutines and channels make concurrent programming almost <em>easy</em>. I&rsquo;ve written concurrent code in both, and the difference in cognitive load is massive. In Go, I can focus on the actual problem. In C++, I&rsquo;m constantly thinking about whether I&rsquo;m going to deadlock or race.</p>
+<h2 id="the-aiml-intersection">The AI/ML Intersection</h2>
+<p>The future of robotics intersects heavily with AI and machine learning. Today, a lot of that work happens in Python. And where Python isn&rsquo;t fast enough, it drops down to C++.</p>
+<p>But here&rsquo;s the challenge: that means you&rsquo;re managing complexity across two very different languages, each with their own ecosystems, build systems, and deployment strategies.</p>
+<p>Why not do more foundational robotics and AI work in Go?</p>
+<p>Go has decent ML libraries emerging. TensorFlow has Go bindings. ONNX runtime works with Go. Is it as mature as Python? No. But the ecosystem is growing, and you get single-binary deployment, easy cross-compilation (hello, ARM!), and performance that&rsquo;s close to C++ without the complexity tax.</p>
+<h2 id="what-im-exploring">What I&rsquo;m Exploring</h2>
+<p>This is what I&rsquo;m actively investigating. I don&rsquo;t have all the answers yet.</p>
+<p>Can Go really handle the performance requirements of real-time robotic control? What about interfacing with existing ROS ecosystems? How mature are the hardware interface libraries?</p>
+<p>These are open questions. But I&rsquo;m increasingly convinced that the current Python-for-prototyping-C++-for-production pipeline has more friction than it needs to. Go sits in an interesting middle ground — faster than Python, simpler than C++, with excellent tooling and cross-compilation built in from day one.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The robotics stack is ripe for reconsideration. Python&rsquo;s ease of use comes with hidden costs. C++&rsquo;s performance comes with complexity that slows everything down. Go offers an intriguing alternative that combines reasonable performance with genuine simplicity.</p>
+<p>I&rsquo;m not saying everyone should throw out their existing stacks and rewrite everything in Go. That would be crazy. But for new projects, especially ones where you want to move fast <em>and</em> deploy reliably at scale? Go deserves a serious look.</p>
+<p>I&rsquo;ll keep exploring this and share what I learn. If you&rsquo;re doing robotics in Go, or thinking about it, drop me a note. I&rsquo;d love to hear what&rsquo;s working and what isn&rsquo;t.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fwhy-go-for-robotics%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fwhy-go-for-robotics%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fwhy-go-for-robotics%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fwhy-go-for-robotics%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fwhy-go-for-robotics%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fwhy-go-for-robotics%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/claude-code-gocat/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/claude-code-gocat/">Using Claude Code to Build gocat</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+

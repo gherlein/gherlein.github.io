@@ -7,8 +7,50 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 28 Nov 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://blog.herlein.com/tags/c&#43;&#43;/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://blog.herlein.com/tags/go/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>https://blog.herlein.com/tags/golang/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://blog.herlein.com/tags/programming/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://blog.herlein.com/tags/python/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robotics</title>
+      <link>https://blog.herlein.com/tags/robotics/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/robotics/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agentic Coding</title>
       <link>https://blog.herlein.com/tags/agentic-coding/</link>
@@ -28,13 +70,6 @@
       <link>https://blog.herlein.com/tags/claude/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/claude/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>https://blog.herlein.com/tags/go/</link>
-      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/go/</guid>
       <description></description>
     </item>
     <item>
@@ -84,13 +119,6 @@
       <link>https://blog.herlein.com/tags/skills/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/skills/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Golang</title>
-      <link>https://blog.herlein.com/tags/golang/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/golang/</guid>
       <description></description>
     </item>
     <item>
@@ -504,13 +532,6 @@
       <link>https://blog.herlein.com/tags/pair-programming/</link>
       <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/pair-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://blog.herlein.com/tags/programming/</link>
-      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/programming/</guid>
       <description></description>
     </item>
     <item>
@@ -1155,13 +1176,6 @@
       <link>https://blog.herlein.com/tags/micro-services/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/micro-services/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Robotics</title>
-      <link>https://blog.herlein.com/tags/robotics/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/robotics/</guid>
       <description></description>
     </item>
     <item>

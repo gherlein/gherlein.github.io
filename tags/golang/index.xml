@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Go for Robotics?</title>
+      <link>https://blog.herlein.com/post/why-go-for-robotics/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/why-go-for-robotics/</guid>
+      <description>&lt;p&gt;Python dominates robotics today. C++ is the serious choice. But I&amp;rsquo;m starting to think we&amp;rsquo;ve been sleeping on Go. Here&amp;rsquo;s why I&amp;rsquo;m actively exploring it.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Agent Building: Ollama Hosted Models Token per Second</title>
       <link>https://blog.herlein.com/post/agent-building/</link>
