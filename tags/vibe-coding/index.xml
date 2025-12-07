@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vibe-Coding on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/vibe-coding/</link>
+    <description>Recent content in Vibe-Coding on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/vibe-coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vibe Coding Book Review</title>
+      <link>https://blog.herlein.com/post/vibe-coding-review/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/vibe-coding-review/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t like the term &amp;ldquo;vibe coding.&amp;rdquo;  I strongly prefer &amp;ldquo;AI-assisted software engineering.&amp;rdquo;  But regardless of what you call it, Gene Kim and Steve Yegge have written a book about it - and their journey from skeptics to true believers is the most interesting part.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
