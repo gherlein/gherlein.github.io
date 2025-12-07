@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 28 Nov 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Putting Claude in Container Jail: My localdev Setup</title>
+      <link>https://blog.herlein.com/post/localdev-container-jail/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/localdev-container-jail/</guid>
+      <description>&lt;p&gt;I let Claude Code do whatever it wants without asking permission.&lt;/p&gt;&#xA;&lt;p&gt;Before you spit out your coffee: I keep it in a jail. A container jail.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Using Claude Code to Build gocat</title>
       <link>https://blog.herlein.com/post/claude-code-gocat/</link>

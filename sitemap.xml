@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
+    <lastmod>2025-12-07T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/agents/</loc>
     <lastmod>2025-12-07T00:00:01-08:00</lastmod>
   </url><url>
@@ -11,13 +14,28 @@
     <loc>https://blog.herlein.com/tags/books/</loc>
     <lastmod>2025-12-07T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/claude/</loc>
+    <lastmod>2025-12-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/containers/</loc>
+    <lastmod>2025-12-07T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2025-12-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/podman/</loc>
     <lastmod>2025-12-07T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/</loc>
     <lastmod>2025-12-07T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/post/localdev-container-jail/</loc>
+    <lastmod>2025-12-07T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-12-07T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2025-12-07T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/vibe-coding-review/</loc>
@@ -47,19 +65,10 @@
     <loc>https://blog.herlein.com/post/why-go-for-robotics/</loc>
     <lastmod>2025-12-05T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
-    <lastmod>2025-11-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/claude/</loc>
-    <lastmod>2025-11-28T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/hardware/</loc>
     <lastmod>2025-11-28T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/rf/</loc>
-    <lastmod>2025-11-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2025-11-28T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/claude-code-gocat/</loc>

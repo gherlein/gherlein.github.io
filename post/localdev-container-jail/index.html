@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Putting Claude in Container Jail: My localdev Setup &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Putting Claude in Container Jail: My localdev Setup</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>07 Dec 2025, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ai">ai</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/claude">claude</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/containers">containers</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/podman">podman</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/agentic-coding">agentic coding</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>I let Claude Code do whatever it wants without asking permission.</p>
+<p>Before you spit out your coffee: I keep it in a jail. A container jail.</p>
+<p>I&rsquo;ve written before about <a href="https://blog.herlein.com/post/claude-code/">using Claude Code with dangerous permissions</a> inside VS Code devcontainers. That approach works great, but I wanted something more flexible. Something I could use from the command line. Something that didn&rsquo;t require VS Code at all. Something with all my favorite tools pre-installed.</p>
+<p>So I built <a href="https://github.com/gherlein/localdev">localdev</a>.</p>
+<h2 id="what-is-localdev">What is localdev?</h2>
+<p>It&rsquo;s a feature-rich containerized development environment specifically designed for running Claude Code CLI (and other AI assistants) in &ldquo;dangerous mode&rdquo; without risking your host system. Think of it as a padded room where Claude can go absolutely wild, and the worst that happens is you blow away the container and start fresh.</p>
+<p>The key insight: if you&rsquo;re going to give an AI full permissions, make sure there&rsquo;s nothing important it can touch. Mount only what you need. Keep everything else locked away.</p>
+<h2 id="why-podman-not-docker">Why Podman, Not Docker?</h2>
+<p>I use Podman instead of Docker. A few reasons:</p>
+<ol>
+<li><strong>Rootless by default</strong> – No daemon running as root on your system</li>
+<li><strong>Better security model</strong> – User namespaces keep things properly isolated</li>
+<li><strong>Drop-in Docker compatibility</strong> – Same commands, same Containerfiles</li>
+<li><strong>No daemon required</strong> – It just&hellip; runs</li>
+</ol>
+<p>Oh, and it&rsquo;s completely open source.</p>
+<p>On Ubuntu/Debian:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install podman
+</span></span></code></pre></div><p>Or if you&rsquo;ve cloned the repo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make pre
+</span></span></code></pre></div><p>For macOS users, you&rsquo;ll want to give the Podman machine adequate memory – I recommend at least 16GB if you&rsquo;ve got it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>podman machine stop
+</span></span><span style="display:flex;"><span>podman machine set --memory <span style="color:#ae81ff">16384</span>
+</span></span><span style="display:flex;"><span>podman machine start
+</span></span></code></pre></div><h2 id="whats-in-the-container">What&rsquo;s In the Container?</h2>
+<p>Everything I want in a Linux development environment:</p>
+<p><strong>Languages:</strong></p>
+<ul>
+<li>Go 1.25.0 with full toolchain – golangci-lint, staticcheck, Delve debugger</li>
+<li>Node.js via NVM (multiple versions: 14.16.0, 18.18.2, LTS)</li>
+<li>Python 3 with pip and uv</li>
+<li>Java (Eclipse Temurin JDK 17)</li>
+</ul>
+<p><strong>Development Tools:</strong></p>
+<ul>
+<li>Git and GitHub CLI (<code>gh</code>)</li>
+<li>Atlassian CLI (<code>acli</code>) for Jira integration</li>
+<li>Podman (yes, containers in containers!)</li>
+<li>Homebrew for installing whatever else I need</li>
+</ul>
+<p><strong>Documentation and Media:</strong></p>
+<ul>
+<li>Marp for slide decks</li>
+<li>mermaid-cli for diagrams</li>
+<li>md-to-pdf for markdown conversion</li>
+<li>ffmpeg, ImageMagick, qpdf</li>
+</ul>
+<p><strong>AI Assistants:</strong></p>
+<ul>
+<li>Claude Code CLI with automatic <code>/claude</code> directory integration</li>
+<li>GitHub Copilot CLI</li>
+</ul>
+<p>And here&rsquo;s the beautiful part: I created aliases so I don&rsquo;t even have to remember the dangerous flags:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>alias clauded<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;claude --dangerously-skip-permissions&#34;</span>
+</span></span><span style="display:flex;"><span>alias copilotd<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;copilot --allow-all-tools&#34;</span>
+</span></span></code></pre></div><p>Just type <code>clauded</code> and you&rsquo;re off to the races.</p>
+<h2 id="the-mount-strategy">The Mount Strategy</h2>
+<p>The real magic is in how directories get mounted. The <code>localdev</code> script handles this intelligently:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./localdev                                    <span style="color:#75715e"># Current directory</span>
+</span></span><span style="display:flex;"><span>./localdev /path/to/repo1 /path/to/repo2      <span style="color:#75715e"># With external mounts</span>
+</span></span><span style="display:flex;"><span>LOCALDEV_MOUNTS<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/path1;/path2&#34;</span> ./localdev    <span style="color:#75715e"># Via environment variable</span>
+</span></span></code></pre></div><p>Here&rsquo;s what happens:</p>
+<ul>
+<li><strong><code>/&lt;project-name&gt;/</code></strong> → Your current working directory (read-write)</li>
+<li><strong><code>/claude/</code></strong> → Host&rsquo;s <code>~/.claude</code> directory (read-write) – this is where your global CLAUDE.md and configs live</li>
+<li><strong><code>/external/&lt;name&gt;/</code></strong> → Any external directories (read-only)</li>
+</ul>
+<p>That read-only bit is crucial. When I&rsquo;m porting code from another project, I mount the reference code as read-only. Claude can see it, learn from it, but it can&rsquo;t accidentally modify the source I&rsquo;m studying. I&rsquo;ve been burned before by AI tools &ldquo;helpfully&rdquo; making changes to code I didn&rsquo;t want touched.</p>
+<h2 id="the-global-claude-config">The Global Claude Config</h2>
+<p>One thing I really like: your host&rsquo;s <code>~/.claude</code> directory automatically mounts to <code>/claude</code> inside the container. This means:</p>
+<ul>
+<li>Your global CLAUDE.md instructions persist across projects</li>
+<li>Shared configurations and slash commands are available</li>
+<li>The Claude CLI wrapper automatically adds <code>--add-dir /claude</code></li>
+</ul>
+<p>So you can have project-specific instructions in your repo AND global instructions that apply everywhere. Best of both worlds.</p>
+<h2 id="my-actual-workflow">My Actual Workflow</h2>
+<p>Inside the container, it looks like this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /&lt;project-name&gt;
+</span></span><span style="display:flex;"><span>cat /claude/CLAUDE.md         <span style="color:#75715e"># Check global instructions</span>
+</span></span><span style="display:flex;"><span>cat /external/ref-code/file   <span style="color:#75715e"># Reference that read-only external code</span>
+</span></span><span style="display:flex;"><span>clauded                        <span style="color:#75715e"># Start Claude in dangerous mode</span>
+</span></span><span style="display:flex;"><span>go build ./...
+</span></span><span style="display:flex;"><span>npm test
+</span></span></code></pre></div><p>I wrote extensively about using this setup for real work in my <a href="https://blog.herlein.com/post/claude-code-gocat/">gocat project</a> – porting RFCat from Python to Go. The container let me mount the original Python code read-only while giving Claude full access to my Go workspace. The result? A fully functional RF communication library with 100% packet success rates.</p>
+<h2 id="performance-notes">Performance Notes</h2>
+<p>First run of the container is slow – like 30-60 seconds slow. That&rsquo;s because:</p>
+<ul>
+<li>User namespace setup</li>
+<li>Overlay filesystem initialization</li>
+<li>Device permission checks for USB passthrough</li>
+</ul>
+<p>Subsequent runs are much faster. If you&rsquo;re impatient like me, just grab another cup of coffee on that first spin-up.</p>
+<h2 id="security-model">Security Model</h2>
+<p>Let me be clear about what isolation you actually get:</p>
+<ul>
+<li><strong>Filesystem</strong>: Only mounted directories are accessible</li>
+<li><strong>Network</strong>: Isolated container networking</li>
+<li><strong>User</strong>: Non-root <code>developer</code> account inside the container</li>
+<li><strong>User namespaces</strong>: <code>--userns=keep-id</code> maintains proper file ownership</li>
+<li><strong>Read-only mounts</strong>: External directories are protected from modification</li>
+</ul>
+<p>This isn&rsquo;t a VM – a determined attacker could probably escape. But for protecting yourself from AI oopsies? It&rsquo;s more than enough. Claude can <code>rm -rf /</code> all day long and the worst that happens is you restart the container.</p>
+<h2 id="best-practices">Best Practices</h2>
+<p>After using this setup for months, here&rsquo;s what I&rsquo;ve learned:</p>
+<ol>
+<li>
+<p><strong>Mount only what you need</strong> – Don&rsquo;t mount your home directory. Don&rsquo;t mount <code>~/.ssh</code>. Just don&rsquo;t.</p>
+</li>
+<li>
+<p><strong>Use read-only mounts for reference</strong> – Any code you&rsquo;re studying but not modifying should be <code>:ro</code></p>
+</li>
+<li>
+<p><strong>Version control everything</strong> – Git is your backup plan when Claude gets enthusiastic</p>
+</li>
+<li>
+<p><strong>Rebuild often</strong> – Containers are cheap. Debugging weird state is expensive. When in doubt, <code>make clean &amp;&amp; make</code></p>
+</li>
+<li>
+<p><strong>Keep secrets out</strong> – No API keys in environment variables, no credentials files mounted</p>
+</li>
+</ol>
+<h2 id="building-and-running">Building and Running</h2>
+<p>Clone the repo and build:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/gherlein/localdev
+</span></span><span style="display:flex;"><span>cd localdev
+</span></span><span style="display:flex;"><span>make              <span style="color:#75715e"># Standard build with platform detection</span>
+</span></span><span style="display:flex;"><span>make no-cache     <span style="color:#75715e"># Build without cache if something&#39;s weird</span>
+</span></span></code></pre></div><p>Then just run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./localdev
+</span></span></code></pre></div><p>Or if you prefer the Makefile:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>make run
+</span></span></code></pre></div><h2 id="conclusion">Conclusion</h2>
+<p>Look, I get it. Running AI tools with dangerous permissions sounds&hellip; well, dangerous. And it is – on your host system. But inside a container with carefully controlled mounts? It&rsquo;s actually pretty safe.</p>
+<p>The workflow is liberating. No more &ldquo;mother may I&rdquo; for every file listing. No more clicking approve fifty times to run a test suite. Just pure, uninterrupted AI-assisted coding.</p>
+<p>And if something goes wrong? Blow away the container and start fresh. That&rsquo;s the beauty of disposable environments.</p>
+<p>If you&rsquo;re doing serious AI-assisted development, you owe it to yourself to try a setup like this. The productivity gains from not having to babysit every permission request are substantial.</p>
+<p>Just remember: containers only, minimal mounts, version control everything. Follow those rules and you can let Claude run wild without losing sleep.</p>
+<p>Check out <a href="https://github.com/gherlein/localdev">localdev on GitHub</a> and give it a spin. Let me know what you think.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2flocaldev-container-jail%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2flocaldev-container-jail%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocaldev-container-jail%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2flocaldev-container-jail%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocaldev-container-jail%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2flocaldev-container-jail%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/vibe-coding-review/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/vibe-coding-review/">Vibe Coding Book Review</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

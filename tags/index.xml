@@ -10,6 +10,13 @@
     <lastBuildDate>Sun, 07 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Agentic Coding</title>
+      <link>https://blog.herlein.com/tags/agentic-coding/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Agents</title>
       <link>https://blog.herlein.com/tags/agents/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
@@ -28,6 +35,34 @@
       <link>https://blog.herlein.com/tags/books/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://blog.herlein.com/tags/claude/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containers</title>
+      <link>https://blog.herlein.com/tags/containers/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/containers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podman</title>
+      <link>https://blog.herlein.com/tags/podman/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/podman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     <item>
@@ -80,20 +115,6 @@
       <description></description>
     </item>
     <item>
-      <title>Agentic Coding</title>
-      <link>https://blog.herlein.com/tags/agentic-coding/</link>
-      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/claude/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Hardware</title>
       <link>https://blog.herlein.com/tags/hardware/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
@@ -105,13 +126,6 @@
       <link>https://blog.herlein.com/tags/rf/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/rf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Fri, 28 Nov 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/technical/</guid>
       <description></description>
     </item>
     <item>
