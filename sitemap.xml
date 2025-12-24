@@ -2,11 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/deployment/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/go/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
-    <lastmod>2025-12-24T09:00:01-08:00</lastmod>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/languages/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/llm/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-12-24T09:00:01-08:00</lastmod>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/programming/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/programming-languages-intersection/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/python/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/rust/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/typescript/</loc>
+    <lastmod>2025-12-24T01:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/food/</loc>
     <lastmod>2025-12-24T00:00:01-08:00</lastmod>
@@ -22,12 +55,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/san-francisco/</loc>
     <lastmod>2025-12-24T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2025-12-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/career/</loc>
     <lastmod>2025-12-14T00:00:01-08:00</lastmod>
@@ -74,16 +101,7 @@
     <loc>https://blog.herlein.com/tags/c&#43;&#43;/</loc>
     <lastmod>2025-12-05T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/go/</loc>
-    <lastmod>2025-12-05T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/golang/</loc>
-    <lastmod>2025-12-05T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/programming/</loc>
-    <lastmod>2025-12-05T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/python/</loc>
     <lastmod>2025-12-05T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/robotics/</loc>
@@ -365,9 +383,6 @@
     <loc>https://blog.herlein.com/tags/future/</loc>
     <lastmod>2024-01-21T08:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/llm/</loc>
-    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/pair-programming/</loc>
     <lastmod>2024-01-21T08:00:00-08:00</lastmod>
   </url><url>
@@ -597,9 +612,6 @@
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/projen/</loc>
-    <lastmod>2021-12-30T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/typescript/</loc>
     <lastmod>2021-12-30T00:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/embedded-linux/</loc>
