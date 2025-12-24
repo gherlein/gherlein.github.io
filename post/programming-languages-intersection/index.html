@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.152.2">
 
-  <title>Programming Languages in 2025: Popularity, Jobs, LLM Proficiency, and Deployment Complexity &middot; Greg Herlein</title>
+  <title>Programming Languages in 2026 &middot; Greg Herlein</title>
 
     
 
@@ -211,7 +211,7 @@
 
 
 <div class="header">
-  <h1>Programming Languages in 2025: Popularity, Jobs, LLM Proficiency, and Deployment Complexity</h1>
+  <h1>Programming Languages in 2026</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -243,6 +243,8 @@
     
       <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/deployment">deployment</a>&nbsp;&#47;
     
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/concurrency">concurrency</a>&nbsp;&#47;
+    
       <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/typescript">typescript</a>&nbsp;&#47;
     
       <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/python">python</a>&nbsp;&#47;
@@ -257,7 +259,8 @@
 
 </div>
 
-  <p>Four factors now drive language choice: developer adoption, job market demand, LLM code generation quality, and deployment complexity. Here&rsquo;s how they intersect.</p>
+  <h2 id="popularity-jobs-llm-proficiency-concurrency-complexity-and-deployment-complexity">Popularity, Jobs, LLM Proficiency, Concurrency Complexity, and Deployment Complexity</h2>
+<p>Five factors now drive language choice: developer adoption, job market demand, LLM code generation quality, concurrency handling, and deployment complexity. Here&rsquo;s how they intersect.</p>
 <h2 id="the-rankings">The Rankings</h2>
 <h3 id="popularity-github-octoverse-2025-tiobe-stack-overflow">Popularity (GitHub Octoverse 2025, TIOBE, Stack Overflow)</h3>
 <table>
@@ -470,6 +473,165 @@
   </tbody>
 </table>
 <p><strong>94% of LLM-generated code errors are type-related.</strong> TypeScript catches these at compile time.</p>
+<h3 id="concurrency-complexity-easiest-to-hardest">Concurrency Complexity (Easiest to Hardest)</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Rank</th>
+          <th>Language</th>
+          <th>Complexity</th>
+          <th>Model</th>
+          <th>Why</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>Go</td>
+          <td>Easiest</td>
+          <td>Goroutines + Channels</td>
+          <td>Built-in, lightweight, millions of goroutines</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>Kotlin</td>
+          <td>Easy</td>
+          <td>Coroutines</td>
+          <td>Structured concurrency, suspend functions</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>C#</td>
+          <td>Easy</td>
+          <td>async/await + TPL</td>
+          <td>Well-designed, Task Parallel Library</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>JavaScript</td>
+          <td>Easy</td>
+          <td>Event Loop + async/await</td>
+          <td>Single-threaded, no race conditions possible</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>TypeScript</td>
+          <td>Easy</td>
+          <td>Same as JavaScript</td>
+          <td>Single-threaded, type-safe async</td>
+      </tr>
+      <tr>
+          <td>6</td>
+          <td>Java</td>
+          <td>Moderate</td>
+          <td>Threads + Virtual Threads</td>
+          <td>Mature but verbose, Project Loom helps</td>
+      </tr>
+      <tr>
+          <td>7</td>
+          <td>Python</td>
+          <td>Hard</td>
+          <td>GIL + asyncio</td>
+          <td>GIL blocks true parallelism, multiprocessing complex</td>
+      </tr>
+      <tr>
+          <td>8</td>
+          <td>Rust</td>
+          <td>Hard</td>
+          <td>Ownership + async</td>
+          <td>Compile-time safety, but steep learning curve</td>
+      </tr>
+      <tr>
+          <td>9</td>
+          <td>C++</td>
+          <td>Very Hard</td>
+          <td>std::thread + mutexes</td>
+          <td>Manual management, race conditions easy</td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>C</td>
+          <td>Hardest</td>
+          <td>pthreads</td>
+          <td>Completely manual, error-prone</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Concurrency model comparison:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>Model</th>
+          <th>Languages</th>
+          <th>Pros</th>
+          <th>Cons</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Goroutines</td>
+          <td>Go</td>
+          <td>Lightweight, simple syntax</td>
+          <td>Less control than threads</td>
+      </tr>
+      <tr>
+          <td>Coroutines</td>
+          <td>Kotlin, Python</td>
+          <td>Structured, cancellable</td>
+          <td>Language-specific</td>
+      </tr>
+      <tr>
+          <td>async/await</td>
+          <td>JS, TS, C#, Rust</td>
+          <td>Readable, widely adopted</td>
+          <td>Colored functions problem</td>
+      </tr>
+      <tr>
+          <td>Virtual Threads</td>
+          <td>Java 21+</td>
+          <td>Lightweight, familiar API</td>
+          <td>New, ecosystem catching up</td>
+      </tr>
+      <tr>
+          <td>OS Threads</td>
+          <td>C, C++, Java</td>
+          <td>Full control, true parallelism</td>
+          <td>Heavy, race condition risks</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Go&rsquo;s concurrency advantage:</strong></p>
+<ul>
+<li>Goroutines use ~2KB stack (vs ~1MB for OS threads)</li>
+<li>Can run millions of concurrent goroutines</li>
+<li>Channels provide safe communication between goroutines</li>
+<li>Built into language from day one, not an afterthought</li>
+<li>&ldquo;Don&rsquo;t communicate by sharing memory; share memory by communicating&rdquo;</li>
+</ul>
+<p><strong>Python&rsquo;s concurrency challenges:</strong></p>
+<ul>
+<li>GIL (Global Interpreter Lock) prevents true multi-threading</li>
+<li>256-core server? Python uses 1 core for threads</li>
+<li>Python 3.13 makes GIL optional (experimental)</li>
+<li>Workarounds: multiprocessing (IPC overhead), asyncio (I/O only)</li>
+<li>6x faster with GIL disabled in benchmarks</li>
+</ul>
+<p><strong>Rust&rsquo;s concurrency trade-off:</strong></p>
+<ul>
+<li>Ownership model prevents data races at compile time</li>
+<li>&ldquo;Fearless concurrency&rdquo; - if it compiles, no race conditions</li>
+<li>Steeper learning curve than Go</li>
+<li>Better for CPU-bound, safety-critical applications</li>
+<li>Benchmarks: 15ms vs Go&rsquo;s 20ms for 1,000 concurrent requests</li>
+</ul>
+<p><strong>JavaScript&rsquo;s simple model:</strong></p>
+<ul>
+<li>Single-threaded event loop - no race conditions possible</li>
+<li>async/await for I/O-bound operations</li>
+<li>Web Workers for CPU-bound (limited communication)</li>
+<li>Great for I/O-heavy web servers</li>
+<li>Not suitable for CPU-intensive parallel work</li>
+</ul>
 <h3 id="deployment-complexity-easiest-to-hardest">Deployment Complexity (Easiest to Hardest)</h3>
 <table>
   <thead>
@@ -566,7 +728,7 @@
       <tr>
           <td>Complexity Factors</td>
           <td>Python, JS, C++</td>
-          <td>Dependencies, ARM vs x86, versions</td>
+          <td>Dependencies, ARM vs x86</td>
       </tr>
   </tbody>
 </table>
@@ -594,7 +756,7 @@
 <li>Python/JS: need matching native extensions per platform</li>
 </ul>
 <h2 id="architecture">Architecture</h2>
-<p><strong>Language Tiers:</strong></p>
+<p><strong>Language Tiers (5 factors):</strong></p>
 <table>
   <thead>
       <tr>
@@ -606,17 +768,27 @@
   <tbody>
       <tr>
           <td>1</td>
-          <td>Go, TypeScript, Python</td>
-          <td>Best overall across all four factors</td>
+          <td>Go</td>
+          <td>Best deployment + best concurrency</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>TypeScript</td>
+          <td>Best popularity + catches LLM errors</td>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>Python</td>
+          <td>Best LLM accuracy + AI/ML ecosystem</td>
       </tr>
       <tr>
           <td>2</td>
-          <td>Rust, Java, C#</td>
+          <td>Rust, Java, C#, Kotlin</td>
           <td>Trade-offs between factors</td>
       </tr>
       <tr>
           <td>3</td>
-          <td>C++, JavaScript, PHP</td>
+          <td>C++, JavaScript, PHP, C</td>
           <td>Specialist domains</td>
       </tr>
   </tbody>
@@ -632,15 +804,15 @@
   <tbody>
       <tr>
           <td>Go</td>
-          <td>Best deployment + good LLM support</td>
+          <td>Best deployment + best concurrency + good LLM</td>
       </tr>
       <tr>
           <td>TypeScript</td>
-          <td>Best popularity + catches LLM errors</td>
+          <td>Best popularity + catches LLM errors + easy async</td>
       </tr>
       <tr>
           <td>Python</td>
-          <td>Best LLM accuracy + AI/ML ecosystem</td>
+          <td>Best LLM accuracy + AI/ML (accept concurrency pain)</td>
       </tr>
   </tbody>
 </table>
@@ -655,9 +827,9 @@
   </thead>
   <tbody>
       <tr>
-          <td>Easy deployment</td>
+          <td>High concurrency + deploy</td>
           <td>Go</td>
-          <td>Single binary, cross-compile</td>
+          <td>Goroutines + single binary</td>
       </tr>
       <tr>
           <td>AI/ML work</td>
@@ -667,43 +839,45 @@
       <tr>
           <td>Web development</td>
           <td>TypeScript</td>
-          <td>Popularity, type safety</td>
+          <td>Popularity, type safety, easy async</td>
+      </tr>
+      <tr>
+          <td>CPU-bound parallel</td>
+          <td>Rust</td>
+          <td>Fearless concurrency, performance</td>
+      </tr>
+      <tr>
+          <td>Enterprise apps</td>
+          <td>Java or C#</td>
+          <td>Mature ecosystem, virtual threads</td>
       </tr>
       <tr>
           <td>Systems programming</td>
           <td>Rust or C++</td>
           <td>Memory control, performance</td>
       </tr>
-      <tr>
-          <td>Enterprise apps</td>
-          <td>Java or C#</td>
-          <td>Mature ecosystem, tooling</td>
-      </tr>
-      <tr>
-          <td>Cloud infrastructure</td>
-          <td>Go</td>
-          <td>Small containers, fast startup</td>
-      </tr>
   </tbody>
 </table>
 <h2 id="tier-analysis">Tier Analysis</h2>
 <p><strong>Tier 1: Go, TypeScript, Python</strong></p>
 <ul>
-<li>Go: Easiest deployment, single binary, great for CLI/services/cloud</li>
-<li>TypeScript: #1 popularity, catches 94% of LLM errors, but needs Node.js</li>
-<li>Python: Best LLM accuracy, AI/ML essential, but deployment pain</li>
+<li>Go: Easiest deployment AND concurrency, single binary, goroutines</li>
+<li>TypeScript: #1 popularity, catches 94% of LLM errors, simple async model</li>
+<li>Python: Best LLM accuracy, AI/ML essential, but concurrency and deployment pain</li>
 </ul>
-<p><strong>Tier 2: Rust, Java, C#</strong></p>
+<p><strong>Tier 2: Rust, Java, C#, Kotlin</strong></p>
 <ul>
-<li>Rust: Excellent deployment (single binary), but steeper learning curve</li>
-<li>Java: Mature ecosystem, JVM overhead but &ldquo;write once run anywhere&rdquo;</li>
-<li>C#: Good tooling, self-contained publish option</li>
+<li>Rust: Excellent deployment, fearless concurrency, steep learning curve</li>
+<li>Java: Mature ecosystem, virtual threads in Java 21+</li>
+<li>C#: Good tooling, excellent async/await</li>
+<li>Kotlin: Coroutines are elegant, Android ecosystem</li>
 </ul>
-<p><strong>Tier 3: C++, JavaScript, PHP</strong></p>
+<p><strong>Tier 3: C++, JavaScript, PHP, C</strong></p>
 <ul>
-<li>C++: Performance-critical, complex builds, ABI issues</li>
-<li>JavaScript: Foundation for TS, node_modules bloat</li>
-<li>PHP: Web legacy, straightforward but limited use cases</li>
+<li>C++: Performance-critical, complex concurrency</li>
+<li>JavaScript: Foundation for TS, single-threaded limits</li>
+<li>PHP: Web legacy, limited concurrency</li>
+<li>C: Maximum control, maximum complexity</li>
 </ul>
 <h2 id="recommendations">Recommendations</h2>
 <p><strong>Career:</strong></p>
@@ -724,59 +898,59 @@
       <tr>
           <td>Production</td>
           <td>Add Go</td>
-          <td>Deployment simplicity</td>
+          <td>Deployment + concurrency</td>
       </tr>
       <tr>
           <td>Enterprise</td>
           <td>Add Java or C#</td>
-          <td>Corporate demand</td>
+          <td>Corporate demand, virtual threads</td>
       </tr>
       <tr>
           <td>Systems</td>
-          <td>Rust or C++</td>
-          <td>Performance-critical work</td>
+          <td>Rust</td>
+          <td>Safety + performance</td>
       </tr>
   </tbody>
 </table>
-<p><strong>By deployment scenario:</strong></p>
+<p><strong>By workload type:</strong></p>
 <table>
   <thead>
       <tr>
-          <th>Scenario</th>
+          <th>Workload</th>
           <th>Best Choice</th>
           <th>Why</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>CLI tools</td>
-          <td>Go or Rust</td>
-          <td>Single binary distribution</td>
-      </tr>
-      <tr>
-          <td>Microservices</td>
+          <td>High concurrency</td>
           <td>Go</td>
-          <td>Small containers, fast startup</td>
+          <td>Millions of goroutines, simple syntax</td>
       </tr>
       <tr>
-          <td>Web frontend</td>
-          <td>TypeScript</td>
-          <td>Bundled, no runtime dependency</td>
+          <td>I/O-bound servers</td>
+          <td>Go, TS, C#</td>
+          <td>Efficient async models</td>
       </tr>
       <tr>
-          <td>Web backend</td>
-          <td>Go, TS, or Python</td>
-          <td>In order of deployment ease</td>
+          <td>CPU-bound parallel</td>
+          <td>Rust</td>
+          <td>Fearless concurrency, best perf</td>
       </tr>
       <tr>
           <td>AI/ML</td>
           <td>Python</td>
-          <td>Accept complexity, unavoidable</td>
+          <td>Accept GIL, use multiprocessing</td>
+      </tr>
+      <tr>
+          <td>Web frontend</td>
+          <td>TypeScript</td>
+          <td>Single-threaded is fine</td>
       </tr>
       <tr>
           <td>Embedded/IoT</td>
           <td>Rust or C</td>
-          <td>Cross-compilation essential</td>
+          <td>Control over resources</td>
       </tr>
   </tbody>
 </table>
@@ -801,14 +975,14 @@
           <td>Type hints improve accuracy</td>
       </tr>
       <tr>
-          <td>Infrastructure</td>
+          <td>Concurrent services</td>
           <td>Go</td>
-          <td>Good LLM support + easy deploy</td>
+          <td>Good LLM support + easy concurrency</td>
       </tr>
       <tr>
           <td>Systems code</td>
-          <td>C++/Rust</td>
-          <td>Verify output manually</td>
+          <td>Rust</td>
+          <td>Verify ownership/lifetime manually</td>
       </tr>
   </tbody>
 </table>
@@ -823,10 +997,12 @@
 <li><a href="https://arxiv.org/html/2503.17181v1">arXiv LLM Language Bias</a></li>
 <li><a href="https://bitfieldconsulting.com/posts/rust-vs-go">Bitfield Consulting - Rust vs Go</a></li>
 <li><a href="https://dev.to/exactful/how-to-avoid-python-dependency-hell-with-venv-and-pip-freeze-1k0h">Python Dependency Hell</a></li>
-<li><a href="https://eli.thegreenplace.net/2020/you-dont-need-virtualenv-in-go/">Go virtualenv comparison</a></li>
+<li><a href="https://deepu.tech/concurrency-in-modern-languages-final/">Concurrency Comparison - Deepu</a></li>
+<li><a href="https://www.infoworld.com/article/2338862/python-moves-to-remove-the-gil-and-boost-concurrency.html">Python GIL Removal</a></li>
+<li><a href="https://openjdk.org/jeps/444">Java Virtual Threads</a></li>
 </ul>
 <h2 id="bottom-line">Bottom Line</h2>
-<p>The four-factor analysis reveals a nuanced picture:</p>
+<p>The five-factor analysis reveals a nuanced picture:</p>
 <table>
   <thead>
       <tr>
@@ -848,13 +1024,24 @@
           <td>Python</td>
       </tr>
       <tr>
+          <td>Concurrency Ease</td>
+          <td>Go</td>
+      </tr>
+      <tr>
           <td>Deployment Ease</td>
           <td>Go</td>
       </tr>
   </tbody>
 </table>
-<p><strong>The practical takeaway:</strong> Python + TypeScript covers the widest opportunity space, but if you&rsquo;re building production services that need reliable deployment across architectures, Go deserves serious consideration. Its combination of single-binary deployment, good LLM support, and growing job market makes it the dark horse of 2025.</p>
-<p>For AI/ML work, accept Python&rsquo;s deployment complexity - it&rsquo;s the cost of the best LLM accuracy and ecosystem. For everything else, the deployment story should factor into your decision more than it historically has.</p>
+<p><strong>Go wins two factors.</strong> Its combination of simple concurrency (goroutines), easy deployment (single binary), and good LLM support makes it the strongest all-around choice for production services in 2026.</p>
+<p><strong>The practical takeaway:</strong></p>
+<ul>
+<li><strong>Python + TypeScript</strong> covers the widest job opportunity space</li>
+<li><strong>Go</strong> is the dark horse - best for production services needing concurrency and deployment simplicity</li>
+<li><strong>Rust</strong> when you need maximum performance and safety, accepting the learning curve</li>
+<li><strong>Python&rsquo;s concurrency limitations</strong> (GIL) are a real constraint for CPU-bound parallel work</li>
+</ul>
+<p>For AI/ML work, accept Python&rsquo;s complexity - it&rsquo;s unavoidable. For high-concurrency production services, Go&rsquo;s advantages compound: simple concurrency model, easy deployment, good LLM support, and a growing job market.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">

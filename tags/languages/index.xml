@@ -10,11 +10,11 @@
     <lastBuildDate>Wed, 24 Dec 2025 01:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/languages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Programming Languages in 2025: Popularity, Jobs, LLM Proficiency, and Deployment Complexity</title>
+      <title>Programming Languages in 2026</title>
       <link>https://blog.herlein.com/post/programming-languages-intersection/</link>
       <pubDate>Wed, 24 Dec 2025 01:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/programming-languages-intersection/</guid>
-      <description>&lt;p&gt;Four factors now drive language choice: developer adoption, job market demand, LLM code generation quality, and deployment complexity. Here&amp;rsquo;s how they intersect.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;popularity-jobs-llm-proficiency-concurrency-complexity-and-deployment-complexity&#34;&gt;Popularity, Jobs, LLM Proficiency, Concurrency Complexity, and Deployment Complexity&lt;/h2&gt;&#xA;&lt;p&gt;Five factors now drive language choice: developer adoption, job market demand, LLM code generation quality, concurrency handling, and deployment complexity. Here&amp;rsquo;s how they intersect.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
