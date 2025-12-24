@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/food/</loc>
+    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/foreign-cinema/</loc>
+    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/life/</loc>
+    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/restaurants/</loc>
+    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/san-francisco/</loc>
+    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-12-24T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
     <lastmod>2025-12-14T00:00:01-08:00</lastmod>
   </url><url>
@@ -14,16 +38,7 @@
     <loc>https://blog.herlein.com/post/coding-is-solved/</loc>
     <lastmod>2025-12-14T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2025-12-14T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-12-14T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/software-engineering/</loc>
-    <lastmod>2025-12-14T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2025-12-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
@@ -175,21 +190,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/whales/</loc>
     <lastmod>2025-01-09T09:30:29-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/food/</loc>
-    <lastmod>2024-12-24T00:00:01-08:08</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/foreign-cinema/</loc>
-    <lastmod>2024-12-24T00:00:01-08:08</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/life/</loc>
-    <lastmod>2024-12-24T00:00:01-08:08</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/restaurants/</loc>
-    <lastmod>2024-12-24T00:00:01-08:08</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/san-francisco/</loc>
-    <lastmod>2024-12-24T00:00:01-08:08</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/engineering/</loc>
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
