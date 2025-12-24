@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Llm on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/llm/</link>
-    <description>Recent content in Llm on Greg Herlein</description>
+    <title>Deployment on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/deployment/</link>
+    <description>Recent content in Deployment on Greg Herlein</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
     <lastBuildDate>Wed, 24 Dec 2025 00:00:01 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.herlein.com/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming Languages in 2025: Popularity, Jobs, LLM Proficiency, and Deployment Complexity</title>
       <link>https://blog.herlein.com/post/programming-languages-intersection/</link>
       <pubDate>Wed, 24 Dec 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/programming-languages-intersection/</guid>
       <description>&lt;p&gt;Four factors now drive language choice: developer adoption, job market demand, LLM code generation quality, and deployment complexity. Here&amp;rsquo;s how they intersect.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Embrace AI Pairing: The Future is Already Here</title>
-      <link>https://blog.herlein.com/post/embrace-ai-pairing/</link>
-      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/embrace-ai-pairing/</guid>
-      <description>&lt;p&gt;Let&amp;rsquo;s talk about AI pair programming - not the hypothetical future version, but what we have right now in 2024. I&amp;rsquo;ve spent the last year working extensively with AI coding assistants, and I have some thoughts to share.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
