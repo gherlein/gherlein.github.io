@@ -261,343 +261,198 @@
 
   <h2 id="popularity-jobs-llm-proficiency-concurrency-complexity-and-deployment-complexity">Popularity, Jobs, LLM Proficiency, Concurrency Complexity, and Deployment Complexity</h2>
 <p>Five factors now drive language choice: developer adoption, job market demand, LLM code generation quality, concurrency handling, and deployment complexity. Here&rsquo;s how they intersect.</p>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+  font-size: 0.95em;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  text-align: left;
+}
+th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+tr:hover {
+  background-color: #f0f0f0;
+}
+td:first-child {
+  text-align: center;
+  font-weight: 500;
+}
+</style>
 <h2 id="the-rankings">The Rankings</h2>
+<p>Below each ranking, a tier diagram shows languages grouped by performance: <strong>green</strong> (top tier), <strong>yellow</strong> (middle tier), <strong>orange</strong> (lower tier).</p>
 <h3 id="popularity-github-octoverse-2025-tiobe-stack-overflow">Popularity (GitHub Octoverse 2025, TIOBE, Stack Overflow)</h3>
 <table>
   <thead>
-      <tr>
-          <th>Rank</th>
-          <th>Language</th>
-          <th>Key Data</th>
-      </tr>
+    <tr>
+      <th>Rank</th>
+      <th>Language</th>
+      <th>Key Data</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>1</td>
-          <td>TypeScript</td>
-          <td>#1 GitHub (Aug 2025), 2.64M contributors, +66.6% YoY</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>Python</td>
-          <td>TIOBE Language of Year 2024, +48.8% YoY</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>JavaScript</td>
-          <td>62% developer usage, +24.8% YoY (slowest)</td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>Java</td>
-          <td>Enterprise staple</td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>C++</td>
-          <td>Top 6 = 80% of new repos</td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>C#</td>
-          <td>TIOBE 2025 contender</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>C</td>
-          <td>Systems foundation</td>
-      </tr>
-      <tr>
-          <td>8</td>
-          <td>Go</td>
-          <td>Replaced PHP in TIOBE top 10</td>
-      </tr>
-      <tr>
-          <td>9</td>
-          <td>Rust</td>
-          <td>83% favorability, 9 years running</td>
-      </tr>
-      <tr>
-          <td>10</td>
-          <td>PHP</td>
-          <td>Dropped from TIOBE top 10</td>
-      </tr>
+    <tr><td>1</td><td>TypeScript</td><td>#1 GitHub (Aug 2025), 2.64M contributors, +66.6% YoY</td></tr>
+    <tr><td>2</td><td>Python</td><td>TIOBE Language of Year 2024, +48.8% YoY</td></tr>
+    <tr><td>3</td><td>JavaScript</td><td>62% developer usage, +24.8% YoY (slowest)</td></tr>
+    <tr><td>4</td><td>Java</td><td>Enterprise staple</td></tr>
+    <tr><td>5</td><td>C++</td><td>Top 6 = 80% of new repos</td></tr>
+    <tr><td>6</td><td>C#</td><td>TIOBE 2025 contender</td></tr>
+    <tr><td>7</td><td>C</td><td>Systems foundation</td></tr>
+    <tr><td>8</td><td>Go</td><td>Replaced PHP in TIOBE top 10</td></tr>
+    <tr><td>9</td><td>Rust</td><td>83% favorability, 9 years running</td></tr>
+    <tr><td>10</td><td>PHP</td><td>Dropped from TIOBE top 10</td></tr>
   </tbody>
 </table>
+<svg viewBox="0 0 500 200" style="max-width:500px;margin:1em auto;display:block;">
+  <!-- Outer ring (orange) -->
+  <ellipse cx="250" cy="100" rx="240" ry="90" fill="#ffcc80" stroke="#e65100" stroke-width="2"/>
+  <text x="250" y="30" text-anchor="middle" font-size="11" fill="#bf360c">Go, Rust, PHP</text>
+  <!-- Middle ring (yellow) -->
+  <ellipse cx="250" cy="100" rx="160" ry="60" fill="#fff59d" stroke="#f9a825" stroke-width="2"/>
+  <text x="250" y="60" text-anchor="middle" font-size="11" fill="#f57f17">Java, C++, C#, C</text>
+  <!-- Inner circle (green) -->
+  <ellipse cx="250" cy="100" rx="80" ry="40" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+  <text x="250" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">TypeScript</text>
+  <text x="250" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">Python, JavaScript</text>
+  <text x="250" y="180" text-anchor="middle" font-size="10" fill="#666">Popularity Tiers</text>
+</svg>
 <p>TypeScript overtaking Python/JavaScript is the biggest language shift in a decade.</p>
 <h3 id="job-demand-devjobsscanner-12m-postings-jan-2023---dec-2024">Job Demand (DevJobsScanner, 12M+ postings, Jan 2023 - Dec 2024)</h3>
 <table>
   <thead>
-      <tr>
-          <th>Rank</th>
-          <th>Language</th>
-          <th>Share</th>
-          <th>Postings</th>
-      </tr>
+    <tr>
+      <th>Rank</th>
+      <th>Language</th>
+      <th>Share</th>
+      <th>Postings</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>1</td>
-          <td>JS/TS</td>
-          <td>31%</td>
-          <td>651K</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>Python</td>
-          <td>20%</td>
-          <td>408K</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>Java</td>
-          <td>15%</td>
-          <td>~300K</td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>C#</td>
-          <td>12%</td>
-          <td>246K</td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>PHP</td>
-          <td>10%</td>
-          <td>~200K</td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>C/C++</td>
-          <td>8%</td>
-          <td>~160K</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>Go</td>
-          <td>5%</td>
-          <td>~100K</td>
-      </tr>
-      <tr>
-          <td>8</td>
-          <td>Ruby</td>
-          <td>3%</td>
-          <td>~60K</td>
-      </tr>
-      <tr>
-          <td>9</td>
-          <td>Kotlin</td>
-          <td>2%</td>
-          <td>~40K</td>
-      </tr>
-      <tr>
-          <td>10</td>
-          <td>Rust</td>
-          <td>1%</td>
-          <td>~20K</td>
-      </tr>
+    <tr><td>1</td><td>JS/TS</td><td>31%</td><td>651K</td></tr>
+    <tr><td>2</td><td>Python</td><td>20%</td><td>408K</td></tr>
+    <tr><td>3</td><td>Java</td><td>15%</td><td>~300K</td></tr>
+    <tr><td>4</td><td>C#</td><td>12%</td><td>246K</td></tr>
+    <tr><td>5</td><td>PHP</td><td>10%</td><td>~200K</td></tr>
+    <tr><td>6</td><td>C/C++</td><td>8%</td><td>~160K</td></tr>
+    <tr><td>7</td><td>Go</td><td>5%</td><td>~100K</td></tr>
+    <tr><td>8</td><td>Ruby</td><td>3%</td><td>~60K</td></tr>
+    <tr><td>9</td><td>Kotlin</td><td>2%</td><td>~40K</td></tr>
+    <tr><td>10</td><td>Rust</td><td>1%</td><td>~20K</td></tr>
   </tbody>
 </table>
+<svg viewBox="0 0 500 200" style="max-width:500px;margin:1em auto;display:block;">
+  <!-- Outer ring (orange) -->
+  <ellipse cx="250" cy="100" rx="240" ry="90" fill="#ffcc80" stroke="#e65100" stroke-width="2"/>
+  <text x="250" y="30" text-anchor="middle" font-size="11" fill="#bf360c">Ruby, Kotlin, Rust</text>
+  <!-- Middle ring (yellow) -->
+  <ellipse cx="250" cy="100" rx="160" ry="60" fill="#fff59d" stroke="#f9a825" stroke-width="2"/>
+  <text x="250" y="60" text-anchor="middle" font-size="11" fill="#f57f17">C#, PHP, C/C++, Go</text>
+  <!-- Inner circle (green) -->
+  <ellipse cx="250" cy="100" rx="80" ry="40" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+  <text x="250" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">JS/TS, Python</text>
+  <text x="250" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">Java</text>
+  <text x="250" y="180" text-anchor="middle" font-size="10" fill="#666">Job Demand Tiers</text>
+</svg>
 <p>Statista: Python, JavaScript, Java each sought by ~40% of recruiters.</p>
 <h3 id="llm-code-generation-proficiency">LLM Code Generation Proficiency</h3>
 <table>
   <thead>
-      <tr>
-          <th>Rank</th>
-          <th>Language</th>
-          <th>Quality</th>
-          <th>Reason</th>
-      </tr>
+    <tr>
+      <th>Rank</th>
+      <th>Language</th>
+      <th>Quality</th>
+      <th>Reason</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>1</td>
-          <td>Python</td>
-          <td>Exceptional</td>
-          <td>90-97% of benchmark solutions; largest corpus</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>JavaScript</td>
-          <td>Excellent</td>
-          <td>Massive training data</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>TypeScript</td>
-          <td>Excellent</td>
-          <td>JS similarity + type inference</td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>Java</td>
-          <td>Very Good</td>
-          <td>Well-represented</td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>C++</td>
-          <td>Very Good</td>
-          <td>HumanEval-X core</td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>Go</td>
-          <td>Very Good</td>
-          <td>Clean syntax</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>C#</td>
-          <td>Good</td>
-          <td>.NET docs</td>
-      </tr>
-      <tr>
-          <td>8</td>
-          <td>Rust</td>
-          <td>Good</td>
-          <td>Small but growing corpus</td>
-      </tr>
-      <tr>
-          <td>9</td>
-          <td>PHP</td>
-          <td>Good</td>
-          <td>Legacy codebase</td>
-      </tr>
-      <tr>
-          <td>10</td>
-          <td>Ruby</td>
-          <td>Moderate</td>
-          <td>Smaller corpus</td>
-      </tr>
+    <tr><td>1</td><td>Python</td><td>Exceptional</td><td>90-97% of benchmark solutions; largest corpus</td></tr>
+    <tr><td>2</td><td>JavaScript</td><td>Excellent</td><td>Massive training data</td></tr>
+    <tr><td>3</td><td>TypeScript</td><td>Excellent</td><td>JS similarity + type inference</td></tr>
+    <tr><td>4</td><td>Java</td><td>Very Good</td><td>Well-represented</td></tr>
+    <tr><td>5</td><td>C++</td><td>Very Good</td><td>HumanEval-X core</td></tr>
+    <tr><td>6</td><td>Go</td><td>Very Good</td><td>Clean syntax</td></tr>
+    <tr><td>7</td><td>C#</td><td>Good</td><td>.NET docs</td></tr>
+    <tr><td>8</td><td>Rust</td><td>Good</td><td>Small but growing corpus</td></tr>
+    <tr><td>9</td><td>PHP</td><td>Good</td><td>Legacy codebase</td></tr>
+    <tr><td>10</td><td>Ruby</td><td>Moderate</td><td>Smaller corpus</td></tr>
   </tbody>
 </table>
+<svg viewBox="0 0 500 200" style="max-width:500px;margin:1em auto;display:block;">
+  <!-- Outer ring (orange) -->
+  <ellipse cx="250" cy="100" rx="240" ry="90" fill="#ffcc80" stroke="#e65100" stroke-width="2"/>
+  <text x="250" y="30" text-anchor="middle" font-size="11" fill="#bf360c">Rust, PHP, Ruby</text>
+  <!-- Middle ring (yellow) -->
+  <ellipse cx="250" cy="100" rx="160" ry="60" fill="#fff59d" stroke="#f9a825" stroke-width="2"/>
+  <text x="250" y="60" text-anchor="middle" font-size="11" fill="#f57f17">Java, C++, Go, C#</text>
+  <!-- Inner circle (green) -->
+  <ellipse cx="250" cy="100" rx="80" ry="40" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+  <text x="250" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">Python, JavaScript</text>
+  <text x="250" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">TypeScript</text>
+  <text x="250" y="180" text-anchor="middle" font-size="10" fill="#666">LLM Proficiency Tiers</text>
+</svg>
 <p><strong>94% of LLM-generated code errors are type-related.</strong> TypeScript catches these at compile time.</p>
 <h3 id="concurrency-complexity-easiest-to-hardest">Concurrency Complexity (Easiest to Hardest)</h3>
 <table>
   <thead>
-      <tr>
-          <th>Rank</th>
-          <th>Language</th>
-          <th>Complexity</th>
-          <th>Model</th>
-          <th>Why</th>
-      </tr>
+    <tr>
+      <th>Rank</th>
+      <th>Language</th>
+      <th>Complexity</th>
+      <th>Model</th>
+      <th>Why</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>1</td>
-          <td>Go</td>
-          <td>Easiest</td>
-          <td>Goroutines + Channels</td>
-          <td>Built-in, lightweight, millions of goroutines</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>Kotlin</td>
-          <td>Easy</td>
-          <td>Coroutines</td>
-          <td>Structured concurrency, suspend functions</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>C#</td>
-          <td>Easy</td>
-          <td>async/await + TPL</td>
-          <td>Well-designed, Task Parallel Library</td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>JavaScript</td>
-          <td>Easy</td>
-          <td>Event Loop + async/await</td>
-          <td>Single-threaded, no race conditions possible</td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>TypeScript</td>
-          <td>Easy</td>
-          <td>Same as JavaScript</td>
-          <td>Single-threaded, type-safe async</td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>Java</td>
-          <td>Moderate</td>
-          <td>Threads + Virtual Threads</td>
-          <td>Mature but verbose, Project Loom helps</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>Python</td>
-          <td>Hard</td>
-          <td>GIL + asyncio</td>
-          <td>GIL blocks true parallelism, multiprocessing complex</td>
-      </tr>
-      <tr>
-          <td>8</td>
-          <td>Rust</td>
-          <td>Hard</td>
-          <td>Ownership + async</td>
-          <td>Compile-time safety, but steep learning curve</td>
-      </tr>
-      <tr>
-          <td>9</td>
-          <td>C++</td>
-          <td>Very Hard</td>
-          <td>std::thread + mutexes</td>
-          <td>Manual management, race conditions easy</td>
-      </tr>
-      <tr>
-          <td>10</td>
-          <td>C</td>
-          <td>Hardest</td>
-          <td>pthreads</td>
-          <td>Completely manual, error-prone</td>
-      </tr>
+    <tr><td>1</td><td>Go</td><td>Easiest</td><td>Goroutines + Channels</td><td>Built-in, lightweight, millions of goroutines</td></tr>
+    <tr><td>2</td><td>Kotlin</td><td>Easy</td><td>Coroutines</td><td>Structured concurrency, suspend functions</td></tr>
+    <tr><td>3</td><td>C#</td><td>Easy</td><td>async/await + TPL</td><td>Well-designed, Task Parallel Library</td></tr>
+    <tr><td>4</td><td>JavaScript</td><td>Easy</td><td>Event Loop + async/await</td><td>Single-threaded, no race conditions possible</td></tr>
+    <tr><td>5</td><td>TypeScript</td><td>Easy</td><td>Same as JavaScript</td><td>Single-threaded, type-safe async</td></tr>
+    <tr><td>6</td><td>Java</td><td>Moderate</td><td>Threads + Virtual Threads</td><td>Mature but verbose, Project Loom helps</td></tr>
+    <tr><td>7</td><td>Python</td><td>Hard</td><td>GIL + asyncio</td><td>GIL blocks true parallelism, multiprocessing complex</td></tr>
+    <tr><td>8</td><td>Rust</td><td>Hard</td><td>Ownership + async</td><td>Compile-time safety, but steep learning curve</td></tr>
+    <tr><td>9</td><td>C++</td><td>Very Hard</td><td>std::thread + mutexes</td><td>Manual management, race conditions easy</td></tr>
+    <tr><td>10</td><td>C</td><td>Hardest</td><td>pthreads</td><td>Completely manual, error-prone</td></tr>
   </tbody>
 </table>
+<svg viewBox="0 0 500 200" style="max-width:500px;margin:1em auto;display:block;">
+  <!-- Outer ring (orange) - Hardest -->
+  <ellipse cx="250" cy="100" rx="240" ry="90" fill="#ffcc80" stroke="#e65100" stroke-width="2"/>
+  <text x="250" y="30" text-anchor="middle" font-size="11" fill="#bf360c">Python, Rust, C++, C</text>
+  <!-- Middle ring (yellow) -->
+  <ellipse cx="250" cy="100" rx="160" ry="60" fill="#fff59d" stroke="#f9a825" stroke-width="2"/>
+  <text x="250" y="60" text-anchor="middle" font-size="11" fill="#f57f17">Java</text>
+  <!-- Inner circle (green) - Easiest -->
+  <ellipse cx="250" cy="100" rx="80" ry="40" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+  <text x="250" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">Go, Kotlin, C#</text>
+  <text x="250" y="110" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">JS, TypeScript</text>
+  <text x="250" y="180" text-anchor="middle" font-size="10" fill="#666">Concurrency Ease Tiers (Easiest = Green)</text>
+</svg>
 <p><strong>Concurrency model comparison:</strong></p>
 <table>
   <thead>
-      <tr>
-          <th>Model</th>
-          <th>Languages</th>
-          <th>Pros</th>
-          <th>Cons</th>
-      </tr>
+    <tr>
+      <th>Model</th>
+      <th>Languages</th>
+      <th>Pros</th>
+      <th>Cons</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>Goroutines</td>
-          <td>Go</td>
-          <td>Lightweight, simple syntax</td>
-          <td>Less control than threads</td>
-      </tr>
-      <tr>
-          <td>Coroutines</td>
-          <td>Kotlin, Python</td>
-          <td>Structured, cancellable</td>
-          <td>Language-specific</td>
-      </tr>
-      <tr>
-          <td>async/await</td>
-          <td>JS, TS, C#, Rust</td>
-          <td>Readable, widely adopted</td>
-          <td>Colored functions problem</td>
-      </tr>
-      <tr>
-          <td>Virtual Threads</td>
-          <td>Java 21+</td>
-          <td>Lightweight, familiar API</td>
-          <td>New, ecosystem catching up</td>
-      </tr>
-      <tr>
-          <td>OS Threads</td>
-          <td>C, C++, Java</td>
-          <td>Full control, true parallelism</td>
-          <td>Heavy, race condition risks</td>
-      </tr>
+    <tr><td style="text-align:left;font-weight:normal;">Goroutines</td><td>Go</td><td>Lightweight, simple syntax</td><td>Less control than threads</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Coroutines</td><td>Kotlin, Python</td><td>Structured, cancellable</td><td>Language-specific</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">async/await</td><td>JS, TS, C#, Rust</td><td>Readable, widely adopted</td><td>Colored functions problem</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Virtual Threads</td><td>Java 21+</td><td>Lightweight, familiar API</td><td>New, ecosystem catching up</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">OS Threads</td><td>C, C++, Java</td><td>Full control, true parallelism</td><td>Heavy, race condition risks</td></tr>
   </tbody>
 </table>
 <p><strong>Go&rsquo;s concurrency advantage:</strong></p>
@@ -635,101 +490,51 @@
 <h3 id="deployment-complexity-easiest-to-hardest">Deployment Complexity (Easiest to Hardest)</h3>
 <table>
   <thead>
-      <tr>
-          <th>Rank</th>
-          <th>Language</th>
-          <th>Complexity</th>
-          <th>Why</th>
-      </tr>
+    <tr>
+      <th>Rank</th>
+      <th>Language</th>
+      <th>Complexity</th>
+      <th>Why</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>1</td>
-          <td>Go</td>
-          <td>Easiest</td>
-          <td>Single static binary, trivial cross-compilation</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>Rust</td>
-          <td>Easy</td>
-          <td>Single binary, excellent cross-compilation, no runtime</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>C</td>
-          <td>Easy</td>
-          <td>Native binary, but manual dependency management</td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>Java/Kotlin</td>
-          <td>Moderate</td>
-          <td>JVM required, but mature ecosystem</td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>C#</td>
-          <td>Moderate</td>
-          <td>.NET runtime, but good tooling, self-contained option</td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>C++</td>
-          <td>Moderate</td>
-          <td>Native binary, but complex build systems, ABI issues</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>TypeScript</td>
-          <td>Moderate</td>
-          <td>Compiles to JS, needs Node.js or bundler</td>
-      </tr>
-      <tr>
-          <td>8</td>
-          <td>JavaScript</td>
-          <td>Moderate</td>
-          <td>node_modules bloat, 30% depend on native binaries</td>
-      </tr>
-      <tr>
-          <td>9</td>
-          <td>PHP</td>
-          <td>Moderate</td>
-          <td>Needs web server + PHP runtime</td>
-      </tr>
-      <tr>
-          <td>10</td>
-          <td>Python</td>
-          <td>Hardest</td>
-          <td>Virtual env hell, version conflicts, native extension issues</td>
-      </tr>
+    <tr><td>1</td><td>Go</td><td>Easiest</td><td>Single static binary, trivial cross-compilation</td></tr>
+    <tr><td>2</td><td>Rust</td><td>Easy</td><td>Single binary, excellent cross-compilation, no runtime</td></tr>
+    <tr><td>3</td><td>C</td><td>Easy</td><td>Native binary, but manual dependency management</td></tr>
+    <tr><td>4</td><td>Java/Kotlin</td><td>Moderate</td><td>JVM required, but mature ecosystem</td></tr>
+    <tr><td>5</td><td>C#</td><td>Moderate</td><td>.NET runtime, but good tooling, self-contained option</td></tr>
+    <tr><td>6</td><td>C++</td><td>Moderate</td><td>Native binary, but complex build systems, ABI issues</td></tr>
+    <tr><td>7</td><td>TypeScript</td><td>Moderate</td><td>Compiles to JS, needs Node.js or bundler</td></tr>
+    <tr><td>8</td><td>JavaScript</td><td>Moderate</td><td>node_modules bloat, 30% depend on native binaries</td></tr>
+    <tr><td>9</td><td>PHP</td><td>Moderate</td><td>Needs web server + PHP runtime</td></tr>
+    <tr><td>10</td><td>Python</td><td>Hardest</td><td>Virtual env hell, version conflicts, native extension issues</td></tr>
   </tbody>
 </table>
+<svg viewBox="0 0 500 200" style="max-width:500px;margin:1em auto;display:block;">
+  <!-- Outer ring (orange) - Hardest -->
+  <ellipse cx="250" cy="100" rx="240" ry="90" fill="#ffcc80" stroke="#e65100" stroke-width="2"/>
+  <text x="250" y="30" text-anchor="middle" font-size="11" fill="#bf360c">JavaScript, PHP, Python</text>
+  <!-- Middle ring (yellow) -->
+  <ellipse cx="250" cy="100" rx="160" ry="60" fill="#fff59d" stroke="#f9a825" stroke-width="2"/>
+  <text x="250" y="60" text-anchor="middle" font-size="11" fill="#f57f17">Java, Kotlin, C#, C++, TypeScript</text>
+  <!-- Inner circle (green) - Easiest -->
+  <ellipse cx="250" cy="100" rx="80" ry="40" fill="#a5d6a7" stroke="#2e7d32" stroke-width="2"/>
+  <text x="250" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">Go, Rust, C</text>
+  <text x="250" y="180" text-anchor="middle" font-size="10" fill="#666">Deployment Ease Tiers (Easiest = Green)</text>
+</svg>
 <p><strong>Deployment categories:</strong></p>
 <table>
   <thead>
-      <tr>
-          <th>Category</th>
-          <th>Languages</th>
-          <th>Characteristics</th>
-      </tr>
+    <tr>
+      <th>Category</th>
+      <th>Languages</th>
+      <th>Characteristics</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>Single Binary</td>
-          <td>Go, Rust, C</td>
-          <td>No runtime, easy distribution</td>
-      </tr>
-      <tr>
-          <td>Runtime Required</td>
-          <td>Java, C#, Python, JS, PHP</td>
-          <td>Need interpreter or VM</td>
-      </tr>
-      <tr>
-          <td>Complexity Factors</td>
-          <td>Python, JS, C++</td>
-          <td>Dependencies, ARM vs x86</td>
-      </tr>
+    <tr><td style="text-align:left;font-weight:normal;">Single Binary</td><td>Go, Rust, C</td><td>No runtime, easy distribution</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Runtime Required</td><td>Java, C#, Python, JS, PHP</td><td>Need interpreter or VM</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Complexity Factors</td><td>Python, JS, C++</td><td>Dependencies, ARM vs x86</td></tr>
   </tbody>
 </table>
 <p><strong>Python&rsquo;s deployment challenges:</strong></p>
@@ -759,103 +564,50 @@
 <p><strong>Language Tiers (5 factors):</strong></p>
 <table>
   <thead>
-      <tr>
-          <th>Tier</th>
-          <th>Languages</th>
-          <th>Strengths</th>
-      </tr>
+    <tr>
+      <th>Tier</th>
+      <th>Languages</th>
+      <th>Strengths</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>1</td>
-          <td>Go</td>
-          <td>Best deployment + best concurrency</td>
-      </tr>
-      <tr>
-          <td>1</td>
-          <td>TypeScript</td>
-          <td>Best popularity + catches LLM errors</td>
-      </tr>
-      <tr>
-          <td>1</td>
-          <td>Python</td>
-          <td>Best LLM accuracy + AI/ML ecosystem</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>Rust, Java, C#, Kotlin</td>
-          <td>Trade-offs between factors</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>C++, JavaScript, PHP, C</td>
-          <td>Specialist domains</td>
-      </tr>
+    <tr><td>1</td><td>Go</td><td>Best deployment + best concurrency</td></tr>
+    <tr><td>1</td><td>TypeScript</td><td>Best popularity + catches LLM errors</td></tr>
+    <tr><td>1</td><td>Python</td><td>Best LLM accuracy + AI/ML ecosystem</td></tr>
+    <tr><td>2</td><td>Rust, Java, C#, Kotlin</td><td>Trade-offs between factors</td></tr>
+    <tr><td>3</td><td>C++, JavaScript, PHP, C</td><td>Specialist domains</td></tr>
   </tbody>
 </table>
 <p><strong>Optimal paths to production:</strong></p>
 <table>
   <thead>
-      <tr>
-          <th>Language</th>
-          <th>Why Optimal</th>
-      </tr>
+    <tr>
+      <th>Language</th>
+      <th>Why Optimal</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>Go</td>
-          <td>Best deployment + best concurrency + good LLM</td>
-      </tr>
-      <tr>
-          <td>TypeScript</td>
-          <td>Best popularity + catches LLM errors + easy async</td>
-      </tr>
-      <tr>
-          <td>Python</td>
-          <td>Best LLM accuracy + AI/ML (accept concurrency pain)</td>
-      </tr>
+    <tr><td style="text-align:left;font-weight:normal;">Go</td><td>Best deployment + best concurrency + good LLM</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">TypeScript</td><td>Best popularity + catches LLM errors + easy async</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Python</td><td>Best LLM accuracy + AI/ML (accept concurrency pain)</td></tr>
   </tbody>
 </table>
 <p><strong>Language Selection Decision Tree:</strong></p>
 <table>
   <thead>
-      <tr>
-          <th>If You Need&hellip;</th>
-          <th>Choose</th>
-          <th>Because</th>
-      </tr>
+    <tr>
+      <th>If You Need...</th>
+      <th>Choose</th>
+      <th>Because</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>High concurrency + deploy</td>
-          <td>Go</td>
-          <td>Goroutines + single binary</td>
-      </tr>
-      <tr>
-          <td>AI/ML work</td>
-          <td>Python</td>
-          <td>Best LLM accuracy, ecosystem</td>
-      </tr>
-      <tr>
-          <td>Web development</td>
-          <td>TypeScript</td>
-          <td>Popularity, type safety, easy async</td>
-      </tr>
-      <tr>
-          <td>CPU-bound parallel</td>
-          <td>Rust</td>
-          <td>Fearless concurrency, performance</td>
-      </tr>
-      <tr>
-          <td>Enterprise apps</td>
-          <td>Java or C#</td>
-          <td>Mature ecosystem, virtual threads</td>
-      </tr>
-      <tr>
-          <td>Systems programming</td>
-          <td>Rust or C++</td>
-          <td>Memory control, performance</td>
-      </tr>
+    <tr><td style="text-align:left;font-weight:normal;">High concurrency + deploy</td><td>Go</td><td>Goroutines + single binary</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">AI/ML work</td><td>Python</td><td>Best LLM accuracy, ecosystem</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Web development</td><td>TypeScript</td><td>Popularity, type safety, easy async</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">CPU-bound parallel</td><td>Rust</td><td>Fearless concurrency, performance</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Enterprise apps</td><td>Java or C#</td><td>Mature ecosystem, virtual threads</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Systems programming</td><td>Rust or C++</td><td>Memory control, performance</td></tr>
   </tbody>
 </table>
 <h2 id="tier-analysis">Tier Analysis</h2>
@@ -883,107 +635,51 @@
 <p><strong>Career:</strong></p>
 <table>
   <thead>
-      <tr>
-          <th>Priority</th>
-          <th>Languages</th>
-          <th>Rationale</th>
-      </tr>
+    <tr>
+      <th>Priority</th>
+      <th>Languages</th>
+      <th>Rationale</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>Core</td>
-          <td>Python + TypeScript</td>
-          <td>Covers most jobs</td>
-      </tr>
-      <tr>
-          <td>Production</td>
-          <td>Add Go</td>
-          <td>Deployment + concurrency</td>
-      </tr>
-      <tr>
-          <td>Enterprise</td>
-          <td>Add Java or C#</td>
-          <td>Corporate demand, virtual threads</td>
-      </tr>
-      <tr>
-          <td>Systems</td>
-          <td>Rust</td>
-          <td>Safety + performance</td>
-      </tr>
+    <tr><td style="text-align:left;font-weight:normal;">Core</td><td>Python + TypeScript</td><td>Covers most jobs</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Production</td><td>Add Go</td><td>Deployment + concurrency</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Enterprise</td><td>Add Java or C#</td><td>Corporate demand, virtual threads</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Systems</td><td>Rust</td><td>Safety + performance</td></tr>
   </tbody>
 </table>
 <p><strong>By workload type:</strong></p>
 <table>
   <thead>
-      <tr>
-          <th>Workload</th>
-          <th>Best Choice</th>
-          <th>Why</th>
-      </tr>
+    <tr>
+      <th>Workload</th>
+      <th>Best Choice</th>
+      <th>Why</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>High concurrency</td>
-          <td>Go</td>
-          <td>Millions of goroutines, simple syntax</td>
-      </tr>
-      <tr>
-          <td>I/O-bound servers</td>
-          <td>Go, TS, C#</td>
-          <td>Efficient async models</td>
-      </tr>
-      <tr>
-          <td>CPU-bound parallel</td>
-          <td>Rust</td>
-          <td>Fearless concurrency, best perf</td>
-      </tr>
-      <tr>
-          <td>AI/ML</td>
-          <td>Python</td>
-          <td>Accept GIL, use multiprocessing</td>
-      </tr>
-      <tr>
-          <td>Web frontend</td>
-          <td>TypeScript</td>
-          <td>Single-threaded is fine</td>
-      </tr>
-      <tr>
-          <td>Embedded/IoT</td>
-          <td>Rust or C</td>
-          <td>Control over resources</td>
-      </tr>
+    <tr><td style="text-align:left;font-weight:normal;">High concurrency</td><td>Go</td><td>Millions of goroutines, simple syntax</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">I/O-bound servers</td><td>Go, TS, C#</td><td>Efficient async models</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">CPU-bound parallel</td><td>Rust</td><td>Fearless concurrency, best perf</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">AI/ML</td><td>Python</td><td>Accept GIL, use multiprocessing</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Web frontend</td><td>TypeScript</td><td>Single-threaded is fine</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Embedded/IoT</td><td>Rust or C</td><td>Control over resources</td></tr>
   </tbody>
 </table>
 <p><strong>LLM-assisted development:</strong></p>
 <table>
   <thead>
-      <tr>
-          <th>Use Case</th>
-          <th>Language</th>
-          <th>Note</th>
-      </tr>
+    <tr>
+      <th>Use Case</th>
+      <th>Language</th>
+      <th>Note</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>Algorithms, scripts</td>
-          <td>Python</td>
-          <td>Best accuracy</td>
-      </tr>
-      <tr>
-          <td>Web development</td>
-          <td>TypeScript</td>
-          <td>Type hints improve accuracy</td>
-      </tr>
-      <tr>
-          <td>Concurrent services</td>
-          <td>Go</td>
-          <td>Good LLM support + easy concurrency</td>
-      </tr>
-      <tr>
-          <td>Systems code</td>
-          <td>Rust</td>
-          <td>Verify ownership/lifetime manually</td>
-      </tr>
+    <tr><td style="text-align:left;font-weight:normal;">Algorithms, scripts</td><td>Python</td><td>Best accuracy</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Web development</td><td>TypeScript</td><td>Type hints improve accuracy</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Concurrent services</td><td>Go</td><td>Good LLM support + easy concurrency</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Systems code</td><td>Rust</td><td>Verify ownership/lifetime manually</td></tr>
   </tbody>
 </table>
 <h2 id="sources">Sources</h2>
@@ -1005,32 +701,17 @@
 <p>The five-factor analysis reveals a nuanced picture:</p>
 <table>
   <thead>
-      <tr>
-          <th>Factor</th>
-          <th>Winner</th>
-      </tr>
+    <tr>
+      <th>Factor</th>
+      <th>Winner</th>
+    </tr>
   </thead>
   <tbody>
-      <tr>
-          <td>Popularity</td>
-          <td>TypeScript</td>
-      </tr>
-      <tr>
-          <td>Job Demand</td>
-          <td>JavaScript/TypeScript</td>
-      </tr>
-      <tr>
-          <td>LLM Proficiency</td>
-          <td>Python</td>
-      </tr>
-      <tr>
-          <td>Concurrency Ease</td>
-          <td>Go</td>
-      </tr>
-      <tr>
-          <td>Deployment Ease</td>
-          <td>Go</td>
-      </tr>
+    <tr><td style="text-align:left;font-weight:normal;">Popularity</td><td>TypeScript</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Job Demand</td><td>JavaScript/TypeScript</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">LLM Proficiency</td><td>Python</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Concurrency Ease</td><td>Go</td></tr>
+    <tr><td style="text-align:left;font-weight:normal;">Deployment Ease</td><td>Go</td></tr>
   </tbody>
 </table>
 <p><strong>Go wins two factors.</strong> Its combination of simple concurrency (goroutines), easy deployment (single binary), and good LLM support makes it the strongest all-around choice for production services in 2026.</p>
