@@ -545,23 +545,23 @@
 </table>
 <p><strong>Key deployment pain points:</strong></p>
 <pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">flowchart LR
-    subgraph &#34;Single Binary&#34;
+    subgraph SB[&#34;Single Binary&#34;]
         GO[Go]
         RS[Rust]
-        C[C]
+        CL[C]
     end
 
-    subgraph &#34;Runtime Required&#34;
-        JV[Java - JVM]
-        CS[C# - .NET]
-        PY[Python - Interpreter]
-        JS[JS/TS - Node.js]
-        PHP[PHP - php-fpm]
+    subgraph RT[&#34;Runtime Required&#34;]
+        JV[Java]
+        CS[C#]
+        PY[Python]
+        JS[JS/TS]
+        PH[PHP]
     end
 
-    subgraph &#34;Complexity Factors&#34;
-        DEP[Dependency Management]
-        ARCH[x86 vs ARM]
+    subgraph CF[&#34;Complexity Factors&#34;]
+        DEP[Dependencies]
+        ARCH[ARM vs x86]
         VER[Version Conflicts]
     end
 
@@ -595,42 +595,42 @@
 </ul>
 <h2 id="architecture">Architecture</h2>
 <pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph TD
-    subgraph &#34;Tier 1: Best Overall&#34;
+    subgraph T1[Tier 1 - Best Overall]
         GO[Go]
         TS[TypeScript]
         PY[Python]
     end
 
-    subgraph &#34;Tier 2: Trade-offs&#34;
+    subgraph T2[Tier 2 - Trade-offs]
         RS[Rust]
         JV[Java]
         CS[C#]
     end
 
-    subgraph &#34;Tier 3: Specialists&#34;
+    subgraph T3[Tier 3 - Specialists]
         CPP[C++]
         JS[JavaScript]
-        PHP[PHP]
+        PH[PHP]
     end
 
-    GO --&gt; |&#34;Best deployment + good LLM&#34;| OPT[Optimal for Production]
-    TS --&gt; |&#34;Best popularity + catches LLM errors&#34;| OPT
-    PY --&gt; |&#34;Best LLM accuracy + AI/ML&#34;| OPT
+    GO --&gt;|Best deployment| OPT[Optimal for Production]
+    TS --&gt;|Catches LLM errors| OPT
+    PY --&gt;|Best LLM accuracy| OPT
 </code></pre><pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">flowchart TB
-    subgraph &#34;Language Selection Decision Tree&#34;
-        START[New Project] --&gt; Q0{Deployment critical?}
-        Q0 --&gt;|Yes - single binary| GO[Go]
-        Q0 --&gt;|No| Q1{AI/ML?}
+    subgraph DT[Language Selection Decision Tree]
+        START[New Project] --&gt; Q0{Deployment critical}
+        Q0 --&gt;|Yes| GO[Go]
+        Q0 --&gt;|No| Q1{AI/ML}
         Q1 --&gt;|Yes| PY[Python]
-        Q1 --&gt;|No| Q2{Web?}
+        Q1 --&gt;|No| Q2{Web}
         Q2 --&gt;|Yes| TS[TypeScript]
-        Q2 --&gt;|No| Q3{Systems?}
-        Q3 --&gt;|Yes| Q4{Memory safety critical?}
+        Q2 --&gt;|No| Q3{Systems}
+        Q3 --&gt;|Yes| Q4{Memory safety}
         Q4 --&gt;|Yes| RS[Rust]
         Q4 --&gt;|No| CPP[C++]
-        Q3 --&gt;|No| Q5{Enterprise?}
-        Q5 --&gt;|Yes| JV[Java/C#]
-        Q5 --&gt;|No| GO
+        Q3 --&gt;|No| Q5{Enterprise}
+        Q5 --&gt;|Yes| JV[Java or C#]
+        Q5 --&gt;|No| GO2[Go]
     end
 </code></pre><h2 id="tier-analysis">Tier Analysis</h2>
 <p><strong>Tier 1: Go, TypeScript, Python</strong></p>
@@ -693,26 +693,26 @@
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Factor</th>
-          <th style="text-align: left">Winner</th>
+          <th>Factor</th>
+          <th>Winner</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">Popularity</td>
-          <td style="text-align: left">TypeScript</td>
+          <td>Popularity</td>
+          <td>TypeScript</td>
       </tr>
       <tr>
-          <td style="text-align: left">Job Demand</td>
-          <td style="text-align: left">JavaScript/TypeScript</td>
+          <td>Job Demand</td>
+          <td>JavaScript/TypeScript</td>
       </tr>
       <tr>
-          <td style="text-align: left">LLM Proficiency</td>
-          <td style="text-align: left">Python</td>
+          <td>LLM Proficiency</td>
+          <td>Python</td>
       </tr>
       <tr>
-          <td style="text-align: left">Deployment Ease</td>
-          <td style="text-align: left">Go</td>
+          <td>Deployment Ease</td>
+          <td>Go</td>
       </tr>
   </tbody>
 </table>
