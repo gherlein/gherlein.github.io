@@ -4,11 +4,18 @@
     <title>AI on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/ai/</link>
     <description>Recent content in AI on Greg Herlein</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding is Solved (And That&#39;s Fine)</title>
+      <link>https://blog.herlein.com/post/coding-is-solved/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/coding-is-solved/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We are nearly at coder-equivalency for economically useful coding. A sufficiently experienced software engineer can now write &amp;gt;90% of production-ready code purely through prompting.&amp;rdquo;  Yes, exactly.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Putting Claude in Container Jail: My localdev Setup</title>
       <link>https://blog.herlein.com/post/localdev-container-jail/</link>
@@ -35,7 +42,7 @@
       <link>https://blog.herlein.com/post/claude-code/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/claude-code/</guid>
-      <description>So I&amp;rsquo;ve been working on this project called client-w-mcp – it&amp;rsquo;s a leanring project to truly understand how an AI agent works with MCP servers. And I&amp;rsquo;m exploring Agentic development - with Claude Code.&#xA;Why Claude Code? The first time I used it, Claude just&amp;hellip; flowed. It seems to do a lot more by itself to figure things out. I especially like the Task() so that it can go do more than one thing at a time.</description>
+      <description>&lt;p&gt;So I&amp;rsquo;ve been working on this project called &lt;a href=&#34;https://github.com/gherlein/client-w-mcp&#34;&gt;client-w-mcp&lt;/a&gt; – it&amp;rsquo;s a leanring project to truly understand how an AI agent works with MCP servers.  And I&amp;rsquo;m exploring Agentic development - with Claude Code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-claude-code&#34;&gt;Why Claude Code?&lt;/h2&gt;&#xA;&lt;p&gt;The first time I used it, Claude just&amp;hellip; &lt;em&gt;flowed&lt;/em&gt;. It seems to do a lot more by itself to figure things out.  I especially like the Task(&lt;prompt&gt;) so that it can go do more than one thing at a time.  It would be bad to try to modify code that way, but to write tests or update docs and not have to wait doing one thing at a time&amp;hellip; is wonderful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Agent Naysayers</title>

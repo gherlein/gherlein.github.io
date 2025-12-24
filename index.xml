@@ -4,11 +4,18 @@
     <title>Greg Herlein</title>
     <link>https://blog.herlein.com/</link>
     <description>Recent content on Greg Herlein</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding is Solved (And That&#39;s Fine)</title>
+      <link>https://blog.herlein.com/post/coding-is-solved/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/coding-is-solved/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We are nearly at coder-equivalency for economically useful coding. A sufficiently experienced software engineer can now write &amp;gt;90% of production-ready code purely through prompting.&amp;rdquo;  Yes, exactly.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Putting Claude in Container Jail: My localdev Setup</title>
       <link>https://blog.herlein.com/post/localdev-container-jail/</link>
@@ -42,7 +49,7 @@
       <link>https://blog.herlein.com/post/claude-code/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/claude-code/</guid>
-      <description>So I&amp;rsquo;ve been working on this project called client-w-mcp – it&amp;rsquo;s a leanring project to truly understand how an AI agent works with MCP servers. And I&amp;rsquo;m exploring Agentic development - with Claude Code.&#xA;Why Claude Code? The first time I used it, Claude just&amp;hellip; flowed. It seems to do a lot more by itself to figure things out. I especially like the Task() so that it can go do more than one thing at a time.</description>
+      <description>&lt;p&gt;So I&amp;rsquo;ve been working on this project called &lt;a href=&#34;https://github.com/gherlein/client-w-mcp&#34;&gt;client-w-mcp&lt;/a&gt; – it&amp;rsquo;s a leanring project to truly understand how an AI agent works with MCP servers.  And I&amp;rsquo;m exploring Agentic development - with Claude Code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-claude-code&#34;&gt;Why Claude Code?&lt;/h2&gt;&#xA;&lt;p&gt;The first time I used it, Claude just&amp;hellip; &lt;em&gt;flowed&lt;/em&gt;. It seems to do a lot more by itself to figure things out.  I especially like the Task(&lt;prompt&gt;) so that it can go do more than one thing at a time.  It would be bad to try to modify code that way, but to write tests or update docs and not have to wait doing one thing at a time&amp;hellip; is wonderful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Agent Naysayers</title>
@@ -77,7 +84,7 @@
       <link>https://blog.herlein.com/about/</link>
       <pubDate>Sun, 25 May 2025 00:01:05 -0800</pubDate>
       <guid>https://blog.herlein.com/about/</guid>
-      <description>Estimated reading time: 25 minutes&#xA;Management README I was inspired by an article on Management README&amp;rsquo;s and thought it was high time I do something similar.&#xA;This is a long post, but I&amp;rsquo;m not a simple person. But if you want to try to understand me, perhaps it&amp;rsquo;s worth the time?&#xA;This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me. I try to keep it up to date, but it may be six-plus months out of date.</description>
+      <description>&lt;p&gt;&lt;em&gt;Estimated reading time: 25 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;management-readme&#34;&gt;Management README&lt;/h1&gt;&#xA;&lt;p&gt;I was inspired by an article on &lt;a href=&#34;https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe&#34;&gt;Management README&amp;rsquo;s&lt;/a&gt; and thought it was high time I do something similar.&lt;/p&gt;&#xA;&lt;p&gt;This is a long post, but I&amp;rsquo;m not a simple person.  But if you want to try to understand me, perhaps it&amp;rsquo;s worth the time?&lt;/p&gt;&#xA;&lt;p&gt;This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me.  I try to keep it up to date, but it may be six-plus months out of date.  Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Agentic Programming: The New Robot Revolution!</title>
@@ -106,6 +113,13 @@
       <pubDate>Thu, 09 Jan 2025 09:30:29 -0700</pubDate>
       <guid>https://blog.herlein.com/post/ham-radio/</guid>
       <description>&lt;p&gt;I was trained as a US Navy ET.  Decades later I finally took my Ham Radio test.  I am now also known as K06HAX!  It&amp;rsquo;s a key step towards my whale song project!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Foreign Cinema: My Favorite Restaurant in the World</title>
+      <link>https://blog.herlein.com/post/foreign-cinema/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/foreign-cinema/</guid>
+      <description>&lt;p&gt;A friend recently asked me about restaurants in San Francisco and was shocked I&amp;rsquo;d never written about &lt;a href=&#34;https://foreigncinema.com/&#34;&gt;Foreign Cinema&lt;/a&gt;. Honestly? I was shocked too. It&amp;rsquo;s my favorite restaurant in the world. Yes, the world. And I travel to London, Paris, Mexico City&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Foundations of High-Performance Engineering Teams</title>
@@ -280,7 +294,7 @@
       <link>https://blog.herlein.com/post/facebook-again/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/facebook-again/</guid>
-      <description>I left Facebook to get away from all the hate. But there&amp;rsquo;s community information there I find valuable and so I signed up again (after years away). And my account is suspended!&#xA;Somehow I didn&amp;rsquo;t follow their community standards EVEN BEFORE I LOGGED IN! I can tell you that all I ever did was leave Facebook and delete my account there. I certainly never &amp;ldquo;violated thier community standards&amp;rdquo; (as if they really have them with the hate they promote).</description>
+      <description>&lt;p&gt;I left Facebook to get away from all the hate.  But there&amp;rsquo;s community information there I find valuable and so I signed up again (after years away).  And my account is suspended!&lt;/p&gt;&#xA;&lt;p&gt;Somehow I didn&amp;rsquo;t follow their community standards EVEN BEFORE I LOGGED IN!  I can tell you that all I ever did was leave Facebook and delete my account there.  I certainly never &amp;ldquo;violated thier community standards&amp;rdquo; (as if they really have them with the hate they promote).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Luca Graduates!</title>
@@ -903,28 +917,28 @@
       <link>https://blog.herlein.com/projects/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       <guid>https://blog.herlein.com/projects/</guid>
-      <description>Projects These are projects that are basically abandoned right now. I wish I had more time for them!&#xA;GoNetMon - Network use visualization writting in GoLang, using Prometheus and Kibana&#xA;ouilookup - CLI tool written in go to look up the vendor for a given MAC address&#xA;PiBlaster-MQTT - port of PiBlaster to use MQTT instead of a local charachter device&#xA;goxb_mqtt - native go code that reads from an XBox(tm) controller (using libusb) and sends events over MQTT</description>
+      <description>&lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;&#xA;&lt;p&gt;These are projects that are basically abandoned right now.  I &lt;em&gt;wish&lt;/em&gt; I had more time for them!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/gherlein/gonetmon&#34;&gt;GoNetMon&lt;/a&gt; - Network use visualization writting in GoLang, using Prometheus and Kibana&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/gherlein/ouilookup&#34;&gt;ouilookup&lt;/a&gt; - CLI tool written in go to look up the vendor for a given MAC address&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/gherlein/pi-blaster-mqtt&#34;&gt;PiBlaster-MQTT&lt;/a&gt; - port of PiBlaster to use MQTT instead of a local charachter device&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/gherlein/goxb_mqtt&#34;&gt;goxb_mqtt&lt;/a&gt; - native go code that reads from an XBox(tm) controller (using libusb) and sends events over MQTT&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>https://blog.herlein.com/common/vscode-vs-zed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.herlein.com/common/vscode-vs-zed/</guid>
-      <description>Agentic Development in Zed vs Visual Studio Code (Mid‑2025 Comparison) LLM Integration: Native Support vs Plugins Zed Editor: AI assistance is built-in as a first-class feature. Zed’s “assistant panel” and Agentic Editing are integrated into the core editor (no separate plugin required). Out of the box, Zed supports multiple large language models (LLMs) and providers – you can plug in OpenAI GPT-4, Anthropic Claude (e.g. Claude 2/3), Google’s PaLM/Gemini, and more, or even local models.</description>
+      <description>&lt;h1 id=&#34;agentic-development-in-zed-vs-visual-studio-code-mid2025-comparison&#34;&gt;Agentic Development in Zed vs Visual Studio Code (Mid‑2025 Comparison)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;llm-integration-native-support-vs-plugins&#34;&gt;LLM Integration: Native Support vs Plugins&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Zed Editor:&lt;/strong&gt; AI assistance is built-in as a first-class feature. Zed’s “assistant panel” and &lt;em&gt;Agentic Editing&lt;/em&gt; are integrated into the core editor (no separate plugin required). Out of the box, Zed supports multiple large language models (LLMs) and providers – you can plug in OpenAI GPT-4, Anthropic Claude (e.g. Claude 2/3), Google’s PaLM/Gemini, and more, or even local models. Zed offers flexible options to &lt;strong&gt;“bring your own keys”&lt;/strong&gt; for third-party APIs or run models locally via tools like Ollama/LM Studio. This means you’re not tied to a single vendor: for example, you can switch between Anthropic’s Claude and OpenAI’s GPT in a dropdown, or even use GitHub Copilot as a backend through Zed’s interface. All of this is handled natively by Zed’s Rust-based architecture and open-source AI agent panel, rather than through external extensions.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>https://blog.herlein.com/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.herlein.com/resume/</guid>
-      <description>Greg Herlein San Francisco, CA&#xA;gherlein@herlein.com&#xA;github.com/gherlein&#xA;+1-415-368-7546&#xA;Summary of Qualifications&#xA;20+ years of experience in software development and cloud systems architecture 10+ years of direct people management experience 10+ years of experience building distributed SaaS systems in the cloud Extremely fast learner and technology early adopter Creative problem solver – inventor of 6 patents and many innovative products Led teams of Cloud Solution Architects at AWS directly supporting GTM sales plans Drove a multi-million dollar program integrating cloud technologies at Rakuten Principal Architect for data lake modernization project for over 1100 Engineers Solid understanding of compliance, including networking and security Exceptional presentation skills – strong with both Engineers and Executives Strong communication and interpersonal skills – adept at cross-team collaboration Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo; Work History</description>
+      <description>&lt;h1 id=&#34;greg-herlein&#34;&gt;Greg Herlein&lt;/h1&gt;&#xA;&lt;p&gt;San Francisco, CA&lt;br&gt;&#xA;&lt;a href=&#34;mailto:gherlein@herlein.com&#34;&gt;gherlein@herlein.com&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/gherlein&#34;&gt;github.com/gherlein&lt;/a&gt;&lt;br&gt;&#xA;+1-415-368-7546&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Summary of Qualifications&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;20+ years of experience in software development and cloud systems architecture&lt;/li&gt;&#xA;&lt;li&gt;10+ years of direct people management experience&lt;/li&gt;&#xA;&lt;li&gt;10+ years of experience building distributed SaaS systems in the cloud&lt;/li&gt;&#xA;&lt;li&gt;Extremely fast learner and technology early adopter&lt;/li&gt;&#xA;&lt;li&gt;Creative problem solver – inventor of 6 patents and many innovative products&lt;/li&gt;&#xA;&lt;li&gt;Led teams of Cloud Solution Architects at AWS directly supporting GTM sales plans&lt;/li&gt;&#xA;&lt;li&gt;Drove a multi-million dollar program integrating cloud technologies at Rakuten&lt;/li&gt;&#xA;&lt;li&gt;Principal Architect for data lake modernization project for over 1100 Engineers&lt;/li&gt;&#xA;&lt;li&gt;Solid understanding of compliance, including networking and security&lt;/li&gt;&#xA;&lt;li&gt;Exceptional presentation skills – strong with both Engineers and Executives&lt;/li&gt;&#xA;&lt;li&gt;Strong communication and interpersonal skills – adept at cross-team collaboration&lt;/li&gt;&#xA;&lt;li&gt;Reputation for building globally distributed teams &amp;ldquo;that don&amp;rsquo;t break&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Work History&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>https://blog.herlein.com/staffing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://blog.herlein.com/staffing/</guid>
-      <description>My Software Team Philosophy In my experience, smaller teams of higher-skilled Engineers outperform larger teams of less-skilled Engineers. I don&amp;rsquo;t believe in armies of offshore coders.&#xA;Building software is not physical labor, and it’s not something that can be easily broken into parallel parts for development. That approach is often taken, especially when offshoring, but it requires substantial up-front planning and then even more work to test that all the parts fit together at the end.</description>
+      <description>&lt;h1 id=&#34;my-software-team-philosophy&#34;&gt;My Software Team Philosophy&lt;/h1&gt;&#xA;&lt;p&gt;In my experience, smaller teams of higher-skilled Engineers outperform larger teams of less-skilled Engineers.  I don&amp;rsquo;t believe in armies of offshore coders.&lt;/p&gt;&#xA;&lt;p&gt;Building software is not physical labor, and it’s not something that can be easily broken into parallel parts for development.  That approach is often taken, especially when offshoring, but it requires substantial up-front planning and then even more work to test that all the parts fit together at the end.  Unless you are doing waterfall development and you have solid skills in upfront planning this will generally take a lot longer than you think and the results will be a mish-mash of parts that hopefully work together.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

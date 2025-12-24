@@ -4,11 +4,18 @@
     <title>Posts on Greg Herlein</title>
     <link>https://blog.herlein.com/post/</link>
     <description>Recent content in Posts on Greg Herlein</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding is Solved (And That&#39;s Fine)</title>
+      <link>https://blog.herlein.com/post/coding-is-solved/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/coding-is-solved/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We are nearly at coder-equivalency for economically useful coding. A sufficiently experienced software engineer can now write &amp;gt;90% of production-ready code purely through prompting.&amp;rdquo;  Yes, exactly.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Putting Claude in Container Jail: My localdev Setup</title>
       <link>https://blog.herlein.com/post/localdev-container-jail/</link>
@@ -42,7 +49,7 @@
       <link>https://blog.herlein.com/post/claude-code/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/claude-code/</guid>
-      <description>So I&amp;rsquo;ve been working on this project called client-w-mcp – it&amp;rsquo;s a leanring project to truly understand how an AI agent works with MCP servers. And I&amp;rsquo;m exploring Agentic development - with Claude Code.&#xA;Why Claude Code? The first time I used it, Claude just&amp;hellip; flowed. It seems to do a lot more by itself to figure things out. I especially like the Task() so that it can go do more than one thing at a time.</description>
+      <description>&lt;p&gt;So I&amp;rsquo;ve been working on this project called &lt;a href=&#34;https://github.com/gherlein/client-w-mcp&#34;&gt;client-w-mcp&lt;/a&gt; – it&amp;rsquo;s a leanring project to truly understand how an AI agent works with MCP servers.  And I&amp;rsquo;m exploring Agentic development - with Claude Code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-claude-code&#34;&gt;Why Claude Code?&lt;/h2&gt;&#xA;&lt;p&gt;The first time I used it, Claude just&amp;hellip; &lt;em&gt;flowed&lt;/em&gt;. It seems to do a lot more by itself to figure things out.  I especially like the Task(&lt;prompt&gt;) so that it can go do more than one thing at a time.  It would be bad to try to modify code that way, but to write tests or update docs and not have to wait doing one thing at a time&amp;hellip; is wonderful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>AI Agent Naysayers</title>
@@ -99,6 +106,13 @@
       <pubDate>Thu, 09 Jan 2025 09:30:29 -0700</pubDate>
       <guid>https://blog.herlein.com/post/ham-radio/</guid>
       <description>&lt;p&gt;I was trained as a US Navy ET.  Decades later I finally took my Ham Radio test.  I am now also known as K06HAX!  It&amp;rsquo;s a key step towards my whale song project!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Foreign Cinema: My Favorite Restaurant in the World</title>
+      <link>https://blog.herlein.com/post/foreign-cinema/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/foreign-cinema/</guid>
+      <description>&lt;p&gt;A friend recently asked me about restaurants in San Francisco and was shocked I&amp;rsquo;d never written about &lt;a href=&#34;https://foreigncinema.com/&#34;&gt;Foreign Cinema&lt;/a&gt;. Honestly? I was shocked too. It&amp;rsquo;s my favorite restaurant in the world. Yes, the world. And I travel to London, Paris, Mexico City&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Foundations of High-Performance Engineering Teams</title>
@@ -273,7 +287,7 @@
       <link>https://blog.herlein.com/post/facebook-again/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/facebook-again/</guid>
-      <description>I left Facebook to get away from all the hate. But there&amp;rsquo;s community information there I find valuable and so I signed up again (after years away). And my account is suspended!&#xA;Somehow I didn&amp;rsquo;t follow their community standards EVEN BEFORE I LOGGED IN! I can tell you that all I ever did was leave Facebook and delete my account there. I certainly never &amp;ldquo;violated thier community standards&amp;rdquo; (as if they really have them with the hate they promote).</description>
+      <description>&lt;p&gt;I left Facebook to get away from all the hate.  But there&amp;rsquo;s community information there I find valuable and so I signed up again (after years away).  And my account is suspended!&lt;/p&gt;&#xA;&lt;p&gt;Somehow I didn&amp;rsquo;t follow their community standards EVEN BEFORE I LOGGED IN!  I can tell you that all I ever did was leave Facebook and delete my account there.  I certainly never &amp;ldquo;violated thier community standards&amp;rdquo; (as if they really have them with the hate they promote).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Luca Graduates!</title>

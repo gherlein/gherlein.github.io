@@ -4,11 +4,18 @@
     <title>Software Engineering on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/software-engineering/</link>
     <description>Recent content in Software Engineering on Greg Herlein</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 06 Jun 2024 00:00:01 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding is Solved (And That&#39;s Fine)</title>
+      <link>https://blog.herlein.com/post/coding-is-solved/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/coding-is-solved/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;We are nearly at coder-equivalency for economically useful coding. A sufficiently experienced software engineer can now write &amp;gt;90% of production-ready code purely through prompting.&amp;rdquo;  Yes, exactly.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
     <item>
       <title>Guest Appearance: Women in STEM Podcast</title>
       <link>https://blog.herlein.com/post/wistem-podcast/</link>

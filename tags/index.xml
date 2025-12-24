@@ -4,11 +4,39 @@
     <title>Tags on Greg Herlein</title>
     <link>https://blog.herlein.com/tags/</link>
     <description>Recent content in Tags on Greg Herlein</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 07 Dec 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://blog.herlein.com/tags/ai/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>https://blog.herlein.com/tags/career/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding</title>
+      <link>https://blog.herlein.com/tags/coding/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>https://blog.herlein.com/tags/software-engineering/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/software-engineering/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agentic Coding</title>
       <link>https://blog.herlein.com/tags/agentic-coding/</link>
@@ -21,13 +49,6 @@
       <link>https://blog.herlein.com/tags/agents/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agents/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -269,6 +290,34 @@
       <description></description>
     </item>
     <item>
+      <title>Food</title>
+      <link>https://blog.herlein.com/tags/food/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/food/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>https://blog.herlein.com/tags/life/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Restaurants</title>
+      <link>https://blog.herlein.com/tags/restaurants/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/restaurants/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>San-Francisco</title>
+      <link>https://blog.herlein.com/tags/san-francisco/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/san-francisco/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Engineering</title>
       <link>https://blog.herlein.com/tags/engineering/</link>
       <pubDate>Sat, 23 Nov 2024 00:00:01 -0800</pubDate>
@@ -364,13 +413,6 @@
       <link>https://blog.herlein.com/tags/podcast/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
       <guid>https://blog.herlein.com/tags/podcast/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Engineering</title>
-      <link>https://blog.herlein.com/tags/software-engineering/</link>
-      <pubDate>Thu, 06 Jun 2024 00:00:01 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
