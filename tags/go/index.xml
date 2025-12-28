@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 28 Dec 2025 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 01:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The New Whale Chase: Drones, Hydrophones, and a Father-Son Project</title>
+      <link>https://blog.herlein.com/post/the-new-whale-chase/</link>
+      <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/the-new-whale-chase/</guid>
+      <description>&lt;p&gt;After two years of false starts with the Bristlemouth platform and permit headaches, I&amp;rsquo;m revisiting my whale song project with a completely different approach: &lt;strong&gt;semi-autonomous floating drones&lt;/strong&gt;. The regulatory landscape has forced a rethink, and honestly, it might lead to something better.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2025 In Review: The Year AI Changed Everything</title>
       <link>https://blog.herlein.com/post/2025-in-review/</link>

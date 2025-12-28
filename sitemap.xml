@@ -2,11 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/acoustics/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/drones/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/go/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/golang/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
-    <lastmod>2025-12-28T12:00:01-08:00</lastmod>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/humpback/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ocean/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-12-28T12:00:01-08:00</lastmod>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/robotics/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/the-new-whale-chase/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/whales/</loc>
+    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/2025-in-review/</loc>
     <lastmod>2025-12-28T00:00:01-08:00</lastmod>
@@ -21,15 +54,6 @@
     <lastmod>2025-12-28T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/claude/</loc>
-    <lastmod>2025-12-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/go/</loc>
-    <lastmod>2025-12-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/robotics/</loc>
-    <lastmod>2025-12-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2025-12-28T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/year-in-review/</loc>
@@ -101,9 +125,6 @@
     <loc>https://blog.herlein.com/post/localdev-container-jail/</loc>
     <lastmod>2025-12-07T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
-    <lastmod>2025-12-07T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/vibe-coding-review/</loc>
     <lastmod>2025-12-07T00:00:01-08:00</lastmod>
   </url><url>
@@ -111,9 +132,6 @@
     <lastmod>2025-12-07T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/c&#43;&#43;/</loc>
-    <lastmod>2025-12-05T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/golang/</loc>
     <lastmod>2025-12-05T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/why-go-for-robotics/</loc>
@@ -215,9 +233,6 @@
     <loc>https://blog.herlein.com/tags/radio/</loc>
     <lastmod>2025-01-09T09:30:29-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/whales/</loc>
-    <lastmod>2025-01-09T09:30:29-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/engineering/</loc>
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
   </url><url>
@@ -240,9 +255,6 @@
     <lastmod>2024-10-26T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/long-time-no-post/</loc>
-    <lastmod>2024-10-26T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ocean/</loc>
     <lastmod>2024-10-26T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/zephyr/</loc>
@@ -319,12 +331,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/ww2/</loc>
     <lastmod>2024-05-13T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/acoustics/</loc>
-    <lastmod>2024-05-11T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/humpback/</loc>
-    <lastmod>2024-05-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/legal/</loc>
     <lastmod>2024-05-11T00:00:01-08:00</lastmod>
