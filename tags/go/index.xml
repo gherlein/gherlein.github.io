@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 24 Dec 2025 01:03:00 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 In Review: The Year AI Changed Everything</title>
+      <link>https://blog.herlein.com/post/2025-in-review/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/2025-in-review/</guid>
+      <description>&lt;p&gt;Looking back at 2025, one theme dominates: &lt;strong&gt;AI agentic programming went from novelty to necessity&lt;/strong&gt;. This year transformed how I think about software development, career advice, and even my personal hardware projects. Here&amp;rsquo;s what I wrote about, what I learned, and what I expect in 2026.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Programming Languages in 2026</title>
       <link>https://blog.herlein.com/post/programming-languages-intersection/</link>
