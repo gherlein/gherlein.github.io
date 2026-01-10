@@ -10,6 +10,13 @@
     <lastBuildDate>Sat, 10 Jan 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Agentic Coding</title>
+      <link>https://blog.herlein.com/tags/agentic-coding/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Agents</title>
       <link>https://blog.herlein.com/tags/agents/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
@@ -31,10 +38,24 @@
       <description></description>
     </item>
     <item>
+      <title>Career</title>
+      <link>https://blog.herlein.com/tags/career/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Claude</title>
       <link>https://blog.herlein.com/tags/claude/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://blog.herlein.com/tags/development/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/development/</guid>
       <description></description>
     </item>
     <item>
@@ -49,6 +70,13 @@
       <link>https://blog.herlein.com/tags/robotics/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://blog.herlein.com/tags/software/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/software/</guid>
       <description></description>
     </item>
     <item>
@@ -105,13 +133,6 @@
       <link>https://blog.herlein.com/tags/whales/</link>
       <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/whales/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Career</title>
-      <link>https://blog.herlein.com/tags/career/</link>
-      <pubDate>Sun, 28 Dec 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/career/</guid>
       <description></description>
     </item>
     <item>
@@ -217,13 +238,6 @@
       <link>https://blog.herlein.com/tags/software-engineering/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/software-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Agentic Coding</title>
-      <link>https://blog.herlein.com/tags/agentic-coding/</link>
-      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
       <description></description>
     </item>
     <item>
@@ -346,13 +360,6 @@
       <description></description>
     </item>
     <item>
-      <title>Development</title>
-      <link>https://blog.herlein.com/tags/development/</link>
-      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/development/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>MCP</title>
       <link>https://blog.herlein.com/tags/mcp/</link>
       <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
@@ -364,13 +371,6 @@
       <link>https://blog.herlein.com/tags/robots/</link>
       <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/robots/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://blog.herlein.com/tags/software/</link>
-      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/software/</guid>
       <description></description>
     </item>
     <item>

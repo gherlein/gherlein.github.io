@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.152.2">
+
+  <title>The Three Tiers of Software Development (Where will you land?) &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>The Three Tiers of Software Development (Where will you land?)</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Jan 2026, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ai">AI</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/career">career</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/software">software</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/development">development</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/agentic-coding">agentic coding</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Software development is stratifying into three distinct tiers. Where you land will determine whether you make more money, the same, or far less than today.</p>
+<p>I&rsquo;ve been in this industry long enough to see hype cycles come and go. I was coding BASIC on a TRS-80 with 4K of RAM. I&rsquo;ve watched Java revolutionize everything, then the web, then mobile, then cloud. I&rsquo;ve heard &ldquo;this changes everything&rdquo; about a dozen times.</p>
+<p>This time it&rsquo;s actually true. And the evidence is piling up fast.</p>
+<h2 id="the-data-that-changed-my-mind">The Data That Changed My Mind</h2>
+<p>Let me throw some numbers at you.</p>
+<p><a href="https://digitaleconomy.stanford.edu/wp-content/uploads/2025/08/Canaries_BrynjolfssonChen.pdf">Stanford&rsquo;s Digital Economy Lab</a> just published &ldquo;Canaries in the Coal Mine&rdquo; - a study analyzing payroll records from ADP covering millions of workers. By July 2025, employment for software developers aged 22-25 <strong>declined nearly 20%</strong> from its peak in late 2022. Meanwhile, employment for developers over 30 <em>grew</em> 6-12% in the same period.</p>
+<p>Entry-level hiring at the <a href="https://spectrum.ieee.org/ai-effect-entry-level-jobs">15 biggest tech firms fell 25%</a> from 2023 to 2024. Junior tech postings are down 35%. In some data, <a href="https://www.rezi.ai/posts/entry-level-jobs-and-ai-2026-report">67% down</a>.</p>
+<p>Meanwhile, <a href="https://www.cnbc.com/2025/04/29/satya-nadella-says-as-much-as-30percent-of-microsoft-code-is-written-by-ai.html">Satya Nadella</a> says 30% of Microsoft&rsquo;s code is now written by AI. <a href="https://www.itpro.com/software/development/developers-will-need-to-adapt-microsoft-ceo-satya-nadella-joins-googles-sundar-pichai-in-revealing-the-scale-of-ai-generated-code-at-the-tech-giants-and-its-a-stark-warning-for-software-developers">Sundar Pichai</a> says Google is over 30% and climbing. <a href="https://finance.yahoo.com/news/ai-write-code-zuckerberg-says-164519848.html">Mark Zuckerberg</a> told Joe Rogan that AI will be doing the work of mid-level engineers this year and Meta wants AI handling half their development within 12 months.</p>
+<p><a href="https://techcrunch.com/2025/03/06/a-quarter-of-startups-in-ycs-current-cohort-have-codebases-that-are-almost-entirely-ai-generated/">Y Combinator&rsquo;s Winter 2025 batch</a>? 25% of those startups have codebases that are <strong>95% AI-generated</strong>. Not non-technical founders either - highly technical people who <em>could</em> write it themselves but don&rsquo;t need to anymore.</p>
+<p>&ldquo;This isn&rsquo;t a fad. This isn&rsquo;t going away. This is the dominant way to code,&rdquo; said YC&rsquo;s Garry Tan.</p>
+<p>Think about that for a minute.</p>
+<h2 id="the-three-tiers">The Three Tiers</h2>
+<p>Here&rsquo;s where I think this is heading, and it&rsquo;s not complicated:</p>
+<h3 id="tier-1-ai-creators">Tier 1: AI Creators</h3>
+<p>These are the people building the AI itself. Training models. Deploying inference infrastructure. Building the agents and tools that everyone else uses. The researchers at OpenAI, Anthropic, DeepMind. The MLOps engineers at NVIDIA. The folks making the magic happen.</p>
+<p><strong>Compensation:</strong> Astronomical. We&rsquo;re talking $200K-$450K base, with total comp potentially pushing $900K at places like <a href="https://www.coursera.org/articles/ai-engineer-salary">Google DeepMind</a>. <a href="https://www.index.dev/blog/ai-developer-salary-trends">PwC&rsquo;s data</a> shows AI-skilled workers earning 25% more than equivalent non-AI tech roles. Mid-level AI engineers saw 9.2% salary growth year-over-year while traditional software engineers saw their pay <em>decline</em> up to 10%.</p>
+<p>This tier will remain small. Extremely well-compensated. And absolutely critical.</p>
+<h3 id="tier-2-ai-enabled-developers">Tier 2: AI-Enabled Developers</h3>
+<p>This is where I think experienced software engineers need to land. These are people who use AI tooling as a force multiplier to build complex <strong>systems</strong> - not just apps, but architectures. They understand distributed systems, security, reliability, observtic design. They can review AI-generated code and know when it&rsquo;s wrong. They can debug the mess when things go sideways.</p>
+<p>The Stanford study found something interesting: AI is particularly good at replacing &ldquo;textbook knowledge&rdquo; - the syntax and algorithms taught in CS programs. What it struggles with is years of handling unexpected problems, difficult integrations, and messy real-world situations.</p>
+<p><strong>Compensation:</strong> Probably flat or slightly declining from today&rsquo;s rates. The median software engineer salary is around <a href="https://www.finalroundai.com/blog/software-engineering-job-market-2026">$130K</a>. If you&rsquo;re AI-enabled and working on complex systems, you&rsquo;ll hold that line. Maybe see modest growth if you specialize.</p>
+<p>But here&rsquo;s the catch: you&rsquo;ll be doing 5-10x more with the same headcount. Companies won&rsquo;t need as many of you. The <a href="https://www.entrepreneur.com/business-news/ai-is-taking-over-coding-at-microsoft-google-and-meta/490896">Salesforce hiring pause</a> due to 30% AI productivity gains is a preview of what&rsquo;s coming everywhere.</p>
+<h3 id="tier-3-software-technicians">Tier 3: Software Technicians</h3>
+<p>This is the tier that didn&rsquo;t exist two years ago but is rapidly emerging. These are people who can &ldquo;vibe code&rdquo; - <a href="https://en.wikipedia.org/wiki/Vibe_coding">Andrej Karpathy&rsquo;s term</a> that became Collins Dictionary&rsquo;s Word of the Year for 2025. They describe what they want to an LLM, it generates code, they iterate based on whether it works or not. They don&rsquo;t really read the code. They don&rsquo;t debug in the traditional sense. They prompt their way to a solution.</p>
+<p>For simple applications and websites? This works. It works surprisingly well, actually. The barrier to creating functional software has cratered.</p>
+<p><strong>Compensation:</strong> Here&rsquo;s the brutal part. If a non-programmer can vibe-code a working app in a weekend, what&rsquo;s the economic justification for paying someone $130K to do the same thing? There isn&rsquo;t one.</p>
+<p>I predict this tier sees <strong>50-75% pay reduction</strong> from today&rsquo;s junior/mid developer salaries. We&rsquo;re already seeing <a href="https://www.excellentwebworld.com/cost-to-hire-vibe-coding-engineers/">vibe coder positions</a> advertised at $70K-$100K for entry level. That&rsquo;s going to compress further as the tools get better and more people can do it.</p>
+<h2 id="why-this-stratification-is-inevitable">Why This Stratification Is Inevitable</h2>
+<p>The economics are brutal and undeniable.</p>
+<p>If AI can do the work of a mid-level engineer (Zuckerberg&rsquo;s claim), and 30% of code at Big Tech is already AI-generated (Microsoft/Google reality), and 95% AI-generated codebases are getting funded and growing 10% per week (YC data)&hellip; then the floor is falling out of basic coding work.</p>
+<p>The Stanford researchers put it clearly: AI is good at automating work, but augments experienced workers rather than replacing them. Young developers with textbook knowledge are competing directly with AI. Experienced developers with battle scars are being amplified by AI.</p>
+<p>That&rsquo;s not a subtle difference. That&rsquo;s a chasm.</p>
+<h2 id="what-should-you-do">What Should You Do?</h2>
+<p>If you&rsquo;re early in your career: Don&rsquo;t despair, but don&rsquo;t be naive either. The path through junior developer roles is narrowing fast. Focus on systems thinking, architecture, security, reliability - the stuff AI struggles with. Learn to work with AI, not compete against it.</p>
+<p>If you&rsquo;re mid-career: Embrace AI tooling aggressively. I&rsquo;ve <a href="https://blog.herlein.com/post/claude-code/">written about this before</a> - I&rsquo;m getting 100x productivity gains on scaffolding work. That&rsquo;s not hyperbole. But I also know when the AI is wrong, because I&rsquo;ve been doing this for decades. Your experience is your moat. Use it.</p>
+<p>If you&rsquo;re senior: You might actually be in the best position. You can guide AI, review its output, understand the system-level implications it misses. You&rsquo;re the adult supervision that makes AI-generated code actually work in production.</p>
+<p>And if you want to be in Tier 1? Start now. The <a href="https://www.secondtalent.com/resources/most-in-demand-ai-engineering-skills-and-salary-ranges/">AI engineering talent market rewards specialization</a> heavily - domain experts command 30-50% higher salaries than generalists. Pick a lane: NLP, computer vision, robotics, whatever excites you. Go deep.</p>
+<h2 id="the-hard-truth">The Hard Truth</h2>
+<p>Look, I don&rsquo;t love all of this. I&rsquo;ve mentored junior developers. I believe in the craft. I think there&rsquo;s value in understanding code at a deep level.</p>
+<p>But the market doesn&rsquo;t care what I value. The market cares about economics. And the economics say: basic coding is becoming a commodity skill. The tools to do it are getting cheaper and more accessible every month.</p>
+<p>The era of the generalist developer making $130K to build CRUD apps is ending. Some of us will move up the stack into systems and AI. Some will become specialists in Tier 1 work. And yes, some will become software technicians - still useful, still employed, but at a very different compensation level.  And some <a href="https://ghuntley.com/ngmi/">&ldquo;just are&rsquo;t going to make i.&rdquo;</a></p>
+<p>The stratification is coming. It&rsquo;s probably already here.</p>
+<p>Choose your tier wisely.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Software development is splitting into three distinct economic tiers:</p>
+<ol>
+<li><strong>AI Creators</strong> - building the models and agents. Compensation: exceptional ($200K-$900K+).</li>
+<li><strong>AI-Enabled Developers</strong> - using AI to build complex systems. Compensation: roughly current levels ($120K-$180K).</li>
+<li><strong>Software Technicians</strong> - vibe coding applications. Compensation: significantly reduced ($50K-$100K).</li>
+</ol>
+<p>The data supports this. Stanford shows junior developers being replaced while senior developers thrive. Big Tech admits 30% of their code is AI-generated. YC shows 95% AI codebases are fundable and profitable. The entry-level job market has collapsed.</p>
+<p>I&rsquo;ve been here for all the hype cycles. This isn&rsquo;t hype. This is a restructuring of our entire profession.</p>
+<p>Figure out where you want to be. Then do what it takes to get there.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fthree-software-levels%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fthree-software-levels%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fthree-software-levels%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fthree-software-levels%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fthree-software-levels%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fthree-software-levels%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/the-new-whale-chase/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/the-new-whale-chase/">The New Whale Chase: Drones, Hydrophones, and a Father-Son Project</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/automation-is-robotics/">Automation Is Robotics (And You&#39;re Already Building Robots)</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/automation-is-robotics/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+
