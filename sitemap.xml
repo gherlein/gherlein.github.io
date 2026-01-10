@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/agents/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/automation/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/automation-is-robotics/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/claude/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/devops/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/robotics/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/about/</loc>
+    <lastmod>2026-01-01T00:01:05-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/acoustics/</loc>
     <lastmod>2025-12-28T01:00:01-08:00</lastmod>
   </url><url>
@@ -14,25 +50,10 @@
     <loc>https://blog.herlein.com/tags/golang/</loc>
     <lastmod>2025-12-28T01:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/humpback/</loc>
     <lastmod>2025-12-28T01:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/ocean/</loc>
-    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/robotics/</loc>
-    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
     <lastmod>2025-12-28T01:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/the-new-whale-chase/</loc>
@@ -44,16 +65,7 @@
     <loc>https://blog.herlein.com/post/2025-in-review/</loc>
     <lastmod>2025-12-28T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/agents/</loc>
-    <lastmod>2025-12-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2025-12-28T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/career/</loc>
-    <lastmod>2025-12-28T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/claude/</loc>
     <lastmod>2025-12-28T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/year-in-review/</loc>
@@ -187,9 +199,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/job-hunting/</loc>
     <lastmod>2025-05-31T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/about/</loc>
-    <lastmod>2025-05-25T00:01:05-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/a2a/</loc>
     <lastmod>2025-04-25T00:00:01-08:00</lastmod>
@@ -524,9 +533,6 @@
     <loc>https://blog.herlein.com/tags/networking/</loc>
     <lastmod>2022-05-22T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/devops/</loc>
-    <lastmod>2022-05-21T00:00:01-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/cognitive-load/</loc>
     <lastmod>2022-05-21T00:00:01-07:00</lastmod>
   </url><url>
@@ -607,9 +613,6 @@
   </url><url>
     <loc>https://blog.herlein.com/post/cicd-thoughts/</loc>
     <lastmod>2022-03-01T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/automation/</loc>
-    <lastmod>2022-02-13T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/cdk/</loc>
     <lastmod>2022-02-13T00:00:01-08:00</lastmod>

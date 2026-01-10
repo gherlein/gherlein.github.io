@@ -7,8 +7,57 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 28 Dec 2025 01:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents</title>
+      <link>https://blog.herlein.com/tags/agents/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agents/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://blog.herlein.com/tags/ai/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>https://blog.herlein.com/tags/automation/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://blog.herlein.com/tags/claude/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>https://blog.herlein.com/tags/devops/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robotics</title>
+      <link>https://blog.herlein.com/tags/robotics/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>https://blog.herlein.com/tags/technical/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/technical/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Acoustics</title>
       <link>https://blog.herlein.com/tags/acoustics/</link>
@@ -52,20 +101,6 @@
       <description></description>
     </item>
     <item>
-      <title>Robotics</title>
-      <link>https://blog.herlein.com/tags/robotics/</link>
-      <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/robotics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technical</title>
-      <link>https://blog.herlein.com/tags/technical/</link>
-      <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/technical/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Whales</title>
       <link>https://blog.herlein.com/tags/whales/</link>
       <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
@@ -73,31 +108,10 @@
       <description></description>
     </item>
     <item>
-      <title>Agents</title>
-      <link>https://blog.herlein.com/tags/agents/</link>
-      <pubDate>Sun, 28 Dec 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/agents/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Sun, 28 Dec 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Career</title>
       <link>https://blog.herlein.com/tags/career/</link>
       <pubDate>Sun, 28 Dec 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/career/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Sun, 28 Dec 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -801,13 +815,6 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
-      <link>https://blog.herlein.com/tags/devops/</link>
-      <pubDate>Sat, 21 May 2022 00:00:01 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Analytics</title>
       <link>https://blog.herlein.com/tags/analytics/</link>
       <pubDate>Sun, 15 May 2022 00:00:01 -0800</pubDate>
@@ -931,13 +938,6 @@
       <link>https://blog.herlein.com/tags/software-development/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/software-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation</title>
-      <link>https://blog.herlein.com/tags/automation/</link>
-      <pubDate>Sun, 13 Feb 2022 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/automation/</guid>
       <description></description>
     </item>
     <item>

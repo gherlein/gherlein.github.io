@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.152.2">
+
+  <title>Automation Is Robotics (And You&#39;re Already Building Robots) &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Automation Is Robotics (And You&#39;re Already Building Robots)</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>10 Jan 2026, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ai">AI</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/robotics">robotics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/automation">automation</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/claude">claude</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/devops">devops</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/agents">agents</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>If software changes something in the real world, it&rsquo;s a robot.</p>
+<p>Yeah, I said it. That definition might make a few folks uncomfortable. When most people hear &ldquo;robotics,&rdquo; they picture R2-D2 or a humanoid arm welding car frames. Metal bodies. Motors. Sensors. Physical stuff in the physical world.</p>
+<p>But that&rsquo;s not the whole picture. Not anymore. And honestly? It never was.</p>
+<h2 id="what-actually-makes-a-robot">What Actually Makes a Robot?</h2>
+<p>Here&rsquo;s the thing: a robot is fundamentally software that perceives, reasons, and takes action to change something in the world. The motors and sensors? Those are just the interface to the <em>physical</em> world. They&rsquo;re not what makes it a robot.</p>
+<p>Think about it. A submarine&rsquo;s autopilot? Robot. Your thermostat that adjusts to your schedule? Robot. An algorithm executing trades on Wall Street? That&rsquo;s absolutely a robot - one that moves billions of dollars around every single day.</p>
+<p>The physical actuator is just one possible interface. The real world includes:</p>
+<ul>
+<li>Your file system</li>
+<li>Your production infrastructure</li>
+<li>Financial markets</li>
+<li>Supply chains</li>
+<li>The code you ship to users</li>
+</ul>
+<p>Anything that exists and can be changed by software is &ldquo;the real world.&rdquo; And software that changes it autonomously is robotics. Period.</p>
+<h2 id="traditional-robotics-the-physical-stuff">Traditional Robotics: The Physical Stuff</h2>
+<p>Don&rsquo;t get me wrong - physical robots are having a moment. A big one.</p>
+<p>Jensen Huang stood on stage at <a href="https://www.nvidia.com/en-us/events/ces/">CES 2026</a> and declared that &ldquo;the ChatGPT moment for physical AI is here.&rdquo; NVIDIA released <a href="https://nvidianews.nvidia.com/news/nvidia-releases-new-physical-ai-models-as-global-partners-unveil-next-generation-robots">GR00T N1.6</a>, an open vision-language-action model for humanoid robots. They unveiled <a href="https://blogs.nvidia.com/blog/2026-ces-special-presentation/">Cosmos</a>, a foundation model that can simulate environments governed by actual physics. Boston Dynamics, Caterpillar, LG - they&rsquo;re all building on NVIDIA&rsquo;s robotics stack.</p>
+<p>And Huang says robots will have some human-level capabilities <em>this year</em>. This year!</p>
+<p>&ldquo;We believe physical AI and robotics will eventually be the largest consumer electronics segment in the world,&rdquo; said Ali Kani, NVIDIA&rsquo;s automotive VP. Largest consumer electronics segment. Let that sink in.</p>
+<p>The physical stuff is real, it&rsquo;s happening, and it&rsquo;s accelerating faster than most people realize.</p>
+<p>But here&rsquo;s where it gets interesting&hellip;</p>
+<h2 id="the-three-robots-you-didnt-know-were-robots">The Three Robots You Didn&rsquo;t Know Were Robots</h2>
+<h3 id="1-high-frequency-trading-systems">1. High-Frequency Trading Systems</h3>
+<p><a href="https://www.schwab.com/learn/story/high-frequency-algorithmic-trading">High-frequency trading</a> systems execute millions of trades per second. Milliseconds matter. Microseconds matter. These systems move roughly 10-40% of all equity trading volume. They provide liquidity, tighten spreads, and occasionally cause flash crashes that wipe out billions in minutes.</p>
+<p>Is a trading algorithm a robot? It perceives (market data). It reasons (statistical models, pattern recognition). It acts (executes trades). And it changes the real world - specifically, it moves money. A lot of money.</p>
+<p>The 2010 Flash Crash? That was robots behaving badly. Algorithmic trades cascading through interconnected markets, triggering stop-losses, withdrawing liquidity. Billions erased in minutes. That&rsquo;s about as real-world as it gets.</p>
+<p>These aren&rsquo;t toys. These are autonomous systems making consequential decisions faster than any human could review them. Robots.</p>
+<h3 id="2-gitops-and-infrastructure-automation">2. GitOps and Infrastructure Automation</h3>
+<p>You&rsquo;re running <a href="https://about.gitlab.com/topics/gitops/">ArgoCD</a> or Flux? Congratulations, you&rsquo;re operating robots.</p>
+<p>GitOps treats your infrastructure like code - declarative descriptions of what your production environment should look like, stored in Git. When you merge a PR, an automated system reads the desired state and makes it so. It creates servers. Kills containers. Scales clusters. Configures networks.</p>
+<p>That&rsquo;s a robot taking real-world action. Your infrastructure exists. It costs money. It serves users. When that GitOps controller reconciles drift and spins up a new pod, it&rsquo;s making a change to the physical world - somewhere, an actual CPU in an actual data center starts running your actual code.</p>
+<p>Every DevOps engineer is a roboticist. They just don&rsquo;t call it that.</p>
+<h3 id="3-ai-assisted-software-development">3. AI-Assisted Software Development</h3>
+<p>And now we get to my favorite: tools like <a href="https://claude.ai/code">Claude Code</a>.</p>
+<p>When I fire up Claude Code and say &ldquo;refactor this module to use dependency injection and add comprehensive tests,&rdquo; what happens? The AI perceives (reads my codebase). It reasons (understands architecture, identifies patterns). It acts (writes code, creates files, runs tests). And the changes are <strong>real</strong>.</p>
+<p>That code ships. It runs on servers. It affects users. Money changes hands because of it.</p>
+<p>I&rsquo;ve <a href="https://blog.herlein.com/post/claude-code/">written before</a> about how Claude Code transformed my workflow. The 100x productivity gains aren&rsquo;t just theoretical - I&rsquo;m actually shipping more software to production. Real changes to real systems that affect real people.</p>
+<p>If an AI agent writing code that gets deployed to production isn&rsquo;t a robot, I don&rsquo;t know what is.</p>
+<h2 id="the-mouse-and-keyboard-era-is-ending">The Mouse and Keyboard Era Is Ending</h2>
+<p>For decades, software meant a person sitting at a keyboard, typing instructions, clicking a mouse. The human was the actuator. Software did nothing without a person manually commanding each action.</p>
+<p>That model is dying.</p>
+<p>Look at what happened in 2025: Anthropic released the <a href="https://www.anthropic.com/news/model-context-protocol">Model Context Protocol</a>. Within months, hundreds of MCP servers appeared. AI agents started connecting to Slack, Jira, databases, cloud infrastructure. Google announced <a href="https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/">Agent-to-Agent</a> for swarms of collaborative agents. The Linux Foundation created the <a href="https://theconversation.com/ai-agents-arrived-in-2025-heres-what-happened-and-the-challenges-ahead-in-2026-272325">Agentic AI Foundation</a>.</p>
+<p>Gartner reported a <strong>1,445% surge</strong> in multi-agent system inquiries from Q1 2024 to Q2 2025. That&rsquo;s not a trend. That&rsquo;s a phase change.</p>
+<p>The trajectory is clear: software is becoming autonomous. It&rsquo;s not waiting for you to click. It&rsquo;s perceiving, reasoning, and acting on its own. Making changes. Getting things done.</p>
+<p>That&rsquo;s robotics. It&rsquo;s just robotics without the metal body.</p>
+<h2 id="nvidia-gets-it">NVIDIA Gets It</h2>
+<p>Jensen Huang isn&rsquo;t just talking about humanoid robots and autonomous vehicles. He&rsquo;s talking about &ldquo;physical AI&rdquo; - AI that understands and acts in the real world. But here&rsquo;s the key insight: <strong>the real world includes everything that exists and can be changed</strong>.</p>
+<p>NVIDIA&rsquo;s <a href="https://blogs.nvidia.com/blog/2026-ces-special-presentation/">Cosmos</a> models simulate physics because physical robots need to learn physics. But the same reasoning architectures power AI agents that navigate codebases, manage infrastructure, and orchestrate business processes. The substrate is different. The principle is the same.</p>
+<p>When NVIDIA says they want to be the &ldquo;Android of generalist robotics,&rdquo; they&rsquo;re not just talking about humanoids. They&rsquo;re talking about the entire space of autonomous systems that take action in the world. That includes your CI/CD pipeline. That includes your AI coding assistant.</p>
+<h2 id="what-this-means-for-you">What This Means for You</h2>
+<p>If you&rsquo;re a software engineer, you&rsquo;re building robots. Your deployment pipeline is a robot. Your monitoring and auto-scaling? Robot. That AI assistant helping you write code? Absolutely a robot.</p>
+<p>This isn&rsquo;t just semantic games. The mindset matters.</p>
+<p>When you think of automation as robotics, you start asking the right questions:</p>
+<ul>
+<li>What happens when this system acts on bad data?</li>
+<li>How do we handle cascading failures?</li>
+<li>What are the safety boundaries?</li>
+<li>Who&rsquo;s responsible when the robot makes a mistake?</li>
+</ul>
+<p>These are questions that traditional roboticists have grappled with for decades. Now they&rsquo;re everyone&rsquo;s questions.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The old definition of robotics - metal bodies with motors and sensors manipulating physical objects - was always too narrow. It was just the most visible form of a broader concept.</p>
+<p>A robot is software that autonomously changes the world. The interface to the world can be a servo motor. It can be an API. It can be a database connection. It can be a file write operation. The principle is the same: perception, reasoning, action, consequence.</p>
+<p>You&rsquo;re already building robots. You&rsquo;re already deploying robots. You&rsquo;re already relying on robots to keep your systems running.</p>
+<p>Might as well call them what they are.</p>
+<p>Long live the robots!</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fautomation-is-robotics%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fautomation-is-robotics%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fautomation-is-robotics%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fautomation-is-robotics%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fautomation-is-robotics%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fautomation-is-robotics%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/the-new-whale-chase/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/the-new-whale-chase/">The New Whale Chase: Drones, Hydrophones, and a Father-Son Project</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

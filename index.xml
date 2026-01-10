@@ -7,8 +7,22 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 28 Dec 2025 01:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automation Is Robotics (And You&#39;re Already Building Robots)</title>
+      <link>https://blog.herlein.com/post/automation-is-robotics/</link>
+      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/automation-is-robotics/</guid>
+      <description>&lt;p&gt;If software changes something in the real world, it&amp;rsquo;s a robot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://blog.herlein.com/about/</link>
+      <pubDate>Thu, 01 Jan 2026 00:01:05 -0800</pubDate>
+      <guid>https://blog.herlein.com/about/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Estimated reading time: 25 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;management-readme&#34;&gt;Management README&lt;/h1&gt;&#xA;&lt;p&gt;I was inspired by an article on &lt;a href=&#34;https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe&#34;&gt;Management README&amp;rsquo;s&lt;/a&gt; and thought it was high time I do something similar.&lt;/p&gt;&#xA;&lt;p&gt;This is a long post, but I&amp;rsquo;m not a simple person.  But if you want to try to understand me, perhaps it&amp;rsquo;s worth the time?&lt;/p&gt;&#xA;&lt;p&gt;This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me.  I try to keep it up to date, but it may be six-plus months out of date.  Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The New Whale Chase: Drones, Hydrophones, and a Father-Son Project</title>
       <link>https://blog.herlein.com/post/the-new-whale-chase/</link>
@@ -106,13 +120,6 @@
       <pubDate>Sat, 31 May 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/advice-to-new-developers-may2025/</guid>
       <description>&lt;p&gt;&lt;em&gt;Reading time: 10 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;It&amp;rsquo;s brutally hard to find a job as a new college grad today.  And AI is changing things even for seasoned Engineers. Here&amp;rsquo;s my advice.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>https://blog.herlein.com/about/</link>
-      <pubDate>Sun, 25 May 2025 00:01:05 -0800</pubDate>
-      <guid>https://blog.herlein.com/about/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Estimated reading time: 25 minutes&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;management-readme&#34;&gt;Management README&lt;/h1&gt;&#xA;&lt;p&gt;I was inspired by an article on &lt;a href=&#34;https://hackernoon.com/12-manager-readmes-from-silicon-valleys-top-tech-companies-26588a660afe&#34;&gt;Management README&amp;rsquo;s&lt;/a&gt; and thought it was high time I do something similar.&lt;/p&gt;&#xA;&lt;p&gt;This is a long post, but I&amp;rsquo;m not a simple person.  But if you want to try to understand me, perhaps it&amp;rsquo;s worth the time?&lt;/p&gt;&#xA;&lt;p&gt;This is mostly for folks I work with, but I hope it&amp;rsquo;s useful to anyone who interacts with me.  I try to keep it up to date, but it may be six-plus months out of date.  Hopefully I don&amp;rsquo;t change that much and it&amp;rsquo;s only just me gaining more insight about myself!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Agentic Programming: The New Robot Revolution!</title>
