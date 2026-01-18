@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 10 Jan 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t Miss the Train!</title>
+      <link>https://blog.herlein.com/post/dont-miss-the-train/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/dont-miss-the-train/</guid>
+      <description>&lt;p&gt;The AI train has left the station. Some of us are on board, generating entire modules from specs. Others are still on the platform debating whether the train is even real. Four smart people wrote about this shift this past week. They all agree on what it means. And I agree with them.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Automation Is Robotics (And You&#39;re Already Building Robots)</title>
       <link>https://blog.herlein.com/post/automation-is-robotics/</link>
