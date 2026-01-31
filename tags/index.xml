@@ -682,10 +682,31 @@
       <description></description>
     </item>
     <item>
+      <title>Industry</title>
+      <link>https://blog.herlein.com/tags/industry/</link>
+      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/industry/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Pair-Programming</title>
       <link>https://blog.herlein.com/tags/pair-programming/</link>
       <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/pair-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PX4</title>
+      <link>https://blog.herlein.com/tags/px4/</link>
+      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/px4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ROS</title>
+      <link>https://blog.herlein.com/tags/ros/</link>
+      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ros/</guid>
       <description></description>
     </item>
     <item>
@@ -1309,13 +1330,6 @@
       <link>https://blog.herlein.com/tags/micro-services/</link>
       <pubDate>Sun, 24 Feb 2019 08:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/micro-services/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ROS</title>
-      <link>https://blog.herlein.com/tags/ros/</link>
-      <pubDate>Sun, 10 Feb 2019 09:00:29 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/ros/</guid>
       <description></description>
     </item>
     <item>

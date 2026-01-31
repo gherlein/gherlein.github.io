@@ -425,7 +425,19 @@
     <loc>https://blog.herlein.com/tags/future/</loc>
     <lastmod>2024-01-21T08:00:00-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/post/robots-and-drones-are-the-same/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/industry/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/pair-programming/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/px4/</loc>
+    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ros/</loc>
     <lastmod>2024-01-21T08:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/bristlemouth-questionable/</loc>
@@ -928,9 +940,6 @@
   </url><url>
     <loc>https://blog.herlein.com/post/cloud-basics/</loc>
     <lastmod>2019-02-10T14:50:08-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ros/</loc>
-    <lastmod>2019-02-10T09:00:29-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/self-driving-revolution/</loc>
     <lastmod>2019-02-10T09:00:29-07:00</lastmod>
