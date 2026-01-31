@@ -2,6 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/drones/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/robots-and-drones-are-the-same/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/industry/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/px4/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/robotics/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ros/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/technical/</loc>
+    <lastmod>2026-01-31T08:01:00-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/agents/</loc>
     <lastmod>2026-01-31T00:00:01-08:00</lastmod>
   </url><url>
@@ -17,16 +47,7 @@
     <loc>https://blog.herlein.com/tags/career/</loc>
     <lastmod>2026-01-31T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2026-01-31T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2026-01-31T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/software/</loc>
-    <lastmod>2026-01-31T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-01-31T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/dont-miss-the-train/</loc>
@@ -56,12 +77,6 @@
     <loc>https://blog.herlein.com/tags/devops/</loc>
     <lastmod>2026-01-10T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/robotics/</loc>
-    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/technical/</loc>
-    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/three-software-levels/</loc>
     <lastmod>2026-01-10T00:00:01-08:00</lastmod>
   </url><url>
@@ -69,9 +84,6 @@
     <lastmod>2026-01-01T00:01:05-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/acoustics/</loc>
-    <lastmod>2025-12-28T01:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/drones/</loc>
     <lastmod>2025-12-28T01:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/go/</loc>
@@ -425,19 +437,7 @@
     <loc>https://blog.herlein.com/tags/future/</loc>
     <lastmod>2024-01-21T08:00:00-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/robots-and-drones-are-the-same/</loc>
-    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/industry/</loc>
-    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/pair-programming/</loc>
-    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/px4/</loc>
-    <lastmod>2024-01-21T08:00:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ros/</loc>
     <lastmod>2024-01-21T08:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/bristlemouth-questionable/</loc>

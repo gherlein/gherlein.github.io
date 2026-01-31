@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 10 Jan 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 08:01:00 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guest Post: Robots and Drones Are the Same Thing (And Pretending Otherwise Is Holding Us Back)</title>
+      <link>https://blog.herlein.com/post/robots-and-drones-are-the-same/</link>
+      <pubDate>Sat, 31 Jan 2026 08:01:00 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/robots-and-drones-are-the-same/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Guest Post by Luca Herlein&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The artificial divide between robotics and drone ecosystems made sense once. Today, it&amp;rsquo;s holding back the entire industry.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Automation Is Robotics (And You&#39;re Already Building Robots)</title>
       <link>https://blog.herlein.com/post/automation-is-robotics/</link>
@@ -113,13 +120,6 @@
       <pubDate>Thu, 07 Mar 2024 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/bristlemouth-yes/</guid>
       <description>&lt;p&gt;I have possession and unboxed the &lt;a href=&#34;https://www.sofarocean.com/products/spotter#s-subsurface&#34;&gt;SOFAR Spotter&lt;/a&gt; with &lt;a href=&#34;https://bristlemouth.notion.site/Developer-Kit-User-Guides-e9ca1b3c5a1c41c890d0105f2eb7c4b8&#34;&gt;Development Kit&lt;/a&gt;!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Guest Post: Robots and Drones Are the Same Thing (And Pretending Otherwise Is Holding Us Back)</title>
-      <link>https://blog.herlein.com/post/robots-and-drones-are-the-same/</link>
-      <pubDate>Sun, 21 Jan 2024 08:00:00 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/robots-and-drones-are-the-same/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Guest Post by Luca Herlein&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The artificial divide between robotics and drone ecosystems made sense once. Today, it&amp;rsquo;s holding back the entire industry.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bristlemouth Dev Kit May Not Happen</title>
