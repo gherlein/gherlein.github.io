@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Saas on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/saas/</link>
+    <description>Recent content in Saas on Greg Herlein</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 05 Feb 2026 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/saas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SaaS is Dead, Long Live Platforms</title>
+      <link>https://blog.herlein.com/post/saas-dead-long-live-platforms/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/saas-dead-long-live-platforms/</guid>
+      <description>&lt;p&gt;AI has made code cheap and abundant. The scarce resource is now knowing &lt;em&gt;what&lt;/em&gt; to build, not &lt;em&gt;how&lt;/em&gt;. This is creating a rapid split between companies that sell workflows and companies that sell capabilities. Only one of these will survive.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
