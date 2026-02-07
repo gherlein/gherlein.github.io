@@ -7,13 +7,48 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 05 Feb 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Thu, 05 Feb 2026 00:00:01 -0800</pubDate>
+      <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Building</title>
+      <link>https://blog.herlein.com/tags/building/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/building/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://blog.herlein.com/tags/claude/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Makers</title>
+      <link>https://blog.herlein.com/tags/makers/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/makers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>https://blog.herlein.com/tags/productivity/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://blog.herlein.com/tags/software/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/software/</guid>
       <description></description>
     </item>
     <item>
@@ -42,13 +77,6 @@
       <link>https://blog.herlein.com/tags/saas/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/saas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://blog.herlein.com/tags/software/</link>
-      <pubDate>Thu, 05 Feb 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/software/</guid>
       <description></description>
     </item>
     <item>
@@ -101,13 +129,6 @@
       <description></description>
     </item>
     <item>
-      <title>Building</title>
-      <link>https://blog.herlein.com/tags/building/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/building/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Career</title>
       <link>https://blog.herlein.com/tags/career/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:01 -0800</pubDate>
@@ -140,13 +161,6 @@
       <link>https://blog.herlein.com/tags/automation/</link>
       <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -392,13 +406,6 @@
       <link>https://blog.herlein.com/tags/blogging/</link>
       <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
       <guid>https://blog.herlein.com/tags/blogging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>https://blog.herlein.com/tags/productivity/</link>
-      <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/productivity/</guid>
       <description></description>
     </item>
     <item>
