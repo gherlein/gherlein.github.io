@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pi-Coding on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/pi-coding/</link>
+    <description>Recent content in Pi-Coding on Greg Herlein</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 18 Mar 2026 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/pi-coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tooling Is the New Model</title>
+      <link>https://blog.herlein.com/post/dot-agents/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/dot-agents/</guid>
+      <description>&lt;p&gt;The AI models are good enough. There, I said it. The bottleneck isn&amp;rsquo;t the model anymore &amp;ndash; it&amp;rsquo;s how you use it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
