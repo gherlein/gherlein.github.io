@@ -259,8 +259,8 @@
 <p>Second, I made dot-agents flexible enough to support Mario Zechner&rsquo;s <a href="https://github.com/badlogic/pi-mono/tree/main/packages/coding-agent">pi coding agent</a>. Pi is a minimal, extensible terminal-based coding assistant that takes a different approach &ndash; it gives you a clean harness with basic tools (read, write, edit, bash) and lets you build everything else through extensions and skills. It&rsquo;s deliberately not trying to be Claude Code. It&rsquo;s trying to be the thing you can shape into whatever you need.</p>
 <p>So now dot-agents works across both. Same skills, same security rules, same workflow discipline &ndash; different underlying agents.</p>
 <center>
-<img src="https://blog.herlein.com/images/dots-agents-saws.png" width="60%">
-<br><small>One configuration, multiple agents.</small>
+<img src="https://blog.herlein.com/images/dot-agents-tooling-vs-models.png" width="60%">
+<br><small>The model is the commodity. The workflow is the edge.</small>
 </center>
 <h2 id="the-real-point">The Real Point</h2>
 <p>Here&rsquo;s what I keep coming back to: <strong>the tooling is changing for the better, and it&rsquo;s changing FAST.</strong></p>
@@ -276,11 +276,11 @@
 <li><strong>How portable your setup is</strong> &ndash; are you locked into one vendor, or can you move your workflow to the next best thing?</li>
 </ul>
 <p>This is why I built dot-agents as a portable configuration. The model is the commodity. That&rsquo;s crazy but that&rsquo;s where we are.  Sure, some are better than others in some things.  Whatever.  <strong>The workflow is the differentiator.</strong></p>
-<center>
-<img src="https://blog.herlein.com/images/dot-agents-tooling-vs-models.png" width="60%">
-<br><small>The model is the commodity. The workflow is the edge.</small>
-</center>
 <p>Think about it this way: a brilliant developer with a default-configured AI agent will get beaten by a good developer with a well-tuned agent workflow. Every time. The agent that knows to run tests after every phase, that loads security rules contextually, that follows a structured debugging protocol instead of randomly changing code &ndash; that agent produces better results regardless of which model is underneath.</p>
+<center>
+<img src="https://blog.herlein.com/images/dots-agents-saws.png" width="60%">
+<br><small>One configuration, multiple agents.</small>
+</center>
 <h2 id="the-speed-problem">The Speed Problem</h2>
 <p>Here&rsquo;s the thing that keeps me up at night. The tooling is improving so fast that evaluating it is becoming a full-time job. I just finished integrating superpowers and adding pi support, and I already know there will be three new things to look at next week.  And I haven&rsquo;t even had time to really build anything with pi yet!</p>
 <p>This is a genuinely new problem. In the old world, you picked your IDE, your language, your framework, and you were set for at least a few years. Maybe you&rsquo;d upgrade once a quarter if things were moving fast. Now? The meta is shifting every few weeks. Skills frameworks, agent harnesses, prompt engineering patterns, MCP servers &ndash; the surface area of &ldquo;stuff you should probably know about&rdquo; is enormous.</p>
