@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/markdown/</link>
+    <description>Recent content in Markdown on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 03 Apr 2026 00:00:01 -0700</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Janky Little Git Scripts That Keep Me Sane</title>
+      <link>https://blog.herlein.com/post/git-scripts/</link>
+      <pubDate>Fri, 03 Apr 2026 00:00:01 -0700</pubDate>
+      <guid>https://blog.herlein.com/post/git-scripts/</guid>
+      <description>&lt;p&gt;I have a confession. I have a folder full of tiny bash scripts that make my life with GitHub dramatically easier. They&amp;rsquo;re not fancy. They&amp;rsquo;re not trying to be a framework. They are blunt instruments that solve real problems I have every single day.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

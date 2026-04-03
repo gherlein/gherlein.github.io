@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/bash/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/git/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/github/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/markdown/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/git-scripts/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/scripts/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/tools/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/workflow/</loc>
+    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
     <lastmod>2026-03-18T00:00:01-08:00</lastmod>
   </url><url>
@@ -11,25 +44,10 @@
     <loc>https://blog.herlein.com/tags/coding/</loc>
     <lastmod>2026-03-18T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2026-03-18T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/pi-coding/</loc>
     <lastmod>2026-03-18T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2026-03-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2026-03-18T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/dot-agents/</loc>
-    <lastmod>2026-03-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/tools/</loc>
-    <lastmod>2026-03-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/workflow/</loc>
     <lastmod>2026-03-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/history/</loc>
@@ -554,9 +572,6 @@
     <loc>https://blog.herlein.com/post/advice-to-new-developers/</loc>
     <lastmod>2022-11-26T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/git/</loc>
-    <lastmod>2022-10-31T01:30:29-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/git-clone-workaround/</loc>
     <lastmod>2022-10-31T01:30:29-07:00</lastmod>
   </url><url>
@@ -836,9 +851,6 @@
     <loc>https://blog.herlein.com/tags/actions/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/github/</loc>
-    <lastmod>2020-10-23T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/github-to-s3/</loc>
     <lastmod>2020-10-23T00:00:01-08:00</lastmod>
   </url><url>
@@ -1060,6 +1072,8 @@
     <loc>https://blog.herlein.com/resume/</loc>
   </url><url>
     <loc>https://blog.herlein.com/staffing/</loc>
+  </url><url>
+    <loc>https://blog.herlein.com/categories/</loc>
   </url><url>
     <loc>https://blog.herlein.com/common/</loc>
   </url><url>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>My Janky Little Git Scripts That Keep Me Sane &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>My Janky Little Git Scripts That Keep Me Sane</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>03 Apr 2026, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/git">git</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/github">github</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/bash">bash</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/scripts">scripts</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/workflow">workflow</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/tools">tools</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/markdown">markdown</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>I have a confession. I have a folder full of tiny bash scripts that make my life with GitHub dramatically easier. They&rsquo;re not fancy. They&rsquo;re not trying to be a framework. They are blunt instruments that solve real problems I have every single day.</p>
+<p>Look, I basically live on GitHub now. Not just for code &ndash; for brainstorming, documentation, project planning, design specs, notes&hellip; everything. My repos aren&rsquo;t just code repos anymore. Half of them are basically fancy notebooks that happen to be version controlled. And when you&rsquo;re juggling that many repos with that many different kinds of content, you need some shortcuts or you&rsquo;ll lose your mind.</p>
+<p>So I built some. They live here: <a href="https://github.com/gherlein/dotfiles/tree/main/git-scripts/bin">gherlein/dotfiles - git-scripts</a> and I&rsquo;m sharing them because maybe they&rsquo;ll help you too. Or maybe they&rsquo;ll horrify you. Either way, you&rsquo;re welcome.</p>
+<h2 id="the-problem-too-many-repos-too-little-patience">The Problem: Too Many Repos, Too Little Patience</h2>
+<p>Here&rsquo;s my typical day: I&rsquo;m working on code in one repo, brainstorming a design doc in another, updating project notes in a third, and dorking around with embedded firmware in a fourth. Each one needs to be committed and pushed. Each one might have upstream changes. Each one is on a branch I can barely remember the name of.</p>
+<p>Doing <code>git add . &amp;&amp; git commit -m &quot;stuff&quot; &amp;&amp; git push</code> in each one individually? Life is too short. I have things to build.</p>
+<h2 id="the-scripts">The Scripts</h2>
+<p>These all live in my PATH and they&rsquo;re all tiny. That&rsquo;s the point. Here&rsquo;s what I&rsquo;ve got:</p>
+<h3 id="gp----the-daily-driver"><code>gp</code> &ndash; The Daily Driver</h3>
+<p>This is the one I use most. It&rsquo;s a quick add-commit-push for whatever repo you&rsquo;re standing in:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gp <span style="color:#e6db74">&#34;updated the design doc&#34;</span>
+</span></span></code></pre></div><p>If you don&rsquo;t give it a message, it defaults to &ldquo;interim commit&rdquo; because sometimes you just need to save your work and move on with your life. But here&rsquo;s the thing that makes it not-stupid: it fetches first and checks if the remote is ahead of you. If someone (or past-you on another machine) pushed changes you don&rsquo;t have, it stops and tells you to pull first instead of creating a mess. Simple but saves you from pain.</p>
+<h3 id="gg----git-gather-the-batch-monster"><code>gg</code> &ndash; Git Gather (The Batch Monster)</h3>
+<p>This is <code>gp</code> on steroids. Point it at a directory full of repos and it pulls, commits, and pushes ALL of them:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd ~/projects
+</span></span><span style="display:flex;"><span>gg <span style="color:#e6db74">&#34;end of day commit&#34;</span>
+</span></span></code></pre></div><p>It finds every subdirectory that has a <code>.git</code> folder and does the full pull-commit-push dance on each one. And if you just want to see what&rsquo;s going on without touching anything:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gg -s
+</span></span></code></pre></div><p>That gives you a nice status view &ndash; branch name, number of uncommitted changes, how far ahead or behind you are. I run this first thing in the morning to see what state everything is in. It&rsquo;s like a dashboard for my scattered brain.</p>
+<center>
+<img src="https://blog.herlein.com/images/git-gg.png" width="60%" />
+<br/><small>One button to rule them all.</small>
+</center>
+<h3 id="gp-all----like-gg-but-pushier"><code>gp-all</code> &ndash; Like gg But Pushier</h3>
+<p>Similar to <code>gg</code> but this one lives in a specific directory and runs <code>gp</code> on every repo under it. The fun part: if it finds a subdirectory that ISN&rsquo;T a git repo, it asks if you want to create one and push it to GitHub as a new private repo. Handy when you&rsquo;ve been prototyping in a folder and realize &ldquo;oh, this should probably be tracked.&rdquo;</p>
+<h3 id="gpnew----new-repo-from-scratch"><code>gpnew</code> &ndash; New Repo From Scratch</h3>
+<p>When I start something new and want it on GitHub immediately:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpnew myorg new-project-name
+</span></span></code></pre></div><p>It creates a private repo under your org, initializes git locally, commits everything, sets up <code>main</code> as the default branch, and pushes. Done. No clicking around in the GitHub UI, no copy-pasting remote URLs. Thirty seconds and you&rsquo;re in business.</p>
+<h3 id="gopen----show-me-the-repo"><code>gopen</code> &ndash; Show Me The Repo</h3>
+<p>Reads your git remote URL and opens the GitHub page in your browser. That&rsquo;s it. That&rsquo;s the whole script. But I use it constantly because I can never remember which of my 900 repos I&rsquo;m actually in.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gopen
+</span></span></code></pre></div><p>Works on both macOS and Linux. Simple, useful, done.</p>
+<h3 id="gtag-and-grelease----tagging-made-tolerable"><code>gtag</code> and <code>grelease</code> &ndash; Tagging Made Tolerable</h3>
+<p><code>gtag</code> creates an annotated tag and pushes it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gtag v1.0.0 <span style="color:#e6db74">&#34;Initial release&#34;</span>
+</span></span></code></pre></div><p><code>grelease</code> does the same thing but ALSO creates a GitHub Release via the <code>gh</code> CLI:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>grelease v1.2.0 <span style="color:#e6db74">&#34;Added the thing everyone wanted&#34;</span>
+</span></span></code></pre></div><p>Both check if the tag already exists before trying to create it, because getting an error on a release is just demoralizing.</p>
+<h2 id="this-works-for-me-your-mileage-will-vary">This Works For Me (Your Mileage WILL Vary)</h2>
+<p>I want to be super clear about something: <strong>these scripts are built for MY workflow.</strong> I use GitHub for basically everything. I commit frequently. I treat a lot of my repos like living documents, not pristine codebases. I use <code>git add .</code> in these scripts because I know what&rsquo;s in my repos and I have good <code>.gitignore</code> files.</p>
+<p>If you&rsquo;re working on a team with complex branching strategies, or you need careful staging of specific files, or you&rsquo;re doing anything with submodules&hellip; these scripts might not be what you want. And that&rsquo;s totally fine. The point isn&rsquo;t &ldquo;use my scripts.&rdquo; The point is &ldquo;look at what annoys you and write a 30-line bash script to fix it.&rdquo;</p>
+<p>Your workflow is yours. If something here helps, grab it. If not, build your own version. The best developer tools are the ones you actually use.</p>
+<center>
+<img src="https://blog.herlein.com/images/git-gg-comic.png" width="100%" />
+</center>
+<h2 id="oh-and-about-editing-markdown">Oh, and About Editing Markdown&hellip;</h2>
+<p>Since I mentioned that half my repos are basically documentation now, let me go on a tangent. Editing markdown files seems to be increasingly &ldquo;the thing&rdquo; these days. And yeah, VS Code is fine for it. Any code editor handles markdown. But sometimes you really want to see how it&rsquo;s going to <em>look</em> &ndash; especially tables and mermaid diagrams. You know the drill: edit, save, switch to preview, squint, go back, edit, save, preview, squint harder&hellip;</p>
+<p>I&rsquo;ve been using <a href="https://github.com/Tkaixiang/marktext/releases">MarkText</a> and it&rsquo;s kind of great. It&rsquo;s a proper WYSIWYG-ish markdown editor that renders things live. Tables look like tables. Mermaid diagrams actually render. You can see what you&rsquo;re doing while you&rsquo;re doing it.</p>
+<p><strong>Important note:</strong> the original MarkText project was abandoned. This is the fork by Tkaixiang that&rsquo;s actively maintained &ndash; don&rsquo;t get confused by the old one showing up in search results. Use the new one. It&rsquo;s better.</p>
+<p>I&rsquo;m using it all the time on Linux now and it&rsquo;s become part of my daily workflow. I haven&rsquo;t tested it much on macOS and I don&rsquo;t do Windows&hellip; so if you try it on those platforms, let me know how it goes. It&rsquo;s an Electron app, so in theory it should work everywhere. In theory.</p>
+<p>If you like it, great. If not, keep doing what you&rsquo;re doing. It&rsquo;s helping me, and that&rsquo;s good enough for me to recommend giving it a shot.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>None of this is rocket science. These are tiny bash scripts. But tiny bash scripts that you use every day add up to a LOT of saved time and frustration. My git workflow used to be a tax I paid to do the real work. Now it&rsquo;s basically invisible, and I get to spend my time on the stuff that actually matters.</p>
+<p>The scripts are all in my <a href="https://github.com/gherlein/dotfiles/tree/main/git-scripts/bin">dotfiles repo</a> if you want to grab them. Fork it, steal what you want, ignore what you don&rsquo;t. And if you make something better, tell me about it &ndash; I&rsquo;m always looking for ways to be lazier more efficiently.</p>
+<p>What does your git shortcut setup look like? Drop me a note. I&rsquo;m always curious how other people have solved the same problems differently.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-scripts%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-scripts%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-scripts%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-scripts%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-scripts%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fgit-scripts%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/dot-agents/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/dot-agents/">Tooling Is the New Model</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
