@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/tags/career/</loc>
-    <lastmod>2026-04-13T00:00:01-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/agentic-coding-impact-on-oss/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/github/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/open-source/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/software-engineering/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/career/</loc>
     <lastmod>2026-04-13T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/leadership/</loc>
@@ -14,13 +38,7 @@
     <loc>https://blog.herlein.com/tags/navy/</loc>
     <lastmod>2026-04-13T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2026-04-13T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/submarines/</loc>
-    <lastmod>2026-04-13T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-04-13T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/excellence-learned-on-the-russell/</loc>
@@ -30,9 +48,6 @@
     <lastmod>2026-04-03T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/git/</loc>
-    <lastmod>2026-04-03T00:00:01-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/github/</loc>
     <lastmod>2026-04-03T00:00:01-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/markdown/</loc>
@@ -50,9 +65,6 @@
     <loc>https://blog.herlein.com/tags/workflow/</loc>
     <lastmod>2026-04-03T00:00:01-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2026-03-18T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/claude-code/</loc>
     <lastmod>2026-03-18T00:00:01-08:00</lastmod>
   </url><url>
@@ -66,9 +78,6 @@
     <lastmod>2026-03-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/history/</loc>
-    <lastmod>2026-02-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/software-engineering/</loc>
     <lastmod>2026-02-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/what-would-grace-say/</loc>
@@ -142,9 +151,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/testing/</loc>
     <lastmod>2026-01-17T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
-    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/automation/</loc>
     <lastmod>2026-01-10T00:00:01-08:00</lastmod>
