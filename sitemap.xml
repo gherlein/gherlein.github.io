@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-04-24T10:00:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-04-24T10:00:00-07:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
     <lastmod>2026-04-20T00:00:01-08:00</lastmod>
   </url><url>
@@ -14,13 +20,7 @@
     <loc>https://blog.herlein.com/tags/github/</loc>
     <lastmod>2026-04-20T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/open-source/</loc>
-    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
     <lastmod>2026-04-20T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/software-engineering/</loc>
