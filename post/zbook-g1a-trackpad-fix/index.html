@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>How the AMD ISP4 Camera Stack Broke My ZBook Trackpad (and How Claude Helped Me Find It) &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>How the AMD ISP4 Camera Stack Broke My ZBook Trackpad (and How Claude Helped Me Find It)</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>24 Apr 2026, 01:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/technical">technical</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ubuntu">ubuntu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/amd">amd</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/hp">hp</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/zbook">zbook</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/strix-halo">strix-halo</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/i2c">i2c</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/kernel">kernel</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/claude-code">claude-code</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/debugging">debugging</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>One morning I opened my HP ZBook Ultra G1a and the trackpad was dead. Keyboard fine. Touchscreen fine. External mouse fine. Trackpad: nothing. Twelve hours earlier it had worked. I hadn&rsquo;t changed anything. Welcome to bleeding-edge silicon on Linux.</p>
+<p>This is the story of chasing the bug to ground. Spoiler: the root cause is that the in-development <strong>AMD ISP4 camera driver stack</strong> on Strix Halo wedges the AMD I²C subsystem during boot, which prevents the Synaptics trackpad from probing. The camera driver isn&rsquo;t even upstream yet &ndash; so the modules that are breaking things aren&rsquo;t providing any benefit. Blacklist them and the trackpad comes back.</p>
+<p>I want to be clear up front: <strong>I used Claude Code heavily for this entire analysis.</strong> Not to write prose &ndash; to do the systems work. It pulled dmesg slices, correlated sysfs state across multiple buses, diffed initramfs contents between kernel versions, reasoned about probe-ordering races, and kept me from heading down at least one wrong rabbit hole for too long. A few years ago this kind of debugging was a long evening of man pages and mailing list archaeology. With a good agent, disciplined by skills and security rules, it turned into a focused afternoon. More on that at the end.</p>
+<h2 id="the-system">The System</h2>
+<ul>
+<li><strong>Platform:</strong> HP ZBook Ultra G1a 14&quot; Mobile Workstation</li>
+<li><strong>CPU:</strong> AMD Ryzen AI Max+ PRO 395 (&ldquo;Strix Halo&rdquo;)</li>
+<li><strong>OS:</strong> Ubuntu 24.04 LTS</li>
+<li><strong>Kernel:</strong> 6.17.0-1017-oem (<code>linux-oem-24.04d</code>)</li>
+</ul>
+<h2 id="tldr----the-fix">TL;DR &ndash; The Fix</h2>
+<p>If you&rsquo;re here because Google dropped you into this post and you just want your trackpad back, stop reading and run this:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo tee /etc/modprobe.d/blacklist-amd-isp.conf <span style="color:#e6db74">&lt;&lt;&#39;EOF&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">blacklist i2c_designware_amdisp
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">blacklist amd_isp4
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">blacklist amd_capture
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">blacklist pinctrl_amdisp
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOF</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo update-initramfs -u -k <span style="color:#66d9ef">$(</span>uname -r<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div><p>The rest of this post is the diagnostic path. The wrong turns are instructive &ndash; so is the fact that Claude caught some of them before I did.</p>
+<h2 id="first-wrong-turn-chasing-the-elan">First Wrong Turn: Chasing the ELAN</h2>
+<p>First instinct, obviously, was to look at what libinput saw:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo libinput list-devices
+</span></span></code></pre></div><p>There was a device called <code>ELAN2513:00 04F3:4356</code> with <code>Size: 308x191mm</code> and <code>Capabilities: touch</code>. I assumed this was the trackpad. It wasn&rsquo;t. It was the <strong>touchscreen</strong>. The 308x191mm dimensions are the 14&quot; display&rsquo;s diagonal, not a trackpad surface.</p>
+<p>I didn&rsquo;t catch that right away. I went off trying to convince the system to treat the ELAN as a touchpad &ndash; custom udev hwdb rules, unbind/rebind, all the usual stuff:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># What I tried -- this was wrong</span>
+</span></span><span style="display:flex;"><span>sudo tee /etc/udev/hwdb.d/61-elan-zbook-g1a.hwdb <span style="color:#e6db74">&lt;&lt;&#39;EOF&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">evdev:name:ELAN2513:00 04F3:4356:*
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> ID_INPUT_TOUCHSCREEN=0
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> ID_INPUT_TOUCHPAD=1
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"> ID_INPUT_MOUSE=1
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOF</span>
+</span></span><span style="display:flex;"><span>sudo systemd-hwdb update
+</span></span><span style="display:flex;"><span>sudo udevadm trigger --subsystem-match<span style="color:#f92672">=</span>input --action<span style="color:#f92672">=</span>change
+</span></span></code></pre></div><p><strong>Do not do this.</strong> This disables the touchscreen without giving you a trackpad, because the ELAN really is a touchscreen. The firmware correctly reports <code>INPUT_PROP_DIRECT</code>. Forcing it to be classified as a touchpad is fighting the hardware.</p>
+<p>I confirmed this empirically: touching the screen did nothing (because I&rsquo;d disabled it) while the cursor still moved (driven by the external mouse). To back out the bad rule:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo rm /etc/udev/hwdb.d/61-elan-zbook-g1a.hwdb
+</span></span><span style="display:flex;"><span>sudo systemd-hwdb update
+</span></span><span style="display:flex;"><span>sudo udevadm trigger --subsystem-match<span style="color:#f92672">=</span>input --action<span style="color:#f92672">=</span>change
+</span></span></code></pre></div><p>Lesson: check what a device actually <em>is</em> before trying to make it behave like something it isn&rsquo;t. Claude had actually flagged that the ELAN dimensions matched the display, not a trackpad, but I pushed past it because the device tree seemed to fit my theory. My mistake, not the agent&rsquo;s.</p>
+<h2 id="finding-the-actual-trackpad">Finding the Actual Trackpad</h2>
+<p>The correct move is to stop looking at libinput (which only sees devices with drivers attached) and enumerate every I²C device on the system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls /sys/bus/i2c/devices/
+</span></span></code></pre></div><p>Buried in the list:</p>
+<pre tabindex="0"><code>i2c-ELAN2513:00       # touchscreen
+i2c-SYNA3133:00       # *** the actual trackpad ***
+</code></pre><p><code>SYNA3133</code> is Synaptics. That&rsquo;s the real trackpad. And notice &ndash; it doesn&rsquo;t appear in libinput output at all, because no driver is bound to it.</p>
+<p>Cross-check with HID:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls /sys/bus/hid/devices/
+</span></span></code></pre></div><pre tabindex="0"><code>0003:045E:0823.0002  0018:04F3:4356.0001  0020:1022:0001.0005
+0003:045E:0823.0003  0020:1022:0001.0004
+</code></pre><p>Three HID devices: Microsoft mouse (<code>045E</code>), the ELAN touchscreen (<code>04F3:4356</code>), and the AMD sensor hub (<code>1022</code>). No Synaptics. The trackpad has a sysfs presence on the I²C bus but no HID driver has attached.</p>
+<p>The smoking gun is in its sysfs directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat /sys/bus/i2c/devices/i2c-SYNA3133:00/waiting_for_supplier
+</span></span></code></pre></div><pre tabindex="0"><code>0
+</code></pre><p>A value of <code>0</code> in <code>waiting_for_supplier</code> means &ldquo;yes, still waiting for supplier.&rdquo; The Synaptics device is blocked waiting for its parent &ndash; the I²C bus controller &ndash; to come up. It never does.</p>
+<p>I did not know what <code>waiting_for_supplier</code> meant when I first saw it. I just knew it looked wrong &ndash; a file named that, containing <code>0</code>, on a device with no driver attached, felt like it was trying to tell me something. So I asked Claude. It explained the semantics (counterintuitively, <code>0</code> means &ldquo;still waiting&rdquo;) and what that implied: the device is fine, its driver would bind, but the upstream supplier &ndash; the I²C bus controller &ndash; never came up. That reframed the whole problem from &ldquo;the trackpad isn&rsquo;t working&rdquo; to &ldquo;the bus controller isn&rsquo;t working,&rdquo; which is where the rest of the debugging had to go.</p>
+<p>I could have eventually found that in a Stack Exchange answer or a kernel mailing list thread. It would have taken me a lot longer. Noticing that the file looked weird was mine. Turning &ldquo;that looks weird&rdquo; into &ldquo;here is what it means and here is the next thing to check&rdquo; was the agent&rsquo;s, and it happened in seconds.</p>
+<h2 id="the-real-root-cause-a-wedged-ic-controller">The Real Root Cause: A Wedged I²C Controller</h2>
+<p>The AMD Ryzen AI Max+ has <strong>four</strong> I²C controllers on the SoC, exposed as ACPI devices <code>AMDI0010:00</code> through <code>AMDI0010:03</code>. Each drives a different subset of peripherals:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls -l /sys/bus/i2c/devices/ | grep AMDI0010
+</span></span></code></pre></div><ul>
+<li><code>AMDI0010:00</code> → drives the SYNA3133 trackpad</li>
+<li><code>AMDI0010:01</code> → audio codec</li>
+<li><code>AMDI0010:02</code> → ELAN2513 touchscreen</li>
+<li><code>AMDI0010:03</code> → power-sequencing ICs</li>
+</ul>
+<p>Search dmesg:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo dmesg | grep -E <span style="color:#e6db74">&#34;AMDI0010|i2c_designware&#34;</span>
+</span></span></code></pre></div><pre tabindex="0"><code>[    1.775670] i2c_designware AMDI0010:00: controller timed out
+[    1.800913] i2c_designware AMDI0010:00: timeout in disabling adapter
+[    1.821699] i2c_designware AMDI0010:00: timeout waiting for bus ready
+</code></pre><p>Every boot: <code>AMDI0010:00</code> &ndash; the controller the trackpad sits behind &ndash; times out 1.7 seconds into boot and never recovers. No communication on that bus means no trackpad driver. No trackpad driver means no pointer events. Dead trackpad.</p>
+<p>Confirm the bus is genuinely dead and not just slow by looking at interrupt counts:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>grep <span style="color:#e6db74">&#34;AMDI0010&#34;</span> /proc/interrupts
+</span></span></code></pre></div><pre tabindex="0"><code>   3:          0          0          8          0  ... IO-APIC    3-edge      AMDI0010:00
+   4:          0          0          0      15843  ... IO-APIC    4-edge      AMDI0010:01
+   6:          0          0          0          0      50837  ... IO-APIC    6-edge      AMDI0010:02
+  10:          0          0          0          0          0  ... IO-APIC   10-edge      AMDI0010:03
+</code></pre><p><code>AMDI0010:00</code> got 8 interrupts (probably from its reset sequence), then zero. The other controllers are firing thousands. That bus is not delivering I/O.</p>
+<h2 id="what-didnt-work">What Didn&rsquo;t Work</h2>
+<p>A lot of things didn&rsquo;t work, and if you&rsquo;re searching for this bug you&rsquo;ll probably try them too. Listing them here so you don&rsquo;t waste the time.</p>
+<p><strong>BIOS update via fwupd:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>fwupdmgr refresh --force
+</span></span><span style="display:flex;"><span>fwupdmgr get-updates
+</span></span></code></pre></div><p>Already on the latest release from HP. No change.</p>
+<p><strong>Full EC drain</strong> &ndash; shutdown, unplug AC, hold power button 30 seconds, replug, boot. No change.</p>
+<p><strong>Driver unbind/rebind</strong> &ndash; my hope was the controller just needed a kick:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;AMDI0010:00&#34;</span> | sudo tee /sys/bus/platform/drivers/i2c_designware/unbind
+</span></span><span style="display:flex;"><span>sleep <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;AMDI0010:00&#34;</span> | sudo tee /sys/bus/platform/drivers/i2c_designware/bind
+</span></span><span style="display:flex;"><span>sudo dmesg | tail
+</span></span></code></pre></div><p>Fresh timeout on every rebind. Once wedged, it stays wedged for the rest of the session.</p>
+<p><strong>Unloading <code>amd_pmf</code></strong> &ndash; the AMD Platform Management Framework was throwing <code>amd_pmf_invoke_cmd hogged CPU</code> warnings in dmesg and I suspected it was contending for the bus:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo modprobe -r amd_pmf
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># retry the rebind</span>
+</span></span></code></pre></div><p>No change. Ruled out.</p>
+<p><strong>Stripping the kernel command line</strong> to remove custom parameters as a variable:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudoedit /etc/default/grub
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Set: GRUB_CMDLINE_LINUX_DEFAULT=&#34;quiet splash&#34;</span>
+</span></span><span style="display:flex;"><span>sudo update-grub
+</span></span><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div><p>Same timeout. Not a cmdline issue.</p>
+<p><strong>Booting the previous OEM kernel</strong> via GRUB&rsquo;s advanced-options menu:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo awk -F<span style="color:#e6db74">&#34;&#39;&#34;</span> <span style="color:#e6db74">&#39;/menuentry |submenu /{print $2}&#39;</span> /boot/grub/grub.cfg
+</span></span><span style="display:flex;"><span>sudo grub-reboot <span style="color:#e6db74">&#34;Advanced options for Ubuntu&gt;Ubuntu, with Linux 6.17.0-1012-oem&#34;</span>
+</span></span><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div><p>Same behavior on the older kernel. Not a kernel regression.</p>
+<p><strong>Intel LPSS blacklist</strong> &ndash; a CachyOS user had posted this as a workaround for a similar-looking bug. I tried it. Didn&rsquo;t help. A post-mortem diff of initramfs contents proved the Intel LPSS modules weren&rsquo;t even loading on my system. Red herring.</p>
+<p>Claude was actually useful here too: each failed attempt, it helped me form the next hypothesis and immediately suggested the verification step. When the Intel LPSS theory didn&rsquo;t pan out, it was the one that said &ldquo;let&rsquo;s diff the initramfs to prove the modules weren&rsquo;t there to begin with&rdquo; rather than letting me keep pulling on that thread.</p>
+<h2 id="the-breakthrough">The Breakthrough</h2>
+<p>Looking at dmesg again, more carefully this time, a second pattern surfaced:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo dmesg | grep -iE <span style="color:#e6db74">&#34;amd_isp|i2c_designware&#34;</span>
+</span></span></code></pre></div><pre tabindex="0"><code>[   45.123593] amd_isp_i2c_designware: timeout while trying to abort current transfer
+[   45.148993] amd_isp_i2c_designware: timeout in disabling adapter
+[ 1174.974611] amd_isp_i2c_designware: timeout while trying to abort current transfer
+</code></pre><p>A <strong>second</strong> AMD I²C controller &ndash; this one owned by the ISP (Image Signal Processor) &ndash; was also timing out. The ISP is the chunk of silicon that processes frames from the built-in camera sensor. Its internal I²C bus is driven by <code>i2c_designware_amdisp</code>.</p>
+<p>Two AMD I²C controllers wedged at the same time on the same SoC isn&rsquo;t a coincidence. It&rsquo;s a strong signal that something in the ISP driver stack is interfering with the shared I²C plumbing &ndash; probably via shared pinctrl, ACPI power sequencing, or a probe-time race in the <code>i2c-designware</code> core code that both instances share.</p>
+<p>This is where Claude really earned its keep. It knew that the ISP4 camera stack is brand new, still in upstream review (as of April 2026, the v7 patchset was posted in December 2025 and hasn&rsquo;t landed), and known to be incomplete. More importantly, it synthesized that context with the dmesg evidence and proposed the right hypothesis: two buses from the same driver family timing out around the same time means the in-development driver is wedging the shared subsystem. If I&rsquo;d been poking at this alone with man pages, I&rsquo;d have figured it out eventually &ndash; but the connection between &ldquo;ISP4 isn&rsquo;t upstream yet&rdquo; and &ldquo;AMDI0010:00 is also wedged&rdquo; isn&rsquo;t one I would have made quickly.</p>
+<h2 id="the-fix">The Fix</h2>
+<p>Since the ISP4 camera stack doesn&rsquo;t actually work on Linux yet, blacklisting it is <strong>lossless</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo tee /etc/modprobe.d/blacklist-amd-isp.conf <span style="color:#e6db74">&lt;&lt;&#39;EOF&#39;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># HP ZBook Ultra G1a: amd_isp_i2c_designware wedges the AMD I2C subsystem,
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># preventing the SYNA3133 trackpad on AMDI0010:00 from probing.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># The ISP4 camera driver isn&#39;t upstream as of April 2026, so these modules
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74"># are not providing any functionality -- blacklisting is lossless.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">blacklist i2c_designware_amdisp
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">blacklist amd_isp4
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">blacklist amd_capture
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">blacklist pinctrl_amdisp
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">EOF</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo update-initramfs -u -k <span style="color:#66d9ef">$(</span>uname -r<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div><p>After reboot:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat /sys/bus/i2c/devices/i2c-SYNA3133:00/waiting_for_supplier 2&gt;&amp;<span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>sudo dmesg | grep -iE <span style="color:#e6db74">&#34;AMDI0010|SYNA3133|i2c_designware&#34;</span>
+</span></span><span style="display:flex;"><span>ls /sys/bus/hid/devices/
+</span></span><span style="display:flex;"><span>sudo libinput list-devices | grep -iE <span style="color:#e6db74">&#34;syna|touch&#34;</span> -A <span style="color:#ae81ff">3</span>
+</span></span></code></pre></div><p>Expected state:</p>
+<ul>
+<li><code>waiting_for_supplier</code> reports &ldquo;No such file or directory&rdquo; &ndash; the file is removed once the device binds</li>
+<li>A new Synaptics HID device is present</li>
+<li><code>libinput list-devices</code> shows a proper touchpad entry with real values for tap-to-click, scroll methods, etc. &ndash; not the <code>n/a</code> placeholders that mean &ldquo;device isn&rsquo;t classified as a touchpad&rdquo;</li>
+</ul>
+<p>Trackpad back. Clean boot.</p>
+<h2 id="what-the-four-blacklisted-modules-do">What the Four Blacklisted Modules Do</h2>
+<p>Worth knowing exactly what you&rsquo;re turning off.</p>
+<ul>
+<li><strong><code>i2c_designware_amdisp</code></strong> &ndash; the AMD ISP-internal I²C controller driver. The ISP has its own private I²C bus (separate from the four <code>AMDI0010:*</code> controllers) that it uses to configure and read the image sensor. This is the driver that was timing out in dmesg and almost certainly the direct cause of the cascade.</li>
+<li><strong><code>amd_isp4</code></strong> &ndash; the userspace-facing camera pipeline driver for Strix Halo&rsquo;s ISP4. This is what would expose the built-in webcam as a <code>/dev/video*</code> device. Not upstream as of April 2026; the v7 patch series missed the 6.19 merge window.</li>
+<li><strong><code>amd_capture</code></strong> &ndash; the frame-capture glue between the ISP and V4L2. Takes frames the ISP has processed and delivers them to userspace video buffers. Useless without the rest of the stack.</li>
+<li><strong><code>pinctrl_amdisp</code></strong> &ndash; the pin-controller driver for the GPIO pins used by the ISP (sensor reset, power-enable, strobe signals). Multiplexes those pins for ISP use instead of generic GPIO.</li>
+</ul>
+<p>The four form a tower: <code>amd_capture</code> sits on top of <code>amd_isp4</code>, which needs <code>i2c_designware_amdisp</code> and <code>pinctrl_amdisp</code> underneath. Blacklisting any one of them takes the stack down; blacklisting all four is belt-and-suspenders to prevent autoloading from any dependency path.</p>
+<p><strong>Cost of the workaround:</strong> the built-in 5MP webcam doesn&rsquo;t work. Since the ISP4 driver isn&rsquo;t upstream, the camera wasn&rsquo;t working before the fix either. No functional regression. A USB webcam (e.g., Logitech C270) is a fully functional substitute.</p>
+<h2 id="when-to-remove-the-blacklist">When to Remove the Blacklist</h2>
+<p>Once the ISP4 driver lands upstream and Canonical ships an OEM kernel that includes the working version:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo rm /etc/modprobe.d/blacklist-amd-isp.conf
+</span></span><span style="display:flex;"><span>sudo update-initramfs -u -k <span style="color:#66d9ef">$(</span>uname -r<span style="color:#66d9ef">)</span>
+</span></span><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div><p>Test both trackpad and webcam. If both work, you&rsquo;re done. If the trackpad breaks again, restore the blacklist &ndash; the upstream driver still has the I²C-subsystem interaction issue and you&rsquo;re back to waiting.</p>
+<p>References to watch:</p>
+<ul>
+<li>Phoronix ISP4 coverage: <a href="https://www.phoronix.com/?s=AMD+ISP4">phoronix.com/?s=AMD+ISP4</a></li>
+<li>linux-media mailing list patch threads for ISP4</li>
+<li>The <code>linux-oem-6.x</code> source package changelog (<code>apt-get source linux-oem-24.04d</code> and read <code>debian/changelog</code>)</li>
+</ul>
+<h2 id="why-this-broke-overnight">Why This Broke &ldquo;Overnight&rdquo;</h2>
+<p>I originally wrote this section claiming the bug was a probe-ordering race. That was wrong, and the evidence was sitting right in front of me: <strong>I rebooted this machine tens of times during the debug session, on two different kernels, and it wedged the exact same way every single time.</strong> A real race would have resolved to the good side at least occasionally. Deterministic failure on every boot is not a race. It&rsquo;s a deterministic bug.</p>
+<p>Calling it a race was me reaching for an explanation that fit the &ldquo;worked yesterday, broken today&rdquo; narrative without squaring it against the reboot evidence. Claude didn&rsquo;t catch that either. Worth flagging &ndash; an agent will happily elaborate on a theory you seed it with. Checking the theory against all of the evidence, not just the evidence that prompted it, is still on you.</p>
+<p>So what actually changed overnight? My first guess was that an unattended-upgrades run had regenerated initramfs with different module contents. I ruled that out with a diff:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo lsinitramfs /boot/initrd.img-6.17.0-1012-oem | grep -iE <span style="color:#e6db74">&#34;isp|amdisp&#34;</span> | sort &gt; /tmp/old-initrd
+</span></span><span style="display:flex;"><span>sudo lsinitramfs /boot/initrd.img-6.17.0-1017-oem | grep -iE <span style="color:#e6db74">&#34;isp|amdisp&#34;</span> | sort &gt; /tmp/new-initrd
+</span></span><span style="display:flex;"><span>diff /tmp/old-initrd /tmp/new-initrd
+</span></span></code></pre></div><p>Result: same ISP modules in both initramfs images. &ldquo;New modules got pulled in&rdquo; was wrong.</p>
+<p>Given the deterministic behavior, the honest set of candidate explanations is:</p>
+<ol>
+<li><strong>I was already broken and didn&rsquo;t notice.</strong> I use an external mouse most of the day when I&rsquo;m at the desk. It&rsquo;s entirely plausible that the trackpad had been dead for some number of boots before I tried to use it and noticed. This fits the evidence best: the ISP driver deterministically wedges <code>AMDI0010:00</code> on this hardware, it always has (on both 6.17.0-1012-oem and 6.17.0-1017-oem), and I only discovered the state when I reached for the trackpad without the mouse plugged in.</li>
+<li><strong>A firmware or persistent-state change flipped a deterministic switch.</strong> Something at a layer below the kernel (EC state, ACPI tables read from firmware, EFI variables) might have transitioned into a state where the ISP driver now deterministically wedges the bus, when previously it deterministically didn&rsquo;t. An EC drain didn&rsquo;t restore the good state, which argues against this &ndash; but doesn&rsquo;t rule out firmware-level state that survives an EC drain.</li>
+<li><strong>An update changed something I didn&rsquo;t diff.</strong> I diffed initramfs contents but not, say, firmware blobs, microcode, or the list of modules autoloaded by udev outside initramfs. A change there could have shifted the bug into a state where the ISP driver now always loads and always wedges.</li>
+</ol>
+<p>Of the three, (1) is the one that actually fits the evidence I have. I probably didn&rsquo;t notice the trackpad was dead for some number of boots because I was using the mouse. That is, as they say, the boring answer &ndash; and the right one.</p>
+<p>Either way, the blacklist is the correct fix: if the ISP driver deterministically wedges the bus every time it loads, don&rsquo;t load it.</p>
+<h2 id="diagnostic-steps-in-order">Diagnostic Steps, In Order</h2>
+<p>Consolidated for future-me and anyone else hitting this on Strix Halo hardware.</p>
+<p><strong>1. Check what&rsquo;s actually on the I²C bus:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls /sys/bus/i2c/devices/ | grep -iE <span style="color:#e6db74">&#34;syna|elan|goodix|alps&#34;</span>
+</span></span></code></pre></div><p><strong>2. Check if the trackpad is stuck waiting for its supplier:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat /sys/bus/i2c/devices/i2c-SYNA3133:00/waiting_for_supplier
+</span></span></code></pre></div><p>Value of <code>0</code> means yes, still waiting &ndash; the bus controller never came up.</p>
+<p><strong>3. Find the bus controller and check its timeouts:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls -l /sys/bus/i2c/devices/i2c-SYNA3133:00 | grep -o <span style="color:#e6db74">&#39;AMDI0010:[0-9][0-9]&#39;</span>
+</span></span><span style="display:flex;"><span>sudo dmesg | grep <span style="color:#e6db74">&#34;AMDI0010&#34;</span>
+</span></span></code></pre></div><p><strong>4. Check interrupt activity per controller:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>grep <span style="color:#e6db74">&#34;AMDI0010&#34;</span> /proc/interrupts
+</span></span></code></pre></div><p>A controller with far fewer interrupts than its siblings is wedged.</p>
+<p><strong>5. Look for ISP I²C timeouts &ndash; the fingerprint of this specific bug:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo dmesg | grep -iE <span style="color:#e6db74">&#34;amd_isp|i2c_designware_amdisp&#34;</span>
+</span></span></code></pre></div><p>If you see <code>amd_isp_i2c_designware: timeout</code> lines, you&rsquo;ve got the same bug.</p>
+<p><strong>6. Apply the blacklist, regenerate initramfs, reboot</strong> &ndash; see TL;DR at the top.</p>
+<p><strong>7. Verify the fix:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls /sys/bus/hid/devices/
+</span></span><span style="display:flex;"><span>sudo libinput list-devices | grep -iE <span style="color:#e6db74">&#34;syna|touchpad&#34;</span> -A <span style="color:#ae81ff">5</span>
+</span></span></code></pre></div><p>You should see a new Synaptics HID device and libinput should classify it as a proper pointer with real configuration values.</p>
+<h2 id="a-word-about-using-claude-code-for-kernel-debugging">A Word About Using Claude Code for Kernel Debugging</h2>
+<p>I want to close on this because it&rsquo;s the part I think people underestimate.</p>
+<p>Linux kernel debugging has always had a steep competence floor. You need to know where to look &ndash; <code>/sys/bus/*/devices</code>, <code>/proc/interrupts</code>, the right dmesg filters, the relationship between ACPI device IDs, driver bind files, udev, initramfs. That&rsquo;s not hard if you&rsquo;ve been doing it for twenty years. It&rsquo;s pretty hard if you haven&rsquo;t. And even if you have, the cognitive load of holding all four I²C controllers, their drivers, their ACPI parents, and their downstream consumers in your head at once while also reading dmesg is real.</p>
+<p>What Claude Code gave me in this session was:</p>
+<ul>
+<li><strong>Pattern recognition across layers.</strong> It correlated symptoms on the I²C bus, the HID bus, and the dmesg timeline in a way I could have done but would have taken meaningfully longer to do.</li>
+<li><strong>A memory of state.</strong> Every time I tried a new hypothesis &ndash; rebind, modprobe, blacklist &ndash; it remembered what we&rsquo;d already ruled out. I didn&rsquo;t have to keep my own mental stack of &ldquo;what have I tried already.&rdquo;</li>
+<li><strong>Domain context I didn&rsquo;t have.</strong> I didn&rsquo;t know the ISP4 driver was still out of tree. It did. That single piece of context is what flipped the debugging from &ldquo;chase the I²C timeout&rdquo; to &ldquo;who else is on this bus that shouldn&rsquo;t be?&rdquo;</li>
+<li><strong>A check on my own bad theories.</strong> When I wanted to keep pushing on the Intel LPSS workaround or the ELAN-as-touchpad theory, it pushed back with evidence. I still had to decide, but I got to decide with better information.</li>
+</ul>
+<p>Honestly, it also wrote most of this post. That&rsquo;s worth being direct about. I had a messy debug session full of dead ends, half-formed theories, and commands I&rsquo;d half-forgotten I&rsquo;d run. Organizing that into a coherent narrative &ndash; with the wrong turns in the right order and the working path cleanly separated from the red herrings &ndash; would have been a significant piece of work from my own notes. The prompt/reply history from the debug session was its own kind of primary source, and Claude had it all. Turning that into a readable post was a much easier task for the agent than for me after the fact. I directed it, pushed back on claims that didn&rsquo;t fit the evidence (see the race-condition correction above &ndash; that was a real back-and-forth), and wrote the final voice. But the structural work of &ldquo;take six hours of flailing and produce a clean write-up&rdquo; is largely the agent&rsquo;s.</p>
+<p>What it did <strong>not</strong> do was run anything destructive. The skills and security rules I have loaded (see my <a href="https://github.com/gherlein/dot-agents">dot-agents</a> repo) gate that behavior. Every <code>sudo</code> command in this post was my call, not the agent&rsquo;s.</p>
+<p>The workflow is what makes this work. The model is table stakes. If you&rsquo;re doing hard systems debugging on Linux and you&rsquo;re still doing it without a coding agent tuned for your style of work, you&rsquo;re making the job harder than it has to be. The agent isn&rsquo;t going to replace the expertise &ndash; you still have to know what <code>waiting_for_supplier</code> means when it says <code>0</code> &ndash; but it will dramatically compress the time between hypothesis and evidence.</p>
+<h2 id="takeaways">Takeaways</h2>
+<ul>
+<li><strong>Don&rsquo;t assume the device you&rsquo;re looking at is the device you think it is.</strong> I burned hours on the ELAN touchscreen thinking it was the trackpad. Enumerating I²C devices earlier would have surfaced SYNA3133 immediately.</li>
+<li><strong><code>/sys/bus/i2c/devices/&lt;device&gt;/waiting_for_supplier</code> is the fastest way to diagnose &ldquo;driver never attached&rdquo; problems</strong> on I²C devices. If it&rsquo;s there and says <code>0</code>, the driver isn&rsquo;t coming up because its bus controller didn&rsquo;t. That tells you exactly where to look next.</li>
+<li><strong>Interrupt counts in <code>/proc/interrupts</code> tell you whether hardware is actually responsive.</strong> A device delivering zero interrupts while its siblings are firing thousands is dead, not slow.</li>
+<li><strong>New hardware, new bugs.</strong> Strix Halo is bleeding-edge silicon and its Linux enablement is incomplete. If something doesn&rsquo;t work on this hardware, the answer is frequently &ldquo;a specific in-development driver is interfering&rdquo; rather than &ldquo;configuration is wrong.&rdquo;</li>
+<li><strong>&ldquo;Worked yesterday, broken today&rdquo; is not always what it looks like.</strong> My first theory was a probe-ordering race. The actual explanation was almost certainly that the trackpad had been broken for some number of boots before I noticed, because I use an external mouse most of the time. Before you invent a clever theory, check whether the simplest one &ndash; &ldquo;I just didn&rsquo;t notice&rdquo; &ndash; fits the evidence. A real race would resolve the good way sometimes across tens of reboots. Mine never did.</li>
+<li><strong>Verify agent-generated hypotheses against <em>all</em> the evidence, not just the evidence that prompted them.</strong> Claude helped me enormously on this bug, but it also happily elaborated on my race-condition theory without pushing back on the fact that tens of reboots had all failed identically. That&rsquo;s still on me to catch.</li>
+<li><strong>Use the agent.</strong> Seriously. The difference between a tuned Claude Code setup and no agent at all, on a problem like this, is hours. Possibly a day. I&rsquo;m not going back.</li>
+</ul>
+<p>If this saved you from spending a weekend on the same bug, drop me a note. And if the ISP4 driver lands upstream before I notice, please tell me &ndash; I&rsquo;d like my webcam back.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fzbook-g1a-trackpad-fix%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fzbook-g1a-trackpad-fix%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fzbook-g1a-trackpad-fix%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fzbook-g1a-trackpad-fix%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fzbook-g1a-trackpad-fix%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fzbook-g1a-trackpad-fix%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/agentic-coding-impact-on-oss/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/agentic-coding-impact-on-oss/">Agentic Coding is About to Fracture Open Source</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+

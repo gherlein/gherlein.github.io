@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Claude-Code on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/claude-code/</link>
-    <description>Recent content in Claude-Code on Greg Herlein</description>
+    <title>Amd on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/amd/</link>
+    <description>Recent content in Amd on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
     <lastBuildDate>Fri, 24 Apr 2026 01:00:00 -0700</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/claude-code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.herlein.com/tags/amd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How the AMD ISP4 Camera Stack Broke My ZBook Trackpad (and How Claude Helped Me Find It)</title>
       <link>https://blog.herlein.com/post/zbook-g1a-trackpad-fix/</link>
       <pubDate>Fri, 24 Apr 2026 01:00:00 -0700</pubDate>
       <guid>https://blog.herlein.com/post/zbook-g1a-trackpad-fix/</guid>
       <description>&lt;p&gt;One morning I opened my HP ZBook Ultra G1a and the trackpad was dead. Keyboard fine. Touchscreen fine. External mouse fine. Trackpad: nothing. Twelve hours earlier it had worked. I hadn&amp;rsquo;t changed anything. Welcome to bleeding-edge silicon on Linux.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tooling Is the New Model</title>
-      <link>https://blog.herlein.com/post/dot-agents/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/dot-agents/</guid>
-      <description>&lt;p&gt;The AI models are good enough. There, I said it. The bottleneck isn&amp;rsquo;t the model anymore &amp;ndash; it&amp;rsquo;s how you use it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

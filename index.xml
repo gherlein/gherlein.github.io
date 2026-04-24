@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 20 Apr 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 01:00:00 -0700</lastBuildDate>
     <atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How the AMD ISP4 Camera Stack Broke My ZBook Trackpad (and How Claude Helped Me Find It)</title>
+      <link>https://blog.herlein.com/post/zbook-g1a-trackpad-fix/</link>
+      <pubDate>Fri, 24 Apr 2026 01:00:00 -0700</pubDate>
+      <guid>https://blog.herlein.com/post/zbook-g1a-trackpad-fix/</guid>
+      <description>&lt;p&gt;One morning I opened my HP ZBook Ultra G1a and the trackpad was dead. Keyboard fine. Touchscreen fine. External mouse fine. Trackpad: nothing. Twelve hours earlier it had worked. I hadn&amp;rsquo;t changed anything. Welcome to bleeding-edge silicon on Linux.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Agentic Coding is About to Fracture Open Source</title>
       <link>https://blog.herlein.com/post/agentic-coding-impact-on-oss/</link>
