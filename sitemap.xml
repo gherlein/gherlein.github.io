@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2026-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/career/</loc>
+    <lastmod>2026-05-15T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
     <lastmod>2026-05-15T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/leadership/</loc>
+    <lastmod>2026-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/management/</loc>
+    <lastmod>2026-05-15T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/software-engineering/</loc>
+    <lastmod>2026-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-05-15T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/software-manager-ai/</loc>
     <lastmod>2026-05-15T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/agency/</loc>
@@ -17,22 +38,10 @@
     <loc>https://blog.herlein.com/tags/agents/</loc>
     <lastmod>2026-05-08T00:00:01-01:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2026-05-08T00:00:01-01:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/building/</loc>
     <lastmod>2026-05-08T00:00:01-01:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/career/</loc>
-    <lastmod>2026-05-08T00:00:01-01:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/get-stuff-done/</loc>
-    <lastmod>2026-05-08T00:00:01-01:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/software-engineering/</loc>
-    <lastmod>2026-05-08T00:00:01-01:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-05-08T00:00:01-01:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/amd/</loc>
@@ -79,9 +88,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/open-source/</loc>
     <lastmod>2026-04-20T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/leadership/</loc>
-    <lastmod>2026-04-13T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/navy/</loc>
     <lastmod>2026-04-13T00:00:01-08:00</lastmod>
@@ -390,9 +396,6 @@
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/foundations-excellence/</loc>
-    <lastmod>2024-11-23T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/management/</loc>
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/scaling/</loc>
