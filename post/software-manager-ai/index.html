@@ -250,20 +250,12 @@
 </div>
 
   <p>There&rsquo;s a reckoning coming for a specific type of software engineering manager. Not the good ones. The ones who turned themselves into human Jira routers. The ones whose primary skill is translating documents into tickets and running standups. Those jobs? Gone. Faster than you think.</p>
-<!-- IMAGE PROMPT 1:
-Generate a dramatic, photorealistic aerial photograph of an active volcanic eruption where
-thick glowing orange lava flows rapidly into the ocean, creating enormous billowing steam
-clouds where it hits the water. New black land is visibly forming at the shoreline. Shot
-at golden hour with dramatic lighting. Wide cinematic perspective. The sense should be of
-unstoppable, geological-scale change creating entirely new territory from nothing.
-Image filename: images/lava-new-land.jpg
--->
-<center>
-<img src="https://blog.herlein.com/images/lava.png" width="65%"/>
-<br/><small>New land forming whether you're ready for it or not.</small>
-</center>
 <p>I&rsquo;ve been in this industry long enough to have seen every hype cycle. Java was going to change everything. The web. SOA. Agile. Cloud. Mobile. I coded my first program on a TRS-80 with 4K of RAM. I know what hype looks like.</p>
-<p>This is not hype.</p>
+<p>This is not hype.  The train is already passing the Wagon.  Cars are next.</p>
+<center>
+<img src="https://blog.herlein.com/images/trains-and-wagons.png" width="65%"/>
+<br/><small>The train didn't wait for the horse to be ready.</small>
+</center>
 <h2 id="the-glorified-babysitter-problem">The Glorified Babysitter Problem</h2>
 <p>A friend shared this piece from <a href="https://www.practicalengineering.management/p/we-are-done-as-managers-according">Practical Engineering Management</a> recently. There&rsquo;s one section in it that stopped me cold:</p>
 <blockquote>
@@ -277,7 +269,7 @@ Image filename: images/lava-new-land.jpg
 <p>Yeah. That.</p>
 <p>I&rsquo;ve worked for and with a lot of engineering leaders over a long career. At the big companies especially, there&rsquo;s a whole category of manager whose job is essentially: receive requirements from above, decompose into tickets, attend standup, remove blockers (meaning: send Slack messages), report status upward. They&rsquo;re traffic cops. Human middleware.</p>
 <p>AI is very good at being middleware. And it doesn&rsquo;t need a salary, benefits, or a 1:1 with you on Tuesday.</p>
-<h2 id="technical-credibility-is-not-optional-anymore">Technical Credibility Is Not Optional. Anymore.</h2>
+<h2 id="technical-credibility-is-not-optional-anymore">Technical Credibility Is Not Optional Anymore</h2>
 <p>There&rsquo;s a second article worth reading — <a href="https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise">Why Senior Developers Fail to Communicate Their Expertise</a>. It makes a solid argument about avoiding needless complexity and not building what you can reuse. Good advice, generally.</p>
 <p>But it feels like it was written for a world that no longer exists. A world where code was the precious, scarce resource. Where building anything was expensive and slow, so you defaulted to existing frameworks and libraries and swallowed their entire dependency chain just to get the three features you actually wanted.</p>
 <p>That world is gone.</p>
@@ -287,7 +279,7 @@ Image filename: images/lava-new-land.jpg
 <p>Think about RAFT consensus. Before, if you needed leader election and distributed coordination in your system, you had a choice: implement it yourself (months of work, subtle bugs, a team of people who understand it deeply), or adopt etcd or Consul and take on their entire worldview along with it. Most teams took the dependency, then spent years living with the mismatch between what they needed and what the tool provided.</p>
 <p>Now? You can spec exactly the RAFT behavior you need, have an AI agent build it, understand it completely because you have the world&rsquo;s most patient explainer sitting next to you, and ship it.</p>
 <p>Same with circuit breakers — you don&rsquo;t need to adopt a full service mesh to get Hystrix-style behavior. Same with bloom filters, gossip protocols, leader election schemes, custom cache eviction policies. You name it: if it&rsquo;s a well-understood computer science concept that used to require importing a whole framework, you can now just build the slice you actually need.</p>
-<p><strong>The most precious asset is no longer the code. It&rsquo;s the judgment about what to build.</strong></p>
+<p><strong>The most precious asset is no longer the code. It&rsquo;s the judgment about what to build - and how to build it.</strong></p>
 <h2 id="lego-blocks-but-you-design-the-bricks">Lego Blocks, But You Design the Bricks</h2>
 <p>Here&rsquo;s the mental model I keep coming back to: engineering has always been about assembling components. But the components were expensive to make, so you used off-the-shelf ones even when they didn&rsquo;t fit perfectly.</p>
 <p>Now you can build custom bricks. The AI builds them from your specs.</p>
@@ -296,38 +288,32 @@ Image filename: images/lava-new-land.jpg
 <p>On the other hand, you have the most powerful code-explanation and modification tooling in history sitting right there. So it&rsquo;s a different tradeoff, not necessarily a worse one. But you better understand what you built. <em>Actually</em> understand it.</p>
 <p>Which brings us back to leadership.</p>
 <h2 id="judgment-is-the-whole-job">Judgment Is the Whole Job</h2>
-<p>Engineering leadership has always been about the application of good engineering judgment. Not about the number of tickets closed. Not about deployment frequency. Not about headcount. Judgment.</p>
+<p>Engineering leadership has always been about the application of good engineering judgment. Not about the number of tickets closed. Not about deployment frequency. Not about headcount. Judgment.  Risk management.  Value creation.</p>
 <blockquote>
 <p>Only 10% to 30% of features pushed by tech companies actually yield positive commercial results. If your only measure of success relies on operational DORA metrics, you are likely just building the wrong things, very efficiently.</p>
 </blockquote>
 <p>That quote from the first article is the whole game. Metrics that measure how fast you&rsquo;re shipping are useless if you&rsquo;re shipping the wrong things. And AI makes shipping even faster, which means the cost of shipping the wrong thing goes <em>up</em>, not down. You can make more mistakes, more quickly.</p>
 <p>The leaders who understand this — who can hold the line on technical strategy, who can distinguish between &ldquo;the AI can build this&rdquo; and &ldquo;we should build this&rdquo; — those people are more valuable than ever.</p>
 <p>The ones who are just&hellip; moving tickets? Their jobs are being automated as we speak.</p>
-<h2 id="the-volcano-has-already-erupted">The Volcano Has Already Erupted</h2>
-<!-- IMAGE PROMPT 2:
-Generate a dramatic, photorealistic scene from the 1880s showing a large steam locomotive
-rushing at full speed down a track, with motion blur conveying extreme velocity. Right
-alongside the track, a startled horse rears up pulling a simple wooden farmer's wagon,
-the farmer gripping the reins with wide eyes. The contrast between the unstoppable
-industrial machine and the horse-drawn transport should feel shocking and historical.
-Warm afternoon light, dust, steam. Cinematic wide shot, slightly low angle.
-Image filename: images/train-horse-wagon.jpg
--->
+<p>This is a whole new continent of skills forming as we watch - like it was a new island forming from from an eruption of AI.</p>
 <center>
-<img src="https://blog.herlein.com/images/trains-and-wagons.png" width="65%"/>
-<br/><small>The train didn't wait for the horse to be ready.</small>
+<img src="https://blog.herlein.com/images/lava.png" width="65%"/>
+<br/><small>New land forming whether you're ready for it or not.</small>
 </center>
-<p>We are watching this transformation happen in real time. Telegraph operators didn&rsquo;t fade away — the job category just ended. Typographers who hand-set movable type got replaced by desktop publishing. Video store clerks. Travel agents. Switchboard operators. Whole professions that existed for decades, then didn&rsquo;t.</p>
-<p>I&rsquo;m not saying software engineers are going away. I&rsquo;m saying something more specific and arguably scarier: <strong>the software managers who lost touch with their engineering skills are going away first.</strong> Because their job — the coordination, the decomposition, the status reporting — that&rsquo;s the part that automates cleanest.</p>
+<p>We are watching this transformation happen in real time. Telegraph operators didn&rsquo;t fade away — the job category just ended. Video store clerks. Travel agents. Switchboard operators. Whole professions that existed for decades, then didn&rsquo;t.</p>
+<p>You can&rsquo;t stop this any more than you can stop a volcanic eruption.</p>
+<p>I&rsquo;m not saying software engineers are going away. Actually quite the opposite!  Job listings are *<em>up</em> for Software Engineers.</p>
+<p>I&rsquo;m saying something more specific and arguably scarier: <strong>the software managers who lost touch with their engineering skills are going away first.</strong> Because their job — the coordination, the decomposition, the status reporting — that&rsquo;s the part that automates cleanest.</p>
 <p>The engineers who can still build things, who understand systems deeply, who have genuine technical credibility? They&rsquo;re going to be fine. Better than fine, actually, because the tools available to them are extraordinary.</p>
 <p>But the manager who can&rsquo;t read a diff, can&rsquo;t reason about architecture, can&rsquo;t tell good engineering from bad engineering? The one who needs a staff of engineers to translate the technical reality into something they can understand?</p>
 <p>That job is going the way of the switchboard operator.</p>
+<p>And yes, we have a chasm of the junior talent, and how we being them along.  I&rsquo;ve not solved that yet.  I have some ideas.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>Here&rsquo;s the thing: this is actually good news, if you&rsquo;re the right kind of engineering leader.</p>
-<p>The best managers I&rsquo;ve worked with or for have always been technical. They earned their credibility in the trenches. They can see through the bullshit when a vendor promises magic. They know when the team is taking shortcuts that will hurt later. They understand the difference between technical debt and deliberate design tradeoffs.</p>
-<p>Those people are finally free to do the work they should have been doing all along — the actual hard stuff. Product discovery. Technical strategy. Scaling the problem-solving capacity of the humans around them.</p>
-<p>The glorified babysitters? The Jira ticket routers? Their time is up.</p>
-<p>The volcano doesn&rsquo;t care if you&rsquo;re ready. New land is forming.</p>
+<p>Here&rsquo;s the thing: this is actually good news, <strong>if you&rsquo;re the right kind of engineering leader.</strong></p>
+<p>The best managers I&rsquo;ve worked with or for have always been technical. They earned their credibility in the trenches. They can see through the bullshit when a vendor promises magic. They know when the team is taking shortcuts that will hurt later. They understand the difference between technical debt and deliberate design tradeoffs.  And yes, they have the leadership skills too.</p>
+<p>Those people are finally free to do the work they probably have been doing all along — the actual hard stuff. Product discovery. Technical strategy. Scaling the problem-solving capacity of the humans around them.</p>
+<p>The glorified babysitters? The Jira ticket routers? Their time is up.  If you are one of them, I recommend you get back to coding something nights and weekends and get the rust off quickly.</p>
+<p>The volcano doesn&rsquo;t care if you&rsquo;re ready. New land is forming.  Don&rsquo;t get burned.</p>
 <p>What do you think? Drop me a note on <a href="https://www.linkedin.com/in/gherlein/">LinkedIn</a>. Seriously. I want to hear from people living through this — especially if you&rsquo;re a manager who&rsquo;s figured out how to adapt.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
