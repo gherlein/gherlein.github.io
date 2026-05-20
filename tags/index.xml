@@ -7,13 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 15 May 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Fri, 15 May 2026 00:00:01 -0800</pubDate>
+      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anthropic</title>
+      <link>https://blog.herlein.com/tags/anthropic/</link>
+      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/anthropic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Budgets</title>
+      <link>https://blog.herlein.com/tags/budgets/</link>
+      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/budgets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Costs</title>
+      <link>https://blog.herlein.com/tags/costs/</link>
+      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/costs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cto</title>
+      <link>https://blog.herlein.com/tags/cto/</link>
+      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/cto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise</title>
+      <link>https://blog.herlein.com/tags/enterprise/</link>
+      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/enterprise/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github-Copilot</title>
+      <link>https://blog.herlein.com/tags/github-copilot/</link>
+      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/github-copilot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inference</title>
+      <link>https://blog.herlein.com/tags/inference/</link>
+      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/inference/</guid>
       <description></description>
     </item>
     <item>
@@ -1281,13 +1330,6 @@
       <link>https://blog.herlein.com/tags/serial/</link>
       <pubDate>Sat, 19 Dec 2020 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/serial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Costs</title>
-      <link>https://blog.herlein.com/tags/costs/</link>
-      <pubDate>Wed, 11 Nov 2020 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/costs/</guid>
       <description></description>
     </item>
     <item>
