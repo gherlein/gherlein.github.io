@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 19 May 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Future of Software Engineering: What I Know and How I Know It</title>
+      <link>https://blog.herlein.com/post/future-of-software/</link>
+      <pubDate>Mon, 25 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/future-of-software/</guid>
+      <description>&lt;p&gt;A &lt;a href=&#34;https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future%20_of_software_development_retreat_%20key_takeaways.pdf&#34;&gt;recent industry retreat of senior engineering practitioners&lt;/a&gt; published their findings on where software development is heading. Reading it felt like someone had been reading my mind — and the minds of the people I follow online — and synthesized it all into one document. When a lot of people arrive at the same conclusions independently, that&amp;rsquo;s signal worth paying attention to. Here&amp;rsquo;s my take on each major theme.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>AI Inference Costs: The Wake-Up Call for 2026 and 2027</title>
       <link>https://blog.herlein.com/post/ai-inference-costs-reality-check/</link>
