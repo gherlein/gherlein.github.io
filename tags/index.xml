@@ -7,20 +7,62 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 25 May 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>https://blog.herlein.com/tags/ai/</link>
+      <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brightsign</title>
+      <link>https://blog.herlein.com/tags/brightsign/</link>
+      <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/brightsign/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital-Signage</title>
+      <link>https://blog.herlein.com/tags/digital-signage/</link>
+      <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/digital-signage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edge-Ai</title>
+      <link>https://blog.herlein.com/tags/edge-ai/</link>
+      <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/edge-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inference</title>
+      <link>https://blog.herlein.com/tags/inference/</link>
+      <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/inference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Npu</title>
+      <link>https://blog.herlein.com/tags/npu/</link>
+      <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/npu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video</title>
+      <link>https://blog.herlein.com/tags/video/</link>
+      <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/video/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agents</title>
       <link>https://blog.herlein.com/tags/agents/</link>
       <pubDate>Mon, 25 May 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agents/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Mon, 25 May 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -98,13 +140,6 @@
       <link>https://blog.herlein.com/tags/github-copilot/</link>
       <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/github-copilot/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Inference</title>
-      <link>https://blog.herlein.com/tags/inference/</link>
-      <pubDate>Tue, 19 May 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/inference/</guid>
       <description></description>
     </item>
     <item>
@@ -1011,13 +1046,6 @@
       <description></description>
     </item>
     <item>
-      <title>Digital-Signage</title>
-      <link>https://blog.herlein.com/tags/digital-signage/</link>
-      <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
-      <guid>https://blog.herlein.com/tags/digital-signage/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Media-Players</title>
       <link>https://blog.herlein.com/tags/media-players/</link>
       <pubDate>Sat, 24 Sep 2022 00:00:01 -0700</pubDate>
@@ -1302,13 +1330,6 @@
       <link>https://blog.herlein.com/tags/kinesis/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/kinesis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Video</title>
-      <link>https://blog.herlein.com/tags/video/</link>
-      <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/video/</guid>
       <description></description>
     </item>
     <item>

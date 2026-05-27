@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog.herlein.com/tags/agents/</loc>
-    <lastmod>2026-05-25T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/brightsign/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/playback-to-perception/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/digital-signage/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/edge-ai/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/inference/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/npu/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/video/</loc>
+    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/agents/</loc>
     <lastmod>2026-05-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/career/</loc>
@@ -14,22 +44,13 @@
     <loc>https://blog.herlein.com/tags/future/</loc>
     <lastmod>2026-05-25T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2026-05-25T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/leadership/</loc>
     <lastmod>2026-05-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/management/</loc>
     <lastmod>2026-05-25T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
-    <lastmod>2026-05-25T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/software-engineering/</loc>
-    <lastmod>2026-05-25T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-05-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/future-of-software/</loc>
@@ -54,9 +75,6 @@
     <lastmod>2026-05-19T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/github-copilot/</loc>
-    <lastmod>2026-05-19T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/inference/</loc>
     <lastmod>2026-05-19T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/software-manager-ai/</loc>
@@ -650,9 +668,6 @@
     <loc>https://blog.herlein.com/post/goodbye-twitter/</loc>
     <lastmod>2022-10-31T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/digital-signage/</loc>
-    <lastmod>2022-09-24T00:00:01-07:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/media-players/</loc>
     <lastmod>2022-09-24T00:00:01-07:00</lastmod>
   </url><url>
@@ -873,9 +888,6 @@
     <lastmod>2021-02-27T00:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/kinesis-video-streams/</loc>
-    <lastmod>2021-02-27T00:00:00-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/video/</loc>
     <lastmod>2021-02-27T00:00:00-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/sysops-cert-2021/</loc>

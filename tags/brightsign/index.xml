@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Video on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/video/</link>
-    <description>Recent content in Video on Greg Herlein</description>
+    <title>Brightsign on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/brightsign/</link>
+    <description>Recent content in Brightsign on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
     <lastBuildDate>Wed, 27 May 2026 00:00:01 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.herlein.com/tags/brightsign/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Signage: From Playback to Perception</title>
       <link>https://blog.herlein.com/post/playback-to-perception/</link>
       <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/playback-to-perception/</guid>
       <description>&lt;h1 id=&#34;digital-signage---from-playback-to-perception&#34;&gt;Digital Signage - From Playback to Perception&lt;/h1&gt;&#xA;&lt;p&gt;In recent years, digital signage was a solved problem: push content to screens reliably, at scale, on schedule. That&amp;rsquo;s not enough anymore. The market is now demanding screens that &lt;em&gt;perceive&lt;/em&gt; — that understand what&amp;rsquo;s in front of them and respond in real time.  Most of the hardware deployed in the field today will fail at that job because the foundational assumptions are wrong. Here&amp;rsquo;s what&amp;rsquo;s actually required and why the infrastructure choices you make now will define your deployment for the next decade.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Kinesis Video Streams - Just Getting Started</title>
-      <link>https://blog.herlein.com/post/kinesis-video-streams/</link>
-      <pubDate>Sat, 27 Feb 2021 00:00:00 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/kinesis-video-streams/</guid>
-      <description>&lt;p&gt;Just started playing with &lt;a href=&#34;https://aws.amazon.com/kinesis/video-streams/?amazon-kinesis-video-streams-resources-blog.sort-by=item.additionalFields.createdDate&amp;amp;amazon-kinesis-video-streams-resources-blog.sort-order=desc&#34;&gt;Amazon Kinesis Video Streams&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
