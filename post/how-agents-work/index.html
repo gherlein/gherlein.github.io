@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>How AI Coding Agents Work: First Principles &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>How AI Coding Agents Work: First Principles</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>31 May 2026, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/agents">agents</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ai">ai</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/robotics">robotics</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/golang">golang</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ollama">ollama</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/local-models">local-models</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/mcp">mcp</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>I&rsquo;ve been dorking around with local AI coding agents for a while now. At some point curiosity got the better of me and I had to know: what the heck are these things actually doing under the hood?</p>
+<p>So I went back to first principles. That&rsquo;s usually where I end up when something isn&rsquo;t working the way I expect, or when I&rsquo;m about to build something and I don&rsquo;t want to be surprised. I wrote myself a <a href="https://github.com/emergingrobotics/how-agents-work">reference document</a> that explains the mechanics. This post is the human version of that.</p>
+<p>(And yes - spoiler alert - I have a robotics project in the works where all of this directly applies. More on that soon.)</p>
+<h2 id="the-tools-ive-been-playing-with">The Tools I&rsquo;ve Been Playing With</h2>
+<p>I&rsquo;ve been specifically interested in agents that can work with local models, which rules out most of the mainstream stuff. The ones I&rsquo;ve been spending time with:</p>
+<ul>
+<li><a href="https://github.com/gherlein/pi-go">pi-go</a> — a terminal-based coding agent built in Go with multi-provider LLM support. It talks to Claude, GPT, Gemini, <em>and</em> local Ollama models. Written by yours truly. It&rsquo;s a fork of <a href="https://github.com/dimetron/pi-go">dimetron&rsquo;s pi-go</a> - I am using the &ldquo;personal&rdquo; branch which has some fixes that I&rsquo;ve submitted as PRs.</li>
+<li><a href="https://github.com/rcarmo/piclaw">piclaw</a> — a self-hosted AI workspace that bundles the Pi Coding Agent into a full web UI: chat, editor, terminal, task queuing, the works. Runs in Docker, works on mobile. Really nice piece of work.</li>
+<li><a href="https://github.com/sst/opencode">opencode</a> — open source AI coding agent, well-built, worth your time if you haven&rsquo;t tried it.</li>
+</ul>
+<p>What I found after spending time with these: they all look different on the surface, but underneath? They&rsquo;re all doing the exact same thing. Once I understood <em>that</em> thing, everything made more sense.</p>
+<h2 id="the-agent-is-just-a-control-loop">The Agent Is Just a Control Loop</h2>
+<p>Here&rsquo;s the key insight. Strip away the UI, the configuration, the fancy prompts — every coding agent is this:</p>
+<pre tabindex="0"><code>1. Build a message bundle (system prompt + history + tool catalog)
+2. Send it to the LLM
+3. Read what the LLM wants to do
+4. If it wants to call a tool: run the tool, feed the result back, go to step 1
+5. If it&#39;s done: show the answer to the user
+</code></pre><p>Repeat until finished. That&rsquo;s it. That&rsquo;s the whole architecture.</p>
+<p>The LLM <strong>never executes anything directly</strong>. It reads context, reasons about what to do, and <em>requests</em> tool calls. The agent decides whether to honor those requests and actually runs the tools. This is a crucial distinction. The LLM is the brain; the agent is the hands.</p>
+<p>Think about that for a minute. Every time you ask Claude Code to &ldquo;refactor this function&rdquo; — it&rsquo;s not Claude touching your files. It&rsquo;s the agent calling <code>read_file</code>, then calling <code>write_file</code>, then calling <code>bash</code> to run tests, then feeding all those results back to Claude, who says &ldquo;ok, what next?&rdquo; It&rsquo;s a conversation between the agent and the LLM, happening faster than you can see.</p>
+<h2 id="the-message-stack">The Message Stack</h2>
+<p>Before every LLM call, the agent assembles a message bundle. Four types of messages, in order:</p>
+<ul>
+<li><strong><code>system</code></strong> — the agent&rsquo;s instructions. This gets sent literally every single LLM call. Every. One.</li>
+<li><strong><code>user</code></strong> — what you typed</li>
+<li><strong><code>assistant</code></strong> — what the LLM said back</li>
+<li><strong><code>tool</code>/<code>tool_result</code></strong> — the results of tool calls</li>
+</ul>
+<p>The full conversation history goes in every time. That&rsquo;s why context windows matter. As a session gets longer, you&rsquo;re packing more messages into each LLM call. That&rsquo;s also why &ldquo;compaction&rdquo; is a thing in Claude Code — it summarizes old history to keep the bundle from exploding.</p>
+<h2 id="anthropic-vs-openai-vs-ollama-the-annoying-differences">Anthropic vs. OpenAI vs. Ollama: The Annoying Differences</h2>
+<p>They all do the same <em>logical</em> thing, but the wire protocols are different enough to cause pain.</p>
+<p><strong>OpenAI / Ollama:</strong></p>
+<ul>
+<li>System prompt is just the first message in the array (role: <code>system</code>)</li>
+<li>Tool call arguments come back as JSON <em>strings</em> — you have to parse them yourself</li>
+<li>Tool results go back as separate messages with a matching <code>tool_call_id</code></li>
+</ul>
+<p><strong>Anthropic:</strong></p>
+<ul>
+<li>System prompt is a <em>top-level field</em>, separate from the messages array</li>
+<li>Tool call arguments come back as pre-parsed objects — nice</li>
+<li>All tool results for a single turn go in one <code>user</code> message as <code>tool_result</code> blocks</li>
+<li><strong>Strict message-role alternation.</strong> You cannot have two user messages in a row. This one catches everyone at first.</li>
+</ul>
+<p><strong>Ollama-specific gotchas:</strong></p>
+<ul>
+<li>Content field might be an empty string instead of <code>null</code> — check for both</li>
+<li>Context windows default way too small for non-trivial tasks</li>
+<li>Some models return tool arguments as objects, some as JSON strings — you have to handle both</li>
+</ul>
+<p>I spent too much time debugging &ldquo;why does this work with Claude but not with Ollama&rdquo; — it was the empty string vs. null thing. Geesh.</p>
+<h2 id="what-is-mcp-really">What Is MCP, Really?</h2>
+<p>You&rsquo;ve probably seen &ldquo;MCP&rdquo; everywhere lately. <a href="https://www.anthropic.com/news/model-context-protocol">Model Context Protocol</a>. Here&rsquo;s what it actually is in the context of agents:</p>
+<p>An MCP server is a separate process that exposes extra tools to the agent via JSON-RPC 2.0. The agent does a handshake at startup, discovers what tools the server provides, and adds them to the tool catalog that gets sent to the LLM on every call.</p>
+<p>From the LLM&rsquo;s perspective, there&rsquo;s no difference between a built-in tool (<code>read_file</code>) and an MCP tool (say, a database query or a Slack message). They both show up in the catalog. The LLM requests one; the agent routes it to the right place and brings back the result.</p>
+<p>That&rsquo;s it. MCP is not magic. It&rsquo;s a standard way to extend an agent&rsquo;s tool catalog without touching the agent&rsquo;s code.</p>
+<p>There&rsquo;s also <a href="https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/">A2A — Agent-to-Agent Protocol</a> — which lets agents call <em>other agents</em> as tools. I haven&rsquo;t gone deep on this yet, but the mental model is the same: it just adds another node in the call graph.</p>
+<h2 id="the-core-toolset">The Core Toolset</h2>
+<p>Every coding agent, at minimum, needs these tools:</p>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>read_file</code></td>
+<td>Read source code</td>
+</tr>
+<tr>
+<td><code>write_file</code></td>
+<td>Create or modify files</td>
+</tr>
+<tr>
+<td><code>bash</code> / <code>execute</code></td>
+<td>Run shell commands</td>
+</tr>
+<tr>
+<td><code>search</code> / <code>grep</code></td>
+<td>Find things in the codebase</td>
+</tr>
+</tbody>
+</table>
+<p>Everything else is gravy. Those four tools are what let an LLM navigate a codebase, make changes, run tests, and verify results. The agent wraps them in permission checks, sandboxing, and approval flows — but underneath, it&rsquo;s just those tools going back and forth in the message loop.</p>
+<h2 id="capability-discovery">Capability Discovery</h2>
+<p>One thing that threw me: how does an agent know if a model supports tool calling at all? Depends on the provider.</p>
+<ul>
+<li><strong>Ollama</strong>: hit <code>/api/show</code>, look for <code>&quot;tools&quot;</code> in the capabilities array</li>
+<li><strong>Anthropic</strong>: hit <code>/v1/models</code>, returns nested capability objects with versioned features</li>
+<li><strong>OpenAI</strong>: no native capability endpoint at all — everyone uses static lookup tables</li>
+</ul>
+<p>That last one is particularly annoying. But it does explain why some agents maintain giant compatibility matrices for different OpenAI-compatible models. It&rsquo;s not laziness; there&rsquo;s no API to do better.  Come on OpenAI!  Get your act together.</p>
+<h2 id="why-does-this-matter">Why Does This Matter?</h2>
+<p>Honestly, I could have just kept using these tools as black boxes. They work. Claude Code especially works <em>really</em> well.  I love it, even if I <a href="https://blog.herlein.com/post/ai-inference-costs-reality-check/">worry it will get too expensive</a> at some point.</p>
+<p>But.</p>
+<p>I have a project coming up — robotics-related, involving actual hardware, actual sensors, and actual consequences for wrong actions — where I need an agent that can work with local models, in a constrained environment, potentially offline. No phoning home to Anthropic.</p>
+<p>For that, I can&rsquo;t afford to treat the agent as a black box. I need to know exactly what the LLM is seeing, exactly what the agent is doing with tool results, and exactly where the failure modes are. Understanding the control loop, the message protocol, and the provider quirks isn&rsquo;t optional anymore. It&rsquo;s table stakes.</p>
+<p>So I wrote it down. Starting from the perspective of how a coding agent works. For myself. And now for you.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The one thing I want you to take away: <strong>an agent is a control loop, and the LLM never executes anything</strong>. Everything else — MCP, A2A, tool catalogs, message history — is scaffolding around that loop.</p>
+<p>Once that clicked for me, the whole ecosystem made a lot more sense. The tool explosion made sense (more tools = more capable agent). The context window arms race made sense (longer history = more capable agent). The provider quirks made sense (everyone&rsquo;s doing the same thing slightly differently).</p>
+<p>You don&rsquo;t need to go deep on the protocol unless you&rsquo;re building one. But if you are building one — or if you need to run one in a constrained environment, like say, a robotics platform — the <a href="https://github.com/emergingrobotics/how-agents-work">reference document</a> is a good place to start.</p>
+<p>More robotics stuff coming soon. Stay tuned.</p>
+<p>If this helped you, drop me a note on <a href="https://www.linkedin.com/in/gherlein/">LinkedIn</a>.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fhow-agents-work%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fhow-agents-work%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fhow-agents-work%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fhow-agents-work%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fhow-agents-work%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fhow-agents-work%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/playback-to-perception/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/playback-to-perception/">Digital Signage: From Playback to Perception</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

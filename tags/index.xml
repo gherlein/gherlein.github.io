@@ -7,13 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 27 May 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents</title>
+      <link>https://blog.herlein.com/tags/agents/</link>
+      <pubDate>Sun, 31 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agents/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
+      <pubDate>Sun, 31 May 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>https://blog.herlein.com/tags/golang/</link>
+      <pubDate>Sun, 31 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local-Models</title>
+      <link>https://blog.herlein.com/tags/local-models/</link>
+      <pubDate>Sun, 31 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/local-models/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MCP</title>
+      <link>https://blog.herlein.com/tags/mcp/</link>
+      <pubDate>Sun, 31 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/mcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ollama</title>
+      <link>https://blog.herlein.com/tags/ollama/</link>
+      <pubDate>Sun, 31 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ollama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robotics</title>
+      <link>https://blog.herlein.com/tags/robotics/</link>
+      <pubDate>Sun, 31 May 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/robotics/</guid>
       <description></description>
     </item>
     <item>
@@ -56,13 +98,6 @@
       <link>https://blog.herlein.com/tags/video/</link>
       <pubDate>Wed, 27 May 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/video/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Agents</title>
-      <link>https://blog.herlein.com/tags/agents/</link>
-      <pubDate>Mon, 25 May 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/agents/</guid>
       <description></description>
     </item>
     <item>
@@ -409,13 +444,6 @@
       <description></description>
     </item>
     <item>
-      <title>Robotics</title>
-      <link>https://blog.herlein.com/tags/robotics/</link>
-      <pubDate>Sat, 31 Jan 2026 01:00:00 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/robotics/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>ROS</title>
       <link>https://blog.herlein.com/tags/ros/</link>
       <pubDate>Sat, 31 Jan 2026 01:00:00 -0800</pubDate>
@@ -469,13 +497,6 @@
       <link>https://blog.herlein.com/tags/go/</link>
       <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/go/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Golang</title>
-      <link>https://blog.herlein.com/tags/golang/</link>
-      <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/golang/</guid>
       <description></description>
     </item>
     <item>
@@ -661,13 +682,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ollama</title>
-      <link>https://blog.herlein.com/tags/ollama/</link>
-      <pubDate>Sun, 15 Jun 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ollama/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Blogging</title>
       <link>https://blog.herlein.com/tags/blogging/</link>
       <pubDate>Wed, 04 Jun 2025 17:45:00 -0700</pubDate>
@@ -700,13 +714,6 @@
       <link>https://blog.herlein.com/tags/a2a/</link>
       <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/a2a/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MCP</title>
-      <link>https://blog.herlein.com/tags/mcp/</link>
-      <pubDate>Fri, 25 Apr 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/mcp/</guid>
       <description></description>
     </item>
     <item>
