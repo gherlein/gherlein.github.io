@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 31 May 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is Waterfall Coming Back? Sort Of. Not Really. Both — And the Bigger Question Underneath.</title>
+      <link>https://blog.herlein.com/post/is-waterfall-back/</link>
+      <pubDate>Sun, 07 Jun 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/is-waterfall-back/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a thing going around the engineering blogs and Hacker News right now: AI killed Agile, Waterfall is back, write your specs up front, welcome to &amp;ldquo;Waterfall 2.0.&amp;rdquo; You may have seen the Medium piece titled &lt;a href=&#34;https://medium.com/@brian_carpizo/agile-is-dead-ai-killed-it-welcome-back-waterfall-e41bfabdd408&#34;&gt;&lt;em&gt;Agile Is Dead. AI Killed It. Welcome Back, Waterfall.&lt;/em&gt;&lt;/a&gt;. Hmmm.&lt;/p&gt;&#xA;&lt;p&gt;And once I followed the logic far enough, I ran into a second question that nobody seems to want to answer out loud: &lt;em&gt;if the agent writes the code, who actually reads it?&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How AI Coding Agents Work: First Principles</title>
       <link>https://blog.herlein.com/post/how-agents-work/</link>
