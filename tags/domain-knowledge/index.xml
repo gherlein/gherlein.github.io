@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Domain-Knowledge on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/domain-knowledge/</link>
+    <description>Recent content in Domain-Knowledge on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 08 Jun 2026 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/domain-knowledge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your Career Isn&#39;t Eroding - You&#39;re Just Holding the Wrong Moat</title>
+      <link>https://blog.herlein.com/post/domain-plus-software-superpower/</link>
+      <pubDate>Mon, 08 Jun 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/domain-plus-software-superpower/</guid>
+      <description>&lt;p&gt;A response to &lt;a href=&#34;https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/&#34;&gt;&amp;ldquo;LLMs are Eroding My Software Engineering Career and I Don&amp;rsquo;t Know What To Do&amp;rdquo;&lt;/a&gt; - and to everyone I keep hearing this same anguish from. You&amp;rsquo;re not wrong that the ground is moving. You&amp;rsquo;re wrong about which ground.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
