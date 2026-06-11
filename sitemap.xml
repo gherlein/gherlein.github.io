@@ -2,17 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/agents/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/knowledge/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/leadership/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/learning/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/management/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/organizational-learning/</loc>
     <lastmod>2026-06-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/</loc>
     <lastmod>2026-06-11T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/agents/</loc>
-    <lastmod>2026-06-10T00:00:01-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2026-06-10T00:00:01-08:00</lastmod>
+    <loc>https://blog.herlein.com/tags/teams/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/knowledge/</loc>
+    <lastmod>2026-06-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/av/</loc>
     <lastmod>2026-06-10T00:00:01-08:00</lastmod>
@@ -24,9 +48,6 @@
     <lastmod>2026-06-10T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/robotics/</loc>
-    <lastmod>2026-06-10T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-06-10T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/the-room-is-a-robot/</loc>
@@ -96,12 +117,6 @@
     <lastmod>2026-05-27T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/future/</loc>
-    <lastmod>2026-05-25T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/leadership/</loc>
-    <lastmod>2026-05-25T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/management/</loc>
     <lastmod>2026-05-25T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/future-of-software/</loc>
@@ -567,9 +582,6 @@
     <lastmod>2024-04-27T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/happiness/</loc>
-    <lastmod>2024-04-27T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/teams/</loc>
     <lastmod>2024-04-27T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/whale-update/</loc>
