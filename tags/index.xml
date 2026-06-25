@@ -7,34 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 11 Jun 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agents</title>
       <link>https://blog.herlein.com/tags/agents/</link>
-      <pubDate>Thu, 11 Jun 2026 00:00:01 -0800</pubDate>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agents/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Thu, 11 Jun 2026 00:00:01 -0800</pubDate>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://blog.herlein.com/tags/claude/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/claude/</guid>
       <description></description>
     </item>
     <item>
       <title>Knowledge</title>
       <link>https://blog.herlein.com/tags/knowledge/</link>
-      <pubDate>Thu, 11 Jun 2026 00:00:01 -0800</pubDate>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/knowledge/</guid>
       <description></description>
     </item>
     <item>
       <title>Leadership</title>
       <link>https://blog.herlein.com/tags/leadership/</link>
-      <pubDate>Thu, 11 Jun 2026 00:00:01 -0800</pubDate>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Okf</title>
+      <link>https://blog.herlein.com/tags/okf/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/okf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Organizational Learning</title>
+      <link>https://blog.herlein.com/tags/organizational-learning/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/organizational-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>https://blog.herlein.com/tags/skills/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tooling</title>
+      <link>https://blog.herlein.com/tags/tooling/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/tooling/</guid>
       <description></description>
     </item>
     <item>
@@ -49,13 +84,6 @@
       <link>https://blog.herlein.com/tags/management/</link>
       <pubDate>Thu, 11 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Organizational Learning</title>
-      <link>https://blog.herlein.com/tags/organizational-learning/</link>
-      <pubDate>Thu, 11 Jun 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/organizational-learning/</guid>
       <description></description>
     </item>
     <item>
@@ -451,13 +479,6 @@
       <description></description>
     </item>
     <item>
-      <title>Claude</title>
-      <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/claude/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Makers</title>
       <link>https://blog.herlein.com/tags/makers/</link>
       <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
@@ -749,13 +770,6 @@
       <link>https://blog.herlein.com/tags/ostriches/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ostriches/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skills</title>
-      <link>https://blog.herlein.com/tags/skills/</link>
-      <pubDate>Tue, 17 Jun 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/skills/</guid>
       <description></description>
     </item>
     <item>
