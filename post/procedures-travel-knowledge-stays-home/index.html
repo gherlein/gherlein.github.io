@@ -266,9 +266,10 @@
 <!--
 IMAGE 1 PROMPT (do not render):
 "A split composition, photorealistic and cinematic, shallow depth of field. On the left, a vast automated distribution warehouse with rows of identical, uniform shipping boxes rolling off a conveyor belt — clean, standardized, mass-produced, cool blue lighting. On the right, a single cluttered personal workbench with bespoke drawers and a one-of-a-kind hand-drawn wiring diagram pinned to a pegboard — clearly hand-made and unique, warm amber lighting. The contrast between mass-distributed and locally-crafted. No text, no lettering, no words."
-<p>Alternative idea A: A split composition, clean and slightly stylized. On the left, a dark Linux terminal screen filled with glowing green progress bars, checkmarks, and download arrows showing a software package installing successfully — the visual language of an install, no readable words. On the right, a closed and locked steel safe with a heavy combination dial, sealed shut. Cool blue-and-green palette on the terminal side, neutral steel on the safe side. No text.
-Alternative idea B: Two vending machines side by side. The left one is stocked with identical labeled packages anyone can buy (&ldquo;skills&rdquo;). The right one is empty with a handwritten &ldquo;MUST BE STOCKED LOCALLY&rdquo; sign taped to the glass (&ldquo;knowledge&rdquo;). Flat two-tone illustration, dry humor.
-&ndash;&gt;</p>
+
+Alternative idea A: A split composition, clean and slightly stylized. On the left, a dark Linux terminal screen filled with glowing green progress bars, checkmarks, and download arrows showing a software package installing successfully — the visual language of an install, no readable words. On the right, a closed and locked steel safe with a heavy combination dial, sealed shut. Cool blue-and-green palette on the terminal side, neutral steel on the safe side. No text.
+Alternative idea B: Two vending machines side by side. The left one is stocked with identical labeled packages anyone can buy ("skills"). The right one is empty with a handwritten "MUST BE STOCKED LOCALLY" sign taped to the glass ("knowledge"). Flat two-tone illustration, dry humor.
+-->
 <h2 id="two-kinds-of-knowledge-and-we-keep-confusing-them">Two Kinds of Knowledge, and We Keep Confusing Them</h2>
 <p>Here&rsquo;s the distinction that took me embarrassingly long to say out loud.  There are two completely different things we shove into our agents and call &ldquo;knowledge,&rdquo; and they behave nothing alike.</p>
 <p>We used to just call them <strong>procedures.</strong>  How to do things.  Run the tests before you open the PR.  Update REQUIREMENTS.md before you touch code.  When you debug, reproduce first, then bisect.  The discipline, the workflow, the muscle memory.  Every shop I&rsquo;ve ever worked in had a binder or a wiki full of them.</p>
@@ -283,7 +284,7 @@ Alternative idea B: Two vending machines side by side. The left one is stocked w
 <p>But here&rsquo;s the part nobody trips over because it&rsquo;s so obvious: <strong>you never <code>apt install</code> your own application&rsquo;s data.</strong>  Your <code>/etc</code> config, your database, your local state, the actual truth about <em>your</em> deployment — none of that comes from a repo.  It can&rsquo;t.  It&rsquo;s specific to you.  You curate it, on your box, by hand, forever.</p>
 <p><strong>Procedures travel.  Knowledge stays home.</strong></p>
 <p>That&rsquo;s the entire thesis of this post, and it&rsquo;s the same split we&rsquo;ve lived with for thirty years of package managers.  The agent world just rediscovered it.  Again.  We always do.</p>
-<h2 id="the-good-news-procedural-knowledge-now-has-a-package-manager-too">The Good News: Procedural Knowledge Now Has a Package Manager Too</h2>
+<h2 id="the-good-news-procedural-knowledge-now-has-a-package-manager">The Good News: Procedural Knowledge Now Has a Package Manager</h2>
 <p>This is the part that genuinely excites me, and I don&rsquo;t say that lightly — I&rsquo;ve been here for all the hype cycles and most &ldquo;revolutions&rdquo; are a feature in a trench coat.</p>
 <p>Skills are shareable.  Really shareable.  I install my core skill set on a new machine with one line:</p>
 <pre tabindex="0"><code>/plugin install gherlein@gherlein-marketplace
@@ -307,10 +308,10 @@ Alternative idea B: Two vending machines side by side. The left one is stocked w
 </span></span></code></pre></div><p>Each plugin&rsquo;s <code>source</code> can be a local path, a git URL, or a GitHub ref — so you can mix your own homegrown plugins with ones you pull in from elsewhere.  Point Claude Code at it:</p>
 <pre tabindex="0"><code>/plugin marketplace add your-org/claude-marketplace   # a private GitHub repo
 /plugin marketplace add ./acme-internal               # or just a local dir
-</code></pre><p>Then anybody on the team installs from it the same way I install mine:</p>
+</code></pre><p>Then anybody on the team installs it the same way:</p>
 <pre tabindex="0"><code>/plugin install engineering-principles@acme-internal
 </code></pre><p>That local-directory form is also how you <em>develop</em> a plugin — point at the working directory, iterate, <code>/plugin marketplace update</code> to refresh.  Put the repo behind your normal git access controls and you&rsquo;ve got a private, internal, team-only <code>apt</code> for procedural knowledge.  Boring.  Exactly the kind of boring that wins.</p>
-<h2 id="the-hard-news-declarative-knowledge-cant-be-shipped-from-a-repo">The Hard News: Declarative Knowledge Can&rsquo;t Be Shipped From a Repo</h2>
+<h2 id="bad-news-declarative-knowledge-cant-be-shipped-from-a-repo">Bad News: Declarative Knowledge Can&rsquo;t Be Shipped From a Repo</h2>
 <p>Here&rsquo;s where people get into trouble.</p>
 <p>There is no <code>/plugin install our-actual-data-model</code>.  There never will be.  Nobody can package the truth about your billing service and publish it for you, because the truth about your billing service exists in exactly one place in the universe — your billing service — and it&rsquo;s changing under you every sprint.  Same reason there&rsquo;s no <code>apt install</code> for your production database.</p>
 <p>Declarative knowledge has to be <strong>curated locally.</strong>  Alongside the code.  By the people who own the code.  This is the part agents are weirdly bad at on their own — they will happily hallucinate a join key or assume a metric means the obvious thing.  They cannot make the knowledge <em>true to your situation</em> without a human in the loop.  I said that last time and it&rsquo;s even more true here.</p>
@@ -338,9 +339,10 @@ Skills      →  the procedural layer that runs on top:
 <!--
 IMAGE 2 PROMPT (do not render):
 "Two metal gears meshing and turning together in extreme close-up. The left gear is a standardized, machine-stamped industrial gear with a clean uniform machined finish. The right gear is an ornate, hand-engraved, one-of-a-kind gear with bespoke tooling marks, filigree, and artisanal detail. Their teeth interlock precisely. Photorealistic, shallow depth of field, warm workshop lighting. No text, no lettering, no words."
-<p>Alternative idea A: A clean three-layer technical diagram, isometric style. Top layer labeled SKILLS (HOW) as portable interlocking blocks with a small package/repo icon; bottom layer labeled KNOWLEDGE (WHAT) as a sturdy curated foundation of stacked documents rooted to the ground; a thin middle connector labeled CLAUDE.md wiring the two together. Minimalist, two-tone blue and amber, white background, crisp vector look.
-Alternative idea B: A house cross-section metaphor — the foundation labeled &ldquo;Knowledge (local, curated)&rdquo;, the framing/tools labeled &ldquo;Skills (portable)&rdquo;, and the blueprint pinned to the wall labeled &ldquo;CLAUDE.md&rdquo;. Warm architectural illustration.
-&ndash;&gt;</p>
+
+Alternative idea A: A clean three-layer technical diagram, isometric style. Top layer labeled SKILLS (HOW) as portable interlocking blocks with a small package/repo icon; bottom layer labeled KNOWLEDGE (WHAT) as a sturdy curated foundation of stacked documents rooted to the ground; a thin middle connector labeled CLAUDE.md wiring the two together. Minimalist, two-tone blue and amber, white background, crisp vector look.
+Alternative idea B: A house cross-section metaphor — the foundation labeled "Knowledge (local, curated)", the framing/tools labeled "Skills (portable)", and the blueprint pinned to the wall labeled "CLAUDE.md". Warm architectural illustration.
+-->
 <h2 id="the-community-already-ran-ahead-of-me">The Community Already Ran Ahead of Me</h2>
 <p>The thing that tells me this isn&rsquo;t vaporware: OKF shipped on June 12 and there are already real Claude Code skills for <em>working with</em> OKF.  That&rsquo;s the spiral turning fast, and it&rsquo;s beautiful to watch.</p>
 <ul>
@@ -348,21 +350,21 @@ Alternative idea B: A house cross-section metaphor — the foundation labeled &l
 <li><a href="https://github.com/catancs/okf-skill"><code>catancs/okf-skill</code></a> does the full CRUD lifecycle and explicitly frames OKF as the cure for lost-context-between-sessions.  Knowledge that <em>compounds</em> across sessions instead of getting rebuilt every time.</li>
 <li><a href="https://github.com/supachai-j/open-knowledge-format-starter"><code>supachai-j/open-knowledge-format-starter</code></a> is a starter kit, and it made a design choice I love: <strong>ingestion is supervised on purpose.</strong>  A human approves the extracted claims before anything gets written.  Five to fifteen claims, eyeballed by a person, treated as a quality gate.</li>
 </ul>
-<p>That last one matters more than it looks.  You don&rsquo;t <code>sudo</code> an unsigned package and let it run as root.  You don&rsquo;t merge a PR you didn&rsquo;t review — you <em>do</em> review every PR, right?  Same instinct exactly.  Let the agent be fast at Combination — let it draft the bundle, let it find the patterns — but a person who actually knows the system signs off before it becomes truth the next agent will trust blindly.  That&rsquo;s not bureaucracy.  That&rsquo;s how you keep the knowledge true.</p>
 <p>Notice the shape, though.  Even <em>consuming and authoring declarative knowledge</em> turned out to be a procedure — so the community packaged that procedure as a Skill and shipped it through the marketplace.  Procedures travel.  Even the procedure for tending your local knowledge.</p>
-<h2 id="so-what-do-you-actually-do-monday-morning">So What Do You Actually Do Monday Morning?</h2>
+<h2 id="so-what-do-you-actually-do-on-monday-morning">So What Do You Actually Do On Monday Morning?</h2>
 <p>Same as last time — enough theory, here&rsquo;s the work:</p>
-<h3 id="1-stand-up-a-team-skills-marketplace">1. Stand up a team skills marketplace</h3>
-<p>Procedural knowledge has a package manager now.  Use it.  Get your team&rsquo;s workflows out of a dozen private <code>.claude/</code> directories and into one published marketplace.  This is the easy 80% of value and most teams haven&rsquo;t done it.</p>
-<h3 id="2-start-curating-declarative-knowledge-in-the-repo-next-to-the-code">2. Start curating declarative knowledge <em>in the repo</em>, next to the code</h3>
-<p>Pick one painful thing — the data model everyone gets wrong, the service contract that bites every new hire — and write it down in an OKF bundle living in the repo.  Point <code>CLAUDE.md</code> at it.  You&rsquo;ve just stopped paying the amnesia tax on that one thing.  Then do the next one.</p>
-<h3 id="3-keep-a-human-on-the-approval-gate">3. Keep a human on the approval gate</h3>
-<p>Let the agent draft the bundles.  It&rsquo;s genuinely great at it.  But a person who owns the system signs off before it&rsquo;s canon.  Supervised ingestion isn&rsquo;t slower in the way that matters — it&rsquo;s the difference between a knowledge base your agents can trust and a confident pile of plausible lies.</p>
-<h3 id="4-dont-try-to-ship-what-cant-be-shipped">4. Don&rsquo;t try to ship what can&rsquo;t be shipped</h3>
+<h3 id="1-dont-try-to-ship-what-cant-be-shipped">1. Don&rsquo;t try to ship what can&rsquo;t be shipped</h3>
 <p>Stop looking for a marketplace plugin that contains the truth about <em>your</em> systems.  It does not exist and it cannot.  That curation is your team&rsquo;s job, forever, and the teams that accept that early are going to look like wizards to the ones still hoping someone packages it for them.</p>
+<p>If someone elses packaged skills work for you, install them.  If not, write your own skills and package them.  Leading us to&hellip;</p>
+<h3 id="2-stand-up-a-team-skills-marketplace">2. Stand up a team skills marketplace</h3>
+<p>Procedural knowledge has a package manager now.  Use it.  Get your team&rsquo;s workflows out of a dozen private <code>.claude/</code> directories and into one published marketplace.  This is the easy 80% of value and most teams haven&rsquo;t done it. My team is just starting.</p>
+<h3 id="3-start-curating-declarative-knowledge-in-the-repo-next-to-the-code">3. Start curating declarative knowledge <em>in the repo</em>, next to the code</h3>
+<p>Pick one painful thing — the data model everyone gets wrong, the service contract that bites every new hire — and write it down in an OKF bundle living in the repo.  Point <code>CLAUDE.md</code> at it.  You&rsquo;ve just stopped paying the amnesia tax on that one thing.  Then do the next one.  Rinse and repeat.</p>
+<h3 id="4-keep-a-human-on-the-approval-gate">4. Keep a human on the approval gate</h3>
+<p>Let the agent draft the bundles.  It&rsquo;s genuinely great at it.  But a person who owns the system signs off before it&rsquo;s canon.  Supervised ingestion isn&rsquo;t slower in the way that matters — it&rsquo;s the difference between a knowledge base your agents can trust and a confident pile of plausible lies. Have a Senior Engineer vet the knowledge - definitely do a PR review.</p>
 <h2 id="conclusions">Conclusions</h2>
 <p>The framing I want you to walk away with is dead simple.  <strong>Skills are how.  Knowledge is what.</strong>  How travels — package it, publish it, install it on a fresh box in one line.  What stays home — curated locally, alongside the code, by the humans who actually know the system.</p>
-<p>We finally have a clean distribution mechanism for procedural knowledge, and that&rsquo;s a genuine unlock for the organizational-learning problem I was banging on about a couple weeks ago.  The marketplace <em>is</em> Diffusion-as-a-service for the <em>how</em>.  But it doesn&rsquo;t touch the <em>what</em>, and the sooner your team internalizes that the two are different jobs, the sooner you stop confusing them and start doing both deliberately.</p>
+<p>We have a clean distribution mechanism for procedural knowledge, and that&rsquo;s a genuine unlock for the organizational-learning problem I was banging on about a couple weeks ago.  The marketplace <em>is</em> Diffusion-as-a-service for the <em>how</em>.  But it doesn&rsquo;t touch the <em>what</em>, and the sooner your team internalizes that the two are different jobs, the sooner you stop confusing them and start doing both deliberately.</p>
 <p>Here&rsquo;s the thing about package managers, by the way: they&rsquo;re boring.  <code>apt</code> is boring.  Go modules are boring.  And boring infrastructure is exactly what wins every hype cycle — it&rsquo;s still running long after the flashy stuff is forgotten.  The skills marketplace is going to be that kind of boring, and I mean that as the highest compliment.  The teams that treat it like plumbing and just <em>build it</em> will quietly pull ahead of the ones still arguing about which model is best this week.</p>
 <p>Build the team marketplace.  Curate the knowledge locally.  Keep a human on the log.  Rinse and repeat.</p>
 <p>If this helps you, drop me a note on LinkedIn.  And if your team&rsquo;s &ldquo;knowledge base&rdquo; is still a Confluence graveyard nobody reads and no agent can parse — that&rsquo;s your Monday.  Go fix it.</p>
