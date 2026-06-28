@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 25 Jun 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taste Is in the Spec (Cooking Is Not the Recipe)</title>
+      <link>https://blog.herlein.com/post/wisdom-in-specs/</link>
+      <pubDate>Sun, 28 Jun 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/wisdom-in-specs/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a question I can&amp;rsquo;t stop chewing on: why is &lt;em&gt;some&lt;/em&gt; software so damn good, and most of it so&amp;hellip; not? Not buggy. Not slow. Just &lt;em&gt;bad&lt;/em&gt;. Bad in a way you feel in your gut the moment you touch it. The answer isn&amp;rsquo;t tooling, or budget, or headcount. It&amp;rsquo;s taste. And I&amp;rsquo;m starting to think taste is the whole ballgame in the age of AI.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Procedures Travel. Knowledge Stays Home.</title>
       <link>https://blog.herlein.com/post/procedures-travel-knowledge-stays-home/</link>
