@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 28 Jun 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>We&#39;ve Stopped Arguing About Whether</title>
+      <link>https://blog.herlein.com/post/retreat-observations/</link>
+      <pubDate>Thu, 02 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/retreat-observations/</guid>
+      <description>&lt;p&gt;I just spent a few days at a retreat on the future of software development. Small rooms. Unconference format.  Some of the sharpest people in our industry - the kind of names that show up on the spines of the books on your shelf. I&amp;rsquo;m not going to tell you who was there or who said what. We ran the whole thing under &lt;a href=&#34;https://en.wikipedia.org/wiki/Chatham_House_Rule&#34;&gt;Chatham House Rule&lt;/a&gt;: use what you learn, attribute none of it. This is my &lt;strong&gt;initial&lt;/strong&gt; take-away.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Taste Is in the Spec (Cooking Is Not the Recipe)</title>
       <link>https://blog.herlein.com/post/wisdom-in-specs/</link>
