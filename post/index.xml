@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 01 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Chainsaw at an Axe-Throwing Contest: My Current Agentic Loop</title>
+      <link>https://blog.herlein.com/post/my-current-agentic-loop/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/my-current-agentic-loop/</guid>
+      <description>&lt;p&gt;People keep asking me &lt;em&gt;how&lt;/em&gt; I actually work with Claude Code now. Not the &amp;ldquo;does AI coding work&amp;rdquo; question — I&amp;rsquo;ve beaten that horse into glue on this blog already — but the boring, practical, how-does-my-loop-actually-work question. So here it is. The whole rig. And fair warning: what I&amp;rsquo;m about to describe is a chainsaw, and most of the industry is still lined up at the axe-throwing contest, spitting on their hands.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>We&#39;ve Stopped Arguing About Whether</title>
       <link>https://blog.herlein.com/post/retreat-observations/</link>

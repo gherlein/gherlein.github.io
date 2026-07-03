@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Containers on Greg Herlein</title>
-    <link>https://blog.herlein.com/tags/containers/</link>
-    <description>Recent content in Containers on Greg Herlein</description>
+    <title>Security on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/security/</link>
+    <description>Recent content in Security on Greg Herlein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
     <lastBuildDate>Fri, 03 Jul 2026 00:00:01 -0800</lastBuildDate>
-    <atom:link href="https://blog.herlein.com/tags/containers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.herlein.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Chainsaw at an Axe-Throwing Contest: My Current Agentic Loop</title>
       <link>https://blog.herlein.com/post/my-current-agentic-loop/</link>
       <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/my-current-agentic-loop/</guid>
       <description>&lt;p&gt;People keep asking me &lt;em&gt;how&lt;/em&gt; I actually work with Claude Code now. Not the &amp;ldquo;does AI coding work&amp;rdquo; question — I&amp;rsquo;ve beaten that horse into glue on this blog already — but the boring, practical, how-does-my-loop-actually-work question. So here it is. The whole rig. And fair warning: what I&amp;rsquo;m about to describe is a chainsaw, and most of the industry is still lined up at the axe-throwing contest, spitting on their hands.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Putting Claude in Container Jail: My localdev Setup</title>
-      <link>https://blog.herlein.com/post/localdev-container-jail/</link>
-      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/post/localdev-container-jail/</guid>
-      <description>&lt;p&gt;I let Claude Code do whatever it wants without asking permission.&lt;/p&gt;&#xA;&lt;p&gt;Before you spit out your coffee: I keep it in a jail. A container jail.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

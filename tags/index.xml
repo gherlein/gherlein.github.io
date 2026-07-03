@@ -7,20 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 01 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic Coding</title>
+      <link>https://blog.herlein.com/tags/agentic-coding/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Agents</title>
       <link>https://blog.herlein.com/tags/agents/</link>
-      <pubDate>Wed, 01 Jul 2026 00:00:01 -0800</pubDate>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agents/</guid>
       <description></description>
     </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Wed, 01 Jul 2026 00:00:01 -0800</pubDate>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Build-Autonomous</title>
+      <link>https://blog.herlein.com/tags/build-autonomous/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/build-autonomous/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://blog.herlein.com/tags/claude/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containers</title>
+      <link>https://blog.herlein.com/tags/containers/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/containers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://blog.herlein.com/tags/go/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plugins</title>
+      <link>https://blog.herlein.com/tags/plugins/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/plugins/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://blog.herlein.com/tags/security/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>https://blog.herlein.com/tags/skills/</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/skills/</guid>
       <description></description>
     </item>
     <item>
@@ -80,13 +136,6 @@
       <description></description>
     </item>
     <item>
-      <title>Claude</title>
-      <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/claude/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Leadership</title>
       <link>https://blog.herlein.com/tags/leadership/</link>
       <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
@@ -105,13 +154,6 @@
       <link>https://blog.herlein.com/tags/organizational-learning/</link>
       <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/organizational-learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skills</title>
-      <link>https://blog.herlein.com/tags/skills/</link>
-      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/skills/</guid>
       <description></description>
     </item>
     <item>
@@ -329,13 +371,6 @@
       <link>https://blog.herlein.com/tags/agency/</link>
       <pubDate>Fri, 08 May 2026 00:00:01 -0100</pubDate>
       <guid>https://blog.herlein.com/tags/agency/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Agentic Coding</title>
-      <link>https://blog.herlein.com/tags/agentic-coding/</link>
-      <pubDate>Fri, 08 May 2026 00:00:01 -0100</pubDate>
-      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
       <description></description>
     </item>
     <item>
@@ -633,13 +668,6 @@
       <description></description>
     </item>
     <item>
-      <title>Go</title>
-      <link>https://blog.herlein.com/tags/go/</link>
-      <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/go/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Humpback</title>
       <link>https://blog.herlein.com/tags/humpback/</link>
       <pubDate>Sun, 28 Dec 2025 01:00:01 -0800</pubDate>
@@ -749,13 +777,6 @@
       <link>https://blog.herlein.com/tags/books/</link>
       <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/books/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Containers</title>
-      <link>https://blog.herlein.com/tags/containers/</link>
-      <pubDate>Sun, 07 Dec 2025 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/containers/</guid>
       <description></description>
     </item>
     <item>
