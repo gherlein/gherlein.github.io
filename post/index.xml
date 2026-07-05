@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 03 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Chainsaw I Built Was for Learning. Superpowers Is for Scaling.</title>
+      <link>https://blog.herlein.com/post/learning-vs-scaling/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/learning-vs-scaling/</guid>
+      <description>&lt;p&gt;Last post I showed off the chainsaw I built myself — my &lt;code&gt;build-autonomous&lt;/code&gt; loop, the padded room, the whole rig — and cut down a little tree with it: a Go CLI to boss around a smart plug. It was well worth building! I also think you should probably stop building your own. Yes, including me. &lt;em&gt;Especially&lt;/em&gt; me.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Chainsaw at an Axe-Chopping Contest: My Current Agentic Loop</title>
       <link>https://blog.herlein.com/post/my-current-agentic-loop/</link>

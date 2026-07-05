@@ -2,46 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/agents/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/build-autonomous/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/claude/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/go/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/plugins/</loc>
     <lastmod>2026-07-05T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/</loc>
     <lastmod>2026-07-05T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/scaling/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/skills/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/superpowers/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/learning-vs-scaling/</loc>
+    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/my-current-agentic-loop/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/agents/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/build-autonomous/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/claude/</loc>
     <lastmod>2026-07-03T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/containers/</loc>
     <lastmod>2026-07-03T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/go/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/plugins/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/security/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/skills/</loc>
-    <lastmod>2026-07-03T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-07-03T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/future-of-software/</loc>
@@ -537,9 +546,6 @@
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/foundations-excellence/</loc>
-    <lastmod>2024-11-23T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/scaling/</loc>
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/embedded/</loc>
