@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Agentic Python Considered Harmful &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Agentic Python Considered Harmful</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>11 Jul 2026, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ai">ai</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/python">python</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/go">go</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/golang">golang</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/agentic-coding">agentic-coding</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/type-safety">type-safety</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/software-engineering">software-engineering</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Python won because it was easy. That was the whole trick. And now, in the age of agentic coding, that trick has stopped being an advantage — and quietly became a liability.</p>
+<center>
+<img src="https://blog.herlein.com/images/python-considered-harmful.png" width="80%"/>
+</center>
+<h2 id="first-give-python-its-due">First, Give Python Its Due</h2>
+<p>Let me be fair, because Python earned its place honestly (even though I personally hate white-space as a separator).</p>
+<p>I&rsquo;ve been here for all the hype cycles — I first coded in BASIC on a TRS-80 with 4K of RAM — and yes, I wrote a TON of perl.  I&rsquo;ve watched a lot of languages come and go. Python is one of the ones that <em>stuck</em>, and it stuck for a very good reason: it was simple to learn and simple to use. You could sit a scientist, a sysadmin, a teenager, or a rusty C programmer down in front of it and they&rsquo;d be productive by lunch. No ceremony. No boilerplate. Just <code>import</code> the thing and go.</p>
+<p>And that simplicity kicked off a flywheel.</p>
+<p>Easy language → lots of people learn it → lots of people write libraries → <em>there&rsquo;s already a library for that</em> → even more people show up because there&rsquo;s a library for everything → and round and round it spins, faster every year. Want to parse a weird file format? There&rsquo;s a package. Talk to some obscure API? Package. Do differential equations on a Tuesday? Package. You almost never had to build from scratch, because someone, somewhere, had already published <em>something</em>.</p>
+<p>Now — was that <em>something</em> any good? Eh. Sometimes. The quality of those libraries was, let&rsquo;s say, <em>variable</em>. Some random person published a package four years ago, and you have no idea if it&rsquo;s maintained, correct, or quietly abandoned. But it existed, and &ldquo;it exists and mostly works&rdquo; beat &ldquo;I have to write it myself&rdquo; every single time. That was the deal. That was the magic.</p>
+<p>(The same flywheel is exactly what happened with Arduino, by the way — dead-simple to start, an avalanche of libraries of wildly uneven quality, and a community that made hardware hacking accessible to everyone. But that&rsquo;s a topic for another day.  Queue up my gorai conversation!).</p>
+<p>So I&rsquo;m not here to dunk on Python. Python was <em>right</em> for its era. My argument is that the era just ended.</p>
+<h2 id="the-flywheels-whole-value-just-evaporated">The Flywheel&rsquo;s Whole Value Just Evaporated</h2>
+<p>The single greatest advantage Python had — &ldquo;there&rsquo;s already a library for that&rdquo; — was really an advantage about <em>not having to write code</em>. Writing code was the expensive part. The library ecosystem existed to spare you the expensive part.  But writing code isn&rsquo;t the expensive part anymore.</p>
+<p>I can point an agent at a problem and have it generate a clean, tested, purpose-built implementation in the language of my choice. Or port an existing library. Or reimplement the <em>good</em> 20% of some sprawling package that I actually need, without dragging in the other 80% and its seventeen transitive dependencies. The moat that took Python twenty years to build — I can now fill in an afternoon, in whatever language I want.</p>
+<p>The flywheel spun on the assumption that human-written code was scarce and precious. That assumption is gone. And once it&rsquo;s gone, you have to ask a very uncomfortable question: <em>if the library advantage doesn&rsquo;t matter anymore, what is Python actually still winning on?</em></p>
+<p>Because it sure isn&rsquo;t winning on getting the thing to <em>run</em>.</p>
+<h2 id="lets-talk-about-the-hoops">Let&rsquo;s Talk About The Hoops</h2>
+<p>Here&rsquo;s where I lose my patience. Ask an agent to build you something useful in Python and then actually try to <em>run it</em> — on your machine, on a colleague&rsquo;s machine, on a Raspberry Pi, on a fresh cloud VM. Watch what happens.</p>
+<center>
+<img src="https://blog.herlein.com/images/python-hoops.png" width="70%"/>
+</center>
+<p>Let me enumerate the hoops, because they&rsquo;re real and they&rsquo;re everywhere:</p>
+<ul>
+<li><strong>Virtual environments.</strong> You don&rsquo;t just run the code. First you create a venv, activate the venv, remember you&rsquo;re in the venv, and pray nobody runs it with the system Python by accident. Forget to activate it? Enjoy polluting your global site-packages.</li>
+<li><strong>Which Python, exactly?</strong> 3.9? 3.11? 3.13? The code was written against one, your OS ships another, and some dependency pinned a third. Now you&rsquo;re installing <code>pyenv</code> to manage Python versions, which is a whole tool that exists <em>solely</em> because Python versioning is a mess.</li>
+<li><strong>pip vs conda vs poetry vs pipenv vs uv.</strong> The community can&rsquo;t even agree on how to install things. Every project picks a different dependency manager, and they don&rsquo;t play nicely together.</li>
+<li><strong>The C-extension trap.</strong> Any <em>serious</em> Python needs C under the hood — NumPy, Pandas, OpenCV, PyTorch, cryptography, half of everything. So now &ldquo;just install it&rdquo; means compiling native code, which means you need the right compiler, the right headers, the right system libraries. Miss one and you get a wall of red text about a missing <code>.h</code> file.</li>
+<li><strong>ARM and the wheel lottery.</strong> So much of the interesting world runs on ARM now — Raspberry Pi, Orange Pi, Apple Silicon, Graviton in the cloud. Is there a prebuilt wheel for your architecture? Maybe! Or maybe pip tries to compile from source on a Pi for forty-five minutes and then fails on the last dependency. I&rsquo;ve watched it happen. It&rsquo;s <em>infuriating</em>.</li>
+<li><strong>System-level dependencies.</strong> <code>apt install this</code>, <code>brew install that</code>, <code>yum</code> the other thing. The package needs a shared library that isn&rsquo;t in the box, and now your &ldquo;Python app&rdquo; is actually a fragile multi-language install with a README full of platform-specific incantations.</li>
+<li><strong>Cross-platform? Ha.</strong> What works on your Mac doesn&rsquo;t work on the Ubuntu box doesn&rsquo;t work on the Windows laptop doesn&rsquo;t work in the Alpine container (surprise — musl vs glibc!). &ldquo;Works on my machine&rdquo; is basically Python&rsquo;s unofficial slogan.</li>
+</ul>
+<p>And here&rsquo;s the punchline: <strong>the agent that wrote the code can generate all of this friction, but it can&rsquo;t make the friction go away.</strong> It&rsquo;ll happily hand you a <code>requirements.txt</code> and a paragraph of setup instructions, and you&rsquo;re <em>still</em> jumping through every one of those flaming hoops. We&rsquo;ve automated the writing and left the pain fully intact.</p>
+<p>Yes, you can tell me to put it in a container.  Really?  For everything?</p>
+<p>We&rsquo;re using 2026 tools to generate 2010 deployment problems.</p>
+<h2 id="in-go-you-get-out-of-jail-free">In Go, You Get Out of Jail Free</h2>
+<p>Now let me tell you what happens when I ask an agent to build the same thing in Go. Three things, and I want to take them in order because they build on each other.</p>
+<p><strong>a) It&rsquo;s a simple language the AI knows cold.</strong></p>
+<p>Go is small. Deliberately, almost stubbornly small. It was designed so Engineers fresh out of college could be proficient in a few weeks.  There&rsquo;s basically one way to do most things, the standard library is excellent and stable, and the idioms are consistent across the entire ecosystem. That simplicity is <em>rocket fuel</em> for an agent. LLMs are strongest where the language is regular and the patterns are consistent — and they&rsquo;ll cheerfully admit they&rsquo;re weak in something like heavy C++ template metaprogramming. Go is the opposite of that. The models write clean, idiomatic Go all day long because there just isn&rsquo;t that much surface area to get wrong. <strong>Simplicity isn&rsquo;t a limitation here. It&rsquo;s the feature.</strong></p>
+<p><strong>b) Type safety — and I want to <em>lean</em> on this one.</strong></p>
+<p>This is the big one. This is the one that should change your mind.</p>
+<p>Python is dynamically typed, which was lovely for prototyping and is genuinely dangerous for anything you have to trust. The bug doesn&rsquo;t show up when you write it. It shows up at runtime, in production, at 2am, when some value that was &ldquo;obviously&rdquo; an int turns out to be a string because three functions ago something returned <code>None</code>. Yes, people bolt on type hints and <code>mypy</code> now — but they&rsquo;re <em>hints</em>. Optional. Advisory. The interpreter will still happily run right past them into a wall.  Oh, you are being careful in your code?  That&rsquo;s cute.  Are <strong>all</strong> the imports you are using doing that?</p>
+<p>Go won&rsquo;t let you go there. The types are checked at compile time. The thing either builds or it doesn&rsquo;t. A whole <em>category</em> of failures — the ones that are most likely to slip past a human reviewing agent-generated code — simply cannot compile.</p>
+<p>And that matters more, not less, in the agentic era. When an agent is generating large volumes of code faster than any human can carefully read every line, the compiler becomes your most reliable, tireless reviewer. Every type mismatch, every wrong signature, every &ldquo;you can&rsquo;t pass that here&rdquo; — caught before the program ever runs. Type safety turns &ldquo;hope the agent got it right&rdquo; into &ldquo;the compiler <em>proved</em> the shapes line up.&rdquo; That&rsquo;s not a nice-to-have. When the machine is writing the code, that&rsquo;s the guardrail.</p>
+<p><strong>c) It cross-compiles to a single static binary.</strong></p>
+<p>Here&rsquo;s the part that still makes me grin. When the Go code is done, I build for whatever machine I&rsquo;m deploying to — from the <em>same</em> dev box, without touching a single toolchain install:</p>
+<pre tabindex="0"><code># My old Ubuntu notebook (Intel/AMD 64-bit)
+GOOS=linux GOARCH=amd64 go build -o myapp
+
+# My new MacBook Pro (Apple Silicon)
+GOOS=darwin GOARCH=arm64 go build -o myapp
+
+# A Raspberry Pi (64-bit Pi OS, Pi 3/4/5)
+GOOS=linux GOARCH=arm64 go build -o myapp
+
+# An older 32-bit Pi (Pi Zero / Pi 1 / 2)
+GOOS=linux GOARCH=arm GOARM=7 go build -o myapp
+</code></pre><p>That&rsquo;s it. One command each. Out pops a single, self-contained binary. No interpreter. No venv. No <code>pip install</code>. No &ldquo;which Python?&rdquo; No system libraries to chase down. No wheels to pray for. You <code>scp</code> that one file to the target — your amd64 server, your arm64 Raspberry Pi, your Apple Silicon laptop, whatever — and you run it. It just <em>goes</em>.</p>
+<p>Cross-compiling for a different platform from your dev machine is a built-in feature, not a weekend project. Building a tiny container? Your image can be the binary and <em>nothing else</em> — no OS, no runtime, no attack surface. Deployment stops being a project. It becomes a copy command.</p>
+<h2 id="so-whats-the-big-deal">So What&rsquo;s the Big Deal?</h2>
+<p>Enumerate what you actually get with Go, all in one place, because it&rsquo;s a lot:</p>
+<ul>
+<li>A small, regular language that agents generate flawlessly</li>
+<li>Compile-time type safety that catches the exact class of bugs agents introduce</li>
+<li>A single static binary — no runtime to install, ever</li>
+<li>Trivial cross-compilation to any OS/architecture that matters - no surprises (OK, sometimes there&rsquo;s some CGO)</li>
+<li>Concurrency that&rsquo;s genuinely simple (goroutines and channels vs. the C++ mutex minefield)</li>
+<li>One canonical toolchain (<code>go build</code>, <code>go test</code>, <code>go fmt</code>) instead of a dependency-manager holy war</li>
+<li>Fast builds, fast startup, near-C++ performance without the complexity tax</li>
+<li>A standard library so good you often don&rsquo;t <em>need</em> a third-party package at all</li>
+</ul>
+<p>That last one is the quiet kicker. In Python, the whole game was reaching for a library. In Go, a huge fraction of the time, the answer is already in <code>net/http</code> or <code>encoding/json</code> or the standard library — no supply chain, no trojan risk, no abandoned-package roulette. (I got into the supply-chain angle in <a href="https://blog.herlein.com/post/why-go-for-robotics/">Why Go for Robotics?</a> — go read that one too, it&rsquo;s the sibling to this post.)</p>
+<h2 id="so-what-are-we-actually-training-the-future-on">So What Are We Actually Training The Future On?</h2>
+<p>Here&rsquo;s the thought that I can&rsquo;t shake, and it&rsquo;s why I bothered to write this down.</p>
+<p>Every line of code we generate today becomes training data tomorrow. The models learn from the corpus we produce. So we are, right now, collectively deciding what the <em>next</em> generation of AI is going to be fluent in.</p>
+<p>Do we really want to pour more fuel on the fire? More Python — more venvs, more &ldquo;works on my machine,&rdquo; more C-extension roulette, more runtime type errors, more of a deployment story that was frankly always held together with duct tape? Do we want to teach the machines that <em>this</em> is how software is supposed to work, and then hand the whole loop back to them to reinforce forever?</p>
+<p>Or do we point the flywheel somewhere better?</p>
+<p>Because we have a genuine, once-in-a-generation opportunity here. For the first time, the cost of &ldquo;just rewrite it in a better language&rdquo; has collapsed to nearly zero. The one thing that locked us into Python — the giant library moat — no longer locks anyone into anything. The agent can generate it, port it, or replace it in whatever language we ask for.</p>
+<p>So let&rsquo;s ask for the language that gives us reliability. Predictability. Type safety. A single binary that runs anywhere without ceremony. Let&rsquo;s ask for the boring, dependable stuff — because &ldquo;boring and dependable&rdquo; is exactly what you want holding up the world when more and more of the code is being written by something that never gets tired and never reads the deployment README.</p>
+<p>Don&rsquo;t get me wrong — Python isn&rsquo;t going anywhere tomorrow, and I&rsquo;m not telling you to rip out your data science stack. That would be crazy. But for <em>new</em> work, for the stuff we&rsquo;re generating fresh with agents right now? We get to choose. And every time we choose, we&rsquo;re also voting on what the future gets trained to believe is normal.</p>
+<p>I know what I&rsquo;m voting for. Type safety. Single binaries. A language the machines already know backwards and forwards. Reliability over &ldquo;there&rsquo;s a library for that.&rdquo;</p>
+<p>Agentic Python isn&rsquo;t harmful because Python is bad. It&rsquo;s harmful because we finally have a better choice, and we keep reaching for the old one out of habit.</p>
+<p>What are you voting for? Drop me a note on LinkedIn — I&rsquo;d genuinely like to hear the counterargument.</p>
+
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fagentic-python-considered-harmful%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fagentic-python-considered-harmful%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fagentic-python-considered-harmful%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fagentic-python-considered-harmful%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fagentic-python-considered-harmful%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fagentic-python-considered-harmful%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/learning-vs-scaling/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/learning-vs-scaling/">The Chainsaw I Built Was for Learning. Superpowers Is for Scaling.</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+

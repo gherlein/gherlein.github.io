@@ -7,13 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 05 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agentic Coding</title>
       <link>https://blog.herlein.com/tags/agentic-coding/</link>
-      <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://blog.herlein.com/tags/ai/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://blog.herlein.com/tags/go/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>https://blog.herlein.com/tags/golang/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://blog.herlein.com/tags/python/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software Engineering</title>
+      <link>https://blog.herlein.com/tags/software-engineering/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/software-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Type-Safety</title>
+      <link>https://blog.herlein.com/tags/type-safety/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/type-safety/</guid>
       <description></description>
     </item>
     <item>
@@ -21,13 +63,6 @@
       <link>https://blog.herlein.com/tags/agents/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/agents/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -42,13 +77,6 @@
       <link>https://blog.herlein.com/tags/claude/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/claude/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>https://blog.herlein.com/tags/go/</link>
-      <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/go/</guid>
       <description></description>
     </item>
     <item>
@@ -112,13 +140,6 @@
       <link>https://blog.herlein.com/tags/retreat/</link>
       <pubDate>Wed, 01 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/retreat/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software Engineering</title>
-      <link>https://blog.herlein.com/tags/software-engineering/</link>
-      <pubDate>Wed, 01 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/software-engineering/</guid>
       <description></description>
     </item>
     <item>
@@ -259,13 +280,6 @@
       <link>https://blog.herlein.com/tags/waterfall/</link>
       <pubDate>Sun, 07 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/waterfall/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Golang</title>
-      <link>https://blog.herlein.com/tags/golang/</link>
-      <pubDate>Sun, 31 May 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/golang/</guid>
       <description></description>
     </item>
     <item>
@@ -735,13 +749,6 @@
       <link>https://blog.herlein.com/tags/programming/</link>
       <pubDate>Wed, 24 Dec 2025 01:03:00 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://blog.herlein.com/tags/python/</link>
-      <pubDate>Wed, 24 Dec 2025 01:03:00 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/python/</guid>
       <description></description>
     </item>
     <item>

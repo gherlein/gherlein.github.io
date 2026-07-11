@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Type-Safety on Greg Herlein</title>
+    <link>https://blog.herlein.com/tags/type-safety/</link>
+    <description>Recent content in Type-Safety on Greg Herlein</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <atom:link href="https://blog.herlein.com/tags/type-safety/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic Python Considered Harmful</title>
+      <link>https://blog.herlein.com/post/agentic-python-considered-harmful/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/agentic-python-considered-harmful/</guid>
+      <description>Python won because it was easy. That was the whole trick. And now, in the age of agentic coding, that trick has stopped being an advantage — and quietly became a liability.&#xA;First, Give Python Its Due Let me be fair, because Python earned its place honestly (even though I personally hate white-space as a separator).&#xA;I&amp;rsquo;ve been here for all the hype cycles — I first coded in BASIC on a TRS-80 with 4K of RAM — and yes, I wrote a TON of perl.</description>
+    </item>
+  </channel>
+</rss>
