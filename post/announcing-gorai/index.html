@@ -260,11 +260,11 @@
 <center>
 <img src="https://blog.herlein.com/images/gorai.png" width="50%"/>
 </center>
+<h2 id="this-is-emerging-robotics">This Is Emerging Robotics</h2>
+<p>Gorai is the foundation of <a href="https://emergingrobotics.ai/"><strong>Emerging Robotics</strong></a>: <em>Open-Source Robotics for the Real World.</em> We&rsquo;re building software - and actual robots and robotics kits - specifically for the AI era.  We are designing from the ground up for agentic development, onboard AI agents, and how AI will fundamentally change robotic fleet operations.  And it&rsquo;s all enabled by gorai.</p>
 <h2 id="what-is-gorai">What Is Gorai?</h2>
-<p>Here&rsquo;s the one-liner: <strong>a robot is a distributed system — so build it like one.</strong></p>
 <p>Even a <em>single</em> robot is really a pile of microcontrollers, single-board computers, sensors, and motors all talking to each other. Most frameworks consider that to be one monolithic blob. Gorai doesn&rsquo;t. It treats every sensor as a <strong>resource</strong> you read and every actuator as a <strong>tool</strong> you call — discoverable services on a message mesh, addressed by name, not by hardwired cables.</p>
-<p>If &ldquo;resources and tools&rdquo; sounds like how AI agents already think about the world — <em>yes</em>. That&rsquo;s the whole point. Gorai speaks capability-model semantics natively over <a href="https://nats.io/">NATS</a>, so the same interface a human uses to drive the robot is the interface an AI agent uses to drive it tomorrow. No rewrite. No firmware surgery. Same mesh.</p>
-<p>And because it&rsquo;s Go, the whole thing compiles to <strong>one static binary with NATS embedded inside it.</strong> No containers. No K8s. No pip, no venv, no wheel lottery. You <code>scp</code> a single file to a Raspberry Pi or an Orange Pi  and run it. That&rsquo;s the deploy story. That&rsquo;s it.</p>
+<p>If &ldquo;resources and tools&rdquo; sounds like how AI agents already think about the world — <em>yes</em>. That&rsquo;s the whole point, and I&rsquo;ll come back to it in a second. Gorai speaks capability-model semantics natively over <a href="https://nats.io/">NATS</a>.</p>
 <ul>
 <li>Sensors as resources, actuators as tools — an AI-agent-ready capability mesh</li>
 <li>Single static binary, embedded NATS, zero external services</li>
@@ -274,16 +274,24 @@
 </ul>
 <p>Now, before you start yelling: yes, you can extend beyond the one binary (using NATS, of course!).  And yes, you can move real-time/latency critical components onto a microcontroller and join that to the mesh using <a href="https://github.com/emergingrobotics/gorai-gsp">gorai-gsp</a> to do the serialization.  There&rsquo;s even an <a href="https://github.com/emergingrobotics/gsp-pico-fw">example</a> firmware for the RP2040.  But that&rsquo;s a subject for another post!</p>
 <p>To be clear about scope: I&rsquo;m not trying to replace ROS 2. Different tool, different crowd. Gorai is for software-first folks who want to build robots the way we build modern distributed systems — and who want AI to be a first-class citizen, not a bolt-on.</p>
+<h2 id="designed-for-the-ai-era">Designed for the AI Era</h2>
+<p>I want to be dead clear about this, because it&rsquo;s the entire reason Gorai exists: this is not a robotics framework that happens to tolerate AI. It&rsquo;s a robotics framework designed <em>because</em> of AI. The bet is simple — the robots worth building from here on out are going to be driven, at least in part, by agents. So we designed for that on day one, not as a bolt-on you duct-tape onto the side later.</p>
+<p>The whole thing rests on two principles.</p>
+<p><strong>1. A robot is a distributed system — so build it like one.</strong></p>
+<p>Most frameworks treat a robot as one monolithic blob of code. It isn&rsquo;t. It&rsquo;s a pile of microcontrollers, single-board computers, sensors, and motors all talking to each other, and pretending otherwise is where the pain starts. Gorai treats every piece as an independent service on a message mesh, addressed by name over NATS — not by hardwired cables. Add a node, drop a node, span three chassis at runtime; the mesh doesn&rsquo;t care. And here&rsquo;s why that matters for AI: it&rsquo;s the architecture that lets a planning agent or a fleet coordinator reach in and address <em>any</em> capability, on <em>any</em> robot, without knowing a thing about how it&rsquo;s wired.</p>
+<p><strong>2. Sensors are resources, actuators are tools.</strong></p>
+<p>Read that again. If you&rsquo;ve spent any time around LLMs, it should sound awfully familiar — resources and tools are <em>exactly</em> how AI agents already model the world. That&rsquo;s not a happy accident. It&rsquo;s the point. Gorai speaks that capability-model language natively, so the same interface a human uses to drive the robot <em>today</em> is the interface an agent uses to drive it <em>tomorrow</em>. No translation layer. No rewrite. No firmware surgery. Same mesh.  And yes, sometimes that mesh will be in a very tight real-time loop.</p>
+<p>Put those two together and you&rsquo;ve got the thesis in one line: <strong>robotics for the AI era.</strong> Not &ldquo;AI-compatible.&rdquo; Not &ldquo;AI-ready.&rdquo; Built, from the mesh up, for a world where the thing holding the controls -or even part of the controls - might not be a human.</p>
 <h2 id="see-it-drive-the-picar-x-example">See It Drive: the PiCar-X Example</h2>
 <p>Talk is cheap. So there&rsquo;s a working reference robot you can build today: <a href="https://github.com/emergingrobotics/gorai-gopicar-example"><strong>gorai-gopicar-example</strong></a>.</p>
-<p>The PiCar-X is a little four-wheeled robot car kit from SunFounder — steering servo, drive motor, an ultrasonic distance sensor, a line/cliff sensor, and a camera on a pan/tilt mount. It&rsquo;s a genuinely great little &ldquo;better an a plastic toy&rdquo; robot, and the best part is you can just <em>buy</em> one: it&rsquo;s <a href="https://www.amazon.com/SunFounder-Raspberry-Rechargeable-Batteries-Engineers/dp/B0CGLPF29H">about $90 on Amazon</a> — minus the Raspberry Pi, which you supply yourself. No custom PCBs, no soldering iron, no waiting on a fab. Order it, assemble it with a Pi, and you&rsquo;ve got real hardware to run Gorai on.</p>
+<p>The PiCar-X is a little four-wheeled robot car kit from SunFounder — steering servo, drive motor, an ultrasonic distance sensor, a line/cliff sensor, and a camera on a pan/tilt mount. It&rsquo;s a genuinely great little &ldquo;better than a plastic toy&rdquo; robot, and the best part is you can just <em>buy</em> one: it&rsquo;s <a href="https://www.amazon.com/SunFounder-Raspberry-Rechargeable-Batteries-Engineers/dp/B0CGLPF29H">about $90 on Amazon</a> — minus the Raspberry Pi, which you supply yourself. No custom PCBs, no soldering iron, no waiting on a fab. Order it, assemble it with a Pi, and you&rsquo;ve got real hardware to run Gorai on.</p>
 <center>
 <img src="https://blog.herlein.com/images/picar-x.jpg" width="70%"/>
 </center>
 <p>Take a SunFounder PiCar-X, cross-compile the binary, <code>scp</code> it over, and run:</p>
 <pre tabindex="0"><code>./picarx run robot.json
-</code></pre><p>One command spins up the robot.  I has an embedded NATS server, opens the hardware, and serves a web control UI at <code>http://&lt;pi&gt;:8080/</code>. Drive it with the arrow keys. Pan and tilt the camera. Watch live telemetry stream back. Hit spacebar to stop the motors, and &rsquo;s&rsquo; for an emergency stop.</p>
-<p>Here&rsquo;s the beautiful part: <strong>the browser is just another agent on the mesh.</strong> The exact same interface a planning agent or a fleet coordinator would use. The car is teleoperable <em>today</em> and agent-drivable <em>tomorrow</em> — with zero changes to the capability layer. That&rsquo;s not a slide. That&rsquo;s running code.</p>
+</code></pre><p>One command spins up the robot.  It serves a web control UI at <code>http://&lt;pi&gt;:8080/</code>. Drive it with the arrow keys. Pan and tilt the camera. Watch live telemetry and video stream back. Hit spacebar to stop the motors, and &rsquo;s&rsquo; for an emergency stop.</p>
+<p>Here&rsquo;s the beautiful part: <strong>the browser is just another agent on the mesh.</strong> The exact same interface a planning agent or a fleet coordinator would use. The car is teleoperable <em>today</em> and agent-drivable <em>tomorrow</em> — with zero changes to the capability layer. That&rsquo;s not &ldquo;it&rsquo;s on the roadmap&rdquo; - that&rsquo;s running code. Today.</p>
 <p>And it&rsquo;s safe by construction: a watchdog stops the car within about half a second if control input drops, the e-stop latches until you clear it, cliff detection keeps it off the edge of your desk, and every command gets clamped to the servo and throttle limits. All of that lives in the component, not the UI — because you never trust the thing sending commands.</p>
 <h2 id="but-wait---what-about-using-claude-code">But wait - what about using Claude Code?</h2>
 <p>Of course.  Why not develop directly on the Pi?  That&rsquo;s how I built this robot.  Claude runs fine on a Pi.  You should try it!</p>
@@ -292,11 +300,11 @@
 <p>It&rsquo;s genuinely magic the first time you watch a model discover your robot and start asking it questions.</p>
 <p>But — and I want to be crystal clear here — <strong>you don&rsquo;t want to control the robot for real with this. It is way too slow.</strong> Think about the round trip: your command goes through the MCP transport, up to a model, waits on inference, comes back down. That&rsquo;s hundreds of milliseconds to seconds <em>per decision</em>. That is fine for &ldquo;what do you see?&rdquo; or &ldquo;plan me a route.&rdquo; It is absolutely, categorically <em>not</em> fine for the tight control loop that keeps a moving car out of the wall. Real-time control stays where it belongs: down on the node, in typed Go, running at mesh speed with the safety watchdogs I mentioned above.</p>
 <p>So think of gorai-mcp as the robot&rsquo;s <em>conversation</em> layer, not its <em>reflexes</em>. High-level reasoning and experimentation up top; fast, deterministic control down low. Don&rsquo;t mix those up, or you&rsquo;ll drive a very smart robot straight off your desk.</p>
-<h2 id="this-is-emerging-robotics">This Is Emerging Robotics</h2>
-<p>Gorai is the foundation of what I&rsquo;m building for <a href="https://emergingrobotics.ai/"><strong>Emerging Robotics</strong></a>: <em>Open-Source Robotics for the Real World.</em> The PiCar-X is the friendly &ldquo;hello, world.&rdquo; But the framework is aimed at real robots doing real jobs.</p>
 <p>Which brings me to the thing I probably shouldn&rsquo;t tell you about yet&hellip;</p>
 <h2 id="one-more-thing-">One More Thing&hellip; 🌊</h2>
-<p>There&rsquo;s a boat.</p>
+<p>Multi-rotor drones democratized the sky — fleet management, autonomous waypoints, modular payloads, all at hobbyist prices. So why is the <em>water</em> still locked behind $50,000 price tags, proprietary hardware, and industrial gatekeeping?</p>
+<p>Meet <strong>SURF</strong> — an open-source, open-hardware, 3D-printable autonomous surface drone. Radically open: every CAD file, every line of code, every line of the BOM. Modular by design. Fleet-ready out of the box. It self-rights if it capsizes. It fits in your car trunk. And it runs on Gorai.</p>
+<p>The robot design is all done by <a href="https://www.linkedin.com/in/luca-herlein-4023711ba/">Luca Herlein</a> - yes, my son, and yes this is the <a href="https://blog.herlein.com/post/the-new-whale-chase/">father-son project I mentioned before</a>.  Luca is the modern meta-Engineer.  He codes, he&rsquo;s as good as anyone I know using coding agents to boost his speed, and he has a BS in Aerospace Engineering from CU Boulder.  He&rsquo;s building an amazing sea-surface robot - based on gorai of course!</p>
 <center>
 <table>
   <tr>
@@ -305,18 +313,16 @@
   </tr>
 </table>
 </center>
-<p>Multi-rotor drones democratized the sky — fleet management, autonomous waypoints, modular payloads, all at hobbyist prices. So why is the <em>water</em> still locked behind $50,000 price tags, proprietary hardware, and industrial gatekeeping?</p>
-<p>Meet <strong>SURF</strong> — an open-source, open-hardware, 3D-printable autonomous surface drone. Radically open: every CAD file, every line of code, every line of the BOM. Modular by design. Fleet-ready out of the box. It self-rights if it capsizes. It fits in your car trunk. And it runs on Gorai.</p>
-<p><strong>S</strong>urface <strong>U</strong>nmanned <strong>R</strong>econnaissance <strong>F</strong>rame. Or maybe we just like the ocean. You decide.  And yes, we will use this for <a href="https://blog.herlein.com/post/the-new-whale-chase/">recording whale song this winter</a>!</p>
-<p>It&rsquo;s about to go in the water for its first operational testing. I&rsquo;m not going to say more yet — but keep an eye on this space, because when SURF gets wet, you&rsquo;ll hear about it.</p>
+<p><strong>S</strong>urface <strong>U</strong>nmanned <strong>R</strong>econnaissance <strong>F</strong>rame - <strong>SURF</strong>. Or maybe we just like the ocean. You decide.  And yes, we will use this for <a href="https://blog.herlein.com/post/the-new-whale-chase/">recording whale song this winter</a>!</p>
+<p>It&rsquo;s about to go in the water for its first operational testing. I&rsquo;m not going to say more yet — but keep an eye on this space, because when SURF gets wet, you&rsquo;ll hear about it.  We&rsquo;ll be profiling on the <a href="https://emergingrobotics.ai/">Emerging Robotics website</a>.</p>
 <h2 id="try-it">Try It</h2>
 <p>Gorai and the PiCar-X example are open source, right now:</p>
 <ul>
+<li><strong>The mission:</strong> <a href="https://emergingrobotics.ai/">emergingrobotics.ai</a></li>
 <li><strong>Framework:</strong> <a href="https://github.com/emergingrobotics/gorai">github.com/emergingrobotics/gorai</a></li>
 <li><strong>PiCar-X example:</strong> <a href="https://github.com/emergingrobotics/gorai-gopicar-example">github.com/emergingrobotics/gorai-gopicar-example</a></li>
-<li><strong>The mission:</strong> <a href="https://emergingrobotics.ai/">emergingrobotics.ai</a></li>
 </ul>
-<p>Build the car. Drive it from your browser. Then imagine an agent holding the same controls. That&rsquo;s the future I&rsquo;m building toward — reliable, predictable, single-binary robotics that&rsquo;s ready for AI. It brings the ease of Arduino, but kicked up a level in capability, and lets you do <em>real</em> robotics without having to learn the complexity of ROS 2.</p>
+<p>Build the car. Drive it from your browser. Then imagine an agent holding the same controls. That&rsquo;s the future we&rsquo;re building toward — reliable, predictable, single-binary robotics that&rsquo;s ready for AI. It brings the ease of Arduino, but kicked up a level in capability, and lets you do <em>real</em> robotics without having to learn the complexity of ROS 2.</p>
 <p>If you build something with it, or you just want to argue about it, <a href="https://www.linkedin.com/in/gherlein/">drop me a note on LinkedIn</a>. And pay it forward.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
