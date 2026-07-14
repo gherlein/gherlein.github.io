@@ -7,34 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 11 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Agentic Coding</title>
-      <link>https://blog.herlein.com/tags/agentic-coding/</link>
-      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
-      <description></description>
-    </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emerging-Robotics</title>
+      <link>https://blog.herlein.com/tags/emerging-robotics/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/emerging-robotics/</guid>
       <description></description>
     </item>
     <item>
       <title>Go</title>
       <link>https://blog.herlein.com/tags/go/</link>
-      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>Golang</title>
       <link>https://blog.herlein.com/tags/golang/</link>
-      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gorai</title>
+      <link>https://blog.herlein.com/tags/gorai/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/gorai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nats</title>
+      <link>https://blog.herlein.com/tags/nats/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/nats/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://blog.herlein.com/tags/open-source/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robotics</title>
+      <link>https://blog.herlein.com/tags/robotics/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agentic Coding</title>
+      <link>https://blog.herlein.com/tags/agentic-coding/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
       <description></description>
     </item>
     <item>
@@ -238,13 +273,6 @@
       <link>https://blog.herlein.com/tags/infocomm/</link>
       <pubDate>Wed, 10 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/infocomm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Robotics</title>
-      <link>https://blog.herlein.com/tags/robotics/</link>
-      <pubDate>Wed, 10 Jun 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/robotics/</guid>
       <description></description>
     </item>
     <item>
@@ -490,13 +518,6 @@
       <link>https://blog.herlein.com/tags/github/</link>
       <pubDate>Mon, 20 Apr 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open-Source</title>
-      <link>https://blog.herlein.com/tags/open-source/</link>
-      <pubDate>Mon, 20 Apr 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/open-source/</guid>
       <description></description>
     </item>
     <item>

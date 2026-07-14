@@ -2,10 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/announcing-gorai/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/emerging-robotics/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/go/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/golang/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/gorai/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/nats/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/open-source/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/robotics/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
@@ -14,22 +44,10 @@
     <loc>https://blog.herlein.com/post/agentic-python-considered-harmful/</loc>
     <lastmod>2026-07-11T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2026-07-11T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/go/</loc>
-    <lastmod>2026-07-11T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/golang/</loc>
-    <lastmod>2026-07-11T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/python/</loc>
     <lastmod>2026-07-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/software-engineering/</loc>
-    <lastmod>2026-07-11T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-07-11T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/type-safety/</loc>
@@ -129,9 +147,6 @@
     <lastmod>2026-06-10T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/infocomm/</loc>
-    <lastmod>2026-06-10T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/robotics/</loc>
     <lastmod>2026-06-10T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/the-room-is-a-robot/</loc>
@@ -270,9 +285,6 @@
     <lastmod>2026-04-20T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/github/</loc>
-    <lastmod>2026-04-20T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/open-source/</loc>
     <lastmod>2026-04-20T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/navy/</loc>
