@@ -17,6 +17,13 @@
       <description>&lt;p&gt;I&amp;rsquo;ve been teasing this for a while. Time to stop teasing. &lt;strong&gt;Meet &lt;a href=&#34;https://github.com/emergingrobotics/gorai&#34;&gt;Gorai&lt;/a&gt; — a modern, open-source robotics framework written in Go.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Developing a BrightSign Extension</title>
+      <link>https://blog.herlein.com/post/developing-brightsign-extension/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/developing-brightsign-extension/</guid>
+      <description>&lt;p&gt;Most people think of a BrightSign player as the little box behind a screen that loops a video. That&amp;rsquo;s true right up until you realize the thing is a full ARM64 Linux computer with an NPU sitting idle most of the day. And you can run your own code on it. Natively. That&amp;rsquo;s what an &lt;em&gt;extension&lt;/em&gt; is, and once you grok it, a whole world opens up.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Agentic Python Considered Harmful</title>
       <link>https://blog.herlein.com/post/agentic-python-considered-harmful/</link>
       <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>

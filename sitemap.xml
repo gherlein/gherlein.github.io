@@ -8,7 +8,22 @@
     <loc>https://blog.herlein.com/post/announcing-gorai/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/brightsign/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/developing-brightsign-extension/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/edge/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/embedded/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/emerging-robotics/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/extensions/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/go/</loc>
@@ -23,7 +38,13 @@
     <loc>https://blog.herlein.com/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/linux/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/nats/</loc>
+    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/npu/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/open-source/</loc>
@@ -143,9 +164,6 @@
     <loc>https://blog.herlein.com/tags/av/</loc>
     <lastmod>2026-06-10T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/edge/</loc>
-    <lastmod>2026-06-10T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/infocomm/</loc>
     <lastmod>2026-06-10T00:00:01-08:00</lastmod>
   </url><url>
@@ -185,9 +203,6 @@
     <loc>https://blog.herlein.com/tags/ollama/</loc>
     <lastmod>2026-05-31T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/brightsign/</loc>
-    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/playback-to-perception/</loc>
     <lastmod>2026-05-27T00:00:01-08:00</lastmod>
   </url><url>
@@ -198,9 +213,6 @@
     <lastmod>2026-05-27T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/inference/</loc>
-    <lastmod>2026-05-27T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/npu/</loc>
     <lastmod>2026-05-27T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/video/</loc>
@@ -264,9 +276,6 @@
     <lastmod>2026-04-24T01:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/kernel/</loc>
-    <lastmod>2026-04-24T01:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/linux/</loc>
     <lastmod>2026-04-24T01:00:00-07:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/strix-halo/</loc>
@@ -565,9 +574,6 @@
   </url><url>
     <loc>https://blog.herlein.com/post/foundations-excellence/</loc>
     <lastmod>2024-11-23T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/embedded/</loc>
-    <lastmod>2024-10-26T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/long-time-no-post/</loc>
     <lastmod>2024-10-26T00:00:01-08:00</lastmod>

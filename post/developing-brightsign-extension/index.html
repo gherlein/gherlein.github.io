@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.123.7">
+
+  <title>Developing a BrightSign Extension &middot; Greg Herlein</title>
+
+    
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://blog.herlein.com/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://blog.herlein.com/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" type="text/css">
+
+  
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+ 
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/androidstudio.min.css">
+  <script async src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+  
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://blog.herlein.com/img/favicon.ico" type="image/x-icon" />
+
+  
+  
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  
+  <a class="pure-menu-heading brand" href="https://blog.herlein.com/">Herlein</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/about/"><i class='fa fa-user fa-fw'></i>About Me</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/projects/"><i class='fa fa-user fa-fw'></i>Projects</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/resume/"><i class='fa fa-user fa-fw'></i>Resume</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://blog.herlein.com/staffing/"><i class='fa fa-user fa-fw'></i>Staffing</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>&copy; 2018-2026. All rights reserved.</small>
+  </div>
+  <div class="small-print">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Developing a BrightSign Extension</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>14 Jul 2026, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/brightsign">brightsign</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/embedded">embedded</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/linux">linux</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/extensions">extensions</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/ai">ai</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/npu">npu</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/edge">edge</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="https://blog.herlein.com/tags/go">go</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Most people think of a BrightSign player as the little box behind a screen that loops a video. That&rsquo;s true right up until you realize the thing is a full ARM64 Linux computer with an NPU sitting idle most of the day. And you can run your own code on it. Natively. That&rsquo;s what an <em>extension</em> is, and once you grok it, a whole world opens up.</p>
+<p>Full disclosure: my day job is VP of Software at BrightSign, so yes, this is literally part of what I do. But here&rsquo;s why it&rsquo;s more than a job to me. Strip away the digital-signage framing and a BrightSign player is really an <em>edge IoT device</em> - an ARM64 Linux box with real compute, an NPU, and I/O, sitting out in the world. That means sensing. That means robotics. Those are things near and dear to my heart, and suddenly the little box behind the screen looks a whole lot more interesting than just digital signage!</p>
+<p>First, the basics.</p>
+<h2 id="wait-whats-a-brightsign-player">Wait, What&rsquo;s a BrightSign Player?</h2>
+<p>If you&rsquo;ve walked through an airport, a fast-food line, a retail store, or a stadium concourse in the last decade, you&rsquo;ve almost certainly looked at a screen driven by one of these without knowing it. BrightSign makes the <a href="https://www.brightsign.biz/digital-signage-products/">media players</a> that power a huge chunk of the world&rsquo;s digital signage - those little fanless boxes bolted behind the display, quietly running content 24/7 for years without a reboot.</p>
+<center>
+<img src="https://blog.herlein.com/images/XT5.png" width="70%"/>
+<p><small>The player is a Linux box. Extensions let you run your own code there.</small></p>
+</center>
+<p>The reason they&rsquo;re everywhere is that they&rsquo;re <em>appliances</em>, in the best sense of the word. Solid-state, no moving parts, purpose-built OS, and a reliability story that makes them a no-brainer when you&rsquo;re deploying thousands of screens you&rsquo;ll never physically touch again. They just&hellip; run. Forever. That dependability is the whole brand. Oh, and there&rsquo;s cloud software to manage them (that&rsquo;s my actual day job!).</p>
+<p>But here&rsquo;s the thing the spec sheet undersells: <strong>the modern ones are legitimately capable little Linux computers</strong>. ARM64 CPU, real RAM, real storage, GPU, networking - and on the newer models, an NPU (more on that later, because that&rsquo;s the good stuff). For years all that horsepower has mostly been pointed at decoding video. Extensions are how you point it at something else.</p>
+<h2 id="getting-started-for-real---un-securing-the-player">Getting Started for Real - Un-Securing the Player</h2>
+<p>Now we get to the fun part. The part where you void the warranty on purpose.</p>
+<p>BrightSign players ship <strong>secured</strong>. They will only run software that&rsquo;s been verified and signed by BrightSign. That&rsquo;s not corporate paranoia - it&rsquo;s protecting HDCP and other keys, and honestly it&rsquo;s protecting <em>reliability</em>. A locked-down appliance that only runs vetted code is a feature when you&rsquo;ve got ten thousand of them deployed in airports or retail stores and you can&rsquo;t send a truck to each one.</p>
+<p>But for development? Ugh, no. You need to run your own unsigned code, over and over, as fast as you can iterate. So you unsecure a player.</p>
+<p>This is a deliberately physical, deliberately fiddly ritual, FOR A REASON. You can&rsquo;t do it remotely. You need a real serial cable and quick fingers.</p>
+<p>And I mean an actual honest-to-goodness serial cable - this is where the &ldquo;edge IoT device&rdquo; thing gets real. BrightSign spells out the <a href="https://docs.brightsign.biz/developers/brightsign-shell#cable-assembly-1-recommended">recommended cable assembly</a>: a 3.5mm male to DB-9 female adapter (the player&rsquo;s console comes out on a 3.5mm jack) feeding a DB-9-to-USB serial adapter with a Prolific PL2303GT chipset (an FTDI FT232RL works too). Wire those two together, set your terminal to 115200 8-N-1, and you&rsquo;ve got a console. If you&rsquo;ve ever done embedded work you already have a drawer full of these. If you haven&rsquo;t - welcome, this is your first one, and you&rsquo;ll use it forever.</p>
+<p>Here&rsquo;s the dance (<a href="https://github.com/BrightDevelopers/extension-template/blob/main/docs/Un-Secure-Player.md">full docs here</a>):</p>
+<ol>
+<li><strong>Power OFF the player.</strong> (ProTip straight from the docs, and seconded by me: get a smart plug or a power strip you can slap. You&rsquo;ll be power-cycling this thing a <em>lot</em>.)</li>
+<li>Hook up your serial monitor.</li>
+<li><strong>While holding the SVC button</strong>, power it on.</li>
+<li><em>Quick, like a bunny</em> - hit <code>Ctrl-C</code> on the serial console. You&rsquo;ve got about 3 seconds. Miss it? Start over.</li>
+</ol>
+<p>Once you&rsquo;re at the U-Boot prompt:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>setenv SECURE_CHECKS <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>env save
+</span></span><span style="display:flex;"><span>printenv          <span style="color:#75715e"># verify SECURE_CHECKS is 0</span>
+</span></span><span style="display:flex;"><span>reboot
+</span></span></code></pre></div><h2 id="dont-start-from-scratch---use-the-template">Don&rsquo;t Start From Scratch - Use the Template</h2>
+<p>Here&rsquo;s the good news: you don&rsquo;t have to figure any of this out from a blank directory. BrightSign publishes an <a href="https://github.com/BrightDevelopers/extension-template/tree/main"><strong>extension-template</strong></a> repo that&rsquo;s basically a self-guided workshop for building, debugging, and deploying extensions. Clone it and you get three complete, working examples - one in C++, one in TypeScript/Node.js, and (of course, and this is the one I reach for) one in <strong>Go</strong>. Pick your language, copy the example, and you&rsquo;re off.  This post talks about go.</p>
+<p>And if you&rsquo;d rather be walked through <em>all</em> of this - the un-securing, the building, the packaging, the deploying, the iterating - hand-held, step by step, there&rsquo;s an AWS-style workshop for exactly that: <a href="https://github.com/BrightDevelopers/bs-workshop-extension"><strong>bs-workshop-extension</strong></a>. It&rsquo;s a self-guided, hands-on set of sequential modules (figure on a few hours end to end) that takes you from a bare player all the way to a running extension serving data to a BrightScript app. It even ships a Docker dev container with the whole toolchain baked in - JDK, Maven, Go, Node, <code>squashfs-tools</code> - so you&rsquo;re not fighting your own machine&rsquo;s setup on top of everything else. If you&rsquo;re the type who learns by doing rather than reading, start there and come back here for the <em>why</em>.</p>
+<h3 id="let-your-agent-read-the-docs-the-brightsign-mcp-server">Let Your Agent Read the Docs: the BrightSign MCP Server</h3>
+<p>One more thing, and if you&rsquo;re doing this with an AI agent - which, let&rsquo;s be honest, you are - do not skip it. BrightSign runs an <a href="https://github.com/BrightDevelopers/technical-documentation#mcp-server-for-ai-assistants"><strong>MCP server for AI assistants</strong></a> that wires your coding agent straight into the <em>complete</em> BrightSign technical docs in real time. Claude Code, Copilot, anything MCP-compatible.</p>
+<p>For Claude Code it&rsquo;s one line:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>claude mcp add brightdeveloper --transport http https://brightdeveloper-mcp.bsn.cloud/mcp
+</span></span></code></pre></div><p>Now your agent isn&rsquo;t guessing at BrightScript quirks, extension lifecycle details, or hardware specs - it&rsquo;s reading the authoritative source. This is exactly the kind of thing I was ranting about in my other posts: give the machine the right context and it writes code that actually works. Turn it on before you write a line.</p>
+<h2 id="what-even-is-an-extension">What Even Is an Extension?</h2>
+<p>A BrightSign extension is custom compiled code that runs <em>alongside</em> BrightSign OS, as a system service. Not BrightScript. Not a JavaScript app running inside the presentation framework. Both of those don&rsquo;t even need an extension.  And you can do a lot with that!  But if you need more, an extension is your answer.  A real Linux executable that starts when the player boots and has direct access to the OS underneath.</p>
+<p>Mechanically, it&rsquo;s a <a href="https://en.wikipedia.org/wiki/SquashFS">squashfs filesystem</a> that gets written into the player&rsquo;s internal flash - not the SD card, the actual NVRAM. On boot the player mounts it at <code>/var/volatile/bsext/ext_{your_name}/</code> and runs a control script called <code>bsext_init</code>. That script is dead simple - it just handles <code>start</code>, <code>stop</code>, and (optionally) <code>run</code>:</p>
+<pre tabindex="0"><code>case &#34;$1&#34; in
+    start)  start-stop-daemon --start --background --exec &#34;$APP&#34; ;;
+    stop)   start-stop-daemon --stop --pidfile &#34;$PIDFILE&#34; ;;
+    run)    exec &#34;$APP&#34; ;;   # foreground, for when you&#39;re debugging
+esac
+</code></pre><p>That&rsquo;s it. That&rsquo;s the contract. Old-school SysV init, which for a long-time linux developer like me feels like coming home. My first Linux kernel was before it was 1.0, and this is exactly the kind of thing I cut my teeth on.</p>
+<h3 id="two-flavors-standalone-vs-versioned">Two Flavors: Standalone vs. Versioned</h3>
+<p>Here&rsquo;s a distinction that matters and trips people up. Extensions come in two types:</p>
+<ul>
+<li><strong>Standalone</strong> - works regardless of the BrightSign OS version. No dependency on version-specific system libraries. Think statically-compiled Go binaries, or interpreted stuff like TypeScript/Node (the player ships a Node runtime) and Python.</li>
+<li><strong>Versioned</strong> - tied to a <em>specific</em> BOS version because it dynamically links against system libraries like glibc or libstdc++. Update the OS, and you may have to recompile and re-sign. This is the C/C++ world.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Software type</th>
+<th>Language examples</th>
+<th>SDK required?</th>
+<th>Extension type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Compiled, dynamic linking</td>
+<td>C, C++, Rust (default)</td>
+<td><strong>Yes</strong></td>
+<td>Versioned</td>
+</tr>
+<tr>
+<td>Compiled, static linking</td>
+<td>Go, Rust (musl)</td>
+<td>No</td>
+<td>Standalone</td>
+</tr>
+<tr>
+<td>Interpreted</td>
+<td>TypeScript/JS, Python, Shell</td>
+<td>No</td>
+<td>Standalone</td>
+</tr>
+</tbody>
+</table>
+<p>My advice? If you can get away with <strong>Go</strong>, do it. <code>GOOS=linux GOARCH=arm64 CGO_ENABLED=0 go build</code> and you&rsquo;re done. One static binary, no SDK, no version lock, works everywhere. It&rsquo;s the path of least resistance and I love it for exactly that reason. TypeScript is the other easy on-ramp - the <a href="https://github.com/brightsign/extension-template">official template</a> leads with it and there&rsquo;s a &ldquo;for the impatient&rdquo; quickstart that&rsquo;ll have you running in about five minutes.</p>
+<p>You only <em>need</em> the BrightSign SDK - a cross-compilation toolchain, ~50GB of disk, and several hours for the initial build - if you&rsquo;re doing dynamically-linked C/C++. Which sometimes you have to. But start easy.</p>
+<h2 id="the-builddeploytestrepeat-loop">The Build/Deploy/Test/Repeat Loop</h2>
+<p>With an unsecured player, the inner loop is refreshingly normal Linux stuff. You can scp your binary to the player and just run it.  By default, most of the file system does not allow executables - but you can use /usr/local instead, since it does allow them.</p>
+<p>But to really get your software working on boot, you need to go the full extension route.  Build your thing, package it as a squashfs with the provided scripts, <code>scp</code> the zip to the player, unzip, run the install script, reboot. After the reboot it auto-mounts and auto-starts.</p>
+<h3 id="how-to-make-it-work-on-secure-players">How to Make it Work on Secure Players</h3>
+<p>When it actually works and you want it on production (secured) players, you submit it to BrightSign for signing. Two things to know up front:</p>
+<ul>
+<li>Your extension name must be <strong>globally unique</strong> across <em>all</em> BrightSign partners. They may make you rename it.</li>
+<li>You get back a <code>.bsfw</code> file that installs on secured players just by dropping it on the SD card. You can even request a <em>standalone</em> <code>.bsfw</code> that carries only your extension without bundling an OS update.</li>
+</ul>
+<p>Talk to your Partner Engineer for the process. But get it working on an unsecured player first - all of it - before you go anywhere near signing.</p>
+<h2 id="okay-but-now-the-cool-part">Okay, But Now the Cool Part</h2>
+<p>Everything above is table stakes. Useful table stakes - custom drivers, background services, proprietary protocol integrations, system monitoring. Real work.</p>
+<p>But here&rsquo;s what actually makes me excited!</p>
+<p>These newer players aren&rsquo;t running plain ARM chips. They&rsquo;re running Rockchip SoCs with a real <strong>NPU</strong> - a neural processing unit - built in. The XT5 has an RK3588 with a 3-core, 6-TOPS NPU. Even the little LS5 boxes have an RK3568 with 1 TOPS.</p>
+<p>Think about that for a minute. There is a digital signage player - the thing you assumed just loops a video - with enough on-device inference horsepower to run multiple neural network models <em>in parallel</em>, at 25-30 FPS, drawing about 3.5 watts. Fanless. And an extension is exactly the mechanism that lets you <em>use</em> it.</p>
+<p>This is edge AI that isn&rsquo;t a demo and isn&rsquo;t a cloud round-trip. It&rsquo;s a computer that&rsquo;s already deployed by the millions, already pointed at exactly the place you&rsquo;d want a camera - in front of a screen people look at - with a spare AI accelerator nobody was using.</p>
+<p>Seriously. Damn.</p>
+<h2 id="argus-what-this-looks-like-fully-built">Argus: What This Looks Like Fully Built</h2>
+<p>Let me make it concrete. BrightSign has an open-source extension called <a href="https://github.com/brightsign/argus-audience-measurement-extension">Argus</a>, and we built it to show something genuinely useful.</p>
+<p>Argus is audience measurement. It watches the live camera video in front of a display and, entirely on-device, tells you things like:</p>
+<ul>
+<li><strong>How many people</strong> are in front of the screen</li>
+<li><strong>Gaze</strong> - are they actually <em>looking</em> at the display, and for how long</li>
+<li><strong>Dwell time</strong> - how long they stick around</li>
+<li><strong>Entry/exit</strong> events, plus movement direction (8-way) and speed</li>
+</ul>
+<p>Under the hood it&rsquo;s running two models on the NPU <em>simultaneously</em> - <strong>YOLOX</strong> for person detection and <strong>RetinaFace</strong> for face detection (that&rsquo;s what powers gaze) - and fusing them with <strong>ByteTrack</strong> to follow individuals across frames. Inference latency is under 15ms per model, 35-55ms end to end. On a 3.5W device.</p>
+<h3 id="the-part-i-want-to-underline-privacy">The Part I Want to Underline: Privacy</h3>
+<p>Here&rsquo;s the design decision that matters, and it&rsquo;s the one I&rsquo;d lead with if you asked me to defend this to a skeptical room: <strong>no images leave the device, and there is no facial recognition.</strong></p>
+<p>Argus does face <em>detection</em> - it finds a bounding box so it can compute whether you&rsquo;re looking at the screen. It does not do face <em>recognition</em>. No embeddings. No identities. No storing your face. It&rsquo;s counting attention, not tracking people. That is a completely different thing, both technically and ethically, and the architecture enforces it. The camera feed is processed and discarded on the box. What comes out the other side is <em>numbers</em>.</p>
+<p>And the output is refreshingly standard, ops-friendly stuff:</p>
+<ul>
+<li><strong>MQTT</strong> - real-time JSON, per-person tracking and gaze/movement data, published to <code>bs/argus/analytics</code>. Wire it straight into whatever you&rsquo;ve got.</li>
+<li><strong>Prometheus</strong> - a <code>/metrics</code> endpoint on <code>:9101</code>. Point Grafana at it and you&rsquo;ve got audience dashboards in an afternoon.</li>
+</ul>
+<p>MQTT and Prometheus. On a sign. As someone who&rsquo;s <a href="https://blog.herlein.com/post/automation-is-robotics/">built more than one home MQTT setup for the fun of it</a>, this made me grin. It&rsquo;s the same boring, reliable plumbing I&rsquo;d reach for anyway, which is exactly what you want - the AI is the interesting part; the <em>integration</em> should be dull and dependable.</p>
+<h2 id="why-this-adds-up">Why This Adds Up</h2>
+<p>Step back and look at the stack we just walked:</p>
+<ul>
+<li>A locked-down, reliable appliance you can <em>deliberately</em> open up for development.</li>
+<li>A dead-simple native extension mechanism - squashfs, <code>bsext_init</code>, SysV init - that lets your code live right on the OS.</li>
+<li>A real NPU sitting in hardware that&rsquo;s already deployed at scale, already aimed at an audience.</li>
+<li>An open-source, privacy-respecting reference app that turns all of that into measurable business value with nothing more exotic than MQTT and Prometheus.</li>
+</ul>
+<p>The extension is the <em>lever</em>. The player was always more computer than anyone gave it credit for. Argus is just the first thing that made that obvious to me, and I don&rsquo;t think it&rsquo;s the last. Point that idle NPU at a different problem - queue detection, shelf analytics, safety monitoring, accessibility features - and the same pattern holds. Un-secure, build, deploy, curse, repeat, sign.</p>
+<p>If you&rsquo;ve been sleeping on these boxes as &ldquo;just signage,&rdquo; it&rsquo;s time to wake up! Grab the <a href="https://github.com/brightsign/extension-template">extension template</a>, un-secure a spare player, and get your hands wet. Reading about it and <em>doing</em> it are two completely different things - and this is very much a get-in-the-water kind of thing.</p>
+<p>Go build something. And if you build something cool on the NPU, <a href="https://www.linkedin.com/in/gherlein/">drop me a note on LinkedIn</a> - I want to hear about it.</p>
+  
+  <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
+<ul class="share-buttons">
+	<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fblog.herlein.com%2fpost%2fdeveloping-brightsign-extension%2f" target="_blank" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span class="sr-only">Share on Facebook</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://twitter.com/intent/tweet?source=https%3a%2f%2fblog.herlein.com%2fpost%2fdeveloping-brightsign-extension%2f" target="_blank" title="Tweet"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Tweet</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="https://plus.google.com/share?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdeveloping-brightsign-extension%2f" target="_blank" title="Share on Google+"><i class="fab fa-google-plus" aria-hidden="true"></i><span class="sr-only">Share on Google+</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.tumblr.com/share?v=3&u=https%3a%2f%2fblog.herlein.com%2fpost%2fdeveloping-brightsign-extension%2f" target="_blank" title="Post to Tumblr"><i class="fab fa-tumblr" aria-hidden="true"></i><span class="sr-only">Post to Tumblr</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdeveloping-brightsign-extension%2f" target="_blank" title="Pin it"><i class="fab fa-pinterest-p" aria-hidden="true"></i><span class="sr-only">Pin it</span></a>
+	</li>&nbsp;&nbsp;&nbsp;
+	<li><a href="http://www.reddit.com/submit?url=https%3a%2f%2fblog.herlein.com%2fpost%2fdeveloping-brightsign-extension%2f" target="_blank" title="Submit to Reddit"><i class="fab fa-reddit-alien" aria-hidden="true"></i><span class="sr-only">Submit to Reddit</span></a>
+	</li>
+</ul>
+
+
+<style>
+	ul.share-buttons{
+	  list-style: none;
+	  padding: 0;
+	}
+
+	ul.share-buttons li{
+	  display: inline;
+	}
+
+	ul.share-buttons .sr-only{
+	  position: absolute;
+	  clip: rect(1px 1px 1px 1px);
+	  clip: rect(1px, 1px, 1px, 1px);
+	  padding: 0;
+	  border: 0;
+	  height: 1px;
+	  width: 1px;
+	  overflow: hidden;
+	}
+</style>
+
+
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
+    
+    <a href="https://blog.herlein.com/post/agentic-python-considered-harmful/"><i class="fa fa-chevron-left"></i></a>
+    
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://blog.herlein.com/post/agentic-python-considered-harmful/">Agentic Python Considered Harmful</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+    <nav class="next">
+      <a href="https://blog.herlein.com/post/announcing-gorai/">Announcing Gorai! A Modern Robotics Framework</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://blog.herlein.com/post/announcing-gorai/"><i class="fa fa-chevron-right"></i></a>
+    
+  </div>
+</div>
+
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+</div>
+</div>
+<script src="https://blog.herlein.com/js/ui.js"></script>
+<script src="https://blog.herlein.com/js/menus.js"></script>
+
+
+
+
+
+
+
+
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
+
+
+</body>
+</html>
+
