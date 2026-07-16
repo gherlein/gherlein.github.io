@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
@@ -35,9 +41,6 @@
     <loc>https://blog.herlein.com/tags/gorai/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/</loc>
-    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/linux/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
@@ -48,9 +51,6 @@
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/open-source/</loc>
-    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/post/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/robotics/</loc>
