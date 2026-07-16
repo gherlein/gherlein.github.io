@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/emerging-robotics/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/go/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/gofi/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/gofi-static-dhcp-leases/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/golang/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
     <lastmod>2026-07-16T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/homelab/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/networking/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/open-source/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/post/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/ubiquiti/</loc>
+    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/unifi/</loc>
     <lastmod>2026-07-16T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/ai/</loc>
@@ -26,16 +59,7 @@
     <loc>https://blog.herlein.com/tags/embedded/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/emerging-robotics/</loc>
-    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/extensions/</loc>
-    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/go/</loc>
-    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/golang/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/gorai/</loc>
@@ -50,13 +74,7 @@
     <loc>https://blog.herlein.com/tags/npu/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/open-source/</loc>
-    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/robotics/</loc>
-    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
@@ -816,9 +834,6 @@
     <lastmod>2022-05-22T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/cloud/</loc>
-    <lastmod>2022-05-22T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/networking/</loc>
     <lastmod>2022-05-22T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/cognitive-load/</loc>

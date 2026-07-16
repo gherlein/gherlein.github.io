@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 14 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gofi: Static DHCP Leases Without the Server</title>
+      <link>https://blog.herlein.com/post/gofi-static-dhcp-leases/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/gofi-static-dhcp-leases/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a thing I&amp;rsquo;ve quietly hated for years: managing static IP assignments and DNS names for the little fleet of gear on my network. Every homelab has it — the Pi in the garage, the shop printer, the sensor node in the attic, the pool controller. You want them at known addresses with known names. And the &amp;ldquo;normal&amp;rdquo; way to get that is to stand up a DHCP server and a DNS server and keep them in sync. Ugh, no.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Announcing Gorai! A Modern Robotics Framework</title>
       <link>https://blog.herlein.com/post/announcing-gorai/</link>

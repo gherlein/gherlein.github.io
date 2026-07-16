@@ -7,8 +7,71 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 14 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emerging-Robotics</title>
+      <link>https://blog.herlein.com/tags/emerging-robotics/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/emerging-robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://blog.herlein.com/tags/go/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gofi</title>
+      <link>https://blog.herlein.com/tags/gofi/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/gofi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>https://blog.herlein.com/tags/golang/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>https://blog.herlein.com/tags/homelab/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>https://blog.herlein.com/tags/networking/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://blog.herlein.com/tags/open-source/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubiquiti</title>
+      <link>https://blog.herlein.com/tags/ubiquiti/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ubiquiti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unifi</title>
+      <link>https://blog.herlein.com/tags/unifi/</link>
+      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/unifi/</guid>
+      <description></description>
+    </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
@@ -38,31 +101,10 @@
       <description></description>
     </item>
     <item>
-      <title>Emerging-Robotics</title>
-      <link>https://blog.herlein.com/tags/emerging-robotics/</link>
-      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/emerging-robotics/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Extensions</title>
       <link>https://blog.herlein.com/tags/extensions/</link>
       <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/extensions/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Go</title>
-      <link>https://blog.herlein.com/tags/go/</link>
-      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/go/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Golang</title>
-      <link>https://blog.herlein.com/tags/golang/</link>
-      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/golang/</guid>
       <description></description>
     </item>
     <item>
@@ -91,13 +133,6 @@
       <link>https://blog.herlein.com/tags/npu/</link>
       <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/npu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open-Source</title>
-      <link>https://blog.herlein.com/tags/open-source/</link>
-      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
@@ -1267,13 +1302,6 @@
       <link>https://blog.herlein.com/tags/cloud/</link>
       <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Networking</title>
-      <link>https://blog.herlein.com/tags/networking/</link>
-      <pubDate>Sun, 22 May 2022 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/networking/</guid>
       <description></description>
     </item>
     <item>
