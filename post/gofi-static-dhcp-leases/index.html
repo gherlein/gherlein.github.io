@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.123.7">
 
-  <title>gofi: Static DHCP Leases Without the Server &middot; Greg Herlein</title>
+  <title>gofi - a Go library for Ubiquity Unifi control (written by AI) &middot; Greg Herlein</title>
 
     
 
@@ -211,7 +211,7 @@
 
 
 <div class="header">
-  <h1>gofi: Static DHCP Leases Without the Server</h1>
+  <h1>gofi - a Go library for Ubiquity Unifi control (written by AI)</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -257,40 +257,19 @@
 
 </div>
 
-  <p>Here&rsquo;s a thing I&rsquo;ve quietly hated for years: managing static IP assignments and DNS names for the little fleet of gear on my network. Every homelab has it — the Pi in the garage, the shop printer, the sensor node in the attic, the pool controller. You want them at known addresses with known names. And the &ldquo;normal&rdquo; way to get that is to stand up a DHCP server and a DNS server and keep them in sync. Ugh, no.</p>
-<p>So I built a better way. It&rsquo;s a clean little Go module called <a href="https://github.com/emergingrobotics/gofi">gofi</a>.</p>
-<p>And I want to say the quiet part out loud right up front: <strong>I could not have built this without agentic AI help.</strong> Not &ldquo;it would have taken longer.&rdquo; Not &ldquo;it would have been less polished.&rdquo; <em>Impossible</em> — at least not as a side project squeezed around a day job. Reverse-engineering an undocumented vendor API, designing a proper module around it, writing the whole thing plus a real test suite plus the command-line utilities? That&rsquo;s weeks of grinding I was never going to spend. With <a href="https://blog.herlein.com/post/claude-code/">Claude Code</a> and the <a href="https://github.com/obra/superpowers">superpowers</a> skill set driving the agentic loop, it became a thing I actually finished. Hold that thought — I&rsquo;ll come back to it.</p>
+  <p>Here&rsquo;s a thing I&rsquo;ve quietly hated for years: managing static IP assignments and DNS names for the little fleet of gear on my network. Every homelab has it — the Pi in the garage, the shop printer, the sensor node in the attic, the pool controller. You want them at known addresses with known names. And the &ldquo;old-school&rdquo; way to get that is to stand up a DHCP server and a DNS server and keep them in sync.  Since my network has tens of BrightSign devices in addition to my hobby robotics devices, this becomes actual work.</p>
+<p>So I built a better way. It&rsquo;s a clean little utility wrapped around a new Go module called <a href="https://github.com/emergingrobotics/gofi">gofi</a>, and it genuinely saves me time managing my network — I add, rename, and pin devices in seconds now instead of clicking through a web UI or babysitting a config file.</p>
 <center>
 <img src="https://blog.herlein.com/images/gofi-logo.png" width="40%"/>
 </center>
-<!--
-IMAGE: the gofi gopher logo, taken directly from the gofi GitHub repo.
-Source: https://github.com/emergingrobotics/gofi/raw/main/images/gofi-logo.png
-This is the project's existing logo asset (the Go gopher dressed up for UniFi),
-not an AI-generated image, so there is no generation prompt to include.
-Save the file to blog/static/images/gofi-logo.png before publishing.
--->
+<p>And I want to say the quiet part out loud right up front: <strong>I could not have built this without agentic AI help.</strong> Not &ldquo;it would have taken longer.&rdquo; Not &ldquo;it would have been less polished.&rdquo; <em>Impossible</em> — at least not as a side project squeezed around a day job. Reverse-engineering an undocumented vendor API, designing a proper module around it, writing the whole thing plus a real test suite plus the command-line utilities? That&rsquo;s weeks of grinding I was never going to spend. With <a href="https://blog.herlein.com/post/claude-code/">Claude Code</a> and the <a href="https://github.com/obra/superpowers">superpowers</a> skill set driving the agentic loop, it became a thing I actually finished. And now it saves me time nearly evey day.  Hold that thought — I&rsquo;ll come back to it.</p>
 <h2 id="what-gofi-is">What gofi Is</h2>
-<p>If you run Ubiquiti UniFi gear — a UDM Pro, UDM SE, a UDR, whatever — you already know the drill. The Network application is genuinely good. The web UI is polished. And the moment you want to do anything <em>programmatically</em>, you&rsquo;re stuck reverse-engineering an undocumented internal API, juggling login cookies, and praying the endpoint didn&rsquo;t change in the last firmware bump.</p>
+<p>If you run <a href="https://www.ui.com/">Ubiquiti</a> <a href="https://ui.com/unifi">UniFi</a> gear — a <a href="https://store.ui.com/us/en/products/udm-pro">UDM Pro</a>, <a href="https://store.ui.com/us/en/products/udm-se">UDM SE</a>, a <a href="https://store.ui.com/us/en/products/udr">UDR</a>, whatever — you already know the drill. The Network application is genuinely good. The web UI is polished. And the moment you want to do anything <em>programmatically</em>, you&rsquo;re stuck reverse-engineering an undocumented internal API, juggling login cookies, and praying the endpoint didn&rsquo;t change in the last firmware bump.</p>
 <p><a href="https://github.com/emergingrobotics/gofi">gofi</a> is a Go module I wrote to do that dirty work for you. It lives under <a href="https://emergingrobotics.ai/">Emerging Robotics</a> alongside <a href="https://github.com/emergingrobotics/gorai">Gorai</a> (which I <a href="https://blog.herlein.com/post/announcing-gorai/">wrote about here</a>), and it carries the same design sensibility I brought to that: idiomatic Go, single static binary, no runtime to ship, no nonsense.</p>
-<p>What I was after was type-safe, concurrent-safe access to all the major UniFi Network Application endpoints. In practice that means the thing you&rsquo;d normally reach for the UI to do, you can now do from code:</p>
-<ul>
-<li><strong>Devices</strong> — list, adopt, restart, upgrade, locate your APs and switches</li>
-<li><strong>Networks</strong> — VLANs and subnets with full CRUD</li>
-<li><strong>WLANs</strong> — create and modify wireless networks, MAC filtering</li>
-<li><strong>Clients</strong> — see what&rsquo;s connected, block a device, authorize a guest</li>
-<li><strong>Firewall</strong> — both the v1 and v2 rule APIs</li>
-<li><strong>Events</strong> — real-time WebSocket streaming of what&rsquo;s happening on the network</li>
-</ul>
-<h2 id="why-its-good">Why It&rsquo;s Good</h2>
-<p>I&rsquo;ve written a fair bit lately about <a href="https://blog.herlein.com/post/why-go-for-robotics/">why I reach for Go</a>, and gofi is a textbook example of the payoff.</p>
-<p><strong>I split the packages the way you&rsquo;d hope.</strong> <code>types/</code> for the data structures, <code>services/</code> for the twelve endpoint groups, <code>auth/</code> for session and credential handling, <code>transport/</code> for the HTTP client (with retry logic built in), <code>websocket/</code> for the event stream, and a <code>mock/</code> package so you can test against a fake controller instead of poking your actual network. I&rsquo;ve shipped enough real software to know that last one isn&rsquo;t optional.</p>
-<p><strong>The error handling is grown-up.</strong> Sentinel errors like <code>ErrAuthenticationFailed</code>, <code>ErrSessionExpired</code>, and <code>ErrRateLimited</code> mean you can branch on <em>what actually went wrong</em> instead of grepping strings out of an error message. That&rsquo;s the difference between a library you can build on and a script someone posted once.</p>
-<p><strong>It compiles to a single binary.</strong> No Python virtualenv to babysit, no runtime to install on the box. You <code>go build</code> and you copy one file. If you&rsquo;ve read my <a href="https://blog.herlein.com/post/agentic-python-considered-harmful/">rant on agentic Python</a>, you already know how I feel about this.</p>
-<p>And there&rsquo;s a real test suite behind it — hundreds of tests, run with race detection, backed by that mock server. This isn&rsquo;t a weekend proof-of-concept. It&rsquo;s the thing you were going to have to write yourself, already written, already tested.</p>
+<p>I have to give credit where it&rsquo;s due here: the inspiration came from the excellent <a href="https://github.com/unpoller/unpoller">UniPoller</a> project (<code>unpoller</code>, formerly <code>unifi-poller</code>). If you&rsquo;ve ever wanted UniFi metrics in Prometheus or InfluxDB, that&rsquo;s the tool, and it proved years ago that you <em>can</em> talk to a UniFi controller cleanly from Go. But UniPoller is built to <em>read</em> — it&rsquo;s telemetry, polling, dashboards. I wanted the other half: to <em>configure</em> and <em>control</em> the gear from code. Seeing how well UniPoller did its job is a big part of what convinced me the control side was worth building. So thank you to that crew — gofi stands on your shoulders.</p>
 <h2 id="how-i-actually-built-it">How I Actually Built It</h2>
 <p>Here&rsquo;s where I have to be honest about the machinery, because it&rsquo;s the whole point of this post.</p>
-<p>I did not sit down and hand-write a UniFi API client from scratch. I don&rsquo;t have the weekends for that anymore. What I did was drive the entire thing through <a href="https://blog.herlein.com/post/claude-code/">Claude Code</a> and the <a href="https://github.com/obra/superpowers">superpowers</a> skills, in a real agentic loop — the same disciplined approach I used to <a href="https://blog.herlein.com/post/claude-code-gocat/">port gocat from Python to Go</a>. It went in phases, and every phase was a genuine collaboration:</p>
+<p>I did not sit down and hand-write a UniFi API client from scratch. What little time I have on weekends I use for <a href="https://github.com/emergingrobotics/gorai">Gorai</a>. What I did was drive the entire thing through <a href="https://blog.herlein.com/post/claude-code/">Claude Code</a> and the <a href="https://github.com/obra/superpowers">superpowers</a> skills, in a real agentic loop — the same disciplined approach I used (much more manually) to <a href="https://blog.herlein.com/post/claude-code-gocat/">port gocat from Python to Go</a>. It went in phases, and every phase was a genuine collaboration:</p>
 <ul>
 <li><strong>Analyze the APIs.</strong> UniFi&rsquo;s Network Application API is famously undocumented — a moving target of endpoints, auth quirks, and cookie juggling. I pointed the agent at the traffic, at community notes, at the actual controller responses, and we mapped out what each endpoint really does. This is the part that would have taken me <em>weeks</em> of tedious spelunking alone. The loop chewed through it in an afternoon.</li>
 <li><strong>Design the module.</strong> Before a line of the real implementation, we worked out the package structure — <code>types</code>, <code>services</code>, <code>auth</code>, <code>transport</code>, <code>websocket</code>, <code>mock</code>. I made the architectural calls; the agent pressure-tested them, caught the places my first instinct would have painted me into a corner, and kept the design idiomatic.</li>
@@ -298,7 +277,8 @@ Save the file to blog/static/images/gofi-logo.png before publishing.
 <li><strong>Write the utilities.</strong> Finally the tools on top, <code>gofips</code> being the star. The ISC-DHCP-syntax idea was mine; turning it into a validated, dry-run-capable, round-trippable CLI was the loop.</li>
 </ul>
 <p>At every step <em>I</em> was the engineer making the decisions — the architecture, the tradeoffs, the &ldquo;no, do it this way&rdquo; calls. The agent was the tireless pair that did the grinding, remembered every detail, and never got bored on endpoint number forty. That division of labor is exactly what makes this possible.</p>
-<p>But let me show you the part that actually made me smile.</p>
+<p>And I didn&rsquo;t do this in one sitting.  I&rsquo;d have a terminal window open and perhaps sitting there for a week doing nothing - claude patiently waiting for me to say the design was OK and implementation could proceed.  When I got some more time I read the design and approved.  Rinse and repeat.  Literally in my spare time I built this tool and module.</p>
+<p>But let me show you the thing that actually saves me time and effort nearly every day.</p>
 <h2 id="the-practical-payoff-gofips">The Practical Payoff: gofips</h2>
 <p>gofi ships a command-line tool I called <code>gofips</code> — &ldquo;fi<strong>xed</strong> IP<strong>s</strong>.&rdquo; Its whole job is managing the static DHCP reservations (and their DNS names) on your UniFi controller. And I built it to feel deeply familiar to anyone who&rsquo;s ever run a real DHCP server: it speaks <strong>ISC DHCP host-declaration syntax</strong>.</p>
 <p>That was the whole idea. Instead of inventing yet another config format, gofips represents each reservation as the exact <code>host { ... }</code> block you&rsquo;d write in <code>dhcpd.conf</code>:</p>
@@ -308,7 +288,7 @@ Save the file to blog/static/images/gofi-logo.png before publishing.
 }
 </code></pre><p>The <code>host</code> label doubles as the DNS name. One block, one device, one name, one address. Readable by a human, diffable by git.</p>
 <h3 id="step-1-dump-what-youve-got">Step 1: Dump What You&rsquo;ve Got</h3>
-<p>Say my home network lives on <code>10.20.30.0/24</code> and the UDM Pro answers at <code>10.20.30.1</code>. I&rsquo;ve got three devices I&rsquo;ve already pinned down through the UI over the years. Let&rsquo;s get them out:</p>
+<p>Let&rsquo;s talk through a fictional example. Say my home network lives on <code>10.20.30.0/24</code> and the UDM Pro answers at <code>10.20.30.1</code>. I&rsquo;ve got three devices I&rsquo;ve already pinned down through the UI over the years. Let&rsquo;s get them out:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gofips -H 10.20.30.1 -k --get &gt; hosts.conf
 </span></span></code></pre></div><p>(<code>-H</code> points at the controller; <code>-k</code> skips TLS verification, because of course it&rsquo;s using a self-signed cert on your LAN.)</p>
 <p>Out comes a clean, sorted file:</p>
@@ -326,9 +306,9 @@ host attic-sensor {
     hardware ethernet aa:bb:cc:77:88:99;
     fixed-address 10.20.30.12;
 }
-</code></pre><p>Think about that for a minute. Everything the controller knows about my fixed leases is now a plain text file I can read, version, and check into a repo. That alone is worth the price of admission.</p>
+</code></pre><p>If you have a home lab, that&rsquo;s likely to be hundreds of devices - not three.  So you get my point about how this tool can help!  Everything the controller knows about my fixed leases is now a plain text file I can read, version, and check into a repo.</p>
 <h3 id="step-2-add-a-device">Step 2: Add a Device</h3>
-<p>Now I want to add my pool controller. (Yes, I automate my pool. It&rsquo;s a flaw of mine.) I don&rsquo;t open a browser. I don&rsquo;t click through three panels of the UniFi app. I just edit the file and add one block:</p>
+<p>Now I want to add a BrightSign player I&rsquo;ve got on the bench. This is a real, everyday thing for me: I&rsquo;m constantly dropping devices on my network to develop software on them — right now a player I&rsquo;m using while <a href="https://blog.herlein.com/post/developing-brightsign-extension/">building a BrightSign extension</a>. When you&rsquo;re developing on a device, you want it at a <em>known name</em> so you can <code>ssh brightsign-dev</code> or point a build script at it without hunting for whatever address DHCP handed out this morning. That&rsquo;s exactly the kind of friction gofips erases. I don&rsquo;t open a browser. I don&rsquo;t click through three panels of the UniFi app. I just edit the file and add one block:</p>
 <pre tabindex="0"><code>host garage-pi {
     hardware ethernet aa:bb:cc:11:22:33;
     fixed-address 10.20.30.10;
@@ -344,7 +324,7 @@ host attic-sensor {
     fixed-address 10.20.30.12;
 }
 
-host pool-controller {
+host brightsign-dev {
     hardware ethernet aa:bb:cc:aa:bb:cc;
     fixed-address 10.20.30.13;
 }
@@ -353,24 +333,39 @@ host pool-controller {
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gofips -H 10.20.30.1 -k --set hosts.conf --dry-run
 </span></span></code></pre></div><p><code>--dry-run</code> validates the whole file and tells you exactly what it <em>would</em> change, without touching a thing. When it looks right, drop the flag and apply it:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gofips -H 10.20.30.1 -k --set hosts.conf
-</span></span></code></pre></div><p>Done. The pool controller now has a fixed address and a DNS name, and the other three were left exactly as they were. <code>--set</code> provisions the whole file in one shot, with full validation <em>before</em> it applies anything — so you don&rsquo;t get a half-applied mess if entry four has a typo.</p>
+</span></span></code></pre></div><p>Done. The BrightSign player now has a fixed address and a stable name I can <code>ssh</code> to, and the other three were left exactly as they were. <code>--set</code> validates the whole file <em>before</em> it applies anything, then pushes it through the controller&rsquo;s API — there&rsquo;s no daemon to reload and nothing to restart. That last part matters more than it sounds, and here&rsquo;s why.</p>
 <h2 id="why-this-beats-running-your-own-dhcp--dns">Why This Beats Running Your Own DHCP + DNS</h2>
-<p>Here&rsquo;s the part I really want you to sit with.</p>
-<p>The traditional way to get &ldquo;known devices at known addresses with known names&rdquo; is to run <strong>two</strong> servers. You stand up ISC DHCP (or dnsmasq) for the leases. You stand up BIND (or, again, dnsmasq wearing a different hat) for the names. Then you spend the rest of your natural life keeping the two of them in agreement — because a fixed IP with no matching DNS record, or a DNS record pointing at the wrong lease, is exactly the kind of gremlin that eats an evening.</p>
-<p>And that&rsquo;s <em>before</em> you get to the operational tax: two daemons to patch, two configs to back up, two things that can fall over at 2am and take your whole network&rsquo;s name resolution with them.</p>
-<p>Your UniFi gateway is <em>already doing all of this</em>. It&rsquo;s already the DHCP server. It already does the DNS. It&rsquo;s already running, already patched with the rest of your firmware, already backed up with your controller config. gofips just gives you a sane, scriptable, text-based front door to the piece you actually wanted to control.</p>
-<p>So the comparison isn&rsquo;t &ldquo;gofips vs. a DHCP server.&rdquo; It&rsquo;s:</p>
+<p>Here&rsquo;s the part I really want you to sit with - and remember that I&rsquo;ve been running Debian home servers since way before my kids were born&hellip; so giving that up was losing some nostalgia.</p>
+<p>The traditional way to get &ldquo;known devices at known addresses with known names&rdquo; is to run <strong>two</strong> servers. You stand up ISC DHCP (or dnsmasq) for the leases. You stand up BIND (or, again, dnsmasq wearing a different hat) for the names. Then you spend the rest of your natural life keeping the two of them in agreement (unless you use dnsmasq, which I never liked) — because a fixed IP with no matching DNS record, or a DNS record pointing at the wrong lease, is exactly the kind of gremlin that eats an evening when something fails.</p>
+<p>And that&rsquo;s <em>before</em> you get to the operational tax: two daemons to patch, two configs to back up, two things that can fall over at 2am and take your whole network&rsquo;s name resolution with them.  Oh, and add a network at a second home?  Double the friction!</p>
+<p>Want to feel that concretely? Here&rsquo;s the manual version on a stock Ubuntu box. For the leases you&rsquo;d run <code>isc-dhcp-server</code>, edit <code>/etc/dhcp/dhcpd.conf</code> (which, funny enough, is the exact same <code>host</code> syntax gofips borrowed), then bounce the daemon. For the names you&rsquo;d run <code>bind9</code>, edit the zone file, add an A record, <em>remember to bump the SOA serial</em> — forget that and nothing propagates — then reload:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo nano /etc/dhcp/dhcpd.conf        <span style="color:#75715e"># add the host block</span>
+</span></span><span style="display:flex;"><span>sudo systemctl restart isc-dhcp-server
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo nano /etc/bind/db.10.20.30       <span style="color:#75715e"># add the A record, bump the serial</span>
+</span></span><span style="display:flex;"><span>sudo systemctl reload bind9
+</span></span></code></pre></div><p>Those restarts are the steps everyone forgets — and they&rsquo;re exactly where it bites. Fat-finger a semicolon in <code>dhcpd.conf</code> or botch the serial in the zone file and the service doesn&rsquo;t &ldquo;half-apply&rdquo; anything. It flatly refuses to come back up:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo systemctl status isc-dhcp-server
+</span></span><span style="display:flex;"><span>   Active: failed <span style="color:#f92672">(</span>Result: exit-code<span style="color:#f92672">)</span>
+</span></span></code></pre></div><p>Now your DHCP — or worse, your DNS — is simply <em>down</em>, not answering requests at all, and every device on the network feels it until you notice, read the logs, and fix the typo. Two configs, two daemons, two reloads, two chances to take the network down, every single time you add one device. gofips validates first and pushes through an API that&rsquo;s already running; there&rsquo;s no service to knock over.</p>
+<p>Now, I cut my teeth doing sysadmin on a Sun Sparkstation running SunOS 4.1.3 (if I recall).  My fingers do all that stuff while my brain is still sipping coffee.  But really?  Yes, Virginia, there is a better way.</p>
+<p>Your UniFi gateway is <em>already running these services - you just have to enable them</em>. It already has a DHCP and DNS server.  Itt&rsquo;s already running, already patched with your Unifi firmware, already backed up with your controller config. gofips just gives you a sane, scriptable, text-based front door to the piece you actually wanted to control.</p>
+<p>So the comparison isn&rsquo;t just the interface, it&rsquo;s not just &ldquo;gofips vs. a DHCP server.&rdquo; It&rsquo;s:</p>
 <ul>
 <li><strong>Two extra servers</strong> to run, sync, patch, and back up — <em>versus</em> —</li>
 <li><strong>One text file</strong> and a static Go binary, driving hardware you already own.</li>
 </ul>
 <p>That&rsquo;s not a small quality-of-life win. That&rsquo;s deleting an entire subsystem from your homelab. And as I&rsquo;ve <a href="https://blog.herlein.com/post/disposability/">said before</a>, the best infrastructure is often the infrastructure you got rid of. This is <a href="https://blog.herlein.com/post/cicd-thoughts/">GitOps</a> for your DHCP reservations: the file is the source of truth, <code>--set</code> is the deploy, and <code>--get</code> tells you the current state. Check the file into a repo and you&rsquo;ve got history, review, and rollback for free.</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>gofi is the Go module I wish I&rsquo;d had years ago for talking to UniFi gear — clean package layout, real error taxonomy, a mock server, a proper test suite. If you&rsquo;ve got any UniFi automation ambitions, grab it instead of hand-rolling yet another cookie-juggling API client. That&rsquo;s exactly why I open-sourced it.</p>
+<p>gofi is the Go module I wish I&rsquo;d had years ago for talking to UniFi gear — clean package layout, real error taxonomy, a mock server, a proper test suite. If you&rsquo;ve got any UniFi automation ambitions, grab it instead of hand-rolling yet another cookie-juggling API client. That&rsquo;s exactly why I open-sourced it.  If it can help others, great!</p>
+<p>AND&hellip; it&rsquo;s a Go module, so you can use it to write other tools. This is the part I get genuinely excited about, so bear with me.</p>
+<p>I&rsquo;ve argued before that <a href="https://blog.herlein.com/post/automation-is-robotics/">automation is robotics</a> — that the line between &ldquo;managing a network&rdquo; and &ldquo;commanding a fleet of machines&rdquo; is mostly in your head. Your UniFi controller <em>is</em> a robot: a thing with sensors (what&rsquo;s connected, what&rsquo;s up, what&rsquo;s talking) and actuators (block this client, open that VLAN, pin this address). gofi is just the clean set of hands that lets code reach in and work it. Once you see it that way, &ldquo;network management&rdquo; stops being a chore and starts being one more mesh of resources and tools you can automate.</p>
+<p>And here&rsquo;s where it gets fun. Because gofi is a proper module with a real API surface, wrapping it into an <a href="https://modelcontextprotocol.io/">MCP</a> server is an obvious next step — the same move I made with <a href="https://github.com/emergingrobotics/gorai-mcp">gorai-mcp</a> for my robotics framework. Expose the UniFi controller&rsquo;s resources and tools to an LLM and you could just <em>ask</em>: &ldquo;pin the new BrightSign player to a static address and give it a name,&rdquo; and the agent does it. No UI, no config file, no memorized flags. I haven&rsquo;t built that yet — but gofi is exactly the foundation that makes it a weekend morning&rsquo;s work instead of a moonshot.</p>
+<p>That&rsquo;s the real point. gofi isn&rsquo;t just a tool I use; it&rsquo;s a <strong>building block</strong> — a Lego brick. I snapped <code>gofips</code> together out of it, someone else can snap together a Prometheus exporter or a Terraform provider or that MCP server, and none of us has to re-solve the &ldquo;talk to UniFi from Go&rdquo; problem ever again. That&rsquo;s what open-sourcing a clean module <em>does</em>: it hands everybody a brick they didn&rsquo;t have to mold themselves. Go build something with it.</p>
 <p>But even if you never write a line of Go, <code>gofips</code> alone earns it a spot in your toolbox. Dump your fixed leases to a file, edit the file, load it back. No second DHCP server. No third DNS server. No 2am sync gremlins. Just your gateway, doing the job it was already doing&hellip; just now with an easy way to manage leases and names.</p>
-<p>Try it. Dump your leases and just <em>look</em> at the file. I think you&rsquo;ll have the same reaction I did.</p>
+<p>And the honest, day-to-day payoff for me: it saves me real time managing my network. I develop software on devices constantly, and being able to drop a new player or board on the network with a stable name — <code>ssh brightsign-dev</code> and go — instead of chasing DHCP addresses is the kind of small friction that adds up to hours. gofips took that friction to zero.</p>
 <p>And now the part I promised to come back to. <strong>I could not have built gofi on my own.</strong> Not the API archaeology, not the module design, not the test suite, and definitely not all of it together as a nights-and-weekends project. It exists because the agentic loop — Claude Code plus superpowers — turned &ldquo;weeks of grinding I&rsquo;ll never get to&rdquo; into &ldquo;a real tool I actually shipped.&rdquo; I made the engineering decisions; the loop did the tireless work of carrying them out. That&rsquo;s the collaboration, and it&rsquo;s genuinely new.</p>
-<p>This is the shining example I keep pointing people at when they ask what these AI tools are <em>actually</em> good for. Not toy demos. Not autocomplete. A useful, tested, open-source tool that solves a real problem I have — one that simply would not exist otherwise. If you&rsquo;re a builder sitting on a &ldquo;someday&rdquo; project you&rsquo;ve decided is too much work for one person, I&rsquo;d gently suggest that the math has changed. Go build the thing.</p>
+<p>This is the shining example I keep pointing people at when they ask what these AI tools are <em>actually</em> good for. Not toy demos. Not autocomplete. A useful, tested, open-source tool that solves a real problem I have — one that simply would not exist otherwise. If you&rsquo;re a builder sitting on a &ldquo;someday&rdquo; project you&rsquo;ve decided is too much work for one person, I&rsquo;d gently suggest that the math has changed. Go build the thing.  It won&rsquo;t take you nearly as long as you thought it would!</p>
 <p>If this helps you, drop me a note on <a href="https://www.linkedin.com/in/gherlein/">LinkedIn</a>. And if you build something fun on top of gofi — or with the loop — I really want to hear about it.</p>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
@@ -460,6 +455,9 @@ host pool-controller {
 
 
 
+<script src="https://blog.herlein.com/js/math-code.js"></script>
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  
 
 
 </body>

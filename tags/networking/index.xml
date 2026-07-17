@@ -10,11 +10,11 @@
     <lastBuildDate>Thu, 16 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>gofi: Static DHCP Leases Without the Server</title>
+      <title>gofi - a Go library for Ubiquity Unifi control (written by AI)</title>
       <link>https://blog.herlein.com/post/gofi-static-dhcp-leases/</link>
       <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/post/gofi-static-dhcp-leases/</guid>
-      <description>&lt;p&gt;Here&amp;rsquo;s a thing I&amp;rsquo;ve quietly hated for years: managing static IP assignments and DNS names for the little fleet of gear on my network. Every homelab has it — the Pi in the garage, the shop printer, the sensor node in the attic, the pool controller. You want them at known addresses with known names. And the &amp;ldquo;normal&amp;rdquo; way to get that is to stand up a DHCP server and a DNS server and keep them in sync. Ugh, no.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Here&amp;rsquo;s a thing I&amp;rsquo;ve quietly hated for years: managing static IP assignments and DNS names for the little fleet of gear on my network. Every homelab has it — the Pi in the garage, the shop printer, the sensor node in the attic, the pool controller. You want them at known addresses with known names. And the &amp;ldquo;old-school&amp;rdquo; way to get that is to stand up a DHCP server and a DNS server and keep them in sync.  Since my network has tens of BrightSign devices in addition to my hobby robotics devices, this becomes actual work.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Book Review: Linux for Networking Professionals</title>
