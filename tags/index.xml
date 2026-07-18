@@ -7,8 +7,50 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 16 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agentic Coding</title>
+      <link>https://blog.herlein.com/tags/agentic-coding/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>https://blog.herlein.com/tags/ai/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Claude</title>
+      <link>https://blog.herlein.com/tags/claude/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leadership</title>
+      <link>https://blog.herlein.com/tags/leadership/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://blog.herlein.com/tags/open-source/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://blog.herlein.com/tags/software/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/software/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Emerging-Robotics</title>
       <link>https://blog.herlein.com/tags/emerging-robotics/</link>
@@ -52,13 +94,6 @@
       <description></description>
     </item>
     <item>
-      <title>Open-Source</title>
-      <link>https://blog.herlein.com/tags/open-source/</link>
-      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/open-source/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ubiquiti</title>
       <link>https://blog.herlein.com/tags/ubiquiti/</link>
       <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
@@ -70,13 +105,6 @@
       <link>https://blog.herlein.com/tags/unifi/</link>
       <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/unifi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/ai/</guid>
       <description></description>
     </item>
     <item>
@@ -143,13 +171,6 @@
       <description></description>
     </item>
     <item>
-      <title>Agentic Coding</title>
-      <link>https://blog.herlein.com/tags/agentic-coding/</link>
-      <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Python</title>
       <link>https://blog.herlein.com/tags/python/</link>
       <pubDate>Sat, 11 Jul 2026 00:00:01 -0800</pubDate>
@@ -182,13 +203,6 @@
       <link>https://blog.herlein.com/tags/build-autonomous/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/build-autonomous/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Claude</title>
-      <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/claude/</guid>
       <description></description>
     </item>
     <item>
@@ -280,13 +294,6 @@
       <link>https://blog.herlein.com/tags/taste/</link>
       <pubDate>Sun, 28 Jun 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/taste/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Leadership</title>
-      <link>https://blog.herlein.com/tags/leadership/</link>
-      <pubDate>Thu, 25 Jun 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/leadership/</guid>
       <description></description>
     </item>
     <item>
@@ -658,13 +665,6 @@
       <link>https://blog.herlein.com/tags/productivity/</link>
       <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/productivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://blog.herlein.com/tags/software/</link>
-      <pubDate>Sat, 07 Feb 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/software/</guid>
       <description></description>
     </item>
     <item>
