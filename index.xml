@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 18 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hey Claude, Set the IP address and name for the new BrightSign Player?</title>
+      <link>https://blog.herlein.com/post/unifi-fixed-hosts-skill/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/post/unifi-fixed-hosts-skill/</guid>
+      <description>&lt;p&gt;Here&amp;rsquo;s a tiny, stupid problem that has stolen an embarrassing amount of my life: I plug a BrightSign player into my network, it grabs whatever dynamic IP the UniFi controller feels like handing out, and now I have to go &lt;em&gt;find&lt;/em&gt; that IP before I can SSH in and do actual work.  Claude skills and a new tool to the rescue!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Bosses Are Coding Again</title>
       <link>https://blog.herlein.com/post/senior-engineers-coding-again/</link>

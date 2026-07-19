@@ -2,19 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.herlein.com/tags/ai/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/automation/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/brightsign/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/claude/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/go/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/post/unifi-fixed-hosts-skill/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/homelab/</loc>
     <lastmod>2026-07-19T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/</loc>
     <lastmod>2026-07-19T00:00:01-08:00</lastmod>
   </url><url>
+    <loc>https://blog.herlein.com/tags/skills/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
+    <loc>https://blog.herlein.com/tags/unifi/</loc>
+    <lastmod>2026-07-19T00:00:01-08:00</lastmod>
+  </url><url>
     <loc>https://blog.herlein.com/tags/agentic-coding/</loc>
-    <lastmod>2026-07-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/ai/</loc>
-    <lastmod>2026-07-18T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/claude/</loc>
     <lastmod>2026-07-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/leadership/</loc>
@@ -26,16 +50,10 @@
     <loc>https://blog.herlein.com/tags/software/</loc>
     <lastmod>2026-07-18T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/</loc>
-    <lastmod>2026-07-18T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/senior-engineers-coding-again/</loc>
     <lastmod>2026-07-18T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/emerging-robotics/</loc>
-    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/go/</loc>
     <lastmod>2026-07-16T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/gofi/</loc>
@@ -47,22 +65,13 @@
     <loc>https://blog.herlein.com/tags/golang/</loc>
     <lastmod>2026-07-16T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/homelab/</loc>
-    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/tags/networking/</loc>
     <lastmod>2026-07-16T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/ubiquiti/</loc>
     <lastmod>2026-07-16T00:00:01-08:00</lastmod>
   </url><url>
-    <loc>https://blog.herlein.com/tags/unifi/</loc>
-    <lastmod>2026-07-16T00:00:01-08:00</lastmod>
-  </url><url>
     <loc>https://blog.herlein.com/post/announcing-gorai/</loc>
-    <lastmod>2026-07-14T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/brightsign/</loc>
     <lastmod>2026-07-14T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/developing-brightsign-extension/</loc>
@@ -114,9 +123,6 @@
     <lastmod>2026-07-05T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/scaling/</loc>
-    <lastmod>2026-07-05T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/skills/</loc>
     <lastmod>2026-07-05T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/tags/superpowers/</loc>
@@ -415,9 +421,6 @@
   </url><url>
     <loc>https://blog.herlein.com/tags/testing/</loc>
     <lastmod>2026-01-17T00:00:01-08:00</lastmod>
-  </url><url>
-    <loc>https://blog.herlein.com/tags/automation/</loc>
-    <lastmod>2026-01-10T00:00:01-08:00</lastmod>
   </url><url>
     <loc>https://blog.herlein.com/post/automation-is-robotics/</loc>
     <lastmod>2026-01-10T00:00:01-08:00</lastmod>

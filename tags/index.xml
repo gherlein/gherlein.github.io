@@ -7,27 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&amp;copy; 2018-2026. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 18 Jul 2026 00:00:01 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 00:00:01 -0800</lastBuildDate>
     <atom:link href="https://blog.herlein.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Agentic Coding</title>
-      <link>https://blog.herlein.com/tags/agentic-coding/</link>
-      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
-      <description></description>
-    </item>
     <item>
       <title>AI</title>
       <link>https://blog.herlein.com/tags/ai/</link>
-      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>https://blog.herlein.com/tags/automation/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brightsign</title>
+      <link>https://blog.herlein.com/tags/brightsign/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/brightsign/</guid>
       <description></description>
     </item>
     <item>
       <title>Claude</title>
       <link>https://blog.herlein.com/tags/claude/</link>
-      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/claude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go</title>
+      <link>https://blog.herlein.com/tags/go/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/go/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>https://blog.herlein.com/tags/homelab/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skills</title>
+      <link>https://blog.herlein.com/tags/skills/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/skills/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unifi</title>
+      <link>https://blog.herlein.com/tags/unifi/</link>
+      <pubDate>Sun, 19 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/unifi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agentic Coding</title>
+      <link>https://blog.herlein.com/tags/agentic-coding/</link>
+      <pubDate>Sat, 18 Jul 2026 00:00:01 -0800</pubDate>
+      <guid>https://blog.herlein.com/tags/agentic-coding/</guid>
       <description></description>
     </item>
     <item>
@@ -59,13 +101,6 @@
       <description></description>
     </item>
     <item>
-      <title>Go</title>
-      <link>https://blog.herlein.com/tags/go/</link>
-      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/go/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Gofi</title>
       <link>https://blog.herlein.com/tags/gofi/</link>
       <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
@@ -80,13 +115,6 @@
       <description></description>
     </item>
     <item>
-      <title>Homelab</title>
-      <link>https://blog.herlein.com/tags/homelab/</link>
-      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/homelab/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Networking</title>
       <link>https://blog.herlein.com/tags/networking/</link>
       <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
@@ -98,20 +126,6 @@
       <link>https://blog.herlein.com/tags/ubiquiti/</link>
       <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/ubiquiti/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Unifi</title>
-      <link>https://blog.herlein.com/tags/unifi/</link>
-      <pubDate>Thu, 16 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/unifi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Brightsign</title>
-      <link>https://blog.herlein.com/tags/brightsign/</link>
-      <pubDate>Tue, 14 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/brightsign/</guid>
       <description></description>
     </item>
     <item>
@@ -217,13 +231,6 @@
       <link>https://blog.herlein.com/tags/scaling/</link>
       <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/scaling/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skills</title>
-      <link>https://blog.herlein.com/tags/skills/</link>
-      <pubDate>Sun, 05 Jul 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/skills/</guid>
       <description></description>
     </item>
     <item>
@@ -735,13 +742,6 @@
       <link>https://blog.herlein.com/tags/testing/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:01 -0800</pubDate>
       <guid>https://blog.herlein.com/tags/testing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Automation</title>
-      <link>https://blog.herlein.com/tags/automation/</link>
-      <pubDate>Sat, 10 Jan 2026 00:00:01 -0800</pubDate>
-      <guid>https://blog.herlein.com/tags/automation/</guid>
       <description></description>
     </item>
     <item>
